@@ -1,30 +1,22 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "CodeYourFuture Syllabus",
   url: "https://codeyourfuture.github.io",
   baseUrl: "/Syllabus-V2/",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   organizationName: "codeyourfuture", // Usually your GitHub org/user name.
   projectName: "Syllabus-V2", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Syllabus",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "CodeYourFuture Logo",
+        src: "img/logo.png",
       },
       links: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
+          to: "docs/js-core-1/index",
+          label: "JavaScript Core 1",
           position: "left",
-        },
-        { to: "blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
         },
       ],
     },
@@ -32,32 +24,11 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Website",
+              href: "https://www.codeyourfuture.io",
             },
           ],
         },
@@ -65,17 +36,13 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/codeyourfuture/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CodeYourFuture`,
     },
   },
   presets: [
@@ -84,17 +51,10 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "doc1",
+          homePageId: "index",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
