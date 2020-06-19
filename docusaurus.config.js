@@ -2,10 +2,10 @@ module.exports = {
   title: "My Site",
   tagline: "The tagline of my site",
   url: "https://codeyourfuture.github.io",
-  baseUrl: "/syllabus-v2/",
+  baseUrl: "/Syllabus-V2/",
   favicon: "img/favicon.ico",
   organizationName: "codeyourfuture", // Usually your GitHub org/user name.
-  projectName: "syllabus-v2", // Usually your repo name.
+  projectName: "Syllabus-V2", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "My Site",
