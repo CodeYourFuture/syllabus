@@ -7,16 +7,33 @@ module.exports = {
   projectName: "Syllabus-V2", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "Syllabus",
+      title: "Home",
+      hideOnScroll: true,
       logo: {
         alt: "CodeYourFuture Logo",
         src: "img/logo.png",
       },
       links: [
         {
-          to: "docs/js-core-1/index",
-          label: "JavaScript Core 1",
-          position: "left",
+          label: "Modules",
+          position: "left", // or 'right'
+          items: [
+            {
+              to: "docs/js-core-1/index",
+              label: "JavaScript Core 1",
+              position: "left",
+            },
+            {
+              to: "docs/js-core-2/index",
+              label: "JavaScript Core 2",
+              position: "left",
+            },
+            {
+              to: "docs/js-core-3/index",
+              label: "JavaScript Core 3",
+              position: "left",
+            },
+          ],
         },
       ],
     },
