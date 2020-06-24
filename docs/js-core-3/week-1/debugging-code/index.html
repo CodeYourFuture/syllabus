@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin's Library</title>
+    <meta name="description" content="A library project for the Odin Project" />
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!--
+      Ionicons 5.0.0 (https://ionicons.com/)
+      Copyright (c) 2015-present Ionic (http://ionic.io/)
+      Licensed under MIT (https://github.com/ionic-team/ionicons/blob/master/LICENSE)
+    -->
+  </head>
+  <body>
+    <div id="h1-container">
+      <h1>Odin's Library</h1>
+    </div>
+    <div id="mobile-button-container">
+      <button type="button" id="add-button-mobile" class="add-button">
+        Add book
+      </button>
+    </div>
+    <div id="form-container">
+      <form>
+        <div id="inputs-container">
+          <div class="input">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="text-input" name="title" />
+          </div>
+          <div class="input">
+            <label for="author">Author</label>
+            <input type="text" id="author" class="text-input" name="author" />
+          </div>
+          <div id="input-group">
+            <div class="small-input">
+              <label for="pages">Pages</label>
+              <input type="number" id="pages" name="pages" min="1" />
+            </div>
+            <div id="checkbox-container" class="small-input">
+              <label for="read">Read</label>
+              <input type="checkbox" id="read" name="read" />
+            </div>
+          </div>
+          <div id="submit-container">
+            <input id="submit" type="submit" value="Submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="main-container">
+      <div id="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Read</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <div id="desktop-button-container">
+        <button type="button" id="add-button-desktop" class="add-button">
+          Add book
+        </button>
+      </div>
+    </div>
+    <script src="mainscript.js"></script>
+  </body>
+</html>

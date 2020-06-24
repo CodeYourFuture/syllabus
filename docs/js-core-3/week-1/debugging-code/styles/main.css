@@ -1,0 +1,308 @@
+body {
+  background-color: #fffaed;
+  font-size: 10px;
+}
+
+#h1-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+#mobile-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 3vh 0;
+}
+
+.add-button {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: green;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  background-color: #007400;
+  transform: scale(1.2);
+}
+
+#add-button-mobile {
+  margin: 0;
+}
+
+#add-button-mobile:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  width: 0px;
+  height: 0px;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-top: 15px solid green;
+}
+
+#add-button-mobile:hover:before {
+  border-top-color: #007400;
+}
+
+#form-container {
+  display: none;
+}
+
+#inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  margin-top: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+#input-group {
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+}
+
+.small-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20vw;
+  margin: 2vw 5vw 0 0;
+}
+
+#checkbox-container {
+  width: 12vw;
+}
+
+.text-input {
+  width: 60vw;
+}
+
+#input-group {
+  display: flex;
+  width: 60vw;
+}
+
+#pages {
+  width: 10vw;
+}
+
+#read {
+  margin: 0 0 1px 0;
+}
+
+#submit-container {
+  margin-top: 1vh;
+}
+
+#submit-container input {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+.color-row {
+  background-color: #ece0c3;
+}
+
+.color-row td {
+  padding: 7px 0;
+}
+
+th {
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 0 1vw 0 1vw;
+}
+
+td {
+  font-size: 1em;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px 1vw 2px 1vw;
+}
+
+.change-read {
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  width: 35px;
+  padding: 4px 0;
+}
+
+.button-green {
+  background-color: green;
+}
+
+.button-red {
+  background-color: #d20000;
+}
+
+.button-green:hover {
+  background-color: #007400;
+}
+
+.button-red:hover {
+  background-color: #c70000;
+}
+
+td button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+#desktop-button-container {
+  display: flex;
+}
+
+#add-button-desktop:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid green;
+  border-bottom: 15px solid transparent;
+}
+
+#add-button-desktop:hover:before {
+  border-right-color: #007400;
+}
+
+#add-button-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #mobile-button-container {
+    display: none;
+  }
+
+  #form-container {
+    margin-top: 5vh;
+  }
+
+  #inputs-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .input {
+    flex-direction: column;
+    margin: 0 20px;
+    width: 200px;
+  }
+
+  .text-input {
+    width: 200px;
+  }
+
+  .small-input {
+    flex-direction: column;
+    width: 50px;
+    margin: 0 20px;
+  }
+
+  #input-group {
+    width: 100px;
+    margin: 0 20px;
+  }
+
+  #pages {
+    width: 50px;
+  }
+
+  #checkbox-container {
+    width: 50px;
+  }
+
+  #submit-container {
+    align-self: flex-end;
+    margin: 0 0 0 20px;
+  }
+
+  #submit-container input {
+    width: 80px;
+    height: 30px;
+  }
+
+  #submit-container input:hover {
+    cursor: pointer;
+  }
+
+  #add-button-desktop {
+    display: inline-block;
+  }
+
+  #table-container {
+    margin-left: 130px; /* centers the table by giving it a left margin of the size+margin of the add button */
+  }
+
+  th {
+    font-size: 2em;
+  }
+
+  td {
+    font-size: 1.4em;
+  }
+
+  td .delete:hover {
+    transform: scale(1.5);
+  }
+
+  .change-read {
+    width: 50px;
+  }
+
+  .button-green:hover,
+  .button-red:hover {
+    transform: scale(1.3);
+  }
+
+  ion-icon {
+    font-size: 1.4em;
+  }
+}
