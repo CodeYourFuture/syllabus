@@ -1,4 +1,25 @@
 module.exports = {
+  HTMLCSS: {
+    Overview: ["html-css/index"],
+    "Lesson 1": [
+      "html-css/week-1/learning-objectives",
+      "html-css/week-1/lesson",
+      "html-css/week-1/homework",
+      "html-css/week-1/mentors",
+    ],
+    "Lesson 2": [
+      "html-css/week-2/learning-objectives",
+      "html-css/week-2/lesson",
+      "html-css/week-2/homework",
+      "html-css/week-2/mentors",
+    ],
+    "Lesson 3": [
+      "html-css/week-3/learning-objectives",
+      "html-css/week-3/lesson",
+      "html-css/week-3/homework",
+      "html-css/week-3/mentors",
+    ],
+  },
   JavaScriptCore1: {
     Overview: ["js-core-1/index"],
     "Lesson 1": [

@@ -40,7 +40,7 @@ In a synchronous programming model, tasks run one at a time. When a long running
 
 Asynchronous programming allows multiple actions to happen at the same time. When a long running action starts, the program can continue to run. When the action finishes the program will get notified and get access to the result returned.
 
-![](assets/sync-vs-async.jpg)
+<img src={require('!file-loader!./assets/sync-vs-async.jpg').default}/>
 
 ### A real life example
 
@@ -203,7 +203,7 @@ mainFunction(myCallbackFunction);
 
 ### Client/Server architecture
 
-![](assets/client-server.png)
+<img src={require('!file-loader!./assets/client-server.png').default}/>
 
 A **Client** is the typical web user's internet-connected devices and apps. This can be a web browser, a Slack app, your phone, etc.
 
@@ -215,7 +215,7 @@ The **server** communicates with **clients**.
 
 Client–server systems use the **request–response** model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result or acknowledgement.
 
-![](assets/request-response-architecture.png)
+<img src={require('!file-loader!./assets/request-response-architecture.png').default}/>
 
 ### HTTP Requests
 

@@ -19,6 +19,11 @@ module.exports = {
           position: "left", // or 'right'
           items: [
             {
+              to: "docs/html-css/index",
+              label: "HTML-CSS",
+              position: "left",
+            },
+            {
               to: "docs/js-core-1/index",
               label: "JavaScript Core 1",
               position: "left",
