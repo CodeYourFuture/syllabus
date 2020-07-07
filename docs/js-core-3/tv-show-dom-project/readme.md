@@ -1,6 +1,10 @@
-# TV Show DOM Project
+---
+id: readme
+title: TV Show Project
+sidebar_label: Overview
+---
 
-### Overview
+## Overview
 
 You must make a web app using HTML, CSS, and JavaScript which shows details of all of the episodes of a TV show.
 
@@ -8,9 +12,9 @@ The episode data is provided for you as an array of objects.
 
 The page of episodes should be generated using JavaScript (which will read the properties of each episode object).
 
-There is an ["intro" video](https://www.youtube.com/playlist?list=PL_uDxFTCuec_mNi3BgoUSd_hZbb2NWUWA) which shows **roughly** what you will build.  However, note that these do **not** replace these documents you are now reading.
+There is an ["intro" video](https://www.youtube.com/playlist?list=PL_uDxFTCuec_mNi3BgoUSd_hZbb2NWUWA) which shows **roughly** what you will build. However, note that these do **not** replace these documents you are now reading.
 
-# Where do I get the episode data from?
+## Where do I get the episode data from?
 
 For the simple versions of this project, you will get the episode data by calling a provided function `getAllEpisodes()`. This will return you an array of objects, each of which represents an episode.
 
@@ -18,7 +22,7 @@ For the simple versions of this project, you will get the episode data by callin
 
 In both cases, here's an example of one episode from the list:
 
-```
+```js
 {
     id: 4952,
     url:
@@ -46,17 +50,17 @@ In both cases, here's an example of one episode from the list:
   }
 ```
 
-# Rules about the episode data
+## Rules about the episode data
 
 - You MUST NOT edit the static episode data. If you find that the data is unsuitable (e.g. fields are missing, or have unwanted characters), you should improve your own code so that it can deal with such issues when it **runs**.
 
-# Rules about technology
+## Rules about technology
 
 - You should not use React, Vue, JQuery or other libraries. Why? This project is specifically for practicing the **built-in** DOM-manipulation functions you learned about in JS2.
 
 - You can use bootstrap CSS but NOT bootstrap JS. (We recommend that you do NOT use bootstrap CSS.)
 
-# What are the requirements for the project?
+## What are the requirements for the project?
 
 This project challenge is split into various levels of difficulty. You should challenge yourself to complete as many levels as possible, in order.
 
@@ -68,10 +72,10 @@ This project challenge is split into various levels of difficulty. You should ch
 - [level 500](./level-500.md)
 - [level 999 (further work)](./level-999.md)
 
-# Getting started
+## Getting started
 
 Follow the instructions in [getting-started.md](./getting-started.md)
 
-# How to get a code review
+## How to get a code review
 
 You will be instructed when to ask for a code review. When it's time to do so, follow the instructions in [code-review.md](./code-review.md)

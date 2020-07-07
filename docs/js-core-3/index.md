@@ -1,4 +1,8 @@
-# JavaScript Core 3
+---
+id: index
+title: Overview
+sidebar_label: Overview
+---
 
 ## Module Learning Objectives
 

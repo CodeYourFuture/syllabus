@@ -1,4 +1,10 @@
-# Level 999 - Ideas for further work
+---
+id: level-999
+title: Level 999
+sidebar_label: Level 999
+---
+
+## Ideas for further work
 
 Here are some ideas for consideration for further work
 
@@ -24,6 +30,6 @@ Here are some ideas for consideration for further work
 
 Screenshot of example season selector layout - you would click to load episodes for the season.
 
-![screenshot of example Season Selector](./example-screenshots/example-season-selector.jpg)
+<img src={require('!file-loader!./example-screenshots/example-season-selector.jpg').default}/>
 
 [<< level 500](./level-500.md) - [top](./readme.md)

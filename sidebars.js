@@ -52,62 +52,18 @@ module.exports = {
       "js-core-3/week-3/homework",
       "js-core-3/week-3/mentors",
     ],
-  },
-  React: {
-    Overview: ["react/index"],
-    "Lesson 1": [
-      "react/week-1/lesson",
-      "react/week-1/homework",
-      "react/week-1/mentors",
+    "TV Show Project": [
+      "js-core-3/tv-show-dom-project/readme",
+      "js-core-3/tv-show-dom-project/getting-started",
+      "js-core-3/tv-show-dom-project/giving-feedback",
+      "js-core-3/tv-show-dom-project/code-review",
+      "js-core-3/tv-show-dom-project/level-100",
+      "js-core-3/tv-show-dom-project/level-200",
+      "js-core-3/tv-show-dom-project/level-300",
+      "js-core-3/tv-show-dom-project/level-350",
+      "js-core-3/tv-show-dom-project/level-400",
+      "js-core-3/tv-show-dom-project/level-500",
+      "js-core-3/tv-show-dom-project/level-999",
     ],
-    "Lesson 2": [
-      "react/week-2/lesson",
-      "react/week-2/homework",
-      "react/week-2/mentors",
-    ],
-    "Lesson 3": [
-      "react/week-3/lesson",
-      "react/week-3/homework",
-      "react/week-3/mentors",
-    ],
-  },
-  Node: {
-    Overview: ["node/index"],
-    "Lesson 1": [
-      "node/week-1/lesson",
-      "node/week-1/homework",
-      "node/week-1/mentors",
-    ],
-    "Lesson 2": [
-      "node/week-2/lesson",
-      "node/week-2/homework",
-      "node/week-2/mentors",
-    ],
-    "Lesson 3": [
-      "node/week-3/lesson",
-      "node/week-3/homework",
-      "node/week-3/mentors",
-    ],
-  },
-  Node: {
-    Overview: ["node/index"],
-    "Lesson 1": [
-      "node/week-1/lesson",
-      "node/week-1/homework",
-      "node/week-1/mentors",
-    ],
-    "Lesson 2": [
-      "node/week-2/lesson",
-      "node/week-2/homework",
-      "node/week-2/mentors",
-    ],
-    "Lesson 3": [
-      "node/week-3/lesson",
-      "node/week-3/homework",
-      "node/week-3/mentors",
-    ],
-  },
-  someOtherSidebar: {
-    Docusaurus: ["index"],
   },
 };

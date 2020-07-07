@@ -1,4 +1,10 @@
-# Level 300 - Add an Episode Selector
+---
+id: level-300
+title: Level 300
+sidebar_label: Level 300
+---
+
+## Add an Episode Selector
 
 1. Complete all requirements from level 200
 1. Add a `select` input which allows you to jump quickly to an episode:
@@ -12,6 +18,6 @@ Note: Provided your project meets the above requirements, it can **look** howeve
 
 Here is one example layout.
 
-![Example Episode Selector screenshot](./example-screenshots/example-episode-selector.jpg)
+<img src={require('!file-loader!./example-screenshots/example-episode-selector.jpg').default}/>
 
 [<< level 200](./level-200.md) - [top](./readme.md) - [level 350 >>](./level-350.md)

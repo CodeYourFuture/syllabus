@@ -1,4 +1,8 @@
-# Getting started with the TV Show DOM project
+---
+id: getting-started
+title: Getting started with the TV Show DOM project
+sidebar_label: Getting Started
+---
 
 These instructions will guide you to create your own new repository on github, based on a template we have provided.
 

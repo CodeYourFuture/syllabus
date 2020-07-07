@@ -1,4 +1,10 @@
-# Level 200 - Add Search
+---
+id: level-200
+title: Level 200
+sidebar_label: Level 200
+---
+
+## Add Search
 
 1. Complete all requirements from Level 100
 1. Add a "live" search input:
@@ -16,6 +22,6 @@ Note: Provided your project meets the above requirements, it can **look** howeve
 
 Here is one example layout.
 
-![Example Search screenshot](./example-screenshots/example-search.jpg)
+<img src={require('!file-loader!./example-screenshots/example-search.jpg').default}/>
 
 [<< level 100](./level-100.md) - [top](./readme.md) - [level 300 >>](./level-300.md)

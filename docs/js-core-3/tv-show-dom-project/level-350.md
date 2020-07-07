@@ -1,4 +1,10 @@
-# Level 350 - Switch to fetching _live_ data!
+---
+id: level-350
+title: Level 350
+sidebar_label: Level 350
+---
+
+## Switch to fetching _live_ data!
 
 (This is a short level to help you transition to using live data.)
 

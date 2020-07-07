@@ -1,4 +1,8 @@
-# Getting a code review
+---
+id: code-review
+title: Getting a code review
+sidebar_label: Code Review
+---
 
 Here's what to do when you want a code review.
 

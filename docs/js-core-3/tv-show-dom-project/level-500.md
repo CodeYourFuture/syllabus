@@ -1,4 +1,10 @@
-# Level 500 - Add a shows list and search
+---
+id: level-500
+title: Level 500
+sidebar_label: Level 500
+---
+
+## Add a shows list and search
 
 1. Complete all requirements from level 400
 1. When your app starts, present a listing of all shows ("shows listing")
@@ -19,6 +25,6 @@ Note: Provided your project meets the above requirements, it can **look** howeve
 
 Here is one example layout.
 
-![Example screenshot with Shows Listing and search](./example-screenshots/example-shows-list-with-search.jpg)
+<img src={require('!file-loader!./example-screenshots/example-shows-list-with-search.jpg').default}/>
 
 [<< level 400](./level-400.md) - [top](./readme.md) - [level 999 >>](./level-999.md)

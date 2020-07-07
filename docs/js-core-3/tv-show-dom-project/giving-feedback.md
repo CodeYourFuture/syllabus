@@ -1,4 +1,8 @@
-# Feedback Guide
+---
+id: giving-feedback
+title: Feedback Guide
+sidebar_label: Feedback Guide
+---
 
 In this document you will find the feedback guide for the TV-Show project.
 
@@ -14,7 +18,7 @@ You can retrieve other peoples code by
 
 You can find the branch that they have been working on inside the small blue area
 
-![Branch Name](./example-screenshots/reviewing_branch.png)
+<img src={require('!file-loader!././example-screenshots/reviewing_branch.png').default}/>
 
 If you have any problems getting setup - ask the person that you're reviewing as they will be able to help you.
 

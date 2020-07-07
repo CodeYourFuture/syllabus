@@ -159,7 +159,7 @@ https://api.tfl.gov.uk/AirQuality
 
 As you can see the URL changes the data that we get from the API. This can be broken down like this
 
-![](./assets/api-breakdown.png)
+<img src={require('!file-loader!./assets/api-breakdown.png').default}/>
 
 ### Exercise
 

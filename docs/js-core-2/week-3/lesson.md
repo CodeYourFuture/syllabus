@@ -70,8 +70,16 @@ console.log("Third action");
 ```
 
 ### Exercise (1)
+
 ```js
-const greekGods = ['Aphrodite', 'Ares', 'Artemis', 'Athena', 'Poseidon', 'Zeus'];
+const greekGods = [
+  "Aphrodite",
+  "Ares",
+  "Artemis",
+  "Athena",
+  "Poseidon",
+  "Zeus",
+];
 
 // before running the code in your browser, discuss the expected order of each loop
 
@@ -189,7 +197,7 @@ mainFunction(myCallbackFunction);
 >
 > All set, go! Work on the tasks given. Your result html will look like this:
 >
-> <img alt="preview-exercise-2-result" src="https://i.imgur.com/wbrtLNL.png" width="500">
+> <img alt="preview-exercise-2-result" src="https://i.imgur.com/wbrtLNL.png" width="500" />
 
 ## How does the web work?
 

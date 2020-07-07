@@ -1,4 +1,10 @@
-# Level 400 - Add a Show Selector
+---
+id: level-400
+title: Level 400
+sidebar_label: Level 400
+---
+
+## Add a Show Selector
 
 **Pre-req**: For this level you will have to have learned to use fetch() to `GET` JSON content from an API.
 
@@ -23,9 +29,9 @@ Note: Provided your project meets the above requirements, it can **look** howeve
 
 Here is one example layout.
 
-![Example screenshot with Show Selector closed](./example-screenshots/example-show-selector-1.jpg)
+<img src={require('!file-loader!./example-screenshots/example-show-selector-1.jpg').default}/>
 
-![Example screenshot with Show Selector open](./example-screenshots/example-show-selector-2.jpg)
+<img src={require('!file-loader!./example-screenshots/example-show-selector-2.jpg').default}/>
 
 ### Play nice - a note on using `fetch` during development
 
