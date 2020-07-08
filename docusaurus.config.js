@@ -38,6 +38,11 @@ module.exports = {
               label: "JavaScript Core 3",
               position: "left",
             },
+            {
+              to: "docs/react/index",
+              label: "React",
+              position: "left",
+            },
           ],
         },
       ],

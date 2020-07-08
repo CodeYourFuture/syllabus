@@ -87,4 +87,30 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-999",
     ],
   },
+  React: {
+    Overview: ["react/index"],
+    "Lesson 1": [
+      "react/week-1/learning-objectives",
+      "react/week-1/lesson",
+      "react/week-1/homework",
+      "react/week-1/mentors",
+    ],
+    "Lesson 2": [
+      "react/week-2/learning-objectives",
+      "react/week-2/lesson",
+      "react/week-2/homework",
+      "react/week-2/mentors",
+    ],
+    "Lesson 3": [
+      "react/week-3/learning-objectives",
+      "react/week-3/lesson",
+      "react/week-3/homework",
+      "react/week-3/mentors",
+    ],
+    "React Router": ["react/react-router/lesson"],
+    "Class Components": [
+      "react/class-components/lesson",
+      "react/class-components/mentors",
+    ],
+  },
 };
