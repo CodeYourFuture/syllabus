@@ -4,105 +4,102 @@ title: Node - 3
 sidebar_label: Lesson
 ---
 
-## Contents
+## Learning Objectives
 
-- [Node Recap](#node-recap)
-- [Best Practices](#best-practices)
-- [Node Process Managers](#node-process-managers)
-- [REST](#rest)
-- [Security](#security)
-- [Authentication](#authentication)
-- [Hotel Workshop](#hotel-workshop)
+By the end of this lesson students should be able to:
+
+- Process an PUT request using Express and Node to update data in memory
+- Upload their node app to the internet so it can be accessed anywhere using Heroku
 
 ---
 
-## Node Recap
+## CRUD Review
 
-Javascript has evolved from the browser to be used in the backend. It does not need a framework as we saw in [week-13](../week-13/lesson.md), however a framework like Express allows us to develop faster.
+## Exercises
 
-### Documentation
+So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
-When you are working with frameworks it is always helpful to use their documentation.
+- Create some "resources"
+- Retrieve them (GET them)
+- Update them
+- Delete them
 
-- [Express Documentation](https://expressjs.com)
-- [Node.js Documentation](https://nodejs.org/api/http.html)
+> Which of these have we learnt so far?
 
-### Middleware
+## (1) Using Update exercise
 
-Middleware allow us to process requests to add functionalities that are not built in to Express, for example logging, authentication, etc.
+This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
-> - Express Documentation: [Using Middleware](https://expressjs.com/en/guide/using-middleware.html)
-> - Video: [body-parser](https://www.youtube.com/watch?v=vKlybue_yMQ) which makes it easier to work with POST requests and forms.
+### Objective
 
-### Routing
+Change a quote API server to allow updating a quote according to the given ID.
 
-Routing refers to how an application’s endpoints (URIs) respond to the client requests. These are configured differently for each framework, and can range from basic configuration to very extensive for more complex use cases.
+The route should use the HTTP method PUT and should use the URL:
 
-Simple example
+> /quotes
+
+You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start). This is because this project has quotes with IDs.
+
+When you remix the starting project, immediately rename it as your own.
+
+## Updating Data
+
+**Complete in-class (1) Using Update exercise at this point**
+
+Lets look back at our original objectives.
+
+> `PUT /albums/:albumId` should update the album (that matches the passed albumId)
+
+This means that `PUT /albums/2` should update an album with the id `2` and return `200` with JSON `{ success: true }` to the user.
+
+The code will look like this
 
 ```js
-app.get("/", function (req, res) {
-  res.send("hello world");
+// notice .put
+app.put("/albums/:albumID", function (req, res) {
+  console.log("PUT /albums route");
 });
 ```
 
-More complicated example using `Passport.js` middleware for authentication
+Remember, you have got to **update** the album, not add it to the list
 
-```js
-function ensureAuthenticated(req, res, next) {
-  if (req.isAuthenticated()) return next();
-  else res.redirect("/login");
-}
+## Heroku
 
-app.get("/account", ensureAuthenticated, function (req, res) {
-  res.send("welcome user!");
-});
+We use can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
+
+This can be a little tricky however the documentation is good.
+
+https://devcenter.heroku.com/articles/getting-started-with-nodejs
+
+Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online.
+
+You should complete all of the following sections:
+
+- Introduction
+- Set up
+- Deploy the app
+- View logs
+- Define a Procfile
+- Run the app locally
+
+Now when you use
+
+```
+git push heroku master
 ```
 
-> - Express Documentation: [Routing](https://expressjs.com/en/guide/routing.html)
+After making a `commit` your updated website with my made available online.
 
-## Best Practices
+## City Guide and Paired Programming
 
-Express have their own recommended [best practices page](https://expressjs.com/en/advanced/best-practice-performance.html)
+In this exercises you should split into groups of two people.
 
-## Node Process Managers
+You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challenges/tree/master/challenge-london-mini-guide) here.
 
-These process managers monitor for any changes in your node.js application and automatically restart the server, perfect for development and production.
+### Rules
 
-> Popular PMs include:
->
-> - [nodemon](http://nodemon.io/)
-> - [pm2](https://expressjs.com/en/advanced/pm.html#pm2)
-
-## REST
-
-REST is a convention of how to design your API, whether it is for your own frontend, or other frontends and clients.
-
-> - Read: Resource naming in [REST](http://www.restapitutorial.com/lessons/restfulresourcenaming.html) convention
-
-## Security
-
-When you take your website to production there is a whole range of things to consider.
-
-![HTTP vs HTTPS](../assets/http-vs-https.png)
-
-Node has built in support for HTTPS, and once you have your own certificates you can use this feature. However sometimes when you deploy to `cloud` Platform Platform as a Service (PaaS) providers such as Heroku, they provide SSL and configure it for you automatically.
-
-> - Read: [Node: HTTPS](https://nodejs.org/api/https.html)
-> - Read/Watch: [What is an SSL Certificate?](https://www.globalsign.com/en/ssl-information-center/what-is-an-ssl-certificate/)
-> - Read: [Heroku SSL](https://devcenter.heroku.com/articles/ssl)
-
-## Authentication
-
-Sometimes you need to add user functionality for your website. To do this you can make use of external libraries like [passport](www.passportjs.org) to add authentication to your website.
-
-> For more information read:
->
-> - [OAuth 2.0 Authorization Framework: Bearer Token Usage](https://tools.ietf.org/html/rfc6750)
-> - [Bearer Strategy](https://github.com/jaredhanson/passport-http-bearer)
-
-## Hotel Workshop
-
-Get in to groups of 3/4 and checkout the [workshop brief](./workshop.html).
-
-> **Exercise**: Please fork and clone [CYF-Hotel](https://github.com/CodeYourFuture/cyf-hotel) repository and follow the exercises in the `README.MD`.
+1. One of you will be leading on building the React (Server) application
+2. One of you will be leading on building the Node.js (Client) Application
+3. It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
+   - e.g. Both of you have to finish Level 100 before continuing onto Level 200.
+   - If one of you gets stuck - help each other!
