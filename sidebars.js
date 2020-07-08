@@ -138,4 +138,26 @@ module.exports = {
     "Lesson 2": ["db/week-2/lesson", "db/week-2/mentors"],
     "Lesson 3": ["db/week-3/lesson", "db/week-3/mentors"],
   },
+  MongoDB: {
+    Overview: ["mongodb/index"],
+    "Lesson 1": [
+      "mongodb/week-1/lesson",
+      "mongodb/week-1/homework",
+      "mongodb/week-1/mentors",
+    ],
+    "Lesson 2": [
+      "mongodb/week-2/lesson",
+      "mongodb/week-2/homework",
+      "mongodb/week-2/mentors",
+    ],
+    "Lesson 3": [
+      "mongodb/week-3/lesson",
+      "mongodb/week-3/homework",
+      "mongodb/week-3/mentors",
+    ],
+  },
+  FinalProject: {
+    Overview: ["finalproject/intro", "finalproject/roles"],
+    Weeks: ["finalproject/first-week", "finalproject/final-week"],
+  },
 };

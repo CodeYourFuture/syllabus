@@ -48,6 +48,21 @@ module.exports = {
               label: "Node",
               position: "left",
             },
+            {
+              to: "docs/db/index",
+              label: "SQL",
+              position: "left",
+            },
+            {
+              to: "docs/mongodb/index",
+              label: "MongoDB",
+              position: "left",
+            },
+            {
+              to: "docs/finalproject/intro",
+              label: "Final Projects",
+              position: "left",
+            },
           ],
         },
       ],

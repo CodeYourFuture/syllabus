@@ -1,5 +1,5 @@
 ---
-id: overview
+id: index
 title: Databases (SQL)
 sidebar_label: Overview
 ---

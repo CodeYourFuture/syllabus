@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: "Database 1: Introduction to SQL"
+title: "Database 1 - Introduction to SQL"
 sidebar_label: Lesson
 ---
 
@@ -81,7 +81,7 @@ As mentioned previously, a relational database is a specific type of database. D
 
 <!-- ![table-diagram](table-diagram.png) -->
 <p align="center">
-  <img src={require('!file-loader!table-diagram.png').default}/>
+  <img src={require('!file-loader!./table-diagram.png').default}/>
 </p>
 
 **How about storing everything in one big table as shown below? Why isn't it a good idea?**
@@ -90,7 +90,7 @@ A customer could have several bookings. If the customer changes their telephone 
 
 <!-- ![combined-diagram](combined-diagram.png) -->
 <p align="center">
-  <img src={require('!file-loader!combined-diagram.png').default}/>
+  <img src={require('!file-loader!./combined-diagram.png').default}/>
 </p>
 
 ### Database modeling exercise

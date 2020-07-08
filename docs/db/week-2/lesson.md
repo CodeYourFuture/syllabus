@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: "Database 2: More SQL and integration with NodeJS"
+title: "Database 2-  More SQL and integration with NodeJS"
 sidebar_label: Lesson
 ---
 

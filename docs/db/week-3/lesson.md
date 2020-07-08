@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: "Database 3: More integration with NodeJS"
+title: "Database 3 - More integration with NodeJS"
 sidebar_label: Lesson
 ---
 
@@ -67,7 +67,7 @@ _"The acronym CRUD refers to all of the major functions that are implemented in 
 
 <!-- ![table-diagram](crud.png) -->
 <p align="center">
-  <img src={require('!file-loader!crud.png').default}/>
+  <img src={require('!file-loader!./crud.png').default}/>
 </p>
 
 ### Creating data
