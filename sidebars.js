@@ -113,4 +113,23 @@ module.exports = {
       "react/class-components/mentors",
     ],
   },
+  Note: {
+    Overview: ["node/index"],
+    "Lesson 1": [
+      "node/week-1/lesson",
+      "node/week-1/homework",
+      "node/week-1/mentors",
+    ],
+    "Lesson 2": [
+      "node/week-2/lesson",
+      "node/week-2/homework",
+      "node/week-2/mentors",
+    ],
+    "Lesson 3": [
+      "node/week-3/lesson",
+      "node/week-3/homework",
+      "node/week-3/mentors",
+    ],
+    Workshops: ["node/workshops/workshop", "node/workshops/cyf-hotel"],
+  },
 };

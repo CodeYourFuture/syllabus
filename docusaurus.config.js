@@ -43,6 +43,11 @@ module.exports = {
               label: "React",
               position: "left",
             },
+            {
+              to: "docs/node/index",
+              label: "Node",
+              position: "left",
+            },
           ],
         },
       ],
