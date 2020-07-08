@@ -113,7 +113,7 @@ module.exports = {
       "react/class-components/mentors",
     ],
   },
-  Note: {
+  Node: {
     Overview: ["node/index"],
     "Lesson 1": [
       "node/week-1/lesson",
@@ -131,5 +131,11 @@ module.exports = {
       "node/week-3/mentors",
     ],
     Workshops: ["node/workshops/workshop", "node/workshops/cyf-hotel"],
+  },
+  SQL: {
+    Overview: ["db/index"],
+    "Lesson 1": ["db/week-1/lesson", "node/week-1/mentors"],
+    "Lesson 2": ["db/week-2/lesson", "db/week-2/mentors"],
+    "Lesson 3": ["db/week-3/lesson", "db/week-3/mentors"],
   },
 };
