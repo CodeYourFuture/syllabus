@@ -22,3 +22,12 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.github {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  background-image: url("https://image.flaticon.com/icons/png/512/25/25231.png");
+  background-size: cover;
+  margin-right: 16px;
+}

@@ -19,52 +19,57 @@ module.exports = {
           position: "left",
           items: [
             {
-              to: "docs/fundamentals/index",
+              href: "https://introtocoding.codeyourfuture.io",
+              label: "Intro To Coding",
+              position: "left",
+            },
+            {
+              to: "fundamentals/index",
               label: "Fundamentals",
               position: "left",
             },
             {
-              to: "docs/html-css/index",
+              to: "html-css/index",
               label: "HTML-CSS",
               position: "left",
             },
             {
-              to: "docs/js-core-1/index",
+              to: "js-core-1/index",
               label: "JavaScript Core 1",
               position: "left",
             },
             {
-              to: "docs/js-core-2/index",
+              to: "js-core-2/index",
               label: "JavaScript Core 2",
               position: "left",
             },
             {
-              to: "docs/js-core-3/index",
+              to: "js-core-3/index",
               label: "JavaScript Core 3",
               position: "left",
             },
             {
-              to: "docs/react/index",
+              to: "react/index",
               label: "React",
               position: "left",
             },
             {
-              to: "docs/node/index",
+              to: "node/index",
               label: "Node",
               position: "left",
             },
             {
-              to: "docs/db/index",
+              to: "db/index",
               label: "SQL",
               position: "left",
             },
             {
-              to: "docs/mongodb/index",
+              to: "mongodb/index",
               label: "MongoDB",
               position: "left",
             },
             {
-              to: "docs/finalproject/intro",
+              to: "finalproject/intro",
               label: "Final Projects",
               position: "left",
             },
@@ -75,27 +80,27 @@ module.exports = {
           position: "left",
           items: [
             {
-              to: "docs/workshops/welcome-to-cyf",
+              to: "workshops/welcome-to-cyf",
               label: "Welcome to CYF",
               position: "left",
             },
             {
-              to: "docs/workshops/aws-dynamodb",
+              to: "workshops/aws-dynamodb",
               label: "AWS & DynamoDB Workshop",
               position: "left",
             },
             {
-              to: "docs/workshops/git-desktop",
+              to: "workshops/git-desktop",
               label: "Github Desktop Workshop",
               position: "left",
             },
             {
-              to: "docs/workshops/mongodb-101",
+              to: "workshops/mongodb-101",
               label: "MongoDB 101 Workshop",
               position: "left",
             },
             {
-              to: "docs/workshops/processing-js-workshop",
+              to: "workshops/processing-js-workshop",
               label: "Processing.js Workshop",
               position: "left",
             },
@@ -111,26 +116,31 @@ module.exports = {
           position: "left",
           items: [
             {
-              to: "docs/guides/coding-standards",
+              to: "guides/coding-standards",
               label: "Coding Standards",
               position: "left",
             },
             {
-              to: "docs/guides/coding-101",
+              to: "guides/coding-101",
               label: "Coding 101",
               position: "left",
             },
             {
-              to: "docs/guides/escalation-policy",
+              to: "guides/escalation-policy",
               label: "Escalation Policy",
               position: "left",
             },
             {
-              to: "docs/guides/react-cheatsheet",
+              to: "guides/react-cheatsheet",
               label: "React Cheatsheet",
               position: "left",
             },
           ],
+        },
+        {
+          position: "right",
+          href: "https://github.com/CodeYourFuture/syllabus",
+          className: "github",
         },
       ],
     },
@@ -169,6 +179,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
