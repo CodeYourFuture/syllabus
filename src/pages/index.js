@@ -18,17 +18,6 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                "button button--outline button--secondary button--lg buttonWhite",
-                styles.buttonWhite
-              )}
-              to={useBaseUrl("docs/js-core-1/index")}
-            >
-              JavaScript Core 1
-            </Link>
-          </div>
         </div>
       </header>
       <main>

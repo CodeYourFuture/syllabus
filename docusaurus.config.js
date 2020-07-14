@@ -16,8 +16,13 @@ module.exports = {
       links: [
         {
           label: "Modules",
-          position: "left", // or 'right'
+          position: "left",
           items: [
+            {
+              to: "docs/fundamentals/index",
+              label: "Fundamentals",
+              position: "left",
+            },
             {
               to: "docs/html-css/index",
               label: "HTML-CSS",
@@ -61,6 +66,68 @@ module.exports = {
             {
               to: "docs/finalproject/intro",
               label: "Final Projects",
+              position: "left",
+            },
+          ],
+        },
+        {
+          label: "Workshops",
+          position: "left",
+          items: [
+            {
+              to: "docs/workshops/welcome-to-cyf",
+              label: "Welcome to CYF",
+              position: "left",
+            },
+            {
+              to: "docs/workshops/aws-dynamodb",
+              label: "AWS & DynamoDB Workshop",
+              position: "left",
+            },
+            {
+              to: "docs/workshops/git-desktop",
+              label: "Github Desktop Workshop",
+              position: "left",
+            },
+            {
+              to: "docs/workshops/mongodb-101",
+              label: "MongoDB 101 Workshop",
+              position: "left",
+            },
+            {
+              to: "docs/workshops/processing-js-workshop",
+              label: "Processing.js Workshop",
+              position: "left",
+            },
+            {
+              to: "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
+              label: "Java Workshop",
+              position: "left",
+            },
+          ],
+        },
+        {
+          label: "Guides",
+          position: "left",
+          items: [
+            {
+              to: "docs/guides/coding-standards",
+              label: "Coding Standards",
+              position: "left",
+            },
+            {
+              to: "docs/guides/coding-101",
+              label: "Coding 101",
+              position: "left",
+            },
+            {
+              to: "docs/guides/escalation-policy",
+              label: "Escalation Policy",
+              position: "left",
+            },
+            {
+              to: "docs/guides/react-cheatsheet",
+              label: "React Cheatsheet",
               position: "left",
             },
           ],
