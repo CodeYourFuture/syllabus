@@ -1,7 +1,7 @@
 ---
-id: mentors
-title: Mentors
-sidebar_label: Mentors
+id: instructors
+title: Instructor Notes
+sidebar_label: Instructor Notes
 ---
 
 This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.

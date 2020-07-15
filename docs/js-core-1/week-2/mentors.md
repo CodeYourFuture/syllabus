@@ -1,7 +1,7 @@
 ---
-id: mentors
-title: Mentor's Notes
-sidebar_label: Mentor's Notes
+id: instructors
+title: Instructor Notes
+sidebar_label: Instructor Notes
 ---
 
 ## Presentations

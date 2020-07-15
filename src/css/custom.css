@@ -26,7 +26,6 @@
 .github {
   width: 32px;
   height: 32px;
-  display: flex;
   background-image: url("https://image.flaticon.com/icons/png/512/25/25231.png");
   background-size: cover;
   margin-right: 16px;

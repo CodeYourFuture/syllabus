@@ -3,7 +3,6 @@ import classnames from "classnames";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 function Home() {
@@ -12,7 +11,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="CodeYourFuture's Full Stack Web Development Syllabus"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
@@ -94,14 +93,16 @@ function Home() {
             </p>
             <h2 id="contributing">Contributing</h2>
             <p>
-              Please read our{" "}
-              <a href="./docs/contributing">Contributing guide</a> to get
-              started with how you can contribute to the CYF syllabus.
+              Please read our <a href="./contributing">Contributing guide</a> to
+              get started with how you can contribute to the CYF syllabus.
             </p>
             <h2 id="code-of-conduct">Code Of Conduct</h2>
             <p>
               You can find our full{" "}
-              <a href="CODE_OF_CONDUCT.md">code of conduct here</a>.
+              <a href="https://codeyourfuture.io/about/code-of-conduct/">
+                code of conduct here
+              </a>
+              .
             </p>
           </div>
         </section>

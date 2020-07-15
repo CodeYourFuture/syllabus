@@ -1,7 +1,7 @@
 ---
-id: mentors
-title: Mentor Notes
-sidebar_label: Mentor Notes
+id: instructors
+title: Instructor Notes
+sidebar_label: Instructor Notes
 ---
 
 ## Resources
@@ -14,7 +14,7 @@ sidebar_label: Mentor Notes
 - [PokeDex In-Class - Exercise Solution - 05/06/2020](https://github.com/CodeYourFuture/pokedex-solution)
   - Created by London and Ali Smith
 
-## Notes for mentors
+## Notes for instructors
 
 ### Updating data when props change
 
