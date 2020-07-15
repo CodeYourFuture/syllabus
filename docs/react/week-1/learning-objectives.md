@@ -29,4 +29,4 @@ sidebar_label: Learning Objectives
 
 ### Deployment
 
-- Build and deploy a React application (to Netlify/Now/Heroku/etc)
+- Build and deploy a React application (to Netlify/Now/Heroku etc)
