@@ -15,7 +15,6 @@ jobs:
 
       - name: Install Packages
         run: yarn
-        working-directory: website
 
       - name: Publish gh-pages
         run: |
@@ -24,7 +23,6 @@ jobs:
           echo "machine github.com login ${{ secrets.USERNAME }} password ${{ secrets.TOKEN }}" > ~/.netrc
           yarn build
           GIT_USER=${{ secrets.USERNAME }} USE_SSH=true yarn deploy
-        working-directory: website
         env:
           GIT_USER: ${{ secrets.USERNAME }}
           CURRENT_BRANCH: master
