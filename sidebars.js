@@ -51,6 +51,13 @@ module.exports = {
       "html-css/week-3/homework",
       "html-css/week-3/instructors",
     ],
+    Challenges: [
+      {
+        type: "link",
+        label: "CSS Challenge",
+        href: "https://github.com/CodeYourFuture/css-challenge",
+      },
+    ],
   },
   JavaScriptCore1: {
     Overview: ["js-core-1/index"],
@@ -139,10 +146,27 @@ module.exports = {
       "react/week-3/homework",
       "react/week-3/instructors",
     ],
-    "React Router": ["react/react-router/lesson"],
-    "Class Components": [
-      "react/class-components/lesson",
-      "react/class-components/instructors",
+    "Extra Classes": [
+      {
+        type: "category",
+        label: "React Router",
+        items: ["react/react-router/lesson"],
+      },
+      {
+        type: "category",
+        label: "Class Components",
+        items: [
+          "react/class-components/lesson",
+          "react/class-components/instructors",
+        ],
+      },
+    ],
+    Challenges: [
+      {
+        type: "link",
+        label: "React Challenges",
+        href: "https://github.com/CodeYourFuture/cyf-react-challenges/",
+      },
     ],
   },
   Node: {
@@ -163,6 +187,13 @@ module.exports = {
       "node/week-3/instructors",
     ],
     Workshops: ["node/workshops/workshop", "node/workshops/cyf-hotel"],
+    Challenges: [
+      {
+        type: "link",
+        label: "Node Challenges",
+        href: "https://github.com/CodeYourFuture/cyf-node-challenges/",
+      },
+    ],
   },
   SQL: {
     Overview: ["db/index"],
