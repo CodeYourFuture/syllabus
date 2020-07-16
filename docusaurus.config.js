@@ -13,6 +13,10 @@ module.exports = {
         alt: "CodeYourFuture Logo",
         src: "img/logo.png",
       },
+      googleAnalytics: {
+        trackingID: "UA-159979458-2",
+        anonymizeIP: true,
+      },
       links: [
         {
           label: "Modules",
