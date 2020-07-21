@@ -8,6 +8,8 @@ assignees: ''
 ---
 
 **Which module(s) and week(s) does this change effect?**
+Module(s):
+Week(s):
 
 **What is the work that needs to be done?**
 
@@ -18,3 +20,7 @@ assignees: ''
 <!-- Please try to be as descriptive as possible -->
 
 **Additional context**
+
+**Who might need to know about this change?**
+
+<!-- Please tag people here -->
