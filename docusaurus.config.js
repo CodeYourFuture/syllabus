@@ -118,6 +118,12 @@ module.exports = {
               label: "Java Workshop",
               position: "left",
             },
+            {
+              href:
+                "https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=Workshop&template=workshop-request.md&title=%5BWorkshop%5D",
+              label: "Want to request a workshop?",
+              position: "left",
+            },
           ],
         },
         {
