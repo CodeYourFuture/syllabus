@@ -513,8 +513,10 @@ This function should:
 
 If you're using the above example, you should expect to return an array with 2x `ELAMIN!`, 1x `SANYIA!`, 2x `ISMAEL!` and 1x `JAMES!`.
 
-{% include "./homework.md" %}
+## Homework
 
-# JavaScript 1 Quiz
+Click [here](./homework) to view the homework for this lesson.
+
+## JavaScript 1 Quiz
 
 An optional quiz can be found [here](https://docs.google.com/forms/d/1-jVH3eTZy6Cig8iEZqDTdLaFgJCgVKv8q5HIF5yDUQ0/edit) which can be used to test students understanding. This can be done in class or set as homework.

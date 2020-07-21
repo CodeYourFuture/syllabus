@@ -27,7 +27,7 @@ sidebar_label: Lesson
 
 ---
 
-{% include "./learning-objectives.md" %}
+Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
 
 ---
 
@@ -449,10 +449,10 @@ Fed up of having to provide a prop for every component? Do you want to make your
 > 1. [Use Default Props](https://learn.freecodecamp.org/front-end-libraries/react/use-default-props/)
 > 2. [Override Default Props](https://learn.freecodecamp.org/front-end-libraries/react/override-default-props/)
 
-#### Credits
+### Credits
 
 Inspiration & examples for this module were taken from [Kent C. Dodd's](https://twitter.com/kentcdodds) [Beginner's Guide to ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) course.
 
-# Homework
+## Homework
 
-{% include "./homework.md" %}
+Click [here](./homework) to view the homework for this lesson.

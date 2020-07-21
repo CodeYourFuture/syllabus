@@ -295,8 +295,10 @@ The important parts of the the Network Tab are:
 > 1. Did the `POST` request succeed?
 > 2. Using the Details Panel, can you work out why?
 
-{% include "./homework.md" %}
+## Homework
 
-# JavaScript 2 Quiz
+Click [here](./homework) to view the homework for this lesson.
+
+## JavaScript 2 Quiz
 
 An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform) which can be used to test students understanding. This can be done in class or set as homework.

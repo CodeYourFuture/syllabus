@@ -12,7 +12,7 @@ sidebar_label: Lesson
 
 ---
 
-{% include "./learning-objectives.md" %}
+Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
 
 ---
 
@@ -520,6 +520,6 @@ We are combining all of the concepts above to make a new object, that has all th
 | 14. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caughtPokemon` array in the `catchPokemon` function.                                                       |
 | 14: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caughtPokemon` state if the value of `pokemonNameInput` state is empty.                                                                                                                          |
 
-# Homework
+## Homework
 
-{% include "./homework.md" %}
+Click [here](./homework) to view the homework for this lesson.

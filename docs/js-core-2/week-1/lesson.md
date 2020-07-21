@@ -1172,4 +1172,6 @@ const studentGrades = {
 // ABDUL - 19
 ```
 
-{% include "./homework.md" %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

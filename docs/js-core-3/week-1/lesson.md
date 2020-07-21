@@ -381,4 +381,6 @@ You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/
 
 In your groups you should get the project setup using the exact instructions found [here](https://github.com/CodeYourFuture/syllabus/tree/master/js-core-3/tv-show-dom-project/getting-started.md). Make sure you use your Teaching Assistants to help you!
 
-{% include './homework.md' %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

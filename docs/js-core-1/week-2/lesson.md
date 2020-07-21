@@ -629,4 +629,6 @@ for (let i = 0; i < 10; ++i) {
 
 For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
 
-{% include './homework.md' %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

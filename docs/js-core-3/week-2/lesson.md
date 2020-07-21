@@ -439,4 +439,6 @@ Complete the rest of this code to connect to the following API: `https://dog.ceo
 2. Post the image you retrieved on Slack
 ```
 
-{% include './homework.md' %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

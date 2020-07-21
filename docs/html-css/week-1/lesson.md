@@ -254,7 +254,7 @@ git pull upstream master
 
 If you're feeling confused, don't worry. Version control is one of the most difficult things you'll learn and we'll be going over it again and again and again.
 
-# Resources
+## Resources
 
 1. [HTML5 - semantic elements](https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5)
 2. [CSS Selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
@@ -264,4 +264,6 @@ If you're feeling confused, don't worry. Version control is one of the most diff
 6. [CSS specificity - MDN](https://developer.mozilla.org/en/docs/Web/CSS/Specificity)
 7. [Pseudo classes - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
-{% include "./homework.md" %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

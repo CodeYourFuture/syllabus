@@ -609,4 +609,6 @@ You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/
 
 Students should group into teams based on the Level that they are working on currently.
 
-{% include './homework.md' %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

@@ -316,4 +316,6 @@ function createGreeting(name, age) {
 - Script: a file that contains a program
 - Terminal: another word for "console"
 
-{% include "./homework.md" %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.

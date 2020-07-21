@@ -15,7 +15,7 @@ sidebar_label: Lesson
 
 ---
 
-{% include "./learning-objectives.md" %}
+Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
 
 ---
 
@@ -598,4 +598,6 @@ What happens if you forget to pass a prop to a component? Or if you pass the wro
 >
 > 1. [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/)
 
-{% include "./homework.md" %}
+## Homework
+
+Click [here](./homework) to view the homework for this lesson.
