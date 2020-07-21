@@ -6,7 +6,7 @@ module.exports = {
   organizationName: "codeyourfuture",
   projectName: "Syllabus",
   plugins: [
-    require.resolve("@docusaurus/plugin-google-gtag"),
+    require.resolve("@docusaurus/plugin-google-analytics"),
     [
       require.resolve("@docusaurus/plugin-sitemap"),
       {
@@ -17,7 +17,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    gtag: {
+    googleAnalytics: {
       trackingID: "UA-159979458-2",
       anonymizeIP: true,
     },
