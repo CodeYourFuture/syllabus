@@ -4,15 +4,10 @@ title: Contributing
 sidebar_label: Contributing
 ---
 
----
-
-# Out of Date - 14/07/2020
-
----
-
 Before starting, please read the following general guidelines and
 [checklist for a lesson](https://github.com/CodeYourFuture/syllabus/issues/9).
 Participate in the discussion if you'd like.
+
 There are [discussions](https://github.com/CodeYourFuture/syllabus/issues)
 about each module and every class in a module.
 Make sure to go through them or add a new issue/discussion point.

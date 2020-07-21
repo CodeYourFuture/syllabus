@@ -20,6 +20,12 @@ There 2 main goals of this course:
 1. Help students with little or no prior programming experience to learn some fundamental concepts of programming
 2. Assess the students to help work out if they would struggle on the web development course
 
+## Change Requests
+
+Want to make a change to this week but don't have the time? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=enhancement&template=change-request.md&title=)
+
+Want to report a bug in this week? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=bug&template=bug-report.md&title=)
+
 ## Learning Objectives
 
 TODO: add some of these
