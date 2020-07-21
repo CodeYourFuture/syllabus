@@ -142,8 +142,6 @@ Run the following command in your terminal:
 npm install
 ```
 
-![package.json screenshot](../assets/package.png)
-
 # Step 2 - Building the server
 
 The first thing we need to do is build our server. You will always need to build

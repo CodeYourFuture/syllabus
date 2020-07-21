@@ -109,6 +109,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "workshops/js-testing-workshop",
+              label: "JavaScript Testing Workshop",
+              position: "left",
+            },
+            {
               to: "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
               label: "Java Workshop",
               position: "left",

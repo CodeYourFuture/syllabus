@@ -8,7 +8,7 @@ sidebar_label: Overview
 | ------------------------------------------------ | --------------------------- | ----------------------------------------------------------- |
 | [Week 1](./week-1/lesson.md)                     | React 101                   | [React 101 Homework](./week-1/lesson.md#homework)           |
 | [Week 2](./week-2/lesson.md)                     | Reacting to Changes         | [Reacting to Changes Homework](./week-2/lesson.md#homework) |
-| [Week 2](./week-3/lesson.md)                     | Fetching Data               | [Fetching Data Homework](./week-3/lesson.md#homework)       |
+| [Week 3](./week-3/lesson.md)                     | Fetching Data               | [Fetching Data Homework](./week-3/lesson.md#homework)       |
 | [React Router](./react-router/lesson.md)         | Routing (optional)          |
 | [Class Components](./class-components/lesson.md) | Class Components (optional) |
 

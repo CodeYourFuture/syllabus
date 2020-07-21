@@ -69,7 +69,7 @@ let document = {
 
 This is how we would represent the document hierarchy above as a tree of nodes:
 
-<img src="tree.png" alt="tree-representation" width="400"/>
+<img src={require('!file-loader!./tree.png').default}/>
 
 ### Access DOM elements
 
