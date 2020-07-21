@@ -4,55 +4,100 @@ title: Contributing
 sidebar_label: Contributing
 ---
 
-Updated contribution guide is to be written
+## Preamble
 
-<!--
-Before starting, please read the following general guidelines and
-[checklist for a lesson](https://github.com/CodeYourFuture/syllabus/issues/9).
-Participate in the discussion if you'd like.
+### Syllabus Aims
 
-There are [discussions](https://github.com/CodeYourFuture/syllabus/issues)
-about each module and every class in a module.
-Make sure to go through them or add a new issue/discussion point.
+This syllabus has the following aims
 
-To contribute to the Code Your Future syllabus, fork and open a pull request to
-[this repository](https://github.com/CodeYourFuture/syllabus).
-Contributions are accepted strictly through approved pull requests, even for
-administrators of the repo.
+- To direct teachers across out network to our content
+- To share content developed by volunteers between our cities (slides, videos, exercises etc)
+- To ease the load of planning lessons for our teachers
+- To be a repository of exercises for our students
+- To be a resources for our students to use to refer to
 
-Since this repository is the blueprint of our syllabus, we allow different
-cohorts to adapt to their classes' needs and also update their syllabus
-versions to reflect how the class goes.
-We should always make sure **master** is relevant and up to date for future
-classes with the feedback from the on-going teaching in each CYF chapter.
+### Target Students
 
-## A lesson template
+The vast majority of our students fit this profile:
 
-Please use the [lesson template](lesson-template.md) as a starting
-point for your new lessons.
+- Non-native English speaking
+- Limited to zero prior experience in programming
+- Many do not have higher education certificates (Bachelors or higher)
+- Some have not worked in a professional setting before
 
-Each lesson should follow that format: starting with
-**what we will learn today** then **class contents**, **homework**
-and **preparation for next class**.
+This means that in general our students
 
-The class contents and homework should follow the
-[checklist for a lesson](https://github.com/CodeYourFuture/syllabus/issues/9).
+- Respond better to exercises than written material
+- Will quickly become overwhelmed with long, meandering lectures
+- May have a lower resilience to failure and errors
 
-Some of the most important guidelines are:
+You should keep these qualities in mind whenever we develop content for our students.
 
-- Focus on exercises in the class rather than presentations or long explanations
-- Prefer pointers to good documentation over explaining everything in the lesson
-  itself
-- The homework should be relevant, get harder gradually with an (optional)
-  stretch goal for more advanced students.
+### Organisational Documents
 
-## Add new modules or lessons
+This website contains everything that we teach our students. For organisational documents you can reference the Docs website.
 
-The repo is stuctured as `module-name\week-number`.
-Add your content in the correct file.
+[https://docs.codeyourfuture.io](https://docs.codeyourfuture.io)
 
-If you've added a new file, add it as new entry in SUMMARY.md
-to show it in the sidebar.
-If the module contains many individual markdown files, add them as nested
-bullets.
--->
+## How We Organise
+
+### Planning Boards
+
+We currently have two planning boards to coordinate tasks on the Syllabus
+
+- Syllabus Planning - [here](https://github.com/CodeYourFuture/syllabus/projects/1)
+
+These tasks are to do with one of our modules. These modules are living documents that changes and react to development over time. This board includes all associated homework and challenges to do with our courses.
+
+- Workshop Development - [here](https://github.com/CodeYourFuture/syllabus/projects/2)
+
+These tasks are one workshops that provide non-essential skills or experiences to our students. For example, modules in Mobile Application Development or Machine Learning. Once run, these modules are kept as a library for future students and volunteers to refer back to.
+
+### Github
+
+To contribute to the Code Your Future syllabus, fork and open a pull request to [this repository](https://github.com/CodeYourFuture/syllabus).
+
+Significant contributions are accepted strictly through approved pull requests, even for administrators of the repo.
+
+### Slack
+
+Syllabus wide discussion happens in `cyf-syllabus`
+
+Module or workshop specific discussion happens in `cyf-module-`. For example, the React module discussion can be found in `cyf-module-react`.
+
+## Lesson Template
+
+You can find an example of the a lesson plan [here](./example/lesson-template)
+
+### Lesson
+
+A lesson must have
+
+- Learning Objectives
+- Contents of the lesson
+- Several topics that are covered in the lesson
+  - Each topic must have appropriate exercises
+- A link to the homework
+
+Focus on exercises in the class rather than presentations or long explanations
+
+### Homework
+
+Homework should contain
+
+- Resources to help the student study the material in the lesson
+- A set of homework that the student must complete before the next lesson
+- Any tasks the student should complete before the next lesson
+
+The homework should be relevant, get harder gradually with an (optional) stretch goal for more advanced students.
+
+### Instructor Notes
+
+Instructor Notes should contain
+
+- Links to presentations made by other schools
+- Links to any videos of previous classes
+- Explanations of how the lesson should be taught
+- Any other useful information about the lesson content
+
+These notes are (along with Slack) one of the key ways that we should share knowledge and learnings between schools.

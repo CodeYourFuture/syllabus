@@ -1,4 +1,11 @@
 module.exports = {
+  Example: {
+    "Lesson 1": [
+      "example/lesson-template",
+      "example/homework-template",
+      "example/instructors-template",
+    ],
+  },
   Fundamentals: {
     Overview: [
       "fundamentals/index",
