@@ -3,19 +3,30 @@ module.exports = {
   url: "https://syllabus.codeyourfuture.io",
   baseUrl: "/",
   favicon: "img/favicon.png",
-  organizationName: "codeyourfuture", // Usually your GitHub org/user name.
-  projectName: "Syllabus-V2", // Usually your repo name.
+  organizationName: "codeyourfuture",
+  projectName: "Syllabus",
+  plugins: [
+    require.resolve("@docusaurus/plugin-google-gtag"),
+    [
+      require.resolve("@docusaurus/plugin-sitemap"),
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: "weekly",
+        priority: 0.5,
+      },
+    ],
+  ],
   themeConfig: {
+    gtag: {
+      trackingID: "UA-159979458-2",
+      anonymizeIP: true,
+    },
     navbar: {
       title: "Home",
       hideOnScroll: true,
       logo: {
         alt: "CodeYourFuture Logo",
         src: "img/logo.png",
-      },
-      googleAnalytics: {
-        trackingID: "UA-159979458-2",
-        anonymizeIP: true,
       },
       links: [
         {
@@ -114,13 +125,12 @@ module.exports = {
               position: "left",
             },
             {
-              to: "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
+              href:
+                "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
               label: "Java Workshop",
               position: "left",
             },
             {
-              href:
-                "https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=Workshop&template=workshop-request.md&title=%5BWorkshop%5D",
               label: "-----------",
               position: "left",
             },
@@ -160,9 +170,16 @@ module.exports = {
         },
         {
           position: "right",
+          to: "contributing",
+          label: "Want to contribute?",
+        },
+        /*
+        {
+          position: "right",
           href: "https://github.com/CodeYourFuture/syllabus",
           className: "github",
         },
+        */
       ],
     },
     footer: {
