@@ -4,6 +4,9 @@ title: Contributing
 sidebar_label: Contributing
 ---
 
+Updated contribution guide is to be written
+
+<!--
 Before starting, please read the following general guidelines and
 [checklist for a lesson](https://github.com/CodeYourFuture/syllabus/issues/9).
 Participate in the discussion if you'd like.
@@ -52,3 +55,4 @@ If you've added a new file, add it as new entry in SUMMARY.md
 to show it in the sidebar.
 If the module contains many individual markdown files, add them as nested
 bullets.
+-->
