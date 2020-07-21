@@ -220,7 +220,15 @@ module.exports = {
     ],
   },
   FinalProject: {
-    Overview: ["finalproject/intro", "finalproject/roles"],
-    Weeks: ["finalproject/first-week", "finalproject/final-week"],
+    Overview: [
+      "finalproject/intro",
+      "finalproject/prep",
+      "finalproject/roles",
+      "finalproject/projects",
+    ],
+    "Week 1": ["finalproject/week-1/lesson"],
+    "Week 1": ["finalproject/week-2/lesson"],
+    "Week 3": ["finalproject/week-3/lesson"],
+    "Week 4": ["finalproject/week-4/lesson"],
   },
 };

@@ -1,12 +1,16 @@
 ---
-id: final-week
-title: Final Project - Final Week
-sidebar_label: Final Week
+id: lesson
+title: Final Project - Week 4
+sidebar_label: Lesson
 ---
 
-## Final week
+## Demo Day
 
-It’s time to start preparing for graduation! Part of the graduation event will be a demo and presentation from each time to show what they’ve achieved so far, so you need to prepare for that. As well as the actual outputs of your project you should be thinking about:
+It’s time to start preparing for Demo Day!
+
+Part of the Demo Day event will be a demonstation and presentation from each team to show what they’ve achieved so far, so you need to prepare for that.
+
+As well as the actual outputs of your project you should be thinking about:
 
 - What have you learned, personally and as a team? This can be related to technology, product, process, ...
 - Which parts did you find most enjoyable and/or interesting? Has that impacted what you’re thinking about in terms of careers or next steps? How?
@@ -18,3 +22,7 @@ Try to show the _journey_, not just the destination - if you have pictures of ea
 We’ll do a run through of your presentation at the end of this session in front of the rest of the class, to give you a chance to practice it, instead of the regular demo.
 
 Also identify any final work that’s needed to wrap up what you’ve built. Try to make this as small as possible, e.g. just bug fixes and visual improvements; you need to be very confident that you can get it all implemented and integrated before the graduation and demo event.
+
+## Peer Assessment
+
+As we're reaching the end of the project we want to see how people have done.

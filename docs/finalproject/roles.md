@@ -1,6 +1,6 @@
 ---
 id: roles
-title: Final Project - Roles
+title: Final Project Roles
 sidebar_label: Roles
 ---
 
