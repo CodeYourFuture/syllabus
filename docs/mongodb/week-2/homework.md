@@ -4,6 +4,8 @@ title: Homework
 sidebar_label: Homework
 ---
 
-You can find the full homework tasks here:
+You can find the homework for this week here:
 
-https://github.com/CodeYourFuture/MongoDB-Homework/tree/master/week-2
+https://github.com/CodeYourFuture/MongoDB-Homework
+
+You should complete all of Week 2.

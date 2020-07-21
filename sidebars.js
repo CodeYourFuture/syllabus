@@ -227,7 +227,7 @@ module.exports = {
       "finalproject/projects",
     ],
     "Week 1": ["finalproject/week-1/lesson"],
-    "Week 1": ["finalproject/week-2/lesson"],
+    "Week 2": ["finalproject/week-2/lesson"],
     "Week 3": ["finalproject/week-3/lesson"],
     "Week 4": ["finalproject/week-4/lesson"],
   },

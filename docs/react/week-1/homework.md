@@ -11,7 +11,7 @@ sidebar_label: Homework
 
 ## Challenges
 
-The key way to get better at React is to build lots of small projects and build up your knowledge. 
+The key way to get better at React is to build lots of small projects and build up your knowledge.
 
 You can see a full list of the challenges [here](https://github.com/CodeYourFuture/cyf-react-challenges/)
 
@@ -26,6 +26,4 @@ You should also choose any of the other projects that sound interesting to you!
 
 ### Prepare for the next class
 
-1. Follow the official [React tutorial](https://reactjs.org/tutorial/tutorial.html) (up to the "Completing the Game" section)
-2. Watch the [Beginner's Guide to ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) on Egghead.io
-3. Read [Props vs State](https://kentcdodds.com/blog/props-vs-state)
+1. Read [Props vs State](https://kentcdodds.com/blog/props-vs-state)

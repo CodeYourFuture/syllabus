@@ -4,7 +4,7 @@ title: MongoDB - 3
 sidebar_label: Lesson
 ---
 
-## Outline
+Outline:
 
 - Lesson 2 review
 - Indexing
@@ -100,7 +100,7 @@ To create a text index in the shell: `db.listingsAndReviews.createIndex( { name
 
 Now, let's do the same using the Atlas GUI.
 
-#### Exercise
+#### Exercise 1
 
 Search for the document using the index.
 
@@ -179,7 +179,7 @@ What's the output like?
 
 More information: <https://docs.mongodb.com/manual/aggregation/>
 
-#### Exercise:
+#### Exercise 2
 
 Now, let's do the same using the Atlas GUI.
 
@@ -187,7 +187,7 @@ Now, let's do the same using the Atlas GUI.
 
 Replication in MongoDB is used to increase redundancy and data availability. In its essence it's a way for 3 or more (or even 2 with some caveats..) servers to keep the same copy of data.
 
-<img src={require('!file-loader!../assets/operations.png').default}/>
+![replication diagram](./assets/operations.png)
 
 Writes always go to the primary and get propagated *asynchronously* to the secondaries.
 
@@ -285,7 +285,7 @@ WriteCommandError({
 
 Database operations need to be inside our session if we want to benefit from transactions
 
-### Exercise
+#### Exercise 3
 
 Transfer 40 monads from account 1 to account 2. Observe how it works perfectly fine.
 
@@ -310,13 +310,3 @@ If you have time and interest, please register to either of these classes or any
 <https://university.mongodb.com/courses/M220JS/about>
 
 <https://university.mongodb.com/courses/M220P/about>
-
-Shameless plug(s)
-
-I am also the author of the Mastering MongoDB 4.X book by Packt publishing, available [here](https://www.amazon.co.uk/Mastering-MongoDB-4-x-high-fault-tolerant/dp/1789617871).
-
-As a member of the #runningclub at DIT we have decided to put our Monday night running club efforts to good use by raising money for Cancer Research UK, so a few of us are doing the 10k Race for Life in Hyde Park at the end of July.
-
-If you would like to contribute, please do so here: <https://fundraise.cancerresearchuk.org/page/alexs-race-for-life-3725>
-
-All donations are eligible for Gift Aid.

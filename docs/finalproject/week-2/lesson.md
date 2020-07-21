@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: Final Project - Week 2 + 3
+title: Final Project - Week 2
 sidebar_label: Lesson
 ---
 

@@ -4,7 +4,7 @@ title: MongoDB - 2
 sidebar_label: Lesson
 ---
 
-## Outline
+## Outline:
 
 - Review
 - Signing up for MongoDB Atlas
@@ -52,46 +52,7 @@ In the last lesson, we made an Express server on Glitch. In this lesson, however
 
 Running a local server is the way most professional developers work, so it is important for you to learn.
 
-Here, we will start by opening a terminal shell:
-
-- On Mac, open the Terminal app in the `Applications/Utilities` directory.
-- On Ubuntu, press `ctrl+alt+t`.
-- On Windows, you can try the [Windows Subsystem for Linux](https://devblogs.microsoft.com/commandline/bash-on-ubuntu-on-windows-download-now-3/). If this does not work, you can try Git BASH, which you can get by downloading [Git for Windows](https://gitforwindows.org/).
-
-In the shell, let's make a new directory for our Express server project. You can
-
-- list directories by entering `ls` in the shell,
-- change directories with `cd` (for example, `cd Desktop` to go to a `Desktop` directory), and
-- make a new directory with `mkdir` (for example, `mkdir cyf-db-lesson-2` to make an `cyf-db-lesson-2` directory).
-
-Now, let's check if you already have Node and Node Pacakage Manager (NPM) installed. These will let you run a JavaScript server and add packages like Express to your project. To check for Node and NPM, run this in the terminal shell:
-
-```js
-npm --version
-
-```
-
-If you see a version number (for example, `6.9.0`), you should be ready. Otherwise, try downloading Node from [here](https://nodejs.org/en/) and installing it. It should also install NPM automatically.
-
-Once `npm --version` works, you can add Express. Inside of your new project directory, run this in the shell:
-
-```js
-npm install express
-
-```
-
-If it works, you should see a bunch of technical stuff appear on the screen. You can ignore most of it for now. However, at the bottom, you should see something like this:
-
-```js
-+ express@4.17.1
-added 50 packages from 37 contributors and audited 126 packages in 2.263s
-found 0 vulnerabilities
-
-```
-
-This basically means that NPM successfully added Express to your project directory.
-
-Doing this also added two things to our directory: `node_modules` and `package-lock.json`. `node_modules` is a directory that has (1) the Express package and (2) any other NPM packages that it needs. `package-lock.json` is a file that has the versions of these NPM packages. You can usually just ignore `node_modules` and `package-lock.json`.
+Follow [these instructions for making a node app and installing Express.js](https://expressjs.com/en/starter/installing.html). When prompted, set the "entry point" to be `server.js`. If you miss the chance, you can edit `package.json` to fix this.
 
 Now that we have Express ready, let's start writing our JavaScript. Open your favourite code editor (for example, Visual Studio Code) and create a new file with this:
 
@@ -261,9 +222,9 @@ When you have entered a few actors, click the Insert button to add the document.
 
 That is how you can add a document easily with MongoDB Atlas.
 
-#### Excercise
+#### Exercise 1
 
-Try adding two new films to your database. Give each of them a title, year, and a few actors.
+Try adding two new films to your database, using the Atlas web interface. Give each of them a title, year, and a few actors.
 
 ### Creating a document with the MongoDB Node Driver
 
@@ -311,7 +272,7 @@ Here, when the user sends a `POST` request to `/films`, the server creates a 
 
 To try it, restart your server first: go to your terminal shell, press `ctrl+c` to stop the server, press the `up` key to go to your previous command, and then press `enter`. Now, try sending a `POST` request to `localhost:3000/films` with Postman, and then check your collection on Atlas.
 
-#### Exercise
+#### Exercise 2
 
 Update the new endpoint to take query parameters `title`, `year`, and `actors` and create and return a new film with those fields and values. Make sure that only those fields are added. If a query parameter is missing, return a `400` error. Make sure that the year is a number in the database (not a string). Let the actors be separated by commas.
 
@@ -360,17 +321,23 @@ This will update the first document that matches `searchObject` with the field
 
 There are several options you can use. The one that we will use in this lesson is `returnOriginal`. If your options include `returnOriginal: false`, then you can get the updated document (not the original one) from `result`.
 
-However, `result` here is different than the one for `insertOne`. To see what this is, let's go to the [API Reference](http://mongodb.github.io/node-mongodb-native/3.2/api/) tab we opened earlier.
+However, `result` here is different than the one for `insertOne`. Let's investigate.
+
+#### Updating a document - investigating findOneAndUpdate's `result` in the documentation
+
+To see what this is, let's go to the [API Reference](https://mongodb.github.io/node-mongodb-native/3.5/api/) tab we opened earlier.
 
 On this page, on the left side bar, we can see many objects we can use from the `mongodb` package. We want to find information about the `findOneAndUpdate` function, which is on a `Collection`, so let's click the "Collection" link. This opens many properties that a `Collection` has, including its methods (functions). Find and click the link for `findOneAndUpdate`.
 
-Here, we can see description of the function and its arguments. For example, you can see a list of options we can use. We can also see a column with the arguments types. We want to see what we can do with the `result` argument of the callback function, so click the type for `callback`: "[Collection~findAndModifyCallback](http://mongodb.github.io/node-mongodb-native/3.2/api/Collection.html#~findAndModifyCallback)".
+Here, we can see description of the function and its arguments. For example, you can see a list of options we can use. We can also see a column with the arguments types. We want to see what we can do with the `result` argument of the callback function, so click the type for `callback`: "[Collection~findAndModifyCallback](https://mongodb.github.io/node-mongodb-native/3.5/api/Collection.html#~findAndModifyCallback)".
 
-Now, we can see the description of what our callback function and its arguments should be. Click on the type of `result` so we can find out more about it: "[Collection~findAndModifyWriteOpResult](http://mongodb.github.io/node-mongodb-native/3.2/api/Collection.html#~findAndModifyWriteOpResult)".
+Now, we can see the description of what our callback function and its arguments should be. Click on the type of `result` so we can find out more about it: "[Collection~findAndModifyWriteOpResult](https://mongodb.github.io/node-mongodb-native/3.5/api/Collection.html#~findAndModifyWriteOpResult)".
 
 Finally, we can see the properties of `result`. Notice the first property, `value`, which will be our updated document. We can use this to return the updated document to the user.
 
 Note: at the time of writing this lesson, the docs have some problems. For example, the description of the `value` property says that it is from the `findAndModify` command, but it is really from the `findAndUpdateOne` command for us. Mistakes like these are not uncommon in documentation. (If you are stuck on something, and docs do not help, a good place to ask for help is [Stack Overflow](https://stackoverflow.com/).)
+
+#### Updating a document - back to the code...
 
 Now, we know how to use `result`. For example, we can do this:
 
@@ -431,7 +398,7 @@ Now, when we make a `PUT` request to `/films`, the server changes the year of
 
 To try it, restart your server again (in the terminal: `ctrl+c`, `up`, `enter`) and make a `PUT` request to `localhost:3000/films` in Postman.
 
-#### Exercise
+#### Exercise 3
 
 Change the new endpoint to `/films/:id`, and make it take a JSON object body and replace the document that has that `id`.
 
@@ -534,8 +501,6 @@ When a user sends a `DELETE` request to `/films/Princess Mononoke`, for examp
 
 To try it, restart your server, find a film title in your database, and send a `DELETE` request to `/films/<put the film title here>` in Postman.
 
-#### Exercise
+#### Exercise 4
 
 Change the new endpoint to `/films/:id`. Make it delete only the object with the given `id`.
-
-{% include './homework.md' %}
