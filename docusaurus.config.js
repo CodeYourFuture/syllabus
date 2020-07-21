@@ -1,7 +1,7 @@
 module.exports = {
   title: "CodeYourFuture Syllabus",
-  url: "https://syllabus.codeyourfuture.io/",
-  baseUrl: "",
+  url: "https://syllabus.codeyourfuture.io",
+  baseUrl: "/",
   favicon: "img/favicon.png",
   organizationName: "codeyourfuture", // Usually your GitHub org/user name.
   projectName: "Syllabus-V2", // Usually your repo name.
