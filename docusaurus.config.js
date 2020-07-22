@@ -166,6 +166,11 @@ module.exports = {
               label: "React Cheatsheet",
               position: "left",
             },
+            {
+              to: "guides/netlify-auto-deploy",
+              label: "Netlify & Github Auto-Deploy",
+              position: "left",
+            },
           ],
         },
         {

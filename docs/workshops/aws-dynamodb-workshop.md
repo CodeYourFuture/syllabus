@@ -315,9 +315,9 @@ eliminate duplication (DRY).
 
 Let's deploy our Database-Driven Application to Heroku. If you don't remember
 the steps, refresh your memory from
-[the previous lesson](https://codeyourfuture.github.io/syllabus-scotland/node-db/lesson2.html#deploying-to-heroku).
+[a previous lesson](/node/week-3/lesson#heroku).
 
-Once you're finsihed, Go to your application on heroku and see if it is working
+Once you're finished, Go to your application on heroku and see if it is working
 properly.
 
 _It should not be working._

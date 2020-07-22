@@ -363,13 +363,12 @@ You should know these terms by the end of this class: Testing, Quality Assurance
 
 # Resources
 
-1. [JavaScript: The Good Parts by Douglas Crockford, chapter 4 - Functions](http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf)
-2. [MDN Objects basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
-3. [MDN OOP in JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
-4. [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)
-5. [Jest](https://facebook.github.io/jest/)
-6. [Modules](https://nodejs.org/api/modules.html)
-7. [Setup VS Code for Debugging](https://medium.com/software-developer/debugging-facebooks-jest-for-react-in-visual-studio-code-9059223e1e71)
+1. [MDN Objects basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+2. [MDN OOP in JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+3. [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)
+4. [Jest](https://facebook.github.io/jest/)
+5. [Modules](https://nodejs.org/api/modules.html)
+6. [Setup VS Code for Debugging](https://medium.com/software-developer/debugging-facebooks-jest-for-react-in-visual-studio-code-9059223e1e71)
 
 ## Tracing code resources
 
