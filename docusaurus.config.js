@@ -16,6 +16,7 @@ module.exports = {
       },
     ],
   ],
+
   themeConfig: {
     googleAnalytics: {
       trackingID: "UA-159979458-2",
@@ -37,11 +38,13 @@ module.exports = {
               href: "https://introtocoding.codeyourfuture.io",
               label: "Intro To Coding",
               position: "left",
+              className: "outside-link",
             },
             {
               href: "https://fundamentals.codeyourfuture.io/",
               label: "Fundamentals",
               position: "left",
+              className: "outside-link",
             },
             {
               to: "html-css/index",
@@ -129,6 +132,7 @@ module.exports = {
                 "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
               label: "Java Workshop",
               position: "left",
+              className: "outside-link",
             },
             {
               to: "workshops/deployment/index",

@@ -30,3 +30,13 @@
   background-size: cover;
   margin-right: 16px;
 }
+
+.outside-link:after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url("https://static.thenounproject.com/png/389539-200.png");
+  background-size: cover;
+  margin-left: 6px;
+  padding-right: 16px;
+}
