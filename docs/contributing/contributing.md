@@ -1,7 +1,7 @@
 ---
-id: contributing
-title: Contributing
-sidebar_label: Contributing
+id: overview
+title: Overview
+sidebar_label: Overview
 ---
 
 ## Preamble
@@ -10,11 +10,11 @@ sidebar_label: Contributing
 
 This syllabus has the following aims
 
-- To direct teachers across out network to our content
+- To direct teachers across our network to our content
 - To share content developed by volunteers between our cities (slides, videos, exercises etc)
 - To ease the load of planning lessons for our teachers
 - To be a repository of exercises for our students
-- To be a resources for our students to use to refer to
+- To be a resource for our students to refer to
 
 ### Target Students
 

@@ -1,9 +1,10 @@
 module.exports = {
-  Example: {
-    "Lesson 1": [
-      "example/lesson-template",
-      "example/homework-template",
-      "example/instructors-template",
+  Contributing: {
+    Overview: ["contributing/overview", "contributing/technical"],
+    "Template Lesson": [
+      "contributing/example/lesson-template",
+      "contributing/example/homework-template",
+      "contributing/example/instructors-template",
     ],
   },
   Fundamentals: {
@@ -135,6 +136,14 @@ module.exports = {
   },
   React: {
     Overview: ["react/index"],
+    Resources: [
+      "guides/react-cheatsheet",
+      {
+        type: "link",
+        label: "React Challenges",
+        href: "https://github.com/CodeYourFuture/cyf-react-challenges/",
+      },
+    ],
     "Lesson 1": [
       "react/week-1/learning-objectives",
       "react/week-1/lesson",
@@ -166,13 +175,6 @@ module.exports = {
           "react/class-components/lesson",
           "react/class-components/instructors",
         ],
-      },
-    ],
-    Challenges: [
-      {
-        type: "link",
-        label: "React Challenges",
-        href: "https://github.com/CodeYourFuture/cyf-react-challenges/",
       },
     ],
   },

@@ -24,39 +24,4 @@ In this Syllabus you'll find the content that we teach at CodeYourFuture. For ot
 
 ## Contributing
 
-Please read our [Contributing guide](CONTRIBUTING.md) to get started with how
-you can contribute to the CYF syllabus.
-
-## Website Details
-
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/).
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Please read our [Contributing guide](./contributing.md) to get started with how you can contribute to the CodeYourFuture Syllabus.

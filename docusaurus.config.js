@@ -170,7 +170,7 @@ module.exports = {
         },
         {
           position: "right",
-          to: "contributing",
+          to: "contributing/overview",
           label: "Want to contribute?",
         },
         /*
@@ -192,14 +192,30 @@ module.exports = {
               label: "Website",
               href: "https://www.codeyourfuture.io",
             },
-          ],
-        },
-        {
-          title: "More",
-          items: [
+            {
+              label: "Documentation",
+              href: "https://docs.codeyourfuture.io",
+            },
             {
               label: "GitHub",
               href: "https://github.com/codeyourfuture/",
+            },
+          ],
+        },
+        {
+          title: "Social",
+          items: [
+            {
+              label: "Facebook",
+              href: "https://www.facebook.com/codeyourfuture.io",
+            },
+            {
+              label: "Instagram",
+              href: "https://www.instagram.com/codeyourfuture_",
+            },
+            {
+              label: "Twitter",
+              href: "https://twitter.com/CodeYourFuture",
             },
           ],
         },
