@@ -132,7 +132,7 @@ module.exports = {
             },
             {
               to: "workshops/deployment/index",
-              label: "Deploying Your Code",
+              label: "Deploying Your Code Workshop",
               position: "left",
             },
             {
