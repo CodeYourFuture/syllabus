@@ -240,4 +240,17 @@ module.exports = {
     "Week 3": ["finalproject/week-3/lesson"],
     "Week 4": ["finalproject/week-4/lesson"],
   },
+  Deployment: {
+    Overview: [
+      "workshops/deployment/index",
+      "workshops/deployment/site-naming-conventions",
+      "workshops/deployment/mentors",
+    ],
+    Workshop: [
+      "workshops/deployment/workshop/instructions",
+      "workshops/deployment/workshop/workshop-1",
+      "workshops/deployment/workshop/workshop-1-mentors",
+      "workshops/deployment/workshop/cheatsheet",
+    ],
+  },
 };

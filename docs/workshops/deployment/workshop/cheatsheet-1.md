@@ -1,7 +1,7 @@
 ---
-id: netlify-auto-deploy
-title: Netlify & GitHub Automatic Deployment (Basic)
-sidebar_label: Netlify & GitHub Automatic Deployment
+id: cheatsheet
+title: "Cheatsheet: Netlify & GitHub Automatic Deployment"
+sidebar_label: Cheatsheet
 ---
 
 ## Using Netlify for the first time

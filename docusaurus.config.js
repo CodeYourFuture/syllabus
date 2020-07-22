@@ -39,7 +39,7 @@ module.exports = {
               position: "left",
             },
             {
-              to: "fundamentals/index",
+              href: "https://fundamentals.codeyourfuture.io/",
               label: "Fundamentals",
               position: "left",
             },
@@ -131,6 +131,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "workshops/deployment/index",
+              label: "Deploying Your Code",
+              position: "left",
+            },
+            {
               label: "-----------",
               position: "left",
             },
@@ -164,11 +169,6 @@ module.exports = {
             {
               to: "guides/react-cheatsheet",
               label: "React Cheatsheet",
-              position: "left",
-            },
-            {
-              to: "guides/netlify-auto-deploy",
-              label: "Netlify & Github Auto-Deploy",
               position: "left",
             },
           ],
