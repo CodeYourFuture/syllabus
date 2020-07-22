@@ -10,8 +10,8 @@ sidebar_label: Cheatsheet
 
 ## Set up a project for deployment
 
-- [deployment setup instructions are here](./instructions-for-automatic-deployment-with-netlify-and-github.md)
-- Make sure to follow [site-naming convention for CYF projects](../cyf-site-naming-conventions.md)
+- [deployment setup instructions are here](./instructions)
+- Make sure to follow [site-naming convention for CYF projects](../site-naming-conventions)
 
 ## Deploy changes to your project
 
