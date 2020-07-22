@@ -18,13 +18,13 @@ We'll start with some introductions: so that we can get to know each other. We'l
 
 While you're at Code Your Future, we expect you to follow some rules. This is so that **everyone** has a fun, productive and enjoyable experience.
 
-We'll read through the [Code of Conduct](https://codeyourfuture.github.io/syllabus-master/CODE_OF_CONDUCT.html) and [House Rules](https://codeyourfuture.github.io/syllabus-master/others/house-rules.html) together and answer any questions you have about them.
+We'll read through the [Code of Conduct](https://codeyourfuture.io/about/code-of-conduct/) and [House Rules](https://docs.codeyourfuture.io/students/house-rules) together and answer any questions you have about them.
 
 ## Getting into Technology: Why & How
 
 Next we'll have a presentation about why you would want to be a programmer.
 
-Link to the presentation slides: [https://docs.google.com/presentation/d/1XVVq6acZwMb7r1OAx2b54nS5WOguO3V7m7Pspledi60/edit\#slide=id.g253640fe83\_0\_202](https://docs.google.com/presentation/d/1XVVq6acZwMb7r1OAx2b54nS5WOguO3V7m7Pspledi60/edit#slide=id.g253640fe83_0_202)
+Link to the presentation slides: [https://docs.google.com/presentation/d/1XVVq6acZwMb7r1OAx2b54nS5WOguO3V7m7Pspledi60/edit\#slide=id.g253640fe83_0_202](https://docs.google.com/presentation/d/1XVVq6acZwMb7r1OAx2b54nS5WOguO3V7m7Pspledi60/edit#slide=id.g253640fe83_0_202)
 
 ## What level is the class starting at?
 
@@ -79,8 +79,8 @@ You will always be able to see a list of your homework assignments on Google Cla
 
 For your first week of homework you will mostly be:
 
-* working on a introduction to programming course and 
-* preparing a very short presentation for the rest of the class
+- working on a introduction to programming course and
+- preparing a very short presentation for the rest of the class
 
 ### Code.org Course 3
 
@@ -98,13 +98,13 @@ To get set up, follow these instructions:
 
 **SKIP** all of the lessons starting with these numbers:
 
-* 1
-* 4
-* 9
-* 10
-* 18
-* 19
-* 20
+- 1
+- 4
+- 9
+- 10
+- 18
+- 19
+- 20
 
 \(All of the lessons starting with "Unplugged Activity"\)
 
@@ -116,9 +116,9 @@ Part of being a programmer is communicating your ideas to other people on your t
 
 Here is a list of topic ideas which you could present about:
 
-* Why are the "Repeat" and "Repeat Until" blocks useful?
-* Why are "Functions" useful?
-* Why is the "Conditional" block useful?
+- Why are the "Repeat" and "Repeat Until" blocks useful?
+- Why are "Functions" useful?
+- Why is the "Conditional" block useful?
 
 If you want to present a different idea, that is fine as well. Then next week, you'll each present what you learned to a few students from the class.
 
@@ -139,4 +139,3 @@ Programming is all about writing _algorithms_. What is an algorithm?
 These show "algorithm recipes", and the video shows that you have to think carefully when writing them!
 
 Write your own "algorithm recipe" for your favourite food and submit it to Google Classroom. Next week we'll read some of the best algorithms to see if they have any missing steps!
-

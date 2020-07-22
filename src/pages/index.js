@@ -94,8 +94,8 @@ function Home() {
             <h2 id="contributing">Contributing</h2>
             <p>
               Please read our{" "}
-              <a href="./contributing/contributing">Contributing guide</a> to
-              get started with how you can contribute to the CodeYourFuture
+              <a href="./contributing/overview">Contributing guide</a> to get
+              started with how you can contribute to the CodeYourFuture
               Syllabus.
             </p>
             <h2 id="code-of-conduct">Code Of Conduct</h2>

@@ -78,7 +78,7 @@ Then we can do some high-level design. You should be able to answer all of these
 - What might these pages look like?
   - Sketch them out with a marker pen
     - We **don’t** want to spend too much time doing very detailed layout
-  - How could we decompose them into separate [components](https://codeyourfuture.github.io/syllabus-master/react/week-19/lesson.html#what-is-a-component) to work on?
+  - How could we decompose them into separate [components](/react/week-1/lesson) to work on?
 
 This will give you an idea of what work needs to get done during the week, which you can then assign to members of your team.
 

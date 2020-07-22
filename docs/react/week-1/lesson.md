@@ -68,7 +68,7 @@ There are no hard & fast rules for making components. UIs can be split up into c
 
 ## Rendering with React
 
-Remember how annoying it was to manage the DOM yourself in [our previous lesson](https://codeyourfuture.github.io/syllabus-master/js-core-2/week-2/lesson.html)? The "vanilla" JavaScript APIs for updating the DOM are quite long and difficult to remember. React makes this easier by manipulating each DOM element itself, instead of you doing it manually. You give React a "description" of the DOM that you want and it will update the DOM for you. React _abstracts_ away the management of the DOM.
+Remember how annoying it was to manage the DOM yourself in [our previous lesson](/js-core-2/week-2/lesson)? The "vanilla" JavaScript APIs for updating the DOM are quite long and difficult to remember. React makes this easier by manipulating each DOM element itself, instead of you doing it manually. You give React a "description" of the DOM that you want and it will update the DOM for you. React _abstracts_ away the management of the DOM.
 
 Let's take a look at an example. We are going to walk through how to render a `<div>` with the text "Hello World" within it.
 
