@@ -31,7 +31,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-> In-class exercises can also be found on [js-exercises repo](https://github.com/CodeYourFuture/js-exercises) **Week 4**.
+> In-class exercises can also be found on [JavaScript Core 2 Homework](https://github.com/CodeYourFuture/JavaScript-Core-2-Homework) in **Week 1**.
 
 ## Objects
 

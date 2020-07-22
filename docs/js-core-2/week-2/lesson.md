@@ -33,7 +33,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-> Please make sure you're working on the [js-exercises repo](https://github.com/CodeYourFuture/js-exercises) **Week 5** during this class.
+> In-class exercises can also be found on [JavaScript Core 2 Homework](https://github.com/CodeYourFuture/JavaScript-Core-2-Homework) in **Week 2**.
 
 ## JS in the Browser
 
