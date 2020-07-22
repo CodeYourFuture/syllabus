@@ -301,9 +301,7 @@ fetch("https://httpstat.us/500")
   });
 ```
 
-### Exercises
-
-#### Exercise 1
+#### Exercise
 
 In groups the students should create a page of details about the United Kingdom.
 
@@ -314,6 +312,11 @@ The website should include
 - The name of the country
 - The country's capital city
 - An unordered list of the country's name in other all of the other returned languages
+
+##### Getting Started
+
+1. Go to [this Glitch Project](https://glitch.com/edit/#!/js3-2-country-exercise?path=README.md%3A3%3A80)
+2. Click `Remix to Start` to being working
 
 ##### Steps
 
@@ -337,85 +340,11 @@ Example `html` and `javascript` files can be found in the section below
 - Add CSS to make your website look really nice
 - Add other information from the JSON to your Country Details
 
-##### Framework Files
-
-**index.html**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-
-    <title>Country Information</title>
-    <meta name="description" content="Country Information" />
-    <meta name="author" content="Code Your Future" />
-
-    <link rel="stylesheet" href="styles.css?v=1.0" />
-  </head>
-
-  <body>
-    <div id="content"></div>
-    <script src="scripts.js"></script>
-  </body>
-</html>
-```
-
-**scripts.js**
-
-```javascript
-// This function should retrieve the JSON from the `countryURL` and then call onCountryDataReceived() with the JSON
-function getData(countryURL) {}
-
-function onCountryDataReceived(country) {
-  addCountryName(country);
-  addCountryCapital(country);
-  addNameInOtherLanguages(country);
-}
-
-// This function should take the JSON for the country and put a H1 tag on the screen containing its name
-function addCountryName(countryData) {}
-
-// This function should take the JSON for the country and put a H2 tag on the screen containing its capital city
-function addCountryCapital(countryData) {}
-
-// This function should take the JSON for the country and put UL and LI tags on the screen with the countries name translated into other languages
-function addNameInOtherLanguages(countryData) {}
-
-function getContentDiv() {
-  return document.querySelector("#content");
-}
-
-function onLoad() {
-  getData(
-    "https://restcountries.eu/rest/v2/name/Great%20Britain?fullText=true"
-  );
-
-  /** Remove this line when you have completed the task
-
-    getData("https://restcountries.eu/rest/v2/name/France?fullText=true");
-
-    getData("https://restcountries.eu/rest/v2/name/Germany?fullText=true");
-
-    getData("https://restcountries.eu/rest/v2/name/Spain?fullText=true");
-
-    getData("https://restcountries.eu/rest/v2/name/Portugal?fullText=true");
-
-    getData("https://restcountries.eu/rest/v2/name/Hungary?fullText=true");
-
-    getData("https://restcountries.eu/rest/v2/name/Russia?fullText=true");
-
-    */ // Remove this line when you have completed the task
-}
-
-window.onload = onLoad;
-```
-
 ##### Finished Example
 
-You can find the finished example of this website [here](js-core-3\week-1\completed_country_website).
+You can find the finished example of this website [here](https://codeyourfuture.github.io/completed-country-website/).
 
-##### Recap
+#### Recap
 
 **Question (5 mins):**
 

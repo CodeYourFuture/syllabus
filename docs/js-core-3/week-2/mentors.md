@@ -47,6 +47,6 @@ Live Coding from scratch is really important here since the students will be doi
 
 #### Exercise 1
 
-A completed example of this exercise can be found [here](https://codeyourfuture.github.io/syllabus-london/js-core-3/week-2/js-core-3/week-1/completed_country_website)
+A completed example of this exercise can be found [here](https://github.com/CodeYourFuture/completed-country-website)
 
 ## To Be Improved
