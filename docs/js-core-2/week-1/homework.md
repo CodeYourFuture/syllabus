@@ -4,4 +4,6 @@ title: Homework
 sidebar_label: Homework
 ---
 
-[The repo](https://github.com/CodeYourFuture/js-exercises) contains few challenges - solve all the pending exercises in `week-4` and `week-4-practise`.
+[This repo](https://github.com/CodeYourFuture/JavaScript-Core-2-Homework) contains all of your homework for the three weeks of this module.
+
+Fork the repo and then complete the homework in `Week 1`.
