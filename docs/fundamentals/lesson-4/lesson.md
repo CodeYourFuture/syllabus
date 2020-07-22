@@ -36,11 +36,11 @@ _Tip_: A quiet class with no questions or suggestions is a difficult class to te
 
 You will give a very, very simple 2 minute presentation to 2 or 3 other students and a volunteer \(if one is available\). Before the presentations we'll have 5 minutes to prep. Pick your favourite project \(or the one that's most interesting to talk about\) and get ready to explain:
 
-* What you added to it
-* What was difficult
-* What you like and don't like about it
-* What you would add if you had time
-* Any parts of the code you still don't understand and might want help with
+- What you added to it
+- What was difficult
+- What you like and don't like about it
+- What you would add if you had time
+- Any parts of the code you still don't understand and might want help with
 
 With your group, find a quiet space, and set a stopwatch for 2 minutes and present.
 
@@ -76,10 +76,10 @@ Now the instructors will look at specific elements you've learned about and how 
 
 Outside of the Khan Academy course platform, you'll see some differences in JavaScript:
 
-* `let` and `const` used instead of `var`
-* Functions can be created many ways \(the Khan Academy way is uncommon\)
-* More features to learn about
-* ...
+- `let` and `const` used instead of `var`
+- Functions can be created many ways \(the Khan Academy way is uncommon\)
+- More features to learn about
+- ...
 
 ## Other free resources
 
@@ -87,40 +87,40 @@ We'll have a look at some of our favourite free resources - both online and in p
 
 ### In-person events
 
-* Coding "meetups"
-  * Free evening events, with 2 - 3 talks from other developers
-  * There is very often free pizza!
-  * Don't be scared of these, just go!
-  * Googling for "JavaScript meetup" or "Learn to code meetup" in your city is a good way to find these
-* [Codebar](https://codebar.io/)
-  * Meetup for people learning to code
-  * Professional developers will help with your coding problems
+- Coding "meetups"
+  - Free evening events, with 2 - 3 talks from other developers
+  - There is very often free pizza!
+  - Don't be scared of these, just go!
+  - Googling for "JavaScript meetup" or "Learn to code meetup" in your city is a good way to find these
+- [Codebar](https://codebar.io/)
+  - Meetup for people learning to code
+  - Professional developers will help with your coding problems
 
 ### Online
 
-* [freeCodeCamp](https://www.freecodecamp.org/)
-* [The Odin Project](https://www.theodinproject.com/)
-* Youtube: Some favourite channels of the recent graduates include [Traversy Media](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) and [Wes Bos](https://www.youtube.com/user/wesbos). 
-  * Find the teaching and learning style you like, but... [be cautious that you are not following tutorials blindly](https://www.youtube.com/watch?v=g_aMpyMvQ9k)
-* [Free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript)
-* [Stack Overflow](https://stackoverflow.com/)
-  * A forum for posting programming questions
-  * It can be a little intimidating, but it has a huge community so someone is likely to know the answer to your question
+- [freeCodeCamp](https://www.freecodecamp.org/)
+- [The Odin Project](https://www.theodinproject.com/)
+- Youtube: Some favourite channels of the recent graduates include [Traversy Media](https://www.youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) and [Wes Bos](https://www.youtube.com/user/wesbos).
+  - Find the teaching and learning style you like, but... [be cautious that you are not following tutorials blindly](https://www.youtube.com/watch?v=g_aMpyMvQ9k)
+- [Free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript)
+- [Stack Overflow](https://stackoverflow.com/)
+  - A forum for posting programming questions
+  - It can be a little intimidating, but it has a huge community so someone is likely to know the answer to your question
 
 ### Podcasts
 
-* [CodeNewbie](https://www.codenewbie.org/podcast)
+- [CodeNewbie](https://www.codenewbie.org/podcast)
 
 ### Editors and hosting
 
-* [CodePen](https://codepen.io/)
-* [Glitch](https://glitch.com/)
-* [CodeSandbox.io](https://codesandbox.io/)
-* [repl.it](https://repl.it/)
+- [CodePen](https://codepen.io/)
+- [Glitch](https://glitch.com/)
+- [CodeSandbox.io](https://codesandbox.io/)
+- [repl.it](https://repl.it/)
 
 ### Program stepped visualisation
 
-* [pythontutor.com](http://pythontutor.com/javascript.html) - it does JavaScript, too.
+- [pythontutor.com](http://pythontutor.com/javascript.html) - it does JavaScript, too.
 
 ## Homework
 
@@ -142,7 +142,7 @@ Continue to **Week 4** of the [Learning How to Learn course](https://www.courser
 
 If you enjoyed using JavaScript to make drawings and animations, we recommend further study and play with the p5.js library, using the [OpenProcessing](https://openprocessing.org) platform or CodePen.
 
-Here are some [notes on moving to p5.js](../after-the-course/from-khan-academy-processingjs-to-p5js.md).
+Here are some [notes on moving to p5.js](/fundamentals/after-the-course/processing-migrating).
 
 If we have time, we will do [a short workshop on moving your work to to p5.js](../after-the-course/p5js-and-openprocessing-workshop.md).
 
@@ -154,6 +154,5 @@ Here is an essay by Jason Bailey about "generative art". It has lots of interest
 
 Suggestions:
 
-* More Zip-Zap-Boing
-* Happy Salmon
-
+- More Zip-Zap-Boing
+- Happy Salmon

@@ -361,7 +361,7 @@ Try to categorise the bugs found under:
 
 In your groups we want you to go through this program and find all of the bugs that are happening in this code.
 
-You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/london/js-core-3/week-1/debugging-code)
+You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/master/docs/js-core-3/week-1/debugging-code)
 
 ## Quiz (10 - 15 minutes)
 
@@ -379,7 +379,7 @@ You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
 ## Getting Setup
 
-In your groups you should get the project setup using the exact instructions found [here](https://github.com/CodeYourFuture/syllabus/tree/master/js-core-3/tv-show-dom-project/getting-started.md). Make sure you use your Teaching Assistants to help you!
+In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
 
 ## Homework
 

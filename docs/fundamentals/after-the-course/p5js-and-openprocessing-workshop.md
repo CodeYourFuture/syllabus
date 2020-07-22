@@ -6,7 +6,7 @@ sidebar_label: Migrating from Processing.js to p5.js
 
 ## \(Rough\) workshop outline - migrating to p5.js and openprocessing.org
 
-Bookmark [Neill's longer notes on migrating from khan academy's processing.js to p5.js](from-khan-academy-processingjs-to-p5js.md). You can read them at home.
+Bookmark [Neill's longer notes on migrating from khan academy's processing.js to p5.js](/fundamentals/after-the-course/processing-migrating). You can read them at home.
 
 Make an account on [openprocessing.org](https://openprocessing.org)
 
@@ -65,7 +65,7 @@ Check out some examples - each function has multiple examples of how it can be u
 
 Create a new sketch, and bring your favourite project across from khan academy.
 
-You will need to consider [these notes about migrating from khan academy processing.js to p5.js](from-khan-academy-processingjs-to-p5js.md#differences-between-khan-academy-processingjs-and-p5js)
+You will need to consider [these notes about migrating from khan academy processing.js to p5.js](/fundamentals/after-the-course/processing-migrating)
 
 ## Other starting points
 

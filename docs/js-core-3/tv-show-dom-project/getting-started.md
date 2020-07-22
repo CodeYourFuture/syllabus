@@ -25,7 +25,7 @@ Important: unlike previous CYF homework projects, you should **NOT** fork the CY
 1. Add and commit and your change
 1. Push to github
 1. Confirm the changes show up on github **in your `master` branch**
-1. Configure your site for automatic deployment to Netlify [Instructions here](https://github.com/CodeYourFuture/syllabus/blob/master/others/deployment/1-for-html-module/cheatsheet-1.md)
+1. Configure your site for automatic deployment to Netlify [Instructions here](/guides/netlify-auto-deploy)
 1. Ensure the netlify site name is exactly `cyf-USERNAME-tv`.netlify.app where USERNAME is YOUR github username.
 1. Visit your deployed site
 1. Set your new repo's website link on github to be your netlify URL, under manage topics
