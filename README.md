@@ -1,4 +1,4 @@
-# [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/CodeYourFuture/syllabus/blob/master/CONTRIBUTING.md)
+# [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
 This is the syllabus and course material for
 [CodeYourFuture](https://codeyourfuture.io/) (CYF),
