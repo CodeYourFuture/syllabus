@@ -248,7 +248,7 @@ module.exports = {
     ],
     Workshop: [
       "workshops/deployment/workshop/instructions",
-      "workshops/deployment/workshop/workshop-1",
+      "workshops/deployment/workshop/workshop",
       "workshops/deployment/workshop/workshop-1-mentors",
       "workshops/deployment/workshop/cheatsheet",
     ],
