@@ -605,7 +605,7 @@ quicker();
 
 For the rest of the day we'll be working together on our group projects
 
-You can find the project [here](../js-core-3/tv-show-dom-project/readme)
+You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
 Students should group into teams based on the Level that they are working on currently.
 
