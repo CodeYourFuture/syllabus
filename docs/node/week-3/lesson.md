@@ -15,7 +15,7 @@ By the end of this lesson students should be able to:
 
 ## CRUD Review
 
-## Exercises
+### Exercises
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -30,7 +30,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
-### Objective
+#### Objective
 
 Change a quote API server to allow updating a quote according to the given ID.
 

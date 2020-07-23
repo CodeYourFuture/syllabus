@@ -27,11 +27,11 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 Below are three in-class exercises which can be used to demonstrate parts of the API workshop below.
 
-## (1) Get Exercise
+### (1) Get Exercise
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
-### Objective
+#### Objective
 
 Change a quote API server to allow GETting a quote according to the given ID.
 
@@ -43,11 +43,11 @@ You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~c
 
 When you remix the starting project, immediately rename it as your own.
 
-## (2) Post Exercise
+### (2) Post Exercise
 
 This is an Teacher led exercise which can be used to show how we might add an element to an array
 
-## Objective
+#### Objective
 
 Change a quote API server to allow POSTs of new quotes.
 
@@ -65,11 +65,11 @@ When you remix our starting project, immediately rename it.
 
 Then you can visit / and submit the form there, when you are ready to try to submit new quotes!
 
-## (3) Delete Exercise
+### (3) Delete Exercise
 
 This is an Teacher led exercise which can be used to show how we might remove an element to an array
 
-## Objective
+#### Objective
 
 Change a quote API server to allow updating a quote according to the given ID.
 
@@ -83,7 +83,7 @@ You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~
 
 When you remix the starting project, immediately rename it as your own.
 
-# Workshop - Let's build an API
+## Workshop - Let's build an API
 
 You can use this [Express Cheatsheet](https://github.com/nbogie/express-notes/blob/master/express-cheatsheet.md) to help you.
 
@@ -154,7 +154,7 @@ app.get("/albums", function (req, res) {
 
 3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
-# Step 7: GET /albums/:albumId
+## Step 1: GET /albums/:albumId
 
 **Complete in-class (1) GET Exercise at this point**
 
@@ -177,7 +177,7 @@ app.get("/albums/:albumId", function (req, res) {
 });
 ```
 
-## Step 7.1 - Install nodemon
+### Step 1.1 - Install nodemon
 
 It is a bit annoying that we have to _kill_ and _restart_ our server every time we want to test our changes. There is a handy **npm package** that can help us with that task.
 
@@ -194,7 +194,7 @@ scripts: {
 
 now from your terminal, use the command `npm run dev` and that will run the _server_ with `nodemon` which is a package that makes the server listen to code changes and automatically restart.
 
-# Step 8: Add a new album
+## Step 2: Add a new album
 
 **Complete in-class (2) Post Exercise at this point**
 
@@ -256,7 +256,7 @@ app.post("/albums", function (req, res) {
 
 > Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
 
-## Step 9: Delete an album
+## Step 3: Delete an album
 
 **Complete in-class (3) DELETE Exercise at this point**
 
