@@ -88,7 +88,7 @@ const greekGods = [
 // asynchronous - same as before but the index and the value of the god at position 2 in array should be printed after 2 seconds. Use: setTimeout()
 ```
 
-### The Callstack
+## The Callstack
 
 How does JavaScript 'know' what order its code should be run in?
 
@@ -125,7 +125,7 @@ Since there is only one call stack in Javascript, function execution is done one
 
 > So, how to the `call stack` and `asynchronous` work together? Asynchronous programming essentially helps us to make JavaScript act like a multi-threaded language -- although JavaScript only has a single call stack managing function execution, coding our JavaScript asynchronously means that we can have several functions executing at the same time.
 
-### Callbacks
+## Callbacks
 
 We have already seen callback functions - in the Array methods `forEach`, `map`, `filter` etc. They are functions that are passed as parameter to another function.
 
@@ -178,7 +178,7 @@ function myCallbackFunction() {
 mainFunction(myCallbackFunction);
 ```
 
-#### Exercise (2)
+### Exercise (2)
 
 > - Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
 > - Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
@@ -187,7 +187,7 @@ mainFunction(myCallbackFunction);
 >
 > Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?editors=1011)
 
-#### Exercise (3)
+### Exercise (3)
 
 > Complete the exercises in this [CodePen](https://codepen.io/textbook/pen/MWwMgmW?editors)
 >
