@@ -206,7 +206,7 @@ module.exports = {
   },
   SQL: {
     Overview: ["db/index"],
-    "Lesson 1": ["db/week-1/lesson", "node/week-1/instructors"],
+    "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
     "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
     "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
   },
