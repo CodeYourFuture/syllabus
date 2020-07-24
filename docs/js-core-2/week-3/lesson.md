@@ -238,7 +238,7 @@ The network tab is a useful tool that helps us understand how content is loaded 
 
 You can view it by `Right Click` > `Inspect` > `Network`.
 
-Take some time to look at the network tab when we open [this lesson](/js-core-2/week-3/lesson)/
+Take some time to look at the network tab when we open [this lesson](/js-core-2/week-3/lesson).
 
 The important parts of the the Network Tab are:
 
