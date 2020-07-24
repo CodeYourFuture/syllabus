@@ -15,7 +15,7 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ## Assessments
 
-- [To-Do List - 24/07/2020](https://gist.github.com/nbogie/9bdfd66d9a67a228aa07f738eb4b84a8)
+- [To-Do List Assessment - 24/07/2020](https://gist.github.com/nbogie/9bdfd66d9a67a228aa07f738eb4b84a8)
   - Created by London and Neill
 
 ## Notes
