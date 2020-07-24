@@ -20,5 +20,7 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
   - This can be done in class or set as homework.
 - [Self-Assessment - JavaScript Core 1](https://docs.google.com/forms/u/1/d/e/1FAIpQLScW1J7Cr9H7Yr0rjPkgs9hv91nOnGueFe2d4Ir1-pNWEAisGQ/viewform)
   - Created by London and Chris Owen
-
+- [Basic JS Comprehension Assessment](https://docs.google.com/document/d/1nzNd1cUl_u1lO35_cPVZ_A9SIbbGTe8xGcHnHHy-q9o/edit)
+  - Created by Shukri Ali and Birmingham
+  
 ## Notes
