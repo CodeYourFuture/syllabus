@@ -7,6 +7,7 @@ module.exports = {
   projectName: "Syllabus",
   plugins: [
     require.resolve("@docusaurus/plugin-google-analytics"),
+    require.resolve("@cmfcmf/docusaurus-search-local"),
     [
       require.resolve("@docusaurus/plugin-sitemap"),
       {
@@ -16,7 +17,6 @@ module.exports = {
       },
     ],
   ],
-
   themeConfig: {
     googleAnalytics: {
       trackingID: "UA-159979458-2",
