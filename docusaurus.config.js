@@ -7,7 +7,12 @@ module.exports = {
   projectName: "Syllabus",
   plugins: [
     require.resolve("@docusaurus/plugin-google-analytics"),
-    require.resolve("@cmfcmf/docusaurus-search-local"),
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        docsBasePath: "/",
+      },
+    ],
     [
       require.resolve("@docusaurus/plugin-sitemap"),
       {
