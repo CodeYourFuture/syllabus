@@ -29,7 +29,7 @@ module.exports = {
         alt: "CodeYourFuture Logo",
         src: "img/logo.png",
       },
-      links: [
+      items: [
         {
           label: "Modules",
           position: "left",
