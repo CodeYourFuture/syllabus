@@ -102,6 +102,13 @@ module.exports = {
       "js-core-2/week-3/homework",
       "js-core-2/week-3/instructors",
     ],
+    Challenges: [
+      {
+        type: "link",
+        label: "JavaScript Challenges",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-2-Challenges",
+      },
+    ],
   },
   JavaScriptCore3: {
     Overview: ["js-core-3/index"],
