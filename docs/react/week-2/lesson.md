@@ -260,11 +260,21 @@ const [count, setCount] = useState(0);
 
 To fully understand this bit of code, we first have to understand _destructuring_. Let's look at [this blog post by Wes Bos about array destructuring](https://github.com/wesbos/es6-articles/blob/master/19%20-%20Destructing%20Arrays.md).
 
-Now we can understand that `useState` is returning an array, with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render.
+Now we can understand that `useState` is returning an array, with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
 
-The second item in the array is a function that we will use to update our state.
+:::tip
+Follow the `useState` naming convention.
+:::
 
-> **Note**: You can call the 2nd item in the `useState` array what you like, but it is widely accepted practice to name it _set_ + _the state variable name_. Example: `setCount`, or `setUserIsLoggedIn`
+When we destructure an array, we can name the variables whatever we want, but there is a naming convention when destructuring the `useState` array. The first variable should be named whatever your state is called, and the second variable should be the same name but prefixed with `set`. Let's look at some examples:
+
+```js
+const [userIsLoggedIn, setUserIsLoggedIn] = useState(false)
+
+const [username, setUsername] = useState('chris')
+
+const [unreadMessages, setUnreadMessages] = useState(5)
+```
 
 ### Updating State
 
