@@ -425,35 +425,40 @@ The `list.push` method won't work here, as this method _mutates_ the existing ar
 
 ### Setting multiple States
 
-So far we've only seen an example with one state variable. But you can create multiple state variables if you want! Let's see an example ([interactive example](https://codesandbox.io/s/multiple-state-variables-piq5w?file=/src/FruitCounter.js)):
+So far we've only seen an example with one state variable. But you can create multiple state variables if you want! Let's see an example ([interactive example](https://codesandbox.io/s/multiple-state-variables-b3g9d?file=/src/Weather.js)):
 
 ```js
-function FruitCounter() {
-  const [fruit, setFruit] = useState("bananas");
-  const [count, setCount] = useState(0);
+function Weather() {
+  const [temperature, setTemperature] = useState(15);
+  const [conditions, setConditions] = useState("sunny");
 
-  function handleOrangesClick() {
-    setFruit("oranges");
+  function makeItHotter() {
+    setTemperature(temperature + 1);
   }
-  function handleBananasClick() {
-    setFruit("bananas");
+  function makeItColder() {
+    setTemperature(temperature - 1);
   }
 
-  function incrementCount() {
-    setCount(count + 1);
+  function makeItSunny() {
+    setConditions("sunny");
+  }
+  function makeItRainy() {
+    setConditions("rainy");
   }
 
   return (
     <div>
-      <div>
-        Pick a fruit:
-        <button onClick={handleOrangesClick}>Oranges</button>
-        <button onClick={handleBananasClick}>Bananas</button>
-      </div>
-      <p>
-        We have {count} {fruit}
-      </p>
-      <button onClick={incrementCount}>Increment</button>
+      <h1>Today's Weather</h1>
+      <ul>
+        <li>Temperature will be {temperature}°C</li>
+        <li>The conditions will be {conditions}</li>
+      </ul>
+
+      <hr />
+      <button onClick={makeItHotter}>+</button>
+      <button onClick={makeItColder}>-</button>
+      <button onClick={makeItSunny}>Make it sunny</button>
+      <button onClick={makeItRainy}>Make it rainy</button>
     </div>
   );
 }
