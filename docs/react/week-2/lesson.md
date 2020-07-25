@@ -269,11 +269,11 @@ Follow the `useState` naming convention.
 When we destructure an array, we can name the variables whatever we want, but there is a naming convention when destructuring the `useState` array. The first variable should be named whatever your state is called, and the second variable should be the same name but prefixed with `set`. Let's look at some examples:
 
 ```js
-const [userIsLoggedIn, setUserIsLoggedIn] = useState(false)
+const [userIsLoggedIn, setUserIsLoggedIn] = useState(false);
 
-const [username, setUsername] = useState('chris')
+const [username, setUsername] = useState("chris");
 
-const [unreadMessages, setUnreadMessages] = useState(5)
+const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
 ### Updating State
