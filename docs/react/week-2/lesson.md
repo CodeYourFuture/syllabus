@@ -96,11 +96,9 @@ function ClickLogger() {
 }
 ```
 
-You might find it a little strange that we have a function inside a function. But this is a normal thing to do in JavaScript! `logWhenClicked` is within the _scope_ of our `ClickLogger` component.
-
 Every element in React has some special props that start with `on` that can be assigned to a function which will be called when the event is triggered.
 
-Here's a few examples:
+Here's a few examples (a full list is available [here](https://reactjs.org/docs/events.html#reference)):
 
 - `onClick` - the element was clicked
 - `onCopy` - the clipboard is used to copy some text
@@ -111,9 +109,11 @@ Here's a few examples:
 - `onPlay` - a video starts playing
 - `onSubmit` - a form element is submitted
 
-A full list of special event handler props is available [here](https://reactjs.org/docs/events.html#reference).
+Notice that just like with `addEventListener` above, we pass the function reference to `onClick` instead of calling the function. If we call the function, it will run when we render, not when the user clicks on the button.
 
-Just like with `addEventListener` we pass the function reference to `onClick` instead of calling the function. Think of it like this: we give the function to React, so that React can call our function when the element is clicked.
+:::tip
+Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
+:::
 
 | **Exercise A**                                                                                                                            |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
