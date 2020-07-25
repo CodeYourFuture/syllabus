@@ -41,37 +41,160 @@ function Counter() {
 export default Counter;
 ```
 
-We also looked at fetching data in our React components ([interactive example](https://codesandbox.io/s/react-3-recap-h2p24?file=/src/MartianPhotoFetcher.js)):
+## Fetching Data in React
+
+Often when you create a React app, you will want to get data from an API, and display it inside your components.
+How do we do this in React? Where does the API call go, and when should we trigger it?
+
+**Where:** Usually in a parent component, at the top of the component tree (see the note about 'container' components above). You can then flow the data down into your child components as props.
+
+**When:** When the component is first loaded into the DOM. We call this 'mounting'.
+
+**How:** With a handy new hook called `useEffect`.
+
+### The `useEffect` Hook
+
+Just like `useState`, the `useEffect` hook is a special function that all function components can import and use as needed. This is the syntax to follow to fetch data when the component is first mounted:
 
 ```js
-import React, { useState, useEffect } from "react";
+useEffect(() => {
+  // Make your fetch API call here
+}, []); // Don't forget the empty array here!
+```
 
-const MartianPhotoFetcher = () => {
-  const [marsPhotos, setMarsPhotos] = useState();
+And here is a more complete example (see [interactive example](https://codesandbox.io/s/the-useeffect-hook-jtz5u?file=/src/MartianPhotoFetcher.js)):
+
+```js
+import React, { useState, useEffect } from "react"; // remember to import the Hook(s) you need!
+
+function MartianPhotoFetcher() {
+  const [marsPhotos, setMarsPhotos] = useState({});
 
   useEffect(() => {
     fetch(
-      `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=gnesiqnKCJMm8UTYZYi86ZA5RAnrO4TAR9gDstVb`
+      `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
     )
       .then((res) => res.json())
       .then((data) => setMarsPhotos(data));
   }, []);
 
-  if (!marsPhotos) {
-    return null;
-  } else {
+  if (marsPhotos.photos) {
     return (
-      <img
-        src={marsPhotos.photos[0].img_src}
-        alt="Mars Rover"
-        style={{ width: "100%" }}
-      />
+      <div>
+        {marsPhotos.photos.map((photo, index) => {
+          return (
+            <img
+              key={`mars-photo-${index}`}
+              src={photo.img_src}
+              alt={photo.camera.name}
+            />
+          );
+        })}
+      </div>
     );
+  } else {
+    return <div>Loading...</div>;
   }
-};
+}
 
 export default MartianPhotoFetcher;
 ```
+
+In the code above, we're saying to React “When this component is mounted, call the NASA photos API, and when you receive a response, save it inside of the 'marsPhotos' state”.
+
+This is a very common pattern which will come in very useful!
+
+| **Exercise E**                                                                                                                                                                                                                                                                    |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open the `pokedex` React application again and open the `src/BestPokemon.js` file.                                                                                                                                                                                             |
+| 2. Add a new component inside `src/BestPokemon.js` called `BestPokemonFetcher`.                                                                                                                                                                                                   |
+| 3. Change the `export default` to export `BestPokemonFetcher` instead of `BestPokemon`. We **don't** need to make any changes to the `BestPokemon` component.                                                                                                                     |
+| 4. In the new `BestPokemonFetcher` component, create a new state variable called `bestPokemon` and initialise it to `null`. <details><summary>Click here if you are stuck.</summary>Look at the State section to see how to create state variables.</details>                     |
+| 5. If there is no `bestPokemon` state (hint: `if (!bestPokemon) {}`), then return `null` so that the component renders nothing.                                                                                                                                                   |
+| 6. If there is some `bestPokemon` state (`else {}`), then render the `BestPokemon` component and pass the `bestPokemon` state variable as the `pokemon` prop (hint: `<BestPokemon pokemon={bestPokemon} />`).                                                                     |
+| 7. Now add a `useEffect` to the `BestPokemonFetcher` component. Make sure you remember to add the empty array after the callback function. <details><summary>Click here if you are stuck.</summary>Look at the examples above to see how to add <code>useEffect</code>.</details> |
+| 8. Inside the `useEffect` callback, call the `fetch` function with this URL: `https://pokeapi.co/api/v2/pokemon/1/`.                                                                                                                                                              |
+| 9. Add a `.then` handler into the `fetch` function (remember this needs to come immediately after the `fetch` call) which converts the response from JSON (hint: `.then(res => res.json())`).                                                                                     |
+| 10. Add a second `.then` handler after the one we just added, where the callback function will receive an argument called `data`.                                                                                                                                                 |
+| 11. Within the second `.then` callback function, log out the data that we just received (hint: `console.log(data)`). Inspect the data in the dev tools console. Can you see any interesting values? (Hint: think about what the `BestPokemon` component expects as a prop)        |
+| 12. Still within the second `.then` callback function, update the `bestPokemon` state variable. <details><summary>Click here if you are stuck.</summary>Refer to the State section again to see how to set state variables to new values.</details>                               |
+| 13. What happens in your browser? Do you understand why? If not, discuss it with another student. If you are both stuck, ask a Teaching Assistant.                                                                                                                                |
+
+### A note on conditional rendering
+
+In the `MartianPhotoFetch` component above, we have wrapped our JSX inside an `if` / `else` statement. This is common practice in React, as it allows us to show something different depending on the situation (for example if there is no data to display, show the user something else instead).
+
+The syntax above is correct, but you may also see this done in 2 other ways:
+
+#### The ternary operator `? :`
+
+The _ternary operator_ follows this structure `condition ? output1 : output2`.
+
+#### The double ampersand `&&`
+
+The double ampersand `&&` is used when you don't have an `else`. The implication is that when the condition is not fulfilled, nothing will render.
+
+Let's see what that looks like in our component:
+
+**with the ternary operator:**
+
+```js
+return marsPhotos.photos ? (
+  <div>
+    {marsPhotos.photos.map((photo, index) => {
+      return (
+        <img
+          key={`mars-photo-${index}`}
+          src={photo.img_src}
+          alt={photo.camera.name}
+        />
+      );
+    })}
+  </div>
+) : (
+  <div>Loading...</div>
+);
+```
+
+**with `&&`:**
+
+```js
+return (
+  marsPhotos.photos && (
+    <div>
+      {marsPhotos.photos.map((photo, index) => {
+        return (
+          <img
+            key={`mars-photo-${index}`}
+            src={photo.img_src}
+            alt={photo.camera.name}
+          />
+        );
+      })}
+    </div>
+  )
+);
+```
+
+You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no 'else').
+
+| **Exercise F**                                                                     |
+| :--------------------------------------------------------------------------------- |
+| Go back to the `BesPokemon.js` file                                                |
+| Change the `if` / `else` statement in your JSX to use the ternary operator instead |
+
+### Container components
+
+In real world applications, the things we want to remember in state follow the [_business logic_](https://en.wikipedia.org/wiki/Business_logic) required by our users. So for example the number of caught Pokemon in the exercise increases when you click on the button _Catch Pokemon_. Most of the time, business logic is about figuring out when and how to change state.
+
+To help us cleanly split up code that performs business logic from code that shows the user interface, we split components into _presentational_ and _container_ components. Often we have components that don't do anything except manage state according to the business rules and render the right presentational components. On the other hand, we often have components that don't change any state, and just render using the provided props.
+
+Container components usually have some state and handler methods, while presentational components usually just receive props and render JSX using these props.
+
+| **Exercise G**                                                                                                                                             |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Take a look at the componenets in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
+| Discuss this with another student.                                                                                                                         |
 
 ## Updating Data Fetching when Props Change
 
