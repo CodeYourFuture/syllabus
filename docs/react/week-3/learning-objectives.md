@@ -6,8 +6,14 @@ sidebar_label: Learning Objectives
 
 ## React Week 3
 
-### Data fetching (advanced)
+### Data fetching
 
+Show some data from an API in a component.
+
+- Can explain why a loading state is necessary when fetching data as the result is not available on the initial render
+- Be able to trigger `fetch()` using the `useEffect()` callback, with an empty array (`[]`) as the 2nd dependencies argument
+- Be able to store data from a successful API call in state
+- Be able to catch an unsuccessful API call, store the error in state and render an error message
 - Allow effects to update in response to prop changes
   - Explain why a component with an effect dependent on props is broken with empty `useEffect()` dependencies (`[]`)
   - Be able to fix a component with an effect dependent on props using the `useEffect()` dependencies
