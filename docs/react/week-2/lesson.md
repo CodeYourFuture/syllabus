@@ -382,6 +382,47 @@ function App() {
 }
 ```
 
+### More complex states
+
+The examples we've looked at so far have used numbers, strings and booleans. You can also use arrays and objects in state too. Let's take a look at an example.
+
+```js
+function ShoppingList() {
+  const [list, setList] = useState([]);
+
+  function addToList() {
+    setList(list.concat("Bread"));
+  }
+
+  return (
+    <p>
+      <button onClick={addToList}>Add item to list</button>
+      {list.map((item, index) => {
+        return <li key={index}>{item}</li>;
+      })}
+    </p>
+  );
+}
+```
+
+In this shopping list example, we're initialising the `list` state to be an empty array. To display our list we loop through the array (like we learned last week) and render each item on the list.
+
+When we want to add something to the list, we can use the `list.concat` method to make a new array with the new item. This new array is then set as the new state. Right now, our example is not very useful as it can only add Bread to the list! Next week, we'll look at how we can allow users to write their own items to the list.
+
+:::tip
+Don't use the array `push` method with state. Instead use the array `concat` method.
+:::
+
+The `list.push` method won't work here, as this method _mutates_ the existing array. React requires a completely new array to be set as the new state, otherwise it doesn't realise that the value has changed. The `concat` method works because it copies the whole existing array to a brand new array before it adds the new item.
+
+| **Exercise E**                                                                                                                                                                                                                                                                  |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                   |
+| 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                             |
+| 3. Instead of rendering `pokemonCaught.length`, use the `map` method to loop through each item in the array and render it in an `<li>` element.                                                                                                                                 |
+| 4. Change the `catchPokemon` function to add a new Pokemon (it doesn't matter which one) onto the `pokemonCaught` array. Hint: use the `concat` method.                                                                                                                         |
+| 5. **OPTIONAL** Generate a random Pokemon each time you click the button <details><summary>Click here if you're stuck.</summary>[This StackOverflow post](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array) may be helpful.</details> |
+
 ### Setting multiple States
 
 So far we've only seen an example with one state variable. But you can create multiple state variables if you want! Let's see an example ([interactive example](https://codesandbox.io/s/multiple-state-variables-piq5w?file=/src/FruitCounter.js)):
