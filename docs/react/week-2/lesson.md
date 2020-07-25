@@ -276,6 +276,13 @@ const [username, setUsername] = useState("chris");
 const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
+| **Exercise B**                                                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
+| 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
+| 3. Initialise a new state variable with `useState` that will fix the app. Think carefully about how you should name the variables.     |
+| 4. Discuss with another student how you would create another state variable that represents the weather conditions (e.g. sunny, rain). |
+
 ### Updating State
 
 Our Counter isn't very useful right now! Let's make it more useful by getting `count` to actually count up ([interactive example](https://codesandbox.io/s/usestate-counter-lorv5?file=/src/Counter.js)):
