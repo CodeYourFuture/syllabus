@@ -276,7 +276,7 @@ const [username, setUsername] = useState("chris");
 const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
-| **Exercise B**                                                                                                                         |
+| **Exercise C**                                                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
 | 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
@@ -334,12 +334,14 @@ function Counter() {
 
 On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
 
-| **Exercise C**                                                                                                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                |
-| 2. Create a new state variable called `totalCaught` and initialise it to `0`                                                                                 |
-| 3. When you create the `totalCaught` state, you should also set the function that will update this state (hint: refer to the syntax of the `useState` hook). |
-| 4. Replace the number 0 in the JSX with your new `totalCaught` state.                                                                                        |
+| **Exercise D**                                                                                                                                                                                                                                                                                                                                                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                                                                                                                                 |
+| 2. Create a new state variable with `useState`. It should be named `totalCaught` and be initialised to `0`                                                                                                                                                                                                                                                                                    |
+| 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `totalCaught` state.                                                                                                                                                                                                                                                                                     |
+| 4. Add a button to the component with an `onClick` handler that calls a function called `incrementTotalCaught`.                                                                                                                                                                                                                                                                               |
+| 5. Create the `incrementTotalCaught` function and update the `totalCaught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `totalCaught + 1`.</details>                                                                                    |
+| 6. Write down the things that will happen when you click the button. Compare your list with another student and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
 
 #### Don't mutate State
 
@@ -415,13 +417,6 @@ function FruitCounter() {
   );
 }
 ```
-
-| **Exercise D**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Back in the `CaughtPokemon.js` file in your `pokedex` app                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 2. Add a button to the component with an `onClick` handler that calls a function called `incrementTotal`.                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 3. What do you think will happen when the button is clicked? Why is that?                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 4. Using the fruits example above, make changes to the `CaughtPokemon` component so that the `totalCaught` state is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>The <code>incrementTotal</code> function you created gets called onClick, but so far, it doesn't actually do anything. To fix this, <code>incrementTotal</code> will need to call the function you set when you created the <code>totalCaught</code> state (the 2nd item in the useState array).</details> |
 
 ### When do you use Props or State?
 
