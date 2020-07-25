@@ -23,18 +23,19 @@ Click [here](./learning-objectives) to see the Learning Objectives for this less
 
 Last week we looked at how to write a `HelloMentor` React component ([interactive example](https://codesandbox.io/s/react-2-recap-7zvk9n1950?file=/src/HelloMentor.js)):
 
-```js
-// Greeting.js
+```js title="Greeting.js"
 function Greeting() {
   return <span>Hello</span>;
 }
+```
 
-// Mentor.js
+```js title="Mentor.js"
 function Mentor(props) {
   return <span>{props.name}</span>;
 }
+```
 
-// index.js
+```js title="index.js"
 import Greeting from "./Greeting";
 import Mentor from "./Mentor";
 
