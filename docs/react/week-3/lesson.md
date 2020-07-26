@@ -133,45 +133,33 @@ useEffect(() => {
 
 :::
 
-And here is a more complete example (see [interactive example](https://codesandbox.io/s/the-useeffect-hook-jtz5u?file=/src/MartianPhotoFetcher.js)):
+You might have noticed that we still haven't rendered the data from the API. We now need to tell React to re-render once we get the data. This sounds like a job for state!
+
+Let's look an example of how we can use state and `useEffect` to do this ([interactive example](https://codesandbox.io/s/using-the-useeffect-hook-jtz5u?file=/src/MartianPhotoFetcher.js)):
 
 ```js
-import React, { useState, useEffect } from "react"; // remember to import the Hook(s) you need!
-
 function MartianPhotoFetcher() {
-  const [marsPhotos, setMarsPhotos] = useState({});
+  const [marsPhotoData, setMarsPhotoData] = useState(null);
 
   useEffect(() => {
     fetch(
       `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
     )
       .then((res) => res.json())
-      .then((data) => setMarsPhotos(data));
+      .then((data) => {
+        setMarsPhotoData(data);
+      });
   }, []);
 
-  if (marsPhotos.photos) {
-    return (
-      <div>
-        {marsPhotos.photos.map((photo, index) => {
-          return (
-            <img
-              key={`mars-photo-${index}`}
-              src={photo.img_src}
-              alt={photo.camera.name}
-            />
-          );
-        })}
-      </div>
-    );
+  if (marsPhotoData) {
+    return <img src={marsPhotoData.photos[0].img_src} alt="Martian surface" />;
   } else {
-    return <div>Loading...</div>;
+    return null;
   }
 }
-
-export default MartianPhotoFetcher;
 ```
 
-In the code above, we're saying to React “When this component is mounted, call the NASA photos API, and when you receive a response, save it inside of the 'marsPhotos' state”.
+The timeline of this component is now what we wanted at the start: after the component has rendered the first time (this is sometimes called _mounting_), fetch data from the NASA API. When the response is received, update the state and re-render so that we can show the data on-screen.
 
 This is a very common pattern which will come in very useful!
 
