@@ -176,68 +176,48 @@ The timeline of this component is now what we wanted at the start: after the com
 | 12. Still within the second `.then` callback, set the `pokemonData` state to be the `data` object we received from the API.                                                                                                                                |
 | 13. What happens in your browser? Do you understand why? If not, discuss it with another student. If you are both stuck, ask a Teaching Assistant.                                                                                                         |
 
-### A note on conditional rendering
+### Conditional rendering
 
-In the `MartianPhotoFetch` component above, we have wrapped our JSX inside an `if` / `else` statement. This is common practice in React, as it allows us to show something different depending on the situation (for example if there is no data to display, show the user something else instead).
+In the `MartianPhotoFetcher` component above, we wrapped our JSX inside an `if` / `else` statement. This is common practice in React, as it allows us to show something different depending on the situation (for example if there is no data to display, show the user something else instead).
 
-The syntax above is correct, but you may also see this done in 2 other ways:
+You may also see this done in 2 other ways:
 
 #### The ternary operator `? :`
 
-The _ternary operator_ follows this structure `condition ? output1 : output2`.
-
-#### The double ampersand `&&`
-
-The double ampersand `&&` is used when you don't have an `else`. The implication is that when the condition is not fulfilled, nothing will render.
-
-Let's see what that looks like in our component:
-
-**with the ternary operator:**
-
-```js
-return marsPhotos.photos ? (
-  <div>
-    {marsPhotos.photos.map((photo, index) => {
-      return (
-        <img
-          key={`mars-photo-${index}`}
-          src={photo.img_src}
-          alt={photo.camera.name}
-        />
-      );
-    })}
-  </div>
-) : (
-  <div>Loading...</div>
-);
-```
-
-**with `&&`:**
+The _ternary operator_ follows this structure `condition ? outputIfTrue : outputIfFalse` ([interactive example](https://codesandbox.io/s/conditional-rendering-with-ternary-operator-tjro6?file=/src/MartianPhotoFetcher.js)):
 
 ```js
 return (
-  marsPhotos.photos && (
-    <div>
-      {marsPhotos.photos.map((photo, index) => {
-        return (
-          <img
-            key={`mars-photo-${index}`}
-            src={photo.img_src}
-            alt={photo.camera.name}
-          />
-        );
-      })}
-    </div>
-  )
+  <div>
+    {marsPhotoData ? (
+      <img src={marsPhotoData.photos[0].img_src} alt="Martian surface" />
+    ) : (
+      <span>Loading...</span>
+    )}
+  </div>
 );
 ```
 
-You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no 'else').
+#### The double ampersand `&&`
 
-| **Exercise F**                                                                     |
-| :--------------------------------------------------------------------------------- |
-| Go back to the `BesPokemon.js` file                                                |
-| Change the `if` / `else` statement in your JSX to use the ternary operator instead |
+The double ampersand `&&` is used when you don't have an `else`. The implication is that when the condition is not fulfilled, nothing will render ([interactive example](https://codesandbox.io/s/conditional-rendering-with-double-ampersand-1b5t9?file=/src/MartianPhotoFetcher.js)):
+
+```js
+return (
+  <div>
+    {marsPhotoData && (
+      <img src={marsPhotoData.photos[0].img_src} alt="Martian surface" />
+    )}
+  </div>
+);
+```
+
+You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no `else` case).
+
+| Exercise B (estimate: 5 min)                                                                                                        |
+| :---------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                               |
+| 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead. |
 
 ### Container components
 
