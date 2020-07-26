@@ -219,11 +219,9 @@ You'll notice in the `&&` example above, we do not render a 'Loading...' message
 | 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                               |
 | 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead. |
 
-## Updating Data Fetching when Props Change
-
-Last week we looked at how we could fetch data from an API and render it in our React applications. However, there was a problem with the method that we learned before. To understand this problem we first have to understand the _lifecycle_ of a component.
-
 ### The Circle of Life
+
+We now know how to fetch data and render it in our React applications. However, there was a problem with the method that just learned. To understand this problem we first have to understand the _lifecycle_ of a component.
 
 Let's take a look at an example:
 
