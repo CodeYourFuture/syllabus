@@ -219,19 +219,6 @@ You'll notice in the `&&` example above, we do not render a 'Loading...' message
 | 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                               |
 | 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead. |
 
-### Container components
-
-In real world applications, the things we want to remember in state follow the [_business logic_](https://en.wikipedia.org/wiki/Business_logic) required by our users. So for example the number of caught Pokemon in the exercise increases when you click on the button _Catch Pokemon_. Most of the time, business logic is about figuring out when and how to change state.
-
-To help us cleanly split up code that performs business logic from code that shows the user interface, we split components into _presentational_ and _container_ components. Often we have components that don't do anything except manage state according to the business rules and render the right presentational components. On the other hand, we often have components that don't change any state, and just render using the provided props.
-
-Container components usually have some state and handler methods, while presentational components usually just receive props and render JSX using these props.
-
-| **Exercise G**                                                                                                                                             |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Take a look at the componenets in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
-| Discuss this with another student.                                                                                                                         |
-
 ## Updating Data Fetching when Props Change
 
 Last week we looked at how we could fetch data from an API and render it in our React applications. However, there was a problem with the method that we learned before. To understand this problem we first have to understand the _lifecycle_ of a component.
@@ -678,6 +665,23 @@ We are combining all of the concepts above to make a new object, that has all th
 | 13. Now we are going to display the names of the caught Pokemon. Instead of rendering `caughtPokemon.length`, create a `<ul>` element and use the `.map()` method on the `caughtPokemon` state variable to loop over each Pokemon and return a `<li>` element for each. |
 | 14. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caughtPokemon` array in the `catchPokemon` function.                                                       |
 | 14: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caughtPokemon` state if the value of `pokemonNameInput` state is empty.                                                                                                                          |
+
+## Further Reading
+
+### Container components
+
+In real world applications, the things we want to remember in state follow the [_business logic_](https://en.wikipedia.org/wiki/Business_logic) required by our users. So for example the number of caught Pokemon in the exercise increases when you click on the button _Catch Pokemon_. Most of the time, business logic is about figuring out when and how to change state.
+
+To help us cleanly split up code that performs business logic from code that shows the user interface, we split components into _presentational_ and _container_ components. Often we have components that don't do anything except manage state according to the business rules and render the right presentational components. On the other hand, we often have components that don't change any state, and just render using the provided props.
+
+Container components usually have some state and handler methods, while presentational components usually just receive props and render JSX using these props.
+
+[This article by Dan Abramov](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) has more details.
+
+| Exercise G (OPTIONAL)                                                                                                                                     |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Take a look at the components in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
+| Discuss this with another student.                                                                                                                        |
 
 ## Homework
 
