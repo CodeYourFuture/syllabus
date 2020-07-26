@@ -225,7 +225,7 @@ We now know how to fetch data and render it in our React applications. However, 
 
 Let's take a look at an example:
 
-| **Exercise A**                                                                                                                            |
+| Exercise C (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-not-working-x1dox?file=/src/App.js).                          |
 | 2. Take 5 minutes to read the code.                                                                                                       |
@@ -249,7 +249,7 @@ Together let's "play computer" to break down exactly what is happening with thes
         <button onClick={handle2019Click}>Fetch image for 2019</button>
         <button onClick={handle2020Click}>Fetch image for 2020</button>
 
-        {date ? <MartianImageFetcher date={date} /> : null}
+        {date ? <MartianImageFetcher photoDate={date} /> : null}
       </div>
     );
   }
@@ -278,7 +278,7 @@ Together let's "play computer" to break down exactly what is happening with thes
   }
 ```
 
-8. Now `App` **does** render `MartianImageFetcher` and passes the `date` state as a prop (also named `date`)
+8. Now `App` **does** render `MartianImageFetcher` and passes the `date` state as a prop named `photoDate`
 9. The `MartianImageFetcher` function component is called for the first time
 10. `useState` knows that we haven't got any `imgSrc` state so initialises it to `null`
 11. We queue an effect, which will run after we render for the first time
@@ -301,7 +301,7 @@ Together let's "play computer" to break down exactly what is happening with thes
 ```
 
 13. Now that the component has rendered for the first time, the effect is run
-14. A `fetch` request is made to the NASA API (🚀!)
+14. A `fetch` request is made to the NASA API
 15. When the request data comes back, we set the `imgSrc` state to a piece of the data, which triggers a re-render
 
 ```js
@@ -366,7 +366,7 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
         ...
         <button onClick={handle2020Click}>Fetch image for 2020</button>
         ...
-        {date ? <MartianImageFetcher={date} /> : null}
+        {date ? <MartianImageFetcher photoDate={date} /> : null}
         ...
       </div>
       ...
@@ -390,7 +390,7 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
   }
 ```
 
-| **Exercise B**                                                                                        |
+| Exercise D (estimate: 5 min)                                                                          |
 | :---------------------------------------------------------------------------------------------------- |
 | 1. Did you spot where the bug was? Discuss with a group of 2 - 3 students where you think the bug is. |
 | 2. Report back to the rest of the class where you think the bug happened.                             |
@@ -407,15 +407,15 @@ function MartianImageFetcher(props) {
 
   useEffect(() => {
     ...
-  }, [props.date]);
+  }, [props.photoDate]);
 
   ...
 }
 ```
 
-Now when the `date` prop changes, React knows that the effect must be run again, this time with the 2020 data. Because of this behaviour, the second argument to `useEffect` is called the _dependencies argument_. We use it whenever we have something in our effect that _depends_ on a variable outside of the effect function.
+Now when the `photoDate` prop changes, React knows that the effect must be run again, this time with the 2020 data. Because of this behaviour, the second argument to `useEffect` is called the _dependencies argument_. We use it whenever we have something in our effect that _depends_ on a variable outside of the effect function.
 
-To help you understand this better, try "playing computer" again, but this time think about what happens when we use `[props.date]` for the dependencies argument. Think carefully about what changes with step 6 after we click the 2020 button.
+To help you understand this better, try "playing computer" again, but this time think about what happens when we use `[props.photoDate]` for the dependencies argument. Think carefully about what changes with step 6 after we click the 2020 button.
 
 | **Exercise C**                                                                                                                                                                                                                                                                                                                                          |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
