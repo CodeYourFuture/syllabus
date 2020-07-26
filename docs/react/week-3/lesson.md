@@ -491,6 +491,8 @@ function MartianImageFetcher(props) {
 
 Modern web applications often involve interacting with forms such as creating an account, adding a blog post or posting a comment. This would involve using inputs, buttons and various form elements and being able to get the values entered by users to do something with it (like display them on a page or send them in a POST request). So, how do we do this in React?
 
+### Controlled component pattern
+
 A popular pattern for building forms and collect user data is the _controlled component_ pattern. A _pattern_ is a repeated solution to a problem that is useful in multiple similar cases. Let's have a look at an example ([interactive example](https://codesandbox.io/s/controlled-component-4jq1yqy8kx?file=/src/SimpleReminder.js)):
 
 ```js
@@ -522,6 +524,19 @@ It is done using the `onChange` attribute and the `handleChange` function which 
 If we didn't call `setReminder` in the `handleChange` function, then the input's value would never change and it would appear as if you couldn't type in the input! Finally, the value we keep in the `reminder` state is displayed on the screen as today's reminder.
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
+
+| Exercise H                                                                                                                                                                                              |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. Open the `pokedex` React application.                                                                                                                                                                |
+| 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
+| 3. Open the `src/App.js` file and render the new `PokemonCity` component (underneath `PokemonMovesSelector`).                                                                                           |
+| 4. Take a few minutes to understand what the `PokemonCity` component does.                                                                                                                              |
+| 5. Add an `<input type="text" />` element above the `<p>` element.                                                                                                                                      |
+| 6. Set the `value` attribute of the `<input>` to the `city` state.                                                                                                                                      |
+| 7. Create a function within the component called `updateCity`. Pass this function to the `onChange` event handler.                                                                                      |
+| 8. Change the `updateCity` component so that it has a parameter named `event`.                                                                                                                          |
+| 9. Add a `console.log` to inspect the value of `event.target.value`. What happens when you type in the input?                                                                                           |
+| 10. Using `setCity`, update the city state to what what is typed in the input box.                                                                                                                      |
 
 ### Form with Multiple Fields
 
