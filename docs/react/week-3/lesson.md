@@ -43,24 +43,95 @@ export default Counter;
 
 ## Fetching Data in React
 
-Often when you create a React app, you will want to get data from an API, and display it inside your components.
-How do we do this in React? Where does the API call go, and when should we trigger it?
+Often when you create a React app, you will want to fetch data from an API and display it inside your components. How do we do this in React?
 
-**Where:** Usually in a parent component, at the top of the component tree (see the note about 'container' components above). You can then flow the data down into your child components as props.
+You might think that we could just fetch the data in the component like this, but unfortunately it **won't work** ([interactive example](https://codesandbox.io/s/async-data-fetching-in-react-not-working-fnfyu?file=/src/MartianPhotoFetcher.js:43-407)):
 
-**When:** When the component is first loaded into the DOM. We call this 'mounting'.
-
-**How:** With a handy new hook called `useEffect`.
-
-### The `useEffect` Hook
-
-Just like `useState`, the `useEffect` hook is a special function that all function components can import and use as needed. This is the syntax to follow to fetch data when the component is first mounted:
+:::danger
+This code won't work!
+:::
 
 ```js
-useEffect(() => {
-  // Make your fetch API call here
-}, []); // Don't forget the empty array here!
+function MartianPhotoFetcher() {
+  let imgSrc = null;
+
+  fetch(
+    `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
+  )
+    .then((res) => res.json())
+    .then((data) => {
+      imgSrc = data.photos[0].img_src;
+    });
+
+  console.log(`The image src is ${imgSrc}`);
+  return <img src={imgSrc} />;
+}
 ```
+
+This is because React is synchronous, while `fetch` is asynchronous. If we look in the console, we'll see that the `imgSrc` will always be `null` when we try to render it. React will try to render before `fetch` has had time to get the data from the API.
+
+<img alt="Timeline of React rendering before data returned from the API" src={require('!file-loader!../assets/data-fetching-timeline-problem.png').default}/>
+
+We need a way of running the `fetch` call **after** we have rendered for the first time, so that it is not _racing_ against React updating the DOM. Then once we have got the data back we can use state to tell React to re-render with the new data.
+
+<img alt="Timeline of React rendering before data returned from the API" src={require('!file-loader!../assets/data-fetching-timeline-solution.png').default}/>
+
+The way we do this is with another Hook, provided by React. This one is called `useEffect`.
+
+### Importing `useEffect`
+
+Just like `useState`, we will import `useEffect` into our file like this ([interactive example](https://codesandbox.io/s/importing-useeffect-hook-mij5v?file=/src/App.js)):
+
+```js
+import React, { useEffect } from "react";
+
+console.log(useEffect);
+```
+
+If we look in the console, we'll see that `useEffect` is also a function like `useState`.
+
+Often, we will need to use `useState` and `useEffect` together. They are imported together like this:
+
+```js
+import React, { useState, useEffect } from "react";
+```
+
+### Using `useEffect`
+
+Now let's look at how to use the `useEffect` Hook ([interactive example](https://codesandbox.io/s/basic-useeffect-example-jf6id?file=/src/HelloUseEffect.js)):
+
+```js
+function MartianPhotoFetcher() {
+  useEffect(() => {
+    fetch(
+      `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      });
+  }, []); // Always remember to put an empty array here!
+
+  return <div>Hello useEffect!</div>;
+}
+```
+
+The `useEffect` Hook takes two arguments:
+
+1. A callback function, where we can put our `fetch` call. In this example, we're fetching some data from the NASA API! 🚀
+2. An array, which we'll look at later but is very important that you don't forget it!
+
+:::tip
+When writing your `useEffect`, write the "skeleton" first, then fill in the callback function later.
+
+```js
+// Write this bit first!
+useEffect(() => {
+  // Write this bit later!
+}, []);
+```
+
+:::
 
 And here is a more complete example (see [interactive example](https://codesandbox.io/s/the-useeffect-hook-jtz5u?file=/src/MartianPhotoFetcher.js)):
 
