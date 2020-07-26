@@ -491,11 +491,18 @@ If we were allowed to change props, React doesn't have a way of telling that we'
 
 From this we can get a clue about when to use state. If data _changes over time_, then we need to use state. My rule of thumb is that I always use props until I know that it needs to change over time, then I convert it to state.
 
+| Exercise F (estimate: 5 min)                                                                                                            |
+| :-------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).                            |
+| 2. Take a few minutes to read the code. Discuss with another student what you think will happen when you click on the highlighted word. |
+| 3. Now click on the highlighted word. Can you explain why this happened?                                                                |
+| 4. Fix the app so that clicking on the highlighted word will change the highlight color to purple.                                      |
+
 ## Further Reading
 
 What happens if you forget to pass a prop to a component? Or if you pass the wrong type of data to a component? Sometimes React will just render an empty element but sometimes it could throw an error! This is why `propTypes` are useful. [This page on the React documentation](https://reactjs.org/docs/typechecking-with-proptypes.html) describes how to use `propTypes` in more detail.
 
-| Exercise F (OPTIONAL)                                                                                                                                                                                                                                                   |
+| Exercise G (OPTIONAL)                                                                                                                                                                                                                                                   |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/). |
 
