@@ -525,7 +525,7 @@ If we didn't call `setReminder` in the `handleChange` function, then the input's
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
 
-| Exercise H                                                                                                                                                                                              |
+| Exercise H (estimate: 10 min)                                                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application.                                                                                                                                                                |
 | 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
@@ -618,23 +618,20 @@ if (event.target.name === "username") {
 }
 ```
 
-| **Exercise F**                                                                                                                                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file. In this exercise, instead of recording the number of caught Pokemon, we are going to record the names of each Pokemon you caught.                                               |
-| 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                                                                                           |
-| 3. Create a new state variable called `pokemonNameInput` and initialise to an empty string (`""`).                                                                                                                                                                      |
-| 4. Add a `value` property to the `<input>` which passes the `pokemonNameInput` state variable.                                                                                                                                                                          |
-| 5. Create a new `handleInputChange` function.                                                                                                                                                                                                                           |
-| 6. Add a `onChange` handler to the `<input>` that will call `handleInputChange`.                                                                                                                                                                                        |
-| 7. Add a parameter called `event` to the `handleInputChange` function and add a `console.log` with `event.target.value`. In your browser, try writing something in the `<input>`. What do you see in the JavaScript console?                                            |
-| 8. Set the `pokemonNameInput` state variable to `event.target.value`. In your browser, try writing something in the `<input>`. What do you see?                                                                                                                         |
-| 9. We are now going to save the user input when clicking on the `<button>`. Change the `caughtPokemon` state variable so that it is initialised as an empty array `[]`.                                                                                                 |
-| 10. There should now be a bug in your app! The number of caught Pokemon has gone! To fix it, change from rendering `caughtPokemon` to `caughtPokemon.length`. Why did this fix the bug?                                                                                 |
-| 11. We now need to change the `catchPokemon` function to add the `pokemonNameInput` state variable into the `caughtPokemon` array. (Hint: trying using the `.concat()` method, then calling `setCaughtPokemon`).                                                        |
-| 12. Open your browser, type a Pokemon name into the `<input>` and click on the "Catch Pokemon" button. Can you see the number of caught Pokemon incrementing as you click on the button?                                                                                |
-| 13. Now we are going to display the names of the caught Pokemon. Instead of rendering `caughtPokemon.length`, create a `<ul>` element and use the `.map()` method on the `caughtPokemon` state variable to loop over each Pokemon and return a `<li>` element for each. |
-| 14. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caughtPokemon` array in the `catchPokemon` function.                                                       |
-| 14: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caughtPokemon` state if the value of `pokemonNameInput` state is empty.                                                                                                                          |
+| Exercise F (estimate: 10 min)                                                                                                                                                                                                      |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.                                                                                                                                            |
+| 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                                                      |
+| 3. Create a new state variable called `pokemonNameInput` and initialise to an empty string (`""`).                                                                                                                                 |
+| 4. Add a `value` attribute to the `<input>` which is set to the `pokemonNameInput` state variable. (Hint: `value={pokemonNameInput}`)                                                                                              |
+| 5. Create a new `handleInputChange` function within the component.                                                                                                                                                                 |
+| 6. Add a `onChange` handler to the `<input>` that will call `handleInputChange`.                                                                                                                                                   |
+| 7. Add a parameter called `event` to the `handleInputChange` function. Then `console.log(event.target.value)` in the function. In your browser, try writing something in the `<input>`. What do you see in the JavaScript console? |
+| 8. Set the `pokemonNameInput` state variable to `event.target.value`. Try typing in the `<input>` again. What happens now?                                                                                                         |
+| 9. Now we'll change the `catchPokemon` function to add the `pokemonNameInput` state variable into the `caught` array, instead of a hard-coded value.                                                                               |
+| 10. Open your browser, type a Pokemon name into the `<input>` and click on the "Catch Pokemon" button. Do you see your new Pokemon being added to the list?                                                                        |
+| 11. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caught` array in the `catchPokemon` function.                         |
+| 14: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caughtPokemon` state if the value of `pokemonNameInput` state is empty.                                                                                     |
 
 ## Further Reading
 
