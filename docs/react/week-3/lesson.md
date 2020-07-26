@@ -430,7 +430,7 @@ To help you understand this better, try "playing computer" again, but this time 
 
 ### ESLint rules for React Hooks
 
-As you may have noticed, VSCode highlighted the empty dependencies array when you changed the URL passed to `fetch` in `BestPokemonFetcher`.
+As you may have noticed, VSCode highlighted the empty dependencies array when you changed the URL passed to `fetch` in `PokemonMoves`.
 
 This is because your React application is using the rules from [`eslint-plugin-react-hooks`](https://www.npmjs.com/package/eslint-plugin-react-hooks), a package created by the developers who make React. It helps you to find bugs in React Hooks code by highlighting places where you might be missing dependencies.
 
@@ -440,7 +440,7 @@ If you see a red squiggly line underneath your `useEffect` dependencies array, y
 
 ### Loading state
 
-| **Exercise D**                                                                                                                                                |
+| Exercise F (estimate: 5 min)                                                                                                                                  |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-working-64vw3?file=/src/App.js).                                                  |
 | 2. Click the "Fetch image for 2019" button and wait for the image to load.                                                                                    |
@@ -480,11 +480,11 @@ function MartianImageFetcher(props) {
 }
 ```
 
-| **Exercise E**                                                                                                                                                                 |
+| Exercise G (estimate: 5 min)                                                                                                                                                   |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application again and open the `src/BestPokemon.js` file.                                                                                          |
-| 2. In the `BestPokemonFetcher` component, instead of returning `null` if there is no `pokemon`, return `"Loading..."`.                                                         |
-| 3. Now add `setPokemon(null)` inside the `useEffect` callback, before the call to `fetch`.                                                                                     |
+| 1. Open the `pokedex` React application again and open the `src/PokemonMoves.js` file.                                                                                         |
+| 2. In the `PokemonMoves` component, instead of returning `null` if there is no `pokemonData`, return `"Loading..."`.                                                           |
+| 3. Now add `setPokemonData(null)` inside the `useEffect` callback, before the call to `fetch`.                                                                                 |
 | 4. Try clicking on the "Fetch Bulbasaur" and "Fetch Charmander" buttons quickly. Do you see the loading state? (It may only appear for a flash, the Pokemon API is very fast). |
 
 ## Working with forms in React
