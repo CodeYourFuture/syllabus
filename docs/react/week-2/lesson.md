@@ -115,7 +115,7 @@ Notice that just like with `addEventListener` above, we pass the function refere
 Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
 :::
 
-| **Exercise A**                                                                                                                            |
+| Exercise A (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
 | 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
@@ -156,7 +156,7 @@ function FancyButton(props) {
 
 Notice how this is very similar to the example above where we created the handler and used it in the same component? The only difference here is that we are passing the function reference through a prop. We could even pass it through multiple components as props.
 
-| **Exercise B**                                                                                                                                                |
+| Exercise B (estimate: 10 min)                                                                                                                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application and open the `Logo.js` file.                                                                                          |
 | 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                             |
@@ -276,7 +276,7 @@ const [username, setUsername] = useState("chris");
 const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
-| **Exercise C**                                                                                                                         |
+| Exercise C (estimate: 5 min)                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
 | 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
@@ -334,7 +334,7 @@ function Counter() {
 
 On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
 
-| **Exercise D**                                                                                                                                                                                                                                                                                                                                                                                |
+| Exercise D (estimate: 15 min)                                                                                                                                                                                                                                                                                                                                                                 |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                                                                                                                                 |
 | 2. Create a new state variable with `useState`. It should be named `totalCaught` and be initialised to `0`                                                                                                                                                                                                                                                                                    |
@@ -415,7 +415,7 @@ Don't use the array `push` method with state. Instead use the array `concat` met
 
 The `list.push` method won't work here, as this method _mutates_ the existing array. React requires a completely new array to be set as the new state, otherwise it doesn't realise that the value has changed. The `concat` method works because it copies the whole existing array to a brand new array before it adds the new item.
 
-| **Exercise E**                                                                                                                                                                                                                                                                  |
+| Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                   |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                   |
 | 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                             |
@@ -495,7 +495,7 @@ From this we can get a clue about when to use state. If data _changes over time_
 
 What happens if you forget to pass a prop to a component? Or if you pass the wrong type of data to a component? Sometimes React will just render an empty element but sometimes it could throw an error! This is why `propTypes` are useful. [This page on the React documentation](https://reactjs.org/docs/typechecking-with-proptypes.html) describes how to use `propTypes` in more detail.
 
-| **Exercise F (OPTIONAL)**                                                                                                                                                                                                                                               |
+| Exercise F (OPTIONAL)                                                                                                                                                                                                                                                   |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/). |
 
