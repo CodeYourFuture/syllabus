@@ -384,7 +384,7 @@ function App() {
 
 ### More complex states
 
-The examples we've looked at so far have used numbers, strings and booleans. You can also use arrays and objects in state too. Let's take a look at an example.
+The examples we've looked at so far have used numbers, strings and booleans. You can also use arrays and objects in state too. Let's take a look at an example ([interactive example](https://codesandbox.io/s/more-complex-state-with-usestate-b34wf?file=/src/ShoppingList.js)).
 
 ```js
 function ShoppingList() {
