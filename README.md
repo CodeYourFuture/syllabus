@@ -1,11 +1,5 @@
 # [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 This is the syllabus and course material for
 [CodeYourFuture](https://codeyourfuture.io/) (CYF),
 a not-for-profit volunteer-run coding school for refugees, asylum seekers and disadvantaged groups.
