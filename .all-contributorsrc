@@ -4,7 +4,17 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "stephanie-K",
+      "name": "Stéphanie Krus",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22812441?v=4",
+      "profile": "https://stephanie.chezleskrus.com/",
+      "contributions": [
+        "tutorial"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "projectName": "syllabus",
   "projectOwner": "CodeYourFuture",
