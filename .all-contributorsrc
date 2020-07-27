@@ -22,6 +22,15 @@
       "contributions": [
         "a11y"
       ]
+    },
+    {
+      "login": "ChrisOwen101",
+      "name": "Chris Owen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5181870?v=4",
+      "profile": "http://www.thecodethatchriswrote.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
