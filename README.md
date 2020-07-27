@@ -38,7 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://stephanie.chezleskrus.com/"><img src="https://avatars1.githubusercontent.com/u/22812441?v=4" width="100px;" alt=""/><br /><sub><b>Stéphanie Krus</b></sub></a><br /><a href="#tutorial-stephanie-K" title="Tutorials">✅</a></td>
+    <td align="center"><a href="http://www.thecodethatchriswrote.com"><img src="https://avatars2.githubusercontent.com/u/5181870?v=4" width="100px;" alt=""/><br /><sub><b>Chris Owen</b></sub></a><br /><a href="https://github.com/CodeYourFuture/syllabus/commits?author=ChrisOwen101" title="Documentation">📖</a></td>
   </tr>
 </table>
 
