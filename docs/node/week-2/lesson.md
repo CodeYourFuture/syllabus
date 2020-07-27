@@ -211,7 +211,7 @@ app.post("/albums", function (req, res) {
 
 Let's start by testing using Postman. Do a `POST` request to the endpoint and make sure it prints the console.log message we have added.
 
-> In Postman, change the request `method` to `POST` instead of `GET` and test our endpoint. It should log the message to the terminal but the request will hang because we did not end it, i.e. we did not say `res.send(something)` > ![](../assets/postman-post-method.png)
+> In Postman, change the request `method` to `POST` instead of `GET` and test our endpoint. It should log the message to the terminal but the request will hang because we did not end it, i.e. we did not say `res.send(something)`
 
 So what format does the client send the data with? It is up to us, but since we already are familiar with `json`, let us use it.
 
@@ -239,8 +239,6 @@ app.post("/albums", function (req, res) {
 ```
 
 > Exercise: Use Postman to `POST` this data to `/albums` endpoint.
-
-![](../assets/postman-post.png)
 
 ```json
 {

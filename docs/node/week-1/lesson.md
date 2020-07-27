@@ -227,8 +227,6 @@ To exit the running the server, type `crtl + c`. Instead of running the server w
 
 Under the `scripts` property, add `start: node server.js`. We can now run our server using `npm start` which will be an alias (a shortcut) to `node server.js`.
 
-![npm start](../assets/package-npm-start.png)
-
 Go to the terminal and type `npm start` and make sure that the server still runs.
 
 ## Step 3 - Communicating with the server

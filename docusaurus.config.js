@@ -1,24 +1,31 @@
 module.exports = {
   title: "CodeYourFuture Syllabus",
-  url: "https://syllabus.codeyourfuture.io",
+  url: "https://syllabus.codeyourfuture.io/",
   baseUrl: "/",
   favicon: "img/favicon.png",
   organizationName: "codeyourfuture",
   projectName: "Syllabus",
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
+          routeBasePath: "/", // Set this value to '/'.
+          homePageId: "index", // Set to existing document id.
+        },
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
+      },
+    ],
+  ],
   plugins: [
-    require.resolve("@docusaurus/plugin-google-analytics"),
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         docsBasePath: "/",
-      },
-    ],
-    [
-      require.resolve("@docusaurus/plugin-sitemap"),
-      {
-        cacheTime: 600 * 1000, // 600 sec - cache purge period
-        changefreq: "weekly",
-        priority: 0.5,
       },
     ],
   ],
@@ -237,20 +244,4 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} CodeYourFuture`,
     },
   },
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          homePageId: "index",
-          sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
-          routeBasePath: "/",
-        },
-        theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      },
-    ],
-  ],
 };

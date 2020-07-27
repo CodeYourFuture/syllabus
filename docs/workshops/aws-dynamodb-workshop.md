@@ -23,8 +23,6 @@ Also download and install _RoboMongo_ from <https://robomongo.org/download>.
 Open two instances of terminal.
 Run `mongod`—this will start MongoDB then run `mongo` on the other window.
 
-![mongod and mongo running on two separate terminals](/node-db/assets/mongo.png)
-
 In the `mongo` shell (terminal), run the command `version()` and you should get
 the version of Mongo printed on the terminal
 
@@ -84,11 +82,11 @@ representation of JSON documents, though it contains more data types than JSON.
 ![BSON object](https://docs.mongodb.com/manual/_images/crud-annotated-document.bakedsvg.svg)
 
 Let's look at this database table _Students_ containing information about
-students participating in a course ![students table](/node-db/assets/table-example.png)
+students participating in a course ![students table](./assets/aws/table-example.png)
 
 > Exercise: What are the columns, rows and tables?
 
-![SQL and MongoDB correspondence](/node-db/assets/SQL-MongoDB-Correspondence.png)
+![SQL and MongoDB correspondence](./assets/aws/SQL-MongoDB-Correspondence.png)
 
 > Exercise: Open <https://jsonlint.com/> and write a JSON representation of two
 > rows in the Students table example. Click _Validate JSON_ and make sure the
@@ -340,7 +338,7 @@ We've already used **DynamoDB** on AWS. This week, we'll do **MongoDB**.
    search for _mLab MongoDB_ and choose it. When you're prompted with this
    screen—click on **Provision**.
 
-   ![MongoDB on Heroku](/node-db/assets/heroku-mongo.png)
+   ![MongoDB on Heroku](./assets/aws/heroku-mongo.png)
 
    The new MongoDB service will appear under Resources-you can click on it and it
    will take you to a web interface to administer your MongoDB instance.

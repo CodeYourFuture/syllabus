@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.59",
-    "@docusaurus/plugin-google-analytics": "^2.0.0-alpha.37",
-    "@docusaurus/plugin-google-gtag": "^2.0.0-alpha.37",
     "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
     "@cmfcmf/docusaurus-search-local": "^0.2.0",
