@@ -8,6 +8,12 @@ module.exports = {
   plugins: [
     require.resolve("@docusaurus/plugin-google-analytics"),
     [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        docsBasePath: "/",
+      },
+    ],
+    [
       require.resolve("@docusaurus/plugin-sitemap"),
       {
         cacheTime: 600 * 1000, // 600 sec - cache purge period
@@ -16,7 +22,6 @@ module.exports = {
       },
     ],
   ],
-
   themeConfig: {
     googleAnalytics: {
       trackingID: "UA-159979458-2",

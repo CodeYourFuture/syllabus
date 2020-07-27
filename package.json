@@ -14,6 +14,7 @@
     "@docusaurus/plugin-google-gtag": "^2.0.0-alpha.37",
     "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
+    "@cmfcmf/docusaurus-search-local": "^0.2.0",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"

@@ -1,0 +1,42 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nbogie",
+      "name": "nbogie",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/69844?v=4",
+      "profile": "https://github.com/nbogie",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "stephanie-K",
+      "name": "Stéphanie Krus",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22812441?v=4",
+      "profile": "https://stephanie.chezleskrus.com/",
+      "contributions": [
+        "a11y"
+      ]
+    },
+    {
+      "login": "ChrisOwen101",
+      "name": "Chris Owen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5181870?v=4",
+      "profile": "http://www.thecodethatchriswrote.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "syllabus",
+  "projectOwner": "CodeYourFuture",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
