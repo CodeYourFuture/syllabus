@@ -13,6 +13,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "stephanie-K",
+      "name": "Stéphanie Krus",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22812441?v=4",
+      "profile": "https://stephanie.chezleskrus.com/",
+      "contributions": [
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
