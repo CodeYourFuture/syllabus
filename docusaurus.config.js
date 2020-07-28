@@ -180,7 +180,6 @@ module.exports = {
               label: "React Cheatsheet",
               position: "left",
             },
-            ,
             {
               to: "guides/useful-links",
               label: "Useful Links",
