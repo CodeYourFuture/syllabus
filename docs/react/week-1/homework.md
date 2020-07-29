@@ -19,7 +19,7 @@ Suitable projects for you to work on right now are:
 
 - [High Score Table](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-high-score-tables) - Level 1
 - [Countries](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries) - Level 1
-- [Baby Names Picket](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker) - Level 1
+- [Baby Names Picker](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker) - Level 1
 - [Job Listing](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing)
 
 You should also choose any of the other projects that sound interesting to you!
