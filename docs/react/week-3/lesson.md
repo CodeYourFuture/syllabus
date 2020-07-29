@@ -395,7 +395,12 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
 | 1. Did you spot where the bug was? Discuss with a group of 2 - 3 students where you think the bug is. |
 | 2. Report back to the rest of the class where you think the bug happened.                             |
 
+<details>
+<summary>Click here to reveal the answer!</summary>
+
 The key that the `useEffect` in `MartianImageFetcher` is **only run once**. This is because we told React that the queue should be queued on the first render only. However, as we saw, sometimes you need the effect to run again when some data changes. In this case the `date` prop, changed from `"2019-01-01"` to `"2020-01-01"`, meaning that we have to fetch data different data. We call this a _dependency_ of the effect.
+
+</details>
 
 ### `useEffect` dependencies array
 
