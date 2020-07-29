@@ -443,49 +443,7 @@ If you see a red squiggly line underneath your `useEffect` dependencies array, y
 
 <img src={require('!file-loader!../assets/eslint-hooks-rule.png').default}/>
 
-### Loading state
-
-| Exercise F (estimate: 5 min)                                                                                                                                  |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-working-64vw3?file=/src/App.js).                                                  |
-| 2. Click the "Fetch image for 2019" button and wait for the image to load.                                                                                    |
-| 3. Now click the "Fetch image for 2020" button. Do you think this is a good experience for the user? Explain what you think is wrong to a Teaching Assistant. |
-
-In the application above, the image from 2020 takes a while to load. This makes it feel like the app is broken: the user might think that they didn't actually click the 2020 button or that it is not working correctly. We are not telling the user that _something_ is happening, it's just taking a bit of time to load.
-
-We can fix this by adding a _loading state_. Let's take a look ([interactive example](https://codesandbox.io/s/fetch-with-loading-state-part-1-7bi9z?file=/src/FetchWithLoadingState.js)):
-
-```js
-function MartianImageFetcher(props) {
-  ...
-
-  if (!imgSrc) {
-    return "Loading...";
-  } else {
-    return <img src={imgSrc} />;
-  }
-}
-```
-
-Previously, we were just rendering nothing (by returning `null`) when we didn't have any `imgSrc`. We can tell the user that this by instead rendering something telling them that we're still waiting for the data to come back.
-
-There is still a problem though: when we click to fetch another image, we still have `imgSrc` set to the previous image. What we could do instead is set the `imgSrc` back to `null` when we know that we're fetching another image ([interactive example](https://codesandbox.io/s/fetch-with-loading-state-part-2-dvu6k?file=/src/FetchWithLoadingState.js)):
-
-```js
-function MartianImageFetcher(props) {
-  ...
-
-  useEffect(() => {
-    setImgSrc(null);
-
-    ...
-  }, [props.date]);
-
-  ...
-}
-```
-
-| Exercise G (estimate: 5 min)                                                                                                                                                   |
+| Exercise F (estimate: 5 min)                                                                                                                                                   |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application again and open the `src/PokemonMoves.js` file.                                                                                         |
 | 2. In the `PokemonMoves` component, instead of returning `null` if there is no `pokemonData`, return `"Loading..."`.                                                           |
@@ -530,7 +488,7 @@ If we didn't call `setReminder` in the `handleChange` function, then the input's
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
 
-| Exercise H (estimate: 10 min)                                                                                                                                                                           |
+| Exercise G (estimate: 10 min)                                                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application.                                                                                                                                                                |
 | 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
@@ -623,7 +581,7 @@ if (event.target.name === "username") {
 }
 ```
 
-| Exercise F (estimate: 10 min)                                                                                                                                                                                                      |
+| Exercise H (estimate: 10 min)                                                                                                                                                                                                      |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.                                                                                                                                            |
 | 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                                                      |
@@ -650,7 +608,7 @@ Container components usually have some state and handler methods, while presenta
 
 [This article by Dan Abramov](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) has more details.
 
-| Exercise G (OPTIONAL)                                                                                                                                     |
+| Exercise I (OPTIONAL)                                                                                                                                     |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Take a look at the components in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
 | Discuss this with another student.                                                                                                                        |
