@@ -106,6 +106,15 @@ function Home() {
               </a>
               .
             </p>
+            <h2 id="contributing">Creative Commons Open-Source License</h2>
+            <p>
+              This work is licensed under a Creative Commons
+              Attribution-ShareAlike 4.0 International License.
+            </p>
+            <img
+              src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png"
+              alt="Creative Commons Open-Source License"
+            />
           </div>
         </section>
       </main>
