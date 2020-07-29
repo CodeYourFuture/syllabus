@@ -45,7 +45,7 @@ export default Counter;
 
 Often when you create a React app, you will want to fetch data from an API and display it inside your components. How do we do this in React?
 
-You might think that we could just fetch the data in the component like this, but unfortunately it **won't work** ([interactive example](https://codesandbox.io/s/async-data-fetching-in-react-not-working-fnfyu?file=/src/MartianPhotoFetcher.js:43-407)):
+You might think that we could just fetch the data in the component like this, but unfortunately it **won't work** ([interactive example](https://codesandbox.io/s/async-data-fetching-in-react-not-working-fnfyu?file=/src/MartianPhotoFetcher.js)):
 
 :::danger
 This code won't work!
