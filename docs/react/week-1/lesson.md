@@ -56,10 +56,10 @@ Let's take a look at an example. We are going to walk through how to render a `<
 First, lets recap how we could do this using "vanilla" JS ([interactive version](https://jsbin.com/zexiyulavu/edit?html,output)):
 
 ```js
-var divNode = document.createElement("div");
+let divNode = document.createElement("div");
 divNode.innerText = "Hello World";
 
-var rootElement = document.querySelector("#root");
+let rootElement = document.querySelector("#root");
 rootElement.appendChild(divNode);
 ```
 
