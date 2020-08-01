@@ -437,13 +437,6 @@ If you see a red squiggly line underneath your `useEffect` dependencies array, y
 
 <img src={require('!file-loader!../assets/eslint-hooks-rule.png').default}/>
 
-| Exercise F (estimate: 5 min)                                                                                                                                                   |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application again and open the `src/PokemonMoves.js` file.                                                                                         |
-| 2. In the `PokemonMoves` component, instead of returning `null` if there is no `pokemonData`, return `"Loading..."`.                                                           |
-| 3. Now add `setPokemonData(null)` inside the `useEffect` callback, before the call to `fetch`.                                                                                 |
-| 4. Try clicking on the "Fetch Bulbasaur" and "Fetch Charmander" buttons quickly. Do you see the loading state? (It may only appear for a flash, the Pokemon API is very fast). |
-
 ## Working with forms in React
 
 Modern web applications often involve interacting with forms such as creating an account, adding a blog post or posting a comment. This would involve using inputs, buttons and various form elements and being able to get the values entered by users to do something with it (like display them on a page or send them in a POST request). So, how do we do this in React?
@@ -482,7 +475,7 @@ If we didn't call `setReminder` in the `handleChange` function, then the input's
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
 
-| Exercise G (estimate: 10 min)                                                                                                                                                                           |
+| Exercise F (estimate: 10 min)                                                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application.                                                                                                                                                                |
 | 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
@@ -575,7 +568,7 @@ if (event.target.name === "username") {
 }
 ```
 
-| Exercise H (estimate: 10 min)                                                                                                                                                                                                      |
+| Exercise G (estimate: 10 min)                                                                                                                                                                                                      |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.                                                                                                                                            |
 | 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                                                      |
