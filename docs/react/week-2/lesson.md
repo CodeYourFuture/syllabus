@@ -4,6 +4,8 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
+import { ExerciseADemo } from './demos/ExerciseA.js'
+
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -108,6 +110,7 @@ Think of it like this: we give the event handler to React, so that React can cal
 
 | Exercise A (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise we will extend our `Logo` component to log to the console when clicking on the image. <ExerciseADemo />                  |
 | 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
 | 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
 | 3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).                                     |
@@ -331,7 +334,7 @@ On the second render, `count` is now set to 1. Every time we click the button, t
 | 2. Create a new state variable with `useState`. It should be named `caught` and be initialised to `0`                                                                                                                                                                                                                                                                                         |
 | 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.                                                                                                                                                                                                                                                                                          |
 | 4. Add a button to the component with an `onClick` handler that calls a function called `catchPokemon`.                                                                                                                                                                                                                                                                                       |
-| 5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>                                                                                                      |
+| 5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>                                                                                              |
 | 6. Write down the things that will happen when you click the button. Compare your list with another student and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
 
 #### Don't mutate State
