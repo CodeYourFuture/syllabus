@@ -4,12 +4,6 @@ title: React - Week 3
 sidebar_label: Lesson
 ---
 
-**What will we learn today?**
-
-- [Recap](#recap)
-- [Updating Data Fetching when Props Change](#updating-data-fetching-when-props-change)
-- [Working with forms in React](#working-with-forms-in-react)
-
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.

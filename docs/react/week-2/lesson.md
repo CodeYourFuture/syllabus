@@ -4,15 +4,6 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
-**What will we learn today?**
-
-- [Recap](#recap)
-- [Handling Events](#handling-events)
-- [Re-Rendering Components](#re-rendering-components)
-- [State](#state)
-- [Fetching Data in React](#fetching-data-in-react)
-- [Further Reading](#further-reading)
-
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.

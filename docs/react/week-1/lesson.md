@@ -4,27 +4,6 @@ title: React - Week 1
 sidebar_label: Lesson
 ---
 
-**What will we learn today?**
-
-- [React 1](#react-1)
-  - [What is React?](#what-is-react)
-  - [What is a component?](#what-is-a-component)
-    - [Component tips](#component-tips)
-  - [Rendering with React](#rendering-with-react)
-  - [JSX](#jsx)
-  - [Let's create a React app](#lets-create-a-react-app)
-  - [React Components](#react-components)
-    - [Component Composition](#component-composition)
-    - [Arrow Functions for shorter syntax](#arrow-functions-for-shorter-syntax)
-  - [Embedding JavaScript into JSX](#embedding-javascript-into-jsx)
-  - [Keys](#keys)
-  - [Importing/Exporting Components](#importingexporting-components)
-  - [Making an argument for Props](#making-an-argument-for-props)
-  - [What are Props?](#what-are-props)
-  - [Further reading](#further-reading)
-    - [Credits](#credits)
-- [Homework](#homework)
-
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
