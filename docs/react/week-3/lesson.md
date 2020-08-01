@@ -608,10 +608,10 @@ Container components usually have some state and handler methods, while presenta
 
 [This article by Dan Abramov](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) has more details.
 
-| Exercise I (OPTIONAL)                                                                                                                                     |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Take a look at the components in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
-| Discuss this with another student.                                                                                                                        |
+| Exercise I (OPTIONAL)                                                                                                                                        |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Take a look at the components in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
+| 2. Discuss this with another student.                                                                                                                        |
 
 ## Homework
 
