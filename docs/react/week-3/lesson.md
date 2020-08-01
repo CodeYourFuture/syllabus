@@ -598,6 +598,12 @@ if (event.target.name === "username") {
 
 ## Further Reading
 
+### Multiple fields as state pattern
+
+There is another common pattern for handling multiple fields in a form, but it requires some JavaScript functionality that you may not have seen before.
+
+[Read more about it here.](./further-reading/multiple-form-fields)
+
 ### Container components
 
 In real world applications, the things we want to remember in state follow the [_business logic_](https://en.wikipedia.org/wiki/Business_logic) required by our users. So for example the number of caught Pokemon in the exercise increases when you click on the button _Catch Pokemon_. Most of the time, business logic is about figuring out when and how to change state.
