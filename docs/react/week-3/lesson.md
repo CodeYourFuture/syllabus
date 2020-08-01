@@ -414,6 +414,10 @@ function MartianImageFetcher(props) {
 
 Now when the `photoDate` prop changes, React knows that the effect must be run again, this time with the 2020 data. Because of this behaviour, the second argument to `useEffect` is called the _dependencies argument_. We use it whenever we have something in our effect that _depends_ on a variable outside of the effect function.
 
+Here's a diagram showing when the `useEffect` callback will be run:
+
+<img src={require('!file-loader!../assets/when-will-use-effect-be-run.png').default}/>
+
 To help you understand this better, try "playing computer" again, but this time think about what happens when we use `[props.photoDate]` for the dependencies argument. Think carefully about what changes with step 6 after we click the 2020 button.
 
 | Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                                                                                                                          |
