@@ -1,6 +1,6 @@
 {
-  "name": "website",
-  "version": "0.0.0",
+  "name": "codeyourfuture-syllabus",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
@@ -9,10 +9,10 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.59",
+    "@cmfcmf/docusaurus-search-local": "^0.2.0",
+    "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
-    "@cmfcmf/docusaurus-search-local": "^0.2.0",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"

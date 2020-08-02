@@ -5,6 +5,7 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "codeyourfuture",
   projectName: "Syllabus",
+  onBrokenLinks: "warn",
   presets: [
     [
       "@docusaurus/preset-classic",
