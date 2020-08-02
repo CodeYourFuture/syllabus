@@ -196,6 +196,24 @@ module.exports = {
           ],
         },
         {
+          label: "Other",
+          position: "left",
+          items: [
+            {
+              href: "https://teachertraining.codeyourfuture.io/",
+              label: "Teacher Training",
+              position: "left",
+              className: "outside-link",
+            },
+            {
+              href: "https://docs.codeyourfuture.io/",
+              label: "Organisation Documentation",
+              position: "left",
+              className: "outside-link",
+            },
+          ],
+        },
+        {
           position: "right",
           to: "contributing/overview",
           label: "Want to contribute?",
