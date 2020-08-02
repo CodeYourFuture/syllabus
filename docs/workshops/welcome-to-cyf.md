@@ -21,7 +21,7 @@ sidebar_label: Welcome to CYF
 - Who we are?
 - What will we learn?
   - Read this Technology Survey from
-    [StackOverflow](https://insights.stackoverflow.com/survey/2019).
+    [Stack Overflow](https://insights.stackoverflow.com/survey/2019).
     Pay particular attention to the technologies we'll be teaching you
     (JavaScript, React, NodeJS)
 - [House Rules](https://docs.codeyourfuture.io/students/house-rules)
@@ -160,7 +160,7 @@ It's like Dropbox for developers. But much better!
 > Extract from
 > [Git Pro book](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
-This [answer](https://stackoverflow.com/a/1408464) on StackOverflow by
+This [answer](https://stackoverflow.com/a/1408464) on Stack Overflow by
 si618 explains very well why we use Version Control.
 
 So what is **Git**? Git is one of many Version Control Systems available to use,

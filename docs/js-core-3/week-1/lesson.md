@@ -177,9 +177,9 @@ When debugging, it can often be useful to write down what values variables have,
 
 It is important when working on your code to test each part of your code separately and carefully. Make sure everything is working before you move on to the next part otherwise problems become harder to debug.
 
-##### Stackoverflow.com
+##### Stack Overflow
 
-[Stackoverflow](https://stackoverflow.com/) is a crucial tool for lots of new developers in finding answers to their programming problems. While a lot of the information is very good there are several points to keep in mind.
+[Stack Overflow](https://stackoverflow.com/) is a crucial tool for lots of new developers in finding answers to their programming problems. While a lot of the information is very good there are several points to keep in mind.
 
 - Information goes out of date very quickly
   - You have to make sure that what your looking at it new
