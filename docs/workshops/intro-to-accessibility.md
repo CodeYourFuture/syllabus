@@ -6,8 +6,8 @@ sidebar_label: Intro To Web Development Accessibility
 
 ## Projected Time
 
-Lesson: 60 minutes
-Exercises: 60 minutes
+- Lesson: 60 minutes
+- Exercises: 60 minutes
 
 ## Prior Knowledge
 
@@ -48,3 +48,30 @@ Participants will be able to:
 ## Presentation
 
 You can find the slides for this presentation [here](https://docs.google.com/presentation/d/1CY7r_r8Zs6evWuQpGZK_E2zvXqNWbEEd5x5n1OhE6Rg/edit#slide=id.g8cddb4d8db_0_1).
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSv1OxAdzvqH2PpEi0LiGhtio4ZDEyjAudNZpbRnDxmnsG8L6TqMgE1GFt7z2aMyyKc7KQwaZA8y2k2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Homework
+
+### Quiz (10 minutes)
+
+Complete this short quiz to show your understanding
+
+https://forms.gle/atbcKQkeXZVwwTbRA
+
+### Screen Readers (20 minutes)
+
+Try using your phone with the screen reader function.
+
+- [How to use a screen reader on iOS](https://support.apple.com/en-us/HT210417)
+- [How to use a screen reader on an Android phone](https://support.google.com/accessibility/android/answer/6006564?hl=en)
+
+### How People Use Tech (20 minutes)
+
+Read about using a switch
+
+https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/
+
+Watch some of the videos on this page to understand more about how people with disabilities use tech.
+
+https://axesslab.com/tech-youtubers/
