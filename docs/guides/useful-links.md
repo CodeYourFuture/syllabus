@@ -58,7 +58,7 @@ and improving your skills.
 
 ## Surveys
 
-- [StackOverFlow Developer Survey Results 2019](https://insights.stackoverflow.com/survey/2019)
+- [Stack Overflow Developer Survey Results 2019](https://insights.stackoverflow.com/survey/2019)
 - [State of JS 2019](https://2019.stateofjs.com/)
 - [State of CSS 2019](https://2019.stateofcss.com/)
 - [Screen Reader User Survey #7 Results](https://webaim.org/projects/screenreadersurvey7/)
