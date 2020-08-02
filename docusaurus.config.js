@@ -5,7 +5,7 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "codeyourfuture",
   projectName: "Syllabus",
-  onBrokenLinks: "warn",
+  onBrokenLinks: "log",
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -200,13 +200,13 @@ module.exports = {
           position: "left",
           items: [
             {
-              href: "https://teachertraining.codeyourfuture.io/",
+              href: "https://teachertraining.codeyourfuture.io",
               label: "Teacher Training",
               position: "left",
               className: "outside-link",
             },
             {
-              href: "https://docs.codeyourfuture.io/",
+              href: "https://docs.codeyourfuture.io",
               label: "Organisation Documentation",
               position: "left",
               className: "outside-link",
