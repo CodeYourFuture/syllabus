@@ -44,7 +44,7 @@ There are typically several levels of testing when working on a project:
 - Integration testing
 - Functional, End to End testing and User Acceptance Testing (UAT)
 
-[This answer from Stack OverFlow](https://stackoverflow.com/a/4904533) has a good explanation of types of testing. The defintions for Functional, e2e and UAT are often mean different things in different teams, the responisibility for them also falls on different individuals depending on the team.
+[This answer from Stack Overflow](https://stackoverflow.com/a/4904533) has a good explanation of types of testing. The defintions for Functional, e2e and UAT are often mean different things in different teams, the responisibility for them also falls on different individuals depending on the team.
 
 _Unit testing_ though is always the responsibility of the Developer, and it is a very important skill for any professional developer to be able to write tests, and also write code that is testable.
 
