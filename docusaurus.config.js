@@ -153,7 +153,7 @@ module.exports = {
               position: "left",
             },
             {
-              to: "workshops/intro-to-accessability",
+              to: "workshops/intro-to-accessibility",
               label: "Intro to Web Accessibility",
               position: "left",
             },
