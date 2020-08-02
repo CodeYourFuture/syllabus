@@ -11,7 +11,7 @@ During the Project you will work on your technical and communication skills. At 
 Technical skills:
 
 - How to `build a complete full-stack application`
-- Understanding `how each part of an application relates` to each other
+- Understanding `how the parts of an application relate` to each other
 - What it means to work on a `feature`
 - How to work with `Git` in a team setting
 - How to write `readable code`
@@ -23,7 +23,7 @@ Communication skills:
 - Knowing if you `understand what's asked` of you
 - How to `communicate with non-developers` about what you're doing
 - Learning how to be `solutions-oriented`
-- How to work in a `Agile setting`
+- How to work in an `agile setting`
 
 ## Objectives
 
@@ -41,11 +41,17 @@ Ideally, the project team would consist of the following:
 - Three volunteer mentors, forming a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU); and
 - A product owner.
 
-The mentor group would include an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer), designer (responsible for user research and UI/UX) and product manager (responsible for prioritisation and alignment with the product owner’s goals). This gives an opportunity to bring in volunteers from the broader tech community, and exposes the students to the roles they could be collaborating with in employment.
+The mentor group would include:
 
-For more information on roles [click here](./roles.md)
+- an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer);
+- a designer (responsible for user research and UI/UX);
+- and a product manager (responsible for prioritisation and alignment with the product owner’s goals).
+
+This gives an opportunity to bring in volunteers from the broader tech community, and exposes the students to the roles they could be collaborating with in employment.
 
 The product owner would either be a representative from the partner organisation or someone at CYF, depending on the project. It’s important that they are able to engage at least twice a week with the team, and have the authority to make decisions that let the team keep moving.
+
+For more information on roles [click here](./roles.md)
 
 ## Weekly plan
 

@@ -36,7 +36,7 @@ We have just traced the output of some code on paper, but how do ensure that the
 
 > Discussion: How have we been testing our code so far? How do ensure it is _correct_. What is "_correct_" anyhow?
 
-In many organisations, there are full teams dedicated to **testing** and ensuring that the code written behaves correctly, to report **bugs** and make sure that they are fixed on time. In general, **Quality Assurance** is a responsibility of everyone in a team starting from Project Manager, Scrum Masters, Developers and Testers.
+In many organisations, there are full teams dedicated to **testing** and ensuring that the code written behaves correctly, to report **bugs** and make sure that they are fixed on time. In general, **Quality Assurance** is a responsibility of everyone in a team starting from Product Manager, Scrum Masters, Developers and Testers.
 
 There are typically several levels of testing when working on a project:
 

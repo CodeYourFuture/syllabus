@@ -10,7 +10,7 @@ These roles should in total create a [balanced team](https://www.youtube.com/wat
 
 ## Volunteer Roles
 
-### Project Manager // Scrum Master
+### Product Manager // Scrum Master
 
 **Time Commitment**: One day a week plus ~4 hours during the week
 
@@ -18,7 +18,7 @@ Scrum Masters are expected to coordinate the team and make sure everyone knows w
 
 - Scheduling meetings
 - Working with the team to create and update tasks on Trello
-- Introducing and enforcing Agile practices (e.g. sprint planning, retros)
+- Introducing and facilitating agile practices (e.g. sprint planning, retros)
 
 ### Teaching Assistant
 
