@@ -86,7 +86,7 @@ students participating in a course ![students table](./assets/aws/table-example.
 
 > Exercise: What are the columns, rows and tables?
 
-![SQL and MongoDB correspondence](./assets/aws/SQL-MongoDB-Correspondence.png)
+![SQL and MongoDB correspondence](./assets/aws/SQL-MongoDB.png)
 
 > Exercise: Open <https://jsonlint.com/> and write a JSON representation of two
 > rows in the Students table example. Click _Validate JSON_ and make sure the
