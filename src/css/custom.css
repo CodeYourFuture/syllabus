@@ -40,3 +40,13 @@
   margin-left: 6px;
   padding-right: 16px;
 }
+
+/* CUSTOM LINE COLOR */
+/* The line */
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #3f3f3f;
+}
+
+.button-text {
+  color: #ffffff;
+}
