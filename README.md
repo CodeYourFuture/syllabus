@@ -27,7 +27,7 @@ In this Syllabus you'll find the content that we teach at CodeYourFuture. For ot
 
 ## Contributing
 
-Please read our [Contributing guide](./contributing.md) to get started with how you can contribute to the CodeYourFuture Syllabus.
+Please read our [Contributing guide](./docs/fundamentals/contributing.md) to get started with how you can contribute to the CodeYourFuture Syllabus.
 
 ## Contributors ✨
 
