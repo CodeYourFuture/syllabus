@@ -11,6 +11,7 @@
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.2.0",
     "@docusaurus/core": "^2.0.0-alpha.61",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.59",
     "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
     "classnames": "^2.2.6",

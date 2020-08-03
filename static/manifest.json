@@ -1,0 +1,16 @@
+{
+  "name": "CodeYourFuture Syllabus",
+  "short_name": "cyf-syllabus",
+  "theme_color": "#d43e3e",
+  "background_color": "#d43e3e",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/img/favicon.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    }
+  ]
+}
