@@ -26,12 +26,35 @@
 
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 2rem;
+  flex: 1;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+/* The line */
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #424242;
+}
+
+/* Icon container's border */
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--work
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline.vertical-timeline-custom-line
+  .vertical-timeline-element--education
+  .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #c2185b, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
