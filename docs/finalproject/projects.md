@@ -12,6 +12,7 @@ Here are some ideas for projects from previous years:
 - [Quiz Qpp](https://docs.google.com/document/d/1jSJLlNmECTCq_wVcDHNxKINOdrLjm7W3S1lU2bYFVr4/edit?usp=sharing)
 - [Slack Dashboard](https://docs.google.com/document/d/1yy6t-Ri-Ze--ycM1_F7HXQnChXmGc1njezBqYoWbiJ4/edit?usp=sharing)
 - [Class Planner](https://docs.google.com/document/d/1XnJoTO_pxp8QCD-cetJElqPhbvEI6RUYyllR2MihNPE/edit?usp=sharing)
+- [Q & A](https://docs.google.com/document/d/1uuZdIaWM920PS-FeVBQl5PAQQocyywhOEL5_3A5FwIk/edit)
 
 Additional ideas for projects can be found here
 
