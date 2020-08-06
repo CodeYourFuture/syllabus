@@ -41,6 +41,10 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ## Agile Development (60 minutes)
 
+### What is Agile Development? (30-45 minutes)
+
+TO DO 
+
 ### Project Management Boards (5 minutes)
 
 Project Management boards are a tool that you can use to help you organise how you work.
@@ -49,7 +53,7 @@ Project Management boards are a tool that you can use to help you organise how y
 Create a [project board](https://help.github.com/en/articles/about-project-boards) in the repo for your tasks and stories
 ```
 
-### Daily Stand-ups
+### Daily Stand-ups (5 minutes)
 
 Every day you should post a message in the team's Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you.
 
@@ -61,7 +65,7 @@ Afterwards, post a team summary in the main class channel.
 In your teams, you should decide the time you want to share your stand-up message and who is responsible for sharing them with the wider team.
 ```
 
-### Minimum Viable Product (60 minutes)
+## Minimum Viable Product (60 minutes)
 
 Then we can do some high-level design. You should be able to answer all of these questions by the end of this exercise.
 
@@ -90,7 +94,7 @@ At the end of this exercise you should add all the answers to a Google Doc and s
 If you haven't finished, make sure that you finish these by the end of the week.
 ```
 
-### Sprint Planning (60 minutes)
+## Sprint Planning (60 minutes)
 
 In this project we will be working in `Sprints`.
 
