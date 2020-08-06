@@ -9,10 +9,12 @@ sidebar_label: Lesson
 - Welcome
 - Getting Setup
 - Agile Development
+  - What is Agile Development?
   - Daily Stand-ups
   - Sprints
   - Mid-week Check-ins
 - Minimum Viable Product
+- Sprint Planning
 
 ## Welcome
 
