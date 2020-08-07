@@ -22,18 +22,15 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        docsBasePath: "/",
-      },
-    ],
-  ],
   themeConfig: {
     googleAnalytics: {
       trackingID: "UA-159979458-2",
       anonymizeIP: true,
+    },
+    algolia: {
+      apiKey: "a7559fa1da1a033cfb3d7c7f108173ae",
+      indexName: "codeyourfuture_syllabus",
+      searchParameters: {}, // Optional (if provided by Algolia)
     },
     navbar: {
       title: "Home",
