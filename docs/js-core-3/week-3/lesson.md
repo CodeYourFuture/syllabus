@@ -465,7 +465,7 @@ myAddressBook.lookup("homer");
 
 Notice that when you come to using a class instance, you are only interacting with it through its methods, e.g. `store` and `lookup` for `AddressBook`. Similar to functions, classes provide a way of creating abstractions over lower-level implementations, which can help us better organise and maintain our code.
 
-## 4. `this` keyword
+## 3. `this` keyword
 
 One aspect of JavaScript that often leads to confusion is the keyword `this`. Its value depends on where it is used and how that function is called.
 
