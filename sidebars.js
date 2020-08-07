@@ -147,6 +147,13 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
+    Challenges: [
+      {
+        type: "link",
+        label: "JavaScript Challenges",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Challenges",
+      },
+    ],
   },
   React: {
     Overview: ["react/index"],
