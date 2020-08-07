@@ -24,7 +24,7 @@ You can find a template for organising the teams [here](https://docs.google.com/
 
 All students should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](./roles)
 
-## Briefing Presenation
+## Briefing Presentation
 
 This presentations gives an overview of the day to day running, the roles and the aims of the Final Project
 
