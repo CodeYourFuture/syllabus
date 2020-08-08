@@ -53,11 +53,11 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ## 2. Agile Development (60 minutes)
 
-
 ### 2.1. What is Agile Development? (30-45 minutes)
 *Faciliated by Engineering Mentors*
 
 Before we determine what we're going to build we should discuss how we're going to build it. The Engineering TAs will lead us through a discussion on Agile best practices using this deck - [What is Agile Development?](https://docs.google.com/presentation/d/1p9AV-pz_VpM0B9Lo6K6WUNANF1ycXgEPU4SbpgNzzSI/edit#slide=id.p) 
+
 
 ### 2.2. What is a Product Manager? (25-30 minutes)
 *Faciliated by Product Managers*
@@ -66,15 +66,16 @@ To work in an Agile way it's best to be part of a cross-functional team, so we'v
 
   *A note for PMs* - don't forget to create your own copy of the presentation and update the 'Who am I?' section.
 
+
 ### 2.3. Project Management Boards (5 minutes)
 *Led by students* 
 
 Project Management boards are a tool that you can use to help you organise how you work. 
 
-```txt
 Create a copy of this Project Board to manage your work - [Project Board](https://trello.com/b/wkQd3R5r/team-name-backlog)
-```
+
 After you've copied it have a quick look through and ask questions about anything that's unfamiliar - your PMs and TAs will be able to explain concepts like Backlogs and User Stories
+
 
 ### 2.4. Daily Stand-ups (5 minutes)
 *Facilitated by Engineering Mentors*
@@ -89,8 +90,10 @@ Afterwards, post a team summary in the main class channel.
 In your teams, you should decide the time you want to share your stand-up message and who is responsible for sharing them with the wider team.
 ```
 
+
 ### BREAK (10-15 minutes) 
 Go stretch your legs or grab a snack!
+
 
 
 ## 3. What are we going to build?  (90 minutes)
@@ -106,6 +109,7 @@ To figure out the right thing to build we should use our project brief to answer
 - What is the business value of solving this problem?
 - What metrics could we use to measure if we've been successful?
 
+
 ### 3.2. Defining our solution (40 minutes)
 *Facilitated by Product Managers*
 
@@ -115,6 +119,7 @@ Now we've got the problem framed we can spend some time thinking about specific 
 - What is our ideal User Journey?
 - What is our MVP (Minimum Viable Product)?
 - What does the rest of our Roadmap look like?
+
 
 ### 3.3. Planning our work (30 minutes)
 *Faciliated by Engineering Mentors*
