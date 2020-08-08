@@ -327,7 +327,7 @@ Together let's "play computer" to break down exactly what is happening with thes
 
 16. The `MartianImageFetcher` function component is called again
 17. `useState` remembers that the `imgSrc` state is set to the data from the API
-18. This time, we do **not** queue an effect. We set it up with an empty array (`[]`), which means that we only run after the **first** render
+18. This time, we do **not** queue an effect. We set up `useEffect` with an empty array (`[]`), which means that we only run after the **first** render
 19. We do have `imgSrc` state set, so we render the image using the data from the API 🎉
 
 ```js
