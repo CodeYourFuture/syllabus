@@ -569,6 +569,40 @@ We now have three different inputs named `username`, `email` and `password`. The
 | 10. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caught` array in the `catchPokemon` function. |
 | 11: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caught` state if the value of `pokemonNameInput` state is empty.                                                                    |
 
+#### Inlining event handlers
+
+We could make our code a bit shorter if we _inlined_ our event handlers ([interactive example](https://codesandbox.io/s/controlled-component-with-inlined-event-handlers-wfq8o?file=/src/CreateAccountForm.js)):
+
+```js
+<input
+  type="text"
+  name="username"
+  placeholder="Username"
+  value={username}
+  onChange={(event) => setUsername(event.target.value)}
+/>
+```
+
+#### Centralising event handlers
+
+Sometimes we need to put all of our update logic in one function, maybe because we need to validate the user's input before we set it in state.
+
+We can use a single `handleChange` function, that is reused to keep track of changes for **all** of the form fields. To be able to tell which `<input>` is being updated, we check the `event.target.name` field. This corresponds to the `name` attribute on the `<input>` (e.g. `<input name="username">`).
+
+Based on this value, we then decide which state to update ([interactive example](https://codesandbox.io/s/controlled-component-with-centralised-handlers-1z90l?file=/src/CreateAccountForm.js)):
+
+```js
+function handleChange(event) {
+  if (event.target.name === "username") {
+    setUsername(event.target.value);
+  } else if (event.target.name === "email") {
+    setEmail(event.target.value);
+  } else if (event.target.name === "password") {
+    setPassword(event.target.value);
+  }
+}
+```
+
 ## Further Reading
 
 ### Container components
