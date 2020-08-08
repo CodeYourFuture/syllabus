@@ -497,11 +497,11 @@ In addition, instead of just saving the value of the input in the state, we coul
 | 7. Create a function within the component called `updateCity`. Pass this function to the `onChange` event handler.                                                                                      |
 | 8. Change the `updateCity` component so that it has a parameter named `event`.                                                                                                                          |
 | 9. Add a `console.log` to inspect the value of `event.target.value`. What happens when you type in the input?                                                                                           |
-| 10. Using `setCity`, update the city state to what was typed in the input box.                                                                                                                      |
+| 10. Using `setCity`, update the city state to what was typed in the input box.                                                                                                                          |
 
 ### Form with Multiple Fields
 
-Let's have a look at a more complex example where we want to build a form to let users enter information to create a personal account ([interactive example](https://codesandbox.io/s/controlled-component-createaccountform-1z90l?file=/src/CreateAccountForm.js)):
+Let's have a look at a more complex example where we want to build a form to let users enter information to create a personal account ([interactive example](https://codesandbox.io/s/controlled-component-with-multiple-fields-qy3cd?file=/src/CreateAccountForm.js)):
 
 ```js
 function CreateAccountForm() {
@@ -509,21 +509,14 @@ function CreateAccountForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleChange(event) {
-    if (event.target.name === "username") {
-      setUsername(event.target.value);
-    } else if (event.target.name === "email") {
-      setEmail(event.target.value);
-    } else if (event.target.name === "password") {
-      setPassword(event.target.value);
-    }
+  function handleUsernameChange(event) {
+    setUsername(event.target.value);
   }
-
-  function submit() {
-    console.log("Do something with the form values...");
-    console.log(`Username = ${username}`);
-    console.log(`Email = ${email}`);
-    console.log(`Password = ${password}`);
+  function handleEmailChange(event) {
+    setEmail(event.target.value);
+  }
+  function handlePasswordChange(event) {
+    setPassword(event.target.value);
   }
 
   return (
@@ -534,7 +527,7 @@ function CreateAccountForm() {
           name="username"
           placeholder="Username"
           value={username}
-          onChange={handleChange}
+          onChange={handleUsernameChange}
         />
       </div>
       <div>
@@ -543,7 +536,7 @@ function CreateAccountForm() {
           name="email"
           placeholder="Email"
           value={email}
-          onChange={handleChange}
+          onChange={handleEmailChange}
         />
       </div>
       <div>
@@ -552,32 +545,15 @@ function CreateAccountForm() {
           name="password"
           placeholder="Password"
           value={password}
-          onChange={handleChange}
+          onChange={handlePasswordChange}
         />
       </div>
-      <button type="submit" onClick={submit}>
-        Create account
-      </button>
     </div>
   );
 }
 ```
 
-We now have three different inputs named `username`, `email` and `password`, and we keep each entered value in state variables.
-
-The `handleChange` function is reused to keep track of changes for **all** the form fields. To be able to tell which `<input>` is being updated, we check the `event.target.name` field. This corresponds to the `name` attribute on the `<input>` (e.g. `<input name="username">`).
-
-Based on this value, we then decide which state to update:
-
-```js
-if (event.target.name === "username") {
-  setUsername(event.target.value);
-} else if (event.target.name === "email") {
-  setEmail(event.target.value);
-} else if (event.target.name === "password") {
-  setPassword(event.target.value);
-}
-```
+We now have three different inputs named `username`, `email` and `password`. There is a corresponding state variable and change handler function for each value.
 
 | Exercise G (estimate: 10 min)                                                                                                                                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
