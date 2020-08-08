@@ -160,6 +160,8 @@ The timeline of this component is now what we wanted at the start:
 3. When the response is received, we update the state
 4. This causes a re-render so that we can show the data on-screen
 
+You might notice that even though we re-rendered, we did **not** run the `useEffect` a second time. The way we've set it up, `useEffect` will only run after the **first** time a component renders. We'll look at controlling this in more detail later.
+
 | Exercise A (estimate: 15 min)                                                                                                                                                                                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application again.                                                                                                                                                                                                             |
@@ -325,7 +327,7 @@ Together let's "play computer" to break down exactly what is happening with thes
 
 16. The `MartianImageFetcher` function component is called again
 17. `useState` remembers that the `imgSrc` state is set to the data from the API
-18. This time, we do **not** queue an effect. We used an empty array (`[]`) as the `useEffect` dependencies argument which means that we only queue effects on the **first** render
+18. This time, we do **not** queue an effect. We set it up with an empty array (`[]`), which means that we only run after the **first** render
 19. We do have `imgSrc` state set, so we render the image using the data from the API 🎉
 
 ```js
