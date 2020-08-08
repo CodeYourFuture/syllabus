@@ -153,7 +153,12 @@ function MartianPhotoFetcher() {
 }
 ```
 
-The timeline of this component is now what we wanted at the start: after the component has rendered the first time (this is sometimes called _mounting_), fetch data from the NASA API. When the response is received, update the state and re-render so that we can show the data on-screen.
+The timeline of this component is now what we wanted at the start:
+
+1. The component renders for the first time. Notice that we are returning `null` here: if a component returns `null`, then React will render nothing on-screen
+2. After rendering, the `useEffect` callback is run, so it fetches data from the NASA API
+3. When the response is received, we update the state
+4. This causes a re-render so that we can show the data on-screen
 
 | Exercise A (estimate: 15 min)                                                                                                                                                                                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
