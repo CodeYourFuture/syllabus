@@ -565,7 +565,7 @@ function CreateAccountForm() {
 
 We now have three different inputs named `username`, `email` and `password`, and we keep each entered value in state as a field in an object.
 
-The `handleChange` function is reused to keep track of changes for **all** the values. To be able to tell which `<input>` is being updated, we check the `event.target.name` field. This corresponds to the `name` attribute on the `<input>` (e.g. `<input name="username">`).
+The `handleChange` function is reused to keep track of changes for **all** the form fields. To be able to tell which `<input>` is being updated, we check the `event.target.name` field. This corresponds to the `name` attribute on the `<input>` (e.g. `<input name="username">`).
 
 Based on this value, we then decide which state to update:
 
