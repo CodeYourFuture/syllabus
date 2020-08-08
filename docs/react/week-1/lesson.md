@@ -129,7 +129,7 @@ There are 3 important parts in this code:
 3. We _render_ the `HelloWorld` component into the element with the id of `root`.
 
 :::note Definition
-_Render_: to insert into the DOM using React.
+The process of _rendering_ is turning the JSX elements returned by the component function into DOM elements on the screen. This is done by React for you.
 :::
 
 | Exercise D (estimate: 10 min)                                                                                                                                                                                                             |
