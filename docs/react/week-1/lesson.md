@@ -126,7 +126,7 @@ There are 3 important parts in this code:
 
 1. First we import `React`. This is important because JSX is converted to `React.createElement` calls. If the `React` variable is undefined then this will fail.
 2. We create a React component called `HelloWorld`.
-3. We _render_ the `HelloWorld` component into a `div` with the id of `root`.
+3. We _render_ the `HelloWorld` component into the element with the id of `root`.
 
 | Exercise D (estimate: 10 min)                                                                                                                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
