@@ -336,7 +336,7 @@ On the second render, `count` is now set to 1. Every time we click the button, t
 
 #### Don't mutate State
 
-As we just learned, `setCount` updates the state for us, but it also notifies React of changes. Because of this we can't change (or _mutate_) state variables ourselves. In fact, React makes it impossible to modify (or _mutate_) state ([interactive example](https://codesandbox.io/s/dont-mutate-state-hex49?file=/src/Counter.js)):
+As we just learned, `setCount` updates the state for us, but it also notifies React of changes. If you try to just change the `count` variable without using `setState`, nothing will happen, because React wouldn't be notified of the change. You can **only** modify (or _mutate_) state using the setter function ([interactive example](https://codesandbox.io/s/dont-mutate-state-hex49?file=/src/Counter.js)):
 
 ```js
 function Counter() {
@@ -354,8 +354,6 @@ function Counter() {
   );
 }
 ```
-
-Clicking the button doesn't do anything! React is letting us know that we have to use `setCount` to be able to update state.
 
 ### Where does State live?
 
