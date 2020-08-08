@@ -75,7 +75,7 @@ function logWhenClicked() {
 buttonElement.addEventListener("click", logWhenClicked);
 ```
 
-We still need to listen events in React, but event handlers are set up in a slightly different way ([interactive example](https://codesandbox.io/s/event-handlers-cc3h7?file=/src/ClickLogger.js)):
+We still need to listen to events in React, but event handlers are set up in a slightly different way ([interactive example](https://codesandbox.io/s/event-handlers-cc3h7?file=/src/ClickLogger.js)):
 
 ```js
 function ClickLogger() {
