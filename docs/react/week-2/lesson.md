@@ -313,7 +313,7 @@ function incrementCount() {
 
 It also tells React that the old state that is **still shown in the DOM** is outdated and so the DOM needs to change. Because of this, React will re-render all of our components to figure out what to change in the DOM.
 
-When re-rendering, `useState` now gives us the **updated** state:
+When re-rendering, React will call our `Counter` component again, but this time when we call `useState` it will give us the updated state of 1, instead of the initial state of 0:
 
 ```js
 function Counter() {
