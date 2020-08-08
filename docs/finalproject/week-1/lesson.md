@@ -19,11 +19,11 @@ sidebar_label: Lesson
 
 ## Welcome
 
-## Getting Setup (15 minutes)
+## 1. Getting Setup (15 minutes)
 
 Once you have your team and your assignment, start by sorting out the basic administrative requirements.
 
-### 1. Introductions
+### 1.1. Introductions
    - Before we introduce ourselves let's introduce one of the tools we'll be using to collaborate during the project, [Miro](https://miro.com/). Whiteboards are a simple yet powerful tool software teams use to share ideas and solve problems - Miro is just a virtual version. It should be intuitive but if you want help there's lots of [content online](https://www.youtube.com/watch?v=pULLAEmhSho).
    
    - Once you're familiar with the tool one person should make a copy of [this Miro board](https://miro.com/app/board/o9J_knoA0Ag=/) for your team to work on. 
@@ -31,18 +31,18 @@ Once you have your team and your assignment, start by sorting out the basic admi
    - OK, now we're set up let's get to know each other a little using **Exercise 1: Icebreaker** on your team's copy of the Miro board.
 
 
-### 2. Give your team a name!
+### 1.2. Give your team a name!
    - Follow **Exercise 2: Finding a name** in Miro
    
    - This will be your identity - use it in all communications/presentations.
 
-### 3. Create a public Slack channel
+### 1.3. Create a public Slack channel
    - The name should start with your class name (e.g. #ldn6, #nw3, #wm1...)
    
    - Invite all of your team members to it
 
 
-### 4. Create a GitHub repository
+### 1.4. Create a GitHub repository
    - Pick one member to own the repo,
    
    - Everyone else should be invited as a [collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository))
@@ -51,27 +51,35 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 
 
-## Agile Development (60 minutes)
+## 2. Agile Development (60 minutes)
+
+### 2.1. What is Agile Development? (30-45 minutes)
+*Faciliated by Engineering Mentors*
+
+Before we determine what we're going to build we should discuss how we're going to build it. The Engineering TAs will lead us through a discussion on Agile best practices using this deck - [What is Agile Development?](https://docs.google.com/presentation/d/1p9AV-pz_VpM0B9Lo6K6WUNANF1ycXgEPU4SbpgNzzSI/edit#slide=id.p) 
 
 
-### What is Agile Development? (30-45 minutes)
+### 2.2. What is a Product Manager? (25-30 minutes)
+*Faciliated by Product Managers*
 
-TO DO 
-
-### What is a Product Manager? (25-30 minutes)
 To work in an Agile way it's best to be part of a cross-functional team, so we've asked some Product Managers (PM) to join us for the final project. To introduce who they are and what their role is your PM will run through this [What is a Product Manager?](https://docs.google.com/presentation/d/1W8H8V0Fxor-XPcCY7kuXPCWbA9xTqS1vW1RMVCcCZRc/edit#slide=id.p) presentation. 
 
   *A note for PMs* - don't forget to create your own copy of the presentation and update the 'Who am I?' section.
 
-### Project Management Boards (5 minutes)
-Project Management boards are a tool that you can use to help you organise how you work.
 
-```txt
-Create a [project board](https://help.github.com/en/articles/about-project-boards) in the repo for your tasks and stories
-```
+### 2.3. Project Management Boards (5 minutes)
+*Led by students* 
+
+Project Management boards are a tool that you can use to help you organise how you work. 
+
+Create a copy of this Project Board to manage your work - [Project Board](https://trello.com/b/wkQd3R5r/team-name-backlog)
+
+After you've copied it have a quick look through and ask questions about anything that's unfamiliar - your PMs and TAs will be able to explain concepts like Backlogs and User Stories
 
 
-### Daily Stand-ups (5 minutes)
+### 2.4. Daily Stand-ups (5 minutes)
+*Facilitated by Engineering Mentors*
+
 Every day you should post a message in the team's Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you.
 
 Set a time for this and stick to it.
@@ -82,14 +90,18 @@ Afterwards, post a team summary in the main class channel.
 In your teams, you should decide the time you want to share your stand-up message and who is responsible for sharing them with the wider team.
 ```
 
+
 ### BREAK (10-15 minutes) 
 Go stretch your legs or grab a snack!
 
 
-## What are we going to build?  (90 minutes)
+
+## 3. What are we going to build?  (90 minutes)
 You should be able to fill in the answers to this using **Exercise 3: Defining our product** in our Miro board 
 
-### 1. Framing the problem (20 minutes)
+### 3.1. Framing the problem (20 minutes)
+*Facilitated by Product Managers*
+
 To figure out the right thing to build we should use our project brief to answer a few key questions, such as:
 
 - What is the problem we're trying to solve?
@@ -97,7 +109,10 @@ To figure out the right thing to build we should use our project brief to answer
 - What is the business value of solving this problem?
 - What metrics could we use to measure if we've been successful?
 
-### Defining our solution (40 minutes)
+
+### 3.2. Defining our solution (40 minutes)
+*Facilitated by Product Managers*
+
 Now we've got the problem framed we can spend some time thinking about specific solutions:
 
 - What's our Lean Hypothesis?
@@ -105,7 +120,10 @@ Now we've got the problem framed we can spend some time thinking about specific 
 - What is our MVP (Minimum Viable Product)?
 - What does the rest of our Roadmap look like?
 
-### Planning our work (30 minutes)
+
+### 3.3. Planning our work (30 minutes)
+*Faciliated by Engineering Mentors*
+
 When our solution is clear we can dig into some implementation details:
 
 - What information will they need to have and/or provide to do that?
@@ -135,7 +153,8 @@ If you haven't finished, make sure that you finish these by the end of the week.
 Go stretch your legs or grab a snack!
 
 
-## Sprint Planning (60 minutes)
+## 4. Sprint Planning (60 minutes)
+*Facilitated by Product Managers*
 
 In this project we will be working in `Sprints`.
 
@@ -149,6 +168,6 @@ After you've completed the task you should decide what you’re each going to be
 
 Make sure that you assigned everybody tasks on your Project Management board.
 
-## Prepare for next week
+## 5. Prepare for next week
 
 Next week you will be presenting what you've done this week to the whole class. This means you need to prepare a presentation - it is the responsibility of the team to get this done but your product manager may be able to help co-ordinate.
