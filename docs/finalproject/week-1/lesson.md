@@ -28,7 +28,7 @@ Once you have your team and your assignment, start by sorting out the basic admi
    
    - Once you're familiar with the tool one person should make a copy of [this Miro board](https://miro.com/app/board/o9J_knoA0Ag=/) for your team to work on. 
    
-   - OK, now we're setup with let's get to know each other a little using **Exercise 1: Icebreaker** on your team's copy of the Miro board.
+   - OK, now we're set up let's get to know each other a little using **Exercise 1: Icebreaker** on your team's copy of the Miro board.
 
 
 ### 2. Give your team a name!
