@@ -396,7 +396,7 @@ function ShoppingList() {
 }
 ```
 
-In this shopping list example, we're initialising the `list` state to be an empty array. To display our list we loop through the array (like we learned last week) and render each item on the list.
+In this shopping list example, we're initialising the `list` state to be an empty array. To display our list we loop through the array (like we learned last week) and render an `<li>` for each item in the list.
 
 When we want to add something to the list, we can use the `list.concat` method to make a new array with the new item. This new array is then set as the new state. Right now, our example is not very useful as it can only add Bread to the list! Next week, we'll look at how we can allow users to write their own items to the list.
 
