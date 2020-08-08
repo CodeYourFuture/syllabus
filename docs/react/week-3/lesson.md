@@ -603,6 +603,50 @@ function handleChange(event) {
 }
 ```
 
+### Form submission
+
+So far, our form examples don't have a way of sending the user data back to the server, so that we can store it in the database.
+
+We will be using a special `submit` event triggered on the `<form>` element. This event is triggered when the user clicks a submit button or if they hit the Enter key. Let's take a look at an example ([interactive example](https://codesandbox.io/s/controlled-component-with-submit-handler-5uhih?file=/src/CreateAccountForm.js)):
+
+```js
+function CreateAccountForm() {
+
+  ...
+
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    console.log("Sending data to server");
+
+    fetch("https://httpstat.us/200", {
+      method: "POST",
+      body: JSON.stringify({
+        username: username,
+        email: email,
+        password: password
+      }),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      ...
+      <button>Submit</button>
+    </form>
+  );
+}
+```
+
+We set up our `<form>` to handle the event by passing the `handleSubmit` function to the `onSubmit` prop. If we click on the Submit button or hit Enter while focused on the form, the event is triggered and the `handleSubmit` function is called.
+
+The first thing we do inside the handler function is call `event.preventDefault()`. This is necessary because the browser has a _default_ action when the submit event is triggered on the form to send a GET request to the server. We prevent the default action because we will handle the event ourselves.
+
+We can then do whatever we want with our user data! In this example, we're sending a POST request using the `fetch` method.
+
 ## Further Reading
 
 ### Container components
