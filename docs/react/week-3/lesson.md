@@ -465,7 +465,7 @@ function SimpleReminder() {
   }
 
   return (
-    <div>
+    <form>
       <input
         type="text"
         placeholder="Some reminder"
@@ -473,7 +473,7 @@ function SimpleReminder() {
         onChange={handleChange}
       />
       <p>Today I need to remember to... {reminder}</p>
-    </div>
+    </form>
   );
 }
 ```
@@ -520,7 +520,7 @@ function CreateAccountForm() {
   }
 
   return (
-    <div>
+    <form>
       <div>
         <input
           type="text"
@@ -548,7 +548,7 @@ function CreateAccountForm() {
           onChange={handlePasswordChange}
         />
       </div>
-    </div>
+    </form>
   );
 }
 ```
