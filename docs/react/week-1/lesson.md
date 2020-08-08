@@ -128,6 +128,10 @@ There are 3 important parts in this code:
 2. We create a React component called `HelloWorld`.
 3. We _render_ the `HelloWorld` component into the element with the id of `root`.
 
+:::note Definition
+_Render_: to insert into the DOM using React.
+:::
+
 | Exercise D (estimate: 10 min)                                                                                                                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. In the `pokedex` React app that you just created, open the `src/App.js` file.                                                                                                                                                          |
