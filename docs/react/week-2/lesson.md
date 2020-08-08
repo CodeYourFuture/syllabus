@@ -100,7 +100,7 @@ Here's a few examples (a full list is available [here](https://reactjs.org/docs/
 - `onPlay` - a video starts playing
 - `onSubmit` - a form element is submitted
 
-Notice that just like with `addEventListener` above, we pass the function reference to `onClick` instead of calling the function. If we call the function, it will run when we render, not when the user clicks on the button.
+Notice that just like with `addEventListener` above, we pass the function **reference** to `onClick` instead of **calling** the function. If we call the function, it will run the function when we render, not when the user clicks on the button. (Remember that _rendering_ is the term in React for inserting into the DOM).
 
 :::tip
 Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
