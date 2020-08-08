@@ -54,13 +54,13 @@ Once you have your team and your assignment, start by sorting out the basic admi
 ## 2. Agile Development (60 minutes)
 
 ### 2.1. What is Agile Development? (30-45 minutes)
-*Faciliated by Engineering Mentors*
+*Facilitated by Engineering Mentors*
 
 Before we determine what we're going to build we should discuss how we're going to build it. The Engineering TAs will lead us through a discussion on Agile best practices using this deck - [What is Agile Development?](https://docs.google.com/presentation/d/1p9AV-pz_VpM0B9Lo6K6WUNANF1ycXgEPU4SbpgNzzSI/edit#slide=id.p) 
 
 
 ### 2.2. What is a Product Manager? (25-30 minutes)
-*Faciliated by Product Managers*
+*Facilitated by Product Managers*
 
 To work in an Agile way it's best to be part of a cross-functional team, so we've asked some Product Managers (PM) to join us for the final project. To introduce who they are and what their role is your PM will run through this [What is a Product Manager?](https://docs.google.com/presentation/d/1W8H8V0Fxor-XPcCY7kuXPCWbA9xTqS1vW1RMVCcCZRc/edit#slide=id.p) presentation. 
 
@@ -122,7 +122,7 @@ Now we've got the problem framed we can spend some time thinking about specific 
 
 
 ### 3.3. Planning our work (30 minutes)
-*Faciliated by Engineering Mentors*
+*Facilitated by Engineering Mentors*
 
 When our solution is clear we can dig into some implementation details:
 
