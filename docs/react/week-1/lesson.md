@@ -422,16 +422,6 @@ Or calculating new values:
 | 11. In the `BestPokemon.js` file replace the existing usage of `abilities` with the `abilities` **prop**. You should still see the Pokemon ability names in your web browser. |
 | 12. **(STRETCH GOAL)** Repeat the process with the `date` variable in the `CaughtPokemon.js` file.                                                                            |
 
-## Further reading
-
-Fed up of having to provide a prop for every component? Do you want to make your component use a value most of the time, but it can be overridden with a prop? This is a good time to use `defaultProps`. [This page on the React documentation](https://reactjs.org/docs/typechecking-with-proptypes.html#default-prop-values) describes in more detail.
-
-| Exercise J (OPTIONAL)                                                                                               |
-| :------------------------------------------------------------------------------------------------------------------ |
-| Complete the FreeCodeCamp [exercises](https://learn.freecodecamp.org/front-end-libraries/react/) on `defaultProps`: |
-| 1. [Use Default Props](https://learn.freecodecamp.org/front-end-libraries/react/use-default-props/).                |
-| 2. [Override Default Props](https://learn.freecodecamp.org/front-end-libraries/react/override-default-props/).      |
-
 ### Credits
 
 Inspiration & examples for this module were taken from [Kent C. Dodd's](https://twitter.com/kentcdodds) [Beginner's Guide to ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) course.
