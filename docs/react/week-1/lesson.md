@@ -99,7 +99,7 @@ As you can see, this is much easier to read than both the straight `React.create
 
 | Exercise C (estimate: 10 min)                                                                                                                                     |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. If you haven't already, follow [the instructions to create a React app] called `pokedex`(https://docs.codeyourfuture.io/students/guides/creating-a-react-app). |
+| 1. If you haven't already, follow [the instructions to create a React app](https://docs.codeyourfuture.io/students/guides/creating-a-react-app) called `pokedex`. |
 
 ### What got created?
 
