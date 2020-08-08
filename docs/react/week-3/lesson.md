@@ -497,7 +497,7 @@ In addition, instead of just saving the value of the input in the state, we coul
 | 7. Create a function within the component called `updateCity`. Pass this function to the `onChange` event handler.                                                                                      |
 | 8. Change the `updateCity` component so that it has a parameter named `event`.                                                                                                                          |
 | 9. Add a `console.log` to inspect the value of `event.target.value`. What happens when you type in the input?                                                                                           |
-| 10. Using `setCity`, update the city state to what what is typed in the input box.                                                                                                                      |
+| 10. Using `setCity`, update the city state to what was typed in the input box.                                                                                                                      |
 
 ### Form with Multiple Fields
 
