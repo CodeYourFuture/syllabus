@@ -187,14 +187,22 @@ Because a React component is just a function, we can also use the arrow function
 
 ```js
 const HelloWorld = () => {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
 };
 ```
 
 This can be even shorter again if we use parentheses and implicit return:
 
 ```js
-const HelloWorld = () => <div>Hello World</div>;
+const HelloWorld = () => (
+  <div>
+    <h1>Hello World</h1>
+  </div>
+);
 ```
 
 Although this is shorter, it is less flexible as we cannot insert code that is **not** JSX. Like for example, a `console.log`:
@@ -202,9 +210,12 @@ Although this is shorter, it is less flexible as we cannot insert code that is *
 ```js
 // THIS DOES NOT WORK!
 const HelloWorld = () => (
-  console.log('Hello!')
-  <div>Hello world</div>
+  console.log('Hello!');
+  <div>
+    <h1>Hello World</h1>
+  </div>
 );
+
 ```
 
 If we want to do this, we can still use arrow functions but we can't use the implicit return.
