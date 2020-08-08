@@ -243,7 +243,7 @@ return <p>You clicked {count} times</p>;
 
 `count` is just a variable, so to insert it into our JSX we treat it like any other variable: we use curly braces.
 
-Finally, let's at how we get hold of the `count` variable:
+Finally, let's look at how we get hold of the `count` variable:
 
 ```js
 const [count, setCount] = useState(0);
