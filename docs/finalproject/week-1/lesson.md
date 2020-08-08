@@ -156,7 +156,7 @@ Go stretch your legs or grab a snack!
 ## 4. Sprint Planning (60 minutes)
 *Facilitated by Product Managers*
 
-In this project we will be working in `Sprints`.
+In this project we will be working in `Sprints`. You can plan your first sprint using the your copy of the [Project Board](https://trello.com/b/wkQd3R5r/team-name-project-board)
 
 A Sprint is a unit of time (normally a week or two weeks) where teams believe they can deliver by the end of the time given to them.
 
