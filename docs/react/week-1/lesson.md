@@ -229,36 +229,35 @@ If we want to do this, we can still use arrow functions but we can't use the imp
 
 So far all of the components we have looked at haven't been able to change - they are _hard-coded_. But this doesn't make very interesting websites, we want to be able to use variables with different data. We can insert variables (and some other things) into our React components.
 
-Anything in the JSX that is inside curly braces `{}` is interpreted as a regular JavaScript _expression_. That means you can use every object or function from JavaScript that we have learned so far. Let's look at an example ([interactive example](https://codesandbox.io/s/l910pqnjql)):
+Anything in the JSX that is inside curly braces `{}` is interpreted as a regular JavaScript _expression_. That means you can use every object or function from JavaScript that we have learned so far. Let's look at an example ([interactive example](https://codesandbox.io/s/interpolation-in-jsx-l910pqnjql)):
 
 ```js
-const Greeting = () => {
+function Greeting() {
   const greetingWord = "Hello";
 
   return <span>{greetingWord}</span>;
-};
+}
 ```
 
-Now instead of hard-coding the greeting in the `Greeting` component, we are using a variable. Remember that everything between the curly braces is just regular JavaScript. So we can use more than just variables ([interactive example](https://codesandbox.io/s/nw29kzx744)):
+Now instead of hard-coding the greeting in the `Greeting` component, we are using a variable. Remember that everything between the curly braces is just regular JavaScript. So we can use more than just variables ([interactive example](https://codesandbox.io/s/interpolation-with-methods-in-jsx-nw29kzx744?file=/src/HelloWorld.js)):
 
 ```js
-const Mentor = () => {
-  const mentors = ["Ali", "Sub", "Loic", "Anthony", "Lucy", "Mozart"];
-
+function Mentor() {
+  const mentors = ["Ali", "Kash", "Davide", "German", "Gerald"];
   return <span>{mentors.join(", ")}</span>;
-};
+}
 ```
 
 Now we have modified the `Mentor` component to use the `Array.join` method so that it lists several mentor's names. This also works with other JS types:
 
 ```js
-const Addition = () => {
+function Addition() {
   return <span>{1 + 2 + 3}</span>;
-};
+}
 ```
 
 ```js
-const Weather = () => {
+function Weather() {
   const weatherData = {
     temperature: 5,
     location: "London",
@@ -269,7 +268,7 @@ const Weather = () => {
       The temperature in {weatherData.location} is {weatherData.temperature}
     </p>
   );
-};
+}
 ```
 
 ```js
@@ -277,27 +276,29 @@ function formatName(user) {
   return user.firstName + " " + user.lastName;
 }
 
-const Name = () => {
+function Name() {
   const user = {
     firstName: "Bob",
     lastName: "Marley",
   };
   return <span>{formatName(user)}</span>;
-};
+}
 ```
 
-A common pattern in React is to use `Array.map` to loop through a list of items and render a component for each one ([interactive example](https://codesandbox.io/s/7mw0mw3qx0)):
+A common pattern in React is to use `Array.map` to loop through a list of items and render a component for each one ([interactive example](https://codesandbox.io/s/interpolation-with-map-in-jsx-7mw0mw3qx0?file=/src/MentorsList.js)):
 
 ```js
-const mentors = ["Ali", "Sub", "Loic", "Anthony", "Lucy", "Mozart"];
+const mentors = ["Ali", "Kash", "Davide", "German", "Gerald"];
 
-const List = () => (
-  <ul>
-    {mentors.map((name) => {
-      return <li>{name}</li>;
-    })}
-  </ul>
-);
+function MentorsList() {
+  return (
+    <ul>
+      {mentors.map((name) => (
+        <li>{name}</li>
+      ))}
+    </ul>
+  );
+}
 ```
 
 Here we are using `Array.map` to turn an array of strings into an array of components.
@@ -316,20 +317,20 @@ Here we are using `Array.map` to turn an array of strings into an array of compo
 
 ## Keys
 
-You may have noticed that we are now seeing a red error message in the Dev Tools: `Warning: Each child in a list should have a unique "key" prop.`. This error happens when you use `Array.map` to return a list of elements ([interactive example](https://codesandbox.io/s/pwp8ox4kn0)):
+You may have noticed that we are now seeing a red error message in the Dev Tools: `Warning: Each child in a list should have a unique "key" prop.`. This error happens when you use `Array.map` to return a list of elements ([interactive example](https://codesandbox.io/s/key-prop-for-lists-in-react-pwp8ox4kn0?file=/src/MentorsList.js)):
 
 ```js
 const mentors = ["Ali", "Sub", "Loic", "Anthony", "Lucy", "Mozart"];
 
-const List = () => (
-  <ul>
-    {mentors.map((name, index) => {
-      return (
-        <li key={index}>{name}</li>;
-      )
-    })}
-  </ul>
-);
+function MentorsList() {
+  return (
+    <ul>
+      {mentors.map((name, index) => (
+        <li key={index}>{name}</li>
+      ))}
+    </ul>
+  );
+}
 ```
 
 Here we have added a `key` prop to the `li` element. A documentation page explaining in more depth is in the further reading section but basically the `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which.
@@ -342,18 +343,22 @@ To help organise your code, components can be imported and exported just like an
 import Greeting from "./Greeting";
 import Mentor from "./Mentor";
 
-const HelloMentor = () => (
-  <div>
-    <Greeting />
-    <Mentor />
-  </div>
-);
+function HelloMentor() {
+  return (
+    <div>
+      <Greeting />
+      <Mentor />
+    </div>
+  );
+}
 ```
 
 We also need to export our components if we want to use them in other files:
 
 ```js
-const Greeting = () => <div>Hello</div>;
+function Greeting() {
+  return <span>Hello</span>;
+}
 
 export default Greeting;
 ```
@@ -383,7 +388,7 @@ Instead wouldn't it be good if we could change which mentor we are saying hello 
 
 Props are what we use in React to pass "arguments" to components. They are very similar to arguments in functions - you can "pass" props to components, and you can use those props within a component.
 
-First let's look at passing props to your components ([interactive example](https://codesandbox.io/s/vmjy0o91m7)):
+First let's look at passing props to your components ([interactive example](https://codesandbox.io/s/intro-to-props-vmjy0o91m7?file=/src/HelloMentor.js)):
 
 ```js
 <Mentor name="Mozafar" />
@@ -397,15 +402,13 @@ We don't have to use strings, we can use any valid JavaScript data like numbers,
 <Mentor age={30}>
 ```
 
-Now let's take a look at using props that we have passed to a component ([interactive example](https://codesandbox.io/s/vmjy0o91m7)):
+Now let's take a look at using props that we have passed to a component ([interactive example](https://codesandbox.io/s/intro-to-props-vmjy0o91m7?file=/src/Mentor.js)):
 
 ```js
-const Mentor = (props) => {
+function Mentor(props) {
   console.log(props);
-  return (
-    <span>{props.name}</span>;
-  )
-};
+  return <span>{props.name}</span>;
+}
 ```
 
 React gives you access to props in the **first argument** to the component function. We can then inject props into our component using curly braces.
