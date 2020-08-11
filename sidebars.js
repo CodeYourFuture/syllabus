@@ -134,6 +134,10 @@ module.exports = {
       "js-core-3/week-3/homework",
       "js-core-3/week-3/instructors",
     ],
+    "Other Lessons": [
+      "js-core-3/other/javascript-classes",
+      "js-core-3/other/this-keyword",
+    ],
     "TV Show Project": [
       "js-core-3/tv-show-dom-project/readme",
       "js-core-3/tv-show-dom-project/getting-started",
