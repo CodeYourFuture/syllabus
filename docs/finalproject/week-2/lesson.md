@@ -39,8 +39,8 @@ Show what you’ve built and what you’re planning to build next to potential u
 
 ## Sprint planning (60 minutes)
 
-decide what you’re each going to be doing during the following week and where you want to be by the next class.
+Decide what you’re each going to be doing during the following week and where you want to be by the next class.
 
 ## Technical support (60 minutes)
 
-mentors will be on hand to help you get unstuck from any blocking technical issues.
+Mentors will be on hand to help you get unstuck from any blocking technical issues.
