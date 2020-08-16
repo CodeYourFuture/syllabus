@@ -17,7 +17,7 @@ Your presentation should last **no more than five minutes** and could include:
 - A video of your project
 - A live example of your project
 
-You can use this [basic template](https://docs.google.com/presentation/d/1pQ7teLv6k4uDvpG8qVLs5YgzpD7jRbMUmyyszHsNPhc/edit#slide=id.g90bd724b34_0_0)
+If you don't have a retro board set up already, you can use [this guide](https://pivotal.github.io/postfacto/)
 
 The most important aspect of this presentation is that you are **clear** and **concise**. We want to see that you can present yourselves well and communicate information effectively.
 
