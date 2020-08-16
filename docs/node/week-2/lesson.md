@@ -217,4 +217,60 @@ So what format does the client send the data with? It is up to us, but since we 
 
 In order for our _server-side_ to receive and use the data sent by the client. We will need to install and use a **middleware**.
 
-> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example
+> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example)
+
+[Express Body Parser](https://github.com/expressjs/body-parser#examples) makes it easier for our _endpoints_ to receive and understand different formats of data.
+
+First install the package: `npm install body-parser --save`
+
+```js
+const bodyParser = require("body-parser");
+
+app.use(bodyParser.json()); // before our routes definition
+```
+
+Now we will receive the data as `req.body`.
+
+```js
+app.post("/albums", function (req, res) {
+  console.log("POST /albums route");
+  console.log(req.body);
+});
+```
+
+> Exercise: Use Postman to `POST` this data to `/albums` endpoint.
+
+```json
+{
+  "albumId": "13",
+  "artistName": "Beyoncé",
+  "collectionName": "B'Day (Deluxe Edition)",
+  "artworkUrl100": "http://is5.mzstatic.com/image/thumb/Music/v4/6c/fc/6a/6cfc6a13-0633-f96b-9d72-cf56774beb4b/source/100x100bb.jpg",
+  "releaseDate": "2007-05-29T07:00:00Z",
+  "primaryGenreName": "Pop",
+  "url": "https://www.youtube.com/embed/RQ9BWndKEgs?rel=0&amp;controls=0&amp;showinfo=0"
+}
+```
+
+> Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
+
+### Step 3: Delete an album
+
+**Complete in-class (3) DELETE Exercise at this point**
+
+Lets look back at our original objectives.
+
+> `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
+
+This means that `DELETE /albums/2` should delete an album with the id `2` and return `200` with JSON `{ success: true }` to the user.
+
+The code will look like this
+
+```js
+// notice .delete
+app.delete("/albums/:albumID", function (req, res) {
+  console.log("DELETE /albums route");
+});
+```
+
+Can you work out how to remove an album using this code?
