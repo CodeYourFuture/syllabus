@@ -15,8 +15,6 @@ By the end of this lesson students should be able to:
 
 ## CRUD Review
 
-### Exercises
-
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
 - Create some "resources"
@@ -26,7 +24,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 > Which of these have we learnt so far?
 
-## (1) Using Update exercise
+### Using Update exercise
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
@@ -42,7 +40,7 @@ You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~c
 
 When you remix the starting project, immediately rename it as your own.
 
-## Updating Data
+#### Updating Data
 
 **Complete in-class (1) Using Update exercise at this point**
 
