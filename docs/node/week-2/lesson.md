@@ -154,7 +154,7 @@ app.get("/albums", function (req, res) {
 
 3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
-#### Step 1: GET /albums/:albumId
+### Step 1: GET /albums/:albumId
 
 **Complete in-class (1) GET Exercise at this point**
 
@@ -177,7 +177,7 @@ app.get("/albums/:albumId", function (req, res) {
 });
 ```
 
-#### Step 1.1 - Install nodemon
+### Step 1.1 - Install nodemon
 
 It is a bit annoying that we have to _kill_ and _restart_ our server every time we want to test our changes. There is a handy **npm package** that can help us with that task.
 
