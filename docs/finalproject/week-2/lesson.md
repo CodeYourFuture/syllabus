@@ -26,7 +26,7 @@ At the end of your presentation you will have to answers questions on your proje
 ## Retrospective (30 minutes)
 *Facilitated by TAs*
 
-Retro's can help a team focus on what is important and what they can improve for the next week. We like to use [Postfacto](https://pivotal.github.io/postfacto/) - if your team doesn't have a board setup already please contact Jon for help (@Jonrsharpe on Slack or jonathan@codeyourfuture.io).
+Retros can help a team focus on what is important and what they can improve for the next week. We like to use [Postfacto](https://pivotal.github.io/postfacto/) - if your team doesn't have a board setup already please contact Jon for help (`@jonrsharpe` on Slack or jonathan@codeyourfuture.io).
 
 - 5 mins - Individually everybody notes down.
   - You should include:
