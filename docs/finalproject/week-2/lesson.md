@@ -52,4 +52,5 @@ Decide what you’re each going to be doing during the following week and where 
 
 ## Technical support (60 minutes)
 *Facilitated by TAs* 
+
 Mentors will be on hand to help you get unstuck from any blocking technical issues.
