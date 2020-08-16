@@ -17,7 +17,7 @@ Your presentation should last **no more than five minutes** and could include:
 - A video of your project
 - A live example of your project
 
-If you don't have a retro board set up already, you can use [this guide](https://pivotal.github.io/postfacto/)
+If you want to prepare a quick presentation you can use [this template](https://docs.google.com/presentation/d/1pQ7teLv6k4uDvpG8qVLs5YgzpD7jRbMUmyyszHsNPhc/edit#slide=id.g90bd724b34_0_0)
 
 The most important aspect of this presentation is that you are **clear** and **concise**. We want to see that you can present yourselves well and communicate information effectively.
 
@@ -26,7 +26,7 @@ At the end of your presentation you will have to answers questions on your proje
 ## Retrospective (30 minutes)
 *Facilitated by TAs*
 
-Retro's can help a team focus on what is important and what they can improve for the next week. To get started quickly you can use one of the [Miro templates](https://miro.com/templates/feedback/)
+Retro's can help a team focus on what is important and what they can improve for the next week. We like to use [Postfacto](https://pivotal.github.io/postfacto/) - if your team doesn't have a board setup already please contact Jon for help (@Jonrsharpe on Slack or jonathan@codeyourfuture.io).
 
 - 5 mins - Individually everybody notes down.
   - You should include:
