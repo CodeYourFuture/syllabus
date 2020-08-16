@@ -83,7 +83,7 @@ You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~
 
 When you remix the starting project, immediately rename it as your own.
 
-## Workshop - Let's build an API
+## Workshop
 
 You can use this [Express Cheatsheet](https://github.com/nbogie/express-notes/blob/master/express-cheatsheet.md) to help you.
 
