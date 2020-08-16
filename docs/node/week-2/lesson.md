@@ -16,7 +16,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-## CRUD
+## CRUD Continued
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -98,7 +98,7 @@ An API does not have to be web-based. But in our work, since we are doing web de
 
 > **Checkpoint:** Let us recap what we know about HTTP before continuing.
 
-## Objective
+### Objective
 
 Our **API** will manage Beyoncé albums:
 
@@ -115,7 +115,7 @@ We will build these endpoints:
 `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
 
-## GET /Albums
+### GET /Albums
 
 1. In `server.js` Add the endpoint for `GET /albums`.
 
@@ -154,7 +154,7 @@ app.get("/albums", function (req, res) {
 
 3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
-## Step 1: GET /albums/:albumId
+#### Step 1: GET /albums/:albumId
 
 **Complete in-class (1) GET Exercise at this point**
 
@@ -177,7 +177,7 @@ app.get("/albums/:albumId", function (req, res) {
 });
 ```
 
-### Step 1.1 - Install nodemon
+#### Step 1.1 - Install nodemon
 
 It is a bit annoying that we have to _kill_ and _restart_ our server every time we want to test our changes. There is a handy **npm package** that can help us with that task.
 
@@ -194,7 +194,7 @@ scripts: {
 
 now from your terminal, use the command `npm run dev` and that will run the _server_ with `nodemon` which is a package that makes the server listen to code changes and automatically restart.
 
-## Step 2: Add a new album
+### Step 2: Add a new album
 
 **Complete in-class (2) Post Exercise at this point**
 
@@ -217,60 +217,4 @@ So what format does the client send the data with? It is up to us, but since we 
 
 In order for our _server-side_ to receive and use the data sent by the client. We will need to install and use a **middleware**.
 
-> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example)
-
-[Express Body Parser](https://github.com/expressjs/body-parser#examples) makes it easier for our _endpoints_ to receive and understand different formats of data.
-
-First install the package: `npm install body-parser --save`
-
-```js
-const bodyParser = require("body-parser");
-
-app.use(bodyParser.json()); // before our routes definition
-```
-
-Now we will receive the data as `req.body`.
-
-```js
-app.post("/albums", function (req, res) {
-  console.log("POST /albums route");
-  console.log(req.body);
-});
-```
-
-> Exercise: Use Postman to `POST` this data to `/albums` endpoint.
-
-```json
-{
-  "albumId": "13",
-  "artistName": "Beyoncé",
-  "collectionName": "B'Day (Deluxe Edition)",
-  "artworkUrl100": "http://is5.mzstatic.com/image/thumb/Music/v4/6c/fc/6a/6cfc6a13-0633-f96b-9d72-cf56774beb4b/source/100x100bb.jpg",
-  "releaseDate": "2007-05-29T07:00:00Z",
-  "primaryGenreName": "Pop",
-  "url": "https://www.youtube.com/embed/RQ9BWndKEgs?rel=0&amp;controls=0&amp;showinfo=0"
-}
-```
-
-> Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
-
-## Step 3: Delete an album
-
-**Complete in-class (3) DELETE Exercise at this point**
-
-Lets look back at our original objectives.
-
-> `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
-
-This means that `DELETE /albums/2` should delete an album with the id `2` and return `200` with JSON `{ success: true }` to the user.
-
-The code will look like this
-
-```js
-// notice .delete
-app.delete("/albums/:albumID", function (req, res) {
-  console.log("DELETE /albums route");
-});
-```
-
-Can you work out how to remove an album using this code?
+> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example
