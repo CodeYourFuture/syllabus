@@ -287,6 +287,8 @@ six();
 
 ## 2. Array Destructuring
 
+### The Problem
+
 In [Javascript 1 - Lesson 2](https://syllabus.codeyourfuture.io/js-core-1/week-2/lesson#arrays), you learnt how to store multiple values in one variable using an **array**.
 
 ```
@@ -308,7 +310,7 @@ console.log(thirdFruit); // This will print 'banana'
 console.log(`My fruits array contains: ${firstFruit}, ${secondFruit} and ${thirdFruit}.`);
 ```
 
-### Exercise (1)
+#### Exercise (1)
 
 We have the details of a student stored in an array called `student`. Create variables to store the values in the array so that the `console.log` will print out the message: `My name is Sara Lee. I am 30 years old. I live in London and I am studying Javascript.`.
 
@@ -316,7 +318,6 @@ We have the details of a student stored in an array called `student`. Create var
 let student = ['Sara','Lee', 30, 'London', 'Javascript'];
 
 // Create variables to store the values here
-
 
 console.log(`My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`);
 ```
@@ -345,6 +346,21 @@ With array destructuring you were able to reduce this code down from 7 lines of 
 
 Rewrite the code below to use array destructuring instead of assigning each value to a variable.
 
+<!-- These imports are used to enable this feature. Do not delete. -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+<Tabs
+  defaultValue="exercise"
+  values={[
+    { label: 'Exercise', value: 'exercise', },
+    { label: 'Solution', value: 'solution', },
+  ]
+}>
+<TabItem value="exercise">
+
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
 
@@ -358,11 +374,36 @@ console.log(
 );
 ```
 
+</TabItem>
+<TabItem value="solution">
+
+```js
+let sentence = ["Hello", "Code", "Your", "Future"];
+
+let [firstWord, secondWord, thirdWord, fourthWord] = sentence;
+
+console.log(
+  `FirstWord: ${firstWord}, SecondWord: ${secondWord}, ThirdWord: ${thirdWord}, FourthWord: ${fourthWord},`
+);
+```
+
+</TabItem>
+</Tabs>
+
 #### Exercise (3)
 
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
-```js live
+<Tabs
+  defaultValue="exercise"
+  values={[
+    { label: 'Exercise', value: 'exercise', },
+    { label: 'Solution', value: 'solution', },
+  ]
+}>
+<TabItem value="exercise">
+
+```js
 function sumAndMultiply(a, b) {
   return [a + b, a * b];
 }
@@ -372,13 +413,26 @@ function sumAndMultiply(a, b) {
 console.log(
   `The sum of the two numbers is ${sum}, the multiplication of the two numbers is ${multiply}`
 );
-```
+
 
 Which of the following lines of code can be put on line 5?
-A) let sum, multiply = sumAndMultiply(2, 3);
-B) let [sumAndMultiply] = sumAndMultiply(2, 3);
-C) let [sum, multiply] = sumAndMultiply(a, b);
+
+- A) let sum, multiply = sumAndMultiply(2, 3);
+- B) let [sumAndMultiply] = sumAndMultiply(2, 3);
+- C) let [sum, multiply] = sumAndMultiply(a, b);
+- D) let [sum, multiply] = sumAndMultiply(2, 3);
+
+```
+
+</TabItem>
+<TabItem value="solution">
+
+```js
 D) let [sum, multiply] = sumAndMultiply(2, 3);
+```
+
+</TabItem>
+</Tabs>
 
 #### Exercise (4)
 
