@@ -343,6 +343,23 @@ With array destructuring you were able to reduce this code down from 7 lines of 
 
 #### Exercise (2)
 
+Rewrite the code below to use array destructuring instead of assigning each value to a variable.
+
+```js
+let sentence = ["Hello", "Code", "Your", "Future"];
+
+let firstWord = item[0];
+let secondWord = item[1];
+let thirdWord = item[2];
+let fourthWord = item[3];
+
+console.log(
+  `FirstWord: ${firstWord}, SecondWord: ${secondWord}, ThirdWord: ${thirdWord}, FourthWord: ${fourthWord},`
+);
+```
+
+#### Exercise (3)
+
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
 ```js live
@@ -363,7 +380,7 @@ B) let [sumAndMultiply] = sumAndMultiply(2, 3);
 C) let [sum, multiply] = sumAndMultiply(a, b);
 D) let [sum, multiply] = sumAndMultiply(2, 3);
 
-#### Exercise (3)
+#### Exercise (4)
 
 Complete all of the exercises found [here](https://repl.it/@ChrisOwen101/ArrayDestructing)
 
