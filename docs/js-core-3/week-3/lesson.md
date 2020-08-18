@@ -343,23 +343,9 @@ With array destructuring you were able to reduce this code down from 7 lines of 
 
 #### Exercise (2)
 
-Rewrite the code below to use array destructuring instead of assigning each value to a variable.
-
-```js
-let item = ["Egg", 0.25, 12];
-
-let name = item[0];
-let price = item[1];
-let quantity = item[2];
-
-console.log(`Item: ${name}, Quantity: ${quantity}, Price: ${price}`);
-```
-
-#### Exercise
-
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
-```js {5}
+```js live
 function sumAndMultiply(a, b) {
   return [a + b, a * b];
 }
@@ -376,6 +362,10 @@ A) let sum, multiply = sumAndMultiply(2, 3);
 B) let [sumAndMultiply] = sumAndMultiply(2, 3);
 C) let [sum, multiply] = sumAndMultiply(a, b);
 D) let [sum, multiply] = sumAndMultiply(2, 3);
+
+#### Exercise (3)
+
+Complete all of the exercises found [here](https://repl.it/@ChrisOwen101/ArrayDestructing)
 
 ## 3. Project Work
 
