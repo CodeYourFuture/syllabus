@@ -286,15 +286,16 @@ six();
 ```
 
 ## 2. Array Destructuring
+
 In [Javascript 1 - Lesson 2](https://syllabus.codeyourfuture.io/js-core-1/week-2/lesson#arrays), you learnt how to store multiple values in one variable using an **array**.
+
 ```
 let fruits = ['apple', 'orange', 'banana'];
-
 ```
 
 You also learnt that you can retrieve a value from an Array by using the **index** of the value to access it.
-```
 
+```
 let firstFruit = fruits[0];
 console.log(firstFruit); // This will print 'apple'
 
@@ -305,11 +306,12 @@ let thirdFruit = fruits[2];
 console.log(thirdFruit); // This will print 'banana'
 
 console.log(`My fruits array contains: ${firstFruit}, ${secondFruit} and ${thirdFruit}.`);
-
 ```
 
-### Exercise
+### Exercise (1)
+
 We have the details of a student stored in an array called `student`. Create variables to store the values in the array so that the `console.log` will print out the message: `My name is Sara Lee. I am 30 years old. I live in London and I am studying Javascript.`.
+
 ```
 let student = ['Sara','Lee', 30, 'London', 'Javascript'];
 
@@ -317,60 +319,63 @@ let student = ['Sara','Lee', 30, 'London', 'Javascript'];
 
 
 console.log(`My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`);
-
 ```
 
 **Question**: How many lines of code did you add?
+
 ### Destructuring syntax
+
 There is a way to extract all the values of an array into variable in just **one line of code**. This technique is called **destructuring** and it has a special syntax.
 
 Here is the code we used in the last exercise with array destructuring.
 
-```
-let student = ['Sara','Lee', 30, 'London', 'Javascript'];
+```js
+let student = ["Sara", "Lee", 30, "London", "Javascript"];
 
 let [firstName, lastName, age, city, subject] = student;
 
-console.log(`My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`);
+console.log(
+  `My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`
+);
 ```
 
 With array destructuring you were able to reduce this code down from 7 lines of code to just 3 lines of code. This means your code is shorter and there is less chance for you to have a typo or a bug in your code.
 
-### Exercise
-Rewrite the code below to use array destructuring instead of assigning each value to a variable.
-```
-let item = ['Egg', 0.25, 12];
+#### Exercise (2)
 
-let name = item[0]
+Rewrite the code below to use array destructuring instead of assigning each value to a variable.
+
+```js
+let item = ["Egg", 0.25, 12];
+
+let name = item[0];
 let price = item[1];
 let quantity = item[2];
-
 
 console.log(`Item: ${name}, Quantity: ${quantity}, Price: ${price}`);
 ```
 
+#### Exercise
 
-### Exercise
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
-```
-1    function sumAndMultiply(a, b) {
-2        return [a+b, a*b];
-3    }
-4
-5    // Assign variables using array destructuring on this line
-6
-7    console.log(`The sum of the two numbers is ${sum}, the multiplication of the two numbers is ${multiply}`)
-8
+```js {5}
+function sumAndMultiply(a, b) {
+  return [a + b, a * b];
+}
 
+// Assign variables using array destructuring on this line
 
+console.log(
+  `The sum of the two numbers is ${sum}, the multiplication of the two numbers is ${multiply}`
+);
 ```
+
 Which of the following lines of code can be put on line 5?
 A) let sum, multiply = sumAndMultiply(2, 3);
 B) let [sumAndMultiply] = sumAndMultiply(2, 3);
 C) let [sum, multiply] = sumAndMultiply(a, b);
 D) let [sum, multiply] = sumAndMultiply(2, 3);
-
 
 ## 3. Project Work
 
