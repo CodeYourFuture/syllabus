@@ -384,6 +384,14 @@ D) let [sum, multiply] = sumAndMultiply(2, 3);
 
 Complete all of the exercises found [here](https://repl.it/@ChrisOwen101/ArrayDestructing)
 
+### Resources
+
+Here are some useful resources to help you understand this material
+
+- [FreeCodeCamp's Intro To Array Destructuring](https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/)
+- [Why Is Array/Object Destructuring So Useful And How To Use It (Video)](https://www.youtube.com/watch?v=NIq3qLaHCIs)
+- [The Most In-Depth Yet Understandable ES6 Destructuring Tutorial](https://untangled.io/in-depth-es6-destructuring-with-assembled-avengers)
+
 ## 3. Project Work
 
 ### Explanation
