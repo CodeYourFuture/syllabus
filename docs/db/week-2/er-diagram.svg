@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="er-diagram.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="SquareM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="SquareM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4675"
+         d="M -5.0,-5.0 L -5.0,5.0 L 5.0,5.0 L 5.0,-5.0 L -5.0,-5.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4762"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;fill:#ffffff;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.8) translate(-6,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="408.92085"
+     inkscape:cy="669.12032"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1550"
+     inkscape:window-height="836"
+     inkscape:window-x="1730"
+     inkscape:window-y="278"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#00000c;fill-opacity:0.05490196;stroke:#040607;stroke-width:0.44829839;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98369565;image-rendering:auto"
+       id="rect4518"
+       width="72.623131"
+       height="49.188606"
+       x="30.968197"
+       y="25.587244"
+       ry="7.1353846" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.75;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="36.85268"
+       y="34.117561"
+       id="text4522"><tspan
+         sodipodi:role="line"
+         id="tspan4520"
+         x="36.85268"
+         y="34.117561"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332">INVOICE</tspan><tspan
+         sodipodi:role="line"
+         x="36.85268"
+         y="42.055061"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4524"># invoice no     num</tspan><tspan
+         sodipodi:role="line"
+         x="36.85268"
+         y="49.992561"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4526">*  invoice date  date</tspan><tspan
+         sodipodi:role="line"
+         x="36.85268"
+         y="57.930061"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4528">*  total              num</tspan><tspan
+         sodipodi:role="line"
+         x="36.85268"
+         y="65.867561"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4530">o  paid              bool</tspan></text>
+    <rect
+       style="fill:#00000c;fill-opacity:0.05490196;stroke:#040607;stroke-width:0.50283098;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98369565;image-rendering:auto"
+       id="rect4518-1"
+       width="91.467415"
+       height="49.134075"
+       x="104.88981"
+       y="88.547546"
+       ry="7.1274743" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:0.75;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.24338"
+       y="96.47876"
+       id="text4522-5"><tspan
+         sodipodi:role="line"
+         id="tspan4520-9"
+         x="108.24338"
+         y="96.47876"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332">RESERVATION</tspan><tspan
+         sodipodi:role="line"
+         x="108.24338"
+         y="104.41626"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4530-9">* checkin date        date</tspan><tspan
+         sodipodi:role="line"
+         x="108.24338"
+         y="112.35376"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4586"><tspan
+   style="font-size:4.58611107px"
+   id="tspan4590">o</tspan> checkout date      date</tspan><tspan
+         sodipodi:role="line"
+         x="108.24338"
+         y="120.29126"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4594"><tspan
+   style="font-size:4.58611107px"
+   id="tspan4598">o</tspan> no of guests         num</tspan><tspan
+         sodipodi:role="line"
+         x="108.24338"
+         y="128.22876"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4596">* booking date        date</tspan><tspan
+         sodipodi:role="line"
+         x="108.24338"
+         y="136.16626"
+         style="font-size:6.3499999px;line-height:0.75;stroke-width:0.26458332"
+         id="tspan4588" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 64.785118,74.938987 c 0,35.151783 0.188989,35.151783 0.188989,35.151783"
+       id="path4600"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.778572,74.938987 c 4.032713,6.984865 4.032713,6.984865 4.032713,6.984865 l 0.10976,-0.190106"
+       id="path4910"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 68.953758,74.748881 c -4.032713,6.984865 -4.032713,6.984865 -4.032713,6.984865 L 64.811284,81.54364"
+       id="path4910-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 105.08443,109.90447 c -40.253237,0 -40.253237,0.18351 -40.253237,0.18351"
+       id="path4600-7"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
