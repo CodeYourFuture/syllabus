@@ -33,12 +33,14 @@ function Overview() {
         <section className={styles.features}>
           <VerticalTimeline className="vertical-timeline-custom-line">
             <VerticalTimelineElement
-              contentStyle={{ background: "rgb(212,62,62)", color: "#FFF" }}
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(212,62,62)", color: "#000" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(212,62,62)",
               }}
               iconStyle={{ background: "rgb(212,62,62)", color: "#fff" }}
               icon={<VerticalSplitIcon />}
+              date="4 Weeks"
             >
               <h3 className="vertical-timeline-element-title">
                 Intro to Coding
