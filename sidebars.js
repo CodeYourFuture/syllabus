@@ -1,6 +1,10 @@
 module.exports = {
   Contributing: {
-    Overview: ["contributing/overview", "contributing/technical"],
+    Overview: [
+      "contributing/overview",
+      "contributing/technical",
+      "contributing/editing",
+    ],
     "Template Lesson": [
       "contributing/example/lesson-template",
       "contributing/example/homework-template",
