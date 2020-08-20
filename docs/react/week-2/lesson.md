@@ -4,15 +4,6 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
-**What will we learn today?**
-
-- [Recap](#recap)
-- [Handling Events](#handling-events)
-- [Re-Rendering Components](#re-rendering-components)
-- [State](#state)
-- [Fetching Data in React](#fetching-data-in-react)
-- [Further Reading](#further-reading)
-
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -23,18 +14,19 @@ Click [here](./learning-objectives) to see the Learning Objectives for this less
 
 Last week we looked at how to write a `HelloMentor` React component ([interactive example](https://codesandbox.io/s/react-2-recap-7zvk9n1950?file=/src/HelloMentor.js)):
 
-```js
-// Greeting.js
+```js title="Greeting.js"
 function Greeting() {
   return <span>Hello</span>;
 }
+```
 
-// Mentor.js
+```js title="Mentor.js"
 function Mentor(props) {
   return <span>{props.name}</span>;
 }
+```
 
-// index.js
+```js title="index.js"
 import Greeting from "./Greeting";
 import Mentor from "./Mentor";
 
@@ -83,7 +75,7 @@ function logWhenClicked() {
 buttonElement.addEventListener("click", logWhenClicked);
 ```
 
-We still need to listen events in React, but event handlers are set up in a slightly different way ([interactive example](https://codesandbox.io/s/event-handlers-cc3h7?file=/src/ClickLogger.js)):
+We still need to listen to events in React, but event handlers are set up in a slightly different way ([interactive example](https://codesandbox.io/s/event-handlers-cc3h7?file=/src/ClickLogger.js)):
 
 ```js
 function ClickLogger() {
@@ -95,11 +87,9 @@ function ClickLogger() {
 }
 ```
 
-You might find it a little strange that we have a function inside a function. But this is a normal thing to do in JavaScript! `logWhenClicked` is within the _scope_ of our `ClickLogger` component.
-
 Every element in React has some special props that start with `on` that can be assigned to a function which will be called when the event is triggered.
 
-Here's a few examples:
+Here's a few examples (a full list is available [here](https://reactjs.org/docs/events.html#reference)):
 
 - `onClick` - the element was clicked
 - `onCopy` - the clipboard is used to copy some text
@@ -110,11 +100,13 @@ Here's a few examples:
 - `onPlay` - a video starts playing
 - `onSubmit` - a form element is submitted
 
-A full list of special event handler props is available [here](https://reactjs.org/docs/events.html#reference).
+Notice that just like with `addEventListener` above, we pass the function **reference** to `onClick` instead of **calling** the function. If we call the function, it will run the function when we render, not when the user clicks on the button. (Remember that _rendering_ is the term in React for inserting into the DOM).
 
-Just like with `addEventListener` we pass the function reference to `onClick` instead of calling the function. Think of it like this: we give the function to React, so that React can call our function when the element is clicked.
+:::tip
+Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
+:::
 
-| **Exercise A**                                                                                                                            |
+| Exercise A (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
 | 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
@@ -155,7 +147,7 @@ function FancyButton(props) {
 
 Notice how this is very similar to the example above where we created the handler and used it in the same component? The only difference here is that we are passing the function reference through a prop. We could even pass it through multiple components as props.
 
-| **Exercise B**                                                                                                                                                |
+| Exercise B (estimate: 10 min)                                                                                                                                 |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Open the `pokedex` React application and open the `Logo.js` file.                                                                                          |
 | 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                             |
@@ -251,7 +243,7 @@ return <p>You clicked {count} times</p>;
 
 `count` is just a variable, so to insert it into our JSX we treat it like any other variable: we use curly braces.
 
-Finally, let's at how we get hold of the `count` variable:
+Finally, let's look at how we get hold of the `count` variable:
 
 ```js
 const [count, setCount] = useState(0);
@@ -259,11 +251,28 @@ const [count, setCount] = useState(0);
 
 To fully understand this bit of code, we first have to understand _destructuring_. Let's look at [this blog post by Wes Bos about array destructuring](https://github.com/wesbos/es6-articles/blob/master/19%20-%20Destructing%20Arrays.md).
 
-Now we can understand that `useState` is returning an array, with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render.
+Now we can understand that `useState` is returning an array, with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
 
-The second item in the array is a function that we will use to update our state.
+:::tip
+Follow the `useState` naming convention.
+:::
 
-> **Note**: You can call the 2nd item in the `useState` array what you like, but it is widely accepted practice to name it _set_ + _the state variable name_. Example: `setCount`, or `setUserIsLoggedIn`
+When we destructure an array, we can name the variables whatever we want, but there is a naming convention when destructuring the `useState` array. The first variable should be named whatever your state is called, and the second variable should be the same name but prefixed with `set`. Let's look at some examples:
+
+```js
+const [userIsLoggedIn, setUserIsLoggedIn] = useState(false);
+
+const [username, setUsername] = useState("chris");
+
+const [unreadMessages, setUnreadMessages] = useState(5);
+```
+
+| Exercise C (estimate: 5 min)                                                                                                           |
+| :------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
+| 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
+| 3. Initialise a new state variable with `useState` that will fix the app. Think carefully about how you should name the variables.     |
+| 4. Discuss with another student how you would create another state variable that represents the weather conditions (e.g. sunny, rain). |
 
 ### Updating State
 
@@ -304,7 +313,7 @@ function incrementCount() {
 
 It also tells React that the old state that is **still shown in the DOM** is outdated and so the DOM needs to change. Because of this, React will re-render all of our components to figure out what to change in the DOM.
 
-When re-rendering, `useState` now gives us the **updated** state:
+When re-rendering, React will call our `Counter` component again, but this time when we call `useState` it will give us the updated state of 1, instead of the initial state of 0:
 
 ```js
 function Counter() {
@@ -316,16 +325,18 @@ function Counter() {
 
 On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
 
-| **Exercise C**                                                                                                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                |
-| 2. Create a new state variable called `totalCaught` and initialise it to `0`                                                                                 |
-| 3. When you create the `totalCaught` state, you should also set the function that will update this state (hint: refer to the syntax of the `useState` hook). |
-| 4. Replace the number 0 in the JSX with your new `totalCaught` state.                                                                                        |
+| Exercise D (estimate: 15 min)                                                                                                                                                                                                                                                                                                                                                                 |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                                                                                                                                 |
+| 2. Create a new state variable with `useState`. It should be named `caught` and be initialised to `0`                                                                                                                                                                                                                                                                                         |
+| 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.                                                                                                                                                                                                                                                                                          |
+| 4. Add a button to the component with an `onClick` handler that calls a function called `catchPokemon`.                                                                                                                                                                                                                                                                                       |
+| 5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>                                                                                                      |
+| 6. Write down the things that will happen when you click the button. Compare your list with another student and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
 
 #### Don't mutate State
 
-As we just learned, `setCount` updates the state for us, but it also notifies React of changes. Because of this we can't change (or _mutate_) state variables ourselves. In fact, React makes it impossible to modify (or _mutate_) state ([interactive example](https://codesandbox.io/s/dont-mutate-state-hex49?file=/src/Counter.js)):
+As we just learned, `setCount` updates the state for us, but it also notifies React of changes. If you try to just change the `count` variable without using `setState`, nothing will happen, because React wouldn't be notified of the change. You can **only** modify (or _mutate_) state using the setter function ([interactive example](https://codesandbox.io/s/dont-mutate-state-hex49?file=/src/Counter.js)):
 
 ```js
 function Counter() {
@@ -344,8 +355,6 @@ function Counter() {
 }
 ```
 
-Clicking the button doesn't do anything! React is letting us know that we have to use `setCount` to be able to update state.
-
 ### Where does State live?
 
 We have talked about how a component "remembers" state. In fact, each component _instance_ remembers **separate** state from other components. This means we can have multiple different Counters, each with a different state ([interactive example](https://codesandbox.io/s/multiple-counters-xm1x4?file=/src/App.js)):
@@ -362,48 +371,89 @@ function App() {
 }
 ```
 
-### Setting multiple States
+### More complex states
 
-So far we've only seen an example with one state variable. But you can create multiple state variables if you want! Let's see an example ([interactive example](https://codesandbox.io/s/multiple-state-variables-piq5w?file=/src/FruitCounter.js)):
+The examples we've looked at so far have used numbers, strings and booleans. You can also use arrays and objects in state too. Let's take a look at an example ([interactive example](https://codesandbox.io/s/more-complex-state-with-usestate-b34wf?file=/src/ShoppingList.js)).
 
 ```js
-function FruitCounter() {
-  const [fruit, setFruit] = useState("bananas");
-  const [count, setCount] = useState(0);
+function ShoppingList() {
+  const [list, setList] = useState([]);
 
-  function handleOrangesClick() {
-    setFruit("oranges");
-  }
-  function handleBananasClick() {
-    setFruit("bananas");
-  }
-
-  function incrementCount() {
-    setCount(count + 1);
+  function addToList() {
+    setList(list.concat("Bread"));
   }
 
   return (
-    <div>
-      <div>
-        Pick a fruit:
-        <button onClick={handleOrangesClick}>Oranges</button>
-        <button onClick={handleBananasClick}>Bananas</button>
-      </div>
-      <p>
-        We have {count} {fruit}
-      </p>
-      <button onClick={incrementCount}>Increment</button>
-    </div>
+    <p>
+      <button onClick={addToList}>Add item to list</button>
+      {list.map((item, index) => {
+        return <li key={index}>{item}</li>;
+      })}
+    </p>
   );
 }
 ```
 
-| **Exercise D**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Back in the `CaughtPokemon.js` file in your `pokedex` app                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 2. Add a button to the component with an `onClick` handler that calls a function called `incrementTotal`.                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 3. What do you think will happen when the button is clicked? Why is that?                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 4. Using the fruits example above, make changes to the `CaughtPokemon` component so that the `totalCaught` state is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>The <code>incrementTotal</code> function you created gets called onClick, but so far, it doesn't actually do anything. To fix this, <code>incrementTotal</code> will need to call the function you set when you created the <code>totalCaught</code> state (the 2nd item in the useState array).</details> |
+In this shopping list example, we're initialising the `list` state to be an empty array. To display our list we loop through the array (like we learned last week) and render an `<li>` for each item in the list.
+
+When we want to add something to the list, we can use the `list.concat` method to make a new array with the new item. This new array is then set as the new state. Right now, our example is not very useful as it can only add Bread to the list! Next week, we'll look at how we can allow users to write their own items to the list.
+
+:::tip
+Don't use the array `push` method with state. Instead use the array `concat` method.
+:::
+
+The `list.push` method won't work here, as this method _mutates_ the existing array. React requires a completely new array to be set as the new state, otherwise it doesn't realise that the value has changed. The `concat` method works because it copies the whole existing array to a brand new array before it adds the new item.
+
+| Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                         |
+| 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                                   |
+| 3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another student what you think the problem is.                                                                                                                                     |
+| 4. Change the JSX to instead render `caught.length`. Does this fix the bug?                                                                                                                                                                                                           |
+| 5. Let's now show the names of the Pokemon we have caught. Render a `<ul>` element within the component. Then use the `map` method to loop through each item in the `caught` array and render it in an `<li>` element.                                                                |
+| 6. Change the `catchPokemon` function to add a new Pokemon (it doesn't matter which one) onto the `caught` array. (Hint: use the `concat` method.)                                                                                                                                    |
+| 7. **(STRETCH GOAL)** Generate a random Pokemon each time you click the button <details><summary>Click here if you're stuck.</summary>[This StackOverflow post](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array) may be helpful.</details> |
+
+### Setting multiple States
+
+So far we've only seen an example with one state variable. But you can create multiple state variables if you want! Let's see an example ([interactive example](https://codesandbox.io/s/multiple-state-variables-b3g9d?file=/src/Weather.js)):
+
+```js
+function Weather() {
+  const [temperature, setTemperature] = useState(15);
+  const [conditions, setConditions] = useState("sunny");
+
+  function makeItHotter() {
+    setTemperature(temperature + 1);
+  }
+  function makeItColder() {
+    setTemperature(temperature - 1);
+  }
+
+  function makeItSunny() {
+    setConditions("sunny");
+  }
+  function makeItRainy() {
+    setConditions("rainy");
+  }
+
+  return (
+    <div>
+      <h1>Today's Weather</h1>
+      <ul>
+        <li>Temperature will be {temperature}°C</li>
+        <li>The conditions will be {conditions}</li>
+      </ul>
+
+      <hr />
+      <button onClick={makeItHotter}>+</button>
+      <button onClick={makeItColder}>-</button>
+      <button onClick={makeItSunny}>Make it sunny</button>
+      <button onClick={makeItRainy}>Make it rainy</button>
+    </div>
+  );
+}
+```
 
 ### When do you use Props or State?
 
@@ -432,171 +482,20 @@ If we were allowed to change props, React doesn't have a way of telling that we'
 
 From this we can get a clue about when to use state. If data _changes over time_, then we need to use state. My rule of thumb is that I always use props until I know that it needs to change over time, then I convert it to state.
 
-## Fetching Data in React
-
-Often when you create a React app, you will want to get data from an API, and display it inside your components.
-How do we do this in React? Where does the API call go, and when should we trigger it?
-
-**Where:** Usually in a parent component, at the top of the component tree (see the note about 'container' components above). You can then flow the data down into your child components as props.
-
-**When:** When the component is first loaded into the DOM. We call this 'mounting'.
-
-**How:** With a handy new hook called `useEffect`.
-
-### The `useEffect` Hook
-
-Just like `useState`, the `useEffect` hook is a special function that all function components can import and use as needed. This is the syntax to follow to fetch data when the component is first mounted:
-
-```js
-useEffect(() => {
-  // Make your fetch API call here
-}, []); // Don't forget the empty array here!
-```
-
-And here is a more complete example (see [interactive example](https://codesandbox.io/s/the-useeffect-hook-jtz5u?file=/src/MartianPhotoFetcher.js)):
-
-```js
-import React, { useState, useEffect } from "react"; // remember to import the Hook(s) you need!
-
-function MartianPhotoFetcher() {
-  const [marsPhotos, setMarsPhotos] = useState({});
-
-  useEffect(() => {
-    fetch(
-      `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
-    )
-      .then((res) => res.json())
-      .then((data) => setMarsPhotos(data));
-  }, []);
-
-  if (marsPhotos.photos) {
-    return (
-      <div>
-        {marsPhotos.photos.map((photo, index) => {
-          return (
-            <img
-              key={`mars-photo-${index}`}
-              src={photo.img_src}
-              alt={photo.camera.name}
-            />
-          );
-        })}
-      </div>
-    );
-  } else {
-    return <div>Loading...</div>;
-  }
-}
-
-export default MartianPhotoFetcher;
-```
-
-In the code above, we're saying to React “When this component is mounted, call the NASA photos API, and when you receive a response, save it inside of the 'marsPhotos' state”.
-
-This is a very common pattern which will come in very useful!
-
-| **Exercise E**                                                                                                                                                                                                                                                                    |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React application again and open the `src/BestPokemon.js` file.                                                                                                                                                                                             |
-| 2. Add a new component inside `src/BestPokemon.js` called `BestPokemonFetcher`.                                                                                                                                                                                                   |
-| 3. Change the `export default` to export `BestPokemonFetcher` instead of `BestPokemon`. We **don't** need to make any changes to the `BestPokemon` component.                                                                                                                     |
-| 4. In the new `BestPokemonFetcher` component, create a new state variable called `bestPokemon` and initialise it to `null`. <details><summary>Click here if you are stuck.</summary>Look at the State section to see how to create state variables.</details>                     |
-| 5. If there is no `bestPokemon` state (hint: `if (!bestPokemon) {}`), then return `null` so that the component renders nothing.                                                                                                                                                   |
-| 6. If there is some `bestPokemon` state (`else {}`), then render the `BestPokemon` component and pass the `bestPokemon` state variable as the `pokemon` prop (hint: `<BestPokemon pokemon={bestPokemon} />`).                                                                     |
-| 7. Now add a `useEffect` to the `BestPokemonFetcher` component. Make sure you remember to add the empty array after the callback function. <details><summary>Click here if you are stuck.</summary>Look at the examples above to see how to add <code>useEffect</code>.</details> |
-| 8. Inside the `useEffect` callback, call the `fetch` function with this URL: `https://pokeapi.co/api/v2/pokemon/1/`.                                                                                                                                                              |
-| 9. Add a `.then` handler into the `fetch` function (remember this needs to come immediately after the `fetch` call) which converts the response from JSON (hint: `.then(res => res.json())`).                                                                                     |
-| 10. Add a second `.then` handler after the one we just added, where the callback function will receive an argument called `data`.                                                                                                                                                 |
-| 11. Within the second `.then` callback function, log out the data that we just received (hint: `console.log(data)`). Inspect the data in the dev tools console. Can you see any interesting values? (Hint: think about what the `BestPokemon` component expects as a prop)        |
-| 12. Still within the second `.then` callback function, update the `bestPokemon` state variable. <details><summary>Click here if you are stuck.</summary>Refer to the State section again to see how to set state variables to new values.</details>                               |
-| 13. What happens in your browser? Do you understand why? If not, discuss it with another student. If you are both stuck, ask a Teaching Assistant.                                                                                                                                |
-
-### A note on conditional rendering
-
-In the `MartianPhotoFetch` component above, we have wrapped our JSX inside an `if` / `else` statement. This is common practice in React, as it allows us to show something different depending on the situation (for example if there is no data to display, show the user something else instead).
-
-The syntax above is correct, but you may also see this done in 2 other ways:
-
-#### The ternary operator `? :`
-
-The _ternary operator_ follows this structure `condition ? output1 : output2`.
-
-#### The double ampersand `&&`
-
-The double ampersand `&&` is used when you don't have an `else`. The implication is that when the condition is not fulfilled, nothing will render.
-
-Let's see what that looks like in our component:
-
-**with the ternary operator:**
-
-```js
-return marsPhotos.photos ? (
-  <div>
-    {marsPhotos.photos.map((photo, index) => {
-      return (
-        <img
-          key={`mars-photo-${index}`}
-          src={photo.img_src}
-          alt={photo.camera.name}
-        />
-      );
-    })}
-  </div>
-) : (
-  <div>Loading...</div>
-);
-```
-
-**with `&&`:**
-
-```js
-return (
-  marsPhotos.photos && (
-    <div>
-      {marsPhotos.photos.map((photo, index) => {
-        return (
-          <img
-            key={`mars-photo-${index}`}
-            src={photo.img_src}
-            alt={photo.camera.name}
-          />
-        );
-      })}
-    </div>
-  )
-);
-```
-
-You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no 'else').
-
-| **Exercise F**                                                                     |
-| :--------------------------------------------------------------------------------- |
-| Go back to the `BesPokemon.js` file                                                |
-| Change the `if` / `else` statement in your JSX to use the ternary operator instead |
-
-### Container components
-
-In real world applications, the things we want to remember in state follow the [_business logic_](https://en.wikipedia.org/wiki/Business_logic) required by our users. So for example the number of caught Pokemon in the exercise increases when you click on the button _Catch Pokemon_. Most of the time, business logic is about figuring out when and how to change state.
-
-To help us cleanly split up code that performs business logic from code that shows the user interface, we split components into _presentational_ and _container_ components. Often we have components that don't do anything except manage state according to the business rules and render the right presentational components. On the other hand, we often have components that don't change any state, and just render using the provided props.
-
-Container components usually have some state and handler methods, while presentational components usually just receive props and render JSX using these props.
-
-| **Exercise G**                                                                                                                                             |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Take a look at the componenets in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
-| Discuss this with another student.                                                                                                                         |
+| Exercise F (estimate: 5 min)                                                                                                            |
+| :-------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).                            |
+| 2. Take a few minutes to read the code. Discuss with another student what you think will happen when you click on the highlighted word. |
+| 3. Now click on the highlighted word. Can you explain why this happened?                                                                |
+| 4. Fix the app so that clicking on the highlighted word will change the highlight color to purple.                                      |
 
 ## Further Reading
 
-[Array Destructuring](https://github.com/wesbos/es6-articles/blob/master/19%20-%20Destructing%20Arrays.md)
-
 What happens if you forget to pass a prop to a component? Or if you pass the wrong type of data to a component? Sometimes React will just render an empty element but sometimes it could throw an error! This is why `propTypes` are useful. [This page on the React documentation](https://reactjs.org/docs/typechecking-with-proptypes.html) describes how to use `propTypes` in more detail.
 
-> **Exercise H**
-> Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`:
->
-> 1. [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/)
+| Exercise G (OPTIONAL)                                                                                                                                                                                                                                                   |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/). |
 
 ## Homework
 

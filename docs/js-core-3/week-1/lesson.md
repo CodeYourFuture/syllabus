@@ -363,21 +363,21 @@ In your groups we want you to go through this program and find all of the bugs t
 
 You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/master/docs/js-core-3/week-1/debugging-code)
 
-## Quiz (10 - 15 minutes)
+### Quiz (10 - 15 minutes)
 
 You can complete this quiz on Google Forms [here](https://docs.google.com/forms/d/e/1FAIpQLScYHmS7LOfI4ML3z2axEpZd2Zgvbe-9FBB5rsWoqqMcw2u6SA/viewform)
 
-# 2. Project Work
+## 2. Project Work
 
 The project work should take between 60 and 90 minutes to give an overview and get everyone setup.
 
-## Explanation
+### Explanation
 
 Over the next three weeks we're going to be building a website that will consolidate all of your knowledge so far in the course.
 
 You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
-## Getting Setup
+### Getting Setup
 
 In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
 

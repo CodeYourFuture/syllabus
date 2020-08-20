@@ -147,6 +147,13 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
+    Challenges: [
+      {
+        type: "link",
+        label: "JavaScript Challenges",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Challenges",
+      },
+    ],
   },
   React: {
     Overview: ["react/index"],
@@ -220,9 +227,21 @@ module.exports = {
   },
   SQL: {
     Overview: ["db/index"],
-    "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
-    "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
-    "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
+    "Lesson 1": [
+      "db/week-1/lesson",
+      "db/week-1/instructors",
+      "db/week-1/homework",
+    ],
+    "Lesson 2": [
+      "db/week-2/lesson",
+      "db/week-2/instructors",
+      "db/week-2/homework",
+    ],
+    "Lesson 3": [
+      "db/week-3/lesson",
+      "db/week-3/instructors",
+      "db/week-3/homework",
+    ],
   },
   MongoDB: {
     Overview: ["mongodb/index"],

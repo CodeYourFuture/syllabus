@@ -23,9 +23,9 @@ The purpose of this class is to introduce to the student:
 3. `this`
 4. Project Work
 
-# 1. Variable Scope
+## 1. Variable Scope
 
-## The Problem
+### The Problem
 
 Variables are amazing! Variables let us store data and reuse it many times rather than writing the same data over and over again, also if the variables are well named then it makes it much easier to think about what our code is doing.
 
@@ -46,7 +46,7 @@ Now, imagine what would happen when our code gets really long. Every time we wan
 
 Imagine a banking app being built by two developers. Developer 1 uses the variable name `money` to store the total amount of cash a single customer has in the bank, Developer 2 uses the variable name `money` to store the total amount of cash that ALL customers have in the bank added together, the total money in the bank's vaults. This could be really good news for a customer who accidentally receives the entire bank's money in their account, but really BAD news for us as the owners of a bank.
 
-## The Solution
+### The Solution
 
 One solution might be that every time we want to create a new variable, we call around all of the other developers on the project and ask them if it's safe to use the variable name `money`. We can quickly see a problem with this, some codebases are millions of lines long! No single person knows what is contained in every file. It would be impossible to know what variables are safe to use and which are not.
 
@@ -54,7 +54,7 @@ Instead, we need to find a way to make variables **safer**. We need a way to use
 
 We call this `scope`.
 
-## What is Scope?
+### What is Scope?
 
 Think about the way that laws are set in different countries. Most laws are set by the government of that country and are `local` to that country. However, some laws are international, laws like 'no slavery' apply across all countries, these are `global` laws.
 
@@ -465,7 +465,7 @@ myAddressBook.lookup("homer");
 
 Notice that when you come to using a class instance, you are only interacting with it through its methods, e.g. `store` and `lookup` for `AddressBook`. Similar to functions, classes provide a way of creating abstractions over lower-level implementations, which can help us better organise and maintain our code.
 
-## 4. `this` keyword
+## 3. `this` keyword
 
 One aspect of JavaScript that often leads to confusion is the keyword `this`. Its value depends on where it is used and how that function is called.
 
