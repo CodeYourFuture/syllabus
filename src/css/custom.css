@@ -41,14 +41,9 @@
   padding-right: 16px;
 }
 
-/* CUSTOM LINE COLOR */
-/* The line */
+/* Custom link color of Overview Page */
 .vertical-timeline.vertical-timeline-custom-line::before {
   background: #3f3f3f;
-}
-
-.button-text {
-  color: #ffffff;
 }
 
 .mt-1 {
