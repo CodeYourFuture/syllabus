@@ -43,7 +43,7 @@ function Overview() {
           <VerticalTimeline className="vertical-timeline-custom-line">
             {getComponent(
               "Intro to Coding",
-              "∞",
+              "Self Paced",
               <div>
                 <p>
                   This online, self-paced course gives students a basic
@@ -57,7 +57,7 @@ function Overview() {
             )}
             {getComponent(
               "Fundamentals",
-              4,
+              "4 Weeks",
               <div>
                 <p>
                   This module aims to give students a grounding in algorithmic
@@ -76,7 +76,7 @@ function Overview() {
             )}
             {getComponent(
               "HTML/CSS",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   The products of HTML and CSS comprise a two-thirds of what is
@@ -96,7 +96,7 @@ function Overview() {
             )}
             {getComponent(
               "JavaScript Core 1",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   In this module you'll make a start into the wonderful world of
@@ -112,7 +112,7 @@ function Overview() {
             )}
             {getComponent(
               "JavaScript Core 2",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   In JavaScript Core 2 you'll learn all about how to use
@@ -132,7 +132,7 @@ function Overview() {
             )}
             {getComponent(
               "JavaScript Core 3",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   In JavaScript Core 2 you'll learn all about requesting data
@@ -152,7 +152,7 @@ function Overview() {
             )}
             {getComponent(
               "React",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   You'll become more familiar with a frontend technology called
@@ -176,7 +176,7 @@ function Overview() {
             )}
             {getComponent(
               "Node.js",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   Any software application consists of at least 2 parts: a
@@ -193,7 +193,7 @@ function Overview() {
             )}
             {getComponent(
               "Databases",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   In this module you'll learn how to store your data in a
@@ -212,7 +212,7 @@ function Overview() {
             )}
             {getComponent(
               "Final Projects",
-              3,
+              "3 Weeks",
               <div>
                 <p>
                   Learning to write code is one matter but learning to do it as
@@ -251,9 +251,7 @@ function getComponent(title, length, description, icon, link) {
       icon={icon}
     >
       <h3 className="vertical-timeline-element-title">{title}</h3>
-      <h4 className="vertical-timeline-element-subtitle">
-        Length: {length} Weeks
-      </h4>
+      <h4 className="vertical-timeline-element-subtitle">Length: {length}</h4>
       {description}
       <Link
         className={classnames(
@@ -262,7 +260,7 @@ function getComponent(title, length, description, icon, link) {
         )}
         to={link}
       >
-        Find out more
+        View the module
       </Link>
     </VerticalTimelineElement>
   );
