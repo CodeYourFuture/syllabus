@@ -101,9 +101,3 @@ Instructor Notes should contain
 - Any other useful information about the lesson content
 
 These notes are (along with Slack) one of the key ways that we should share knowledge and learnings between schools.
-
-## Training
-
-An overview of how to work with the Syllabus can be found here
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqG_pb8IpUwl62Na1qec3oV9lXm23y_OOtwzX1EguRFfkcUVdfkj52H6PDqVToqmqwbBf2LiT6STZG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
