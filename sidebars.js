@@ -5,6 +5,7 @@ module.exports = {
       "contributing/setup",
       "contributing/editing",
       "contributing/training",
+      "contributing/team",
     ],
     "Template Lesson": [
       "contributing/example/lesson-template",
