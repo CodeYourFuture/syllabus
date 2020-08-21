@@ -28,7 +28,7 @@ function Overview() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="CodeYourFuture's Full Stack Web Development Syllabus"
+      description="CodeYourFuture's Full Stack Web Development Overview"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
