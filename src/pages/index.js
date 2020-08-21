@@ -20,7 +20,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <Link
             className={classnames(
-              "button button--outline button--secondary button--lg",
+              "button button--outline button--lg",
               styles.getStarted
             )}
             to={useBaseUrl("overview")}

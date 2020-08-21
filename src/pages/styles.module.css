@@ -30,6 +30,10 @@
   flex: 1;
 }
 
+.pt-1 {
+  padding-top: 16px;
+}
+
 .featureImage {
   height: 200px;
   width: 200px;
