@@ -291,13 +291,13 @@ six();
 
 In [Javascript 1 - Lesson 2](https://syllabus.codeyourfuture.io/js-core-1/week-2/lesson#arrays), you learnt how to store multiple values in one variable using an **array**.
 
-```
-let fruits = ['apple', 'orange', 'banana'];
+```js
+let fruits = ["apple", "orange", "banana"];
 ```
 
 You also learnt that you can retrieve a value from an Array by using the **index** of the value to access it.
 
-```
+```js
 let firstFruit = fruits[0];
 console.log(firstFruit); // This will print 'apple'
 
@@ -312,14 +312,16 @@ console.log(`My fruits array contains: ${firstFruit}, ${secondFruit} and ${third
 
 #### Exercise (1)
 
-We have the details of a student stored in an array called `student`. Create variables to store the values in the array so that the `console.log` will print out the message: `My name is Sara Lee. I am 30 years old. I live in London and I am studying Javascript.`.
+We have the names of the Simpsons family stored in an array called `familyMembers`. Create variables to store the names of the family members so that the `console.log` will print out the following message:
+`In the Simpsons family, Homer and Marge are the parents. Bart is the son, Lisa is the daughter, and Maggie is the baby.`
 
-```
-let student = ['Sara','Lee', 30, 'London', 'Javascript'];
+
+```js
+let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"]
 
 // Create variables to store the values here
 
-console.log(`My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`);
+console.log(`In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`)
 ```
 
 **Question**: How many lines of code did you add?
@@ -331,16 +333,14 @@ There is a way to extract all the values of an array into variable in just **one
 Here is the code we used in the last exercise with array destructuring.
 
 ```js
-let student = ["Sara", "Lee", 30, "London", "Javascript"];
+let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"]
 
-let [firstName, lastName, age, city, subject] = student;
+let [dad, mum, son, daughter, baby] = familyMembers;
 
-console.log(
-  `My name is ${firstName} ${lastName}. I am ${age} years old. I live in ${city} and I am studying ${subject}.`
-);
+console.log(`In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`);
 ```
 
-With array destructuring you were able to reduce this code down from 7 lines of code to just 3 lines of code. This means your code is shorter and there is less chance for you to have a typo or a bug in your code.
+With array destructuring you were able to reduce this code down from 7 lines of code to just 3 lines of code. This means your code is shorter and there is less chance for you to have a bug in your code.
 
 #### Exercise (2)
 
@@ -415,12 +415,14 @@ console.log(
 );
 
 
-Which of the following lines of code can be put on line 5?
+/*
+Which of the following lines of code can be used above?
 
 - A) let sum, multiply = sumAndMultiply(2, 3);
 - B) let [sumAndMultiply] = sumAndMultiply(2, 3);
 - C) let [sum, multiply] = sumAndMultiply(a, b);
 - D) let [sum, multiply] = sumAndMultiply(2, 3);
+*/
 
 ```
 
@@ -436,6 +438,57 @@ let [sum, multiply] = sumAndMultiply(2, 3);
 </Tabs>
 
 #### Exercise (4)
+When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
+
+<Tabs
+  defaultValue="exercise"
+  values={[
+    { label: 'Exercise', value: 'exercise', },
+    { label: 'Solution', value: 'solution', },
+  ]
+}>
+<TabItem value="exercise">
+
+```js
+let citiesByPopulation = [
+  { name: "London", population: 8000000 },
+  { name: "Birmingham", population: 1000000 },
+  { name: "Glasgow", population: 600000 },
+  { name: "Manchester", population: 500000 },
+];
+
+// Assign variables using array destructuring on this line
+
+console.log(`${london.name} population is ${london.population}`);
+console.log(`${birmingham.name} population is ${birmingam.population}`);
+console.log(`${glasgow.name} population is ${glasgow.population}`);
+console.log(`${manchester.name} population is ${manchester.population}`);
+
+```
+
+</TabItem>
+<TabItem value="solution">
+
+```js
+let citiesByPopulation = [
+  { name: "London", population: 8000000 },
+  { name: "Birmingham", population: 1000000 },
+  { name: "Glasgow", population: 600000 },
+  { name: "Manchester", population: 500000 },
+];
+
+let [london, birmingam, glasgow, manchester] = citiesByPopulation;
+
+console.log(`${london.name} population is ${london.population}`);
+console.log(`${birmingham.name} population is ${birmingam.population}`);
+console.log(`${glasgow.name} population is ${glasgow.population}`);
+console.log(`${manchester.name} population is ${manchester.population}`);
+```
+
+</TabItem>
+</Tabs>
+
+#### Exercise (5)
 
 Complete all of the exercises found [here](https://repl.it/@ChrisOwen101/ArrayDestructuring)
 
