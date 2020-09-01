@@ -18,4 +18,4 @@ Participants will be able to:
 
 An overview of how to work with the Syllabus can be found here
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqG_pb8IpUwl62Na1qec3oV9lXm23y_OOtwzX1EguRFfkcUVdfkj52H6PDqVToqmqwbBf2LiT6STZG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTqG_pb8IpUwl62Na1qec3oV9lXm23y_OOtwzX1EguRFfkcUVdfkj52H6PDqVToqmqwbBf2LiT6STZG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="660" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
