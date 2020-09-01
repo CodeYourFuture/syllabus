@@ -40,3 +40,12 @@
   margin-left: 6px;
   padding-right: 16px;
 }
+
+/* Custom link color of Overview Page */
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #3f3f3f;
+}
+
+.mt-1 {
+  margin-top: 16px;
+}

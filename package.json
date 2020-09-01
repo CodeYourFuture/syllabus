@@ -13,9 +13,12 @@
     "@docusaurus/core": "^2.0.0-alpha.61",
     "@docusaurus/plugin-sitemap": "^2.0.0-alpha.37",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-vertical-timeline-component": "^3.0.2"
   },
   "browserslist": {
     "production": [
