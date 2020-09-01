@@ -307,7 +307,9 @@ console.log(secondFruit); // This will print 'orange'
 let thirdFruit = fruits[2];
 console.log(thirdFruit); // This will print 'banana'
 
-console.log(`My fruits array contains: ${firstFruit}, ${secondFruit} and ${thirdFruit}.`);
+console.log(
+  `My fruits array contains: ${firstFruit}, ${secondFruit} and ${thirdFruit}.`
+);
 ```
 
 #### Exercise (1)
@@ -315,13 +317,14 @@ console.log(`My fruits array contains: ${firstFruit}, ${secondFruit} and ${third
 We have the names of the Simpsons family stored in an array called `familyMembers`. Create variables to store the names of the family members so that the `console.log` will print out the following message:
 `In the Simpsons family, Homer and Marge are the parents. Bart is the son, Lisa is the daughter, and Maggie is the baby.`
 
-
 ```js
-let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"]
+let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"];
 
 // Create variables to store the values here
 
-console.log(`In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`)
+console.log(
+  `In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`
+);
 ```
 
 **Question**: How many lines of code did you add?
@@ -333,11 +336,13 @@ There is a way to extract all the values of an array into variable in just **one
 Here is the code we used in the last exercise with array destructuring.
 
 ```js
-let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"]
+let familyMembers = ["Homer", "Marge", "Bart", "Lisa", "Maggie"];
 
 let [dad, mum, son, daughter, baby] = familyMembers;
 
-console.log(`In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`);
+console.log(
+  `In the Simpsons family, ${dad} and ${mum} are the parents. ${son} is the son, ${daughter} is the daughter, and ${baby} is the baby.`
+);
 ```
 
 With array destructuring you were able to reduce this code down from 7 lines of code to just 3 lines of code. This means your code is shorter and there is less chance for you to have a bug in your code.
@@ -361,6 +366,7 @@ import TabItem from "@theme/TabItem";
 }>
 <TabItem value="exercise">
 
+
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
 
@@ -377,6 +383,7 @@ console.log(
 </TabItem>
 <TabItem value="solution">
 
+
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
 
@@ -389,6 +396,7 @@ console.log(
 
 </TabItem>
 </Tabs>
+
 
 #### Exercise (3)
 
@@ -403,6 +411,7 @@ We have a function called `sumAndMultiply`. It will take two numbers and then re
 }>
 <TabItem value="exercise">
 
+
 ```js
 function sumAndMultiply(a, b) {
   return [a + b, a * b];
@@ -414,7 +423,6 @@ console.log(
   `The sum of the two numbers is ${sum}, the multiplication of the two numbers is ${multiply}`
 );
 
-
 /*
 Which of the following lines of code can be used above?
 
@@ -423,11 +431,11 @@ Which of the following lines of code can be used above?
 - C) let [sum, multiply] = sumAndMultiply(a, b);
 - D) let [sum, multiply] = sumAndMultiply(2, 3);
 */
-
 ```
 
 </TabItem>
 <TabItem value="solution">
+
 
 ```js
 // Option D
@@ -437,7 +445,9 @@ let [sum, multiply] = sumAndMultiply(2, 3);
 </TabItem>
 </Tabs>
 
+
 #### Exercise (4)
+
 When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
 
 <Tabs
@@ -448,6 +458,7 @@ When you do array destructuring, the array can be of any data type. Try destruct
   ]
 }>
 <TabItem value="exercise">
+
 
 ```js
 let citiesByPopulation = [
@@ -463,11 +474,11 @@ console.log(`${london.name} population is ${london.population}`);
 console.log(`${birmingham.name} population is ${birmingam.population}`);
 console.log(`${glasgow.name} population is ${glasgow.population}`);
 console.log(`${manchester.name} population is ${manchester.population}`);
-
 ```
 
 </TabItem>
 <TabItem value="solution">
+
 
 ```js
 let citiesByPopulation = [
@@ -488,9 +499,10 @@ console.log(`${manchester.name} population is ${manchester.population}`);
 </TabItem>
 </Tabs>
 
+
 #### Exercise (5)
 
-Complete all of the exercises found [here](https://repl.it/@ChrisOwen101/ArrayDestructuring)
+Complete all of the exercises found [here](https://repl.it/@codeyourfuture0/ArrayDestructuring)
 
 ### Resources
 
