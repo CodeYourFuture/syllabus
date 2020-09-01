@@ -17,9 +17,7 @@ jobs:
           node-version: "12.x"
       - name: Test Build
         run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
+          if [ -e package-lock.json ]; then
           npm ci
           else
           npm i
