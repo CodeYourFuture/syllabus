@@ -208,7 +208,7 @@ function Overview() {
                 </p>
               </div>,
               <Storage />,
-              "/database/index"
+              "/mongodb/index"
             )}
             {getComponent(
               "Final Projects",
@@ -227,7 +227,7 @@ function Overview() {
                 </p>
               </div>,
               <Group />,
-              "/finalproject/index"
+              "/finalproject/intro"
             )}
             <VerticalTimelineElement
               iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
