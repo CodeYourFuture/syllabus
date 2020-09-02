@@ -56,7 +56,7 @@ function Overview() {
               <li>One-off workshops that have been run by specialists</li>
               <li>Useful guides for our students</li>
             </ul>
-            <hr />
+            <br />
             <h2>How should I use the Syllabus?</h2>
             <h3>As a teacher...</h3>
             <p>
@@ -90,8 +90,15 @@ function Overview() {
               If you're reading this as a student you will find lots of the
               lesson plans that you've need following in your class. You will
               also find links to resources that we think you will find useful,
-              additional exericices and links to all of the coursework for the
+              additional exercises and links to all of the coursework for the
               course.
+            </p>
+            <br />
+            <h2>How do I make a change to the Syllabus?</h2>
+            <p>
+              Check out the <a href="/contributing/overview">Contributing</a>{" "}
+              section to find out how to contribute to the Syllabus. New
+              contributors always welcome!
             </p>
           </section>
           <section className={classnames(styles.righthalf)}>
