@@ -56,6 +56,7 @@ function Overview() {
               <li>One-off workshops that have been run by specialists</li>
               <li>Useful guides for our students</li>
             </ul>
+            <hr />
             <h2>How should I use the Syllabus?</h2>
             <h3>As a teacher...</h3>
             <p>
