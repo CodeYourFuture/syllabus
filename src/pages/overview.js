@@ -281,7 +281,7 @@ function Overview() {
               )}
               {getComponent(
                 "Final Projects",
-                "3 Weeks",
+                "4 Weeks",
                 <div>
                   <p>
                     Learning to write code is one matter but learning to do it
