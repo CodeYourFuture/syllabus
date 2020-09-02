@@ -116,7 +116,7 @@ function Overview() {
                     This online, self-paced course gives students a basic
                     understanding of HTML & CSS and guides them to building
                     their first simple website. Completion of this course is
-                    required because continuing onto the full course.
+                    required before continuing onto the full course.
                   </p>
                 </div>,
                 <VerticalSplitIcon />,
