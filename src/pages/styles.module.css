@@ -38,3 +38,16 @@
 .mainContainer {
   background: black;
 }
+
+.flexbox {
+  display: flex;
+}
+
+.lefthalf {
+  flex: 45;
+  padding: 2rem;
+}
+
+.righthalf {
+  flex: 55;
+}
