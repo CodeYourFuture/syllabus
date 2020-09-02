@@ -17,7 +17,7 @@ import Code from "@material-ui/icons/Code";
 import Web from "@material-ui/icons/Web";
 import Language from "@material-ui/icons/Language";
 import AddToQueue from "@material-ui/icons/AddToQueue";
-import DNS from "@material-ui/icons/DNS";
+import DNS from "@material-ui/icons/Dns";
 import Storage from "@material-ui/icons/Storage";
 import Group from "@material-ui/icons/Group";
 import Star from "@material-ui/icons/Star";
