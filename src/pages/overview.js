@@ -73,7 +73,9 @@ function Overview() {
                 you find here as you wish
               </b>
               . Over your time here you will get to know your specific students
-              well and will know what kind of content and teaching they need.
+              and will know what kind of content and teaching they need. We
+              encourage you to innovate and experiment with the lesson plans you
+              find here.
             </p>
             <p>
               Every lesson has a set of <b>Learning Objectives</b> that we're
