@@ -79,9 +79,9 @@ function Overview() {
             </p>
             <p>
               Every lesson has a set of <b>Learning Objectives</b> that we're
-              trying to achieve in each lesson, as a teacher your goal is to aim
-              to have your student achieve these goals throughout your lesson
-              and the accompanying coursework.
+              trying to achieve in each lesson, as a teacher your goal to have
+              your student achieve these goals throughout your lesson and the
+              accompanying coursework.
             </p>
             <p>
               Be sure to check out the <b>Teaching Notes</b> attached to every
