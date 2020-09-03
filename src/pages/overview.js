@@ -324,10 +324,7 @@ function getComponent(title, length, description, icon, link) {
       <h4 className="vertical-timeline-element-subtitle">Length: {length}</h4>
       {description}
       <Link
-        className={classnames(
-          "button button--outline button-text mt-1",
-          styles.getStarted
-        )}
+        className={classnames("button button-text mt-1", styles.getStarted)}
         to={link}
       >
         View the module

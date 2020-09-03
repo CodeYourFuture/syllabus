@@ -14,7 +14,6 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
           routeBasePath: "/", // Set this value to '/'.
-          homePageId: "index", // Set to existing document id.
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
