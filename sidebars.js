@@ -153,7 +153,15 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
-    Challenges: [
+    "Additional Resources": [
+      {
+        type: "category",
+        label: "Extra Lessons",
+        items: [
+          "js-core-3/other/javascript-classes",
+          "js-core-3/other/this-keyword",
+        ],
+      },
       {
         type: "link",
         label: "JavaScript Challenges",
