@@ -333,7 +333,7 @@ request.
 
 ![alt text](../assets/http1-url-structure.png)
 
-## 1. Create your own endpoints and send different responses
+### Create your own endpoints and send different responses
 
 We're going to try sending different responses at different endpoints. Remember
 the `app.get()` method? To set up routing in your server, we just need to repeat
