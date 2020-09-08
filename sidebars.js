@@ -286,6 +286,10 @@ module.exports = {
     "Week 2": ["finalproject/week-2/lesson"],
     "Week 3": ["finalproject/week-3/lesson"],
     "Week 4": ["finalproject/week-4/lesson"],
+    "Demo Day": [
+      "finalproject/demoday/preparation",
+      "finalproject/demoday/practice-day",
+    ],
   },
   Deployment: {
     Overview: [

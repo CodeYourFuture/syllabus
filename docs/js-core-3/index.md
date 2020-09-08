@@ -18,8 +18,8 @@ sidebar_label: Overview
 
 ## Content
 
-| Week                         | Content           |
-| ---------------------------- | ----------------- |
-| [week-1](./week-1/lesson.md) | Debugging         |
-| [week-2](./week-2/lesson.md) | Fetch, AJAX, APIS |
-| [week-3](./week-3/lesson.md) | Scope & `this`    |
+| Week                          | Content           |
+| ----------------------------- | ----------------- |
+| [week-1](./week-1/lesson.md)  | Debugging         |
+| [week-2](./week-2/lesson.md)  | Fetch, AJAX, APIS |
+| [week-3](./week-3/lesson.mdx) | Scope & `this`    |
