@@ -1,6 +1,12 @@
 module.exports = {
   Contributing: {
-    Overview: ["contributing/overview", "contributing/technical"],
+    Overview: [
+      "contributing/overview",
+      "contributing/setup",
+      "contributing/editing",
+      "contributing/training",
+      "contributing/team",
+    ],
     "Template Lesson": [
       "contributing/example/lesson-template",
       "contributing/example/homework-template",
@@ -147,6 +153,21 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
+    "Additional Resources": [
+      {
+        type: "category",
+        label: "Extra Lessons",
+        items: [
+          "js-core-3/other/javascript-classes",
+          "js-core-3/other/this-keyword",
+        ],
+      },
+      {
+        type: "link",
+        label: "JavaScript Challenges",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Challenges",
+      },
+    ],
   },
   React: {
     Overview: ["react/index"],
@@ -220,9 +241,21 @@ module.exports = {
   },
   SQL: {
     Overview: ["db/index"],
-    "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
-    "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
-    "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
+    "Lesson 1": [
+      "db/week-1/lesson",
+      "db/week-1/instructors",
+      "db/week-1/homework",
+    ],
+    "Lesson 2": [
+      "db/week-2/lesson",
+      "db/week-2/instructors",
+      "db/week-2/homework",
+    ],
+    "Lesson 3": [
+      "db/week-3/lesson",
+      "db/week-3/instructors",
+      "db/week-3/homework",
+    ],
   },
   MongoDB: {
     Overview: ["mongodb/index"],
@@ -253,6 +286,10 @@ module.exports = {
     "Week 2": ["finalproject/week-2/lesson"],
     "Week 3": ["finalproject/week-3/lesson"],
     "Week 4": ["finalproject/week-4/lesson"],
+    "Demo Day": [
+      "finalproject/demoday/preparation",
+      "finalproject/demoday/practice-day",
+    ],
   },
   Deployment: {
     Overview: [

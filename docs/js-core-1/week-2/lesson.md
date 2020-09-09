@@ -130,6 +130,7 @@ boolChecker(true);
 In the previous exercise, you used an **expression** that returns a `boolean` value. This was possible because of the **comparison operator** `===`. Using a comparison operator will always return a `boolean` value.
 
 ### Assert
+
 We will also be using a new keyword to make sure the comparisons we do below return `true`. This is the `assert`.
 
 When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.

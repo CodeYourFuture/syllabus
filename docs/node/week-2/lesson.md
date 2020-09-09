@@ -16,7 +16,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-## CRUD
+## CRUD Continued
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -83,7 +83,7 @@ You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~
 
 When you remix the starting project, immediately rename it as your own.
 
-## Workshop - Let's build an API
+## Workshop
 
 You can use this [Express Cheatsheet](https://github.com/nbogie/express-notes/blob/master/express-cheatsheet.md) to help you.
 
@@ -98,7 +98,7 @@ An API does not have to be web-based. But in our work, since we are doing web de
 
 > **Checkpoint:** Let us recap what we know about HTTP before continuing.
 
-## Objective
+### Objective
 
 Our **API** will manage Beyoncé albums:
 
@@ -115,7 +115,7 @@ We will build these endpoints:
 `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
 
-## GET /Albums
+### GET /Albums
 
 1. In `server.js` Add the endpoint for `GET /albums`.
 
@@ -154,7 +154,7 @@ app.get("/albums", function (req, res) {
 
 3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
-## Step 1: GET /albums/:albumId
+### Step 1: GET /albums/:albumId
 
 **Complete in-class (1) GET Exercise at this point**
 
@@ -194,7 +194,7 @@ scripts: {
 
 now from your terminal, use the command `npm run dev` and that will run the _server_ with `nodemon` which is a package that makes the server listen to code changes and automatically restart.
 
-## Step 2: Add a new album
+### Step 2: Add a new album
 
 **Complete in-class (2) Post Exercise at this point**
 
@@ -254,7 +254,7 @@ app.post("/albums", function (req, res) {
 
 > Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
 
-## Step 3: Delete an album
+### Step 3: Delete an album
 
 **Complete in-class (3) DELETE Exercise at this point**
 

@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./styles.module.css";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -17,6 +18,12 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <Link
+            className={classnames("button button--lg")}
+            to={useBaseUrl("overview")}
+          >
+            First time here? Read the Overview
+          </Link>
         </div>
       </header>
       <main>

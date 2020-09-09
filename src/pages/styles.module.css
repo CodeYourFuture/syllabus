@@ -26,12 +26,28 @@
 
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 2rem;
+  flex: 1;
 }
 
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.mainContainer {
+  background: black;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.lefthalf {
+  flex: 45;
+  padding: 2rem;
+}
+
+.righthalf {
+  flex: 55;
 }

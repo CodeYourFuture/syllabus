@@ -24,7 +24,7 @@ By the end of this lesson students should be able to
 - Create an API endpoint that can add data to a database
 - Write code that effectively validates data before adding it to a database
 - Be aware of the dangers of SQL injection attacks, and how to avoid them
-- Create an API endpoint that can retrieve data from a datamongodbbase with multiple parameters
+- Create an API endpoint that can retrieve data from a database with multiple parameters
 - Create an API endpoint that can update data in a database
 - Create an API endpoint that can delete data in a database
 
@@ -279,14 +279,4 @@ app.delete("/customers/:customerId", function (req, res) {
 
 ## Homework
 
-All of the homework can be found in [this repository](https://github.com/CodeYourFuture/Databases-Homework).
-
-### Submission
-
-Create a new branch from `Master` to start working on this weeks homework. It should be called `[YOUR_NAME]/Week3`.
-
-When you have completed the homework create a pull request back to the `CodeYourFuture/Databases-Homework` repository so your teach can feedback on it.
-
-### Tasks
-
-You should complete all of the tasks in **Week 3** of the [Database Homework repository](https://github.com/CodeYourFuture/Databases-Homework).
+All of the homework for this week can be found [here](/homework).

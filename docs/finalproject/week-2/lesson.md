@@ -6,6 +6,8 @@ sidebar_label: Lesson
 
 ## Demo (60 minutes)
 
+_Led by Students, presented back to the class_
+
 Integrate all of your work together and share your progress so far with the mentors.
 
 Your presentation should last **no more than five minutes** and could include:
@@ -15,13 +17,17 @@ Your presentation should last **no more than five minutes** and could include:
 - A video of your project
 - A live example of your project
 
+If you want to prepare a quick presentation you can use [this template](https://docs.google.com/presentation/d/1pQ7teLv6k4uDvpG8qVLs5YgzpD7jRbMUmyyszHsNPhc/edit#slide=id.g90bd724b34_0_0)
+
 The most important aspect of this presentation is that you are **clear** and **concise**. We want to see that you can present yourselves well and communicate information effectively.
 
 At the end of your presentation you will have to answers questions on your project from the rest of the class. This will last for **a maximum of five minutes**.
 
 ## Retrospective (30 minutes)
 
-Retro's can help a team focus on what is important and what they can improve for the next week.
+_Facilitated by TAs_
+
+Retros can help a team focus on what is important and what they can improve for the next week. We like to use [Postfacto](https://pivotal.github.io/postfacto/) - if your team doesn't have a board setup already please contact Jon for help (`@jonrsharpe` on Slack or jonathan@codeyourfuture.io).
 
 - 5 mins - Individually everybody notes down.
   - You should include:
@@ -35,12 +41,20 @@ Retro's can help a team focus on what is important and what they can improve for
 
 ## User research (30 minutes)
 
-Show what you’ve built and what you’re planning to build next to potential users (other students, mentors, etc.) and use any feedback they have to improve your plans.
+_Facilitated by Product Managers_
+
+If you're building an internal product - show what you’ve built and what you’re planning to build next to potential users (other students, mentors, etc.) and use any feedback they have to improve your plans.
+
+If you're working with on external product this might be tricky to do immediately but you spend time discussing how you could find users to demo to and the best way to contact them.
 
 ## Sprint planning (60 minutes)
 
-decide what you’re each going to be doing during the following week and where you want to be by the next class.
+_Facilitated by Product Managers_
+
+Decide what you’re each going to be doing during the following week and where you want to be by the next class.
 
 ## Technical support (60 minutes)
 
-mentors will be on hand to help you get unstuck from any blocking technical issues.
+_Facilitated by TAs_
+
+Mentors will be on hand to help you get unstuck from any blocking technical issues.
