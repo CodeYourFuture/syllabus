@@ -4,6 +4,21 @@ title: Preparation
 sidebar_label: Preparation
 ---
 
+## Learning Outcomes
+
+By the end of this session you will be able to
+
+- Describe what Demo Day is and what will happen on the day
+- List the aims of the Demo Day presentations
+- Build a presentation that will impress employers
+- Write a description about yourself that is succinct and memorable
+- Highlight what makes a presentation good or bad
+- Use software to create videos of your projects to ensure your presentation goes smoothly
+
+## Slideshow
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQLfMfy30P8RVJcxKlbZX4ElfgAFBDJz_AeOCJFLlshZjifnJqCktuBX4MmZl8qn4PfmoloNvUxI3tw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## What is Demo Day?
 
 Demo Day is when we invite employers to see the Final Projects that you have been working on over the past four weeks. It's a chance for us all to come together to see what you've achieved!
