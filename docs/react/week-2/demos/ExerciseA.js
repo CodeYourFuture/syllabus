@@ -14,6 +14,7 @@ export function ExerciseADemo() {
           onClick={logWhenClicked}
           src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
           alt="Pokedex"
+          // Restrict the image size to fit better
           style={{ maxWidth: "200px" }}
         />
       </header>
