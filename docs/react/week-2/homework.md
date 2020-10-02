@@ -28,7 +28,10 @@ You should also choose any of the other projects that sound interesting to you!
 
 ## Prepare for the next class
 
-1. Finish reading the official [React tutorial](https://reactjs.org/tutorial/tutorial.html)
+1. Finish reading the official [React Tutorial](https://reactjs.org/tutorial/tutorial.html)
+   - You can ignore anything that uses `Class Components`. This is any code that includes `extends React.Component`
+   - This is because we use a slightly newer version of React that uses `Functional Components`
+   - You can read [this overview](https://dev.to/danielleye/react-class-component-vs-function-component-with-hooks-13dg) for more details on the differences
 2. Read the [lifecycle page](https://reactjs.org/docs/state-and-lifecycle.html) on the official React documentation
 3. Read the [AJAX page](https://reactjs.org/docs/faq-ajax.html) on the official React documentation
 4. Watch [this video tutorial](https://www.youtube.com/watch?v=TxqqrNfgTto) on fetching data in React
