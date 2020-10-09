@@ -10,6 +10,14 @@ Click [here](./learning-objectives) to see the Learning Objectives for this less
 
 ---
 
+## Before you start
+
+Before you arrive at class you **must** have completed the following setup work.
+
+[React Preparation](../prep)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./mentors)_
+
 ## What is React?
 
 React is a JavaScript library created by Facebook. It is used for making complex, interactive user interfaces. It has become very popular in the last 5 years.
