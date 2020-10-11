@@ -8,7 +8,7 @@ sidebar_label: Instructor Notes
 
 If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
 
-[React Preparation](./prep)
+[React Preparation](../prep)
 
 If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get setup.
 
