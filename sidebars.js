@@ -170,7 +170,7 @@ module.exports = {
     ],
   },
   React: {
-    Overview: ["react/index"],
+    Overview: ["react/index", "react/prep"],
     Resources: [
       "guides/react-cheatsheet",
       {
