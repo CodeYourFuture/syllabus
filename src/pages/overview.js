@@ -90,7 +90,7 @@ function Overview() {
             <h3>As a student...</h3>
             <p>
               If you're reading this as a student you will find lots of the
-              lesson plans that you've need following in your class. You will
+              lesson plans that you've been following in your class. You will
               also find links to resources that we think you will find useful,
               additional exercises and links to all of the coursework for the
               course.
