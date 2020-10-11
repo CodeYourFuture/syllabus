@@ -4,7 +4,7 @@ title: React Preparation
 sidebar_label: Preparation
 ---
 
-Before you start React you must make sure that you have some additional software is installed.
+Before you start React you must make sure that you have some additional software installed.
 
 ## Node & NPM
 
