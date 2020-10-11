@@ -16,7 +16,7 @@ To check if Node is installed open `Command Prompt` or `Terminal` or `Git Bash` 
 node -v
 ```
 
-If this does not work, you should [install Node](https://nodejs.org/en/download/).
+Running this command should print out a version number. If this does not work, you should [install Node](https://nodejs.org/en/download/).
 
 ## Create React App
 
