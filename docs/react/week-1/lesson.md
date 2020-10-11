@@ -16,7 +16,7 @@ Before you arrive at class you **must** have completed the following setup work.
 
 [React Preparation](../prep)
 
-_If you are a teacher reading this, please check the [Instructor Notes](./mentors)_
+_If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
 
 ## What is React?
 
