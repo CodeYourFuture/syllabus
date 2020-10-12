@@ -5,6 +5,7 @@ sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
+import { ExerciseADemo } from './demos/ExerciseA.js'
 
 ---
 
@@ -110,6 +111,7 @@ Think of it like this: we give the event handler to React, so that React can cal
 
 | Exercise A (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise we will extend our `Logo` component to log to the console when clicking on the image. <ExerciseADemo />                  |
 | 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
 | 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
 | 3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).                                     |
