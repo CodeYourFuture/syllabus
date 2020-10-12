@@ -13,6 +13,8 @@ sidebar_label: Instructor Notes
 
 - [PokeDex In-Class - Exercise Solution - 05/06/2020](https://github.com/CodeYourFuture/pokedex-solution)
   - Created by London and Ali Smith
+- [Hotel Homework - Solution - 24/07/2020](https://github.com/CodeYourFuture/Hotel-React-solution)
+  - Created by Manchester and Dorota Sobkow
 
 ## Notes for instructors
 
