@@ -4,6 +4,8 @@ title: React - Week 3
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -666,3 +668,9 @@ There is another common pattern for handling multiple fields in a form, but it r
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="React" week="Week 3" />

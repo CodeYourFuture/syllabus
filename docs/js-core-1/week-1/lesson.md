@@ -4,6 +4,8 @@ title: JavaScript Core I - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Hello World](#hello-world)
@@ -319,3 +321,9 @@ function createGreeting(name, age) {
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="JavaScript Core 1" week="Week 1" />

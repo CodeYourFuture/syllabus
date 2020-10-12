@@ -4,7 +4,9 @@ title: MongoDB - 3
 sidebar_label: Lesson
 ---
 
-Outline:
+import Feedback from "@theme/Feedback";
+
+## Outline
 
 - Lesson 2 review
 - Indexing
@@ -310,3 +312,9 @@ If you have time and interest, please register to either of these classes or any
 <https://university.mongodb.com/courses/M220JS/about>
 
 <https://university.mongodb.com/courses/M220P/about>
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="MongoDB" week="Week 3" />

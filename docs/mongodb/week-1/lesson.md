@@ -4,6 +4,8 @@ title: MongoDB - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Outline
 
 - What is a database?
@@ -674,3 +676,9 @@ Add an endpoint `/tracks/new` that returns only the tracks released after 2010
 #### Exercise 13
 
 Add an endpoint `/tracks/old` that returns only the tracks released before 2000.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="MongoDB" week="Week 1" />

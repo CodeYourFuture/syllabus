@@ -4,6 +4,8 @@ title: "Database 2-  More SQL and integration with NodeJS"
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - Revision from last week
@@ -283,3 +285,9 @@ Start your server with `node server.js` and try to reach the `/hotels` endpoint 
 ## Homework
 
 All of the homework for this week can be found [here](/homework).
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="SQL" week="Week 2" />

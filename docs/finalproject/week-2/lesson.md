@@ -4,6 +4,8 @@ title: Final Project - Week 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Demo (60 minutes)
 
 _Led by Students, presented back to the class_
@@ -58,3 +60,9 @@ Decide what you’re each going to be doing during the following week and where 
 _Facilitated by TAs_
 
 Mentors will be on hand to help you get unstuck from any blocking technical issues.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="Final Project" week="Week 2" />

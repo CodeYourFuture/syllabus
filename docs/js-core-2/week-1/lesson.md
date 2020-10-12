@@ -4,6 +4,8 @@ title: JavaScript Core II - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Objects](#objects)
@@ -1175,3 +1177,9 @@ const studentGrades = {
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="JavaScript Core 2" week="Week 1" />

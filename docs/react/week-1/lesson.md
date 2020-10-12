@@ -4,6 +4,8 @@ title: React - Week 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -455,3 +457,9 @@ Inspiration & examples for this module were taken from [Kent C. Dodd's](https://
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="React" week="Week 1" />

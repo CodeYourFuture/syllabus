@@ -4,6 +4,8 @@ title: Node - 3
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 By the end of this lesson students should be able to:
@@ -101,3 +103,9 @@ You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challeng
 3. It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
    - e.g. Both of you have to finish Level 100 before continuing onto Level 200.
    - If one of you gets stuck - help each other!
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="Node" week="Week 3" />
