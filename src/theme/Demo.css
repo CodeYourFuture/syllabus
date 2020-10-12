@@ -1,0 +1,22 @@
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--ifm-color-info);
+  border-radius: 8px;
+  position: relative;
+}
+
+.demo:before {
+  content: "demo";
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  font-size: calc(var(--ifm-font-size-base) * 0.65);
+  text-transform: uppercase;
+}
+
+.demo__wrapper {
+  width: 80%;
+  margin-top: 1rem;
+}
