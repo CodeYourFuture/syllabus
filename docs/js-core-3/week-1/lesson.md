@@ -4,6 +4,8 @@ title: JavaScript Core III - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 - The learner should understand the value of thorough and comprehensive debugging
@@ -384,3 +386,9 @@ In your groups you should get the project setup using the exact instructions fou
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="JavaScript Core 3" week="Week 1" />

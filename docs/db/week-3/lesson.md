@@ -4,6 +4,8 @@ title: "Database 3 - More integration with NodeJS"
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - Revision from last week
@@ -280,3 +282,9 @@ app.delete("/customers/:customerId", function (req, res) {
 ## Homework
 
 All of the homework for this week can be found [here](/homework).
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="SQL" week="Week 3" />

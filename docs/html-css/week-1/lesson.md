@@ -4,6 +4,8 @@ title: HTML/CSS - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Semantic HTML tags](#html-syntax)
@@ -171,3 +173,9 @@ You can also set a transparent border, so that it takes up the space without sho
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="HTML/CSS" week="Week 1" />

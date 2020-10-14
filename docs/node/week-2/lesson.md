@@ -4,6 +4,8 @@ title: Node - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 By the end of this lesson students should be able to:
@@ -274,3 +276,9 @@ app.delete("/albums/:albumID", function (req, res) {
 ```
 
 Can you work out how to remove an album using this code?
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="Node" week="Week 2" />

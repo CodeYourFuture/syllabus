@@ -4,6 +4,8 @@ title: Node - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 By the end of this lesson students should be able to:
@@ -383,3 +385,9 @@ app.get("/", function (req, res) {
 > want from `/chocolate` endpoint. For example
 >
 > http://localhost:3000/chocolate?amount=3
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="Node" week="Week 1" />

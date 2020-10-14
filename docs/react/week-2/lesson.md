@@ -4,6 +4,7 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
 import { ExerciseADemo } from './demos/ExerciseA.js'
 
 ---
@@ -503,3 +504,9 @@ What happens if you forget to pass a prop to a component? Or if you pass the wro
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="React" week="Week 2" />

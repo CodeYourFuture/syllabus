@@ -4,6 +4,8 @@ title: Final Project - Week 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Overview
 
 - Welcome
@@ -172,3 +174,9 @@ Make sure that you assigned everybody tasks on your Project Management board.
 ## 5. Prepare for next week
 
 Next week you will be presenting what you've done this week to the whole class. This means you need to prepare a presentation - it is the responsibility of the team to get this done but your product manager may be able to help co-ordinate.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="Final Project" week="Week 1" />

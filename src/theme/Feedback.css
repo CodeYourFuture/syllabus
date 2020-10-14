@@ -1,0 +1,13 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  position: relative;
+}
+
+.feedback__wrapper {
+  width: 80%;
+  margin-top: 1rem;
+}

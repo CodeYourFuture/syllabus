@@ -4,6 +4,8 @@ title: HTML/CSS - 3
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - [HTML/CSS frameworks](#htmlcss-frameworks)
@@ -64,3 +66,9 @@ At the end of each module, we'll have a retrospective. What went right? What wen
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future
+
+<Feedback module="HTML/CSS" week="Week 3" />
