@@ -63,6 +63,6 @@ Mentors will be on hand to help you get unstuck from any blocking technical issu
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Final Project" week="Week 2" />

@@ -177,6 +177,6 @@ Next week you will be presenting what you've done this week to the whole class. 
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Final Project" week="Week 1" />

@@ -388,6 +388,6 @@ app.get("/", function (req, res) {
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Node" week="Week 1" />

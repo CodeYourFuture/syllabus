@@ -277,6 +277,6 @@ All of the homework for this week can be found [here](/homework).
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="SQL" week="Week 1" />

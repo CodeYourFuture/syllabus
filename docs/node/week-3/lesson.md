@@ -106,6 +106,6 @@ You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challeng
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Node" week="Week 3" />

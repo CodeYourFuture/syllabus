@@ -315,6 +315,6 @@ If you have time and interest, please register to either of these classes or any
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="MongoDB" week="Week 3" />

@@ -1180,6 +1180,6 @@ Click [here](./homework) to view the homework for this lesson.
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="JavaScript Core 2" week="Week 1" />

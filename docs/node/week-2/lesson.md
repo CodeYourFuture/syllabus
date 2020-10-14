@@ -279,6 +279,6 @@ Can you work out how to remove an album using this code?
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Node" week="Week 2" />

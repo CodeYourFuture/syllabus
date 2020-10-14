@@ -307,6 +307,6 @@ An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSf
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="JavaScript Core 2" week="Week 3" />

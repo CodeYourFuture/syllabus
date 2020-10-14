@@ -509,6 +509,6 @@ Change the new endpoint to `/films/:id`. Make it delete only the object with th
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="MongoDB" week="Week 2" />
