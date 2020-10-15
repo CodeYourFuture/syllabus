@@ -50,6 +50,15 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "rc-pm",
+      "name": "rc-pm",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69386499?v=4",
+      "profile": "https://github.com/RC-PM",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
