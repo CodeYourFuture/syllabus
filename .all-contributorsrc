@@ -50,6 +50,15 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "textbook",
+      "name": "Jonathan Sharpe",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/785939?v=4",
+      "profile": "https://github.com/textbook/about",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
