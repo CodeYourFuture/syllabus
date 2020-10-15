@@ -4,7 +4,7 @@ title: External Projects
 sidebar_label: External Projects
 ---
 
-For Final Projects we try to find interesting, tech-for-good projects for that stretch the abilities of those working on them whilst helping an NGO or Charity work towards its goals.
+At CodeYourFuture we try to find interesting, tech-for-good projects for that stretch the abilities of our students whilst helping an NGO or Charity solve a business problem they are facing.
 
 ## Past Projects
 
