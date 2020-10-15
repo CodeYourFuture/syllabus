@@ -31,6 +31,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mickyginger",
+      "name": "Mike Hayden",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3531085?v=4",
+      "profile": "https://github.com/mickyginger",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
