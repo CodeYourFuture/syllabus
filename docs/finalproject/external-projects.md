@@ -94,7 +94,7 @@ As Junior Developers, our students do have some limits on what they can produce
 
 ## Next Steps
 
-### 1) Complete this form
+### 1) Details Form
 
 A good next step to getting started with defining your project is to complete this form.
 
@@ -102,10 +102,16 @@ A good next step to getting started with defining your project is to complete th
 
 It is important that you answer all of these questions in **as much** details as possible. Even irrelevant details will help us understand what you are trying to achieve.
 
+### 2) Visual Form
+
+On the new step we're asking you to be more visual in answering the questions. We'd advise you to use images or diagrams to answer the questions in these slides.
+
+[CodeYourFuture - Visual Specification Form](https://docs.google.com/presentation/d/1-rj0NAncIhIZuay6TXEyUeuXFFUnE7vmN12223rHZOI/edit#slide=id.g3579738be0_0_0)
+
 ### 2) Design Mock-Ups
 
 Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
 
 You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step.
 
-Try to think about how each individual page will look. Will the user need to create an account? Think if the form they will need to fill in. Does the user view content on a page? What content should be included?
+Try to think about how each individual page will look. Will the user need to create an account? Think of the form they will need to fill in. Does the user view content on a page? What content should be included?
