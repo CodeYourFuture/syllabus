@@ -22,6 +22,8 @@ You can also find more example project briefs on the Project Brief
 
 It's important that the projects that we work on fulfill some base requirements to make sure they go smoothly.
 
+All Final Projects aim to be a [Minimum Viable Product](https://www.agilealliance.org/glossary/mvp/). This means they may be rough around the edges but have all of the core functionality working.
+
 ### Functionality
 
 A Good Final Project should have most of the following qualities
@@ -44,7 +46,7 @@ A Good Final Project should have most of the following qualities
    - For example, a well defined project should be able to answer using [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories) **all** of the functionality of the project
    - We **can** work with Charities to define projects if they contact us early enough
 
-### Technical Specification
+### Technical Functionality
 
 _Don't know what anything here means? That's fine! The above section covers this in less technical details_
 
@@ -57,11 +59,11 @@ We use the following technologies at CodeYourFuture
 
 An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our students to use all of the skills that they have learnt in our course.
 
-We advise against using other tools as they will fall outside our students areas of competency.
+We advise against using other tools as they will fall outside our students areas of competency due to the time constraints that we have.
 
 ## Next Steps
 
-A good first step to getting started with defining your project is to complete this form.
+A good next step to getting started with defining your project is to complete this form.
 
 [CodeYourFuture - Projects Specification Form](https://docs.google.com/forms/u/1/d/1u2zImwEjD5PDWJuMyDeCuQ3AP5xhWr683pGy9HlmC14/edit)
 
