@@ -108,7 +108,7 @@ On the new step we're asking you to be more visual in answering the questions. W
 
 [CodeYourFuture - Visual Specification Form](https://docs.google.com/presentation/d/1-rj0NAncIhIZuay6TXEyUeuXFFUnE7vmN12223rHZOI/edit#slide=id.g3579738be0_0_0)
 
-### 2) Design Mock-Ups
+### 3) Design Mock-Ups
 
 Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
 
