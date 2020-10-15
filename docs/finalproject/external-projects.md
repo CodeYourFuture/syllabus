@@ -18,6 +18,30 @@ Additionally, here are some examples of internal projects we've completed
 
 You can also find more example project briefs on the Project Brief
 
+## Goals
+
+With the final projects, we’re looking to give our students:
+
+- Experience of collaborating in a team to deliver software
+- An opportunity to work with real stakeholders and requirements
+- The chance to bring together the different things they’ve learned
+- A real example to talk about in job interviews and guide their interests
+
+and to give our partners:
+
+- A useful piece of software that they can use as-is or build on after the project
+
+More details can be found on the [Intro](./intro) and [Preparation](./prep) pages.
+
+## What does a Product Owner have to do?
+
+To be a good Stakeholder/Product Owner you should
+
+- Be able to attend a weekly/bi-weekly meeting with our teams
+- Be in a position to advise the development of the project
+  - e.g. Should we prioritise Feature A or Feature B?
+- Have realistic expectations of what our students can build in the time given to them
+
 ## What is a Good Project?
 
 It's important that the projects that we work on fulfill some base requirements to make sure they go smoothly.
@@ -26,7 +50,7 @@ All Final Projects aim to be a [Minimum Viable Product](https://www.agileallianc
 
 ### Functionality
 
-A Good Final Project should have most of the following qualities
+A Good Final Project should have the following qualities
 
 1. Be an interactive website
 
@@ -60,6 +84,13 @@ We use the following technologies at CodeYourFuture
 An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our students to use all of the skills that they have learnt in our course.
 
 We advise against using other tools as they will fall outside our students areas of competency due to the time constraints that we have.
+
+### Limitations
+
+As Junior Developers, our students do have some limits on what they can produce
+
+- Visual Design Complexity
+  - An overly complex design will take a lot longer for our students to develop. Try to keep your designs simple and functional.
 
 ## Next Steps
 
