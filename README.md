@@ -1,7 +1,7 @@
 # [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is the syllabus and course material for
@@ -44,6 +44,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.thecodethatchriswrote.com"><img src="https://avatars2.githubusercontent.com/u/5181870?v=4" width="100px;" alt=""/><br /><sub><b>Chris Owen</b></sub></a><br /><a href="https://github.com/CodeYourFuture/syllabus/commits?author=ChrisOwen101" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/mickyginger"><img src="https://avatars0.githubusercontent.com/u/3531085?v=4" width="100px;" alt=""/><br /><sub><b>Mike Hayden</b></sub></a><br /><a href="#content-mickyginger" title="Content">🖋</a></td>
     <td align="center"><a href="https://alasdairsmith.co.uk"><img src="https://avatars3.githubusercontent.com/u/424411?v=4" width="100px;" alt=""/><br /><sub><b>Alasdair Smith</b></sub></a><br /><a href="#content-40thieves" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=40thieves" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RC-PM"><img src="https://avatars3.githubusercontent.com/u/69386499?v=4" width="100px;" alt=""/><br /><sub><b>rc-pm</b></sub></a><br /><a href="https://github.com/CodeYourFuture/syllabus/commits?author=rc-pm" title="Documentation">📖</a></td>
   </tr>
 </table>
 
