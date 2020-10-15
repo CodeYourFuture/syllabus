@@ -63,8 +63,18 @@ We advise against using other tools as they will fall outside our students areas
 
 ## Next Steps
 
+### 1) Complete this form
+
 A good next step to getting started with defining your project is to complete this form.
 
 [CodeYourFuture - Projects Specification Form](https://docs.google.com/forms/u/1/d/1u2zImwEjD5PDWJuMyDeCuQ3AP5xhWr683pGy9HlmC14/edit)
 
 It is important that you answer all of these questions in **as much** details as possible. Even irrelevant details will help us understand what you are trying to achieve.
+
+### 2) Design Mock-Ups
+
+Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
+
+You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step.
+
+Try to think about how each individual page will look. Will the user need to create an account? Think if the form they will need to fill in. Does the user view content on a page? What content should be included?
