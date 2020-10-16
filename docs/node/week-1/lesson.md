@@ -68,7 +68,7 @@ What's an API and how is it different from a web site?
 
 ## 2) Intro to Node on Glitch
 
-### 2.2) Running a Simple Server
+### 2.1) Running a Simple Server
 
 Run the simplest web server code.
 
