@@ -24,4 +24,8 @@ Time yourselves - that is NOT much time!
 
 Next class we will be presenting a few of them in small groups to each other to recap what we learnt.
 
-NOTE: Slides (or presenting from computer) is NOT allowed.
+NOTE: Slides (or presenting from computer) are NOT allowed.
+
+## (Optional) Challenges
+
+You can find additional challenges to work on [here](https://github.com/CodeYourFuture/cyf-node-challenges) if you finish all of your homework.
