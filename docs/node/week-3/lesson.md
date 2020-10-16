@@ -15,7 +15,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-## CRUD Review
+## 1) CRUD Review
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -26,7 +26,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 > Which of these have we learnt so far?
 
-### Using Update exercise
+### 1.1) Using Update exercise
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
@@ -63,7 +63,7 @@ app.put("/albums/:albumID", function (req, res) {
 
 Remember, you have got to **update** the album, not add it to the list
 
-## Heroku
+## 2) Heroku
 
 We use can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
 
@@ -90,13 +90,13 @@ git push heroku master
 
 After making a `commit` your updated website with my made available online.
 
-## City Guide and Paired Programming
+## 3) City Guide and Paired Programming
 
 In this exercises you should split into groups of two people.
 
 You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challenges/tree/master/challenge-london-mini-guide) here.
 
-### Rules
+### 3.1) Rules
 
 1. One of you will be leading on building the React (Server) application
 2. One of you will be leading on building the Node.js (Client) Application
