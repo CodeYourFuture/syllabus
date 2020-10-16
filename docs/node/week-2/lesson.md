@@ -18,6 +18,12 @@ By the end of this lesson students should be able to:
 
 ---
 
+## Presentations
+
+As part of last weeks homework we asked you to prepare a very short presentation on what you learnt last week.
+
+Split into groups of 2-4 people and present what you have learnt. Remember, your whole presentation should be no more than 120 seconds!
+
 ## CRUD Continued
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
