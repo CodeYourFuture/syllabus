@@ -6,6 +6,8 @@ sidebar_label: Lesson
 
 import Feedback from "@theme/Feedback";
 import { ExerciseADemo } from './demos/ExerciseA.js'
+import { ExerciseDDemo } from './demos/ExerciseD.js'
+import { ExerciseEDemo } from './demos/ExerciseE.js'
 
 ---
 
@@ -151,14 +153,15 @@ function FancyButton(props) {
 
 Notice how this is very similar to the example above where we created the handler and used it in the same component? The only difference here is that we are passing the function reference through a prop. We could even pass it through multiple components as props.
 
-| Exercise B (estimate: 10 min)                                                                                                                                 |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1. Open the `pokedex` React application and open the `Logo.js` file.                                                                                          |
-| 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                             |
-| 3. Pass the `logWhenClicked` function **reference** as a prop to the `Logo` component. (Hint: look at the `ClickLoggerApp` component above for an example).   |
-| 4. In the `Logo` component change the `onClick` prop so that it passes `props.handleClick`. (Hint: look at the `FancyButton` component above for an example). |
-| 5. In a group of 2 - 3 students, discuss what you think will happen when you click the logo image now. Can you explain why?                                   |
-| 6. Report back to the rest of the class what you thought was going to happen and why.                                                                         |
+| Exercise B (estimate: 10 min)                                                                                                                                                                                                                            |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll move the `logWhenClicked` function in the `Logo` component to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise A. |
+| 1. Open the `pokedex` React application and open the `Logo.js` file.                                                                                                                                                                                     |
+| 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                                                                                                                        |
+| 3. Pass the `logWhenClicked` function **reference** as a prop to the `Logo` component. (Hint: look at the `ClickLoggerApp` component above for an example).                                                                                              |
+| 4. In the `Logo` component change the `onClick` prop so that it passes `props.handleClick`. (Hint: look at the `FancyButton` component above for an example).                                                                                            |
+| 5. In a group of 2 - 3 students, discuss what you think will happen when you click the logo image now. Can you explain why?                                                                                                                              |
+| 6. Report back to the rest of the class what you thought was going to happen and why.                                                                                                                                                                    |
 
 ## Re-rendering components
 
@@ -331,6 +334,7 @@ On the second render, `count` is now set to 1. Every time we click the button, t
 
 | Exercise D (estimate: 15 min)                                                                                                                                                                                                                                                                                                                                                                 |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll add a button to the `CaughtPokemon` component which adds one to the number of Pokemon you have caught: <ExerciseDDemo />                                                                                                                                                                                                                                              |
 | 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                                                                                                                                 |
 | 2. Create a new state variable with `useState`. It should be named `caught` and be initialised to `0`                                                                                                                                                                                                                                                                                         |
 | 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.                                                                                                                                                                                                                                                                                          |
@@ -410,6 +414,7 @@ The `list.push` method won't work here, as this method _mutates_ the existing ar
 
 | Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| In this exercise, we'll change the `CaughtPokemon` component to show a list of Pokemon that we have caught instead of a number: <ExerciseEDemo />                                                                                                                                     |
 | 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                         |
 | 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                                   |
 | 3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another student what you think the problem is.                                                                                                                                     |
