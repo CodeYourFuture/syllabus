@@ -381,10 +381,41 @@ app.get("/", function (req, res) {
 });
 ```
 
+Here is an example of how we would use this endpoint with query parameters:
+
+> http://localhost:3000?search=hello
+
+Now your turn!
+
 > **Exercise:** Add some code so that your server returns the amount of chocolate that you
 > want from `/chocolate` endpoint. For example
 >
 > http://localhost:3000/chocolate?amount=3
+
+### 2. Multiple Query Parameters
+
+What if we want to detect and read multiple parameters? If we use a URL from earlier as an example, here is how we would **send** multiple query parameters:
+
+> https://api.sunrise-sunset.org/json?lat=51.5311&lng=0.0481
+
+Here we have one parameter called "lat" and another "lng".
+
+Here is how we would do that in Node:
+
+```js
+app.get("/json", function (req, res) {
+  let lat = req.query.lat;
+  let lng = req.query.lng;
+  res.send(`You searched for Lat: ${lat} and Lng: ${lng}`);
+});
+```
+
+> **Exercise** Add some code so that your server takes 2 values that we will multiply together and return the value
+> For example
+>
+> http://localhost:3000/multiply?value1=2&value2=10
+>
+> Which would give a return value of 20
 
 ## Feedback
 
