@@ -95,6 +95,8 @@ As Junior Developers, our students do have some limits on what they can produce
 
 - Visual Design Complexity
   - An overly complex design will take a lot longer for our students to develop. Try to keep your designs simple and functional.
+- Instant Answers
+  - You shouldn't expect our students to be able to give instant answers to any technical questions you might have. They will get there with time however!
 
 ## Next Steps
 
