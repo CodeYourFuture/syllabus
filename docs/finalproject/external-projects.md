@@ -23,7 +23,7 @@ You can also find more example project briefs on the Project Brief
 With the final projects, we’re looking to give our students:
 
 - Experience of collaborating in a team to deliver software
-- An opportunity to work with real stakeholders and requirements
+- An opportunity to solve real world business problems
 - The chance to bring together the different things they’ve learned
 - A real example to talk about in job interviews and guide their interests
 
@@ -41,6 +41,10 @@ To be a good Stakeholder/Product Owner you should
 - Be in a position to advise the development of the project
   - e.g. Should we prioritise Feature A or Feature B?
 - Have realistic expectations of what our students can build in the time given to them
+
+In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our students more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our students. Students may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
+
+In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our students. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
 
 ## What is a Good Project?
 
@@ -110,8 +114,12 @@ On the new step we're asking you to be more visual in answering the questions. W
 
 ### 3) Design Mock-Ups
 
+Finally, you should work with us to create some simple designs of your product. These will not be the final designs of what you be building - they're just a tool to help us work out what you want built.
+
 Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
 
 You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step.
 
 Try to think about how each individual page will look. Will the user need to create an account? Think of the form they will need to fill in. Does the user view content on a page? What content should be included?
+
+Get in contact with your local City Coordinator to arrange this.
