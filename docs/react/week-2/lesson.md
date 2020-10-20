@@ -4,6 +4,9 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
+<!-- Docusaurus allows embedding React components via MDX -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#embedding-react-components-with-mdx -->
+
 import Feedback from "@theme/Feedback";
 import { ExerciseADemo } from './demos/ExerciseA.js'
 import { ExerciseDDemo } from './demos/ExerciseD.js'
