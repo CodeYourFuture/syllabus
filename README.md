@@ -1,7 +1,7 @@
 # [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is the syllabus and course material for
@@ -49,6 +49,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/nholdsworth94"><img src="https://avatars1.githubusercontent.com/u/69724935?v=4" width="100px;" alt=""/><br /><sub><b>Nick Holdsworth</b></sub></a><br /><a href="#content-nholdsworth94" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/timhamrouge"><img src="https://avatars1.githubusercontent.com/u/34589526?v=4" width="100px;" alt=""/><br /><sub><b>Tim Hamrouge</b></sub></a><br /><a href="#content-timhamrouge" title="Content">🖋</a></td>
   </tr>
 </table>
 
