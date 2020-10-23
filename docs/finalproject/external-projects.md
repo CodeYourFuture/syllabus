@@ -110,7 +110,7 @@ It is important that you answer all of these questions in **as much** details as
 
 ### 2) Visual Form
 
-On the new step we're asking you to be more visual in answering the questions. We'd advise you to use images or diagrams to answer the questions in these slides.
+On the next step we're asking you to be more visual in answering the questions. We'd advise you to use images or diagrams to answer the questions in these slides.
 
 [CodeYourFuture - Visual Specification Form](https://docs.google.com/presentation/d/1-rj0NAncIhIZuay6TXEyUeuXFFUnE7vmN12223rHZOI/edit#slide=id.g3579738be0_0_0)
 
