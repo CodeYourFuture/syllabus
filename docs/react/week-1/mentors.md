@@ -23,6 +23,7 @@ If you students do not arrive with these steps completed then you will lose a lo
 
 - [PokeDex In-Class - Exercise Solution - 05/06/2020](https://github.com/CodeYourFuture/pokedex-solution)
   - Created by London and Ali Smith
+  - These are now embedded into the syllabus itself, see [`demos` folder](https://github.com/CodeYourFuture/syllabus/tree/master/docs/react/week-1/demos) for source
 - [Hotel Homework - Solution - 24/07/2020](https://github.com/CodeYourFuture/Hotel-React-solution)
   - Created by Manchester and Dorota Sobkow
 
