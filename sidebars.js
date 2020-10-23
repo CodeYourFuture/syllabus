@@ -14,38 +14,6 @@ module.exports = {
       "contributing/example/instructors-template",
     ],
   },
-  Fundamentals: {
-    Overview: [
-      "fundamentals/index",
-      "fundamentals/about-this-course",
-      "fundamentals/contributing-guide",
-      "fundamentals/instructor-notes",
-    ],
-    "Course Resources": [
-      "fundamentals/other-resources/tips-for-success",
-      "fundamentals/other-resources/roadmap",
-    ],
-    "Lesson 1": [
-      "fundamentals/lesson-1/lesson",
-      "fundamentals/lesson-1/instructor-notes",
-    ],
-    "Lesson 2": [
-      "fundamentals/lesson-2/lesson",
-      "fundamentals/lesson-2/instructor-notes",
-    ],
-    "Lesson 3": [
-      "fundamentals/lesson-3/lesson",
-      "fundamentals/lesson-3/instructor-notes",
-    ],
-    "Lesson 4": [
-      "fundamentals/lesson-4/lesson",
-      "fundamentals/lesson-4/instructor-notes",
-    ],
-    "After The Course": [
-      "fundamentals/after-the-course/processing-migrating",
-      "fundamentals/other-resources/challenges",
-    ],
-  },
   HTMLCSS: {
     Overview: ["html-css/index"],
     "Lesson 1": [
