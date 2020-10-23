@@ -282,6 +282,7 @@ module.exports = {
       "finalproject/prep",
       "finalproject/roles",
       "finalproject/projects",
+      "finalproject/external-projects",
     ],
     "Week 1": ["finalproject/week-1/lesson"],
     "Week 2": ["finalproject/week-2/lesson"],
