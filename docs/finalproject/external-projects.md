@@ -40,6 +40,7 @@ To be a good Stakeholder/Product Owner you should
 - Be able to attend a weekly/bi-weekly meeting with our teams
 - Be in a position to advise the development of the project
   - e.g. Should we prioritise Feature A or Feature B?
+  - e.g. We should remove Feature B because it's no longer needed.
 - Have realistic expectations of what our students can build in the time given to them
 
 In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our students more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our students. Students may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
@@ -59,7 +60,7 @@ A Good Final Project should have the following qualities
 1. Be an interactive website
 
    - This means a website that a user can interact with to create, read, upload, delete data.
-   - For example, a photo hosting service or blog would fulfil this criteria
+   - For example, a photo hosting service, Q+A Service or Custom Events Platform would fulfil this criteria
    - A static website like the [CodeYourFuture website](https://www.codeyourfuture.io) would **not**
 
 2. Be completable in four weeks of work
@@ -87,7 +88,7 @@ We use the following technologies at CodeYourFuture
 
 An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our students to use all of the skills that they have learnt in our course.
 
-We advise against using other tools as they will fall outside our students areas of competency due to the time constraints that we have.
+We prohibit using other core frameworks as they will fall outside our students areas of competency due to the time constraints that we have.
 
 ### Limitations
 
@@ -120,7 +121,7 @@ Finally, you should work with us to create some simple designs of your product. 
 
 Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
 
-You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step.
+You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step. If you want to use a digital tool we recommend [Excalidraw](https://excalidraw.com/).
 
 Try to think about how each individual page will look. Will the user need to create an account? Think of the form they will need to fill in. Does the user view content on a page? What content should be included?
 
