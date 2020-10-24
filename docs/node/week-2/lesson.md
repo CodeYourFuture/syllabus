@@ -158,9 +158,9 @@ app.get("/albums", function (req, res) {
 });
 ```
 
-2. Test the endpoint with Postman. `GET /songs` should return a JSON reply with the array we specified.
+2. Test the endpoint with Postman. `GET /albums` should return a JSON reply with the array we specified.
 
-3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
+3. Add another item to the array and test that the `GET /albums` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
 ### 3.2) Get Album by ID
 
