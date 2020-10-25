@@ -39,9 +39,10 @@ Github Desktop might look a bit different if are cloning the first repository on
 ![Clone repository modal](./assets/cloning-4.png)
 
 7. Click the Clone button, and wait until it has finished cloning
-8. Congrats! You have successfully cloned a repo from Github! 🎉
 
-## I want to open VS Code with my repo
+Congrats! You have successfully cloned a repo from Github! 🎉
+
+## I want to open Visual Studio Code with my repo
 
 Follow these steps if you already have the repo on your computer and you want to edit the files.
 
@@ -49,6 +50,8 @@ Follow these steps if you already have the repo on your computer and you want to
 2. Then click the Open in Visual Studio Code option:
 
 ![Open in Visual Studio Code option](./assets/opening-vscode.png)
+
+Visual Studio Code will now open with the code from the repo.
 
 ## I want to save my code to the repo (Committing)
 
