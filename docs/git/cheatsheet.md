@@ -98,6 +98,8 @@ Follow these steps if you have committed some code, and want to send it to the v
 
 ![Push origin](./assets/pushing-1.png)
 
+The next steps are different depending on whether this is the first time you have pushed this repo to Github. **If this is the first time you have pushed this repo, follow steps 3, 4 and 5 below. If not, you can skip those steps.**
+
 3. If this is the first time you have pushed this repo, a message pops up asking if you want to _fork_ this repository. Click the Fork this Repository button:
 
 ![Fork this repository](./assets/pushing-2.png)
@@ -106,7 +108,25 @@ Follow these steps if you have committed some code, and want to send it to the v
 
 ![Contribute to the parent project](./assets/pushing-3.png)
 
-Congrats! You just pushed your code to Github! 🎉
+5. Click the "Push origin" button again
+
+6. In the menubar, click the Branch > Show Pull Request option:
+
+![Contribute to the parent project](./assets/pr-1.png)
+
+7. This will open a tab in your browser. Click the "Create pull request" button on the right:
+
+![Contribute to the parent project](./assets/pr-2.png)
+
+8. Fill out the Pull Request title (it is helpful to include your city, name and which week the coursework is for):
+
+![Contribute to the parent project](./assets/pr-3.png)
+
+9. Click the "Create pull request" button
+
+Congrats! You just created a Pull Request on Github! 🎉
+
+The volunteers will now be able to review your code and give feedback!
 
 #### TODO
 
