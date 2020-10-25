@@ -42,7 +42,7 @@ Github Desktop might look a bit different if are cloning the first repository on
 
 Congrats! You have successfully cloned a repo from Github! 🎉
 
-## I want to open Visual Studio Code with my repo
+## I want to open Visual Studio Code with code from my repo
 
 Follow these steps if you already have the repo on your computer and you want to edit the files.
 
@@ -87,3 +87,4 @@ You should now see "No local changes". You can now make more changes to the repo
 
 - Decide what to do about the UI being different for the first repo
 - Tips on writing a good commit message?
+- Tips on understanding a diff?
