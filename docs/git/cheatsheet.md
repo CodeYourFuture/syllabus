@@ -55,8 +55,35 @@ Visual Studio Code will now open with the code from the repo.
 
 ## I want to save my code to the repo (Committing)
 
+Follow these steps if you have edited some code, and want to update the repo with your changes.
+
+#### Video
+
+<video width="100%" controls>
+  <source src={require('./assets/committing-video.mp4').default} />
+</video>
+
+#### Screenshots
+
+1. Open Github Desktop and ensure you are in the correct Current Repository
+2. A _diff_ showing the changes that you made is shown (lines with a green background were added, and lines with a red background were removed):
+
+![Showing a diff](./assets/committing-1.png)
+
+3. Click on the files in the sidebar to see different files. Make sure that you're only changing files that you meant to change
+4. Once you're happy with your change, fill out the input boxes in the bottom left to add a _commit message_:
+
+![Adding a commit message](./assets/committing-2.png)
+
+5. Click the "Commit to main" button
+
+You just committed your code to the repo! 🎉
+
+You should now see "No local changes". You can now make more changes to the repo (and more commits), or you can push your existing commits.
+
 ## I want to send my code to volunteers (Pushing)
 
 #### TODO
 
 - Decide what to do about the UI being different for the first repo
+- Tips on writing a good commit message?
