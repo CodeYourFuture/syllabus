@@ -8,6 +8,10 @@ sidebar_label: Github Desktop Cheatsheet
 
 Follow these steps if you need to get code from a Github repo onto your computer (for example to complete your coursework).
 
+:::info
+Github Desktop might look a bit different if are cloning the first repository on your computer.
+:::
+
 #### Video
 
 <video width="100%" controls>
