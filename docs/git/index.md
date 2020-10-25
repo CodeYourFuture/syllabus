@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 Most software engineers use a tool called Git to organise their code, and collaborate with other people.
 
-Git can be used for many things, and we will see lots of them throughout the course.
+Git is a version control tool, used to keep the history of changes, and make collaboration easier. We'll see many of its uses throughout the course.
 
 Each week, you're going to use Git to get a copy of your homework exercises, to submit your solutions, and to get feedback on your solutions. Today, you're going to learn how to do these things.
 
@@ -14,6 +14,7 @@ Each week, you're going to use Git to get a copy of your homework exercises, to 
 
 By the end of this class, you should be able to:
 
+* Explain why Git is a useful tool.
 * Get a copy of your homework questions onto your computer.
   * (To _clone_ a repository).
 * Save your answers, and send them to our volunteers.
@@ -34,18 +35,48 @@ By the end of this class, you should be able to:
 
 ## What problem does Git solve?
 
-Git is used to solve many problems, but today we're going to focus on how it:
+Git is a version control tool, used to keep the history of changes, and make collaboration easier. It's used to solve many problems, but today we're going to focus on how it:
 * Helps us to share information.
 * Enables people to make their own changes to that information, and share it back.
-* Allows us to track how information has changed over time.
+* Allows us to make checkpoints so that we can save our work as we go along.
+* Allows us to track how information has changed between each checkpoint, and go back to older versions of our work if we want to see what we tried before, or to undo changes.
+* Enables us to try more things, because if they didn't work out, we can always go back to what we had working before, by going back to a checkpoint.
 
-## How does Git do that?
+### Versioning
+
+As we've said, Git is a version control tool - we use it to track different versions of files.
+
+You've probably in the past saved a document in a file with "draft" in its name, and then another with "version 1" in its name, and eventually one called "final", and then "really final", and then "final after feedback". It can be hard to know what the latest one is, and to track what order the files came in. But we keep these files around, because they were useful, and we may want to check something from them.
+
+Git helps us to avoid this problem. Before we see how Git helps, let's try an exercise:
+
+#### Exercise (5 minutes)
+
+Open these three links - they are different stages of a draft blog post about CodeYourFuture:
+
+TODO: Link to three draft blog posts hosted on github pages: v1, revised, final.
+
+Try to find all of the differences between these three documents. Can you work out which one is the finished one which was meant to go on the website?
+
+You probably found it hard to see all of the differences (some were really small, like adding or removing a comma!), and non-obvious which is the most complete version!
+
+#### Exercise (10 minutes)
+
+Get into groups of three. One of your group should make a shopping list of 5 items, and send the list to the group.
+
+The other two people in the group should each add a few items to the list, and also remove one item, and then send back the whole new list to the person who made the list.
+
+The first person should merge the new lists, so that there is one shopping list. The items people removed should not be in the final list.
+
+## How does Git help?
+
+Let's start by taking the shopping list problem, and applying it to our classes.
 
 Imagine your teacher wanted everyone in the class to answer three questions and to send back the answers. What capabilities would we need in order to be able to do that?
 
 **First**, the teacher needs to be able to write the questions, and **store** them somewhere.
 
-When we're using Git, we write things down in files in a folder (these could be text files, Word documents, images, or really any kind of file). When we save these files, we We say we're _committing_ them, and we call the folder where we're saving them a _repository_ (or _repo_ for short).
+When we're using Git, we write things down in files in a folder (these could be text files, Word documents, images, or really any kind of file). When we save these files, we say we're _committing_ them, and we call the folder where we're saving them a _repository_ (or _repo_ for short).
 
 TODO: Insert graphic of teacher writing and committing.
 
@@ -75,7 +106,7 @@ TODO: Screenshot
 
 5. Click the "Open in Visual Studio Code" button (TODO: Explain to Linux users how to do this, because they probably don't have the button).
 
-6. Visual Studio code should open, and you should see an "Explorer" bar which says `CYF-DEMO-REPO` and under it `README.md`. If you click on where it says `README.md`, it should open the file. Congratulations, you have just cloned your first Git repository!
+6. Visual Studio code should open, and you should see an "Explorer" bar which says `CYF-DEMO-REPO` and under it `file.txt`. If you click on where it says `file.txt`, it should open the file. Congratulations, you have just cloned your first Git repository!
 
 ## What did we just do?
 
@@ -85,19 +116,19 @@ Each of you just cloned a repository which CodeYourFuture created onto your comp
 
 ## Let's do some homework (teacher-led demo)
 
-The file you opened, `README.md`, has a question in it. We're going to answer the question, and submit it as if it was our homework.
+The file you opened, `file.txt`, has a question in it. We're going to answer the question, and submit it as if it was our homework.
 
 We can edit the file in VS Code to answer the question, and save it like normal.
 
-After we've saved the file, if we open up Github Desktop, something interesting has changed. On the left, it now says "1 changed file", and on the right, it shows us what the change was. Things we've removed get a red background, and things we've added get a green background.
+After we've saved the file, if we open up Github Desktop, something interesting has changed. On the left, it now says "1 changed file", and on the right, it shows us what the change was. Things we've removed get a red background, and things we've added get a green background. (If you've changed a line, the old version will appear with a red background, and the new version with a green background).
 
 This is a really useful way for us to check over our homework before submitting it. If we've accidentally deleted things, or changed things we didn't mean to, we can notice now, and un-do them by editing the file again.
 
-When we're happy with our change, we can press the "Commit to main" button. That tells Git "This change is a good change, I want to keep it".
+When we're happy with our change, we can press the "Commit to main" button. That tells Git "This change is an interesting change, I want to keep it". You don't need to wait until you've got your answers perfect before committing, in fact it's better to make lots of commits as you work - we'll come back to this in a bit!
 
 Now, because we committed a change, our copy of the repository is different from CodeYourFuture's copy. Github Desktop now gives us a new button: "Push origin" ("origin" is what Git calls "where I cloned this repository from"). If we press it, it will try to send our change to the CodeYourFuture version.
 
-We didn't have this button before, because we hadn't committed any changes. There's an important distinction here: When we save files in VS Code, we store them in the file on our computer, but Git doesn't automatically commit them. It notices the changes (it showed them to us!), and asks us if we want to commit them. TODO: I'm not in love with any ways of describing "when to commit"...
+We didn't have this button before, because we hadn't committed any changes. There's an important distinction here: When we save files in VS Code, we store them in the file on our computer, but Git doesn't automatically commit them. It notices the changes (it showed them to us!), and asks us if we want to commit them. We'll talk about when you want to commit later on today.
 
 So, we're happy with our homework, we've committed it, let's try pushing it!
 
@@ -105,7 +136,7 @@ So, we're happy with our homework, we've committed it, let's try pushing it!
 
 Github Desktop just gave us a really useful warning, but it uses some words we haven't seen yet!
 
-We just tried to push our changes to CodeYourFuture's copy of this repository. But we're not allowed to do that! Imagine if anyone could just push anything they wanted to our repository! Then someone naughty could delete the homework, or worse.
+We just tried to push our changes to CodeYourFuture's copy of this repository. But we're not allowed to do that! Imagine if anyone could just push anything they wanted to our repository! Someone could accidentally delete all of the questions, or add the answers to all of the questions, or turn the HTML homework into a bunch of questions about vegetables!
 
 To avoid this, we use something called a _fork_ and something called a _pull request_.
 
@@ -146,7 +177,7 @@ Now there's a pull request that volunteers can look at! They can see who made th
 ### Exercise (20 minutes)
 
 Try doing what your teacher just did:
-1. Answer the question in `README.md` in VS Code and save your changes.
+1. Answer the question in `file.txt` in VS Code and save your changes.
 2. Make a commit in your local repository.
 3. Try to push your changes, make a fork, and then actually push your changes.
 4. Make your first pull request!
@@ -177,20 +208,42 @@ One useful features of Git is how it stores your commits. In Github Desktop, if 
 
 If you click on one of the commits, you'll see the changes that happened in it. This can be really useful to understand how the repository evolved to how it looks today. It can also help us to find out when bugs were introduced!
 
-You may notice that your commits all have messages like "Update README.md", whereas the ones before you started editing have different messages.
+### When to commit, push, and make a pull request
+
+You should commit often! Every time you think you've done something you may want to look at again, you should make a commit.
+
+Let's say you've made a website, and it generally looks about right, but you were thinking of adding some colour, or an animation. Before you do that, make a commit, because then if you break some of the CSS by trying to add an animation, you can always undo it.
+
+Or if you want to try out a few different colours, make a commit for each colour, and then you can easily see what colours you tried out, and compare them.
+
+If you don't commit, maybe you'll try the perfect colour, then try a different colour, and forget what the previous colour was! Disaster! But if you commit each thing you try, you can always go back and see what it was!
+
+Similarly, you don't need to have finished everything before you push - in fact, it can be better to push lots! If your computer crashes, or you accidentally delete your files, or you want to work on homework on someone else's computer, you can always get back anything that you've pushed to Github. So commit often, and push often!
+
+You also don't need to have finished all of your homework in order to make a pull request! If you've been struggling with one question, you can make a pull request and ask for help (you can even link to it on Slack!). Or if you've done most of the homework, but are struggling with a few questions, a volunteer can look at what you've done and help you out - but only if they can see your code!
+
+Commit often, push often, and make pull requests early!
+
+You may notice that your commits all have messages like "Update file.txt", whereas the ones before you started editing have different messages.
 
 These messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
 
 ### Exercise (10 minutes)
 
 1. Clone https://github.com/illicitonion/git-log-example TODO: Move this repo into CodeYourFuture. TODO: Give instructions for how to clone a second repo (beacuse the screen is different from your first time).
-2. Have a read of the README.md file. See if you can find a problem in the file.
+2. Have a read of the file.txt file. See if you can find a problem in the file.
 3. Look through the history in Github Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
+### Exercise (5 minutes)
+
+Remember earlier we looked at three blog posts? They're actually in a repository on Github (TODO: Link).
+
+Clone the repository and take a look. Can you find all of the differences between them now? Can you tell which was the finished version?
+
 ## Commit messages
 
-If you looked through the history of the Git repository, you may have been able to see where the problem came in just from the commit message, without having to look at the changes that were actually made. If the commit messages were all just "Update README.md", that would've been much harder!
+If you looked through the history of the Git repository, you may have been able to see where the problem came in just from the commit message, without having to look at the changes that were actually made. If the commit messages were all just "Update file.txt", that would've been much harder!
 
 When we make commits in Git, we try to give clear, helpful messages, describing what changed, and why. (The why is really important! You can always work out _what_ changed by reading the change itself, but it's much harder to work out _why_ if no one wrote it down!)
 
