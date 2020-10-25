@@ -83,6 +83,31 @@ You should now see "No local changes". You can now make more changes to the repo
 
 ## I want to send my code to volunteers (Pushing)
 
+Follow these steps if you have committed some code, and want to send it to the volunteers.
+
+#### Video
+
+<video width="100%" controls>
+  <source src={require('./assets/pushing-video.mp4').default} />
+</video>
+
+#### Screenshots
+
+1. Open Github Desktop and ensure you are in the correct Current Repository
+2. Click the "Push origin" button at the top:
+
+![Push origin](./assets/pushing-1.png)
+
+3. If this is the first time you have pushed this repo, a message pops up asking if you want to _fork_ this repository. Click the Fork this Repository button:
+
+![Fork this repository](./assets/pushing-2.png)
+
+4. A new message then pops up asking how you are planning to use the fork. Click the "To contribute to the parent project" option, then click Continue:
+
+![Contribute to the parent project](./assets/pushing-3.png)
+
+Congrats! You just pushed your code to Github! 🎉
+
 #### TODO
 
 - Decide what to do about the UI being different for the first repo
