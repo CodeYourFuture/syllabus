@@ -128,7 +128,7 @@ Congrats! You just created a Pull Request on Github! 🎉
 
 The volunteers will now be able to review your code and give feedback!
 
-#### TODO
+## TODO
 
 - Decide what to do about the UI being different for the first repo
 - Tips on writing a good commit message?
