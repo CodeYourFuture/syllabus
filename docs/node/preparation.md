@@ -6,7 +6,9 @@ sidebar_label: Preparation
 
 ## 1) Install Postman
 
-Install the software "Postman" for your OS. https://www.getpostman.com/downloads/
+Install the software "Postman" for your OS.
+
+https://www.getpostman.com/downloads/
 
 ### Issues
 

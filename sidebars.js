@@ -183,7 +183,7 @@ module.exports = {
     ],
   },
   Node: {
-    Overview: ["node/index"],
+    Overview: ["node/index", "node/preparation"],
     "Lesson 1": [
       "node/week-1/lesson",
       "node/week-1/homework",
