@@ -6,10 +6,12 @@ sidebar_label: Homework
 
 ## 1) Sign Up (20 minutes)
 
-Heroku and Netlify are hosting sites. Both do different type of hosting:
+Heroku and Netlify are hosting sites.
 
-- Netlify: static sites (front end )
-- Heroku: full deployment (backend /front end)
+Both do different type of hosting:
+
+- Netlify: static sites (front end)
+- Heroku: full deployment (backend & front end)
 
 ### 1.1) Sign up to Heroku
 
