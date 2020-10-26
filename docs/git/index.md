@@ -50,11 +50,14 @@ You've probably in the past saved a document in a file with "draft" in its name,
 
 Git helps us to avoid this problem. Before we see how Git helps, let's try an exercise:
 
-#### Exercise (5 minutes)
+#### Exercise (10 minutes)
 
 Open these three links - they are different stages of a draft blog post about CodeYourFuture:
 
-TODO: Link to three draft blog posts hosted on github pages: v1, revised, final.
+TODO: Move to CYF repo
+* [final](https://illicitonion.github.io/git-draft-blog-post-example/final)
+* [revised](https://illicitonion.github.io/git-draft-blog-post-example/revised)
+* [v1](https://illicitonion.github.io/git-draft-blog-post-example/v1)
 
 Try to find all of the differences between these three documents. Can you work out which one is the finished one which was meant to go on the website?
 
