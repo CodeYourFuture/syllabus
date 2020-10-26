@@ -4,6 +4,8 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
+import Feedback from "@theme/Feedback";
+
 Most software engineers use a tool called Git to organise their code, and collaborate with other people.
 
 Git is a version control tool, used to keep the history of changes, and make collaboration easier. We'll see many of its uses throughout the course.
@@ -228,7 +230,7 @@ These messages can be really useful to understand what a change did without havi
 
 ### Exercise 6 (10 minutes)
 
-1. Clone https://github.com/illicitonion/git-log-example TODO: Move this repo into CodeYourFuture. TODO: Give instructions for how to clone a second repo (beacuse the screen is different from your first time).
+1. Clone https://github.com/illicitonion/git-log-example TODO: Move this repo into CodeYourFuture. TODO: Give instructions for how to clone a second repo (because the screen is different from your first time).
 2. Have a read of the file.txt file. See if you can find a problem in the file.
 3. Look through the history in Github Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
@@ -260,7 +262,7 @@ TODO: Insert image of a good commit message in Github Desktop.
 
 ## Homework going forwards
 
-For the next three modules, most weeks your homework is going to be to clone a repository from Github, write some code, and make a Pull Request with the code.
+For the next four modules, most weeks your homework is going to be to clone a repository from Github, write some code, and make a Pull Request with the code.
 
 ## Glossary
 
@@ -269,3 +271,9 @@ We introduced a few new things in this class, and it can be a bit confusing to k
 - **Git** is a system for storing changes to files in commits, and sharing them between different computers. There are also other systems which do this, but Git is the most popular one.
 - **Github** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but Github is the most popular one.
 - **Github Desktop** is a program made by Github to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
+
+## Homework
+
+You can find this weeks homework [here](./homework)
+
+<Feedback module="Git" week="Week 1" />
