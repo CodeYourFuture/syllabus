@@ -26,12 +26,13 @@ By the end of this class, you should be able to:
 
 ---
 
-## Prerequisites
+## Before you start
 
-1. A Github account. If you don't have one already, go to https://github.com/ and sign up for one.
-2. Installed Github Desktop. If you don't have it yet, go to https://desktop.github.com/ and follow its instructions to install it.
-3. Sign in to Github Desktop with your Github account. Run Github Desktop (TODO: Instructions on how to find it), click "Sign in to GitHub.com", and go through the steps to sign in.
-4. Installed VS Code.
+Before you arrive at class you **must** have completed the following setup work.
+
+[React Preparation](../prep)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
 
 ## What problem does Git solve?
 
