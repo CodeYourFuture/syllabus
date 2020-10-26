@@ -30,7 +30,7 @@ If you get stuck on any of the below or above instructions, please post to #lond
 
 1. Click cmd + spacebar and type "Terminal" to open up the terminal
 2. Install Homebrew, which is a package manager for MacOS. Copy and paste the following command into your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-3. Ensure that you have succesfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "Homebrew <version number>"
+3. Ensure that you have succesfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "`Homebrew <version number>`"
 4. Install NodeJS and npm by typing `brew install node`
 5. Check that you have successfully installed NodeJS by ensuring that the following command returns "v13.8.0": `node -v`
 6. Check that you have successfully installed npm by ensuring that the following command returns "6.13.6": `npm -v`
@@ -88,7 +88,7 @@ Instructions for how to do this can be found here
 
 https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
 
-### 4.2) Autosave
+### 4.2) Enable Autosave
 
 To enable autosave:
 
