@@ -102,7 +102,7 @@ We tend to do the same four or five things in Git over and over again, but it ca
 
 ### Exercise 3 (15 minutes)
 
-Code Your Future has already pushed an example repository, so you're going to try to clone it from GitHub onto your computer.
+Volunteers from Code Your Future have already pushed an example repository, so you're going to try to clone it from GitHub onto your computer.
 
 Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is `https://github.com/CodeYourFuture/cyf-demo-repo`.
 
