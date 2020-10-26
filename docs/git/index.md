@@ -14,15 +14,15 @@ Each week, you're going to use Git to get a copy of your homework exercises, to 
 
 By the end of this class, you should be able to:
 
-* Explain why Git is a useful tool.
-* Get a copy of your homework questions onto your computer.
-  * (To _clone_ a repository).
-* Save your answers, and send them to our volunteers.
-  * (To _commit_ and _push_ changes).
-* See and respond to feedback on your homework.
-  * (To _fork_ a repository, use Github's _pull request_ workflows, and _push_ further changes).
-* Explore how a file has changed over time.
-  * (To use Git's _history log_).
+- Explain why Git is a useful tool.
+- Get a copy of your homework questions onto your computer.
+  - (To _clone_ a repository).
+- Save your answers, and send them to our volunteers.
+  - (To _commit_ and _push_ changes).
+- See and respond to feedback on your homework.
+  - (To _fork_ a repository, use Github's _pull request_ workflows, and _push_ further changes).
+- Explore how a file has changed over time.
+  - (To use Git's _history log_).
 
 ---
 
@@ -37,11 +37,12 @@ _If you are a teacher reading this, please check the [Instructor Notes](./instru
 ## What problem does Git solve?
 
 Git is a version control tool, used to keep the history of changes, and make collaboration easier. It's used to solve many problems, but today we're going to focus on how it:
-* Helps us to share information.
-* Enables people to make their own changes to that information, and share it back.
-* Allows us to make checkpoints so that we can save our work as we go along.
-* Allows us to track how information has changed between each checkpoint, and go back to older versions of our work if we want to see what we tried before, or to undo changes.
-* Enables us to try more things, because if they didn't work out, we can always go back to what we had working before, by going back to a checkpoint.
+
+- Helps us to share information.
+- Enables people to make their own changes to that information, and share it back.
+- Allows us to make checkpoints so that we can save our work as we go along.
+- Allows us to track how information has changed between each checkpoint, and go back to older versions of our work if we want to see what we tried before, or to undo changes.
+- Enables us to try more things, because if they didn't work out, we can always go back to what we had working before, by going back to a checkpoint.
 
 ### Versioning
 
@@ -56,9 +57,10 @@ Git helps us to avoid this problem. Before we see how Git helps, let's try an ex
 Open these three links - they are different stages of a draft blog post about CodeYourFuture:
 
 TODO: Move to CYF repo
-* [final](https://illicitonion.github.io/git-draft-blog-post-example/final)
-* [revised](https://illicitonion.github.io/git-draft-blog-post-example/revised)
-* [v1](https://illicitonion.github.io/git-draft-blog-post-example/v1)
+
+- [final](https://illicitonion.github.io/git-draft-blog-post-example/final)
+- [revised](https://illicitonion.github.io/git-draft-blog-post-example/revised)
+- [v1](https://illicitonion.github.io/git-draft-blog-post-example/v1)
 
 Try to find all of the differences between these three documents. Can you work out which one is the finished one which was meant to go on the website?
 
@@ -169,6 +171,7 @@ Now there's a pull request that volunteers can look at! They can see who made th
 ### Exercise (20 minutes)
 
 Try doing what your teacher just did:
+
 1. Answer the question in `file.txt` in VS Code and save your changes.
 2. Make a commit in your local repository.
 3. Try to push your changes, make a fork, and then actually push your changes.
@@ -189,8 +192,9 @@ This is useful for responding to feedback you get on your homework. There are wa
 ## Getting feedback
 
 When you've made your pull request, our volunteers will be notified. They will look at your changes. When they are done, you will get an email. Here are some of the things they may do:
-* Make comments with suggestions, either about a particular bit of code, or about the whole pull request.
-* Add labels to the pull request (e.g. marking it as complete, or unfinished).
+
+- Make comments with suggestions, either about a particular bit of code, or about the whole pull request.
+- Add labels to the pull request (e.g. marking it as complete, or unfinished).
 
 If they give you suggestions, you should try to implement the suggestions, and push a new commit. If you're confused, struggling, or find them unclear, you can respond to the comment with a comment of your own, or ask on Slack.
 
@@ -262,6 +266,6 @@ For the next three modules, most weeks your homework is going to be to clone a r
 
 We introduced a few new things in this class, and it can be a bit confusing to know which is which:
 
-* **Git** is a system for storing changes to files in commits, and sharing them between different computers. There are also other systems which do this, but Git is the most popular one.
-* **Github** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but Github is the most popular one.
-* **Github Desktop** is a program made by Github to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
+- **Git** is a system for storing changes to files in commits, and sharing them between different computers. There are also other systems which do this, but Git is the most popular one.
+- **Github** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but Github is the most popular one.
+- **Github Desktop** is a program made by Github to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
