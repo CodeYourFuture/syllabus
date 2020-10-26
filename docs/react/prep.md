@@ -6,7 +6,7 @@ sidebar_label: Preparation
 
 Before you start React you must make sure that you have some additional software installed.
 
-## 1) Node & NPM
+## 1) Node & NPM (15 minutes)
 
 You should already have these tools installed.
 
@@ -18,7 +18,7 @@ node -v
 
 Running this command should print out a version number. If this does not work, you should [install Node](https://nodejs.org/en/download/).
 
-## 2) Create React App
+## 2) Create React App (1 hour)
 
 Please follow this setup guide to get a new piece of software installed.
 
@@ -28,7 +28,7 @@ It is **critical** that this is installed correctly before you arrive at class.
 
 If you have problems installing Create React App then you **must** post on your Slack channel to get help.
 
-## 3) What is React?
+## 3) What is React? (30 minutes)
 
 1. Watch [this video](https://www.youtube.com/watch?v=0KlRgFEEz0g)
 
@@ -41,4 +41,4 @@ If you have problems installing Create React App then you **must** post on your 
    - C. What does he say is the benefit of using JSX?
    - D. What makes React fast?
 
-3. Once you have answered the question, submit them on Slack or hand them in online
+3. Once you have answered the question, submit them on Slack or hand them in online.
