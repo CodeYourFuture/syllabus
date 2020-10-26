@@ -1,5 +1,5 @@
 ---
-id: index
+id: cheatsheet
 title: Github Desktop Cheatsheet
 sidebar_label: Github Desktop Cheatsheet
 ---
