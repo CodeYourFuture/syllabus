@@ -12,13 +12,13 @@ Follow these steps if you need to get code from a Github repo onto your computer
 Github Desktop might look a bit different if are cloning the first repository on your computer.
 :::
 
-#### Video
+### Video
 
 <video width="100%" controls>
   <source src={require('./assets/cloning-video.mp4').default} />
 </video>
 
-#### Screenshots
+### Instructions
 
 1. Open the repo on Github in your browser (for the coursework this will likely be https://github.com/CodeYourFuture/COURSEWORK_REPO_NAME):
 2. Click the "Code" button, which opens a menu:
@@ -57,13 +57,13 @@ Visual Studio Code will now open with the code from the repo.
 
 Follow these steps if you have edited some code, and want to update the repo with your changes.
 
-#### Video
+### Video
 
 <video width="100%" controls>
   <source src={require('./assets/committing-video.mp4').default} />
 </video>
 
-#### Screenshots
+### Instructions
 
 1. Open Github Desktop and ensure you are in the correct Current Repository
 2. A _diff_ showing the changes that you made is shown (lines with a green background were added, and lines with a red background were removed):
@@ -85,13 +85,13 @@ You should now see "No local changes". You can now make more changes to the repo
 
 Follow these steps if you have committed some code, and want to send it to the volunteers.
 
-#### Video
+### Video
 
 <video width="100%" controls>
   <source src={require('./assets/pushing-video.mp4').default} />
 </video>
 
-#### Screenshots
+### Instructions
 
 1. Open Github Desktop and ensure you are in the correct Current Repository
 2. Click the "Push origin" button at the top:
