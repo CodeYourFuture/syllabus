@@ -4,8 +4,6 @@ title: Homework
 sidebar_label: Homework
 ---
 
-You can find the homework for this week [here](https://github.com/CodeYourFuture/HTML-CSS-Homework)
-
 ## 1) Complete Flexbox Froggy (3 hours)
 
 Flexbox Froggy is a really fun way of learning how Flexbox works.
