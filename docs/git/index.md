@@ -44,7 +44,7 @@ Git is a version control tool, used to keep the history of changes, and make col
 
 ### Versioning
 
-As we've said, Git is a version control tool - we use it to track different versions of files.
+We use Git to track different versions of files.
 
 You've probably in the past saved a document in a file with "draft" in its name, and then another with "version 1" in its name, and eventually one called "final", and then "really final", and then "final after feedback". It can be hard to know what the latest one is, and to track what order the files came in. But we keep these files around, because they were useful, and we may want to check something from them.
 
@@ -91,25 +91,13 @@ When we're using Git, we call this _cloning_ the teacher's repository (because w
 
 TODO: Insert sequence diagram of teacher committing, pushing, and learners cloning.
 
+## The Git Cheatsheet
+
+We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember. We'll use it in our next exercise:
+
 ### Exercise (10 minutes)
 
-Code Your Future has already pushed an example repository, so you're going to try to clone it from Github onto your computer.
-
-1. Open up Github Desktop, and sign in if you're not already signed in.
-
-TODO: Insert screenshots for each step.
-
-2. You should see a button saying "Clone a Repository from the Internet" - click it. (If you don't see it, look in the menu at the top of the screen, open the "File" menu, and select the "Clone Repository" option).
-
-3. Now we need to tell Github Desktop where we want to repository we want to clone is. Choose the "URL" heading, and paste into the URL box: `https://github.com/illicitonion/cyf-demo-repo` (TODO: Replace with a CYF repo). The second box ("Local Path") is saying where it's going to clone it to on your computer. That's all Github Desktop is doing - copying a repository _from_ Github _to_ your computer. We don't need to change this box, but it can be useful to know where we can find our files later on.
-
-4. Press the Clone button. Github Desktop should soon show you a screen like this:
-
-TODO: Screenshot
-
-5. Click the "Open in Visual Studio Code" button (TODO: Explain to Linux users how to do this, because they probably don't have the button).
-
-6. Visual Studio code should open, and you should see an "Explorer" bar which says `CYF-DEMO-REPO` and under it `file.txt`. If you click on where it says `file.txt`, it should open the file. Congratulations, you have just cloned your first Git repository!
+Code Your Future has already pushed an example repository, so you're going to try to clone it from Github onto your computer. Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is (TODO: move to CYF): `https://github.com/illicitonion/cyf-demo-repo`. When you've finished the exercise, you should have `file.txt` open in VS Code.
 
 ## What did we just do?
 
@@ -210,6 +198,8 @@ If they give you suggestions, you should try to implement the suggestions, and p
 One useful features of Git is how it stores your commits. In Github Desktop, if you open the History tab, you can see a list of each commit that's been made in the repository, with the oldest at the bottom and the newest at the top.
 
 If you click on one of the commits, you'll see the changes that happened in it. This can be really useful to understand how the repository evolved to how it looks today. It can also help us to find out when bugs were introduced!
+
+You can always see an old version of a file by looking in the Git history, and if you want to get it back, you can just copy and paste it from the history view into your text editor.
 
 ### When to commit, push, and make a pull request
 
