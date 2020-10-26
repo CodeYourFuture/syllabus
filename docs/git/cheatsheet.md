@@ -27,20 +27,19 @@ Github Desktop might look a bit different if are cloning the first repository on
 ![Code menu](./assets/cloning-1.png)
 
 3. Copy the URL (Pro Tip: you can click the clipboard icon on the right to copy automatically!)
-4. Open Github Desktop, and click on the Current Repository menu in the top left:
+4. Open Github Desktop, and click on the File menu and then click Clone Repository:
 
-![Current repository menu](./assets/cloning-2.png)
+![File menu](./assets/cloning-2.png)
 
-5. Click the Add button at the top, then the Clone Repository option:
+5. In the Clone Repository modal, **make sure you are on the URL tab**. Then paste the URL that you copied before into the "URL or username/repository" input:
 
 ![Add repo button](./assets/cloning-3.png)
 
-6. In the Clone Repository modal, make sure you are on the URL tab. Then paste the URL that you copied before into the "URL or username/repository" input:
+6. The "Local Path" input controls where the files will end up on your computer. You can probably leave it as the default
 
 ![Clone repository modal](./assets/cloning-4.png)
 
-7. The "Local Path" input controls where the files will end up on your computer. You can probably leave it as the default
-8. Click the Clone button, and wait until it has finished cloning
+7. Click the Clone button, and wait until it has finished cloning
 
 Congrats! You have successfully cloned a repository from Github! 🎉
 
@@ -132,7 +131,6 @@ The volunteers will now be able to review your code and give feedback!
 
 ## TODO
 
-- Decide what to do about the UI being different for the first repository
 - Glossary
 - Tips on writing a good commit message?
 - Tips on understanding a diff?
