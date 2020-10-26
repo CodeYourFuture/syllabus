@@ -133,5 +133,6 @@ The volunteers will now be able to review your code and give feedback!
 ## TODO
 
 - Decide what to do about the UI being different for the first repository
+- Glossary
 - Tips on writing a good commit message?
 - Tips on understanding a diff?
