@@ -39,7 +39,8 @@ Github Desktop might look a bit different if are cloning the first repository on
 
 ![Clone repository modal](./assets/cloning-4.png)
 
-7. Click the Clone button, and wait until it has finished cloning
+7. The "Local Path" input controls where the files will end up on your computer. You can probably leave it as the default
+8. Click the Clone button, and wait until it has finished cloning
 
 Congrats! You have successfully cloned a repository from Github! 🎉
 
