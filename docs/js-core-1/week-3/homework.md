@@ -36,7 +36,7 @@ Here are a set of exercise that will help you to solidify your knowledge of Java
 
 For this step, open the "Exercises" folder and complete all of the challenges.
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
@@ -44,7 +44,7 @@ Before you start, **make sure you fork the repository** to your Github account.
 
 Next, in the same repository complete all of the exercises in the "Mandatory" folder.
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 ## 4) (Optional) CodeWars
 
@@ -54,7 +54,7 @@ Today, you'll be using a platform called [CodeWars](https://codewars.com) to hel
 
 2. Signup to [CodeWars](https://codewars.com) and work on these challenges:
 
-### Functions, types, conditionals etc...
+### Functions, Types, & Conditionals
 
 - [even or odd](https://www.codewars.com/kata/even-or-odd/train/javascript)
 - [code under pressure](https://www.codewars.com/kata/you-cant-code-under-pressure-number-1/train/javascript)
@@ -79,3 +79,11 @@ Today, you'll be using a platform called [CodeWars](https://codewars.com) to hel
 - [sum without highest and lowest](https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript)
 - [reveersed array of digits](https://www.codewars.com/kata/convert-number-to-reversed-array-of-digits/train/javascript)
 - [slash sum of negatives](https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/javascript)
+
+## 5) (Optional) Extra JavaScript Challenges
+
+Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
+
+**Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week4
