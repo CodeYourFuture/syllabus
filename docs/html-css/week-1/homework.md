@@ -6,13 +6,13 @@ sidebar_label: Homework
 
 ## 1) Advanced CSS Selectors
 
-## 1.1) Read about CSS Selectors (1 Hour)
+### 1.1) Read about CSS Selectors (1 Hour)
 
 Read this article about CSS Selectors
 
 http://learn.shayhowe.com/advanced-html-css/complex-selectors/
 
-## 1.2) CSS Diner (3 hours)
+### 1.2) CSS Diner (3 hours)
 
 Play this game and complete it
 
