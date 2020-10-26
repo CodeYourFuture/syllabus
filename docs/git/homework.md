@@ -61,3 +61,5 @@ When you've complete this correctly your repository should look something like t
 https://github.com/CodeYourFuture/My-CodePen-Website-Example-Solution
 
 Get Stuck? Any Questions? Ask on Slack.
+
+## 3) Help me with my kid's homework!

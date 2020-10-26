@@ -52,7 +52,7 @@ You've probably in the past saved a document in a file with "draft" in its name,
 
 Git helps us to avoid this problem. Before we see how Git helps, let's try an exercise:
 
-#### Exercise (10 minutes)
+#### Exercise 1 (10 minutes)
 
 Open these three links - they are different stages of a draft blog post about CodeYourFuture:
 
@@ -66,7 +66,7 @@ Try to find all of the differences between these three documents. Can you work o
 
 You probably found it hard to see all of the differences (some were really small, like adding or removing a comma!), and non-obvious which is the most complete version!
 
-#### Exercise (10 minutes)
+#### Exercise 2 (10 minutes)
 
 Get into groups of three. One of your group should make a shopping list of 5 items, and send the list to the group.
 
@@ -98,7 +98,7 @@ TODO: Insert sequence diagram of teacher committing, pushing, and learners cloni
 
 We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember. We'll use it in our next exercise:
 
-### Exercise (10 minutes)
+### Exercise 3 (10 minutes)
 
 Code Your Future has already pushed an example repository, so you're going to try to clone it from Github onto your computer. Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is (TODO: move to CYF): `https://github.com/illicitonion/cyf-demo-repo`. When you've finished the exercise, you should have `file.txt` open in VS Code.
 
@@ -168,7 +168,7 @@ If you're happy, press the "Create pull request" button. Fill in the details in 
 
 Now there's a pull request that volunteers can look at! They can see who made the pull request, and see all the changes you've made.
 
-### Exercise (20 minutes)
+### Exercise 4 (20 minutes)
 
 Try doing what your teacher just did:
 
@@ -177,7 +177,7 @@ Try doing what your teacher just did:
 3. Try to push your changes, make a fork, and then actually push your changes.
 4. Make your first pull request!
 
-### Exercise (5 minutes)
+### Exercise 5 (5 minutes)
 
 There's another file in the repository you've cloned, SECOND_QUESTION.md. Open it, answer the question in the file, commit, and push.
 
@@ -226,14 +226,14 @@ You may notice that your commits all have messages like "Update file.txt", where
 
 These messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
 
-### Exercise (10 minutes)
+### Exercise 6 (10 minutes)
 
 1. Clone https://github.com/illicitonion/git-log-example TODO: Move this repo into CodeYourFuture. TODO: Give instructions for how to clone a second repo (beacuse the screen is different from your first time).
 2. Have a read of the file.txt file. See if you can find a problem in the file.
 3. Look through the history in Github Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
-### Exercise (5 minutes)
+### Exercise 7 (5 minutes)
 
 Remember earlier we looked at three blog posts? They're actually in a repository on Github (TODO: Link).
 
