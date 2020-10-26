@@ -124,6 +124,8 @@ After we've saved the file, if we open up GitHub Desktop, something interesting 
 
 (If you've changed a line, the old version will appear with a red background, and the new version with a green background).
 
+![Diff view showing added, removed, and modified lines](assets/diff.png)
+
 This is a really useful way for us to check over our homework before submitting it. If we've accidentally deleted things, or changed things we didn't mean to, we can notice now, and un-do them by editing the file again.
 
 When we're happy with our change, we can press the "Commit to main" button. That tells Git "This change is an interesting change, I want to keep it". You don't need to wait until you've got your answers perfect before committing, in fact it's better to make lots of commits as you work - we'll come back to this in a bit!
