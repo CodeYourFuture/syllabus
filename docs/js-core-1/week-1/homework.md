@@ -67,3 +67,21 @@ Next, in the same repository complete all of the exercises in the "Mandatory" fo
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
 If you finish all of those, spend some time
+
+## 4) Prepare for next week
+
+To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
+
+- [ ] Loops in JS: https://javascript.info/while-for
+- [ ] Switch statements: https://javascript.info/switch
+- [ ] Comparisons in JS: https://javascript.info/comparison
+- [ ] Logical operators in JS: https://javascript.info/logical-operators
+- [ ] More on operators: https://javascript.info/operators
+
+## 5) (Optional) Extra JavaScript Challenges
+
+Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
+
+**Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
