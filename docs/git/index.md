@@ -20,9 +20,9 @@ By the end of this class, you should be able to:
 - Get a copy of your homework questions onto your computer.
   - (To _clone_ a repository).
 - Save your answers, and send them to our volunteers.
-  - (To _commit_ and _push_ changes).
+  - (To _commit_, _fork_ a repository, and _push_ changes).
 - See and respond to feedback on your homework.
-  - (To _fork_ a repository, use Github's _pull request_ workflows, and _push_ further changes).
+  - (To use GitHub's _pull request_ workflows, and _push_ further changes).
 - Explore how a file has changed over time.
   - (To use Git's _history log_).
 
@@ -32,7 +32,7 @@ By the end of this class, you should be able to:
 
 Before you arrive at class you **must** have completed the following setup work.
 
-[Git Preparation](../preparation)
+[Git Preparation](preparation)
 
 _If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
 
@@ -54,21 +54,19 @@ You've probably in the past saved a document in a file with "draft" in its name,
 
 Git helps us to avoid this problem. Before we see how Git helps, let's try an exercise:
 
-#### Exercise 1 (10 minutes)
+### Exercise 1 (10 minutes)
 
 Open these three links - they are different stages of a draft blog post about CodeYourFuture:
 
-TODO: Move to CYF repo
-
-- [final](https://illicitonion.github.io/git-draft-blog-post-example/final)
-- [revised](https://illicitonion.github.io/git-draft-blog-post-example/revised)
-- [v1](https://illicitonion.github.io/git-draft-blog-post-example/v1)
+- [final](https://CodeYourFuture.github.io/git-draft-blog-post-example/final)
+- [revised](https://CodeYourFuture.github.io/git-draft-blog-post-example/revised)
+- [v1](https://CodeYourFuture.github.io/git-draft-blog-post-example/v1)
 
 Try to find all of the differences between these three documents. Can you work out which one is the finished one which was meant to go on the website?
 
 You probably found it hard to see all of the differences (some were really small, like adding or removing a comma!), and non-obvious which is the most complete version!
 
-#### Exercise 2 (10 minutes)
+### Exercise 2 (10 minutes)
 
 Get into groups of three. One of your group should make a shopping list of 5 items, and send the list to the group.
 
@@ -88,7 +86,7 @@ When we're using Git, we write things down in files in a folder (these could be 
 
 TODO: Insert graphic of teacher writing and committing.
 
-**Next**, the teacher needs to put the repository somewhere where the learners can get it. We call this _pushing_ the repository. The teacher won't send a copy to each learner, but will put one copy somewhere on the Internet, and tell the learners where it is. The place the teachers on this course will be pushing to is a website called [Github](https://github.com), but there are other websites they could push to if they wanted to. This is the difference between Git and Github - Git is a way of storing and sharing files, and Github is one website where you can use Git.
+**Next**, the teacher needs to put the repository somewhere where the learners can get it. We call this _pushing_ the repository. The teacher won't send a copy to each learner, but will put one copy somewhere on the Internet, and tell the learners where it is. The place the teachers on this course will be pushing to is a website called [GitHub](https://github.com), but there are other websites they could push to if they wanted to. This is the difference between Git and GitHub - Git is a way of storing and sharing files, and GitHub is one website where you can use Git.
 
 **Then**, now that the teacher has pushed the questions, each learner needs to be able to **get the questions onto their computer**.
 
@@ -100,13 +98,17 @@ TODO: Insert sequence diagram of teacher committing, pushing, and learners cloni
 
 We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember. We'll use it in our next exercise:
 
-### Exercise 3 (10 minutes)
+### Exercise 3 (15 minutes)
 
-Code Your Future has already pushed an example repository, so you're going to try to clone it from Github onto your computer. Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is (TODO: move to CYF): `https://github.com/illicitonion/cyf-demo-repo`. When you've finished the exercise, you should have `file.txt` open in VS Code.
+Code Your Future has already pushed an example repository, so you're going to try to clone it from GitHub onto your computer.
+
+Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is `https://github.com/CodeYourFuture/cyf-demo-repo`.
+
+When you've finished the exercise, you should have `file.txt` open in VS Code.
 
 ## What did we just do?
 
-TODO: Diagram showing a teacher's copy, a copy on Github, and a copy on each of three students' laptops.
+TODO: Diagram showing a teacher's copy, a copy on GitHub, and a copy on each of three students' laptops.
 
 Each of you just cloned a repository which CodeYourFuture created onto your computer, and opened up your copy of one of the files. This is the process you're going to follow to get your homework every week.
 
@@ -116,55 +118,63 @@ The file you opened, `file.txt`, has a question in it. We're going to answer the
 
 We can edit the file in VS Code to answer the question, and save it like normal.
 
-After we've saved the file, if we open up Github Desktop, something interesting has changed. On the left, it now says "1 changed file", and on the right, it shows us what the change was. Things we've removed get a red background, and things we've added get a green background. (If you've changed a line, the old version will appear with a red background, and the new version with a green background).
+After we've saved the file, if we open up GitHub Desktop, something interesting has changed. On the left, it now says "1 changed file", and on the right, it shows us what the change was. Things we've removed get a red background, and things we've added get a green background.
+
+(If you've changed a line, the old version will appear with a red background, and the new version with a green background).
 
 This is a really useful way for us to check over our homework before submitting it. If we've accidentally deleted things, or changed things we didn't mean to, we can notice now, and un-do them by editing the file again.
 
 When we're happy with our change, we can press the "Commit to main" button. That tells Git "This change is an interesting change, I want to keep it". You don't need to wait until you've got your answers perfect before committing, in fact it's better to make lots of commits as you work - we'll come back to this in a bit!
 
-Now, because we committed a change, our copy of the repository is different from CodeYourFuture's copy. Github Desktop now gives us a new button: "Push origin" ("origin" is what Git calls "where I cloned this repository from"). If we press it, it will try to send our change to the CodeYourFuture version.
+Now, because we committed a change, our copy of the repository is different from CodeYourFuture's copy. GitHub Desktop now gives us a new button: "Push origin" ("origin" is what Git calls "where I cloned this repository from"). If we press it, it will try to send our change to the CodeYourFuture version.
 
-We didn't have this button before, because we hadn't committed any changes. There's an important distinction here: When we save files in VS Code, we store them in the file on our computer, but Git doesn't automatically commit them. It notices the changes (it showed them to us!), and asks us if we want to commit them. We'll talk about when you want to commit later on today.
+We didn't have this button before, because even though we had changed the files, we hadn't committed any changes. There's an important distinction here: When we save files in VS Code, we store them in the file on our computer, but Git doesn't automatically commit them. It notices the changes (it showed them to us!), and asks us if we want to commit them. Only after we've committed them does it let us push them. We'll talk about when you want to commit later on today.
 
 So, we're happy with our homework, we've committed it, let's try pushing it!
 
 ## Forking
 
-Github Desktop just gave us a really useful warning, but it uses some words we haven't seen yet!
+GitHub Desktop just gave us a really useful warning, but it uses some words we haven't seen yet!
 
 We just tried to push our changes to CodeYourFuture's copy of this repository. But we're not allowed to do that! Imagine if anyone could just push anything they wanted to our repository! Someone could accidentally delete all of the questions, or add the answers to all of the questions, or turn the HTML homework into a bunch of questions about vegetables!
 
 To avoid this, we use something called a _fork_ and something called a _pull request_.
 
-Remember when we cloned the repo, we pasted (TODO: URL) in as the place to clone from? Let's look at that:
+Remember when we cloned the repo, we pasted `https://github.com/CodeYourFuture/cyf-demo-repo` in as the place to clone from? Let's look at that:
 
 TODO: Insert image annotating bits of the URL
 
-This is saying "On Github, the user CodeYourFuture has a repository called TODO, I want that".
+This is saying "On GitHub, the user `CodeYourFuture` has a repository called `cyf-demo-repo`, I want that".
 
-Github lets you host your own copy of the repository on Github too! If your username is EagerLearner, can you guess what URL your repository would be at?
+GitHub lets you host your own copy of the repository on GitHub too! If your username is `EagerLearner`, can you guess what URL your repository would be at?
 
-That's right, https://github.com/EagerLearner/TODO!
+That's right, https://github.com/EagerLearner/cyf-demo-repo!
 
-This is called a _fork_. It's a copy of the repository, where you're allowed to make changes. So when Github Desktop just asked us "Do you want to fork this repository?", what it's really saying is "You're not allowed to make changes to CodeYourFuture's repository, would you like to make your own copy on Github where you _are_ allowed to make changes, and put your changes there?"
+This is called a _fork_. It's a copy of the repository, where you're allowed to make changes. So when GitHub Desktop just asked us "Do you want to fork this repository?", what it's really saying is "You're not allowed to make changes to CodeYourFuture's repository, would you like to make your own copy on GitHub where you _are_ allowed to make changes, and put your changes there?"
 
 That sounds like exactly what we want to do, so we'll click the "Fork This Repository" button.
 
-Then Github asks us whether we want to fork "To contribute to the parent project" (i.e. because we want to work with CodeYourFuture) or "For my own purposes" (i.e. because we want to do our own thing apart from CodeYourFuture). We want to work with CodeYourFuture, so we'll select "To contribute to the parent project" and press Continue.
+Then GitHub asks us whether we want to fork "To contribute to the parent project" (i.e. because we want to work with CodeYourFuture) or "For my own purposes" (i.e. because we want to do our own thing apart from CodeYourFuture). We want to work with CodeYourFuture, so we'll select "To contribute to the parent project" and press Continue.
 
-Now if we press "Push origin", it will copy our changes to our fork on Github.
+Now if we press "Push origin", it will copy our changes to our fork on GitHub.
 
 TODO: Insert graphic showing four repositories: Teacher's computer, CodeYourFuture, EagerLearner Fork, EagerLearner's computer.
+
+If you forget this, it's in the cheatsheet (TODO: Link to cheatsheet)! Check out the "I want to send my code to volunteers (Pushing)" section.
 
 ## Making a Pull Request
 
 Now that we've pushed our homework to our fork, we need to tell CodeYourFuture about it, so that the volunteers know to look at it!
 
-We do this with something called a _pull request_. This is a slightly weird name, in the context of homework. Normally, when people push changes to a fork on Github, they're doing so because they want the person who owns the repository to look at the changes, and pull the changes into their repository. For example, this webpage we're reading the syllabus on right now is hosted on Github, and if someone spots a typo, they can fix it, push it to their fork, and request for CodeYourFuture to pull their change into CodeYourFuture's version (hence the name a pull request - "requesting to pull in changes"). We call pulling someone's change into a repository "merging" the change (some people use the phrase "merge request" instead of "pull request").
+We do this with something called a _pull request_. This is a slightly weird name, in the context of homework.
 
-For submitting homework, you're going to create a pull request, and a volunteer will look at it and give you feedback, but we won't be pulling your homework into CodeYourFuture's copy (then the next student would have the answers when they tried to read the questions!). You'll be creating pull requests, but we won't actually merge your changes into the repository.
+Normally, when people push changes to a fork on GitHub, they're doing so because they want the person who owns the repository to look at the changes, and pull the changes into their repository. For example, this webpage we're reading the syllabus on right now is hosted on GitHub, and if someone spots a typo, they can fix it, push it to their fork, and request for CodeYourFuture to pull their change into CodeYourFuture's version (hence the name a pull request - "requesting to pull in changes").
 
-In Github Desktop, if you open the Branch menu, and click "Create Pull Request", it will open your web browser at Github, and how you the changes you're about to make a pull request for. This is another great time to check that you're happy with your homework (if you're not, go back to VS Code, make your changes, commit them, push them to origin again, and refresh this page).
+We call pulling someone's change into a repository "merging" the change (some people use the phrase "merge request" instead of "pull request").
+
+For submitting homework, every week you're going to create a pull request, and a volunteer will look at it and give you feedback, but we won't be pulling your homework into CodeYourFuture's copy (then the next student would have the answers when they tried to read the questions!). You'll be creating pull requests, but we won't actually merge your changes into the repository.
+
+In GitHub Desktop, if you open the Branch menu, and click "Create Pull Request", it will open your web browser at GitHub, and how you the changes you're about to make a pull request for. This is another great time to check that you're happy with your homework (if you're not, go back to VS Code, make your changes, commit them, push them to origin again, and refresh this page).
 
 If you're happy, press the "Create pull request" button. Fill in the details in the form, so that the volunteers know what they're meant to be reviewing, and press "Create pull request".
 
@@ -179,9 +189,11 @@ Try doing what your teacher just did:
 3. Try to push your changes, make a fork, and then actually push your changes.
 4. Make your first pull request!
 
+If you get stuck, check out the cheatsheet (TODO: Link) :)
+
 ### Exercise 5 (5 minutes)
 
-There's another file in the repository you've cloned, SECOND_QUESTION.md. Open it, answer the question in the file, commit, and push.
+There's another file in the repository you've cloned, `other-file.txt`. Open it, answer the question in the file, commit, and push.
 
 Notice a couple of things are different this time!
 
@@ -202,7 +214,7 @@ If they give you suggestions, you should try to implement the suggestions, and p
 
 ## History
 
-One useful features of Git is how it stores your commits. In Github Desktop, if you open the History tab, you can see a list of each commit that's been made in the repository, with the oldest at the bottom and the newest at the top.
+One useful features of Git is how it stores your commits. In GitHub Desktop, if you open the History tab, you can see a list of each commit that's been made in the repository, with the oldest at the bottom and the newest at the top.
 
 If you click on one of the commits, you'll see the changes that happened in it. This can be really useful to understand how the repository evolved to how it looks today. It can also help us to find out when bugs were introduced!
 
@@ -218,28 +230,28 @@ Or if you want to try out a few different colours, make a commit for each colour
 
 If you don't commit, maybe you'll try the perfect colour, then try a different colour, and forget what the previous colour was! Disaster! But if you commit each thing you try, you can always go back and see what it was!
 
-Similarly, you don't need to have finished everything before you push - in fact, it can be better to push lots! If your computer crashes, or you accidentally delete your files, or you want to work on homework on someone else's computer, you can always get back anything that you've pushed to Github. So commit often, and push often!
+Similarly, you don't need to have finished everything before you push - in fact, it can be better to push lots! If your computer crashes, or you accidentally delete your files, or you want to work on homework on someone else's computer, you can always get back anything that you've pushed to GitHub. So commit often, and push often!
 
-You also don't need to have finished all of your homework in order to make a pull request! If you've been struggling with one question, you can make a pull request and ask for help (you can even link to it on Slack!). Or if you've done most of the homework, but are struggling with a few questions, a volunteer can look at what you've done and help you out - but only if they can see your code!
+You also don't need to have finished all of your homework in order to make a pull request! If you've been struggling with one question, you can make a pull request and ask for help (you can even link to it on Slack! It will help the volunteers to help you, because they will be able to see exactly the code you're strugglign with). Or if you've done most of the homework, but are struggling with a few questions, a volunteer can look at what you've done and help you out - but only if they can see your code!
 
 Commit often, push often, and make pull requests early!
 
 You may notice that your commits all have messages like "Update file.txt", whereas the ones before you started editing have different messages.
 
-These messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
+Commit messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
 
 ### Exercise 6 (10 minutes)
 
-1. Clone https://github.com/illicitonion/git-log-example TODO: Move this repo into CodeYourFuture. TODO: Give instructions for how to clone a second repo (because the screen is different from your first time).
-2. Have a read of the file.txt file. See if you can find a problem in the file.
-3. Look through the history in Github Desktop. See if you can work out when and why the problem was introduced.
+1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the cheatsheet TODO: Link)
+2. Have a read of the file called `README.md`. See if you can find a problem in the file.
+3. Look through the history in GitHub Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
 ### Exercise 7 (5 minutes)
 
-Remember earlier we looked at three blog posts? They're actually in a repository on Github (TODO: Link).
+Remember earlier we looked at three blog posts? They're actually in a repository on GitHub! https://github.com/CodeYourFuture/git-draft-blog-post-example
 
-Clone the repository and take a look. Can you find all of the differences between them now? Can you tell which was the finished version?
+Clone the repository and take a look. Can you find all of the differences between them now? Can you tell which was the finished version? How much easier/harder is this than it was without Git?
 
 ## Commit messages
 
@@ -256,21 +268,23 @@ Longer explanation of how, the reasons, exceptions, or anything that may be surp
 This may be many sentences, and keep going for a long time.
 ```
 
-Try to use this format when making your own commits. Github Desktop tries to encourage this by having two boxes above the "Commit to main" button - one which is just one line, and one where you can put lots of lines.
+Try to use this format when making your own commits. GitHub Desktop tries to encourage this by having two boxes above the "Commit to main" button - one which is just one line, and one where you can put lots of lines.
 
-TODO: Insert image of a good commit message in Github Desktop.
+![Example of a commit message](./assets/commit-message.png)
+
+Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
 ## Homework going forwards
 
-For the next four modules, most weeks your homework is going to be to clone a repository from Github, write some code, and make a Pull Request with the code.
+For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
 
 ## Glossary
 
 We introduced a few new things in this class, and it can be a bit confusing to know which is which:
 
 - **Git** is a system for storing changes to files in commits, and sharing them between different computers. There are also other systems which do this, but Git is the most popular one.
-- **Github** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but Github is the most popular one.
-- **Github Desktop** is a program made by Github to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
+- **GitHub** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but GitHub is the most popular one.
+- **GitHub Desktop** is a program made by GitHub to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
 
 ## Homework
 
