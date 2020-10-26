@@ -77,3 +77,20 @@ You'll see there's a fish and a bubble.
 - BONUS: Make the fish turn back after hitting the edge of the tank.
 
 Try to use in your solution the constructions you just reviewed: variables, functions, if statements, loops or arrays. You can adapt and reuse any code from your previous projects.
+
+## 4) Visual Code
+
+To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
+
+### 4.1) Install VSCode and Extensions
+
+Instructions for how to do this can be found here
+
+https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
+
+### 4.2) Autosave
+
+To enable autosave:
+
+1. Open VS Code
+2. Go to File and click Auto Save
