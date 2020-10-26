@@ -74,6 +74,8 @@ The other two people in the group should each add a few items to the list, and a
 
 The first person should merge the new lists, so that there is one shopping list. The items people removed should not be in the final list.
 
+Report back to the class what your experience was like. What was easy? What was frustrating?
+
 ## How does Git help?
 
 Let's start by taking the shopping list problem, and applying it to our classes.
