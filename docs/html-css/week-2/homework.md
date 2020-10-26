@@ -24,4 +24,4 @@ Before you start, **make sure you fork the repository** to your Github account.
 
 ## 3) Prepare for the next class (1 Hour)
 
-You may remember Bootstrap from your application process. Look at the [documentation for Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) and look at their examples to see how they are building components.
+Look at the [documentation for Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) and look at their examples to see how they are building components.
