@@ -62,4 +62,10 @@ https://github.com/CodeYourFuture/My-CodePen-Website-Example-Solution
 
 Get Stuck? Any Questions? Ask on Slack.
 
-## 3) Help me with my kid's homework!
+## 3) Help me with my kid's homework! (1 hour)
+
+In this repository you will find instructions of how to help my child with his homework
+
+https://github.com/CodeYourFuture/GitHomeworkFixErrors
+
+Follow the instructions to complete this homework!
