@@ -227,7 +227,7 @@ module.exports = {
     ],
   },
   MongoDB: {
-    Overview: ["mongodb/index"],
+    Overview: ["mongodb/index", "mongodb/preparation"],
     "Lesson 1": [
       "mongodb/week-1/lesson",
       "mongodb/week-1/homework",
