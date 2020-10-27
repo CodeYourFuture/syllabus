@@ -98,7 +98,7 @@ TODO: Insert sequence diagram of teacher committing, pushing, and learners cloni
 
 ## The Git Cheatsheet
 
-We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember.
+We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at [Git Cheatsheet](./cheatsheet) to help you remember.
 
 Let's walk through one of the sections together: "I want to get code from a repo onto my computer (Cloning)". It has a video, to show us what we should be doing, and explains each step in the text.
 
@@ -108,7 +108,7 @@ We'll use it in our next exercise:
 
 Volunteers from Code Your Future have already pushed an example repository, so you're going to try to clone it from GitHub onto your computer.
 
-Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the Git cheatsheet. The repository we want to clone is `https://github.com/CodeYourFuture/cyf-demo-repo`.
+Try following the instructions labelled "I want to get code from a repo onto my computer (Cloning)" from the [Git Cheatsheet](./cheatsheet). The repository we want to clone is `https://github.com/CodeYourFuture/cyf-demo-repo`.
 
 When you've finished the exercise, you should have `file.txt` open in VS Code.
 
@@ -168,7 +168,7 @@ Now if we press "Push origin", it will copy our changes to our fork on GitHub.
 
 TODO: Insert graphic showing four repositories: Teacher's computer, CodeYourFuture, EagerLearner Fork, EagerLearner's computer.
 
-If you forget this, it's in the cheatsheet (TODO: Link to cheatsheet)! Check out the "I want to send my code to volunteers (Pushing)" section.
+If you forget this, it's in the [cheatsheet](./cheatsheet)! Check out the "I want to send my code to volunteers (Pushing)" section.
 
 ## Making a Pull Request
 
@@ -197,7 +197,7 @@ Try doing what your teacher just did:
 3. Try to push your changes, make a fork, and then actually push your changes.
 4. Make your first pull request!
 
-If you get stuck, check out the cheatsheet (TODO: Link) :)
+If you get stuck, check out the [cheatsheet](./cheatsheet) :)
 
 ### Exercise 5 (5 minutes)
 
@@ -261,7 +261,7 @@ Commit messages can be really useful to understand what a change did without hav
 
 ### Exercise 6 (10 minutes)
 
-1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the cheatsheet TODO: Link)
+1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the [cheatsheet](./cheatsheet)
 2. Have a read of the file called `README.md`. See if you can find a problem in the file.
 3. Look through the history in GitHub Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
