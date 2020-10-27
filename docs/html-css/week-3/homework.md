@@ -4,8 +4,30 @@ title: Homework
 sidebar_label: Homework
 ---
 
-You can find the homework for this week [here](https://github.com/CodeYourFuture/HTML-CSS-Homework)
+## 1) Why Responsive? (5 hours)
 
-## Prepare for the next class
+You should complete the whole course.
 
-Next lesson, we will begin learning and programming JavaScript. To prepare for it, what a two minute video, ['What is JavaScript?'](https://www.youtube.com/watch?v=nItSSTwBvSU).
+Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead.
+
+https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
+
+## 2) Responsive Cake Website Project (4 hours)
+
+In this repository you will find a project for you to complete
+
+https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week3
+
+Before you start, **make sure you fork the repository** to your Github account.
+
+## 3) Prepare for the next class (2 hours)
+
+Next lesson, we will be going back to learning about JavaScript.
+
+Review what you've learnt so far to prepare yourself for the next lesson.
+
+We recommend that you
+
+- Complete some online courses to see what gaps you have in your knowledge you have
+- Prepare any questions you have about basic JavaScript
+- Have a call with other students to discuss anything you don't understand.

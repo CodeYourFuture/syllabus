@@ -24,8 +24,17 @@ You can find a template for organising the teams [here](https://docs.google.com/
 
 All students should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](./roles)
 
+## Starter Projects
+
+Here are a couple of starter projects that students can fork to get started:
+
+This one uses [React/Node/SQL](https://github.com/csfilipinyi/cyf-final-project-pgsql-starter-kit)
+
+This one uses [React/Node/MongoDB](https://github.com/CodeYourFuture/cyf-final-project-starter-kit)
+
 ## Briefing Presentation
 
 This presentations gives an overview of the day to day running, the roles and the aims of the Final Project
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQivu0h8g6tkJtnOkNCXkmR8sZbh9vNJ6SztqL8OpJV3xoX7_xnCL3rucfyRsY2QfAQd8IhrUQkt5lr/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+

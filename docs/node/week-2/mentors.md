@@ -12,5 +12,7 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 - [Week 1 - Node [Self-Hosted Slides] - 21/06/2020](https://node-week-2.jji.immo/)
   - Created by London and Jim
+- [Client Server Communication - 25/10/2020](https://drive.google.com/file/d/1SwX9ltdIUbZfqcTQ-vjXRkGHHpWpJTaW/view?usp=sharing)
+  - Created by Birmingham & Mark Farmiloe
 
 ## Notes

@@ -20,7 +20,7 @@ By the end of this lesson students should be able to:
 
 ---
 
-## API Refresh (20 Minutes)
+## 1) API Refresh
 
 ```
 Group exercise (5 minutes)
@@ -66,9 +66,9 @@ So what's the big deal? I can see this information on web sites already!
 
 What's an API and how is it different from a web site?
 
-## Intro to Node on Glitch
+## 2) Intro to Node on Glitch
 
-### Running a very simple web-server
+### 2.1) Running a Simple Server
 
 Run the simplest web server code.
 
@@ -111,13 +111,13 @@ Have them it read and modify it to do something different.
 5. Advanced: make it return whatever you want! 3 minutes.
 ```
 
-## Make a Node API
+## 3) Make a Node API
 
 The rest of today's lesson is a workshop.
 
 In small groups complete each of the steps below. At different points, the teacher will introduce new concepts.
 
-### Get Started
+### 3.1) Get Started
 
 Fork and clone the repo [https://github.com/CodeYourFuture/Node-Starter-Kit](https://github.com/CodeYourFuture/Node-Starter-Kit).
 
@@ -129,7 +129,7 @@ Postman is a tool that helps us test and develop APIs.
 
 > Download and install [Postman](https://www.getpostman.com/).
 
-## Step 1 - Installing The Project
+### 3.2) Installing The Project
 
 We're going to use the **[Node Package Manager (npm)](https://www.npmjs.com/)** to
 setup the project using the **`npm install`** command.
@@ -144,18 +144,18 @@ Run the following command in your terminal:
 npm install
 ```
 
-## Step 2 - Building the server
+### 3.3) Building the server
 
 The first thing we need to do is build our server. You will always need to build
 a server when writing back-end code. A server can be built in pure Node.js, but
 Express is simpler to work with.
 
-### 1. Create a `server.js` file
+#### 1. Create a `server.js` file
 
 Let's build our server! Before we do anything, let's create a new file called
 `server.js`. This is where all our server code is going to live.
 
-### 2. `require` the `express` library
+#### 2. `require` the `express` library
 
 We already installed Express in Step 2, but we need to make sure it is included
 in this file specifically so we can use its methods. In Node.js, when
@@ -170,7 +170,7 @@ const express = require("express");
 > Let us get used to ES6 syntax - so use `const` and `let` instead of
 > `var`, arrow methods instead of functions, etc...
 
-### 3. Initialise the server
+#### 3. Initialise the server
 
 To initialise our server, we need to call the `express()` function. This
 will create an Express application for us to work with.
@@ -182,7 +182,7 @@ const express = require("express");
 const app = express();
 ```
 
-### 4. Start 'listening' for potential requests
+#### 4. Start 'listening' for potential requests
 
 One more step left, we need to set a **port** for our server to listen to. Think
 of a port as a door number; any requests that come to the server will come via
@@ -207,7 +207,7 @@ app.listen(3000, function () {
 
 > Try to use ES6 arrow functions instead of `function`.
 
-### 5. Switch the server on!
+#### 5. Switch the server on!
 
 You've built your server, but it isn't running yet. We need to run a command in
 the terminal to do this. We are going to use the `node` keyword to run the
@@ -223,7 +223,7 @@ If you see this, congratulations! You have built yourself a server!
 
 ![success](https://raw.githubusercontent.com/node-girls/workshop-cms/master/readme-images/step2-server02.png)
 
-### 6. npm script
+#### 6. npm script
 
 To exit the running the server, type `crtl + c`. Instead of running the server with `node server.js` everytime, we can create an alias for it in `package.json`.
 
@@ -231,12 +231,12 @@ Under the `scripts` property, add `start: node server.js`. We can now run our se
 
 Go to the terminal and type `npm start` and make sure that the server still runs.
 
-## Step 3 - Communicating with the server
+### 3.4) Communicating with the server
 
 Now that we've built the server, we need to communicate with it. We are going to
 control the server with **handler functions**.
 
-### What is a handler function?
+#### What is a handler function?
 
 When a request reaches the server, we need a way of responding to it. In comes
 the handler function. The handler function is just a function which receives
@@ -263,7 +263,7 @@ app.get("/", function (req, res) {
 Here, we are telling our server to respond with "Hello World!" when someone
 tries to access the webpage.
 
-### 1. Create your own handler function
+#### 1. Create your own handler function
 
 Let us add a handler handler function to send back a message to the client. To do that,
 we're going to use the Express `send()`
@@ -289,7 +289,7 @@ app.listen(3000, function () {
 > function. Restart your server, send the request again with Postman, then go to your terminal
 > to see what it looks like. You should see a lot of data come through.
 
-### 2. Check it out in Postman
+#### 2. Check it out in Postman
 
 Quit your server in the terminal with `ctrl + c`. Then restart it to run your
 new changes.
@@ -315,7 +315,7 @@ congratulations! You just sent your first response from the server.
 - [ ] HTTP Response Codes
 - [ ] HTTP Request Methods (or Verbs)
 
-## Step 4 - Routing
+### 3.4) Routing
 
 At the moment our server only does one thing. When it receives a request from
 the `/` endpoint, it sends back the same response: "Yay Node!".
@@ -325,17 +325,17 @@ the `/` endpoint, it sends back the same response: "Yay Node!".
 However by making use of endpoints, we can make the server send different
 responses for different requests. This concept is called **routing**.
 
-### What is an endpoint?
+#### What is an endpoint?
 
 An endpoint is the part of the URL which comes after `/`. For example:
 `/chocolate` is the "chocolate" endpoint. It's the URL to which you send a
 request.
 
-### What is URL?
+#### What is URL?
 
 ![alt text](../assets/http1-url-structure.png)
 
-### Create your own endpoints and send different responses
+#### Create your own endpoints and send different responses
 
 We're going to try sending different responses at different endpoints. Remember
 the `app.get()` method? To set up routing in your server, we just need to repeat
@@ -356,7 +356,7 @@ app.get("/chocolate", function (req, res) {
 > **Exercise:** Add some code so that your server sends one message when the
 > endpoint is `/node` and another one when it's `/codeyourfuture`.
 
-## Step 5 - Query Parameters
+### 3.5) Query Parameters
 
 So, what is a query parameter?
 
@@ -366,7 +366,7 @@ Here is an example of a URL with query strings attached:
 
 > https://stackabuse.com/?page=2&limit=3
 
-### 1. Detect Query Parameters
+#### 1. Detect Query Parameters
 
 We're going to try sending different responses at different endpoints. Remember
 the `app.get()` method? To set up routing in your server, we just need to repeat
@@ -381,10 +381,41 @@ app.get("/", function (req, res) {
 });
 ```
 
+Here is an example of how we would use this endpoint with query parameters:
+
+> http://localhost:3000?search=hello
+
+Now your turn!
+
 > **Exercise:** Add some code so that your server returns the amount of chocolate that you
 > want from `/chocolate` endpoint. For example
 >
 > http://localhost:3000/chocolate?amount=3
+
+### 2. Multiple Query Parameters
+
+What if we want to detect and read multiple parameters? If we use a URL from earlier as an example, here is how we would **send** multiple query parameters:
+
+> https://api.sunrise-sunset.org/json?lat=51.5311&lng=0.0481
+
+Here we have one parameter called "lat" and another "lng".
+
+Here is how we would do that in Node:
+
+```js
+app.get("/json", function (req, res) {
+  let lat = req.query.lat;
+  let lng = req.query.lng;
+  res.send(`You searched for Lat: ${lat} and Lng: ${lng}`);
+});
+```
+
+> **Exercise** Add some code so that your server takes 2 values that we will multiply together and return the value
+> For example
+>
+> http://localhost:3000/multiply?value1=2&value2=10
+>
+> Which would give a return value of 20
 
 ## Feedback
 

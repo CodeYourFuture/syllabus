@@ -68,6 +68,24 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nholdsworth94",
+      "name": "Nick Holdsworth",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69724935?v=4",
+      "profile": "https://github.com/nholdsworth94",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "timhamrouge",
+      "name": "Tim Hamrouge",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34589526?v=4",
+      "profile": "https://github.com/timhamrouge",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

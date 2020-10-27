@@ -4,7 +4,13 @@ title: React - Week 1
 sidebar_label: Lesson
 ---
 
+<!-- Docusaurus allows embedding React components via MDX -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#embedding-react-components-with-mdx -->
+
 import Feedback from "@theme/Feedback";
+import { ExerciseDDemo } from './demos/ExerciseD.js'
+import { ExerciseEDemo } from './demos/ExerciseE.js'
+import { ExerciseGDemo } from './demos/ExerciseG.js'
 
 ---
 
@@ -144,6 +150,7 @@ The process of _rendering_ is turning the JSX elements returned by the component
 
 | Exercise D (estimate: 10 min)                                                                                                                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise we replace the placeholder React app with our own. It should look like this: <ExerciseDDemo />                                                                                                                           |
 | 1. In the `pokedex` React app that you just created, open the `src/App.js` file.                                                                                                                                                          |
 | 2. Delete everything in the file except the line containing `export default App`. You should see an error in your terminal and in your web browser - don't panic! We're going to remake the `App` component ourselves.                    |
 | 3. Import the React variable from the React package.                                                                                                                                                                                      |
@@ -184,6 +191,7 @@ Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are
 
 | Exercise E (estimate: 5 min)                                                                                                                                                       |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we will split out a new `Logo` component from the `App` component. And then we'll add a new `BestPokemon` component: <ExerciseEDemo />                           |
 | 1. In your `pokedex` React app, open the `src/App.js` file.                                                                                                                        |
 | 2. Create a new function named `Logo`.                                                                                                                                             |
 | 3. Copy the `<header>` element and its contents and paste it into the `Logo` component.                                                                                            |
@@ -230,10 +238,11 @@ const HelloWorld = () => (
 
 If we want to do this, we can still use arrow functions but we can't use the implicit return.
 
-| Exercise F (estimate: 5 min)                                                           |
-| :------------------------------------------------------------------------------------- |
-| 1. Using the `pokedex` React app that you created earlier, open the `src/App.js` file. |
-| 2. Convert the `Logo` and `BestPokemon` functions into arrow functions.                |
+| Exercise F (estimate: 5 min)                                                                                                         |
+| :----------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll convert the Pokedex app to use arrow functions. It should still look the same in your browser as Exercise E. |
+| 1. Using the `pokedex` React app that you created earlier, open the `src/App.js` file.                                               |
+| 2. Convert the `Logo` and `BestPokemon` functions into arrow functions.                                                              |
 
 ## Embedding JavaScript into JSX
 
@@ -313,17 +322,18 @@ function MentorsList() {
 
 Here we are using `Array.map` to turn an array of strings into an array of components.
 
-| Exercise G (estimate: 10 min)                                                                                                                                                                                           |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Using the `pokedex` React app that you created earlier, open the `src/App.js` file.                                                                                                                                  |
-| 2. Inside the `Logo` component create a new variable called `appName` and assign it to `"Pokedex"`.                                                                                                                     |
-| 3. Now replace the hard-coded app name with `{appName}`. What do you see in your web browser? What would you do if you wanted to change the app name?                                                                   |
-| 4. Create a new component named `CaughtPokemon`. Within this component return a `<p>` tag with the text "Caught 0 Pokemon on" (we're going to fill in today's date in the next step).                                   |
-| 5. Create a variable named `date` within the `CaughtPokemon` component, and assign it today's date (hint: `new Date().toLocaleDateString()`). Finally, render the `date` variable after the text "Caught 0 Pokemon on". |
-| 6. Render the `CaughtPokemon` component within the `App` component (below `BestPokemon`).                                                                                                                               |
-| 7. Within the `BestPokemon` component, create a variable named `abilities` and assign it to an array with some Pokemon abilities (e.g. `['Anticipation', 'Adaptability', 'Run-Away']`).                                 |
-| 8. Change the `BestPokemon` component to return a `<div>` element with the existing `<p>` element inside it. Then add a `<ul>` element underneath the `<p>` element.                                                    |
-| 9. Now use the `.map()` method on the `abilities` variable to loop over each name and return a `<li>` element for each (hint: look at the mentors list example above) within the `<ul>` element.                        |
+| Exercise G (estimate: 10 min)                                                                                                                                                                                                                        |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll change the `Logo` component to use a variable for the app name. Then we'll add a new component `CaughtPokemon` which displays today's date. And finally we'll make `BestPokemon` show a list of abilities: <ExerciseGDemo /> |
+| 1. Using the `pokedex` React app that you created earlier, open the `src/App.js` file.                                                                                                                                                               |
+| 2. Inside the `Logo` component create a new variable called `appName` and assign it to `"[YOUR_NAME]'s Pokedex"`.                                                                                                                                    |
+| 3. Now replace the hard-coded app name with `{appName}`. What do you see in your web browser? What would you do if you wanted to change the app name?                                                                                                |
+| 4. Create a new component named `CaughtPokemon`. Within this component return a `<p>` tag with the text "Caught 0 Pokemon on" (we're going to fill in today's date in the next step).                                                                |
+| 5. Create a variable named `date` within the `CaughtPokemon` component, and assign it today's date (hint: `new Date().toLocaleDateString()`). Finally, render the `date` variable after the text "Caught 0 Pokemon on".                              |
+| 6. Render the `CaughtPokemon` component within the `App` component (below `BestPokemon`).                                                                                                                                                            |
+| 7. Within the `BestPokemon` component, create a variable named `abilities` and assign it to an array with some Pokemon abilities (e.g. `['Anticipation', 'Adaptability', 'Run-Away']`).                                                              |
+| 8. Change the `BestPokemon` component to return a `<div>` element with the existing `<p>` element inside it. Then add a `<ul>` element underneath the `<p>` element.                                                                                 |
+| 9. Now use the `.map()` method on the `abilities` variable to loop over each name and return a `<li>` element for each (hint: look at the mentors list example above) within the `<ul>` element.                                                     |
 
 ## Keys
 
@@ -375,16 +385,17 @@ export default Greeting;
 
 The convention is to name component files exactly the same as the component (including the capital letter).
 
-| Exercise H (estimate: 5 min)                                                                                                |
-| :-------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` React app that you created earlier.                                                                   |
-| 2. Create a new file within the `src` directory named `Logo.js`.                                                            |
-| 3. Copy and paste the `Logo` component from `App.js` into `Logo.js`.                                                        |
-| 4. Remember to add `import React from 'react'` at the top of `Logo.js`.                                                     |
-| 5. Export the `Logo` component from `Logo.js` (hint: look at the `Greeting` example above).                                 |
-| 6. Delete the old `Logo` component from `App.js`.                                                                           |
-| 7. Import the `Logo` component into `App.js` (hint: look at the `HelloMentor` example above).                               |
-| 8. Repeat this process with the `BestPokemon` and `CaughtPokemon` components. What do you think the files should be called? |
+| Exercise H (estimate: 5 min)                                                                                                    |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| In this exercise, we'll split the Pokedex app into separate files. It should still look the same in your browser as Exercise G. |
+| 1. Open the `pokedex` React app that you created earlier.                                                                       |
+| 2. Create a new file within the `src` directory named `Logo.js`.                                                                |
+| 3. Copy and paste the `Logo` component from `App.js` into `Logo.js`.                                                            |
+| 4. Remember to add `import React from 'react'` at the top of `Logo.js`.                                                         |
+| 5. Export the `Logo` component from `Logo.js` (hint: look at the `Greeting` example above).                                     |
+| 6. Delete the old `Logo` component from `App.js`.                                                                               |
+| 7. Import the `Logo` component into `App.js` (hint: look at the `HelloMentor` example above).                                   |
+| 8. Repeat this process with the `BestPokemon` and `CaughtPokemon` components. What do you think the files should be called?     |
 
 ## Making an argument for Props
 
@@ -435,20 +446,21 @@ Or calculating new values:
 <div>{props.age + 1}</div>
 ```
 
-| Exercise I (estimate: 10 min)                                                                                                                                                 |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Using the `pokedex` React app that you created earlier, open the `App.js` file.                                                                                            |
-| 2. Pass a prop `appName="Pokedex"` to the `Logo` component.                                                                                                                   |
-| 3. Now open the `Logo.js` file.                                                                                                                                               |
-| 4. Delete the `appName` variable. What do you see in your web browser? Why?                                                                                                   |
-| 5. Change the `Logo` function to access the first argument and call it `props`. Use `console.log` to inspect the `props` variable.                                            |
-| 6. Change the usage of `appName` in the `<h1>` to be `props.appName` instead. Does this fix the problem? Why?                                                                 |
-| 7. Now open the `BestPokemon.js` file.                                                                                                                                        |
-| 8. Copy the `abilities` variable and then delete it from `BestPokemon.js`.                                                                                                    |
-| 9. Paste the `abilities` variable into `App.js`.                                                                                                                              |
-| 10. Pass the `abilities` variable as a prop to `BestPokemon` from `App.js`.                                                                                                   |
-| 11. In the `BestPokemon.js` file replace the existing usage of `abilities` with the `abilities` **prop**. You should still see the Pokemon ability names in your web browser. |
-| 12. **(STRETCH GOAL)** Repeat the process with the `date` variable in the `CaughtPokemon.js` file.                                                                            |
+| Exercise I (estimate: 10 min)                                                                                                                                                                                                                                 |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtPokemon` to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise H. |
+| 1. Using the `pokedex` React app that you created earlier, open the `App.js` file.                                                                                                                                                                            |
+| 2. Pass a prop `appName="Pokedex"` to the `Logo` component.                                                                                                                                                                                                   |
+| 3. Now open the `Logo.js` file.                                                                                                                                                                                                                               |
+| 4. Delete the `appName` variable. What do you see in your web browser? Why?                                                                                                                                                                                   |
+| 5. Change the `Logo` function to access the first argument and call it `props`. Use `console.log` to inspect the `props` variable.                                                                                                                            |
+| 6. Change the usage of `appName` in the `<h1>` to be `props.appName` instead. Does this fix the problem? Why?                                                                                                                                                 |
+| 7. Now open the `BestPokemon.js` file.                                                                                                                                                                                                                        |
+| 8. Copy the `abilities` variable and then delete it from `BestPokemon.js`.                                                                                                                                                                                    |
+| 9. Paste the `abilities` variable into `App.js`.                                                                                                                                                                                                              |
+| 10. Pass the `abilities` variable as a prop to `BestPokemon` from `App.js`.                                                                                                                                                                                   |
+| 11. In the `BestPokemon.js` file replace the existing usage of `abilities` with the `abilities` **prop**. You should still see the Pokemon ability names in your web browser.                                                                                 |
+| 12. **(STRETCH GOAL)** Repeat the process with the `date` variable in the `CaughtPokemon.js` file.                                                                                                                                                            |
 
 ### Credits
 
