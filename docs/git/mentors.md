@@ -32,6 +32,16 @@ We've purposefully left out anything which may require resolving merge conflicts
 
 We also intentionally opted to avoid the command line. This was much debated, but the consensus was that `git` is not the most friendly command line tool for your first experience, and Git is complicated and scary enough without loading in more learning alongside it. Again, `git` will come later, after the learners have used the command line for something else.
 
+## Lesson Background & Discussion
+
+This lesson was discussed at length and has been archived here:
+
+https://github.com/CodeYourFuture/syllabus/issues/77
+
+Further discussion can take place in:
+
+`#cyf-module-git`
+
 ## Lesson Structure
 
 This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound.
