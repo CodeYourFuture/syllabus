@@ -25,7 +25,7 @@ Git and GitHub are vast topics, and learners have historically struggled a lot w
 The aims are:
 
 1. To get the learners able to submit homework.
-2. To set the learners up so that in the coming weeks they can practise basic Git workflows via their ordinary homework.
+2. To set the learners up so that in the coming weeks they can practice basic Git workflows via their ordinary homework.
 3. To see that Git maybe has _some_ use to them for now (via "checkpoint" commits), and encourage frequent commits.
 
 We've purposefully left out anything which may require resolving merge conflicts (merging, pulling after an initial build, reverting), as well as branches in general. These will be introduced later in the course, when they're actively useful for the learners. For now, they don't _need_ them, so we won't overload them.
@@ -42,8 +42,66 @@ We then introduce Git in a concrete use-case similar to the examples shown.
 
 Before the learners use Git, we point them at the cheatsheet. They _will_ forget things and get stuck in the coming weeks, so we try to keep reminding them where to look if this happens.
 
-Exercise 3 may draw out for a long time with all manner of login issues, UI issues, and general confusion. Let it take as long as it takes. Make sure every learner has succeeded before moving on.
-
 Show them each step of the teacher-led demo. There aren't many steps, but there are a lot of little ideas to teach at each stage. Then they do the same thing themselves.
 
 Commit messages, commit hygiene, when to commit, etc are all skills that are hard to teach, particularly when the learner has never written code before - the learners will hopefully work them out over time. Don't worry too much about them fully grasping the intricacies here, but try to seed some things to think about, which they will hopefully understand more over time.
+
+## Exercises Overview
+
+### Exercise 1
+
+**Aim**: To show the student a concrete example of the problem they are trying to solve with using Git.
+
+Let this exercise open a discussion about why this is hard and how this could become completely unmanageable in a larger system.
+
+Open questions:
+
+- It's manageable for three versions, what about 100 versions?
+- Have you ever seen this problem before?
+- What would happen if 100 people need the final version?
+
+### Exercise 2
+
+**Aim**: To show the way that Git can solve the collaboration problem that Git can solve.
+
+Give the students some time to discuss as a class how they felt it.
+
+Open questions:
+
+- What would happen if we have lists of 100 items?
+- What if there were 100 people with their lists to merged together?
+
+### Exercise 3
+
+**Aim**: Hands on experience of cloning a repository.
+
+You should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
+
+This exercise may draw out for a long time with all manner of login issues, UI issues, and general confusion. Let it take as long as it takes. Make sure every learner has succeeded before moving on.
+
+### Exercise 4
+
+**Aim**: Hands on experience creating a Pull Request.
+
+Again, you should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
+
+### Exercise 5
+
+**Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
+
+This small exercise demonstrates a key misunderstanding that students have around how they can add files to a Pull Request.
+
+You should prompt and call attention to how we should always write good commit messages. Don't write "_Changes_". Do write "_Added an answer to the other-file.txt file_".
+
+### Exercise 6
+
+**Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
+
+### Exercise 7
+
+**Aim**: A rounding off exercises that shows the solution to the first problem that we discussed.
+
+Open questions:
+
+- Do you think this is easier to tell what has changed in the files?
+-

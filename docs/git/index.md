@@ -201,7 +201,12 @@ If you get stuck, check out the cheatsheet (TODO: Link) :)
 
 ### Exercise 5 (5 minutes)
 
-There's another file in the repository you've cloned, `other-file.txt`. Open it, answer the question in the file, commit, and push.
+There's another file in the repository you've cloned, `other-file.txt`.
+
+1. Open it
+2. Answer the question in the file
+3. Commit
+4. and Push
 
 Notice a couple of things are different this time!
 
