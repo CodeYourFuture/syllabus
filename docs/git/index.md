@@ -134,6 +134,18 @@ This is a really useful way for us to check over our homework before submitting 
 
 When we're happy with our change, we can press the "Commit to main" button. That tells Git "This change is an interesting change, I want to keep it". You don't need to wait until you've got your answers perfect before committing, in fact it's better to make lots of commits as you work - we'll come back to this in a bit!
 
+This doesn't copy our change to any other computer - it won't go on GitHub - commiting is something we just do on our computer.
+
+### Exercise 4 (10 minutes)
+
+Try doing what your teacher just did:
+
+1. Answer the question in `file.txt` in VS Code and save your changes.
+2. Look at the diff in GitHub desktop - does it look as you expect?
+3. Make a commit in your local repository.
+
+### Teacher-led demo continues...
+
 Now, because we committed a change, our copy of the repository is different from CodeYourFuture's copy. GitHub Desktop now gives us a new button: "Push origin" ("origin" is what Git calls "where I cloned this repository from"). If we press it, it will try to send our change to the CodeYourFuture version.
 
 We didn't have this button before, because even though we had changed the files, we hadn't committed any changes. There's an important distinction here: When we save files in VS Code, we store them in the file on our computer, but Git doesn't automatically commit them. It notices the changes (it showed them to us!), and asks us if we want to commit them. Only after we've committed them does it let us push them. We'll talk about when you want to commit later on today.
@@ -188,18 +200,16 @@ If you're happy, press the "Create pull request" button. Fill in the details in 
 
 Now there's a pull request that volunteers can look at! They can see who made the pull request, and see all the changes you've made.
 
-### Exercise 4 (20 minutes)
+### Exercise 5 (15 minutes)
 
-Try doing what your teacher just did:
+Make yourself a pull request with your change!
 
-1. Answer the question in `file.txt` in VS Code and save your changes.
-2. Make a commit in your local repository.
-3. Try to push your changes, make a fork, and then actually push your changes.
-4. Make your first pull request!
+1. Try to push your changes, make a fork, and then actually push your changes.
+2. Make your first pull request!
 
 If you get stuck, check out the [cheatsheet](./cheatsheet) :)
 
-### Exercise 5 (5 minutes)
+### Exercise 6 (5 minutes)
 
 There's another file in the repository you've cloned, `other-file.txt`.
 
@@ -259,14 +269,14 @@ You may notice that your commits all have messages like "Update file.txt", where
 
 Commit messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
 
-### Exercise 6 (10 minutes)
+### Exercise 7 (10 minutes)
 
 1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the [cheatsheet](./cheatsheet)
 2. Have a read of the file called `README.md`. See if you can find a problem in the file.
 3. Look through the history in GitHub Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
-### Exercise 7 (5 minutes)
+### Exercise 8 (5 minutes)
 
 Remember earlier we looked at three blog posts? They're actually in a repository on GitHub! https://github.com/CodeYourFuture/git-draft-blog-post-example
 

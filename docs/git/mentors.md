@@ -89,13 +89,13 @@ You should expect a host of small issues and problems with the students doing th
 
 This exercise may draw out for a long time with all manner of login issues, UI issues, and general confusion. Let it take as long as it takes. Make sure every learner has succeeded before moving on.
 
-### Exercise 4
+### Exercise 4 & 5
 
 **Aim**: Hands on experience creating a Pull Request.
 
 Again, you should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
 
-### Exercise 5
+### Exercise 6
 
 **Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
 
@@ -103,11 +103,11 @@ This small exercise demonstrates a key misunderstanding that students have aroun
 
 You should prompt and call attention to how we should always write good commit messages. Don't write "_Changes_". Do write "_Added an answer to the other-file.txt file_".
 
-### Exercise 6
+### Exercise 7
 
 **Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
 
-### Exercise 7
+### Exercise 8
 
 **Aim**: A rounding off exercises that shows the solution to the first problem that we discussed.
 
