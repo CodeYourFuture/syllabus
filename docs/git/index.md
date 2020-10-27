@@ -1,7 +1,7 @@
 ---
 id: index
-title: Introduction
-sidebar_label: Introduction
+title: Lesson
+sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
