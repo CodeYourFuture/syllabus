@@ -98,7 +98,11 @@ TODO: Insert sequence diagram of teacher committing, pushing, and learners cloni
 
 ## The Git Cheatsheet
 
-We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember. We'll use it in our next exercise:
+We tend to do the same four or five things in Git over and over again, but it can be easy to forget them. There's a handy reference at (TODO: Link to cheat sheet) to help you remember.
+
+Let's walk through one of the sections together: "I want to get code from a repo onto my computer (Cloning)". It has a video, to show us what we should be doing, and explains each step in the text.
+
+We'll use it in our next exercise:
 
 ### Exercise 3 (15 minutes)
 
@@ -174,7 +178,7 @@ We do this with something called a _pull request_. This is a slightly weird name
 
 Normally, when people push changes to a fork on GitHub, they're doing so because they want the person who owns the repository to look at the changes, and pull the changes into their repository. For example, this webpage we're reading the syllabus on right now is hosted on GitHub, and if someone spots a typo, they can fix it, push it to their fork, and request for CodeYourFuture to pull their change into CodeYourFuture's version (hence the name a pull request - "requesting to pull in changes").
 
-We call pulling someone's change into a repository "merging" the change (some people use the phrase "merge request" instead of "pull request").
+We call pulling someone's change into a repository "merging" the change, because we're merging what we're pulling into our repo with what we had before.
 
 For submitting homework, every week you're going to create a pull request, and a volunteer will look at it and give you feedback, but we won't be pulling your homework into CodeYourFuture's copy (then the next student would have the answers when they tried to read the questions!). You'll be creating pull requests, but we won't actually merge your changes into the repository.
 
@@ -232,7 +236,13 @@ Let's say you've made a website, and it generally looks about right, but you wer
 
 Or if you want to try out a few different colours, make a commit for each colour, and then you can easily see what colours you tried out, and compare them.
 
-If you don't commit, maybe you'll try the perfect colour, then try a different colour, and forget what the previous colour was! Disaster! But if you commit each thing you try, you can always go back and see what it was!
+#### Teacher-led demo: Changing the colours
+
+A volunteer made a small website, which we can find in TODO: Link.
+
+They had three colours they were trying to choose from for the background. Because they made commits for each choice, we can look at their choices, and try them each out.
+
+If they hadn't made all of those commits, they probably would've forgotten at least one of the colours, and we wouldn't be able to see them now. Maybe they would've lost the perfect colour! Thankfully, we can look in the git history and see each step along the way.
 
 Similarly, you don't need to have finished everything before you push - in fact, it can be better to push lots! If your computer crashes, or you accidentally delete your files, or you want to work on homework on someone else's computer, you can always get back anything that you've pushed to GitHub. So commit often, and push often!
 
