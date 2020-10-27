@@ -63,7 +63,7 @@ This playlist will give you an introduction to Git & Github which are two tools 
 
 These videos cover concepts that you'll be learn slowly over this course as you need them. Be sure to use these videos in the future when you need them.
 
-You should watch this video
+For now, you only need to watch the first video:
 
 https://www.youtube.com/watch?v=BCQHnlnPusY
 
