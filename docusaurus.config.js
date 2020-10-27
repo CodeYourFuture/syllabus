@@ -61,6 +61,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "git/index",
+              label: "Git and Github",
+              position: "left",
+            },
+            {
               to: "js-core-1/index",
               label: "JavaScript Core 1",
               position: "left",

@@ -14,6 +14,10 @@ module.exports = {
       "contributing/example/instructors-template",
     ],
   },
+  Git: {
+    Overview: ["git/preparation"],
+    "Lesson 1": ["git/index", "git/homework", "git/instructors"],
+  },
   HTMLCSS: {
     Overview: ["html-css/index"],
     "Lesson 1": [
