@@ -243,9 +243,9 @@ Or if you want to try out a few different colours, make a commit for each colour
 
 #### Teacher-led demo: Changing the colours
 
-A volunteer made a small website, which we can find in TODO: Link.
+A volunteer made a small website, which we can find in https://github.com/CodeYourFuture/SampleGitWebsite
 
-They had three colours they were trying to choose from for the background. Because they made commits for each choice, we can look at their choices, and try them each out.
+They had a few different colour combinations they were trying to choose between. Because they made commits for each choice, we can look at their choices, and try them each out.
 
 If they hadn't made all of those commits, they probably would've forgotten at least one of the colours, and we wouldn't be able to see them now. Maybe they would've lost the perfect colour! Thankfully, we can look in the git history and see each step along the way.
 
