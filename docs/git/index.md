@@ -86,15 +86,17 @@ Imagine your teacher wanted everyone in the class to answer three questions and 
 
 When we're using Git, we write things down in files in a folder (these could be text files, Word documents, images, or really any kind of file). When we save these files, we say we're _committing_ them, and we call the folder where we're saving them a _repository_ (or _repo_ for short).
 
-TODO: Insert graphic of teacher writing and committing.
+![Teacher commits files locally](assets/lesson1diagram1.png)
 
 **Next**, the teacher needs to put the repository somewhere where the learners can get it. We call this _pushing_ the repository. The teacher won't send a copy to each learner, but will put one copy somewhere on the Internet, and tell the learners where it is. The place the teachers on this course will be pushing to is a website called [GitHub](https://github.com), but there are other websites they could push to if they wanted to. This is the difference between Git and GitHub - Git is a way of storing and sharing files, and GitHub is one website where you can use Git.
+
+![Teacher pushes files to GitHub](assets/lesson1diagram2.png)
 
 **Then**, now that the teacher has pushed the questions, each learner needs to be able to **get the questions onto their computer**.
 
 When we're using Git, we call this _cloning_ the teacher's repository (because we're making our own copy). After we've cloned the repository, we will have the same folder on our computer as the teacher created, committed, and pushed.
 
-TODO: Insert sequence diagram of teacher committing, pushing, and learners cloning.
+![A learners can clone an exact copy of what the teacher pushed](assets/lesson1diagram3.png)
 
 ## The Git Cheatsheet
 
@@ -114,7 +116,7 @@ When you've finished the exercise, you should have `file.txt` open in VS Code.
 
 ## What did we just do?
 
-TODO: Diagram showing a teacher's copy, a copy on GitHub, and a copy on each of three students' laptops.
+![All of the learners can clone an exact copy of what the teacher pushed](assets/lesson1diagram4.png)
 
 Each of you just cloned a repository which CodeYourFuture created onto your computer, and opened up your copy of one of the files. This is the process you're going to follow to get your homework every week.
 
@@ -150,7 +152,7 @@ To avoid this, we use something called a _fork_ and something called a _pull req
 
 Remember when we cloned the repo, we pasted `https://github.com/CodeYourFuture/cyf-demo-repo` in as the place to clone from? Let's look at that:
 
-TODO: Insert image annotating bits of the URL
+![Anatomy of a GitHub URL](assets/lesson1-github-url-anatomy.png)
 
 This is saying "On GitHub, the user `CodeYourFuture` has a repository called `cyf-demo-repo`, I want that".
 
