@@ -23,6 +23,7 @@ If you students do not arrive with these steps completed then you will lose a lo
 Git and GitHub are vast topics, and learners have historically struggled a lot with them. We have very intentionally reduced the scope of what we're teaching here to just things which are immediately useful. This is both to reduce cognitive load, and to try to ensure the things we _do_ teach actually stick (because struggling with _how_ to submit your homework is really demoralising, whether you've excelled at the homework, or struggled with it).
 
 The aims are:
+
 1. To get the learners able to submit homework.
 2. To set the learners up so that in the coming weeks they can practise basic Git workflows via their ordinary homework.
 3. To see that Git maybe has _some_ use to them for now (via "checkpoint" commits), and encourage frequent commits.
