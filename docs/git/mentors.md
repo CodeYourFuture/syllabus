@@ -22,7 +22,7 @@ If you students do not arrive with these steps completed then you will lose a lo
 
 Example slides for this lesson
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="660" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Lesson Aims
 
