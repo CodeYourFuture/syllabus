@@ -182,6 +182,8 @@ GitHub lets you host your own copy of the repository on GitHub too! If your user
 
 That's right, https://github.com/EagerLearner/cyf-demo-repo!
 
+![Anatomy of a forked GitHub URL](assets/lesson1-forked-url-anatomy.png)
+
 This is called a _fork_. It's a copy of the repository, where you're allowed to make changes. So when GitHub Desktop just asked us "Do you want to fork this repository?", what it's really saying is "You're not allowed to make changes to CodeYourFuture's repository, would you like to make your own copy on GitHub where you _are_ allowed to make changes, and put your changes there?"
 
 That sounds like exactly what we want to do, so we'll click the "Fork This Repository" button.
@@ -190,7 +192,7 @@ Then GitHub asks us whether we want to fork "To contribute to the parent project
 
 Now if we press "Push origin", it will copy our changes to our fork on GitHub.
 
-TODO: Insert graphic showing four repositories: Teacher's computer, CodeYourFuture, EagerLearner Fork, EagerLearner's computer.
+![Four repos - a teacher's on their laptop, a teacher's on GitHub, a learner on GitHub, a learner on their laptop](assets/lesson1-four-repo-diagram.png)
 
 If you forget this, it's in the [cheatsheet](./cheatsheet)! Check out the "I want to send my code to volunteers (Pushing)" section.
 
