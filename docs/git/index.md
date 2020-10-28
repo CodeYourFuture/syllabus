@@ -50,7 +50,7 @@ Git is a version control tool, used to keep the history of changes, and make col
 
 We use Git to track different versions of files.
 
-Perhaps you've had this experience before
+Perhaps you've had this experience before...
 
 ![Example of bad file naming when working on a document](./assets/example-git-exists.png)
 
