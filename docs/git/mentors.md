@@ -20,9 +20,9 @@ If you students do not arrive with these steps completed then you will lose a lo
 
 ### Slides
 
-Example slides for this lesson
+Example slides for this lesson. Source is [here](https://docs.google.com/presentation/d/1zqXv_78uzEGyTErx8zQwYmWG7aGIg6pnTn-3xSIVjhY/edit#slide=id.g7df9eebc96_0_290).
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="660" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Lesson Notes
 
