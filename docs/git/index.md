@@ -50,6 +50,10 @@ Git is a version control tool, used to keep the history of changes, and make col
 
 We use Git to track different versions of files.
 
+Perhaps you've had this experience before...
+
+![Example of bad file naming when working on a document](./assets/example_git_exists.png)
+
 You've probably in the past saved a document in a file with "draft" in its name, and then another with "version 1" in its name, and eventually one called "final", and then "really final", and then "final after feedback". It can be hard to know what the latest one is, and to track what order the files came in. But we keep these files around, because they were useful, and we may want to check something from them.
 
 Git helps us to avoid this problem. Before we see how Git helps, let's try an exercise:
@@ -123,6 +127,12 @@ Each of you just cloned a repository which CodeYourFuture created onto your comp
 ## Let's do some homework (teacher-led demo)
 
 The file you opened, `file.txt`, has a question in it. We're going to answer the question, and submit it as if it was our homework.
+
+Let's clone our repository to our computer:
+
+```
+https://github.com/CodeYourFuture/cyf-demo-repo
+```
 
 We can edit the file in VS Code to answer the question, and save it like normal.
 
