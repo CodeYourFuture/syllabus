@@ -24,7 +24,9 @@ Example slides for this lesson
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="660" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Lesson Aims
+## Lesson Notes
+
+### Aims
 
 Git and GitHub are vast topics, and learners have historically struggled a lot with them. We have very intentionally reduced the scope of what we're teaching here to just things which are immediately useful. This is both to reduce cognitive load, and to try to ensure the things we _do_ teach actually stick (because struggling with _how_ to submit your homework is really demoralising, whether you've excelled at the homework, or struggled with it).
 
@@ -38,7 +40,7 @@ We've purposefully left out anything which may require resolving merge conflicts
 
 We also intentionally opted to avoid the command line. This was much debated, but the consensus was that `git` is not the most friendly command line tool for your first experience, and Git is complicated and scary enough without loading in more learning alongside it. Again, `git` will come later, after the learners have used the command line for something else.
 
-## Lesson Background & Discussion
+### Background & Discussion
 
 This lesson was discussed at length and has been archived here:
 
@@ -48,7 +50,7 @@ Further discussion can take place in:
 
 `#cyf-module-git`
 
-## Lesson Structure
+### Structure
 
 This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound.
 
