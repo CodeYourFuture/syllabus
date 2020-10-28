@@ -56,6 +56,12 @@ Show them each step of the teacher-led demo. There aren't many steps, but there 
 
 Commit messages, commit hygiene, when to commit, etc are all skills that are hard to teach, particularly when the learner has never written code before - the learners will hopefully work them out over time. Don't worry too much about them fully grasping the intricacies here, but try to seed some things to think about, which they will hopefully understand more over time.
 
+## Teacher Led Demos
+
+### Lets do some homework
+
+**Important**: This section end with an error message - this is expected and used as a learning experience! Continue to the next section when you get a `permissions error`.
+
 ## Exercises Overview
 
 ### Exercise 1
