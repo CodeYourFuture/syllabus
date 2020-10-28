@@ -12,4 +12,4 @@ Each week, you're going to use Git to get a copy of your homework exercises, to 
 
 | Week                  | Content                 | Homework                   |
 | --------------------- | ----------------------- | -------------------------- |
-| [Week 1](./lesson.md) | Github & Github Desktop | [Git Homework](./homework) |
+| [Week 1](./index.md) | Github & Github Desktop | [Git Homework](./homework) |
