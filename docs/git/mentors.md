@@ -18,6 +18,12 @@ If you students do not arrive with these steps completed then you will lose a lo
 
 ## Resources
 
+### Slides
+
+Example slides for this lesson
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRXRL4f2rcCw_bw0GYSo-CfGJrD5Wi3R1RqgA7tpQRWgCNTMt3CyAAQoRquAruIcUH9gzAL_v5E6YXZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Lesson Aims
 
 Git and GitHub are vast topics, and learners have historically struggled a lot with them. We have very intentionally reduced the scope of what we're teaching here to just things which are immediately useful. This is both to reduce cognitive load, and to try to ensure the things we _do_ teach actually stick (because struggling with _how_ to submit your homework is really demoralising, whether you've excelled at the homework, or struggled with it).
