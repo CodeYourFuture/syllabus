@@ -61,7 +61,7 @@ module.exports = {
               position: "left",
             },
             {
-              to: "git/index",
+              to: "git/overview",
               label: "Git and Github",
               position: "left",
             },
