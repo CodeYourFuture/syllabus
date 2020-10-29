@@ -80,13 +80,13 @@ https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
 Here you will find all of your Classmates answers to the homework. 
 
-1) Choose two pull requests
-2) Make sure they don't have the "reviewed" label attached to it
-3) Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
-4) Add a label that says "reviewed"
+1. Choose two pull requests
+2. Make sure they don't have the "reviewed" label attached to it
+3. Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
+4. Add a label that says "reviewed"
 
 To add a label, click "Labels" on the right hand side of the page.
 
 You should do this for **at least** two pull requests.
 
-Note sure on the answer see here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
+Note sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
