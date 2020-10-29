@@ -69,3 +69,21 @@ In this repository you will find instructions of how to help my child with his h
 https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
 Follow the instructions to complete this homework!
+
+## 4) Mark other peoples homework! (1 hour)
+
+Now that you've helped him with his homework we want you to mark other peoples homework from your class. Giving feedback is an important way to help you grow!
+
+Again, go to this repository and go to the "Pull Requests" tab.
+
+https://github.com/CodeYourFuture/GitHomeworkFixErrors
+
+Here you will find all of your Classmates answers to the homework. 
+
+1) Choose two pull requests
+2) Make sure they don't have the "reviewed" label attached to it
+3) Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
+
+You should do this for **at least** two pull requests.
+
+Note sure on the answer see here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
