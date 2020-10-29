@@ -85,6 +85,8 @@ Here you will find all of your Classmates answers to the homework.
 3) Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
 4) Add a label that says "reviewed"
 
+To add a label, click "Labels" on the right hand side of the page.
+
 You should do this for **at least** two pull requests.
 
 Note sure on the answer see here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
