@@ -4,6 +4,12 @@ title: Coding Standard
 sidebar_label: Coding Standards
 ---
 
+## Overview
+
+At CodeYourFuture, we follow the AirBnB coding guidelines
+
+https://github.com/airbnb/javascript
+
 ## General
 
 - Indentation should be consistent
