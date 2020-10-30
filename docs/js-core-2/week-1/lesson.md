@@ -33,8 +33,6 @@ By the end of this lesson students should be able to:
 
 ---
 
-> In-class exercises can also be found on [JavaScript Core 2 Homework](https://github.com/CodeYourFuture/JavaScript-Core-2-Homework) in **Week 1**.
-
 ## Objects
 
 Objects in the real world have properties that describe how they are unique. Your laptop, for example, has a brand (Lenovo/Apple etc.), a screen size (13/15 inch), RAM (8/16GB) etc.
