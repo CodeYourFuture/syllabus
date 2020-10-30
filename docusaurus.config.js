@@ -175,6 +175,11 @@ module.exports = {
           position: "left",
           items: [
             {
+              to: "guides/marking-guide",
+              label: "Marking Guide",
+              position: "left",
+            },
+            {
               to: "guides/coding-standards",
               label: "Coding Standards",
               position: "left",
