@@ -89,7 +89,9 @@ Having lots of duplicated code in your coursework means that it is harder to cha
 
 ### Commented Out Code
 
-Commenting our code is a great way to debug your code but you should delete everything you don't need.
+Commenting out code is a great way to debug your code but when you use it to keep code for later it can become a problem.
+
+Instead of commenting out code you want to keep but not use, consider moving it to separate file. This will make it easier to keep track of the code you're currently working on.
 
 Having lots of commented out code make your code harder to read and make it easier for you to get overwhelmed and lost in your code.
 
