@@ -15,7 +15,7 @@ This Rubric should be used to guide your assessment of Students Homework at Code
 - The code does not contain any obvious bugs
 - The code handles error responses as well as success responses [[read more]](#error-responses)
 
-### Code Style (/6)
+### Code Style (/5)
 
 - The code follows a consistent style
 - The code follows CodeYourFuture's coding standards [[read more]](#coding-standards)
