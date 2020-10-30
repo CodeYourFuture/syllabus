@@ -33,10 +33,6 @@ This Rubric should be used to guide your assessment of Students Homework at Code
 - There is no dead code in the coursework [[read more]](#dead-code)
 - There is no extra or debug logging [[read more]](#debug-logging)
 
-### Documentation (/2)
-
-- If needed, is there good documentation?
-
 ## Explanations
 
 ### Edge Cases
@@ -105,7 +101,9 @@ Having lots of commented out code make your code harder to read and make it easi
 
 Dead Code is code that is in your coursework but can't be reached or run by your program.
 
-For example, a function that is never called (or invoked) is considered dead code
+For example, a function that is never called (or invoked) is considered dead code.
+
+Dead code should be removed from your coursework or re-written so it is used. Having lots of dead code in your coursework can make your work hard to read and understand.
 
 #### More Reading
 
