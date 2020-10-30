@@ -26,12 +26,10 @@ https://github.com/airbnb/javascript
   - Do not mix casing styles e.g. let first_name = person.firstName;
 
 - Test coverage should be sufficient
-  - This should meet or exceed the configured threshold; if this isn't possible,
-    explain why
 - Comment code that might be difficult to understand...
   - ...but also consider simplifying complex code if at all possible. If you
     find that you're writing a lot of comments, then it's a good indicator that
-    your code is too verbose and potentially overengineered
+    your code is too verbose and potentially over-engineered
 
 ## JavaScript
 
