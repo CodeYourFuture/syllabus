@@ -97,7 +97,8 @@ Having lots of commented out code make your code harder to read and make it easi
 
 #### More Reading
 
-- [I’ll Delete Your Commented Code Without Reading It and I’m Not Sorry](https://blog.submain.com/delete-commented-code-without-reading/)
+- [Please don't comment out code](https://kentcdodds.com/blog/please-dont-commit-commented-out-code)
+- [Putting comments in code: the good, the bad, and the ugly.](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)
 
 ### Dead Code
 
@@ -181,7 +182,7 @@ The name given to each variable is up to the programmer, but ideally a variable 
 
 Nearly always, there are better and worse ways of writing code. You should always try to write code in a way that is simple to understand and read.
 
-An example of this might be using a `filter` instead of a complicated `for` loop
+An example of write more optimal code might be using a `filter` instead of a complicated `for` loop. This is better, because it is immediately obvious what you're trying to do - filter an array - and you're less likely to make a mistake using it.
 
 ### Hard Coded Values
 
