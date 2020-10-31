@@ -4,4 +4,52 @@ title: Homework
 sidebar_label: Homework
 ---
 
-[The repo](https://github.com/CodeYourFuture/JavaScript-Core-3-Homework) contains challenges - solve all the pending exercises in `week-2`.
+## 1) Practice the concepts (1 hours)
+
+This week's concepts can be challenging, therefore let's get an easy introduction using some interactive exercises! Check the following resources out and start practicing.
+
+You can ignore anything to do with `XMLHttpRequest`
+
+- [FreeCodeCamp](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/)
+
+## 2) Code along (1 hour)
+
+Now that you've learned about APIs and how to connect with them, let's apply it in the context of a complete application.
+
+In the following application you'll be watching somebody make an API call to an external, public API.
+
+You are welcome to code along as you watch - this will help you to understand what exactly the presenter is doing.
+
+Enjoy!
+
+- [Vanilla JS Numbers Facts App - AJAX & Fetch](https://www.youtube.com/watch?v=tUE2Nic21BA)
+
+## 3) JavaScript Exercises (2 hours)
+
+Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
+
+For this step, open the "Exercises" folder and complete all of the challenges.
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
+
+Before you start, **make sure you fork the repository** to your Github account.
+
+## 4) JavaScript Challenges (6 hours)
+
+Next, in the same repository complete all of the exercises in the "Challenges" folder.
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
+
+## 5) TV Show Project (8 hours)
+
+Continue working on your TV Show Project and so as much as you can.
+
+This could include
+
+- DOM Manipulation
+- Working with an API
+- Get & Post Requests
+
+## Project Details
+
+All of the details for this project can be found [here](https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme)

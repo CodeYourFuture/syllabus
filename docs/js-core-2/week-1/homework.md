@@ -61,8 +61,6 @@ Next, in the same repository complete all of the exercises in the "Project" fold
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week1
 
-If you finish all of those, spend some time
-
 ## 6) (Optional) CodeWars Exercises
 
 Complete the following CodeWars exercises. Go to the webpages below and follow the instructions there.
