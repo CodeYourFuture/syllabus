@@ -4,6 +4,15 @@ title: React - Week 3
 sidebar_label: Lesson
 ---
 
+<!-- Docusaurus allows embedding React components via MDX -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#embedding-react-components-with-mdx -->
+
+import Feedback from "@theme/Feedback";
+import { ExerciseADemo } from './demos/ExerciseA.js'
+import { ExerciseEDemo } from './demos/ExerciseE.js'
+import { ExerciseFDemo } from './demos/ExerciseF.js'
+import { ExerciseGDemo } from './demos/ExerciseG.js'
+
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -166,6 +175,7 @@ You might notice that even though we re-rendered, we did **not** run the `useEff
 
 | Exercise A (estimate: 15 min)                                                                                                                                                                                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll fetch some data about a Pokemon's moves from the Pokemon API and render it a component: <ExerciseADemo />                                                                                                                          |
 | 1. Open the `pokedex` React application again.                                                                                                                                                                                                             |
 | 2. Create a new file `src/PokemonMoves.js`, and copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmoves-useeffect-exercise-starting-point-f1mwm?file=/src/PokemonMoves.js).                                                      |
 | 3. Render the `PokemonMoves` component inside the `App` component (underneath `CaughtPokemon`).                                                                                                                                                            |
@@ -217,10 +227,11 @@ return (
 
 You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no `else` case).
 
-| Exercise B (estimate: 5 min)                                                                                                        |
-| :---------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                               |
-| 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead. |
+| Exercise B (estimate: 5 min)                                                                                                                              |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll change the `PokemonMoves` component to use a ternary operator. Your app should still look the same in your browser as Exercise A. |
+| 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                                                     |
+| 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead.                       |
 
 ### The Circle of Life
 
@@ -431,6 +442,7 @@ To help you understand this better, try "playing computer" again, but this time 
 
 | Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                                                                                                                          |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we'll add some buttons which allow you to select which Pokemon's moves we will fetch from the Pokemon API: <ExerciseEDemo />                                                                                                                                                                                                                                         |
 | 1. Open the `pokedex` React application.                                                                                                                                                                                                                                                                                                                                               |
 | 2. Create a new file `src/PokemonMovesSelector.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmovesselector-exercise-starting-point-wt5d0) into the new file.                                                                                                                                                                                        |
 | 3. Open `src/App.js` and replace the `PokemonMoves` component with the `PokemonMovesSelector` component (remember to update the `import` too!)                                                                                                                                                                                                                                         |
@@ -490,6 +502,7 @@ In addition, instead of just saving the value of the input in the state, we coul
 
 | Exercise F (estimate: 10 min)                                                                                                                                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| In this exercise, we'll create a new component where you can type in the name of a Pokemon city and see it on screen. <ExerciseFDemo />                                                                 |
 | 1. Open the `pokedex` React application.                                                                                                                                                                |
 | 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
 | 3. Open the `src/App.js` file and render the new `PokemonCity` component (underneath `PokemonMovesSelector`).                                                                                           |
@@ -559,6 +572,7 @@ We now have three different inputs named `username`, `email` and `password`. The
 
 | Exercise G (estimate: 10 min)                                                                                                                                                                              |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise, we will change the `CaughtPokemon` component so that you can type in the name of a Pokemon that you caught and it will show in the list: <ExerciseGDemo />                               |
 | 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.                                                                                                                    |
 | 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                              |
 | 3. Create a new state variable called `pokemonNameInput` and initialise to an empty string (`""`).                                                                                                         |
@@ -666,3 +680,9 @@ There is another common pattern for handling multiple fields in a form, but it r
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="React" week="Week 3" />

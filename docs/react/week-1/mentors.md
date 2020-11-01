@@ -4,6 +4,14 @@ title: Instructor Notes
 sidebar_label: Instructor Notes
 ---
 
+## IMPORTANT - Setup Needed For Students
+
+If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+
+[React Preparation](../prep)
+
+If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+
 ## Resources
 
 - [Quiz - React Week 1 - 28/05/2020](https://docs.google.com/forms/d/e/1FAIpQLScF624jfjHCVzrqfu9sR-MWYyaZD3vRGHz3pDjUgbfyJ4vq_A/viewform)
@@ -15,6 +23,9 @@ sidebar_label: Instructor Notes
 
 - [PokeDex In-Class - Exercise Solution - 05/06/2020](https://github.com/CodeYourFuture/pokedex-solution)
   - Created by London and Ali Smith
+  - These are now embedded into the syllabus itself, see [`demos` folder](https://github.com/CodeYourFuture/syllabus/tree/master/docs/react/week-1/demos) for source
+- [Hotel Homework - Solution - 24/07/2020](https://github.com/CodeYourFuture/Hotel-React-solution)
+  - Created by Manchester and Dorota Sobkow
 
 ## Notes for mentors
 

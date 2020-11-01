@@ -4,6 +4,8 @@ title: JavaScript Core II - 3
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Synchronous and Asynchronous programming](#synchronous-and-asynchronous-programming)
@@ -302,3 +304,9 @@ Click [here](./homework) to view the homework for this lesson.
 ## JavaScript 2 Quiz
 
 An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform) which can be used to test students understanding. This can be done in class or set as homework.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 2" week="Week 3" />

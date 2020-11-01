@@ -4,6 +4,8 @@ title: JavaScript Core II - 1
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Objects](#objects)
@@ -30,8 +32,6 @@ By the end of this lesson students should be able to:
 - Write code that can iterate through an object
 
 ---
-
-> In-class exercises can also be found on [JavaScript Core 2 Homework](https://github.com/CodeYourFuture/JavaScript-Core-2-Homework) in **Week 1**.
 
 ## Objects
 
@@ -1175,3 +1175,9 @@ const studentGrades = {
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 2" week="Week 1" />

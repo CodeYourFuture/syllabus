@@ -5,45 +5,17 @@ module.exports = {
       "contributing/setup",
       "contributing/editing",
       "contributing/training",
-      "contributing/team",
     ],
+    "Syllabus Team": ["contributing/team", "contributing/minutes"],
     "Template Lesson": [
       "contributing/example/lesson-template",
       "contributing/example/homework-template",
       "contributing/example/instructors-template",
     ],
   },
-  Fundamentals: {
-    Overview: [
-      "fundamentals/index",
-      "fundamentals/about-this-course",
-      "fundamentals/contributing-guide",
-      "fundamentals/instructor-notes",
-    ],
-    "Course Resources": [
-      "fundamentals/other-resources/tips-for-success",
-      "fundamentals/other-resources/roadmap",
-    ],
-    "Lesson 1": [
-      "fundamentals/lesson-1/lesson",
-      "fundamentals/lesson-1/instructor-notes",
-    ],
-    "Lesson 2": [
-      "fundamentals/lesson-2/lesson",
-      "fundamentals/lesson-2/instructor-notes",
-    ],
-    "Lesson 3": [
-      "fundamentals/lesson-3/lesson",
-      "fundamentals/lesson-3/instructor-notes",
-    ],
-    "Lesson 4": [
-      "fundamentals/lesson-4/lesson",
-      "fundamentals/lesson-4/instructor-notes",
-    ],
-    "After The Course": [
-      "fundamentals/after-the-course/processing-migrating",
-      "fundamentals/other-resources/challenges",
-    ],
+  Git: {
+    Overview: ["git/overview", "git/preparation", "git/cheatsheet"],
+    "Lesson 1": ["git/index", "git/homework", "git/instructors"],
   },
   HTMLCSS: {
     Overview: ["html-css/index"],
@@ -153,7 +125,15 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
-    Challenges: [
+    "Additional Resources": [
+      {
+        type: "category",
+        label: "Extra Lessons",
+        items: [
+          "js-core-3/other/javascript-classes",
+          "js-core-3/other/this-keyword",
+        ],
+      },
       {
         type: "link",
         label: "JavaScript Challenges",
@@ -162,7 +142,7 @@ module.exports = {
     ],
   },
   React: {
-    Overview: ["react/index"],
+    Overview: ["react/index", "react/prep"],
     Resources: [
       "guides/react-cheatsheet",
       {
@@ -273,11 +253,16 @@ module.exports = {
       "finalproject/prep",
       "finalproject/roles",
       "finalproject/projects",
+      "finalproject/external-projects",
     ],
     "Week 1": ["finalproject/week-1/lesson"],
     "Week 2": ["finalproject/week-2/lesson"],
     "Week 3": ["finalproject/week-3/lesson"],
     "Week 4": ["finalproject/week-4/lesson"],
+    "Demo Day": [
+      "finalproject/demoday/preparation",
+      "finalproject/demoday/practice-day",
+    ],
   },
   Deployment: {
     Overview: [

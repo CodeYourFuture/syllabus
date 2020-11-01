@@ -18,10 +18,7 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <Link
-            className={classnames("button button--outline button--lg")}
-            to={useBaseUrl("overview")}
-          >
+          <Link className="button button--lg" to={useBaseUrl("overview")}>
             First time here? Read the Overview
           </Link>
         </div>

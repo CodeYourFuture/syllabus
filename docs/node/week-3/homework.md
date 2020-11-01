@@ -11,3 +11,7 @@ All of the homework for this week can be found in the Node Homework repository [
 You should fork the [NodeJS-Homework](https://github.com/CodeYourFuture/NodeJS-Homework) repository, complete all of your work in those folders.
 
 Make sure you create a branch named `[YOUR_NAME]/Week3` to separate your work for each week.
+
+## (Optional) Challenges
+
+You can find additional challenges to work on [here](https://github.com/CodeYourFuture/cyf-node-challenges) if you finish all of your homework.

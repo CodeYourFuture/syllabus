@@ -4,6 +4,8 @@ title: JavaScript Core II - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [JS in the Browser](#js-in-the-browser)
@@ -246,3 +248,9 @@ Task 5
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 */
 ```
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 2" week="Week 2" />

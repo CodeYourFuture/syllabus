@@ -90,7 +90,7 @@ function Overview() {
             <h3>As a student...</h3>
             <p>
               If you're reading this as a student you will find lots of the
-              lesson plans that you've need following in your class. You will
+              lesson plans that you've been following in your class. You will
               also find links to resources that we think you will find useful,
               additional exercises and links to all of the coursework for the
               course.
@@ -324,10 +324,7 @@ function getComponent(title, length, description, icon, link) {
       <h4 className="vertical-timeline-element-subtitle">Length: {length}</h4>
       {description}
       <Link
-        className={classnames(
-          "button button--outline button-text mt-1",
-          styles.getStarted
-        )}
+        className={classnames("button button-text mt-1", styles.getStarted)}
         to={link}
       >
         View the module

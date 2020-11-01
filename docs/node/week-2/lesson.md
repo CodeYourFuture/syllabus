@@ -4,6 +4,8 @@ title: Node - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 By the end of this lesson students should be able to:
@@ -16,7 +18,13 @@ By the end of this lesson students should be able to:
 
 ---
 
-## CRUD Continued
+## 1) Presentations
+
+As part of last weeks homework we asked you to prepare a very short presentation on what you learnt last week.
+
+Split into groups of 2-4 people and present what you have learnt. Remember, your whole presentation should be no more than 120 seconds!
+
+## 2) CRUD Continued
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -27,7 +35,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 Below are three in-class exercises which can be used to demonstrate parts of the API workshop below.
 
-### (1) Get Exercise
+### 2.1) Get Exercise
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
@@ -43,7 +51,7 @@ You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~c
 
 When you remix the starting project, immediately rename it as your own.
 
-### (2) Post Exercise
+### 2.2) Post Exercise
 
 This is an Teacher led exercise which can be used to show how we might add an element to an array
 
@@ -65,7 +73,7 @@ When you remix our starting project, immediately rename it.
 
 Then you can visit / and submit the form there, when you are ready to try to submit new quotes!
 
-### (3) Delete Exercise
+### 2.3) Delete Exercise
 
 This is an Teacher led exercise which can be used to show how we might remove an element to an array
 
@@ -83,7 +91,7 @@ You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~
 
 When you remix the starting project, immediately rename it as your own.
 
-## Workshop
+## 3) Workshop
 
 You can use this [Express Cheatsheet](https://github.com/nbogie/express-notes/blob/master/express-cheatsheet.md) to help you.
 
@@ -98,7 +106,7 @@ An API does not have to be web-based. But in our work, since we are doing web de
 
 > **Checkpoint:** Let us recap what we know about HTTP before continuing.
 
-### Objective
+### Workshop Objective
 
 Our **API** will manage Beyoncé albums:
 
@@ -115,7 +123,7 @@ We will build these endpoints:
 `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
 
-### GET /Albums
+### 3.1) Get All Albums
 
 1. In `server.js` Add the endpoint for `GET /albums`.
 
@@ -150,11 +158,11 @@ app.get("/albums", function (req, res) {
 });
 ```
 
-2. Test the endpoint with Postman. `GET /songs` should return a JSON reply with the array we specified.
+2. Test the endpoint with Postman. `GET /albums` should return a JSON reply with the array we specified.
 
-3. Add another item to the array and test that the `GET /songs` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
+3. Add another item to the array and test that the `GET /albums` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
-### Step 1: GET /albums/:albumId
+### 3.2) Get Album by ID
 
 **Complete in-class (1) GET Exercise at this point**
 
@@ -177,7 +185,7 @@ app.get("/albums/:albumId", function (req, res) {
 });
 ```
 
-### Step 1.1 - Install nodemon
+### 3.3) Install Nodemon
 
 It is a bit annoying that we have to _kill_ and _restart_ our server every time we want to test our changes. There is a handy **npm package** that can help us with that task.
 
@@ -194,7 +202,7 @@ scripts: {
 
 now from your terminal, use the command `npm run dev` and that will run the _server_ with `nodemon` which is a package that makes the server listen to code changes and automatically restart.
 
-### Step 2: Add a new album
+### 3.4) Add a New Album
 
 **Complete in-class (2) Post Exercise at this point**
 
@@ -254,7 +262,7 @@ app.post("/albums", function (req, res) {
 
 > Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
 
-### Step 3: Delete an album
+### 3.5) Delete an album
 
 **Complete in-class (3) DELETE Exercise at this point**
 
@@ -274,3 +282,9 @@ app.delete("/albums/:albumID", function (req, res) {
 ```
 
 Can you work out how to remove an album using this code?
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="Node" week="Week 2" />

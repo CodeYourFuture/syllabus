@@ -22,6 +22,31 @@ The overarching plan for this lesson is repetition. By the end of the week they 
 
 ## Lesson Overview
 
+### Debugging Quiz Answers
+
+What are the four questions we ask ourselves in the Debugging Framework?
+
+- What did I expect to happen?
+- Is it actually broken?
+- What happened instead?
+- What have I tried so far?
+
+What are three of the tools we could use to debug our programs?
+
+- See [here](https://syllabus.codeyourfuture.io/js-core-3/week-1/lesson#tools)
+
+What is a syntax error?
+
+- See [here](https://syllabus.codeyourfuture.io/js-core-3/week-1/lesson#tools)
+
+What is a reference error?
+
+- See [here](https://syllabus.codeyourfuture.io/js-core-3/week-1/lesson#reference-errors)
+
+What is a type error?
+
+- See [here](https://syllabus.codeyourfuture.io/js-core-3/week-1/lesson#examples-of-type-errors)
+
 ### How the web works
 
 We felt it was important to give a recap of how the internet works in particular `Status Codes` and `Methods` since they will be using them in the lesson.

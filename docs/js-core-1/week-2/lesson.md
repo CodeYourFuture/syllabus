@@ -4,6 +4,8 @@ title: JavaScript Core I - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Contents
 
 - [Expressions](#expressions)
@@ -633,3 +635,9 @@ For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScrip
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 1" week="Week 2" />

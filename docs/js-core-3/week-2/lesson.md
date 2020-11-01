@@ -4,6 +4,8 @@ title: JavaScript Core III - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 - The learner should understand what the acronym API means
@@ -371,3 +373,9 @@ Complete the rest of this code to connect to the following API: `https://dog.ceo
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 3" week="Week 2" />

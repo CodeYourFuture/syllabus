@@ -13,6 +13,8 @@ Here are some ideas for projects from previous years:
 - [Slack Dashboard](https://docs.google.com/document/d/1yy6t-Ri-Ze--ycM1_F7HXQnChXmGc1njezBqYoWbiJ4/edit?usp=sharing)
 - [Class Planner](https://docs.google.com/document/d/1XnJoTO_pxp8QCD-cetJElqPhbvEI6RUYyllR2MihNPE/edit?usp=sharing)
 - [Q & A](https://docs.google.com/document/d/1uuZdIaWM920PS-FeVBQl5PAQQocyywhOEL5_3A5FwIk/edit)
+- [Graduate Directory](https://docs.google.com/document/d/1gFrmuceVcXywf7oZoAdJW32InWo9iIH0hHhhS52LHUM/edit#)
+- [Knowledge Checklist](https://docs.google.com/document/d/1vvvlRZJxfOTYvrwWpSFWR5LiG7QAFI2bXVBMQ-8W0Zs/edit?usp=sharing)
 
 Additional ideas for projects can be found here
 

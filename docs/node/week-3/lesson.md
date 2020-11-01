@@ -4,6 +4,8 @@ title: Node - 3
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Learning Objectives
 
 By the end of this lesson students should be able to:
@@ -13,7 +15,13 @@ By the end of this lesson students should be able to:
 
 ---
 
-## CRUD Review
+## 1) Presentations
+
+As part of last weeks homework we asked you to prepare a very short presentation on what you learnt last week.
+
+Split into groups of 2-4 people and present what you have learnt. Remember, your whole presentation should be no more than 120 seconds!
+
+## 2) CRUD Review
 
 So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
@@ -24,7 +32,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 > Which of these have we learnt so far?
 
-### Using Update exercise
+### 2.1) Using Update exercise
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
@@ -61,7 +69,7 @@ app.put("/albums/:albumID", function (req, res) {
 
 Remember, you have got to **update** the album, not add it to the list
 
-## Heroku
+## 3) Heroku
 
 We use can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
 
@@ -88,16 +96,22 @@ git push heroku master
 
 After making a `commit` your updated website with my made available online.
 
-## City Guide and Paired Programming
+## 4) City Guide and Paired Programming
 
 In this exercises you should split into groups of two people.
 
 You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challenges/tree/master/challenge-london-mini-guide) here.
 
-### Rules
+### 4.1) Rules
 
 1. One of you will be leading on building the React (Server) application
 2. One of you will be leading on building the Node.js (Client) Application
 3. It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
    - e.g. Both of you have to finish Level 100 before continuing onto Level 200.
    - If one of you gets stuck - help each other!
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="Node" week="Week 3" />

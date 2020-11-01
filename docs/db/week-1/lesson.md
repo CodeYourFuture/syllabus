@@ -4,6 +4,8 @@ title: "Database 1 - Introduction to SQL"
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - [Introduction to databases](#introduction-to-databases)
@@ -272,3 +274,9 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 ## Homework
 
 All of the homework for this week can be found [here](/homework).
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="SQL" week="Week 1" />

@@ -4,8 +4,38 @@ title: Homework
 sidebar_label: Homework
 ---
 
-You can find the homework for this week [here](https://github.com/CodeYourFuture/HTML-CSS-Homework)
+## 1) Advanced CSS Selectors
 
-## Prepare for the next class
+### 1.1) Read about CSS Selectors (1 Hour)
 
-(Est. 4-5 hours) Complete the first three lessons in this course on [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893). You should complete **Why Responsive?**, **Starting Small** and **Building Up**. _Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead._
+Read this article about CSS Selectors
+
+http://learn.shayhowe.com/advanced-html-css/complex-selectors/
+
+### 1.2) CSS Diner (3 hours)
+
+Play this game and complete it
+
+https://flukeout.github.io/
+
+## 2) HTML Reading (1 hour)
+
+Read this page on HTML syntax:
+
+https://marksheet.io/html-syntax.html
+
+## 3) HTML/CSS Project (5 hours)
+
+In this repository you will find a project for you to complete
+
+https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week1
+
+Before you start, **make sure you fork the repository** to your Github account.
+
+## 4) Prepare for the next class (2 hours)
+
+Complete the first three lessons in this course on [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893).
+
+You should complete **Why Responsive?**.
+
+_Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead._

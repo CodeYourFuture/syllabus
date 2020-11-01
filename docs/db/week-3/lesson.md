@@ -4,6 +4,8 @@ title: "Database 3 - More integration with NodeJS"
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - Revision from last week
@@ -24,7 +26,7 @@ By the end of this lesson students should be able to
 - Create an API endpoint that can add data to a database
 - Write code that effectively validates data before adding it to a database
 - Be aware of the dangers of SQL injection attacks, and how to avoid them
-- Create an API endpoint that can retrieve data from a datamongodbbase with multiple parameters
+- Create an API endpoint that can retrieve data from a database with multiple parameters
 - Create an API endpoint that can update data in a database
 - Create an API endpoint that can delete data in a database
 
@@ -280,3 +282,9 @@ app.delete("/customers/:customerId", function (req, res) {
 ## Homework
 
 All of the homework for this week can be found [here](/homework).
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="SQL" week="Week 3" />

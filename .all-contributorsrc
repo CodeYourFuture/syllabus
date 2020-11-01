@@ -31,6 +31,61 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mickyginger",
+      "name": "Mike Hayden",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3531085?v=4",
+      "profile": "https://github.com/mickyginger",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "40thieves",
+      "name": "Alasdair Smith",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/424411?v=4",
+      "profile": "https://alasdairsmith.co.uk",
+      "contributions": [
+        "content",
+        "doc"
+      ]
+    },
+    {
+      "login": "textbook",
+      "name": "Jonathan Sharpe",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/785939?v=4",
+      "profile": "https://github.com/textbook/about",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "rc-pm",
+      "name": "rc-pm",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/69386499?v=4",
+      "profile": "https://github.com/RC-PM",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "nholdsworth94",
+      "name": "Nick Holdsworth",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69724935?v=4",
+      "profile": "https://github.com/nholdsworth94",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "timhamrouge",
+      "name": "Tim Hamrouge",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34589526?v=4",
+      "profile": "https://github.com/timhamrouge",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

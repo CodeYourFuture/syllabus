@@ -4,6 +4,8 @@ title: MongoDB - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## Outline:
 
 - Review
@@ -504,3 +506,9 @@ To try it, restart your server, find a film title in your database, and send a 
 #### Exercise 4
 
 Change the new endpoint to `/films/:id`. Make it delete only the object with the given `id`.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="MongoDB" week="Week 2" />

@@ -4,6 +4,8 @@ title: HTML/CSS - 2
 sidebar_label: Lesson
 ---
 
+import Feedback from "@theme/Feedback";
+
 ## What will we learn today?
 
 - [Responsive web design](#responsive-web-design)
@@ -87,3 +89,9 @@ Let's take a break from flexbox for a minute. Do you remember the `:first-child`
 ## Homework
 
 Click [here](./homework) to view the homework for this lesson.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="HTML/CSS" week="Week 2" />
