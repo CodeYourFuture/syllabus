@@ -4,7 +4,10 @@ title: Intro To Web Development Accessibility
 sidebar_label: Intro To Web Development Accessibility
 ---
 
-This is the first part of more courses to come about accessibility
+This is the first part of more courses to come about accessibility.
+
+You can [acccess the second part here](a11y-for-devs-basic).
+
 ![Drawing explaining why Accessibility is abreviated a11y, first and last letters and 11 letters in the middle](assets/a11y-part1/a11y-for-CYF.png)
 
 ## Projected Time
@@ -452,7 +455,6 @@ Help to use your current location instead of having to type it. This is complian
 - go to accessibility meet-ups, we will post them on Slack
 - there will be another course, more specific about **making your code accessible as a developer**
 - you won’t get it right every time, but you learn and do better next time
-
 
 
 
