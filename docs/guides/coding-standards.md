@@ -25,7 +25,6 @@ https://github.com/airbnb/javascript
     - hyphen-case or camelCase for CSS
   - Do not mix casing styles e.g. let first_name = person.firstName;
 
-- Test coverage should be sufficient
 - Comment code that might be difficult to understand...
   - ...but also consider simplifying complex code if at all possible. If you
     find that you're writing a lot of comments, then it's a good indicator that
@@ -55,12 +54,6 @@ https://github.com/airbnb/javascript
 - **Don't** use ID-based selectors e.g. `#some-id`
 - Avoid styling HTML element selectors directly, unless it's to remove default
   browser styling
-
-- Avoid using style properties in JavaScript
-  - E.g. `myElement.style.display = 'none';`
-  - This results in styles that are difficult to reuse
-  - Use `Element.prototype.classList` instead e.g.
-    `myElement.classList.add('hidden');`
 
 ## Git
 
