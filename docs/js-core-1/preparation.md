@@ -16,7 +16,7 @@ PLEASE NOTE: IF YOU DO NOT COMPLETE THIS HOMEWORK, YOU WILL NOT BE EQUIPPED TO S
 
 If any of the above or below instructions are unclear, please post to #london-class6 channel on Slack.
 
-To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 18.04 LTS):
+To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 20.04 LTS):
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
