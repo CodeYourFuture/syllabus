@@ -14,17 +14,15 @@ WSL is only available for Windows 10 users, so if you have an older version of W
 
 PLEASE NOTE: IF YOU DO NOT COMPLETE THIS HOMEWORK, YOU WILL NOT BE EQUIPPED TO START JAVASCRIPT CORE 1.
 
-If any of the above or below instructions are unclear, please post to #london-class6 channel on Slack.
+If any of the above or below instructions are unclear, please post in your city channel on Slack.
 
-To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 20.04 LTS):
+To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 18.04 LTS):
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## 2) Install Node.js (30 minutes)
 
-All command line instructions below will be provided between backticks (`). When copying them, please ensure you only copy the text between the backticks and not including the backticks.
-
-If you get stuck on any of the below or above instructions, please post to #london-class6 on Slack.
+If you get stuck on any of the below or above instructions, please post in your class channel on Slack.
 
 ### On Mac
 
@@ -32,15 +30,19 @@ If you get stuck on any of the below or above instructions, please post to #lond
 2. Install Homebrew, which is a package manager for MacOS. Copy and paste the following command into your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 3. Ensure that you have succesfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "`Homebrew <version number>`"
 4. Install NodeJS and npm by typing `brew install node`
-5. Check that you have successfully installed NodeJS by ensuring that the following command returns "v13.8.0": `node -v`
-6. Check that you have successfully installed npm by ensuring that the following command returns "6.13.6": `npm -v`
+5. Check that you have successfully installed NodeJS by ensuring that the following command returns a version number e.g. "v13.8.0"
+   - `node -v`
+6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
+   - `npm -v`
 
 ## On Ubuntu
 
 1. Type ctrl + alt + T to open up the terminal
-2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install curl && curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && sudo apt-get install nodejs`
-3. Check that you have successfully installed NodeJS by ensuring that the following command returns "v13.8.0": `node -v`
-4. Check that you have successfully installed npm by ensuring that the following command returns "6.13.6": `npm -v`
+2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && sudo apt-get install -y nodejs`
+3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g.
+   - `node -v`
+4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
+   - `npm -v`
 
 ## On Windows
 
@@ -80,13 +82,13 @@ Try to use in your solution the constructions you just reviewed: variables, func
 
 ## 4) Visual Code
 
-To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
-
 ### 4.1) Install VSCode and Extensions
 
 Instructions for how to do this can be found here
 
 https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
+
+To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
 
 ### 4.2) Enable Autosave
 
