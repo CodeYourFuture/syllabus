@@ -15,7 +15,7 @@ This outline provides tips to help mentors guide students to the best answers or
 ## Presentations
 
 - [Week 1 - CSS [Google Slides] - 28/05/2020](https://docs.google.com/presentation/d/18gCQlySM5kNaK4og4-XF8kHlyJVZUrRcbRK1zXC5SBg/edit#slide=id.p)
-  - Created by Birmingham
+  - Created by Birmingham (Request edit access if needed)
 
 ## HTML Syntax
 
@@ -69,6 +69,12 @@ For the second exercise, the answer will look something like this:
   border-color: #ce5f31;
 }
 ```
+
+## CSS Project
+
+Make sure the put the student in similar ability teams as far as you can.
+
+You can use this project to run out the rest of the lesson if you have extra time or remove it if you're short for time. It's purely a consolidation exercise from the day.
 
 ## Homework
 
