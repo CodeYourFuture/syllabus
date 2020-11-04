@@ -9,6 +9,7 @@ import Feedback from "@theme/Feedback";
 ## What will we learn today?
 
 - [Responsive web design](#responsive-web-design)
+- [Units of Measurement in Web Development](#units-of-measurement)
 - [Media queries](#media-queries)
 - [Flexbox](#flexbox)
 - (Optional) Content layout: floats
@@ -29,6 +30,105 @@ See how much variety there is in [viewport sizes](https://decadecity.net/blog/20
 ### Exercise (5 minutes)
 
 As a group, let's brainstorm as many devices as we can think of which might access the websites we build.
+
+## Units of Measurement
+
+When we measure objects in real life we might use centimeters or inches however when you're dealing with a computer you have to use different units.
+
+### Pixels
+
+Pixels are used to size content to exact dimensions
+
+They are fixed, hard coded values.
+
+When a screen size changes, elements sized with
+
+- pixels can appear
+- too small,
+- overflow the screen
+- become completely illegible.
+
+We often refer to pixels as just `px`.
+
+> Can you think of time when pixels are useful to use?
+
+### EM
+
+One unit of measurement to create relatively-sized content is the `em`.
+
+If the base font of a browser is 16 pixels, then
+
+- 1 `em` is equal to 16 pixels.
+- 2 `em`s would equal 32 pixels,
+- 3 `em`s would equal 48 pixels, and so on.
+
+You can use `em`s like this
+
+```css
+.heading {
+  font-size: 2em;
+}
+```
+
+> What problem do you think this might solve?
+
+When you're using `em`s you can the size of an `em` unit like this
+
+```css
+.splash-section {
+  font-size: 18px;
+}
+
+.splash-section h1 {
+  font-size: 1.5em;
+}
+```
+
+> Why might it be useful to change the size of an `em` unit?
+
+### REM
+
+If you want the unit to never change (normally it is 16px) then you can use `rem` units.
+
+```css
+.splash-section {
+  font-size: 180px;
+}
+
+.splash-section h1 {
+  font-size: 2rem;
+}
+```
+
+> What do you expect to happen when we run this code?
+
+### Percentages
+
+Finally, percentages are useful when you want to fill a certain size of screen - no matter the size of the screen that you are using.
+
+Percentages are often used to size box-model values, like
+
+- width and height, padding, border, and margins.
+
+They can also be used to set positioning properties, like
+
+- top, bottom, left, right.
+
+For example, this will set the size of two tags
+
+```css
+.main {
+  height: 300px;
+  width: 500px;
+}
+
+.main .subsection {
+  height: 50%;
+  width: 50%;
+}
+```
+
+> What do you expect the outcome to be?
 
 ## Media Queries
 
