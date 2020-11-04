@@ -32,6 +32,8 @@ Learning objectives for this lesson can be found [here](./learning-objectives.md
 
 You're already familiar with HTML code from your application process. If you want to refresh your memory, read this [quick guide to the HTML syntax](http://marksheet.io/html-syntax.html).
 
+### Exercise (1 minute)
+
 All together, let's review the basic syntax in the following example:
 
 ```html
@@ -42,13 +44,17 @@ All together, let's review the basic syntax in the following example:
 </article>
 ```
 
-> **Exercise** Which parts are the **Tags** and which parts are the **Attributes**.
+Which parts are the **Tags** and which parts are the **Attributes**.
+
+## HTML Tags
 
 HTML tags are arranged in a hierarchy. This is sometimes called "nesting" tags or creating an HTML "tree". Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these "child" tags, because they have a parent-child relationship.
 
 <img src={require('!file-loader!../assets/html-hierarchy.png').default}/>
 
-> **Exercise** As a group, let's try to name all of the parent and child tags in the following example.
+### Exercise (5 minutes)
+
+As a group, let's try to name all of the parent and child tags in the following example.
 
 ```html
 <article>
@@ -95,7 +101,11 @@ We'll cover the following semantic tags:
 - `<article>`
 - `<aside role="complementary">`
 
-> **Exercise (pair programming):** Work in pairs to determine where to place these new Tags and Attributes in the index.html file. Who benefits when we write "semantic" HTML?
+### Exercise (10 minutes)
+
+_Paired Programming Challenge_
+
+Work in pairs to determine where to place these new Tags and Attributes in the index.html file. Who benefits when we write "semantic" HTML?
 
 ## CSS Selectors
 
@@ -103,7 +113,9 @@ During your application process, you became familiar with CSS selectors. We'll r
 
 > If you want to review the selectors, read the [Common Selectors section](http://learn.shayhowe.com/advanced-html-css/complex-selectors/) of this page.
 
-### Exercise (pair programming) (10 minutes)
+### Exercise (10 minutes)
+
+_Paired Programming Exercise_
 
 Work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
 
