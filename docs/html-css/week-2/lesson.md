@@ -24,9 +24,11 @@ Learning objectives for this lesson can be found [here](./learning-objectives.md
 
 When we build for the web, we're making websites that can be viewed in a phone, a laptop, a tablet and more. To ensure we're presenting a website that's easy to use on any device, we use Responsive Web Design techniques to modify how content is displayed depending on the viewport.
 
-> **Exercise:** As a group, let's brainstorm as many devices as we can think of which might access the websites we build.
-
 See how much variety there is in [viewport sizes](https://decadecity.net/blog/2014/08/19/a-device-agnostic-approach-to-inlining-css).
+
+### Exercise (5 minutes)
+
+As a group, let's brainstorm as many devices as we can think of which might access the websites we build.
 
 ## Media Queries
 
@@ -50,9 +52,13 @@ In this media query, we're assigning a red background color to the `<body>` elem
 
 Finally, we wrap all of our styles for this media query in brackets (`{` and `}`), just like a CSS rule.
 
-> **Exercise:** Working in pairs, reduce the size of the "Bikes for Refugees" text so that it fits on a small screen (`320px`). But make sure it increases in size on larger screens.
+### Exercise (10 minutes)
 
-> **Exercise:** The two buttons in the jumbotron don't fit on the same line on small screens around `320px` wide. Can you adjust their size so that they fit on the same line?
+Working in pairs, reduce the size of the "Bikes for Refugees" text so that it fits on a small screen (`320px`). But make sure it increases in size on larger screens.
+
+### Exercise (10 minutes)
+
+The two buttons in the jumbotron don't fit on the same line on small screens around `320px` wide. Can you adjust their size so that they fit on the same line?
 
 ## Flexbox
 
@@ -63,8 +69,11 @@ Most flexbox rules are applied to the container, to tell it how to arrange its c
 You can see all the rules that can be applied to both the container and the children here:
 [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-> **Exercise:** Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
-> <img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
+### Exercise (20 minutes)
+
+Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
+
+<img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
 
 You can start with something like the below, by just adding a container, and the 3 text pieces within it. Try to use flexbox to position the text elements within the container to match the picture:
 
@@ -84,7 +93,9 @@ Once that's done you can move on to creating boxes for each individual text piec
 
 Let's take a break from flexbox for a minute. Do you remember the `:first-child` psuedo class? There's a `:last-child` psuedo class as well.
 
-> **Exercise:** See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`). Use [this screenshot](../assets/screenshot-complete.png) to guide you.
+### Exercise (5 minutes)
+
+See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`). Use [this screenshot](../assets/screenshot-complete.png) to guide you.
 
 ## Homework
 

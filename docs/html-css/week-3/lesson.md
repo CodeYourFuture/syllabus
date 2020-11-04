@@ -34,13 +34,11 @@ The main goals of a design framework are to ensure design consistency and avoid 
 
 [Bootstrap](https://getbootstrap.com/) is CSS and JavaScript code that we [load in our HTML pages](https://getbootstrap.com/docs/4.0/getting-started/introduction/). Bootstrap's documentation describes how to write HTML code that fits the Bootstrap components, including a [grid layout](https://getbootstrap.com/docs/4.0/layout/grid/) as well as several [components](https://getbootstrap.com/docs/4.0/components/alerts/).
 
-> **Exercise:** Fork [this repository](https://github.com/NateWr/groupstrap) and follow the instructions in the [readme](https://github.com/NateWr/groupstrap) to create a new page and add a card component to it.
+### Exercise (15 minutes)
 
-> **Exercise:** Perform a group exercise exploring the [git workspace](https://ndpsoftware.com/git-cheatsheet.html). Then create a branch, commit your new page, and issue a pull request. Once all the pull requests are merged, switch back to the `master` branch and update your copy.
+Fork [this repository](https://github.com/NateWr/groupstrap) and follow the instructions in the [readme](https://github.com/NateWr/groupstrap) to create a new page and add a card component to it.
 
-Did you know there are other open-source HTML/CSS frameworks you can try? Two popular ones are [Bulma](https://bulma.io/) and [Foundation](https://foundation.zurb.com/).
-
-## Personal Websites
+## Personal Website Project
 
 Over the last two weeks, you've been building personal websites as part of your homework. Now we want you to take those websites and apply the knowledge you've learned to make them as good as you can. Some ideas:
 

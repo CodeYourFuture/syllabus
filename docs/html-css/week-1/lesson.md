@@ -74,13 +74,11 @@ In today's class, we will begin adapting styles on this example website. We'll r
 </a>
 
 The example website you'll begin working with is available on this Code Your Future GitHub repository -
-[Bikes for Refugees](https://github.com/CodeYourFuture/bikes-for-refugees). Fork the repository to your personal account and use the following terminal commands to download the files to your projects folder.
+[Bikes for Refugees](https://github.com/CodeYourFuture/bikes-for-refugees). Fork the repository to your personal account and then clone the repository
 
-1. `cd ~`
-2. `cd <your-project-directory>`
-3. `git clone git@github.com:<your_username>/bikes-for-refugees.git`
+### Exercise (5 minutes)
 
-> **Exercise**: Spend a few minutes exploring the `.html` and `.css` files for this page. Why don't we put everything in one file?
+Spend a few minutes exploring the `.html` and `.css` files for this page. Why don't we put everything in one file?
 
 ## Semantic HTML
 
@@ -105,7 +103,9 @@ During your application process, you became familiar with CSS selectors. We'll r
 
 > If you want to review the selectors, read the [Common Selectors section](http://learn.shayhowe.com/advanced-html-css/complex-selectors/) of this page.
 
-> **Exercise (pair programming):** Work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
+### Exercise (pair programming) (10 minutes)
+
+Work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
 
 ## Pseudo Classes
 
@@ -138,7 +138,9 @@ Not everyone uses a mouse. Some users will prefer a keyboard, where they can hit
 }
 ```
 
-> **Exercise:** Work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
+### Exercise (10 minutes)
+
+Work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
 
 ## Box Model
 
@@ -146,7 +148,11 @@ In CSS, everything is a box. An image is a box. A link is a box. The area around
 
 ![Box Model. Source: MDN](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png)
 
-> **Exercise:** Work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
+### Exercise (10 minutes)
+
+Work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
+
+## Borders
 
 You may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
 
@@ -158,7 +164,9 @@ You can also set a transparent border, so that it takes up the space without sho
 }
 ```
 
-> **Exercise:** Use a transparent border so that the width of each navigation menu item stays the same even when it is hovered or focused.
+### Exercise (10 minutes)
+
+Use a transparent border so that the width of each navigation menu item stays the same even when it is hovered or focused.
 
 ## Resources
 
