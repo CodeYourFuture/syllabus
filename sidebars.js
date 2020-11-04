@@ -40,8 +40,8 @@ module.exports = {
     Challenges: [
       {
         type: "link",
-        label: "CSS Challenge",
-        href: "https://github.com/CodeYourFuture/css-challenge",
+        label: "HTML/CSS Challenges",
+        href: "https://github.com/CodeYourFuture/HTML-CSS-Challenges",
       },
     ],
   },
