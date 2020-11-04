@@ -18,4 +18,4 @@ If you get
 
 You may first need to run this in the terminal:
 
-`sudo apt-get install libgconf-2-4`
+`sudo apt-get install -y libgconf-2-4`
