@@ -39,7 +39,11 @@ This Rubric should be used to guide your assessment of Students Homework at Code
 
 Edge cases are when code does something you're not expecting and you didn't account for in your code.
 
-For example, using a number in a `Name` field of a form might cause problems since peoples names can't be numbers.
+Some edge cases are valid data, and some are not.
+
+Some examples of valid edge case are that some names contain punctuation, or some people may only have a single name, which your code needs to be able to handle. An example of an invalid edge case is if someone doesn't enter a name at all, which your code should reject - if your code doesn't notice the problem where the user provides their name, other code you wrote may make assumptions which are incorrect.
+
+See [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) for some interesting examples.
 
 Good code should handle all of these cases so that they can't happen - and if they do - they don't make your program crash or stop work.
 
