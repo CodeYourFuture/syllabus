@@ -80,7 +80,7 @@ You'll see there's a fish and a bubble.
 
 Try to use in your solution the constructions you just reviewed: variables, functions, if statements, loops or arrays. You can adapt and reuse any code from your previous projects.
 
-## 4) Visual Code
+## 4) Visual Studio Code
 
 ### 4.1) Install VSCode and Extensions
 
