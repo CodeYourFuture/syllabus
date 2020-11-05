@@ -46,7 +46,7 @@ module.exports = {
     ],
   },
   JavaScriptCore1: {
-    Overview: ["js-core-1/index"],
+    Overview: ["js-core-1/index", "js-core-1/preparation"],
     "Lesson 1": [
       "js-core-1/week-1/lesson",
       "js-core-1/week-1/homework",
