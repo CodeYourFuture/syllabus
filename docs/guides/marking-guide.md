@@ -173,7 +173,7 @@ For example,
 let pocketMoney = 20;
 ```
 
-means that the variable ‘pocketMoney’ is being used to store how much pocket money you have. Right now you have £20.
+means that the variable `pocketMoney` is being used to store how much pocket money you have. Right now you have £20.
 
 The name given to each variable is up to the programmer, but ideally a variable name should have meaning, ie it should reflect the value that it is holding.
 
