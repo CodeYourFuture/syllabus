@@ -11,6 +11,7 @@ This Rubric should be used to guide your assessment of Students Coursework at Co
 ### Completeness (/10)
 
 - The code achieves all of the tasks in the coursework [[read more]](#complete-all-tasks)
+- The code achieves the task in an intended way and solves the "general" problem [[read more]](#achieves-task-in-intended-way)
 - The code covers all edge cases [[read more]](#edge-cases)
 - The code does not contain any obvious bugs
 - The code handles error responses as well as success responses [[read more]](#error-responses)
@@ -40,6 +41,10 @@ This Rubric should be used to guide your assessment of Students Coursework at Co
 Completion of all of the tasks is an essential part of the homework.
 
 If there are tests that you have to make pass, you should **not** edit them to make your code work. Doing so will mean you get marked zero for this section.
+
+### Achieves task in intended way
+
+As well as completing all of the tasks, you should be sure to complete the task in a way that we are expecting and that covers all cases.
 
 You should also always try to solve the problem in the "general" rather than in the "specific".
 
