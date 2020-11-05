@@ -199,7 +199,7 @@ calculateScreenSize(1800);
 
 Will be hard to understand when you codebase grows.
 
-Instead us constants to store your hard coded values. For example
+Instead us constants to store your hard coded values - this means the value has a name, which can be [usefully descriptive](#good-variable-names). For example
 
 ```js
 let ENDPOINT = "https://www.api.com/retrieve";
