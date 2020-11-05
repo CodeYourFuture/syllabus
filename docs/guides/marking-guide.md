@@ -158,7 +158,7 @@ A good function name might be
 function removeCaptialLetters(){)
 ```
 
-Sometimes if you can't come up with a good function name it's an indication that the function doesn't have a nice, crisp focus and needs to be refactored. If it's a class method, perhaps the class needs refactoring too.
+Sometimes if you can't come up with a good function name it's an indication that the function doesn't have a nice, crisp focus and needs to be refactored.
 
 But it's well worth the trouble finding the best possible names, since it makes your code so much more understandable and usable.
 
