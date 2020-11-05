@@ -180,7 +180,7 @@ You can also set a transparent border, so that it takes up the space without sho
 
 Use a transparent border so that the width of each navigation menu item stays the same even when it is hovered or focused.
 
-## CSS Project
+## CSS Project (60 minutes+)
 
 In this repository you will find a CSS Project for you to complete using what you've learnt so far today.
 
