@@ -112,7 +112,7 @@ Having lots of commented out code make your code harder to read and make it easi
 
 Dead Code is code that is in your coursework but can't be reached or run by your program.
 
-For example, a function that is never called (or invoked) is considered dead code.
+For example, a function that is never called is considered dead code.
 
 Dead code should be removed from your coursework or re-written so it is used. Having lots of dead code in your coursework can make your work hard to read and understand.
 
