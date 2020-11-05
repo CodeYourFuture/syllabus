@@ -75,7 +75,7 @@ should be removed.
 
 ### Error Responses
 
-Not just the error messages, every response that is returned by the server must be properly handled. It should have necessary headers, response messages, error codes and any other necessary details attached with it in required format. All possible scenarios are tested to avoid deadlocks, timeouts, etc.
+Not just the error messages, every response that is returned by the server must be properly handled. It should have necessary headers, response messages, error codes and any other necessary details attached with it in required format. All possible scenarios are tested to avoid timeouts, unresponsive UI, etc.
 
 #### More Reading
 
