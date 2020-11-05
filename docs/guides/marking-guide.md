@@ -4,13 +4,13 @@ title: Marking Guide
 sidebar_label: Marking Guide
 ---
 
-This Rubric should be used to guide your assessment of Students Homework at CodeYourFuture
+This Rubric should be used to guide your assessment of Students Coursework at CodeYourFuture
 
 ## Overview
 
 ### Completeness (/10)
 
-- The code achieves all of the tasks in the coursework
+- The code achieves all of the tasks in the coursework [[read more]](#complete-all-tasks)
 - The code covers all edge cases [[read more]](#edge-cases)
 - The code does not contain any obvious bugs
 - The code handles error responses as well as success responses [[read more]](#error-responses)
@@ -22,7 +22,7 @@ This Rubric should be used to guide your assessment of Students Homework at Code
 - The code is well indented [[read more]](#well-indented-code)
 - The code uses good variable names [[read more]](#good-variable-names)
 - The code uses good function names [[read more]](#good-function-names)
-- The code uses more optimal, less error prone code to solve problems [[read more]](#more-optimal-code)
+- The code uses code which is easy to read and understand [[read more]](#more-readable-code)
 - The code should not use hard coded values [[read more]](#hard-coded-values)
 
 ### Clarity (/5)
@@ -34,6 +34,40 @@ This Rubric should be used to guide your assessment of Students Homework at Code
 - There is no extra or debug logging [[read more]](#debug-logging)
 
 ## Explanations
+
+### Complete All Tasks
+
+Completion of all of the tasks is an essential part of the homework.
+
+If there are tests that you have to make pass, you should **not** edit them to make your code work. Doing so will mean you get marked zero for this section.
+
+You should also always try to solve the problem in the "general" rather than in the "specific".
+
+For example, we could set the challenge
+
+> Print every element of an array to the console
+> Test 1: let array = ["A","B","C"]
+> Test 2: let array = ["1","2","3","4"]
+> Test 3: let array = ["Up", "Down"]
+
+To make this test pass you could write
+
+```js
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+```
+
+However, that would not work for _every_ case that exists - only the ones that we're writing. Your aim isn't to just pass the tests, it's to write good code that solves the problem.
+
+A better solution would be
+
+```js
+array.forEach((item) => {
+  console.log(item);
+});
+```
 
 ### Edge Cases
 
@@ -103,10 +137,13 @@ Instead of commenting out code you want to keep but not use, consider moving it 
 
 Having lots of commented out code make your code harder to read and make it easier for you to get overwhelmed and lost in your code.
 
+Since we use Git to record all of the changes to our code you can always use the Git History to see everything that has changed.
+
 #### More Reading
 
 - [Please don't comment out code](https://kentcdodds.com/blog/please-dont-commit-commented-out-code)
 - [Putting comments in code: the good, the bad, and the ugly.](https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/)
+- [Git History](https://syllabus.codeyourfuture.io/git/index#history)
 
 ### Dead Code
 
@@ -186,11 +223,44 @@ The name given to each variable is up to the programmer, but ideally a variable 
 - [Good Variable Names](https://spin.atomicobject.com/2017/11/01/good-variable-names/)
 - [Programming Basics - Naming Variables](https://www.bbc.co.uk/bitesize/guides/zwmbgk7/revision/3)
 
-### More Optimal Code
+### More Readable Code
 
-Nearly always, there are better and worse ways of writing code. You should always try to write code in a way that is simple to understand and read.
+The most important thing when writing code is to make it easy to read and understand, and as simple as possible.
 
-An example of write more optimal code might be using a `filter` instead of a complicated `for` loop. This is better, because it is immediately obvious what you're trying to do - filter an array - and you're less likely to make a mistake using it.
+An example of write more readable code might be using a `filter` instead of a complicated `for` loop. This is better, because it is immediately obvious what you're trying to do - filter an array - and you're less likely to make a mistake using it.
+
+For example,
+
+```js
+const trees = ["Oak", "Birch", "Beech", "Elm", "Hazel"];
+
+let treesBeginningWithB = [];
+for (var i = 0; i < trees.length; i++) {
+  if (trees[i] === "B") {
+    treesBeginningWithB.push(trees[i]);
+  }
+}
+
+console.log(treesBeginningWithB); // ["Birch", "Beech"]
+```
+
+Could be written like this be easier to understand and read.
+
+```js
+const trees = ["Oak", "Birch", "Beech", "Elm", "Hazel"];
+
+let treesBeginningWithB = trees.filter((item) => item.chatAt(0) === "B");
+
+console.log(treesBeginningWithB); // ["Birch", "Beech"]
+```
+
+As you can see, we've reduced six lines of code into one and it is immediately obvious that it is trying to filter the trees beginning with B.
+
+Writing readable code is a big topic and one that you'll get better at as you go on. We encourage you to read more about it.
+
+#### More Reading
+
+- [Readable Code](https://blog.pragmaticengineer.com/readable-code/)
 
 ### Hard Coded Values
 
