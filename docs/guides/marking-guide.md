@@ -55,7 +55,11 @@ Validations are used wherever necessary. The code never breaks under any circums
 
 ### Small Functions
 
-Writing small functions makes your code easier to understand and easier to work with
+Writing small functions makes your code easier to understand and easier to work with. Ideally you should be able to describe what a function does in one sentence, without the word "and".
+
+Good examples: "This function returns the user's favourite author", "This other function Tweets the title of an author's most popular book".
+
+Bad example: "This function finds the user's favourite author and sends a Tweet with the name of that author's most popular book".
 
 #### More Reading
 
