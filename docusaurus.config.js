@@ -204,6 +204,11 @@ module.exports = {
               label: "Useful Links",
               position: "left",
             },
+            {
+              to: "guides/creating-a-react-app",
+              label: "Creating a React App",
+              position: "left",
+            },
           ],
         },
         {
