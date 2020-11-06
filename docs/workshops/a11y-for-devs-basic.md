@@ -45,9 +45,9 @@ Participants will be able to:
 
 ## Presentation
 
-You can find the slides for this presentation _**to add later**_
+You can find the slides for this presentation [here](https://docs.google.com/presentation/d/15PG1w766J_EJGSVOnrjrn6ti_-K_7hdRjXZzA-sxTQ4/edit?usp=sharing).
 
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRspAgwY9wv-zuLfOBLptkreKZjVmZTnFlfTP57gD2XBSHtBf1YbLyQbh3pMstLFYJmy1hSDVACEXwi/embed?start=false&loop=false&delayms=3000" frameborder="0" width="560" height="315" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ---
 
@@ -150,9 +150,9 @@ Another  tool to get an accessible colour palette: [toolness.github.io/accessibl
 
 Make sure the colours contrast also work:
 
-- in dark mode if you have one on your website/app
-- for buttons on ‘hover’, but also for ‘active’ and ‘visited’ links 
-- focus states should be contrasted enough too
+- In dark mode if you have one on your website/app
+- For buttons on ‘hover’, but also for ‘active’ and ‘visited’ links 
+- Focus states should be contrasted enough too
 
 Don’t convey something using colour only (error message for example)
 
@@ -193,16 +193,18 @@ Video from Manuel Matuzovic: Writing even more CSS with Accessibility in mind (s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o6ssu5oKyaU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 > **Exercise 1**:
+>
+> _Need about 10 minutes for the exercice and 5 minutes to recap together._
+>
 > Check this website and look for the various accessibility problems you can spot:
 > 
 > [www.digitaloffice.scot](http://www.digitaloffice.scot/)
 > 
 > Remember: 
-> - font size, line length and height, text alignment, 
-> - avoid capital letters and italic, colour contrast, buttons, links, 
-> - let the user make changes and scroll, avoid motion 
+> - Font size, line length and height, text alignment, 
+> - Avoid capital letters and italic, colour contrast, buttons, links, 
+> - Let the user make changes and scroll, avoid motion 
 > - Contrast checker: [accessible-colors.com](https://accessible-colors.com/)
 
 ### Ways of hiding / adding content 
@@ -253,10 +255,10 @@ Title attributes are used as tool tip.
 ![result of a code, we see the title text when we hover on the link](assets/a11y-part2/title1.png)
 
 But in terms of accessibility, they are usually not very good because a lot of users will never see them:
-- keyboard only users
-- touch devices user 
-- might not be voiced by a screen reader
-- or might be announced twice if your screen reader do pick it up
+- Keyboard only users
+- Touch devices user 
+- Might not be voiced by a screen reader
+- Or might be announced twice if your screen reader do pick it up
 
 
 ### Simple tests 
@@ -269,19 +271,20 @@ Add the following tests each time:
 - No mouse, keyboard only, tabbing through - can you access everything? Does the order make sense?
 - 400% zoom - can you still use your website or app?
 - Use on a small screen 
-    - can you still select a link, use all the components 
-    - are tables, images and graphics still visible?
+    - Can you still select a link, use all the components 
+    - Are tables, images and graphics still visible?
 
 Just like automatic checkers, this is good but not enough.
 
 **The best way to test is always with real people with diverse needs!**
 
 > **Exercise 2**:
-> Try using LinkedIn without a mouse or zooming up to 400%
-> 
-> Do you have a website or portfolio? Try these tests too.
-> 
-> Note all the things that become harder to do, we will discuss after.
+>
+> _Need about 10 minutes for the exercice and 5 minutes to recap together._
+>
+> - Try using LinkedIn without a mouse or zooming up to 400%
+> - Do you have a website or portfolio? Try these tests too.
+> - Note all the things that become harder to do, we will discuss after.
 
 ### Semantic tags
 
@@ -291,9 +294,9 @@ Native elements/tags have accessibility features built in.
 
 Your browser and other user agents (screen readers for example)  will know what functionality and basic style is needed for them:  
 
-- add  the expected bullet points if you use `<ul>` and `<li>`
+- Add  the expected bullet points if you use `<ul>` and `<li>`
 - `<a>` will be a link
-- text between `<p>` tags will be a paragraph of normal text
+- Text between `<p>` tags will be a paragraph of normal text
 - `<h1>` will a bigger text for heading
 - The code between `<header>` tags will have the role of a banner
 
@@ -312,9 +315,9 @@ For example, this line of code:
 `<a href="https://tink.uk">Tink UK</a>`
 
 The screen reader:
-- identifies the element’s role as “link”
-- uses the text content inside it to give the link an accessible name
-- makes this information available in synthetic speech
+- Identifies the element’s role as “link”
+- Uses the text content inside it to give the link an accessible name
+- Makes this information available in synthetic speech
 
 You hear: **_“Tink UK . Link.”_**
 
@@ -422,12 +425,13 @@ If you are reloading a page where there is an error, **start the title with ‘E
 
 
 > **Exercise 3**:
-> From the page link below, check the title of the next 5 pages when applying for a provisional licence.
-> 
-> To check the title, inspect the code in the `<head>`. If the title is not good,  find a better one:
+>
+> _Need about 10 minutes for the exercice and 10 minutes to recap together._
+>
+> - From the page link below, check the title of the next 5 pages when applying for a provisional licence.
+> - To check the title, inspect the code in the `<head>`. If the title is not good,  find a better one:
 > [www.gov.uk/apply-first-provisional-driving-licence](https://www.gov.uk/apply-first-provisional-driving-licence)
-> 
-> If time, use this link [validator.w3.org](http://validator.w3.org/ )to see if some errors are spotted (Do this on the same pages)
+> - If time, use this link [validator.w3.org](http://validator.w3.org/ )to see if some errors are spotted (Do this on the same pages)
 
 ### Images and other media
 
@@ -535,6 +539,8 @@ We will learn more about aria next time.
 
 > **Exercise 4**:
 >
+> _Need about 10 minutes for the exercice and 10 minutes to recap together._
+>
 > **Check these pages, can you do better?**
 >
 > For example:   any image on this page: [www.digitaloffice.scot](http://www.digitaloffice.scot/)
@@ -547,13 +553,12 @@ We will learn more about aria next time.
 > Check how they dealt with the Guardian logo (inline svg at the top), and the weather icons at the top (look for `<span class=”u-h”>`) -  Do you understand how this is used?
 > 
 > [www.metoffice.gov.uk](https://www.metoffice.gov.uk/)
-> 
 > Enter a place and then check the icons, logo and photos and see what you can find
 > 
 > If you have time, check [Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do)
 > A lot of images won’t have an alt tag (image is a background CSS property) but look around and you might find some good and bad examples
 
-#### Vidoes or audio files
+#### Videos or audio files
 
 Avoid using Autoplay, unless you have warned the user and they can control this.
 
@@ -577,12 +582,12 @@ It should  include names, sounds and descriptions.
 #### Transcripts / audio description
 
 Ideally, **provide a transcript** of your media, so users can either read it or use a screen reader to hear it. 
-- allow users to scan the content and see if they want to engage with it 
-- can be searched by people and search engines so better for SEO
+- Allow users to scan the content and see if they want to engage with it 
+- Can be searched by people and search engines so better for SEO
 
 **Audio descriptions** speak out what is happening in the video so that it’s accessible to people with low vision. There are two ways to create audio descriptions:
-1. a narrator describes all the visual information
-2. add a separate audio track that describes the visual information
+1. A narrator describes all the visual information
+2. Add a separate audio track that describes the visual information
 
 
 #### Example of good practice
@@ -638,17 +643,20 @@ A link at the top of each page that takes users directly to the main content
 ```
 
 > **Exercise 5**:
+>
+> _Need about 10 minutes_
+>
 > **_Quizz not ready yet_** bad and good example of links and buttons use
 
 ### What next?
 
 #### Don't just stop here
 
-- start applying what you have learned in everything you do
-- on twitter or other social media, connect or follow diverse people so you can learn from what they share
-- go to accessibility meet-ups, we will post them on Slack
-- there will be two other courses, about making your code accessible 
-- you won’t get it right every time, but you learn and do better next time
+- Start applying what you have learned in everything you do
+- On twitter or other social media, connect or follow diverse people so you can learn from what they share
+- Go to accessibility meet-ups, we will post them on Slack
+- There will be two other courses, about making your code accessible 
+- You won’t get it right every time, but you learn and do better next time
 
 
 #### Where to learn more
