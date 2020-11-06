@@ -9,8 +9,8 @@ This is the first part of more courses to come about accessibility
 
 ## Projected Time
 
-- Lesson: 60 minutes
-- Exercises: 60 minutes
+- Lesson: 80 minutes
+- Exercises: 40 minutes
 
 ## Prior Knowledge
 
@@ -132,10 +132,11 @@ The main screen readers are:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0xBsR5mIYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ####  People with low vision:
-- might need to magnify and miss some information if you don’t **align your content on the left** or don’t group related items together.
-- need to be able to scroll both vertically and horizontally
-- can get lost in your page
-- might need to change colour contrast on their device or browser
+- Might need to magnify and miss some information if you don’t **align your content on the left** (for left to right languages, otherwise, align on the right)
+- Might also miss some information if you don’t group related items together
+- Need to be able to scroll both vertically and horizontally
+- Can get lost in your page
+- Might need to change colour contrast on their device or browser
 
 ![poster showing do and dont for screen readers](assets/a11y-part1/visually-impaired-screenreader.png)
 ![poster showing do and don't for low vision](assets/a11y-part1/visually-impaired-low-vision.png)
@@ -151,17 +152,20 @@ There are various types:
 - Protanopia: reduce sensitivity to red
 - Tritanopia: reduce sensitivity to blue
 
-For this people, information via colour alone won’t be understood or noticed.
+For these people, information via colour alone won’t be understood or noticed.
 
 For example, an error message in red with no other marks that something is wrong.
 
 ![4 images of tomatoes, normal vision, protanopia, tritanopia and deuteranomaly](assets/a11y-part1/different-types-color-blindness-photos-76.jpg)
 
 > **Exercise 1**:
+>
+> _Need about 10 minutes_
+>
 > Looking at this page:  [Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do) 
 > What do you think could be problematic for:
-> - a person with low vision magnifying their screen by 4 (ctlr + to 400%) 
-> - a colour blind user
+> - A person with low vision magnifying their screen by 4 (ctlr + to 400%) 
+> - A colour blind user
 >
 > Look at the pictures, the contrast, the colours
 >
@@ -172,11 +176,11 @@ For example, an error message in red with no other marks that something is wrong
 
 About **9 million people in the UK who are Deaf or hard of hearing**
 
-- any audio without subtitles or a transcript can be problematic
-- feedback only provided by a sound (bip or alert) won’t do
+- Any audio without subtitles or a transcript can be problematic
+- Feedback only provided by a sound (bip or alert) won’t do
 - English might not be their first language as they might be signing mostly
-- reading can be difficult for them
-- when asked for a preferred contact method, they could be ok to receive text messages but not a phone call
+- Reading can be difficult for them
+- When asked for a preferred contact method, they could be ok to receive text messages but not a phone call
 
 ![poster showing do and dont for deaf or hard of hearing](assets/a11y-part1/deaf-and-hard-of-hearing.png)
 [Posters part of a set available here](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)
@@ -185,10 +189,10 @@ About **9 million people in the UK who are Deaf or hard of hearing**
 It could be a missing limb, or a muscle control problem, spams, tremors or a lack of coordination.
 
 Some potential problems:
-- using a mouse might be difficult
-- drag and drop can be hard to do
-- selecting a link too close to another 
-- tapping a button if it’s too small of too close to another
+- Using a mouse might be difficult
+- Drag and drop can be hard to do
+- Selecting a link too close to another 
+- Tapping a button if it’s too small of too close to another
 
 
 #### Assistive devices
@@ -223,6 +227,9 @@ This can affect the way you process information, your memory, your comprehension
 
 
 > **Exercise 2**:
+>
+> _About 10 minutes_
+>
 > Tab through a website (don’t use the mouse) and **find the phone number to contact someone** [you can use ASDA](https://www.asda.com/) for example.
 > 
 **Tab key** to move forward, **shift + tab** to move backward, **Enter** to select.
@@ -247,7 +254,7 @@ In some cases, because it’s not obvious they have access needs, they can get q
 
 ### Why it’s important to consider
 
-***It can, and it will, affect everyone at some point in life**
+**It can, and it will, affect everyone at some point in life**
 ![impairment can be permanent, temporary or situational, for example, you can have a missing arm, or an arm injury or have a baby in your arm](assets/a11y-part1/inclusive-situational.png)
 
 #### Legal requirements
@@ -264,8 +271,8 @@ Your apps and websites will usually be more performant, (faster loading pages fo
 
 #### Financially
 
-- avoid legal cost
-- no upgrade needed to add the accessibility issues after the release if you have been testing and considering accessibility all along 
+- Avoid legal cost
+- No upgrade needed to add the accessibility issues after the release if you have been testing and considering accessibility all along 
 
 #### Reputation
 
@@ -334,6 +341,9 @@ It can be misinterpreted by screen readers as well.
 **DON'T DO THIS, IT'S HARDER TO READ**
 
 > **Exercise 3**:
+>
+> _About 10 minutes_
+>
 > Post something on social media with a photo, add an alternative text.
 > 
 > Scroll through your timeline and look for:
@@ -386,6 +396,9 @@ Use clear and uncomplicated language with no jargon, if you are using complex te
 Use simple tables without merged or split cells, they are easier to follow.
 
 > **Exercise 4**:
+>
+> _About 10 minutes_
+>
 > [Visit this page](https://bellatory.com/hair/DIY-Haircut-3-Styles)
 > - **Write an alternative text** (alt text for some pictures) on this page
 > - **Check colours contrast** on that page using the link mentioned above: [accessible-colors.com/](https://accessible-colors.com/)
@@ -447,11 +460,11 @@ Help to use your current location instead of having to type it. This is complian
 
 ### What next?
 
-- start applying them in everything you do
-- on twitter or other social media, connect or follow diverse people so you can learn from what they share
-- go to accessibility meet-ups, we will post them on Slack
-- there will be another course, more specific about **making your code accessible as a developer**
-- you won’t get it right every time, but you learn and do better next time
+- Start applying them in everything you do
+- On twitter or other social media, connect or follow diverse people so you can learn from what they share
+- Go to accessibility meet-ups, we will post them on Slack
+- There will be another course, more specific about **making your code accessible as a developer**
+- You won’t get it right every time, but you learn and do better next time
 
 
 
