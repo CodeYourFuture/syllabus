@@ -84,7 +84,7 @@ Some examples of valid edge case are that some names contain punctuation, or som
 
 See [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) for some interesting examples.
 
-Good code should handle all of these cases so that they can't happen - and if they do - they don't make your program crash or stop work.
+Good code should handle all of these cases so that they can't happen - and if they do - they don't make your program crash or stop working.
 
 Validations are used wherever necessary. The code never breaks under any circumstances. Especially under invalid inputs that come from the user end. Regardless of it being a negative, over-sized, invalid format, etc., every input passed should be processed, sanitized before taking it further. Every object is checked for its actual data existence before accessing its properties.
 
