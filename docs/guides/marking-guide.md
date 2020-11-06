@@ -284,8 +284,8 @@ Instead use constants to store your hard coded values - this means the value has
 let WEATHER_ENDPOINT = "https://www.api.com/retrieve";
 let MAX_SCREEN_WIDTH = 1800;
 
-getData(ENDPOINT);
-calculateScreenSize(WIDTH);
+getData(WEATHER_ENDPOINT);
+calculateScreenSize(MAX_SCREEN_WIDTH);
 ```
 
 #### More Reading
