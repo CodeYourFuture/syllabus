@@ -142,6 +142,7 @@ module.exports = {
     Overview: ["react/index", "react/prep"],
     Resources: [
       "guides/react-cheatsheet",
+      "guides/creating-a-react-app",
       {
         type: "link",
         label: "React Challenges",

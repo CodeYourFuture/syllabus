@@ -1,6 +1,6 @@
 ---
 id: creating-a-react-app
-title: Creating a React app
+title: Creating a React App
 ---
 
 The Facebook team behind React have created a tool to help you create and set up React projects. It is called [Create React App](https://create-react-app.dev/). The official documentation is available [here](https://create-react-app.dev/docs/getting-started).
