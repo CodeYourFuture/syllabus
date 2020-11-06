@@ -282,7 +282,7 @@ Instead us constants to store your hard coded values - this means the value has 
 
 ```js
 let ENDPOINT = "https://www.api.com/retrieve";
-let WIDTH = 1800;
+let MAX_SCREEN_WIDTH = 1800;
 
 getData(ENDPOINT);
 calculateScreenSize(WIDTH);
