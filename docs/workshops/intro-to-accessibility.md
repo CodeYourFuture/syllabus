@@ -6,7 +6,7 @@ sidebar_label: Intro To Web Development Accessibility
 
 This is the first part of more courses to come about accessibility.
 
-You can [acccess the second part here](a11y-for-devs-basic).
+You can [access the second part here](a11y-for-devs-basic).
 
 ![Drawing explaining why Accessibility is abreviated a11y, first and last letters and 11 letters in the middle](assets/a11y-part1/a11y-for-CYF.png)
 
