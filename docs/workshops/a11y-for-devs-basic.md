@@ -6,7 +6,7 @@ sidebar_label: Accessibility for Developers - Basic
 
 This is the second part of courses about accessibility.
 
-You can [acccess the first part here](intro-to-accessibility).
+You can [access the first part here](intro-to-accessibility).
 ![Drawing explaining why Accessibility is abreviated a11y, first and last letters and 11 letters in the middle](assets/a11y-part1/a11y-for-CYF.png)
 
 ## Projected Time
@@ -646,7 +646,13 @@ A link at the top of each page that takes users directly to the main content
 >
 > _Need about 10 minutes_
 >
-> **_Quizz not ready yet_** bad and good example of links and buttons use
+> Quiz: Good / bad examples of links and buttons:  [**take the quiz**](https://forms.gle/TQpmH1FstLyZJ55j9)
+>
+> Warning: Ironically, this quiz is not accessible as there is no way to add alt text to images. Sorry!
+>
+> Some of these images might be hard to read for some: there are screenshots of screens with the code for it in a Devtool window on the right.
+> You can see for yourself instead, on the [B&Q homepage](https://www.diy.com/) and on the [Halford homepage](https://www.halfords.com/).
+
 
 ### What next?
 
