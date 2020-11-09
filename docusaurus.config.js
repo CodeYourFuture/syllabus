@@ -227,6 +227,12 @@ module.exports = {
               position: "left",
               className: "outside-link",
             },
+            {
+              href: "https://personaldevelopment.codeyourfuture.io",
+              label: "Personal Development",
+              position: "left",
+              className: "outside-link",
+            },
           ],
         },
         {
