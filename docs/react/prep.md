@@ -22,7 +22,7 @@ Running this command should print out a version number. If this does not work, y
 
 Please follow this setup guide to get a new piece of software installed.
 
-[Installing Create React App](https://docs.codeyourfuture.io/students/guides/creating-a-react-app)
+[Installing Create React App](../../guides/creating-a-react-app)
 
 It is **critical** that this is installed correctly before you arrive at class.
 
