@@ -12,7 +12,7 @@ First, when you get stuck you should search online for the answer to your proble
 
 Good websites to find solutions are
 
-- [StackOverflow](https://stackoverflow.com/w3)
+- [StackOverflow](https://stackoverflow.com/)
   - Be careful that you only use Answers to questions that are quite recent. Programming moves quickly!
 - [W3Schools](https://www.w3schools.com/)
   - These are beginners guides to many web technologies
@@ -36,7 +36,9 @@ Take a while to think carefully about the question you want to ask. Make sure yo
 
 You **must** include as much information as you can in your post to get help. If you just post _"I need help"_ then we will **not** be able to help you.
 
-Here is a great [guide to writing good questions](https://stackoverflow.com/help/how-to-ask)
+A more extensive guide on how to ask a good question can be found here
+
+https://docs.codeyourfuture.io/students/guides/asking-questions
 
 ## 3. If you cannot get an answer from your other Students
 
