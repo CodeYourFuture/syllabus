@@ -86,7 +86,7 @@ Try to use in your solution the constructions you just reviewed: variables, func
 
 Instructions for how to do this can be found here
 
-https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
+https://docs.codeyourfuture.io/course-processes/joining-the-course/getting-setup#visual-studio-code
 
 To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
 

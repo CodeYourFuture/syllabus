@@ -90,8 +90,8 @@ If you cannot find a post already, post a question with the title "**Github Ques
 
 We use this software to write our code. You'll be using it a lot over the next few months!
 
-https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
+https://docs.codeyourfuture.io/course-processes/joining-the-course/getting-setup#visual-studio-code
 
-Is this your first time using Visual Studio code? Watch this video here
+If this your first time using Visual Studio code? Watch this video here
 
 https://www.youtube.com/watch?v=S320N3sxinE

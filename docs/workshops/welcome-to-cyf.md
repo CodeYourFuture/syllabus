@@ -24,7 +24,7 @@ sidebar_label: Welcome to CYF
     [Stack Overflow](https://insights.stackoverflow.com/survey/2019).
     Pay particular attention to the technologies we'll be teaching you
     (JavaScript, React, NodeJS)
-- [House Rules](https://docs.codeyourfuture.io/students/house-rules)
+- [House Rules](https://docs.codeyourfuture.io/organisation/agreements-and-rules/house-rules)
   - How we work?
   - How we treat each other?
 - Standup
