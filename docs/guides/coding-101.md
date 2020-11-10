@@ -124,7 +124,7 @@ Operators have the same precedence as in algebra: `*` and `/` have higher
 precedence than `+` and `-`.
 
 - **TODO:** Do math exercise
-- **TODO:** What about Infinity, Math.PI, IEEE floating point bullshit, NaN
+- **TODO:** What about Infinity, Math.PI, IEEE floating points, NaN
 
 ### Strings
 
