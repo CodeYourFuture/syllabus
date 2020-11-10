@@ -4,29 +4,43 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## In Class Exercises
+## 1) In Class Exercises
 
 If you haven't already, complete the in-class exercises on your `pokedex` app
 
-## CYF Hotel
+## 2) CYF Hotel Challenges (3 hours)
 
-Complete all of the lesson 2 exercises in the [cyf-hotel-react](https://github.com/CodeYourFuture/cyf-hotel-react#lesson-1) project
+Complete all of the Lesson 2 exercises in the `cyf-hotel-react` project
 
-## Challenges
+https://github.com/CodeYourFuture/cyf-hotel-react#lesson-2
 
-The key way to get better at React is to build lots of small projects and build up your knowledge. 
+## 3) High Score Table Project - Part 2 (7 Hours)
 
-You can see a full list of the challenges [here](https://github.com/CodeYourFuture/cyf-react-challenges/)
+The key way to get better at React is to build lots of small projects and build up your knowledge.
 
 Suitable projects for you to work on right now are:
 
-- [High Score Table](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-high-score-tables) - All levels
-- [Countries](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries) - Level 2 and Higher
-- [Baby Names Picker](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker) - Level 2 and Higher
+- High Score Table - All Levels
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-high-score-tables) - All levels
 
 You should also choose any of the other projects that sound interesting to you!
 
-## Prepare for the next class
+## 4) (Optional) More Challenges (10 hours+)
+
+You can see a full list of the challenges here:
+
+https://github.com/CodeYourFuture/cyf-react-challenges/
+
+Suitable projects for you to work on right now are:
+
+- Baby Names Picker - Level 2
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker
+- Countries - Level 2
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries
+- Job Listing - Level 2
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing
+
+## 5) Prepare for the next class
 
 1. Finish reading the official [React Tutorial](https://reactjs.org/tutorial/tutorial.html)
    - You can ignore anything that uses `Class Components`. This is any code that includes `extends React.Component`

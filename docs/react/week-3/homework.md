@@ -4,24 +4,56 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## In Class Exercises
+## 1) In Class Exercises
 
 If you haven't already, complete the in-class exercises on your `pokedex` app
 
-## CYF Hotel
+## 2) CYF Hotel (5 hours)
 
-Complete all of the lesson 3 exercises in the [cyf-hotel-react](https://github.com/CodeYourFuture/cyf-hotel-react#lesson-3) project
+Complete all of the Lesson 3 exercises in the `cyf-hotel-react` project
 
-Try to complete the [Stretch Goal exercises](https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals) in the cyf-hotel-react homework
+https://github.com/CodeYourFuture/cyf-hotel-react#lesson-3
 
-## Challenges
+Try to complete the Stretch Goal exercises in the 1cyf-hotel-react1 homework
 
-The key way to get better at React is to build lots of small projects and build up your knowledge. 
+https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals
+
+## 3) Challenges (15 hours+)
+
+The key way to get better at React is to build lots of small projects and build up your knowledge.
 
 You can see a full list of the challenges [here](https://github.com/CodeYourFuture/cyf-react-challenges/)
 
-Continue to work on your projects from previous weeks. 
+Continue to work on your projects from previous weeks. Completes as many of the projects as you can before the next lesson.
+
+- Baby Names Picker - All Levels
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker
+- Countries - All levels
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries
+- Job Listing - All levels
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing
 
 If you want to work on a new project you could start working on
 
-- [TFL Lines Challenge](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-tfl-lines)
+- TFL Lines Challenge
+  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-tfl-lines
+
+## 4) Prepare for the next class
+
+Next week we'll be starting Node which means we'll be be buildings APIs
+
+- Watch all of the videos on this webpage
+  - https://shiffman.net/a2z/server-node/
+
+This includes the following videos
+
+- What is Node?
+  - https://www.youtube.com/watch?v=RF5_MPSNAtU
+- What is NPM?
+  - https://www.youtube.com/watch?v=s70-Vsud9Vk
+- Express Basics
+  - https://www.youtube.com/watch?v=6oiabY1xpBo
+- Routes with Express
+  - https://www.youtube.com/watch?v=e4qKBkwwkNg
+- Routes with Parameters
+  - https://www.youtube.com/watch?v=oMhAd864bBc
