@@ -16,17 +16,73 @@ sidebar_label: Lesson
   - Intructor led implementation (~10 mins)
 - The expectation is that the whole of week 1 and week 2 was not fully completed by this point.
 
+---
 
 ## Setup
 
-Learners should have already created an [Atlas account](https://www.mongodb.com/cloud/atlas), have [Compass](https://www.mongodb.com/products/compass) installed. If not you will need to allow time for them to get set up.
+### Create an atlas account
 
-<!--
-Update this to be a more prescriptive set of instructions that take the students through the step steps
--->
+Atlas is a MongoDB service in the cloud. It's easy to get started and free to use for hobby level projects.
 
+1. Navigate to https://www.mongodb.com/cloud/atlas
+1. Click on "Start free"
+1. Either "Sign up with Google" or fill out the registration form and "Get started free"
+  > **NB**: _if you chose to use Google, you will need to click on "Link My Accounts", then enter a password_
 
-Starting with an empty database will make it easier for you to get started. You should ensure that the first endpoint you tackle is CREATE, otherwise there will be nothing to display!
+### Create a new cluster
+
+A cluster is a collection of databases that work together to ensure data is continuously backed-up. You can store several databases on a cluster.
+
+1. Click "Build a cluster"
+1. Choose "Shared Clusters" (the free one)
+1. You will set a settings page, you can leave everything on the default setting, except the region: choose the one closest to you. _In the UK that's Ireland (eu-west-1)_
+1. Click "Create cluster". _It will take several minutes to initialise_
+
+### Create a user
+
+In order to connect to your database you will need a user. This is not the same as a user account, but rather a set of credentials you use to access your database programatically.
+
+1. Click "Database Access" on the left hand side panel
+1. Click "+ Add new database user" on the right hand side
+1. Enter a username and password
+    > **NB:** Make a note of these, you will need them shortly
+1. Click "Clusters" to return to the main screen
+1. Click "Connect" on the main screen
+1. Choose "Connect using MongoDB Compass"
+1. Copy the connection string, and replace the username and password with the ones you just created
+    > **NB:** It should look something like this:
+    `mongodb+srv://cyf_user:myawesomepassword@cluster0.cqawy.mongodb.net/test`
+
+### Download Compass
+
+Compass is an app for managing your database. It's useful to help you visualise the data you have stored there.
+
+1. Navigate to https://www.mongodb.com/products/compass
+1. Click "Try it now"
+1. Click "Download" on the right hand side
+1. Once the installer has downloaded, open it and follow your system's normal installation procedure.
+1. Open Compass
+1. Paste the connection string from Atlas, then click "Connect"
+
+> **NB:** If you are unable to connect you can reset you password in Atlas. Click "Database Access" to find your user, then "Edit" to update their password.
+
+> Don't forget to check you have added your username and password to the connection string
+
+### Create a new database
+
+Now that you are all set up you can create a database using Compass, and add some data
+
+1. Click "Create database"
+1. Choose a name for the database, and a name for your first collection
+1. Click on the database you just created
+1. Click on the collection you just created
+1. Click "Add data" > "Insert Document"
+
+> Starting with an empty database will make it easier for to work through the lesson, so once you are comfortable with the interface, you should create a new database.
+
+> Make sure that the first endpoint you tackle is CREATE, otherwise there will be nothing to display!
+
+---
 
 ## CRUD Recap
 
