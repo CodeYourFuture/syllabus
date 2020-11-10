@@ -14,7 +14,7 @@ Complete all of the Lesson 3 exercises in the `cyf-hotel-react` project
 
 https://github.com/CodeYourFuture/cyf-hotel-react#lesson-3
 
-Try to complete the Stretch Goal exercises in the 1cyf-hotel-react1 homework
+Try to complete the Stretch Goal exercises in the `cyf-hotel-react` homework
 
 https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals
 
