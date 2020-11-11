@@ -40,7 +40,7 @@ https://syllabus.codeyourfuture.io/guides/creating-a-react-app#deployment-with-n
 
 Once it is deployed, follow these instructions to change your new site's name to `cyf-USERNAME-hotel-react`.netlify.app (where `USERNAME` is YOUR Github username):
 
-https://github.com/CodeYourFuture/syllabus/blob/master/others/deployment/1-for-html-module/instructions-for-automatic-deployment-with-netlify-and-github.md#changing-your-site-name
+https://syllabus.codeyourfuture.io/workshops/deployment/workshop/cheatsheet#rename-your-site
 
 Check that your site is visible at: https://cyf-[[your-github-username]]-hotel-react.netlify.app/.
 
