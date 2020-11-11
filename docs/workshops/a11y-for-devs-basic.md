@@ -18,7 +18,7 @@ You can [access the first part here](intro-to-accessibility).
 
 Here are areas that you will need to have before starting this training. Students should have
 
-- Need to know HTML, CSS and the DOM - ideally, should also be familair with Chrome Devtools
+- Need to know HTML, CSS and the DOM - ideally, should also be familiar with Chrome Devtools
 
 ## Motivation
 

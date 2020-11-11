@@ -47,6 +47,10 @@ Participants will be able to:
 - Recall the 3 conformance levels and which one to aim for
 - Identify situations where respecting the guidelines is not enough for a good user experience
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l0xBsR5mIYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Presentation
 
 You can find the slides for this presentation [here](https://docs.google.com/presentation/d/1CY7r_r8Zs6evWuQpGZK_E2zvXqNWbEEd5x5n1OhE6Rg/edit#slide=id.g8cddb4d8db_0_1).
