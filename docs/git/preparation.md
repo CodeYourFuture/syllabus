@@ -44,7 +44,7 @@ Github Desktop should now be installed. If any step of this didn't work, please 
 
 Sign in to Github Desktop with your Github account.
 
-1. Run Github Desktop (TODO: Instructions on how to find it)
+1. Run Github Desktop
 2. Click "Sign in to GitHub.com"
 3. Go through the steps to sign in.
 
