@@ -273,7 +273,7 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 
 ## Homework
 
-All of the homework for this week can be found [here](/homework).
+All of the homework for this week can be found [here](./homework).
 
 ## Feedback
 
