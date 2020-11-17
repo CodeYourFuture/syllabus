@@ -56,13 +56,20 @@ module.exports = {
               className: "outside-link",
             },
             {
-              to: "html-css/index",
-              label: "HTML-CSS",
+              href:
+                "https://personaldevelopment.codeyourfuture.io/sessions/induction-week",
+              label: "Induction",
               position: "left",
+              className: "outside-link",
             },
             {
               to: "git/overview",
               label: "Git and Github",
+              position: "left",
+            },
+            {
+              to: "html-css/index",
+              label: "HTML-CSS",
               position: "left",
             },
             {
