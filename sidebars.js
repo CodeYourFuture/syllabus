@@ -40,13 +40,13 @@ module.exports = {
     Challenges: [
       {
         type: "link",
-        label: "CSS Challenge",
-        href: "https://github.com/CodeYourFuture/css-challenge",
+        label: "HTML/CSS Challenges",
+        href: "https://github.com/CodeYourFuture/HTML-CSS-Challenges",
       },
     ],
   },
   JavaScriptCore1: {
-    Overview: ["js-core-1/index"],
+    Overview: ["js-core-1/index", "js-core-1/preparation"],
     "Lesson 1": [
       "js-core-1/week-1/lesson",
       "js-core-1/week-1/homework",
@@ -145,6 +145,7 @@ module.exports = {
     Overview: ["react/index", "react/prep"],
     Resources: [
       "guides/react-cheatsheet",
+      "guides/creating-a-react-app",
       {
         type: "link",
         label: "React Challenges",
@@ -186,7 +187,7 @@ module.exports = {
     ],
   },
   Node: {
-    Overview: ["node/index"],
+    Overview: ["node/index", "node/preparation"],
     "Lesson 1": [
       "node/week-1/lesson",
       "node/week-1/homework",

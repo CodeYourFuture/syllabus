@@ -44,7 +44,7 @@ Github Desktop should now be installed. If any step of this didn't work, please 
 
 Sign in to Github Desktop with your Github account.
 
-1. Run Github Desktop (TODO: Instructions on how to find it)
+1. Run Github Desktop
 2. Click "Sign in to GitHub.com"
 3. Go through the steps to sign in.
 
@@ -90,8 +90,8 @@ If you cannot find a post already, post a question with the title "**Github Ques
 
 We use this software to write our code. You'll be using it a lot over the next few months!
 
-https://docs.codeyourfuture.io/students/getting-setup#visual-studio-code
+https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#visual-studio-code
 
-Is this your first time using Visual Studio code? Watch this video here
+If this your first time using Visual Studio code? Watch this video here
 
 https://www.youtube.com/watch?v=S320N3sxinE

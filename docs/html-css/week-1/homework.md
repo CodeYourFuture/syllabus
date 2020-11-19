@@ -14,13 +14,15 @@ http://learn.shayhowe.com/advanced-html-css/complex-selectors/
 
 ### 1.2) CSS Diner (3 hours)
 
-Play this game and complete it
+This online game will help you learn Advanced CSS Selectors.
+
+You should complete every level before moving onto the next part of the homework.
 
 https://flukeout.github.io/
 
 ## 2) HTML Reading (1 hour)
 
-Read this page on HTML syntax:
+Read this page on HTML syntax. It gives you a good overview of how HTML works inside a website.
 
 https://marksheet.io/html-syntax.html
 

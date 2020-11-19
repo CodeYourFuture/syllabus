@@ -34,6 +34,14 @@ By the end of this class, you should be able to:
 
 ---
 
+## Before you start
+
+Before you arrive at class you **must** have completed the following setup work.
+
+[JavaScript Preparation](../preparation)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
+
 ## Prerequisites
 
 1. Access to a Linux console (either on Mac, Ubuntu or by using Ubuntu WSL for Windows 10)

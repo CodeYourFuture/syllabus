@@ -56,6 +56,18 @@ module.exports = {
               className: "outside-link",
             },
             {
+              href:
+                "https://personaldevelopment.codeyourfuture.io/sessions/induction-week",
+              label: "Induction",
+              position: "left",
+              className: "outside-link",
+            },
+            {
+              to: "git/overview",
+              label: "Git and Github",
+              position: "left",
+            },
+            {
               to: "html-css/index",
               label: "HTML-CSS",
               position: "left",
@@ -175,6 +187,11 @@ module.exports = {
           position: "left",
           items: [
             {
+              to: "guides/marking-guide",
+              label: "Marking Guide",
+              position: "left",
+            },
+            {
               to: "guides/coding-standards",
               label: "Coding Standards",
               position: "left",
@@ -199,6 +216,11 @@ module.exports = {
               label: "Useful Links",
               position: "left",
             },
+            {
+              to: "guides/creating-a-react-app",
+              label: "Creating a React App",
+              position: "left",
+            },
           ],
         },
         {
@@ -214,6 +236,12 @@ module.exports = {
             {
               href: "https://docs.codeyourfuture.io",
               label: "Organisation Documentation",
+              position: "left",
+              className: "outside-link",
+            },
+            {
+              href: "https://personaldevelopment.codeyourfuture.io",
+              label: "Personal Development",
               position: "left",
               className: "outside-link",
             },

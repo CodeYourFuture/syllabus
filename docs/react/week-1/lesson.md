@@ -113,9 +113,9 @@ As you can see, this is much easier to read than both the straight `React.create
 
 ## Let's create a React app
 
-| Exercise C (estimate: 10 min)                                                                                                                                     |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. If you haven't already, follow [the instructions to create a React app](https://docs.codeyourfuture.io/students/guides/creating-a-react-app) called `pokedex`. |
+| Exercise C (estimate: 10 min)                                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------------------ |
+| 1. If you haven't already, follow [the instructions to create a React app](../../guides/creating-a-react-app) called `pokedex`. |
 
 ### What got created?
 

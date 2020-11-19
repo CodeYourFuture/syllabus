@@ -28,7 +28,7 @@ Examples for the project called `photo-gallery`
 
 (Jon's github username is textbook)
 
-# html page titles
+## HTML Page Titles
 
 For your html page titles you have a choice:
 
@@ -44,7 +44,7 @@ At least include a (consistent!) name / handle in the title which your teacher w
 
 `<title>Neill's Fantastic Cake Store | main</title>`
 
-# Why?
+### Why?
 
 If teachers and volunteers can find your site more quickly _they can spend more time giving you valuable feedback_!
 
@@ -52,7 +52,7 @@ There are a LOT of students, and a lot of projects, and it saves volunteers time
 
 Imagine a volunteer has 10 browser tabs open or is looking for your site in their browser history - they can find it really quickly if you follow the naming conventions above.
 
-### I don't like this!
+#### I don't like this!
 
 Remember:
 
@@ -61,13 +61,13 @@ Remember:
 
 (If you really don't like this, talk to us!)
 
-# Mentor Notes:
+## Mentor Notes
 
 - These conventions are being trialled in London to make it easier for volunteers to handle 40 students. If you find them too draconian for your city, OK! Let us know!
 - Doesn't this help students to cheat? Yes
 - Why github username? This is globally unique. There will be more collisions when people try to use their given name.
 - The `cyf-` prefix also helps avoid collisions with other netlify-hosted projects AND assists autocompletion in the reviewer's browser, etc.
 
-# See also:
+## See also
 
 - [Consistency and anonymity in online account names](https://github.com/CodeYourFuture/syllabus/wiki/Consistency-and-anonymity-in-online-account-names) - for naming your accounts on slack, github, glitch, google classroom, etc.

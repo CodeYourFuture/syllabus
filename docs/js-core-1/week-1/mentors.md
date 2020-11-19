@@ -8,6 +8,14 @@ Want to make a change to this week but don't have the time? Click [here](https:/
 
 Want to report a bug in this week? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=bug&template=bug-report.md&title=)
 
+## Before Teaching this Module
+
+Before you start teaching this module you must inform all students that there is preparation work to do.
+
+You can find the preparation material [here](../preparation).
+
+Be sure to assign all of the tasks to your students several days before you aim to teach.
+
 ## Presentations
 
 - [Week 1 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=10rob7Nw6mEpA0h1wEZueVIF7doBZqlfY2twQEYlIse4)

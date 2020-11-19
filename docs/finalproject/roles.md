@@ -10,7 +10,7 @@ These roles should in total create a [balanced team](https://www.youtube.com/wat
 
 ## Volunteer Roles
 
-### Project Manager // Scrum Master
+### Product Manager // Scrum Master
 
 **Time Commitment**: One day a week plus ~4 hours during the week
 
