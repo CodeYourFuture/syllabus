@@ -150,9 +150,10 @@ Another  tool to get an accessible colour palette: [toolness.github.io/accessibl
 
 Make sure the colours contrast also work:
 
-- In dark mode if you have one on your website/app
-- For buttons on ‘hover’, but also for ‘active’ and ‘visited’ links 
-- Focus states should be contrasted enough too
+- In **dark mode** if you have one on your website/app
+- For **buttons** on ‘hover’, but also for ‘active’ and ‘visited’ links 
+- **Focus states** should be contrasted enough too
+- **Selected text** (some people use it to follow what they read)
 
 Don’t convey something using colour only (error message for example)
 
