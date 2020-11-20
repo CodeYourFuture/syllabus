@@ -16,6 +16,14 @@ You can find the preparation material [here](../preparation).
 
 Be sure to assign all of the tasks to your students several days before you aim to teach.
 
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this question you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-js1](https://codeyourfuture.slack.com/archives/C7RBFFKUK)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Presentations
 
 - [Week 1 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=10rob7Nw6mEpA0h1wEZueVIF7doBZqlfY2twQEYlIse4)

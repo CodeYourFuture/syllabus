@@ -4,6 +4,14 @@ title: Instructor Notes
 sidebar_label: Instructor Notes
 ---
 
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this question you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-node](https://codeyourfuture.slack.com/archives/C76GQDRH9)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Resources
 
 - [Quiz - React Week 2 - 28/05/2020](https://docs.google.com/forms/d/e/1FAIpQLSf3NisqE5bfJyMXm41W_kW9oSLQVUfaatvHS-gNTh-QXbjWJQ/viewform)

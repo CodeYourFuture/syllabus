@@ -16,6 +16,14 @@ If you are teaching this class in the coming weeks you **must** instruct your st
 
 If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
 
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this question you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-git](https://codeyourfuture.slack.com/archives/C01DANTAGRK)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Resources
 
 ### Slides

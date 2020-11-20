@@ -10,7 +10,13 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ---
 
-This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this question you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-html-css](https://codeyourfuture.slack.com/archives/CEFGER48H)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
 ## Resources
 
@@ -27,13 +33,17 @@ This outline provides tips to help mentors guide students to the best answers or
 - [HTML/CSS Quick Quiz - 18/04/2020](https://drive.google.com/open?id=1x-5GVJMeSe-gauVC6rDOBAa--ltZJNPd5pE095zYmC4)
   - Created by Manchester and Anthony Tran
 
-## Open-source HTML/CSS Frameworks
+## Overview
+
+This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+
+### Open-source HTML/CSS Frameworks
 
 Using the [Navbar color schemes](https://getbootstrap.com/docs/4.0/components/navbar/#color-schemes), use the browser's dev tools to show how changing the navbar classes in the example website changes the look based on Bootstrap.
 
 Using the [Card](https://getbootstrap.com/docs/4.0/components/card/#example) example, try to illustrate the way tags are nested inside of each other in a specific hierarchy. Emphasise the practice of paying close attention to documentation and picking up on minor details.
 
-## Personal Websites
+### Personal Websites
 
 The goal of this exercise is to identify students who are struggling to keep up. Try to identify where a student is struggling:
 
@@ -46,7 +56,7 @@ If you find a student who is struggling with any of these basics, try to work th
 
 There will be several students who have the basics down. If they do, push them on some of the higher-level abstract concepts, like re-usable HTML/CSS components, and using CSS specificity cleverly (eg - basic and primary buttons). Beyond that, let them read up on HTML Forms (links in the resources), do some of the advanced suggestions in the syllabus, or challenge them to read and implement BEM naming syntax.
 
-## Retrospective
+### Retrospective
 
 Try to use a tool such as [MetroRetro](https://metroretro.io/) to facilitate this discussion.
 
