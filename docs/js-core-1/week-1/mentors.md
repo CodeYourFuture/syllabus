@@ -18,7 +18,7 @@ Be sure to assign all of the tasks to your students several days before you aim 
 
 ## Questions and Help
 
-We highly recommend joining the relevent Slack Channel for this module. In this question you can ask questions, get advice from previous teachers and discuss lesson content.
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
 
 [cyf-module-js1](https://codeyourfuture.slack.com/archives/C7RBFFKUK)
 
