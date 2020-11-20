@@ -80,7 +80,8 @@ You should reserve 10-15 minutes at the end of the lesson to run through the fol
 
 ##### Question 1
 
-Possible answers: - To prevent bugs being released into production and having negative consequences on users - such as with Therac-25. - Because finding bugs is harder the more complex the code gets. It is better to test little and often.
+- To prevent bugs being released into production and having negative consequences on users - such as with Therac-25.
+- Because finding bugs is harder the more complex the code gets. It is better to test little and often.
 
 ##### Question 2
 
