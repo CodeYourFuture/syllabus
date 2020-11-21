@@ -52,7 +52,7 @@ Further discussion can take place in:
 
 ### Structure
 
-This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound.
+This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound. However, the teacher-led demos lend themselves to being completed without much interruption - just seeing the whole flow end-to-end will answer many of the questions that come up, and stopping to take questions will make this less clear, so after starting a demo, perhaps try to finish it before taking questions.
 
 First, we try to give the learners experience of the problems Git solves before introducing Git as a solution, through real-world non-coding examples.
 
