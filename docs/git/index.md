@@ -70,19 +70,7 @@ Try to find all of the differences between these three documents. Can you work o
 
 You probably found it hard to see all of the differences (some were really small, like adding or removing a comma!), and non-obvious which is the most complete version!
 
-### Exercise 2 (10 minutes)
-
-Get into groups of three. One of your group should make a shopping list of 5 items, and send the list to the group.
-
-The other two people in the group should each add a few items to the list, and also remove one item, and then send back the whole new list to the person who made the list.
-
-The first person should merge the new lists, so that there is one shopping list. The items people removed should not be in the final list.
-
-Report back to the class what your experience was like. What was easy? What was frustrating?
-
 ## How does Git help?
-
-Let's start by taking the shopping list problem, and applying it to our classes.
 
 Imagine your teacher wanted everyone in the class to answer three questions and to send back the answers. What capabilities would we need in order to be able to do that?
 
@@ -110,7 +98,7 @@ Let's walk through one of the sections together: "I want to get code from a repo
 
 We'll use it in our next exercise:
 
-### Exercise 3 (15 minutes)
+### Exercise 2 (15 minutes)
 
 Volunteers from Code Your Future have already pushed an example repository, so you're going to try to clone it from GitHub onto your computer.
 
@@ -148,7 +136,7 @@ When we're happy with our change, we can press the "Commit to main" button. That
 
 This doesn't copy our change to any other computer - it won't go on GitHub - commiting is something we just do on our computer.
 
-### Exercise 4 (10 minutes)
+### Exercise 3 (10 minutes)
 
 Try doing what your teacher just did:
 
@@ -214,7 +202,7 @@ If you're happy, press the "Create pull request" button. Fill in the details in 
 
 Now there's a pull request that volunteers can look at! They can see who made the pull request, and see all the changes you've made.
 
-### Exercise 5 (15 minutes)
+### Exercise 4 (15 minutes)
 
 Make yourself a pull request with your change!
 
@@ -223,7 +211,7 @@ Make yourself a pull request with your change!
 
 If you get stuck, check out the [cheatsheet](./cheatsheet) :)
 
-### Exercise 6 (5 minutes)
+### Exercise 5 (5 minutes)
 
 There's another file in the repository you've cloned, `other-file.txt`.
 
@@ -283,14 +271,14 @@ You may notice that your commits all have messages like "Update file.txt", where
 
 Commit messages can be really useful to understand what a change did without having to read the whole thing. Let's try out an exercise to help us understand this:
 
-### Exercise 7 (10 minutes)
+### Exercise 6 (10 minutes)
 
 1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the [cheatsheet](./cheatsheet)
 2. Have a read of the file called `README.md`. See if you can find a problem in the file.
 3. Look through the history in GitHub Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
-### Exercise 8 (5 minutes)
+### Exercise 7 (5 minutes)
 
 Remember earlier we looked at three blog posts? They're actually in a repository on GitHub! https://github.com/CodeYourFuture/git-draft-blog-post-example
 
