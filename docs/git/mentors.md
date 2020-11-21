@@ -36,7 +36,7 @@ The aims are:
 2. To set the learners up so that in the coming weeks they can practice basic Git workflows via their ordinary homework.
 3. To see that Git maybe has _some_ use to them for now (via "checkpoint" commits), and encourage frequent commits.
 
-We've purposefully left out anything which may require resolving merge conflicts (merging, pulling after an initial build, reverting), as well as branches in general. These will be introduced later in the course, when they're actively useful for the learners. For now, they don't _need_ them, so we won't overload them.
+We've purposefully left out anything which may require resolving merge conflicts (merging, pulling after an initial clone, reverting), as well as branches in general. These will be introduced later in the course, when they're actively useful for the learners. For now, they don't _need_ them, so we won't overload them.
 
 We also intentionally opted to avoid the command line. This was much debated, but the consensus was that `git` is not the most friendly command line tool for your first experience, and Git is complicated and scary enough without loading in more learning alongside it. Again, `git` will come later, after the learners have used the command line for something else.
 
