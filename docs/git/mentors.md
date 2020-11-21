@@ -16,6 +16,10 @@ If you are teaching this class in the coming weeks you **must** instruct your st
 
 If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
 
+## IMPORTANT - Setup needed For Teacher
+
+One of the teacher-led demos in this class relies on the user not having permission to push to CodeYourFuture's GitHub repositories. As a teacher, you probably have access to push these repositories, and so your demo will not show all of the steps it's meant to show. We recommend using a different GitHub account for this class - if you don't have a second account, and don't want to set one up, come chat in `#cyf-module-git` - we can set up a shared one you can use.
+
 ## Resources
 
 ### Slides
