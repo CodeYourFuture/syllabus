@@ -259,9 +259,17 @@ Finally, let's look at how we get hold of the `count` variable:
 const [count, setCount] = useState(0);
 ```
 
-To fully understand this bit of code, we first have to understand _destructuring_. Let's look at [this blog post by Wes Bos about array destructuring](https://github.com/wesbos/es6-articles/blob/master/19%20-%20Destructing%20Arrays.md).
+If you remember back to [JS Core 3 Week 3](https://syllabus.codeyourfuture.io/js-core-3/week-3/lesson#destructuring-syntax), we covered _destructuring_. As a reminder, you can assign variables to parts of an array with destructuring:
 
-Now we can understand that `useState` is returning an array, with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
+```js
+let [firstWord, secondWord, thirdWord, fourthWord] = ["Hello", "Code", "Your", "Future"];
+console.log(firstWord) // Prints "Hello"
+console.log(secondWord) // Prints "Code"
+console.log(thirdWord) // Prints "Your"
+console.log(fourthWord) // Prints "Future"
+```
+
+In React, `useState` will **always** return an array with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
 
 :::tip
 Follow the `useState` naming convention.
