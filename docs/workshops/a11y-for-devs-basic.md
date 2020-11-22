@@ -186,9 +186,9 @@ There is a media query you can use to check this `@media (prefers-reduce-motion:
 
 #### More on motion
 
-[alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/)
+[Designing safer web animation for motion sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity/) (Alisapart)
 
-[developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders)
+[Seizure disorders](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Seizure_disorders) (By Mozilla.org for developers)
 
 Video from Manuel Matuzovic: Writing even more CSS with Accessibility in mind (screenshot above comes from that video):
 
@@ -200,7 +200,7 @@ Video from Manuel Matuzovic: Writing even more CSS with Accessibility in mind (s
 >
 > Check this website and look for the various accessibility problems you can spot:
 > 
-> [www.digitaloffice.scot](http://www.digitaloffice.scot/)
+> [digitaloffice.scot](http://www.digitaloffice.scot/)
 > 
 > Remember: 
 > - Font size, line length and height, text alignment, 
@@ -431,7 +431,7 @@ If you are reloading a page where there is an error, **start the title with ‘E
 >
 > - From the page link below, check the title of the next 5 pages when applying for a provisional licence.
 > - To check the title, inspect the code in the `<head>`. If the title is not good,  find a better one:
-> [www.gov.uk/apply-first-provisional-driving-licence](https://www.gov.uk/apply-first-provisional-driving-licence)
+> [Applying for a provisional driving licence](https://www.gov.uk/apply-first-provisional-driving-licence)
 > - If time, use this link [validator.w3.org](http://validator.w3.org/ )to see if some errors are spotted (Do this on the same pages)
 
 ### Images and other media
@@ -461,7 +461,7 @@ It’s also important for more effective  SEO.
 #### Diagram, icons and logos
 
 For **a diagram**, you might want to have a textual alternative available and provide a link to it as well as a shorter description in the alternative text.
-More here: [www.w3.org/WAI/tutorials/images/complex](https://www.w3.org/WAI/tutorials/images/complex/)
+More here: [w3.org/WAI/tutorials/images/complex](https://www.w3.org/WAI/tutorials/images/complex/)
 
 For **icons and logos**, depending on their use, you might want to just say what they do. 
 For example: if the top left logo of a website takes the user back to the homepage, then your alt text could be: “go to homepage” instead of describing the logo.
@@ -544,16 +544,16 @@ We will learn more about aria next time.
 >
 > **Check these pages, can you do better?**
 >
-> For example:   any image on this page: [www.digitaloffice.scot](http://www.digitaloffice.scot/)
+> For example:   any image on this page: [digitaloffice.scot](http://www.digitaloffice.scot/)
 > `<img alt=”image” ….>`
 > 
-> Good example:  [www.bbc.co.uk](https://www.bbc.co.uk/)
+> Good example:  [bbc.co.uk](https://www.bbc.co.uk/)
 > 
-> Bad example:  [www.theguardian.com](https://www.theguardian.com)
+> Bad example:  [theguardian.com](https://www.theguardian.com)
 > Could not find alt text for images.
 > Check how they dealt with the Guardian logo (inline svg at the top), and the weather icons at the top (look for `<span class=”u-h”>`) -  Do you understand how this is used?
 > 
-> [www.metoffice.gov.uk](https://www.metoffice.gov.uk/)
+> [metoffice.gov.uk](https://www.metoffice.gov.uk/)
 > Enter a place and then check the icons, logo and photos and see what you can find
 > 
 > If you have time, check [Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do)
@@ -677,11 +677,11 @@ A link at the top of each page that takes users directly to the main content
 
 
 **Good checklist with links to WCAG resources**:
-[www.wuhcag.com/wcag-checklist](https://www.wuhcag.com/wcag-checklist/)
+- [wuhcag.com/wcag-checklist](https://www.wuhcag.com/wcag-checklist/)
 
 **GOVUK**
-[www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
-[www.gov.uk/service-manual/technology/using-progressive-enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
+- [gov.uk/service-manual/technology/accessibility-for-developers-an-introduction](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
+- [gov.uk/service-manual/technology/using-progressive-enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
 
 [Udacity has a great course](https://www.udacity.com/course/web-accessibility--ud891) that lets you try some examples and tasks 
 
@@ -691,13 +691,13 @@ A link at the top of each page that takes users directly to the main content
 - Voice Assistant (Android devices - built in)
 
 **More resources**
-[Writing CSS](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
-[Writing even more CSS with accessibility in mind](https://www.matuzo.at/blog/writing-even-more-css-with-accessibility-in-mind-progressive-enhancement/)
-[Writing HTML](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412)
+- [Writing CSS](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
+- [Writing even more CSS with accessibility in mind](https://www.matuzo.at/blog/writing-even-more-css-with-accessibility-in-mind-progressive-enhancement/)
+- [Writing HTML](https://medium.com/alistapart/writing-html-with-accessibility-in-mind-a62026493412)
 
 
 **Guidelines for developers on mobile devices**
-[support.google.com/accessibility/android/answer/6376570](https://support.google.com/accessibility/android/answer/6376570)
-[developer.apple.com/accessibility/ios](https://developer.apple.com/accessibility/ios/)
+- [support.google.com/accessibility/android/answer/6376570](https://support.google.com/accessibility/android/answer/6376570)
+- [developer.apple.com/accessibility/ios](https://developer.apple.com/accessibility/ios/)
 
 
