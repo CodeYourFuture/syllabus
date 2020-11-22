@@ -76,11 +76,11 @@ Try using your phone with the screen reader function.
 
 Read about using a switch
 
-[www.24a11y.com/2018/i-used-a-switch-control-for-a-day/](https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/)
+[24a11y.com/2018/i-used-a-switch-control-for-a-day](https://www.24a11y.com/2018/i-used-a-switch-control-for-a-day/)
 
 Watch some of the videos on this page to understand more about how people with disabilities use tech.
 
-[axesslab.com/tech-youtubers/](https://axesslab.com/tech-youtubers/)
+[axesslab.com/tech-youtubers](https://axesslab.com/tech-youtubers/)
 
 ---
 
@@ -378,7 +378,7 @@ You never know who will read a document, so make it accessible. It’s better fo
 
 Consider the colours you use to make sure the contrast is good enough between the text and the background.
 
-You can use this tool for example to check: [accessible-colors.com/](https://accessible-colors.com/)
+You can use this tool for example to check: [accessible-colors.com](https://accessible-colors.com/)
 
 **Remember to never use colour only to convey something.**
 
@@ -407,8 +407,8 @@ Use simple tables without merged or split cells, they are easier to follow.
 > [Visit this page](https://bellatory.com/hair/DIY-Haircut-3-Styles)
 >
 > - **Write an alternative text** (alt text for some pictures) on this page
-> - **Check colours contrast** on that page using the link mentioned above: [accessible-colors.com/](https://accessible-colors.com/)
-> - **Critic text links** on this website: [www.metoffice.gov.uk/weather/learn-about/weather/seasons/summer/10-facts-about-summer](https://www.metoffice.gov.uk/weather/learn-about/weather/seasons/summer/10-facts-about-summer)
+> - **Check colours contrast** on that page using the link mentioned above: [accessible-colors.com](https://accessible-colors.com/)
+> - **Critic text links** on this website: [metoffice.gov.uk/weather/learn-about/weather/seasons/summer/10-facts-about-summer](https://www.metoffice.gov.uk/weather/learn-about/weather/seasons/summer/10-facts-about-summer)
 > - Think of a better text links where possible
 
 ### WCAG (Web Content Accessibility Guidelines)
@@ -463,9 +463,9 @@ Help to use your current location instead of having to type it. This is complian
 
 #### More on WCAG Guidelines
 
-- WCAG2.1: [www.w3.org/WAI/WCAG21/Understanding/](https://www.w3.org/WAI/WCAG21/Understanding/)
+- WCAG2.1: [w3.org/WAI/WCAG21/Understanding](https://www.w3.org/WAI/WCAG21/Understanding/)
 - Webaim: [webaim.org/standards/wcag/checklist](https://webaim.org/standards/wcag/checklist)
-- W3C: [www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/)
+- W3C: [w3.org/TR/WCAG21](https://www.w3.org/TR/WCAG21/)
 - WCAG2.1, [checklist from the GOV.UK](https://alphagov.github.io/wcag-primer/checklist.html#perceivable)
 
 ### What next?
