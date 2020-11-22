@@ -8,7 +8,7 @@ It is important that you complete all of the following work before you get to th
 
 ## 1) Download and Install Github Desktop (30 minutes)
 
-We'll be using this tool in next weeks class to it's _very_ important that you set it up before class.
+We'll be using this tool in next weeks class so it's _very_ important that you set it up before class.
 
 ### Windows or Mac
 
