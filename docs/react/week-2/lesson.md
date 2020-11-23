@@ -259,7 +259,7 @@ Finally, let's look at how we get hold of the `count` variable:
 const [count, setCount] = useState(0);
 ```
 
-If you remember back to [JS Core 3 Week 3](https://syllabus.codeyourfuture.io/js-core-3/week-3/lesson#destructuring-syntax), we covered _destructuring_. As a reminder, you can assign variables to parts of an array with destructuring:
+If you remember back to [JS Core 3 Week 3](/js-core-3/week-3/lesson#destructuring-syntax), we covered _destructuring_. As a reminder, you can assign variables to parts of an array with destructuring:
 
 ```js
 let [firstWord, secondWord, thirdWord, fourthWord] = ["Hello", "Code", "Your", "Future"];
