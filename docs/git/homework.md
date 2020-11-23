@@ -36,7 +36,7 @@ https://www.wikihow.com/Unzip-a-File
 
 ### 3) Fork and Clone our Repository
 
-Make a fork of of repository to your Github Profile and clone it to your computer.
+Make a fork of repository to your Github Profile and clone it to your computer.
 
 https://github.com/CodeYourFuture/My-CodePen-Website
 
