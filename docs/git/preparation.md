@@ -55,16 +55,7 @@ Sign in to Github Desktop with your Github account.
 2. Click "Sign in to GitHub.com"
 3. Go through the steps to sign in.
 
-## 4) Intro to Github Desktop (10 minutes)
-
-When you're watching this video you should:
-
-1. Take Notes - this will help you to stay engaged with the videos and learn more
-2. Write Down Questions - if you still have these questions after our next lesson you can ask them on Slack
-
-https://www.youtube.com/watch?v=iv8rSLsi1xo
-
-## 5) Git & Github for Poets (1 hour)
+## 4) Git & Github for Poets (1 hour)
 
 This playlist will give you an introduction to Git & Github which are two tools we'll be using next week.
 
@@ -84,6 +75,15 @@ After watching the video, try to follow along with it and setup your own "Reposi
 If you manage to do this, submit a link to your work.
 
 However, if you have problems that's fine - this is only work to help you get started and we'll go over everything in more detail in class.
+
+## 5) Intro to Github Desktop (10 minutes)
+
+When you're watching this video you should:
+
+1. Take Notes - this will help you to stay engaged with the videos and learn more
+2. Write Down Questions - if you still have these questions after our next lesson you can ask them on Slack
+
+https://www.youtube.com/watch?v=iv8rSLsi1xo
 
 ## 6) Share a question you have a Slack (5 Minutes)
 
