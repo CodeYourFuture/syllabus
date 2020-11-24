@@ -20,7 +20,7 @@ Scrum Masters are expected to coordinate the team and make sure everyone knows w
 - Working with the team to create and update tasks on Trello
 - Introducing and enforcing Agile practices (e.g. sprint planning, retros)
 
-### Teaching Assistant
+### Technical Assitant
 
 **Time Commitment**: One day a week plus ~4 hours during the week
 
