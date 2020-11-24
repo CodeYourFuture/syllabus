@@ -35,7 +35,7 @@ If you get stuck on any of the below or above instructions, please post in your 
 6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
    - `npm -v`
 
-## On Ubuntu
+### On Ubuntu
 
 1. Type ctrl + alt + T to open up the terminal
 2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && sudo apt-get install -y nodejs`
@@ -44,7 +44,7 @@ If you get stuck on any of the below or above instructions, please post in your 
 4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
    - `npm -v`
 
-## On Windows
+### On Windows
 
 1. Open Ubuntu WSL (click Windows button then type "Ubuntu")
 2. Follow the instructions from the "On Ubuntu" section starting from step 2
