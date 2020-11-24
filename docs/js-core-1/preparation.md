@@ -90,9 +90,17 @@ https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#
 
 To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
 
-### 4.2) Enable Autosave
+### 4.2) Enable "Autosave" & "Format On Save"
 
-To enable autosave:
+To enable Autosave:
 
 1. Open VS Code
 2. Go to File and click Auto Save
+
+To enable "Format on Save"
+
+1. Open VS Code
+2. Go to Preferences > Settings
+3. Click on "Search settings"
+4. Enter "Format on save"
+5. Enable "Editor: Format On Save"
