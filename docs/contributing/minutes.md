@@ -51,3 +51,76 @@ Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 
 - Chris needs some eyes on some PRs. Tim said he would take a look.
 - Ali asked for some resources on 'How to ask good questions' and 'How to give good answers'. Ali will write a ticket for this.
+
+---
+
+### 25/11/2020
+
+#### In Attendance: Ali Smith, Chris Owen, Daniel Wagner-Hall, Greg Dyke, Tim Hamrouge
+
+##### Membership
+Atenas will be joining in ~4 weeks after final projects finish in Birmingham.
+
+##### Style guide
+
+Discussing https://github.com/CodeYourFuture/syllabus/issues/105#issuecomment-731769854
+
+General consensus supporting Ali's comment.
+Important that learners understand the why (e.g. around indentation and naming), and in what Prettier does (particular that Prettier will reformat things to avoid surprising changes), less important to understand things like "how many spaces are correct".
+We should make sure TAs (particularly when marking homework) know what to expect, and what things are worth highlighting in review.
+We should also consider what things we encourage all volunteers (particularly teachers & TAs) to do, e.g. should we try to get people to always add semicolons after statements?
+We should make sure to proactively re-format homework before setting it, so that they don't submit huge whitespace diffs.
+
+For React and beyond: Rely on default ESLint that comes from create-react-app.
+
+We've had incidents in the Backend/Mongo course where client-side and server-side code were using different formatters with different spaces, which caused some issues. We should unify where they conflict.
+
+Best practices docs: We should have some. Should probably set reading these as homework, rather than in-course, and will also be useful to be able to link to from PRs.
+
+Try to avoid per-module advice in this doc - we should create per-module cheatsheets/similar where they're needed, but don't want to glom it all into one doc. These could also be useful to get teachers for later modules familiar with conventions that were taught in earlier modules (e.g. how much do we care about `==` vs `===` of `if (blah)` vs `if (blah === undefined)`).
+
+Can easily get ESLint installed into VS Code, but ESLint rules are harder because they're generally installed as npm packages. Could maybe bundle them in our own extension if we wanted. .eslint files in the CYF-Coursework-Template could fill this niche.
+
+Ali will move forwards.
+
+##### How we teach functions
+
+No one seems to teach functions well.
+
+Coding Train does a good job because he makes a distinction between functions that do things, and functions that return data, but we can't use it directly because it uses p5.js which is very specific. Covering functions which both return things and have side-effects is maybe important too.
+
+Everyone treats "and you can store the result in a variable" as obvious. Haven't really seen how to teach "some returned value are ignored" much either.
+
+How/when do we teach expressions? Week 2 of JS1 (functions are Week 1 of JS) - students have typically struggled with this.
+
+Learners often struggle with map vs forEach. We struggled when we moved away from `for` loops, have moved a bit closer to `for` to help the learners understand the basics, but still need to cover `map` et al by the time we get to React.
+
+Our examples aren't places where functions aren't actually useful (e.g. a `sum` function) - hopefully we can reframe into something more realistic as a motivating example.
+
+Mitch is probably going to be away for a bit, so Chris will take it over and start gathering opinions this sprint.
+
+##### This sprint
+
+###### [SQL](https://github.com/CodeYourFuture/syllabus/pull/139)
+Pretty much everyone except London teaches MongoDB. Glasgow and Manchester have some SQL experts, and Birmingham fell through some cracks of undocumented prep work from having not run the course before.
+
+Why does ~everyone teach SQL except London?
+> Partially because of domain knowledge in the particular cities.
+> Partially lack of clarity around what's more valuable to focus on.
+
+Birmingham want to move from Postgres to MySQL. We should work out what to support...
+We should find out why Birmingham want to switch. It may be because they had a bad experience from the first class, but we should find out for sure. 
+Maybe we could just have them connect to pre-running SQL servers, and not need to worry about which flavour of SQL they're using.
+For Mongo, we don't have them run anything locally, just use a hosted MongoDB.
+
+###### [JS2-2 coursework](https://github.com/CodeYourFuture/syllabus/issues/120)
+
+When we introduce the DOM, there's not much homework. Could do with someone reading over it and evaluate whether the coursework meets the learning objectives. The jump after this week is to a big project.
+
+Tim will pick up.
+
+##### AOB
+
+Chris is taking most of December off (enjoy!). Will still check in to the meeting on December 9th, but won't be picking up work.
+
+We should do an idea generation session, with many attendees, to work out what else folks would like the syllabus team to prioritise, to fill in a backlog.
