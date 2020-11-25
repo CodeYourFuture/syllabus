@@ -49,4 +49,6 @@ NOTE: Slides (or presenting from computer) is NOT allowed.
 
 ## 4) (Optional) Challenges
 
-You can find additional challenges to work on [here](https://github.com/CodeYourFuture/cyf-node-challenges) if you finish all of your homework.
+You can find additional challenges to work on here if you finish all of your homework.
+
+https://github.com/CodeYourFuture/cyf-node-challenges
