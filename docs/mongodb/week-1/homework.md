@@ -33,7 +33,7 @@ https://github.com/CodeYourFuture/node-challenge-quote-server
 
 You should continue with the same project that you made before.
 
-## Database Details
+### Database Details
 
 We've setup a MongoDB database with some quotes on it. You can use the details below to connect to it.
 
