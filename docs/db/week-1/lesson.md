@@ -43,6 +43,14 @@ By the end of this lesson students should be able to
 
 ---
 
+## Before you start
+
+Before you arrive at class you **must** have completed the following setup work.
+
+[PostgreSQL Preparation](../prep)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./mentors)_
+
 ## Introduction to databases
 
 A database is a structured set of data held in a computer. It provides ways to store, retrieve and organize information.
