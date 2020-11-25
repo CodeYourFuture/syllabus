@@ -6,11 +6,11 @@ sidebar_label: Homework
 
 ## 1) Reading (2 Hours)
 
-## Read about HTTP messages
+### Read about HTTP messages
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#HTTP_Messages
 
-## Express "Getting Started" Documentation:
+### Express "Getting Started" Documentation:
 
 Read these two pages from the Express "Getting Started" documentation:
 
