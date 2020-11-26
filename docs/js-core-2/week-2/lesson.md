@@ -43,7 +43,7 @@ Up until now we've been using `console.log` to see the results of our code runni
 
 Lots of websites are powered by JavaScript today, and some (like Facebook) cannot function at all without it: it's become that important to the look and feel of the website.
 
-### The DOM
+## The DOM
 
 Your webpages are made up of a bunch of HTML elements, nested within each other (parents and children). But JavaScript doesn't know about any of that.
 
@@ -73,7 +73,7 @@ This is how we would represent the document hierarchy above as a tree of nodes:
 
 <img src={require('!file-loader!./tree.png').default}/>
 
-### Access DOM elements
+## Access DOM elements
 
 The DOM offers a lot of useful functions we can use to find elements on the page. Here are some we'll be using today:
 
@@ -85,7 +85,7 @@ document.querySelectorAll("p");
 Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
 `.querySelector` selects only the first element it finds, `querySelectorAll` selects all elements (it returns a `NodeList`, which you can think of as being similar to an array; it is an ordered sequence of DOM elements which you can loop through like with an array. The difference is that many common array methods like `.map` or `.concat` can't be used on a `NodeList`. To turn a `NodeList` into an array, you can use `Array.from`, e.g. `let elementArray = Array.from(document.querySelectorAll("div"));`).
 
-#### Preparation for exercises
+### Preparation for exercises
 
 > ---
 >
@@ -102,7 +102,7 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
 >
 > ---
 
-#### Exercise (1)
+### Exercise (1)
 
 ```js
 /*
@@ -124,7 +124,7 @@ Write JavaScript below that logs:
 */
 ```
 
-### Attach events to DOM elements
+## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
 
@@ -139,7 +139,7 @@ function alertSomething() {
 
 You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
 
-#### Exercise (2)
+### Exercise (2)
 
 ```js
 /*
@@ -157,7 +157,7 @@ let myElement = document.querySelector("#myElement");
 myElement.style.backgroundColor = "red";
 ```
 
-#### Exercise (3)
+### Exercise (3)
 
 ```js
 /*
@@ -168,7 +168,7 @@ Write JavaScript below that changes the background colour of the page when the "
 */
 ```
 
-### Create DOM elements
+## Create DOM elements
 
 Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
 
@@ -179,7 +179,7 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 
 `document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
 
-#### Exercise (4)
+### Exercise (4)
 
 ```js
 /*
@@ -190,7 +190,7 @@ When a user clicks the "Add some text" button, a new paragraph should be added b
 */
 ```
 
-### Manipulate DOM elements
+## Manipulate DOM elements
 
 You can then change the text displayed inside elements using the `innerText` property:
 
@@ -238,7 +238,7 @@ updateTitleBtn.addEventListener("click", function () {
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable).
 To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
 
-#### Exercise (5)
+### Exercise (5)
 
 ```js
 /*
