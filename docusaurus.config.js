@@ -171,6 +171,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "workshops/a11y-for-devs-basic",
+              label: "Accessibility for Developers - Basic",
+              position: "left",
+            },
+            {
               label: "-----------",
               position: "left",
             },
