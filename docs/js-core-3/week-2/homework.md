@@ -54,4 +54,6 @@ This could include
 
 ### Project Details
 
-All of the details for this project can be found [here](https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme)
+All of the details for this project can be found here
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
