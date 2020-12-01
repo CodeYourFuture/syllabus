@@ -10,7 +10,8 @@ This week's concepts can be challenging, therefore let's get an easy introductio
 
 You can ignore anything to do with `XMLHttpRequest`
 
-- [FreeCodeCamp](https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/)
+- FreeCodeCamp
+  - https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/
 
 ## 2) Code along (1 hour)
 
@@ -22,7 +23,8 @@ You are welcome to code along as you watch - this will help you to understand wh
 
 Enjoy!
 
-- [Vanilla JS Numbers Facts App - AJAX & Fetch](https://www.youtube.com/watch?v=tUE2Nic21BA)
+- Vanilla JS Numbers Facts App - AJAX & Fetch
+  - https://www.youtube.com/watch?v=tUE2Nic21BA
 
 ## 3) JavaScript Exercises (2 hours)
 
@@ -50,6 +52,6 @@ This could include
 - Working with an API
 - Get & Post Requests
 
-## Project Details
+### Project Details
 
 All of the details for this project can be found [here](https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme)
