@@ -47,11 +47,10 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ### 1.4. Create a GitHub repository
 
-- Pick one member to own the repo,
-
+- Pick one member to own the repo
 - Everyone else should be invited as a [collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository))
-
-- You can fork [this starter kit](https://github.com/CodeYourFuture/cyf-final-project-starter-kit) for a basic React/Express/MongoDB app
+- You can fork [this starter kit](https://syllabus.codeyourfuture.io/finalproject/prep#starter-projects) for a basic project
+  - Make sure you choose the correct one for the stack that you learnt
 
 ## 2. Agile Development (60 minutes)
 
