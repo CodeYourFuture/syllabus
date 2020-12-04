@@ -80,7 +80,7 @@ https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
 Here you will find all of your Classmates answers to the homework.
 
-1. Choose two pull requests with no, or few, pull requests
+1. Choose two pull requests with no, or few, comments.
 2. Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
 3. Leave a comment saying you have finished you're review
 
