@@ -124,3 +124,35 @@ Tim will pick up.
 Chris is taking most of December off (enjoy!). Will still check in to the meeting on December 9th, but won't be picking up work.
 
 We should do an idea generation session, with many attendees, to work out what else folks would like the syllabus team to prioritise, to fill in a backlog.
+
+---
+
+### 09/12/2020
+
+#### In Attendance: Chris Owen, Ali Smith, Mitchell Lloyd, Tim Hamrouge
+
+##### Functions
+
+[Minutes from the call on 7th Dec](https://docs.google.com/document/d/19F9GAR09wP9CwomDp6Y4rYwfBMNnnZgrirHd-8k4uiM/edit#).
+
+Chris overall happy with it. Flagged that the coursework needing to be checked that trainees don't see content out-of-order.
+
+Also had discussion of timings of lesson 1. Concern about fitting in good naming content, but pointed out that this can be covered in variables section earlier. Assigned some rough timings for AM/PM content in week 1.
+
+Next steps:
+
+- Suggested that start learning objectives first
+- Then write exercises that fulfill the LOs
+- And then fill out content
+
+##### Code style guide
+
+Ali has started writing it up, but not lots of progress yet.
+
+##### JS Core 2 Exercises
+
+Tim demoed some of the exercises so far. Progress looks good.
+
+##### Typing tips/test for Intro to Coding
+
+Ali wrote up a [quick guide](https://github.com/CodeYourFuture/Intro-To-Coding-Course/pull/2), but wasn't sure what to do with it. Decided to write up a ticket for the board for Syllabus Team to discuss how to integrate into ItC.
