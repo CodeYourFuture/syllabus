@@ -468,14 +468,14 @@ Then, replace 'apple' with 'raspberry', and replace 'fig' with 'pineapple'.
 
 ### Exercise (5 mins)
 
-Complete this function so that, if the second index in the array contains the name "Amy", it returns `"Second index matched!"`
+Complete this function so that, if the second element in the array contains the name "Amy", it returns `"Second element matched!"`
 
 ```js
 function secondMatchesAmy(array) {
   if ( ) {
-    return "Second index matched!";
+    return "Second element matched!";
   }
-  return "Second index not matched";
+  return "Second element not matched";
 }
 ```
 
