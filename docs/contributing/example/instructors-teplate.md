@@ -6,16 +6,16 @@ sidebar_label: Instructor Notes
 
 ## Presentations
 
-- [Name of Presentation - Name of Module [Platform] - 01/01/2020](www.linktoslides.com)
+- [Name of Presentation - Name of Module [Platform] - 01/01/2020](https://www.linktoslides.com)
   - Created by School and Individual Creator
-- [Name of Presentation - Name of Module [Platform] - 01/01/2020](www.linktoslides.com)
+- [Name of Presentation - Name of Module [Platform] - 01/01/2020](https://www.linktoslides.com)
   - Created by School and Individual Creator
 
 ## Videos
 
-- [Name of Video - 01/01/2020](www.linktovideo.com)
+- [Name of Video - 01/01/2020](https://www.linktovideo.com)
   - Created by School and Individual Creator
-- [Name of Video - 01/01/2020](www.linktovideo.com)
+- [Name of Video - 01/01/2020](https://www.linktovideo.com)
   - Created by School and Individual Creator
 
 ## Lesson Overview

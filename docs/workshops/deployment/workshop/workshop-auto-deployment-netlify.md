@@ -41,7 +41,7 @@ Instructions: [the instructions are here](./instructions).
 
 ## Note: CYF site-naming conventions
 
-Use the standard format for site names for all CYF homework projects - see [site naming conventions](../cyf-site-naming-conventions.md)
+Use the standard format for site names for all CYF homework projects - see [site naming conventions](../site-naming-conventions.md)
 
 - cyf-[your github username]-[exact project name as supplied by teacher]
 

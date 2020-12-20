@@ -274,14 +274,14 @@ app.delete("/customers/:customerId", function (req, res) {
 });
 ```
 
-#### Exercise 4
+#### Exercise 4
 
 - Add the DELETE endpoint `/customers/:customerId` above and verify you can delete a customer along their bookings with Postman.
 - Add a new DELETE endpoint `/hotels/:hotelId` to delete a specific hotel. **A hotel can only be deleted if it doesn't appear in any of the customers' bookings! Make sure you add the corresponding validation before you try to delete a hotel.**
 
 ## Homework
 
-All of the homework for this week can be found [here](/homework).
+All of the homework for this week can be found [here](homework).
 
 ## Feedback
 

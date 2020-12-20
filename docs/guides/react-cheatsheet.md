@@ -49,7 +49,7 @@ Netlify should automatically set the following important build settings:
 
 Note that deployment will be a bit slower than with simpler projects as it has to &quot;build&quot; your React project.
 
-The full Netlify cheat sheet can be found [**here**](/workshop/deployment/index)
+The full Netlify cheat sheet can be found [**here**](../../workshops/deployment/index)
 
 ## Error scenarios
 
