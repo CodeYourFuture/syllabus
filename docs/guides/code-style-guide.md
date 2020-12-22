@@ -14,11 +14,11 @@ To help write more understandable code, programmers follow a *style guide*. It p
 
 Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VS Code extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
 
-Prettier is a tool that rearranges your code (sometimes called *formatting*). It follows a set of rules that programmers have agreed make your code easier to read and understand.
+Prettier is a tool that rearranges your code (called *formatting*). It follows a set of rules that programmers have agreed make your code easier to read and understand.
 
 Some common problems you may see when running Prettier:
 
-- If you write some code that is invalid, then running Prettier will not work and your code won't be rearranged. If this happens, then you will see some red "squiggly" lines under under your code. A common problem is a missing bracket, so try looking for that first
+- If you write some code that is invalid, then running Prettier will not work and your code won't be formatted. If this happens, then you will see some red "squiggly" lines under under your code. A common problem is a missing bracket, so try looking for that first
 - If you see Prettier making a surprising change, it may mean that your code is incorrect. Try re-reading it carefully to make sure you haven't made any mistakes
 
 ## Indent your code
@@ -45,7 +45,7 @@ if (isVegetarian) {
 
 Indentation helps us to read our code by visually marking how the code is going to run. Programmers rely on this extra information to quickly read and understand code.
 
-There are some guidelines about where to add indentation. For example, lines of code are indented when they are inside a function, `if` statement or `for` loop. Additionally, if there any of those structures are inside another structure, then they are indented further.
+There are some guidelines about where to add indentation. For example, lines of code are indented when they are inside a function, an `if` statement or a `for` loop. Additionally, if any of those structures are inside another structure, then they are indented further.
 
 The guidelines about where to add indentation can be complex, but the good news is that **Prettier adds indentation automatically** for us! However it is good to pay attention to where indentation is added, as you may find yourself writing code in an environment where Prettier is not installed.
 
@@ -82,7 +82,7 @@ function orderTaxi(pickUpTime) {
   let driverName = getDriverName();
   let customerName = getCustomerName(); // 🛑 Don't do this!
 
-  return `${driverName} will pick up at ${pickUpTime}`;
+  return `${driverName} will pick you up at ${pickUpTime}`;
 }
 ```
 
@@ -119,7 +119,7 @@ Very short variable names can be difficult to understand since the purpose of th
 Here are some examples of **bad** names that you should avoid:
 
 - Single letters like `x` or `y`
-- Abbreviations like `vid` instead of `video`
+- Abbreviations like `evt` instead of `event`
 
 ### Describe what the variable is/does
 
@@ -156,5 +156,5 @@ Don't forget that the person reading your code probably has some understanding o
 **Naming variables is more of an art than a science**. Often you need some experience reading other people's code before you get really good at it.
 
 :::tip
-When reading other people's code, think about what their variables names. If the names are not clear, make sure you understand the code first, then think about what names you would use instead.
+When reading other people's code, think about the variable names. If the names are not clear, make sure you understand the code first, then think about what names you would use instead.
 :::
