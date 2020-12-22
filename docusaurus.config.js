@@ -187,6 +187,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "guides/code-style-guide",
+              label: "Code Style Guide",
+              position: "left",
+            },
+            {
               to: "guides/coding-101",
               label: "Coding 101",
               position: "left",
