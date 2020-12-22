@@ -187,11 +187,6 @@ module.exports = {
               position: "left",
             },
             {
-              to: "guides/coding-standards",
-              label: "Coding Standards",
-              position: "left",
-            },
-            {
               to: "guides/coding-101",
               label: "Coding 101",
               position: "left",
