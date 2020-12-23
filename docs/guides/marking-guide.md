@@ -241,7 +241,7 @@ const trees = ["Oak", "Birch", "Beech", "Elm", "Hazel"];
 
 let treesBeginningWithB = [];
 for (var i = 0; i < trees.length; i++) {
-  if (trees[i] === "B") {
+  if (trees[i].chatAt(0) === "B") {
     treesBeginningWithB.push(trees[i]);
   }
 }
@@ -254,7 +254,7 @@ Could be written like this be easier to understand and read.
 ```js
 const trees = ["Oak", "Birch", "Beech", "Elm", "Hazel"];
 
-let treesBeginningWithB = trees.filter((item) => item.chatAt(0) === "B");
+let treesBeginningWithB = trees.filter((tree) => tree.chatAt(0) === "B");
 
 console.log(treesBeginningWithB); // ["Birch", "Beech"]
 ```

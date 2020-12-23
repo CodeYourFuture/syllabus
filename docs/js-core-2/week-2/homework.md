@@ -27,8 +27,8 @@ https://www.khanacademy.org/computing/computer-programming/html-css-js
 
 ### Watch
 
-- Easy Way to Understand How the DOM Works
-  - https://www.youtube.com/watch?v=2Tld4yyN_tw
+- Coding Train - HTML/CSS/DOM
+  - https://thecodingtrain.com/Tutorials/8-html-css-dom/
 
 ## 3) JavaScript Challenges (3 hours)
 

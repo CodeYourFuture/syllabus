@@ -85,3 +85,11 @@ Have some extra time before our next class? Fill it with these harder challenges
 **Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
+
+## 6) (Optional) Even more JavaScript Challenges
+
+Completed all of the addition challenges in the coursework? We have more challenges that you can find here
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges
+
+Make sure you share the challenges that you're working on in Slack to see if other people are also working on it. If you have time, try paired programming to solve these challenges!
