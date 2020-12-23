@@ -72,11 +72,11 @@ As a group, let's try to name all of the parent and child tags in the following 
 
 In today's class, we will begin adapting styles on this example website. We'll review some of the HTML/CSS basics you already encountered during your application process and learn some new techniques. By the end of the third lesson, we will have worked together to improve the example site on the left so that it looks like the screenshot on the right.
 
-<a href="../assets/screenshot-start.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-start.png').default}/>
+<a href={require('!file-loader!../assets/screenshot-start.png').default} target="blank">
+ <img src={require('!file-loader!../assets/screenshot-start.png').default} />
 </a>
-<a href="../assets/screenshot-complete.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-complete.png').default}/>
+<a href={require('!file-loader!../assets/screenshot-complete.png').default} target="blank">
+ <img src={require('!file-loader!../assets/screenshot-complete.png').default} />
 </a>
 
 The example website you'll begin working with is available on this Code Your Future GitHub repository -
