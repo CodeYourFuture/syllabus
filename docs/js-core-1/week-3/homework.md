@@ -86,4 +86,4 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 **Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week4
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
