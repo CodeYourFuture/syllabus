@@ -213,7 +213,7 @@ module.exports = {
     ],
   },
   SQL: {
-    Overview: ["db/index"],
+    Overview: ["db/index", "db/prep"],
     "Lesson 1": [
       "db/week-1/lesson",
       "db/week-1/instructors",
