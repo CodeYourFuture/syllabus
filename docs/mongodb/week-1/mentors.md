@@ -16,6 +16,14 @@ We highly recommend joining the relevent Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Before you teach this lesson
+
+If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+
+[MongoDB Preparation](../preparation)
+
+If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+
 ## Presentations
 
 ## Quiz

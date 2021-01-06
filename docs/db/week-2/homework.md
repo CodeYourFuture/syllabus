@@ -4,14 +4,18 @@ title: Homework
 sidebar_label: Homework
 ---
 
-All of the homework can be found in [this repository](https://github.com/CodeYourFuture/Databases-Homework).
+## 1) SQL Exercises (5 Hours)
 
-### Submission
+In this project you will find several tasks for you to complete.
 
-Create a new branch from `Master` to start working on this weeks homework. It should be called `[YOUR_NAME]/Week2`.
+You should complete all of the instructions inside the "Exercises" folder.
 
-When you have completed the homework create a pull request back to the `CodeYourFuture/Databases-Homework` repository so your teach can feedback on it.
+https://github.com/CodeYourFuture/SQL-Coursework-Week2
 
-### Tasks
+## 2) SQL Projects (10 Hours)
 
-You should complete all of the tasks in **Week 2** of the [Database Homework repository](https://github.com/CodeYourFuture/Databases-Homework).
+In this project you will find several tasks for you to complete
+
+You should complete all of the instructions inside the "Project" folder.
+
+https://github.com/CodeYourFuture/SQL-Coursework-Week2

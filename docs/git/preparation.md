@@ -6,9 +6,16 @@ sidebar_label: Preparation
 
 It is important that you complete all of the following work before you get to the next class.
 
-## 1) Download and Install Github Desktop (30 minutes)
+## 1) Sign Up To GitHub (30 Minutes)
 
-We'll be using this tool in next weeks class to it's _very_ important that you set it up before class.
+We'll use GitHub to share code with each other.
+
+1. Sign up on https://github.com
+2. Let us know your GitHub username as we'll need it for future assignments
+
+## 2) Download and Install Github Desktop (30 minutes)
+
+We'll be using this tool in next weeks class so it's _very_ important that you set it up before class.
 
 ### Windows or Mac
 
@@ -40,22 +47,13 @@ If you do not understand the instructions written then please ask on Slack for h
 
 Github Desktop should now be installed. If any step of this didn't work, please ask for help on Slack.
 
-## 2) Open Github Desktop and Login (10 minutes)
+## 3) Open Github Desktop and Login (10 minutes)
 
 Sign in to Github Desktop with your Github account.
 
 1. Run Github Desktop
 2. Click "Sign in to GitHub.com"
 3. Go through the steps to sign in.
-
-## 3) Intro to Github Desktop (10 minutes)
-
-When you're watching this video you should:
-
-1. Take Notes - this will help you to stay engaged with the videos and learn more
-2. Write Down Questions - if you still have these questions after our next lesson you can ask them on Slack
-
-https://www.youtube.com/watch?v=iv8rSLsi1xo
 
 ## 4) Git & Github for Poets (1 hour)
 
@@ -78,7 +76,16 @@ If you manage to do this, submit a link to your work.
 
 However, if you have problems that's fine - this is only work to help you get started and we'll go over everything in more detail in class.
 
-## 5) Share a question you have a Slack (5 Minutes)
+## 5) Intro to Github Desktop (10 minutes)
+
+When you're watching this video you should:
+
+1. Take Notes - this will help you to stay engaged with the videos and learn more
+2. Write Down Questions - if you still have these questions after our next lesson you can ask them on Slack
+
+https://www.youtube.com/watch?v=iv8rSLsi1xo
+
+## 6) Share a question you have a Slack (5 Minutes)
 
 It's really helpful for us to see the question you have right now.
 
@@ -86,7 +93,7 @@ First, search to see if anyone else has asked a question about Slack already. If
 
 If you cannot find a post already, post a question with the title "**Github Questions**". Then other people will ask questions below yours.
 
-## 6) Install VS Code (30-40 Minutes)
+## 7) Install VS Code (30-40 Minutes)
 
 We use this software to write our code. You'll be using it a lot over the next few months!
 

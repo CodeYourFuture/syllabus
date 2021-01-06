@@ -284,7 +284,7 @@ Start your server with `node server.js` and try to reach the `/hotels` endpoint 
 
 ## Homework
 
-All of the homework for this week can be found [here](/homework).
+All of the homework for this week can be found [here](./homework).
 
 ## Feedback
 

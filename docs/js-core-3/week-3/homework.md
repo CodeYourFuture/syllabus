@@ -12,15 +12,19 @@ You are welcome to code along as you watch - this will help you to understand wh
 
 Enjoy!
 
-- [Build a Weather App with Vanilla JavaScript Tutorial](https://www.youtube.com/watch?v=wPElVpR1rwA)
+- Build a Weather App with Vanilla JavaScript Tutorial
+  - https://www.youtube.com/watch?v=wPElVpR1rwA
 
 ## 2) Array Destructuring Resources (1 hour)
 
 Here are some useful resources to help you understand this homework
 
-- [FreeCodeCamp's Intro To Array Destructuring](https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/)
-- [Why Is Array/Object Destructuring So Useful And How To Use It (Video)](https://www.youtube.com/watch?v=NIq3qLaHCIs)
-- [The Most In-Depth Yet Understandable ES6 Destructuring Tutorial](https://untangled.io/in-depth-es6-destructuring-with-assembled-avengers)
+- FreeCodeCamp's Intro To Array Destructuring
+  - https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/
+- Why Is Array/Object Destructuring So Useful And How To Use It (Video)
+  - https://www.youtube.com/watch?v=NIq3qLaHCIs
+- The Most In-Depth Yet Understandable ES6 Destructuring Tutorial
+  - https://untangled.io/in-depth-es6-destructuring-with-assembled-avengers
 
 ## 3) JavaScript Exercises (2 hours)
 
@@ -38,6 +42,8 @@ This project should consolidate knowledge from JS2 and push you to learn more ab
 
 You should complete as much of the project as you can.
 
-## Project Details
+### Project Details
 
-All of the details for this project can be found [here](https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme)
+All of the details for this project can be found:
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme

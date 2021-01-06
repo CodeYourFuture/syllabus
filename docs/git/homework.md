@@ -36,7 +36,7 @@ https://www.wikihow.com/Unzip-a-File
 
 ### 3) Fork and Clone our Repository
 
-Make a fork of of repository to your Github Profile and clone it to your computer.
+Make a fork of the repository to your Github Profile and clone it to your computer.
 
 https://github.com/CodeYourFuture/My-CodePen-Website
 
@@ -78,13 +78,12 @@ Again, go to this repository and go to the "Pull Requests" tab.
 
 https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
-Here you will find all of your Classmates answers to the homework. 
+Here you will find all of your Classmates answers to the homework.
 
-1. Choose two pull requests
-2. Make sure they don't have any comment on them already from other students
-3. Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
-4. Leave a comment saying you have finished you're review
+1. Choose two pull requests with no, or few, comments.
+2. Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
+3. Leave a comment saying you have finished your review.
 
-You should do this for **at least** two pull requests.
+You should do this for _at least_ two pull requests.
 
 Note sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1

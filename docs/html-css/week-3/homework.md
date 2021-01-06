@@ -6,7 +6,7 @@ sidebar_label: Homework
 
 ## 1) Why Responsive? (5 hours)
 
-You should complete the whole course.
+You should complete the whole course of Lesson 1 - "Why Responsive?"
 
 Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead.
 

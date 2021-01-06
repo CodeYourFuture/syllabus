@@ -35,7 +35,7 @@ If you get stuck on any of the below or above instructions, please post in your 
 6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
    - `npm -v`
 
-## On Ubuntu
+### On Ubuntu
 
 1. Type ctrl + alt + T to open up the terminal
 2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && sudo apt-get install -y nodejs`
@@ -44,7 +44,7 @@ If you get stuck on any of the below or above instructions, please post in your 
 4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
    - `npm -v`
 
-## On Windows
+### On Windows
 
 1. Open Ubuntu WSL (click Windows button then type "Ubuntu")
 2. Follow the instructions from the "On Ubuntu" section starting from step 2
@@ -86,13 +86,21 @@ Try to use in your solution the constructions you just reviewed: variables, func
 
 Instructions for how to do this can be found here
 
-https://docs.codeyourfuture.io/course-processes/joining-the-course/getting-setup#visual-studio-code
+https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions
 
 To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
 
-### 4.2) Enable Autosave
+### 4.2) Enable "Autosave" & "Format On Save"
 
-To enable autosave:
+To enable Autosave:
 
 1. Open VS Code
 2. Go to File and click Auto Save
+
+To enable "Format on Save"
+
+1. Open VS Code
+2. Go to Preferences > Settings
+3. Click on "Search settings"
+4. Enter "Format on save"
+5. Enable "Editor: Format On Save"
