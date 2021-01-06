@@ -16,10 +16,11 @@ Some of the guidelines are so common that there are automatic tools to do it for
 
 Prettier is a tool that rearranges your code (called *formatting*). It follows a set of rules that programmers have agreed make your code easier to read and understand.
 
-Some common problems you may see when running Prettier:
+You might have a common problem when running Prettier. If you see something like this:
 
-- If you write some code that is invalid, then running Prettier will not work and your code won't be formatted. If this happens, then you will see some red "squiggly" lines under under your code. A common problem is a missing bracket, so try looking for that first
-- If you see Prettier making a surprising change, it may mean that your code is incorrect. Try re-reading it carefully to make sure you haven't made any mistakes
+![Invalid code with red highlight](./assets/prettier-error.png)
+
+Then you have written some code that is invalid and Prettier can't format it. A common is a missing bracket, so try looking for that first.
 
 ## Indent your code
 
