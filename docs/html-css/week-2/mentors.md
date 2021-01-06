@@ -10,7 +10,13 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ---
 
-This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-html-css](https://codeyourfuture.slack.com/archives/CEFGER48H)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
 ## Presentations
 
@@ -19,12 +25,16 @@ This outline provides tips to help mentors guide students to the best answers or
 - [Week 2 - Flexbox & Media Queries [Google Slides] - 28/05/2020](https://docs.google.com/presentation/d/10Y7ev8w0OZSwuCDU3dUB3wertwVgRIwd0pWC5l5qS8Y/edit#slide=id.g854eaaa097_0_58)
   - Created by Birmingham
 
-## Articles
+## Overview
+
+This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+
+### Articles
 
 - [History of Responsive Web Design](https://alistapart.com/article/responsive-web-design/)
 - [Most Common ViewPort Sizes](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
 
-## Responsive Web Design
+### Responsive Web Design
 
 Devices to brainstorm together:
 
@@ -40,7 +50,7 @@ Devices to brainstorm together:
 
 Use this list to illustrate the range of device sizes we build for. Reinforce the separation between data and display.
 
-## Media Queries
+### Media Queries
 
 When completing the exercises, make sure they use a "mobile-first" technique. They shouldn't shrink the text on small screens, but enlarge it on bigger screens.
 
@@ -65,7 +75,7 @@ When completing the exercises, make sure they use a "mobile-first" technique. Th
 
 When completing the second exercise, make sure they're only modifying the buttons in the jumbotron. The button in the header shouldn't be effected.
 
-## Content Layout: Flexbox
+### Content Layout: Flexbox
 
 This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that students are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
 

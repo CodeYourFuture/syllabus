@@ -8,6 +8,14 @@ Want to make a change to this week but don't have the time? Click [here](https:/
 
 Want to report a bug in this week? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=bug&template=bug-report.md&title=)
 
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-js3](https://codeyourfuture.slack.com/archives/C7SLBMSJE)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Resources
 
 - [Quiz - JS3 Week 1 - 27/05/2020](https://docs.google.com/forms/d/e/1FAIpQLScYHmS7LOfI4ML3z2axEpZd2Zgvbe-9FBB5rsWoqqMcw2u6SA/viewform)
@@ -70,100 +78,106 @@ You should reserve 10-15 minutes at the end of the lesson to run through the fol
 
 #### Solutions
 
-1. Possible answers:
+##### Question 1
 
+- To prevent bugs being released into production and having negative consequences on users - such as with Therac-25.
+- Because finding bugs is harder the more complex the code gets. It is better to test little and often.
 
-    - To prevent bugs being released into production and having negative consequences on users - such as with Therac-25.
-    - Because finding bugs is harder the more complex the code gets. It is better to test little and often.
+##### Question 2
 
-2.
+A - False: A bug is when the program is not behaving as expected. This can be due to logic problems rather than compile or runtime errors.
+B - False: Rubber ducking is a common method to debug problems and can involve talking through the problem with another person.
+C - True: When your program is not working as expected, start by asking yourself the questions in the debugging framework.
+D - True: Breakpoints are used to pause the execution of code.
 
-    A - False: A bug is when the program is not behaving as expected. This can be due to logic problems rather than compile or runtime errors.
-    B - False: Rubber ducking is a common method to debug problems and can involve talking through the problem with another person.
-    C - True: When your program is not working as expected, start by asking yourself the questions in the debugging framework.
-    D - True: Breakpoints are used to pause the execution of code.
+##### Question 3
 
-3.
+To `Step through the code` means to go line-by-line through the code and check what the state of the program is by looking at the values of variables or expressions on that line.
+We use this method when debugging, so that we can pinpoint on which line our program begins to behave unexpectedly.
 
-    To `Step through the code` means to go line-by-line through the code and check what the state of the program is by looking at the values of variables or expressions on that line.
-    We use this method when debugging, so that we can pinpoint on which line our program begins to behave unexpectedly.
+##### Question 4
 
-4.
+A - True (Some at least, though not all)
+B - True
+C - False
+D - True
 
-    A - True (Some at least, though not all)
-    B - True
-    C - False
-    D - True
+##### Question 5
 
-5.
+1. Add the word `debugger` into the line of code where you want to pause.
+2. Click on the line you want to pause on in the debugger tool
 
-    1. Add the word `debugger` into the line of code where you want to pause.
-    2. Click on the line you want to pause on in the debugger tool
+##### Question 6
 
-6.
+Line 4
 
-    Line 4
+This would be the accompanying code:
 
-    This would be the accompanying code:
-    function foo2() {
-        return 1;
-    }
-    console.log(foo);
+```js
+function foo2() {
+  return 1;
+}
+console.log(foo);
+```
 
-7.
+##### Question 7
 
-    1. What did I expect to happen?
-    2. Is it actually broken?
-    3. What happened instead?
-    4. What have I tried so far?
+1. What did I expect to happen?
+2. Is it actually broken?
+3. What happened instead?
+4. What have I tried so far?
 
-8.
+##### Question 8
 
-    Line 9
+Line 9
 
-    Correct code:
+Correct code:
 
-    var testArray = ["Test"];
+```js
+var testArray = ["Test"];
 
-    function testFunction(testArray) {
-        for (var i = 0; i < testArray.length; i++) {
-            console.log(testArray[i]);
-        }
-    }
+function testFunction(testArray) {
+  for (var i = 0; i < testArray.length; i++) {
+    console.log(testArray[i]);
+  }
+}
 
-    testFunction(testArray);
+testFunction(testArray);
+```
 
-9.
+##### Question 9
 
-    If you input a negative amount then your balance with credit. E.g. 100 - (-10) = 110
+If you input a negative amount then your balance with credit. E.g. 100 - (-10) = 110
 
-    Solution:
-    let accountBalance = 100;
+Solution:
 
-     function withdrawl(amount) {
+```js
+let accountBalance = 100;
 
-       if (amount <= 0) {
-         console.log("Please enter a number greater than zero.");
-       } else{
-         accountBalance = accountBalance - amount;
-       }
-       console.log("You have " + accountBalance + " in your bank account.");
-     }
+function withdrawl(amount) {
+  if (amount <= 0) {
+    console.log("Please enter a number greater than zero.");
+  } else {
+    accountBalance = accountBalance - amount;
+  }
+  console.log("You have " + accountBalance + " in your bank account.");
+}
 
-     // Change the input value below
-     input = -10;
+// Change the input value below
+input = -10;
 
-     withdrawl(input);
+withdrawl(input);
+```
 
-10.
+##### Question 10
 
-    A syntactical error is an error that is caused when your code does not follow the rules of the language.
+A syntactical error is an error that is caused when your code does not follow the rules of the language.
 
-    Examples are `Unexpected token`, `Illegal character`, `Missing parenthesis`
+Examples are `Unexpected token`, `Illegal character`, `Missing parenthesis`
 
-# To Be Improved
+## To Be Improved
 
-## From London Class 6
+### From London Class 6
 
 - Could we make exercises that are even harder to enable them to use the tools more
 - Build in some more checking for understanding
