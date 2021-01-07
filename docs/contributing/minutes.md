@@ -4,11 +4,11 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-# 06/01/2021
+## 06/01/2021
 
 **In Attendance:** Daniel, Chris, Greg, Tim, Mitch, Ali
 
-## Personal Development  Syllabus
+### Personal Development  Syllabus
 
 - https://personaldevelopment.codeyourfuture.io/
 - Technical Interview might be missing
@@ -22,7 +22,7 @@ sidebar_label: Team Minutes
 
 Action: All Attendees - To review the content in more details
 
-## UseContext Discussion
+### UseContext Discussion
 
 - Greg recently learnt React to help TA a class
   - He discovered UseContext that could be used in place of Redux
@@ -32,26 +32,26 @@ Action: All Attendees - To review the content in more details
 
 Action: Greg to investigate how they could be implemented and included
 
-## Instructional Design Class
+### Instructional Design Class
 
 - Greg used to work in this area and knows people who want "clients" to work with 
 - Might be able to help us craft a pedagogically good workshop or help with HTML/CSS Module
 
 Action: Greg to refer them to me
 
-## Round Table
+### Round Table
 
 - Chris to prepare a plan for a Round Table discussion with lots of different stack holders of the 
 
 Action: Chris to write up plan and poll for the best time for the Round Table
 
-## Lucy and HTML/CSS
+### Lucy and HTML/CSS
 
 - Lucy Zidour is an experience CYF Teacher from London who has historically taught HTML/CSS
 - She has good tested material that could do with being folded into the Syllabus
 - Lucy will attend our next meeting to discuss
 
-## Git & Terminal
+### Git & Terminal
 
 - As part of a roll-out of a better way to teach Git we need to start thinking about how to teach further Git Theory and the Terminal in preparation for React
 - We should start working on this soon
