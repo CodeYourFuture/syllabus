@@ -18,7 +18,7 @@ If any of the above or below instructions are unclear, please post in your city 
 
 To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 20.04 LTS):
 
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps
 
 ## 2) Install Node.js (30 minutes)
 
