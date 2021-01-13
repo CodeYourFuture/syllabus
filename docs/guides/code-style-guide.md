@@ -161,6 +161,8 @@ function isOldEnough(number) {
 function isOldEnough(yearOfBirth) {
   // ...
 }
+```
+
 ### Remember that you are communicating with another programmer
 
 Don't forget that the person reading your code probably has some understanding of the _context_. If your function is named `getCustomer`, it's probably fine to name variables `name`, `age`, etc instead of `customerName`, `customerAge`. You don't need to explain _everything_.
