@@ -150,6 +150,16 @@ function getPercentage() {
 
 In this example, the function calculates a percentage and returns it. Therefore it is good to name it using the "get" verb to show that it returns something.
 
+```js
+// 🛑 Try to avoid this
+function isOldEnough(number) {
+  // ...
+}
+
+// ✅ This is (probably) better
+function isOldEnough(yearOfBirth) {
+  // ...
+}
 ### Remember that you are communicating with another programmer
 
 Don't forget that the person reading your code probably has some understanding of the *context*. If your function is named `getCustomer`, it's probably fine to name variables `name`, `age`, etc instead of `customerName`, `customerAge`. You don't need to explain *everything*.
