@@ -137,7 +137,7 @@ A good variable name quickly explains what it represents to anyone reading the c
 // 🛑 Try to avoid this
 let song = true;
 
-// ✅ This is (probably) better
+// ✅ This is better
 let isPlaying = true;
 ```
 
@@ -149,7 +149,7 @@ function percentage() {
   // ...
 }
 
-// ✅ This is (probably) better
+// ✅ This is better
 function getPercentage() {
   // ...
 }
@@ -163,11 +163,13 @@ function isOldEnough(number) {
   // ...
 }
 
-// ✅ This is (probably) better
+// ✅ This is better
 function isOldEnough(yearOfBirth) {
   // ...
 }
 ```
+
+Finally, parameters of functions should also have names that properly represent what is going to be received into the function.
 
 ## Advanced
 
