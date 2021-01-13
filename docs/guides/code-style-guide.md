@@ -6,25 +6,25 @@ sidebar_label: Code Style Guide
 
 ## Why should I read this?
 
-There are many different ways of writing code that achieve the same goal. However, programmers generally agree that there are some ways of writing code that are more understandable and *readable* than other ways.
+There are many different ways of writing code that achieve the same goal. However, programmers generally agree that there are some ways of writing code that are more understandable and _readable_ than other ways.
 
-To help write more understandable code, programmers follow a *style guide*. It provides guidelines for how to write code, how to structure it, common problems to avoid, etc.
+To help write more understandable code, programmers follow a _style guide_. It provides guidelines for how to write code, how to structure it, common problems to avoid, etc.
 
 ## Using Prettier to format code automatically
 
 Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VS Code extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
 
-Prettier is a tool that rearranges your code (called *formatting*). It follows a set of rules that programmers have agreed make your code easier to read and understand.
+Prettier is a tool that rearranges your code (called _formatting_). It follows a set of rules that programmers have agreed make your code easier to read and understand.
 
 You might have a common problem when running Prettier. If you see something like this:
 
 ![Invalid code with red highlight](./assets/prettier-error.png)
 
-Then you have written some code that is invalid and Prettier can't format it. A common is a missing bracket, so try looking for that first.
+Then you have written some code that is invalid and Prettier can't format it. A common issue is a missing bracket, so try looking for that first.
 
 ## Indent your code
 
-You may have noticed that programmers tend to *indent* their code by starting a line of code with some space.
+You may have noticed that programmers tend to _indent_ their code by starting a line of code with some space.
 
 Here's an example in HTML:
 
@@ -76,7 +76,7 @@ If you want to save some code, remember that you can commit it using Git. It wil
 
 ## Don't leave unused variables
 
-As you write code, you may make changes to the variables that you are using. You may rename some variables, make some new variables or change how the variables are used. This may leave some variables that are *unused*.
+As you write code, you may make changes to the variables that you are using. You may rename some variables, make some new variables or change how the variables are used. This may leave some variables that are _unused_.
 
 ```js
 function orderTaxi(pickUpTime) {
@@ -95,9 +95,9 @@ You should remove any variables that are unused. This is because if you (or some
 
 Making our code understandable by others is critical to being a programmer. One of the main tools in our toolbox is good naming for our variables and function names.
 
-There are no strict rules to follow when thinking of variable names, but there are some general guidelines. 
+There are no strict rules to follow when thinking of variable names, but there are some general guidelines.
 
-:::tip 
+:::tip
 When thinking about whether a variable name is good, try to imagine that you are reading the code again in the future and you have forgotten exactly how it works.
 
 Do the variable names help explain what the code is supposed to do?
@@ -105,13 +105,13 @@ Do the variable names help explain what the code is supposed to do?
 
 ### Use `camelCase`
 
-When writing JavaScript, programmers tend to use a convention called *`camelCase`*. This means starting your variable name with a lower case letter, and then every "word" after that starts with an upper case letter.
+When writing JavaScript, programmers tend to use a convention called _`camelCase`_. This means starting your variable name with a lower case letter, and then every "word" after that starts with an upper case letter.
 
 - `startingLocation`
 - `timeToDestination`
 - `trafficOnRoute`
 
-This convention makes it easier to read variables that have multiple "words".
+By doing this it makes it easier to read variable name that have multiple "words".
 
 ### Avoid short names
 
@@ -135,7 +135,7 @@ let song = true;
 let isPlaying = true;
 ```
 
-In this example, the variable name `song` doesn't tell us what it is used for. The `isPlaying` variable name is better since it tells us  whether a song is playing or not.
+In this example, the variable name `song` doesn't tell us what it is used for. The `isPlaying` variable name is better since it tells us whether a song is playing or not.
 
 ```js
 // 🛑 Try to avoid this
@@ -163,7 +163,7 @@ function isOldEnough(yearOfBirth) {
 }
 ### Remember that you are communicating with another programmer
 
-Don't forget that the person reading your code probably has some understanding of the *context*. If your function is named `getCustomer`, it's probably fine to name variables `name`, `age`, etc instead of `customerName`, `customerAge`. You don't need to explain *everything*.
+Don't forget that the person reading your code probably has some understanding of the _context_. If your function is named `getCustomer`, it's probably fine to name variables `name`, `age`, etc instead of `customerName`, `customerAge`. You don't need to explain _everything_.
 
 **Naming variables is more of an art than a science**. Often you need some experience reading other people's code before you get really good at it.
 
