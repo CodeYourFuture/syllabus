@@ -10,7 +10,9 @@ There are many different ways of writing code that achieve the same goal. Howeve
 
 To help write more understandable code, programmers follow a _style guide_. It provides guidelines for how to write code, how to structure it, common problems to avoid, etc.
 
-## Using Prettier to format code automatically
+## Before you start
+
+### Using Prettier to format code automatically
 
 Some of the guidelines are so common that there are automatic tools to do it for you! One of these tools is called Prettier. You should have installed this tool when you [set up your VS Code extensions](https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions).
 
@@ -22,7 +24,11 @@ You might have a common problem when running Prettier. If you see something like
 
 Then you have written some code that is invalid and Prettier can't format it. A common issue is a missing bracket, so try looking for that first.
 
-## Indent your code
+## Essential
+
+From when you begin programming it is essential that you follow the guidelines below - a good habit is much easier to get in to when you start!
+
+### Indent your code
 
 You may have noticed that programmers tend to _indent_ their code by starting a line of code with some space.
 
@@ -50,7 +56,7 @@ There are some guidelines about where to add indentation. For example, lines of 
 
 The guidelines about where to add indentation can be complex, but the good news is that **Prettier adds indentation automatically** for us! However it is good to pay attention to where indentation is added, as you may find yourself writing code in an environment where Prettier is not installed.
 
-## Don't leave lots of commented out code
+### Don't leave lots of commented out code
 
 When you are debugging a problem, you might comment out some sections of your code.
 
@@ -74,7 +80,7 @@ You might be worried about "losing" some experimental code that you want to "sav
 
 If you want to save some code, remember that you can commit it using Git. It will then be saved it forever. If you decide to remove the code later you can delete it and make another commit. And if you want it back again, you can always look at the deleted code in the git history.
 
-## Don't leave unused variables
+### Don't leave unused variables
 
 As you write code, you may make changes to the variables that you are using. You may rename some variables, make some new variables or change how the variables are used. This may leave some variables that are _unused_.
 
@@ -91,7 +97,7 @@ In this example, the `customerName` variable isn't used anywhere.
 
 You should remove any variables that are unused. This is because if you (or someone else) is reading your code, it can be confusing if you see a variable and then find out later that it isn't used. It could make you think that there's a bug, because the variable must have been put there for a reason!
 
-## Think of good names for your variables
+### Think of good names for your variables
 
 Making our code understandable by others is critical to being a programmer. One of the main tools in our toolbox is good naming for our variables and function names.
 
@@ -163,7 +169,13 @@ function isOldEnough(yearOfBirth) {
 }
 ```
 
-### Remember that you are communicating with another programmer
+## Advanced
+
+These additional rules may be harder for you to understand at the start of your programming journey however they are important concepts as your develop.
+
+### Remember your audience
+
+Remember that you are communicating with another programmer!
 
 Don't forget that the person reading your code probably has some understanding of the _context_. If your function is named `getCustomer`, it's probably fine to name variables `name`, `age`, etc instead of `customerName`, `customerAge`. You don't need to explain _everything_.
 
@@ -172,3 +184,38 @@ Don't forget that the person reading your code probably has some understanding o
 :::tip
 When reading other people's code, think about the variable names. If the names are not clear, make sure you understand the code first, then think about what names you would use instead.
 :::
+
+### Good scoping of your variables
+
+Define your variables with the narrowest scope they can have. This is easiest to explain with an example...
+
+```js {3,5}
+function findLongestFirstName(fullNames) {
+  let longest;
+  let firstName;
+  for (let i = 0; i < fullNames.length; i++) {
+    firstName = fullNames[i].split(" ")[0];
+    if (!longest || firstName.length > longest.length) {
+      longest = firstName;
+    }
+  }
+  return longest;
+}
+```
+
+It is considered better code to combine the two highlighted lines into one like this...
+
+```js {4}
+function findLongestFirstName(fullNames) {
+  let longest;
+  for (let i = 0; i < fullNames.length; i++) {
+    let firstName = fullNames[i].split(" ")[0];
+    if (!longest || firstName.length > longest.length) {
+      longest = firstName;
+    }
+  }
+  return longest;
+}
+```
+
+This is important as when a function (or your code more generally) becomes more complex it will be harder to keep track of what variable is used where.
