@@ -121,6 +121,7 @@ Here are some examples of **bad** names that you should avoid:
 
 - Single letters like `x` or `y`
 - Abbreviations like `evt` instead of `event`
+- Generic names like `array` or `string`
 
 ### Describe what the variable is/does
 
