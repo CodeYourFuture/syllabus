@@ -72,7 +72,7 @@ Once you have solved the problem, you should remove large sections of commented 
 
 You might be worried about "losing" some experimental code that you want to "save" by commenting it out. However, this can cause confusion about which bits of code still work.
 
-If you want to save some code, remember that you can commit it using Git. It will then be saved it forever. If decide to remove the code later you can delete it and make another commit.
+If you want to save some code, remember that you can commit it using Git. It will then be saved it forever. If you decide to remove the code later you can delete it and make another commit. And if you want it back again, you can always look at the deleted code in the git history.
 
 ## Don't leave unused variables
 
