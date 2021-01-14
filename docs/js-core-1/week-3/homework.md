@@ -62,6 +62,10 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3/pulls
 
 Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
 
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
+
 ## 5) (Optional) CodeWars
 
 Today, you'll be using a platform called [CodeWars](https://codewars.com) to help you recap the materials you learnt in JS1. CodeWars is an excellent platform for going through interesting JavaScript exercises, and allows you to communicate with the wider community to learn about the best way of writing JavaScript code.

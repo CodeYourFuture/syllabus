@@ -97,6 +97,10 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2/pulls
 
 Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
 
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
+
 ## 6) (Optional) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
