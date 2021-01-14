@@ -50,7 +50,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
 
-Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code,
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
 
 You must
 

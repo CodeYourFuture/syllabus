@@ -85,7 +85,7 @@ To challenge yourself even further, you can get ahead for next week's class by r
 
 Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
 
-Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code,
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
 
 You must
 
