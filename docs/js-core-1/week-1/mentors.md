@@ -24,7 +24,7 @@ For this exercise, you should open the Pull Request and share you screen. Illici
 
 You should only type what they say, try to let them take the lead.
 
-**Important**: Please delete the comments after you have finished the exercise so that another teacher can use it!
+**Important**: Please delete the comments after you have finished the exercise so that another teachers can use it!
 
 ## Questions and Help
 
