@@ -218,10 +218,11 @@ const preciseAge = 30.612437;
 const roughAge = Math.round(preciseAge); // 31
 ```
 
-### Exercise (15 mins)
+### Exercise (5 mins)
 
-1. Using the variables provided in the exercise calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
-2. Using online documentation, what other things can you do with the `Math` library? Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class
+Using the variables provided in the exercise, calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
+
+You should then log this number to the console.
 
 #### Expected result
 
@@ -229,6 +230,14 @@ const roughAge = Math.round(preciseAge); // 31
 Percentage students: 65%
 Percentage mentors: 35%
 ```
+
+### Extra Exercise (10 minutes)
+
+_Intructor note: Only complete this exercise if you have enough time in the lesson_
+
+Using online documentation, what other things can you do with the `Math` library?
+
+Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
 
 ## Functions
 
