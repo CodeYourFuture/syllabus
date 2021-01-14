@@ -187,8 +187,8 @@ module.exports = {
               position: "left",
             },
             {
-              to: "guides/coding-standards",
-              label: "Coding Standards",
+              to: "guides/code-style-guide",
+              label: "Code Style Guide",
               position: "left",
             },
             {
