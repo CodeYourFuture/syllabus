@@ -16,6 +16,16 @@ You can find the preparation material [here](../preparation).
 
 Be sure to assign all of the tasks to your students several days before you aim to teach.
 
+## Delivery Notes
+
+### Giving Feedback to Each Other
+
+For this exercise, you should open the Pull Request and share you screen. Illicit answers from the students based on what they've just read.
+
+You should only type what they say, try to let them take the lead.
+
+**Important**: Please delete the comments after you have finished the exercise so that another teacher can use it!
+
 ## Questions and Help
 
 We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.

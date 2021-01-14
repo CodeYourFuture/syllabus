@@ -327,13 +327,13 @@ This style guide is how we expect you to write code whilst you're at CodeYourFut
 
 [https://syllabus.codeyourfuture.io/guides/code-style-guide](https://syllabus.codeyourfuture.io/guides/code-style-guide)
 
-:::Note
+:::tip
 A style guide doesn't change anything about how your code operates - code that breaks these rules will still work. However it's important so that **other people** can more easily read your code.
 :::
 
 ### Exercise (5 minutes)
 
-_This is a Live exercise. The Teacher should take suggestions from the class on how this code can be improved and add comments themselves_
+_This is a Live exercise. The Teacher should take suggestions from the class on how this code can be improved and add comments themselves. Please read the [teaching notes](./instructors#giving-feedback-to-each-other)._
 
 Next, let's see an example of some code that we could suggest some improvements to.
 
