@@ -70,7 +70,7 @@ https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
 Follow the instructions to complete this homework!
 
-## 4) Mark other peoples homework! (1 hour)
+## 4) Mark other peoples coursework! (1 hour)
 
 Now that you've helped him with his homework we want you to mark other peoples homework from your class. Giving feedback is an important way to help you grow!
 

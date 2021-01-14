@@ -81,7 +81,25 @@ To challenge yourself even further, you can get ahead for next week's class by r
 - [ ] What are algorithms: https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
 - [ ] Bubble sort: https://humanwhocodes.com/blog/2009/05/26/computer-science-in-javascript-bubble-sort/
 
-## 5) (Optional) Extra JavaScript Challenges
+## 5) Give feedback on your colleague's coursework (1 hour)
+
+Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code,
+
+You must
+
+1. View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2/pulls
+
+2. Find **two** pull requests that have no, or few, comments on them
+3. Leave comments on the **two** pull requests with improvements or suggestions
+4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+## 6) (Optional) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
