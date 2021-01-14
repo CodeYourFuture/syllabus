@@ -83,11 +83,9 @@ To challenge yourself even further, you can get ahead for next week's class by r
 
 ## 5) Give feedback on your colleague's coursework (1 hour)
 
-Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+This is the same as last week - getting experience in this vital skill will help you a lot as you move through the course.
 
-Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
-
-You must
+You should
 
 1. View the open Pull Requests here
 
