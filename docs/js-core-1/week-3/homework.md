@@ -46,7 +46,27 @@ Next, in the same repository complete all of the exercises in the "Mandatory" fo
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
-## 4) (Optional) CodeWars
+## 4) Give feedback on your colleague's coursework (1 hour)
+
+Just like last week, we want you to continue to give good, helpful feedback to the other students in your class.
+
+You should
+
+1. View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3/pulls
+
+2. Find **two** pull requests from people in your class that have no, or few, comments on them
+3. Leave comments on the **two** pull requests with improvements or suggestions
+4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
+
+## 5) (Optional) CodeWars
 
 Today, you'll be using a platform called [CodeWars](https://codewars.com) to help you recap the materials you learnt in JS1. CodeWars is an excellent platform for going through interesting JavaScript exercises, and allows you to communicate with the wider community to learn about the best way of writing JavaScript code.
 
