@@ -20,7 +20,7 @@ Be sure to assign all of the tasks to your students several days before you aim 
 
 ### Giving Feedback to Each Other
 
-For this exercise, you should open the Pull Request and share you screen. Illicit answers from the students based on what they've just read.
+For this exercise, you should open the Pull Request and share you screen. Elicit answers from the students based on what they've just read.
 
 You should only type what they say, try to let them take the lead.
 
