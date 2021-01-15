@@ -90,7 +90,7 @@ You must
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1/pulls
 
-2. Find **two** pull requests that have no, or few, comments on them
+2. Find **two** pull requests from people in your class that have no, or few, comments on them
 3. Leave comments on the **two** pull requests with improvements or suggestions
 4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
 
