@@ -173,7 +173,7 @@ Finally, parameters of functions should also have names that properly represent 
 
 ### Using `let`, `const` and `var`
 
-In JavaScript there are three ways to define a variable - `let`, `const` and `var`. The rules are as folllows
+In JavaScript there are three ways to define a variable - `let`, `const` and `var`. The rules on using them at CodeYourFuture are as follows
 
 ```js
 var myAge = 21; // 🛑 Do not use
@@ -185,7 +185,7 @@ const secondsInMinute = 60; // ✅ Use for values that never change
 
 You should **never** use `var`. This is an outdated way of writing JavaScript code and it is always better to use `let` or `const`.
 
-The reason it still exists is become lots of code already uses it and so it can't be removed safely.
+The reason it still exists is because lots of code already uses it and so it can't be removed from JavaScript safely.
 
 #### Using `let`
 
