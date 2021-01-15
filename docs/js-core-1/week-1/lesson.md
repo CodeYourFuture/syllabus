@@ -332,7 +332,7 @@ A critical part of being developer is reading other people's code and giving goo
 
 Let's spend the next five minutes reviewing CodeYourFuture's Style Guide.
 
-This style guide is how we expect you to write code whilst you're at CodeYourFuture - each company has one and it's really important you stick to it to make sure we all write code that other people can understand.
+This style guide is how we expect you to write code whilst you're at CodeYourFuture - most companies have one and it's really important you stick to it to make sure we all write code that other people can understand.
 
 [https://syllabus.codeyourfuture.io/guides/code-style-guide](https://syllabus.codeyourfuture.io/guides/code-style-guide)
 
