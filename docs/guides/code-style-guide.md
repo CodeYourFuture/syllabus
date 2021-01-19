@@ -171,6 +171,39 @@ function isOldEnough(yearOfBirth) {
 
 Finally, parameters of functions should also have names that properly represent what is going to be received into the function.
 
+### Using `let`, `const` and `var`
+
+In JavaScript there are three ways to define a variable - `let`, `const` and `var`. The rules on using them at CodeYourFuture are as follows
+
+```js
+var myAge = 21; // 🛑 Do not use
+let yourAge = 21; // ✅ Use for values that change
+const secondsInMinute = 60; // ✅ Use for values that never change
+```
+
+#### Using `var`
+
+You should **never** use `var`. This is an outdated way of writing JavaScript code and it is always better to use `let` or `const`.
+
+The reason it still exists is because lots of code already uses it and so it can't be removed from JavaScript safely.
+
+#### Using `let`
+
+You should use `let` for a variable that will change, for example:
+
+```js
+let buttonClickedCount = 0;
+buttonClickedCount = buttonClickedCount + 1;
+```
+
+#### Using `const`
+
+For other variables that will never change you should use `const`, for example
+
+```js
+const centimetersInMeter = 100;
+```
+
 ## Advanced
 
 These additional rules may be harder for you to understand at the start of your programming journey however they are important concepts as your develop.
