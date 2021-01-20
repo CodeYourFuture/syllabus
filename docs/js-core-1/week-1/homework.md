@@ -66,8 +66,6 @@ Next, in the same repository complete all of the exercises in the "Mandatory" fo
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-If you finish all of those, spend some time
-
 ## 4) Prepare for next week (2 hours)
 
 To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
