@@ -31,7 +31,7 @@ If you're on Windows, make sure that you've followed the instructions [here](../
 
 There are a few different ways that you can open the terminal.
 
-### 1) (Recommended) In Visual Studio Code
+### (Recommended) In Visual Studio Code
 
 Open VSCode and Click on `View` > `Terminal`.
 
@@ -43,17 +43,99 @@ This will then open a new Terminal windows
 
 This is a fully featured Terminal where you can complete this week's coursework.
 
-### 2) Through Your Operating System
+### Through Your Operating System
 
-### 2.1) On Windows
+#### On Windows
 
-Open the Start Menu and search `WSL`.
+Open the Start Menu and search for `WSL`.
 
-![The start menu on windows](assets/windows.png)
+Click on the `WSL` button to open the WSL window.
 
-Click on the `WSL` button to open the WSL window
+This will open Windows Subsystem for Linux, it may take a moment to finish loading.
 
-### 2) On Mac
+#### On Mac
+
+Perhaps the easiest and quickest way to open Terminal is through Spotlight Search. To launch Spotlight, click the small magnifying glass icon in your menu bar (or press `Command+Space`).
+
+When the Spotlight Search bar pops up on your screen, type `terminal.app` and hit `Return`. Or you can click the Terminal.app icon that appears.
+
+Terminal will launch, and you’ll be ready to go.
+
+#### Ubuntu
+
+You’ll find the Terminal application included with your other installed applications. To find them, click the `Show Applications` button at the bottom-left corner of your screen, on the dash bar.
+
+Type `Terminal` and press Enter to find and launch the Terminal shortcut. You can also locate the Terminal icon in the list of all applications that appears here and click it.
+
+### Exercise (5 minutes)
+
+Using the above instructions, open the terminal now.
+
+## 2) What is a GUI?
+
+GUI stands for **G**raphical **U**ser **I**nterface.
+
+A GUI is a useful way to make computers easier to use for general users of software. An example of a GUI is the Windows Desktop.
+
+![Windows 7 Desktop - Annotated](assets/windows-desktop.jpg)
+
+In a GUI, there a visual elements (buttons, text, windows etc) that a user can interact with to complete tasks.
+
+### Self-Study Exercise (15 minutes)
+
+Research the following questions
+
+- What is a GUI useful?
+- What are three examples of a GUI?
+- When were GUIs invented?
+- What came before GUIs?
+
+Anything you don't understand? Ask your questions in your Slack channel.
+
+## 3) What is a CLI (or Terminal)?
+
+CLI stands for **C**ommand **L**ine **I**nterface.
+
+## 4) What is the CLI for?
+
+### Tasks done in a CLI are easily repeatable
+
+Imagine needing to configure 5 computers for some purpose. For this small number, it's probably not worthwhile to create an automated solution to configure them all. You'll just tweak the settings of each.
+
+On a CLI, it's simple to copy and paste the commands. On a GUI, you might get familiar with where the configurations are stored, but may still be left with a fair deal of clicking. Mistakes are more likely.
+
+This also is relevant to documentation and technical help. Providing four lines to copy and paste into a terminal console might replace a couple paragraphs of explanation of how to click into various admin tools (especially since the GUI directions might only be perfect for one of several interfaces, see “GUI interfaces are countless” below).
+
+### Tracking/auditing is easier
+
+A command-line interface (CLI) retains a record of what you've done, which you can easily extract and keep. When something goes wrong your boss asks, "Are you sure you did it exactly right?" you can have evidence to prove you did. Even if you did make a mistake, you can more easily see it and learn from it.
+
+### Scripting/automating is nearly as easy as entering commands
+
+Everyone knows how to use a mouse to open a file in a GUI. Far fewer people know how to make that happen automatically. With a CLI, automating the task can be almost as easy as typing it in by hand.
+
+### Technological Constraints can still make CLI's compelling
+
+Logging into a GUI box remotely requires a fairly fast internet connection without which can make the experience frustrating. A CLI remote login has a much lower bandwidth requirement, since it is just transmitting a little text back and forth. And latency is much easier to deal with when you are typing, than when you are trying to hover a mouse over an icon.
+
+### There are just a few standard Terminals; GUI interfaces are countless
+
+If you log into the GUI admin interface of a few different web hosting services, you’ll probably see that they are all different. It’s not hard to poke around and figure out where everything is, but it takes time. Next year, the host may have upgraded their solution, and now everything is in a slightly different place — one more thing to learn.
+
+That hosting service probably still uses the same CLI. The new version is backward compatible with the old. Users familiar with Bash, PowerShell, or whatever CLI is on the system can eliminate the ramp-up time spent familiarizing (or re-familiarizing) themselves with that particular GUI.
+
+### Self-Study Exercise (15 minutes)
+
+Research the following questions
+
+- When was the Command Line Interface invented?
+- What problems was it trying to solve?
+
+Anything you don't understand? Ask your questions in your Slack channel.
+
+## 5) Getting Started with the Terminal
+
+The best way to get started with the Terminal is to start using it - move to the coursework page to begin working.
 
 ## Coursework
 

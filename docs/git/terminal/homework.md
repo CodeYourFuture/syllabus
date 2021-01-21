@@ -4,13 +4,17 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## 1) Watch this video (15 minutes)
+## 1) Read the Lesson Page Content (60 minutes)
+
+Before starting this coursework, read through the lesson and complete the exercises.
+
+## 2) Watch this video (15 minutes)
 
 This video gives a good, accessible introduction to the command line
 
 https://www.youtube.com/watch?v=oK8EvVeVltE
 
-## 2) OpenClassroom - Learn the Command Line in Terminal (4 Hours)
+## 3) OpenClassroom - Learn the Command Line in Terminal (4 Hours)
 
 This OpenClassroom course will take you through the basics of the learning the Terminal.
 
@@ -22,7 +26,7 @@ Note: You do not need to use any additional software to complete this course. Yo
 
 https://openclassrooms.com/en/courses/4614926-learn-the-command-line-in-terminal?status=published
 
-## 3) Check Your Understanding - Coursework (30 minutes)
+## 4) Check Your Understanding - Coursework (30 minutes)
 
 Here is a coursework repository with a selection of challenges and a quiz to complete
 
@@ -30,7 +34,7 @@ https://github.com/CodeYourFuture/Terminal-Coursework-Week1
 
 The really important point here is to make sure _you_ understanding everything we've done so far.
 
-## 4) Mark other peoples coursework (15 minutes)
+## 5) Mark other peoples coursework (15 minutes)
 
 Now that you've helped him with his homework we want you to mark other peoples homework from your class. Giving feedback is an important way to help you grow!
 
