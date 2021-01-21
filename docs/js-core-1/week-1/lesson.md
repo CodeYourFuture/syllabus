@@ -283,7 +283,93 @@ function add(num1, num2) {
 
 ### Exercise (20 minutes)
 
-1. In pairs, design and create a function that:
+1. Create a function called `formatPenceToPounds` that should
+
+- take a number as an input ( representing an amount of money in pence )
+- return a string containing a `£` sign and the input number converted to pounds.
+
+For example, `formatPenceToPounds(199)` should evaluate to `"£1.99"`
+
+In your groups, think carefully about the following things:
+
+- what the parameter name should be
+- creating good names for any variables you use
+- it should not log anything to the console
+
+Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
+
+2. Create a function called `increaseByHalf` that should
+
+- take a number as an input
+- return this input number **increased by 10 percent**
+
+For example, `increaseByHalf(50)` should **evaluate** `75`
+`increaseByHalf(100)` should \*\*evaluate to `150`
+
+In your groups, think carefully about the following things:
+
+- what the parameter name should be
+- creating good names for any variables you use
+
+Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
+
+---
+
+Now declare a variable called `pocketMoney` and assign to it a value of `413`
+
+Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
+
+Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
+
+3. ### Question 1
+
+```jsx
+function printMessage(x) {
+  console.log('Hello, nice to meet you ' + x);
+}
+
+function getMessage(firstName) {
+  return 'Hello, nice to meet you ' + firstName;
+}
+
+printMessage('Mitch');
+
+printMessage('August');
+
+getMessage('Laetitia');
+```
+
+The functions above behave similarly but _differ_ in some important ways.
+
+In groups, look at the block of code above and then answer the following questions.
+
+a) How many times is the function `printMessage` **called** ?
+
+b) How many times is the function `getMessage` **called** ?
+
+c) What is the parameter name for the function `printMessage` ?
+
+d) What is the parameter name for the function `getMessage` ?
+
+Discuss briefly which **parameter name** is better out of the two functions and why ?
+
+e) What is the **return value** of the function `printMessage` whenever it is called ?
+
+```jsx
+const messageForAli = getMessage('Ali');
+
+const curiousMessage = getMessage(42);
+```
+
+Someone then creates 2 further variables `messageForAli` and `curiousMessage`.
+
+d) What will the variable `messageForAli` evaluate to when the code above is executed ?
+
+e) What will the variable `curiousMessage` evaluate to when the code above is executed ?
+
+Hint: Think carefully about the parameters and arguments for `getMessage` for part e)
+
+In pairs, design and create a function that:
 
 - takes in more than one input
 - uses string concatenation
