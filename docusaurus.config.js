@@ -40,6 +40,11 @@ module.exports = {
       },
       items: [
         {
+          to: "Overview",
+          label: "Overview",
+          position: "left",
+        },
+        {
           label: "Modules",
           position: "left",
           items: [
