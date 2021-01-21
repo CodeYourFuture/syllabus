@@ -281,7 +281,9 @@ function add(num1, num2) {
 }
 ```
 
-### Exercise (20 minutes)
+### Exercises (20 minutes)
+
+Try creating a new file when solving the each of the questions below:
 
 1. Create a function called `formatPenceToPounds` that should
 
@@ -303,8 +305,8 @@ Call `formatPenceToPounds` a few times with different inputs and `console.log` t
 - take a number as an input
 - return this input number **increased by 10 percent**
 
-For example, `increaseByHalf(50)` should **evaluate** `75`
-`increaseByHalf(100)` should \*\*evaluate to `150`
+E.g. `increaseByHalf(50)` should **evaluate** to `75`
+E.g. `increaseByHalf(100)` should \*\*evaluate\*\* to `150`
 
 In your groups, think carefully about the following things:
 
@@ -321,7 +323,7 @@ Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
 
-3. ### Question 1
+3. Check out the code below:
 
 ```jsx
 function printMessage(x) {
@@ -341,7 +343,7 @@ getMessage('Laetitia');
 
 The functions above behave similarly but _differ_ in some important ways.
 
-In groups, look at the block of code above and then answer the following questions.
+In groups, study the code above and then answer the following questions:
 
 a) How many times is the function `printMessage` **called** ?
 
