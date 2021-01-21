@@ -8,8 +8,9 @@ Most software engineers use a tool called Git to organise their code, and collab
 
 Git is a version control tool, used to keep the history of changes, and make collaboration easier. We'll see many of its uses throughout the course.
 
-Each week, you're going to use Git to get a copy of your homework exercises, to submit your solutions, and to get feedback on your solutions. Today, you're going to learn how to do these things.
+Each week, you're going to use Git to get a copy of your Coursework exercises, to submit your solutions, and to get feedback on your solutions. Today, you're going to learn how to do these things.
 
-| Week                  | Content                 | Homework                   |
-| --------------------- | ----------------------- | -------------------------- |
-| [Week 1](./index.md) | Github & Github Desktop | [Git Homework](./homework) |
+| Week                           | Content                 | Coursework                        |
+| ------------------------------ | ----------------------- | --------------------------------- |
+| [Week 1](./index.md)           | Github & Github Desktop | [Git Coursework](./homework)      |
+| [Week 2](./terminal/lesson.md) | The Terminal            | [Terminal Coursework](./homework) |

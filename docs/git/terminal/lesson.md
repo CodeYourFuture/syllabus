@@ -35,11 +35,11 @@ There are a few different ways that you can open the terminal.
 
 Open VSCode and Click on `View` > `Terminal`.
 
-![The View Terminal Button](/assets/viewterminal.png)
+![The View Terminal Button](assets/viewterminal.png)
 
 This will then open a new Terminal windows
 
-![An example of a terminal window](terminal.png)
+![An example of a terminal window](assets/terminal.png)
 
 This is a fully featured Terminal where you can complete this week's coursework.
 
