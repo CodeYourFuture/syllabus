@@ -32,7 +32,6 @@ module.exports = {
       searchParameters: {}, // Optional (if provided by Algolia)
     },
     navbar: {
-      title: "Home",
       hideOnScroll: true,
       logo: {
         alt: "CodeYourFuture Logo",
