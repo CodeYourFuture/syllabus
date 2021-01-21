@@ -92,13 +92,13 @@ We can use a _variable_ to create a reference to a value. Variables can be thoug
 Before you use a variable in a JavaScript program, you must declare it. Variables are declared with _let_ and _const_ keywords as follows.
 
 ```js
-let greeting = "Hello world";
+let greeting = 'Hello world';
 
 console.log(greeting);
 ```
 
 ```js
-const name = "Irina";
+const name = 'Irina';
 
 console.log(name);
 ```
@@ -117,7 +117,7 @@ In programming there are different _types of_ data. You've used one data type al
 Computers recognise strings as a sequence of characters but to humans, strings are simply lines of text.
 
 ```js
-const message = "This is a string";
+const message = 'This is a string';
 ```
 
 Notice that strings are always wrapped **inside of quote marks**. We do this so that the computer knows when the string starts and ends.
@@ -125,7 +125,7 @@ Notice that strings are always wrapped **inside of quote marks**. We do this so 
 You can check that the data is a string by using the `typeof` operator:
 
 ```js
-const message = "This is a string";
+const message = 'This is a string';
 const messageType = typeof message;
 
 console.log(messageType); // logs 'string'
@@ -149,8 +149,8 @@ String interpolation is a useful JavaScript feature that allows you to put varia
 
 ```js
 // Here is an example using the plus operator to concat strings
-const greetingStart = "Hello, my name is ";
-const name = "Daniel";
+const greetingStart = 'Hello, my name is ';
+const name = 'Daniel';
 
 const greeting = greetingStart + name;
 
@@ -159,8 +159,8 @@ console.log(greeting); // Logs "Hello, my name is Daniel"
 
 ```js
 // Here is example using the String interpolation to concat strings
-const greetingStart = "Hello";
-const name = "Daniel";
+const greetingStart = 'Hello';
+const name = 'Daniel';
 
 const greeting = `${greetingStart}, my name is ${name}`;
 
@@ -298,33 +298,7 @@ function add(num1, num2) {
 
 ### Exercise (10 minutes)
 
-1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?
-
-## Calling functions inside functions
-
-Functions are very powerful.
-
-- You can write more than one line of code inside of functions.
-- You can use variables inside of functions.
-- You can call other functions inside of functions!
-
-```js
-function getAgeInDays(age) {
-  return age * 365;
-}
-
-function createGreeting(name, age) {
-  const ageInDays = getAgeInDays(age);
-  const message =
-    "My Name is " + name + " and I was born over " + ageInDays + " days ago!";
-  return message;
-}
-```
-
-### Exercise (20 mins)
-
-1. Write a function that returns the year someone is born given their age as input
-2. Using the answer from step 1, write a function that takes someone's name and age as input and returns a string that states the person's name and year they were born in a sentence
+1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?g
 
 ## Giving Feedback to Each Other
 
