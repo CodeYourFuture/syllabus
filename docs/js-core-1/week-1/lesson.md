@@ -171,7 +171,7 @@ console.log(greeting); // Logs "Hello, my name is Daniel"
 
 1. Write a program that logs a message with a greeting and your name using the two concatenation methods we used
 
-## Numbers as integers
+## Numbers
 
 The next data type we will learn is **number**.
 
@@ -203,7 +203,6 @@ Number of mentors: 8
 Total number of students and mentors: 23
 ```
 
-## Numbers as decimals
 
 Numbers can be integers (whole numbers) or floats (numbers with a decimal).
 
@@ -251,9 +250,7 @@ function double(number) {
 }
 ```
 
-To use the function we need to:
-a) _call_ it with an input and
-b) do something with the returned value, for example assigning it to a variable
+To use a function then we we need to **call** it ( some people will say **invoke** )
 
 ```js
 const result = double(2);
@@ -261,9 +258,14 @@ const result = double(2);
 console.log(result); // 4
 ```
 
-The input given to a function is called a **parameter**.
+The function `double` is being invoked by placing parathenses after the name of the function like this `double()`
 
-A function can take more than one parameter:
+🔑
+The input given to a function is called a **argument**
+
+🔑 A **parameter** is a variable that is used to refer to an **argument**
+
+A function can have one or more **parameters**, check out the example below:
 
 ```js
 function add(a, b) {
@@ -271,9 +273,13 @@ function add(a, b) {
 }
 ```
 
-When you write a function (sometimes called _declaring a function_) you assign names to the parameters inside of the parentheses (`()`). Parameters can be called anything.
+In the function `add` above the parameters are `a` and `b`.
 
-This function is exactly the same as the on above:
+If we call the function like this `add(10,32)` then we're passing 2 arguments (or inputs) into the function - `10` and `32`.
+
+When you write a function (sometimes called _declaring a function_) you can define the parameters like you could with any variable name.
+
+The function below does exactly the same thing as the one above:
 
 ```js
 function add(num1, num2) {
@@ -285,10 +291,12 @@ function add(num1, num2) {
 
 Try creating a new file when solving the each of the questions below:
 
+<br />
+
 1. Create a function called `formatPenceToPounds` that should
 
 - take a number as an input ( representing an amount of money in pence )
-- return a string containing a `£` sign and the input number converted to pounds.
+- return a string starting with a`£` sign and the input number converted to pounds.
 
 For example, `formatPenceToPounds(199)` should evaluate to `"£1.99"`
 
@@ -300,13 +308,16 @@ In your groups, think carefully about the following things:
 
 Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
 
+---
+
 2. Create a function called `increaseByHalf` that should
 
 - take a number as an input
-- return this input number **increased by 10 percent**
+- return this input number **increased by a half**
 
-E.g. `increaseByHalf(50)` should **evaluate** to `75`
-E.g. `increaseByHalf(100)` should \*\*evaluate\*\* to `150`
+E.g. `increaseByHalf(50)` should **evaluate** to `75` 
+
+E.g. `increaseByHalf(100)` should **evaluate** to `150`
 
 In your groups, think carefully about the following things:
 
@@ -315,13 +326,13 @@ In your groups, think carefully about the following things:
 
 Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
 
----
 
 Now declare a variable called `pocketMoney` and assign to it a value of `413`
-
 Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
+
+---
 
 3. Check out the code below:
 
@@ -345,44 +356,32 @@ The functions above behave similarly but _differ_ in some important ways.
 
 In groups, study the code above and then answer the following questions:
 
-a) How many times is the function `printMessage` **called** ?
-
-b) How many times is the function `getMessage` **called** ?
-
-c) What is the parameter name for the function `printMessage` ?
-
-d) What is the parameter name for the function `getMessage` ?
+a) How many times is the function `printMessage` called ?<br />
+b) How many times is the function `getMessage` called ?<br />
+c) What is the parameter name for the function `printMessage` ?<br />
+d) What is the parameter name for the function `getMessage` ?<br />
 
 Discuss briefly which **parameter name** is better out of the two functions and why ?
 
 e) What is the **return value** of the function `printMessage` whenever it is called ?
 
-```jsx
+
+<br />
+
+Someone then creates 2 further variables `messageForAli` and `curiousMessage`:
+
+```js
 const messageForAli = getMessage('Ali');
 
 const curiousMessage = getMessage(42);
 ```
 
-Someone then creates 2 further variables `messageForAli` and `curiousMessage`.
-
-d) What will the variable `messageForAli` evaluate to when the code above is executed ?
-
-e) What will the variable `curiousMessage` evaluate to when the code above is executed ?
+f) What will the variable `messageForAli` evaluate to when the code above is executed ?<br />
+g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
 
 Hint: Think carefully about the parameters and arguments for `getMessage` for part e)
 
-In pairs, design and create a function that:
-
-- takes in more than one input
-- uses string concatenation
-- this means adding two strings together
-- performs some form of operation on a number
-- uses `return` to return a **string**
-
-2. Add a comment above your function to explain what it does
-3. Call your function and run your script
-4. What's the difference between a `return` and `console.log`?
-5. When would you choose to use functions over the way we have been scripting so far?
+<br />
 
 ### Exercise (10 minutes)
 
