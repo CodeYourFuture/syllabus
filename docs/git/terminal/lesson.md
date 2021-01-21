@@ -69,7 +69,11 @@ Type `Terminal` and press Enter to find and launch the Terminal shortcut. You ca
 
 ### Exercise (5 minutes)
 
+:::tip Exercise
 Using the above instructions, open the terminal now.
+
+Having issues? Can't open the terminal? Ask for help on your Slack channel **now**!.
+:::
 
 ## 2) What is a GUI?
 
@@ -83,6 +87,7 @@ In a GUI, there a visual elements (buttons, text, windows etc) that a user can i
 
 ### Self-Study Exercise (15 minutes)
 
+:::tip Exercise
 Research the following questions
 
 - What is a GUI useful?
@@ -91,12 +96,13 @@ Research the following questions
 - What came before GUIs?
 
 Anything you don't understand? Ask your questions in your Slack channel.
+:::
 
 ## 3) What is a CLI (or Terminal)?
 
 CLI stands for **C**ommand **L**ine **I**nterface.
 
-## 4) What is the CLI for?
+## 4) Why does the CLI exist?
 
 ### Tasks done in a CLI are easily repeatable
 
@@ -126,12 +132,14 @@ That hosting service probably still uses the same CLI. The new version is backwa
 
 ### Self-Study Exercise (15 minutes)
 
+:::tip Exercise
 Research the following questions
 
 - When was the Command Line Interface invented?
 - What problems was it trying to solve?
 
 Anything you don't understand? Ask your questions in your Slack channel.
+:::
 
 ## 5) Getting Started with the Terminal
 
