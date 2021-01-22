@@ -244,7 +244,8 @@ In JavaScript, there are **expressions** and **statements**. We will use these w
 
 ### Expression
 
-An expression returns a value. Sometimes we will say that an expression _evaluates to_ a value.
+Any unit of code that can be evaluated to a value is known as an **expression**.
+We say that an expression _evaluates to_ a value.
 
 The following are all examples of expressions:
 
