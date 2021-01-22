@@ -41,98 +41,26 @@ let codeYourFutureIsGreat = true;
 let thisIsATerribleClass = false;
 ```
 
-### Exercise ( 15 mins )
-
-1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
-
-
-2. Modify the values below to to have the compare function return the desired value:
-
-Replace the variable `FILL_ME_IN` with literal values to prevent the `assert` function from throwing an error.
-
-```js
-const mentorCount = FILL_ME_IN;
-const studentCount = FILL_ME_IN;
-checkValue(mentorCount < studentCount);
-
-const capacity = FILL_ME_IN;
-const people = FILL_ME_IN;
-checkValue(capacity > people);
-
-const organisation = FILL_ME_IN;
-checkValue(typeof organisation === 'string')
-checkValue(organisation.startsWith('Code'));
-checkValue(organisation.includes(' your '));
-checkValue(organisation.endsWith('Future!'));
-
-const firstName = FILL_ME_IN;
-const lastName = FILL_ME_IN;
-checkValue(firstName[0] === lastName[0]);
-
-const mystery = FILL_ME_IN;
-checkValue(typeof mystery === 'boolean');
-checkValue(!mystery);
-
-const mysteryString = FILL_ME_IN;
-checkValue(typeof mysteryString === 'string');
-checkValue(!mysteryString);
-
-const mysteryNumber = FILL_ME_IN;
-checkValue(typeof mysteryNumber === 'number');
-checkValue(!mysteryNumber);
-
-// Can you work out what an exclamation mark at the front of an expression does ?
-
-const nums = [1, 2, 3, 4, 5];
-const numsCopy = FILL_ME_IN;
-checkValue(nums === numsCopy);
-
-// Don't change anything below this point
-var FILL_ME_IN;
-function checkValue(value1) {
-  if (value1) {
-    console.log("\x1b[32m%s\x1b[0m","Yes, that expression is truthy!");
-  } else {
-    console.log("\x1b[31m%s\x1b[0m","That expression isn't truthy!");
-  }
-}
-```
-
-The array comparison doesn't work because JavaScript comparison only works as expected on `number`s, `string`s, and `boolean`s.
-
-You need to be aware of this, and you can go deeper into outside of the lesson, but generally remember that only `number`s, `string`s, and `boolean`s work with equality.
-
-MDN have some in depth, if not too in depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
-
-
-3. Create a function called `isEven` that should
-- take a number as an input
-- return a **boolean** indicating if the number is even or odd
-
-E.g. `isEven(100)` should evaluate to a `true`
-E.g. `isEven(53)` should evaluate to `false`
-
-Call your function with a number of different inputs to check your function is working as expected. 😄
-
 
 ## Comparison Operators
 
-In the previous exercise, you used an **expression** that returns a `boolean` value. This was possible because of the **comparison operator** `===`. Using a comparison operator will always return a `boolean` value.
+In the previous exercise, you used an **expression** that evaluates to a `boolean` value. This was possible because of the **comparison operator** `===`. Using a comparison operator will always return a `boolean` value.
 
-### Assert
+### `checkIsTrue`
 
-We will also be using a new keyword to make sure the comparisons we do below return `true`. This is the `assert`.
+We have created a function `checkIsTrue` that checks if an **expression** evaluates to `true`or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
 
-When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.
+For example,
 
-Here's an expression that evaluates to a `boolean`.
+`checkIsTrue(10 === 10)` should print `"Yes, this expression evaluates to true! ✅"`
+`checkIsTrue(3 > 10000)` should print `"Sorry, this expression evaluates to false! :x"`
 
 **Can you work out what will happen with the code below?**
 
 ```js
-assert(1 > 2);
+checkIsTrue(1 > 2);
 // and...
-assert(2 < 1);
+checkIsTrue(2 < 1);
 ```
 
 The `>` symbol in the expression is a **comparison operator**. Comparison operators compare two values. This operator checks to see if the number on the left is bigger than the number on the right.
@@ -164,43 +92,85 @@ You might see people use two other comparison operators. They are valid, but are
 
 If you see these, suggest people change them in pull requests.
 
-### Exercise (5 mins)
 
-1. Modify the values below to have the compare function return the desired value:
+### Exercise ( 15 mins )
+
+1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
+
+
+2. Check out the code below.
+
+
+
+Modify the values below to to have the compare function return the desired value:
+
+
+Replace the variable `FILL_ME_IN` with literal values to prevent the `assert` function from throwing an error.
 
 ```js
-const assert = require("assert");
+const mentorCount = FILL_ME_IN;
+const studentCount = FILL_ME_IN;
+checkIsTrue(mentorCount < studentCount);
 
-const mentorCount = // TODO
-const studentCount = // TODO
-assert(mentorCount < studentCount);
+const capacity = FILL_ME_IN;
+const people = FILL_ME_IN;
+checkIsTrue(capacity > people);
 
-const capacity = 25
-const people = // TODO
-assert(capacity > people);
+const organisation = FILL_ME_IN;
+checkIsTrue(typeof organisation === 'string')
+checkIsTrue(organisation.startsWith('Code'));
+checkIsTrue(organisation.includes(' your '));
+checkIsTrue(organisation.endsWith('Future!'));
 
-const name1 = // TODO
-const name2 = // TODO
-assert(name1 === name2);
+const firstName = FILL_ME_IN;
+const lastName = FILL_ME_IN;
+checkIsTrue(firstName[0] === lastName[0]);
 
-const number1 = // TODO
-const number2 = // TODO
-assert(number1 !== number2);
+const mystery = FILL_ME_IN;
+checkIsTrue(typeof mystery === 'boolean');
+checkIsTrue(!mystery);
 
-const thisNumber = // TODO
-const thatNumber = // TODO
-assert(thisNumber === thatNumber);
+const mysteryString = FILL_ME_IN;
+checkIsTrue(typeof mysteryString === 'string');
+checkIsTrue(!mysteryString);
 
-const thisArray = [1, 2, 3, 4, 5];
-const thatArray = [1, 2, 3, 4, 5];
-assert(thisArray === thatArray);
+const mysteryNumber = FILL_ME_IN;
+checkIsTrue(typeof mysteryNumber === 'number');
+checkIsTrue(!mysteryNumber);
+
+// Can you work out what an exclamation mark at the front of an expression does ?
+
+const nums = [1, 2, 3, 4, 5];
+const numsCopy = FILL_ME_IN;
+checkIsTrue(nums === numsCopy);
+
+// Don't change anything below this point
+var FILL_ME_IN;
+function checkIsTrue(value1) {
+  if (value1) {
+    console.log("\x1b[32m%s\x1b[0m","Yes, this expression evaluates to true! ✅");
+  } else {
+    console.log("\x1b[31m%s\x1b[0m","Sorry, this expression evaluates to false! :x");
+  }
+}
 ```
 
 The array comparison doesn't work because JavaScript comparison only works as expected on `number`s, `string`s, and `boolean`s.
 
-You need to be aware of this, and its possible for you to go deeper into array comparisons outside of the lesson, though generally remember that only `number`s, `string`s, and `boolean`s work with equality.
+You need to be aware of this, and you can go deeper into outside of the lesson, but generally remember that only `number`s, `string`s, and `boolean`s work with equality.
 
-MDN has some slightly in-depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
+MDN have some in depth, if not too in depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
+
+
+3. Create a function called `isEven` that should
+- take a number as an input
+- return a **boolean** indicating if the number is even or odd
+
+E.g. `isEven(100)` should evaluate to a `true`
+E.g. `isEven(53)` should evaluate to `false`
+
+
+Call your function with a number of different inputs to check your function is working as expected. 😄
 
 ## Conditionals
 
