@@ -128,6 +128,11 @@ If you type something that the computer doesn't understand, you'll see the above
 
 ### Self-Study Exercise (5 minutes)
 
+<!--
+This is built using the Tabs component that is included in docusaurus
+https://v2.docusaurus.io/docs/markdown-features/#multi-language-support-code-blocks
+-->
+
 <Tabs
 defaultValue="exercise"
 values={[{ label: "Exercise", value: "exercise", },{ label:"Answer", value: "answer", },]}>
