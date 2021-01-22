@@ -12,7 +12,7 @@ import Feedback from "@theme/Feedback";
 - [Variables](#variables)
 - [Strings](#strings)
 - [Numbers](#numbers)
-- [Expressions](#expressions)
+- [Statements & expressions](#statements-and-expressions)
 - [Functions](#functions)
 
 ## Learning Objectives
@@ -141,6 +141,7 @@ console.log(messageType); // logs 'string'
 
 2. What is the `typeof` a number?
 
+### String concatenation
 
 You can add two strings together using the plus operator (`+`) or _string interpolation_.
 
@@ -165,7 +166,6 @@ const greeting = `${greetingStart}, my name is ${name}`;
 
 console.log(greeting); // Logs "Hello, my name is Daniel"
 ```
-
 ### Exercise (5 mins)
 
 1. Write a program that logs a message with a greeting and your name using the two concatenation methods we used
@@ -188,12 +188,6 @@ const product = 10 * 2; // 20
 const quotient = 10 / 2; // 5
 const difference = 10 - 2; // 8
 ```
-
-### Exercise (10 mins)
-
-1. Create two variables `numberOfStudents` and `numberOfMentors`
-2. Log a message that displays the total number of students and mentors
-
 #### Expected result
 
 ```sh
@@ -201,9 +195,9 @@ Number of students: 15
 Number of mentors: 8
 Total number of students and mentors: 23
 ```
+### Numbers as decimals
 
-
-Numbers can be integers (whole numbers) or floats (numbers with a decimal).
+Numbers can be integers (whole numbers) or floats (numbers with a decimal point).
 
 ```js
 const preciseAge = 30.612437;
@@ -216,17 +210,19 @@ const preciseAge = 30.612437;
 const roughAge = Math.round(preciseAge); // 31
 ```
 
-### Exercise (5 mins)
+### Exercise (15 mins)
 
-Using the variables provided in the exercise, calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
+1. Create two variables `numberOfStudents` and `numberOfMentors`
+2. Log a message that displays the total number of students and mentors
+3. Using the variables provided in the exercise, calculate the percentage of mentors and students in the group (percentages must be rounded to the nearest integer)
 
 You should then log this number to the console.
 
 #### Expected result
 
 ```sh
-Percentage students: 65%
-Percentage mentors: 35%
+Percentage of students: 65%
+Percentage of mentors: 35%
 ```
 
 ### Extra Exercise (10 minutes)
@@ -238,22 +234,53 @@ Using online documentation, what other things can you do with the `Math` library
 Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
 
 
-## Expressions
+You can also use expressions with string interpolation or as a `return` value.
 
-In JavaScript, there are **expressions** and **statements**. We will use these words frequently to describe code.
+```js
+console.log(`2 + 4 is ${2 + 4}`); // 2 + 4 inside the string template evaluates to 6
+
+function double(num) {
+  return num * 2; // expression num * 2 being returned from this function
+}
+```
+
+## Statements and expressions
+
+In JavaScript, there are **expressions** and **statements**. 
+We will use these words frequently to describe code.
+### Statement
+
+A statement is some code that typically carries out an instruction. You have encountered statements already:
+
+```js
+const greeting = "Hello Code Your Future!";
+```
+
+The above piece of code is a **variable declaration**, which is also a statement. 
+This statement is just an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
+
+Statements end in a semi-colon, though they can be omitted in JavaScript.
+
+There are other different types of statements that we will learn about in the coming weeks.
 
 ### Expression
 
-Any unit of code that can be evaluated to a value is known as an **expression**.
+Any unit of code that can be evaluated to a value is known as an **expression**.<br />
 We say that an expression _evaluates to_ a value.
+We use expressions all the time in lot of different places:
+
+- they can be assigned to variables
+- returned from functions (more on this later)
+- passed as arguments to functions (more on this later)
+- combined with other expressions to form new expressions
 
 The following are all examples of expressions:
 
 ```js
-1 + 1 // returns 2
-"hello" // returns "hello"
-2 * 4 // returns 8
-"Hello" + "World" // returns "HelloWorld"
+1 + 1 // evaluates to 2
+"hello" // evaluates to "hello"
+2 * 4 // evaluates to 8
+"Hello" + "World" // evaluates to "HelloWorld"
 ```
 
 We can take the value produced by an expression and assign it to a variable.
@@ -265,36 +292,15 @@ let product = 2 * 4; // assign the expression 2 * 4 to a variable product
 let worldGreeting = "Hello" + "World"; // assign the expression "Hello" + "World" to a variable worldGreeting
 ```
 
-You can also use expressions with string interpolation or as a `return` value.
 
-```js
-console.log(`2 + 4 is ${2 + 4}`); // 2 + 4 is 6
-
-function double(num) {
-  return num * 2; // expression num * 2 being returned
-}
-```
-
-### Statement
-
-A statement is some code that performs an action. Here are some examples:
-
-```js
-const sum = 1 + 1; // action: assigns result of `1 + 1` to variable `sum`
-const greeting = "hello"; // action: assigns result of the expression "hello" to variable `greeting`
-console.log(2 * 4); // action: logs the result of `2 * 4` to the console
-sayGreeting(greeting); // action: calls the function `sayGreeting` with the parameter `greeting`
-```
-
-There are some other different types of statements that we will learn in the coming weeks.
+### Exercise ( 15 mins )
 
 You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
 
-This console allows you to run expressions in the console line by line and is a great way of testing bits of code before writing it in a script.
-## Expressions and statements ( 15 mins )
+This console allows you to enter code in the console line by line and is a great way of testing bits of code before writing it in a script.
 
-In your terminal, run the command `node` and then enter a line of code from the list below and then run enter. Do this for each line of code in the list.
-Think about the following questions:
+In your terminal, run the command `node` and then enter a line of code from the code below and then run enter. Do this for each line of code in the list.
+Think about the following questions each time:
 
 What is the output in the terminal each time ?
 Is there anything you didn't expect ?
@@ -303,21 +309,29 @@ Can you work out which of the lines of code below are **expressions** and which 
 
 _Remember it can only be an expression if you can place it on the right hand side of an assignment._
 
-- `1 + 2`
-- `"hello"`
-- `"hello" + " " + "students and volunteers!"`
-- `let favouriteColour = "purple"`
-- `favouriteColour`
-- `"hello" + 42`
-- `if (true) {}`
-- `const hoursInADay = 24`
-- `hoursInADay * 7`
-- `My favourite colour is ${favouriteColour}`
+```js
+1 + 2
 
-Can you work out which of the lines of code above are **expressions** and which are **statements** ?
+"hello"
+
+"hello" + " " + "students and volunteers!"
+
+let favouriteColour = "purple"
+
+favouriteColour
+
+"hello" + 42
+
+if (true) {}
+
+const hoursInADay = 24
+
+hoursInADay * 7
+
+`My favourite colour is ${favouriteColour}`
+```
 
 (To exit the node REPL, you have to click Ctrl+d or Cmd+D on Mac)
-
 
 ## Functions
 
@@ -354,11 +368,11 @@ function add(a, b) {
 }
 ```
 
-In the function `add` above the parameters are `a` and `b`.
+In the function `add`, the parameters are `a` and `b`.
 
-If we call the function like this `add(10,32)` then we're passing 2 arguments (or inputs) into the function - `10` and `32`.
+If we call the function like this `add(10,32)` then we're passing 2 arguments (or inputs) into the function : `10` and `32`.
 
-When you write a function (sometimes called _declaring a function_) you can define the parameters like you could with any variable name.
+When you write a function (sometimes called _declaring a function_) you can define the parameters with any valid variable name.
 
 The function below does exactly the same thing as the one above:
 
@@ -372,7 +386,6 @@ function add(num1, num2) {
 
 Try creating a new file when solving the each of the questions below:
 
-<br />
 
 1. Create a function called `formatPenceToPounds` that should
 
@@ -411,7 +424,7 @@ In your groups, think carefully about the following things:
 Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
 
 
-Now declare a variable called `pocketMoney` and assign to it a value of `413`
+Now declare a variable called `pocketMoney` and assign to it a value of `413`.<br />
 Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
@@ -427,8 +440,8 @@ function printMessage(x) {
   console.log('Hello, nice to meet you ' + x);
 }
 
-function getMessage(firstName) {
-  return 'Hello, nice to meet you ' + firstName;
+function getMessage(name) {
+  return 'Hello, nice to meet you ' + name;
 }
 
 printMessage('Mitch');
@@ -468,7 +481,7 @@ Hint: Think carefully about the parameters and arguments for `getMessage` for pa
 
 ### Exercise (10 minutes)
 
-1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?g
+1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?
 
 ## Giving Feedback to Each Other
 
