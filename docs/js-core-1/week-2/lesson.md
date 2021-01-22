@@ -41,10 +41,21 @@ let codeYourFutureIsGreat = true;
 let thisIsATerribleClass = false;
 ```
 
+We can use boolean values to make decisions in our code based on certain conditions, as we shall later on.
 
 ## Comparison Operators
 
-In the previous exercise, you used an **expression** that evaluates to a `boolean` value. This was possible because of the **comparison operator** `===`. Using a comparison operator will always return a `boolean` value.
+We can also create an **expression** that evaluates to a `boolean` value - that is, either `true` or `false`. This is possible when we use  **comparison operators**  such as `===`. This comparison operator will check if two values are the same.
+
+For example, 
+
+`42 === 42` will evaluate to `true`.
+You can check this by logging the expression `42 === 42` in the console.
+
+`42 === 50` will evaluate to `false`.
+You can also check this out by logging the expression `42 === 50` in the console.
+
+Using a comparison operator will always return a `boolean` value.
 
 ### `checkIsTrue`
 
@@ -63,7 +74,7 @@ checkIsTrue(1 > 2);
 checkIsTrue(2 < 1);
 ```
 
-The `>` symbol in the expression is a **comparison operator**. Comparison operators compare two values. This operator checks to see if the number on the left is bigger than the number on the right.
+The `>` symbol in the expressions above is also a **comparison operator**. This operator checks to see if the number on the left is bigger than the number on the right.
 
 ```sh
 >   greater than
@@ -74,7 +85,7 @@ The `>` symbol in the expression is a **comparison operator**. Comparison operat
 !== not the same value and type
 ```
 
-You might see people use two other comparison operators. They are valid, but are the evil twins of `===` and `!==` and it is generally considered bad practice because of the bugs the can cause.
+You might see people use two other comparison operators. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
 
 **&#10008; - Do not use == and !=**
 
@@ -170,6 +181,8 @@ E.g. `isEven(53)` should return `false`
 
 
 Call your function with a number of different inputs to check your function is working as expected. 😄
+
+Bonus: Can you ensure your function doesn't use an `if` statement for this exercise 😎
 
 ## Conditionals
 
