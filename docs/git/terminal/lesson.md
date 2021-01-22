@@ -5,6 +5,8 @@ sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## Learning Objectives
 
@@ -100,7 +102,60 @@ Anything you don't understand? Ask your questions in your Slack channel.
 
 ## 3) What is a CLI (or Terminal)?
 
-CLI stands for **C**ommand **L**ine **I**nterface.
+CLI stands for **C**ommand **L**ine **I**nterface. An example of a CLI is Git Bash.
+
+![Example of a Terminal](assets/terminal-example.png)
+
+The terminal exists to take commands that you write and turn them into something that the computer can **do**.
+
+Many of the tasks that you complete using a GUI can also be done using the command line. For example,
+
+- Creating a file
+- Creating a folder
+- Looking at the contents of a file
+- Connecting to the internet
+- Opening programs
+
+You can write `commands` to your computer by wring text after the `$` sign in your terminal window and pressing `enter`.
+
+![An Empty Terminal Window](assets/terminal-empty.png)
+
+However, you can't just type anything! Your computer only understand commands in a specific format
+
+![Terminal with an error](assets/terminal-error.png)
+
+If you type something that the computer doesn't understand, you'll see the above error.
+
+### Self-Study Exercise (5 minutes)
+
+<Tabs
+defaultValue="exercise"
+values={[{ label: "Exercise", value: "exercise", },{ label:"Answer", value: "answer", },]}>
+<TabItem value="exercise">
+
+:::tip Exercise
+Make the command line do something!
+
+It's really really hard to break something in the terminal by mistake.
+
+I want you to try and type random words into the terminal. Stop after five minutes or until you get the terminal to respond to you.
+:::
+
+</TabItem>
+<TabItem value="answer">
+
+:::note Result
+Maybe you tried to type the word `git`?
+
+If you did, you'll have seen this response.
+
+![Git response in the terminal](assets/git-response.png)
+
+This might look confusing but you might already recognize some of those words. We'll be covering more about git in the command line in the following weeks.
+:::
+
+</TabItem>
+</Tabs>
 
 ## 4) Why does the CLI exist?
 
