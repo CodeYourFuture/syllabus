@@ -10,12 +10,10 @@ import Feedback from "@theme/Feedback";
 
 - [Hello World](#hello-world)
 - [Variables](#variables)
-- [String concatenation](#string-concatenation)
 - [Strings](#strings)
-- [Numbers as integers](#numbers-as-integers)
-- [Numbers as decimals](#numbers-as-decimals)
+- [Numbers](#numbers)
+- [Expressions](#expressions)
 - [Functions](#functions)
-- [Calling functions inside functions](#calling-functions-inside-functions)
 
 ## Learning Objectives
 
@@ -25,6 +23,8 @@ By the end of this class, you should be able to:
 - List and describe the different primitive data types in JS
 - Use `typeof` to find the type of a variable
 - Assign data to variables using `let` and `const`
+- What are expressions and statements (and what's the difference)?
+- Define what expressions and statements are and describe the difference
 - Write, call and evaluate functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
 - Manipulate numbers with mathematical operators using the `Math` library
@@ -141,7 +141,6 @@ console.log(messageType); // logs 'string'
 
 2. What is the `typeof` a number?
 
-## String concatenation
 
 You can add two strings together using the plus operator (`+`) or _string interpolation_.
 
@@ -238,6 +237,87 @@ Using online documentation, what other things can you do with the `Math` library
 
 Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
 
+
+## Expressions
+
+In JavaScript, there are **expressions** and **statements**. We will use these words frequently to describe code.
+
+### Expression
+
+An expression returns a value. Sometimes we will say that an expression _evaluates to_ a value.
+
+The following are all examples of expressions:
+
+```js
+1 + 1; // returns 2
+("hello"); // returns "hello"
+2 * 4; // returns 8
+"Hello" + "World"; // returns "HelloWorld"
+```
+
+We can take the value produced by an expression and assign it to a variable. That line of code would be called a statement.
+
+Expressions can also contain variables.
+
+```js
+function greetingPlanet() {
+  const planet = "Earth";
+  return `Hello ${planet}`; // returns Hello Earth
+}
+```
+
+You can also use expressions inside a string interpolation or as a `return` value.
+
+```js
+console.log(`2 + 4 is ${2 + 4}`); // 2 + 4 is 6
+
+function double(num) {
+  return num * 2; // expression being returned
+}
+```
+
+### Statement
+
+A statement is some code that performs an action. Here are some examples:
+
+```js
+const sum = 1 + 1; // action: assigns result of `1 + 1` to variable `sum`
+const greeting = "hello"; // action: assigns result of the expression "hello" to variable `greeting`
+console.log(2 * 4); // action: logs the result of `2 * 4` to the console
+sayGreeting(greeting); // action: calls the function `sayGreeting` with the parameter `greeting`
+```
+
+There are some other different types of statements that we will learn in the coming weeks.
+
+You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
+
+This console allows you to run expressions in the console line by line and is a great way of testing bits of code before writing it in a script.
+## Expressions and statements ( 10 mins )
+
+In your terminal, run the command `node` and then enter a line of code from the list below and then run enter. Do this for each line of code in the list.
+Think about the following questions:
+
+What is the output in the terminal each time ?
+Is there anything you didn't expect ?
+
+Can you work out which of the lines of code below are **expressions** and which are **statements -** try and provide a reason for your answers ?
+
+- `1 + 2`
+- `"hello"`
+- `"hello" + " " + "students and volunteers!"`
+- `let favouriteColour = "purple"`
+- `favouriteColour`
+- `"hello" + 42`
+- `if (true) {}`
+- `const hoursInADay = 24`
+- `hoursInADay * 7`
+- `My favourite colour is ${favouriteColour}`
+
+Can you work out which of the lines of code above are **expressions** and which are **statements** ?
+
+(To exit the node REPL, you have to click Ctrl+d or Cmd+D on Mac)
+
+
 ## Functions
 
 Functions are blocks of code that can do a task as many times as you ask them to. They take an input and return an output.
@@ -308,7 +388,9 @@ In your groups, think carefully about the following things:
 
 Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
 
+
 ---
+<br />
 
 2. Create a function called `increaseByHalf` that should
 
@@ -332,7 +414,9 @@ Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
 
+
 ---
+<br />
 
 3. Check out the code below:
 
@@ -366,8 +450,6 @@ Discuss briefly which **parameter name** is better out of the two functions and 
 e) What is the **return value** of the function `printMessage` whenever it is called ?
 
 
-<br />
-
 Someone then creates 2 further variables `messageForAli` and `curiousMessage`:
 
 ```js
@@ -379,9 +461,8 @@ const curiousMessage = getMessage(42);
 f) What will the variable `messageForAli` evaluate to when the code above is executed ?<br />
 g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
 
-Hint: Think carefully about the parameters and arguments for `getMessage` for part e)
+Hint: Think carefully about the parameters and arguments for `getMessage` for part g)
 
-<br />
 
 ### Exercise (10 minutes)
 
