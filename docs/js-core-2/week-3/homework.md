@@ -4,13 +4,23 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## 1) Classwork
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+## 2) Classwork
 
 Firstly, complete any exercises you did not complete during class. They are essential practice for the rest of the homework tasks.
 
 If you get stuck, reach out to your classmates on Slack for help!
 
-## 2) Watch these videos (1 hours)
+## 3) Watch these videos (1 hours)
 
 There are some really amazing videos online that explain some of the harder topics that we learnt this week.
 
@@ -32,7 +42,7 @@ https://www.youtube.com/watch?v=7_LPdttKXPc
 
 Be sure to share what you find in your class channel!
 
-## 3) JavaScript Challenges (14 hours)
+## 4) JavaScript Challenges (14 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -50,13 +60,13 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) (Optional) Add extra features to your Challenges (5 hours)
+## 5) (Optional) Add extra features to your Challenges (5 hours)
 
 In the "Extra" folder of this repository you will find extra tasks for you to complete.
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
-## 5) (Optional) Codeacademy Course
+## 6) (Optional) Codeacademy Course
 
 The end of this module is a really good opportunity to cover everything we've done over the last six weeks.
 

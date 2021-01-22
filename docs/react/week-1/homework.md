@@ -4,11 +4,23 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## 1) In Class Exercises
+## 1) Review Solutions for the TV Show Project
+
+At the end of this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week3-Solution
+
+and
+
+https://github.com/CodeYourFuture/TV-Show-DOM-Project-Solution
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+## 2) In Class Exercises
 
 If you haven't already, complete the in-class exercises on your `pokedex` app
 
-## 2) FreeCodeCamp Practice (3 hours)
+## 3) FreeCodeCamp Practice (3 hours)
 
 You should complete the following exercises from this website:
 

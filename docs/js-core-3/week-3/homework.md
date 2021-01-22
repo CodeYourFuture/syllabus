@@ -4,7 +4,17 @@ title: Homework
 sidebar_label: Homework
 ---
 
-## 1) Code Along (1 hour)
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+## 2) Code Along (1 hour)
 
 In the following "code along" you'll be building a complete Weather App that makes use of the [Darksky API](https://darksky.net).
 
@@ -15,7 +25,7 @@ Enjoy!
 - Build a Weather App with Vanilla JavaScript Tutorial
   - https://www.youtube.com/watch?v=wPElVpR1rwA
 
-## 2) Array Destructuring Resources (1 hour)
+## 3) Array Destructuring Resources (1 hour)
 
 Here are some useful resources to help you understand this homework
 
@@ -26,7 +36,7 @@ Here are some useful resources to help you understand this homework
 - The Most In-Depth Yet Understandable ES6 Destructuring Tutorial
   - https://untangled.io/in-depth-es6-destructuring-with-assembled-avengers
 
-## 3) JavaScript Exercises (2 hours)
+## 4) JavaScript Exercises (2 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -36,7 +46,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) Project - Part 3
+## 5) Project - Part 3/3
 
 This project should consolidate knowledge from JS2 and push you to learn more about JavaScript.
 
