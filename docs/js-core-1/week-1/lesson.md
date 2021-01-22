@@ -250,30 +250,28 @@ We say that an expression _evaluates to_ a value.
 The following are all examples of expressions:
 
 ```js
-1 + 1; // returns 2
-("hello"); // returns "hello"
-2 * 4; // returns 8
-"Hello" + "World"; // returns "HelloWorld"
+1 + 1 // returns 2
+"hello" // returns "hello"
+2 * 4 // returns 8
+"Hello" + "World" // returns "HelloWorld"
 ```
 
-We can take the value produced by an expression and assign it to a variable. That line of code would be called a statement.
-
-Expressions can also contain variables.
+We can take the value produced by an expression and assign it to a variable.
 
 ```js
-function greetingPlanet() {
-  const planet = "Earth";
-  return `Hello ${planet}`; // returns Hello Earth
-}
+let total = 1 + 1; // assign the expression 1 + 1 to a variable total
+let greeting = "hello"; // assign the expression "hello" to a variable greeting
+let product = 2 * 4; // assign the expression 2 * 4 to a variable product
+let worldGreeting = "Hello" + "World"; // assign the expression "Hello" + "World" to a variable worldGreeting
 ```
 
-You can also use expressions inside a string interpolation or as a `return` value.
+You can also use expressions with string interpolation or as a `return` value.
 
 ```js
 console.log(`2 + 4 is ${2 + 4}`); // 2 + 4 is 6
 
 function double(num) {
-  return num * 2; // expression being returned
+  return num * 2; // expression num * 2 being returned
 }
 ```
 
@@ -385,7 +383,7 @@ In your groups, think carefully about the following things:
 
 - what the parameter name should be
 - creating good names for any variables you use
-- it should not log anything to the console
+- don't use `console.log` inside the body of the function
 
 Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
 
@@ -406,6 +404,7 @@ In your groups, think carefully about the following things:
 
 - what the parameter name should be
 - creating good names for any variables you use
+- don't use `console.log` inside the body of the function
 
 Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
 
@@ -421,7 +420,7 @@ Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the ne
 
 3. Check out the code below:
 
-```jsx
+```js
 function printMessage(x) {
   console.log('Hello, nice to meet you ' + x);
 }
