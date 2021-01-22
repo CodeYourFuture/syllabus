@@ -53,7 +53,7 @@ We have created a function `checkIsTrue` that checks if an **expression** evalua
 For example,
 
 `checkIsTrue(10 === 10)` should print `"Yes, this expression evaluates to true! ✅"`
-`checkIsTrue(3 > 10000)` should print `"Sorry, this expression evaluates to false! :x"`
+`checkIsTrue(3 > 10000)` should print `"Sorry, this expression evaluates to false! ❌"`
 
 **Can you work out what will happen with the code below?**
 
@@ -97,15 +97,9 @@ If you see these, suggest people change them in pull requests.
 
 1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
 
-
 2. Check out the code below.
 
-
-
-Modify the values below to to have the compare function return the desired value:
-
-
-Replace the variable `FILL_ME_IN` with literal values to prevent the `assert` function from throwing an error.
+Replace the variable `FILL_ME_IN` with actual values to prevent the `checkIsTrue` function from logging an error message.
 
 ```js
 const mentorCount = FILL_ME_IN;
@@ -130,6 +124,8 @@ const mystery = FILL_ME_IN;
 checkIsTrue(typeof mystery === 'boolean');
 checkIsTrue(!mystery);
 
+// You will need to research falsy values in order to work out the next 2 problems below!
+
 const mysteryString = FILL_ME_IN;
 checkIsTrue(typeof mysteryString === 'string');
 checkIsTrue(!mysteryString);
@@ -150,7 +146,7 @@ function checkIsTrue(value1) {
   if (value1) {
     console.log("\x1b[32m%s\x1b[0m","Yes, this expression evaluates to true! ✅");
   } else {
-    console.log("\x1b[31m%s\x1b[0m","Sorry, this expression evaluates to false! :x");
+    console.log("\x1b[31m%s\x1b[0m","Sorry, this expression evaluates to false! ❌");
   }
 }
 ```
@@ -161,13 +157,16 @@ You need to be aware of this, and you can go deeper into outside of the lesson, 
 
 MDN have some in depth, if not too in depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
 
+---
 
 3. Create a function called `isEven` that should
 - take a number as an input
 - return a **boolean** indicating if the number is even or odd
 
-E.g. `isEven(100)` should evaluate to a `true`
-E.g. `isEven(53)` should evaluate to `false`
+Remember to avoid using `console.log` _inside_ the function itself
+
+E.g. `isEven(100)` should return `true`<br />
+E.g. `isEven(53)` should return `false`
 
 
 Call your function with a number of different inputs to check your function is working as expected. 😄
