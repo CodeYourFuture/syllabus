@@ -291,7 +291,7 @@ There are some other different types of statements that we will learn in the com
 You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
 
 This console allows you to run expressions in the console line by line and is a great way of testing bits of code before writing it in a script.
-## Expressions and statements ( 10 mins )
+## Expressions and statements ( 15 mins )
 
 In your terminal, run the command `node` and then enter a line of code from the list below and then run enter. Do this for each line of code in the list.
 Think about the following questions:
@@ -299,7 +299,9 @@ Think about the following questions:
 What is the output in the terminal each time ?
 Is there anything you didn't expect ?
 
-Can you work out which of the lines of code below are **expressions** and which are **statements -** try and provide a reason for your answers ?
+Can you work out which of the lines of code below are **expressions** and which are not ?
+
+_Remember it can only be an expression if you can place it on the right hand side of an assignment._
 
 - `1 + 2`
 - `"hello"`
