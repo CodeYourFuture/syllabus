@@ -10,7 +10,9 @@ So far, we've seen that we can use git to share our work, get review, and view h
 
 For this class, we're going to use the git CLI, but everything we're doing can also be done in GitHub Desktop. TODO: Link to cheat sheet with equivalences.
 
-In this class, we're going to work with a GitHub repository of recipes. TODO: Have the trainees make a repo in their account from a template (https://github.com/illicitonion/GitExampleRecipes which we should move into CodeYourFuture) - we're going to have them make and merge pull requests, so we want them to be working with their own repo, rather than a CYF one.
+In this class, we're going to work with a GitHub repository of recipes.
+
+CodeYourFuture has made a _template_ repository on GitHub. Go to https://github.com/CodeYourFuture/GitExampleRecipes and click on "Use this template" to make a repository owned by your user account which contains the right files. Then clone your newly created repository onto your computer. You're going to do all of your exercises in your copy of this repository.
 
 ## Learning objectives
 
@@ -20,7 +22,6 @@ By the end of this class, you should be able to:
 - Create a branch, and add commits to it.
 - Switch between branches.
 - Create a pull request from a branch to the main branch.
-- TODO: Decide whether to include this: Create a pull request from a branch to another branch.
 - Work with another trainee on non-conflicting changes to a single branch.
 
 ## What is a branch?
@@ -75,7 +76,7 @@ Running this command doesn't change any of the files in our repository - they st
 
 ### How do I know what branch I'm on?
 
-You've already run one command which tells you this, you just may not have noticed!
+You've already run one command which tells you this, you just may not have noticed! (TODO: Check this is true when the git CLI class is out)
 
 ```console
 $ git status
@@ -99,7 +100,7 @@ $ git branch
 
 Let's make a new branch, and make a new commit on it.
 
-Create a branch named story, and edit `mug-brownie.md`.
+Create a branch named `story`, and edit `mug-brownie.md`.
 
 Before the "What you need" heading, make up a story about how the author discovered the recipe, or a time they enjoyed it.
 
@@ -107,11 +108,13 @@ When you've written a bit, make a commit (make sure to give it a good commit mes
 
 Explore the history with `git log` - make sure you understand the commits in your history and why they're there.
 
+If you're confused, or don't understand what you're seeing, ask on Slack now!
+
 ### Switching back to main
 
 Can you guess how to switch back to the `main` branch?
 
-What do you think will happen when you do?
+What do you think will happen to the contents of the files when you do?
 
 What will the history look like?
 
@@ -123,19 +126,42 @@ Look at the contents of `mug-brownie.md` - what's changed?
 
 Explore the history with `git log` - make sure you understand the commits in your history and why they're there.
 
-Share with the class what you saw.
+If you're confused, or don't understand what you're seeing, ask on Slack now!
 
 ### Managing multiple branches
 
-TODO: Talk about how when you create a branch, it will share the history of whatever branch you were on before you created the new one, and that the trainees should generally make sure to branch from `main`.
+When we created our `story` branch, it shared its history with the `main` branch. This is because whenever we create a branch, it will start off being the same as the branch we were on before.
 
-TODO: Talk about naming branches.
+In general, you always want to make new branches based on `main`, so always make sure to `git switch main` before creating a new branch.
 
-TODO: Explain that we can create multiple branches, and have multiple in-flight pull requests. Benefits: If one idea needs a lot of work it doesn't block the others, reviewer can focus on one thing, keeps changes small.
+If you find that the history of a new branch isn't what you expect, you probably didn't switch back to `main` before creating the new branch. We'll learn how to delete branches soon.
+
+You can have multiple branches at the same time, and you can work on them separately. When you make a pull request, it will be tied to one branch.
+
+You can make more than one pull request, as long as each is created from a different branch. This can be useful, so that you can propose multiple changes to code separately.
+
+For example, if you have two changes to make, and one is really simple (like fixing a typo) and the other may need some discussion (like changing the colour scheme of a page), if you make separate pull requests (from separate branches), othe easy one can get merged while the other one is being discussed.
+
+Having small, separate pull requests also helps to keep your changes small, and allows your reviewer to focus on one thing, which makes their job easier.
+
+#### Naming
+
+Just like with variables and files, you want to name your branches in ways that will help you remember/understand what they're for. We normally name git branches with 1-5 words, with no spaces. Some good examples:
+
+* `add-story`
+* `make-button-red`
+* `delete-out-of-date-news`
+
+And some bad examples:
+
+* `branch1` or `branch2`
+* `new`
+* `feature`
+* `addalltheingredientsbutalosremovevanilla`
 
 ### Exercise 3 (10 minutes)
 
-Make another branch based on `main` called `extra-topping`.
+Make another branch based on `main` called `extra-topping` (remember to make sure you're on the `main` branch before creating the new one!).
 
 Add a new topping to the recipe. Make sure to include it both in the ingredients list, and the steps.
 
@@ -143,12 +169,40 @@ Commit your changes.
 
 ### Managing branches for pull requests
 
-TODO: Talk through pushing branches to remotes, the fact that they may fall behind just like `main`, and making pull requests from them.
+We've seen before that to make a pull request from the git CLI the steps are to `git push` (to make the remote's version of `main` be the same as your local version), and then make a pull request from the GitHub UI.
 
-### Teacher-led example
+Most developers avoid doing work on their `main` branch, and always work on some other branch. This is because if you commit things to `main`, all new branches you create will have those changes on, and you generally want to make pull requests with only a specific set of changes compared to upstream's `main`.
+
+TODO: Update this based on whatever we teach the trainees in the git CLI class
+From now on, your steps to start working on code for a pull request should be:
+* `git switch main` (switch back to the main branch)
+* `git pull` (pull in any changes from upstream)
+* `git switch --create my-new-branch-name` (make a new branch)
+* (make your changes)
+* `git commit`
+* `git push` (send your changes to the remote)
+* Create a pull request through the GitHub UI
+
+If you need to make changes (e.g. because your reviewer gave you feedback), you should switch to your branch, make the changes, commit them, and push them to the remote again. The pull request will automatically get updated with the changes you committed.
+
+#### Deleting branches
+
+After you merge your pull request, you should delete your branch. GitHub can't change things on your computer automatically, so you need to do it yourself.
+
+You can't delete a branch you're switched to, so first, switch to `main`: `git switch main`.
+
+Then pull in any changes from upstream (this helps git to work out whether you've already merged your PR): `git pull`.
+
+And finally, delete the branch: `git branch --delete your-branch-name`.
+
+### Teacher-led example / video
 
 TODO: Make a pull request from one of your branches. Merge it. Delete the branch. Explain that it's ok to delete the branch because we know the changes are safely on `main`.
 TODO: Show `git status` showing that branches are out of sync.
+
+### Comparing branches
+
+TODO: Fill in an example using `git diff main` and similar, based on what's in the git cli class.
 
 ### TODO: Homework
 
@@ -162,11 +216,3 @@ Authors: Make the suggested changes, then merge your pull requests. Delete your 
 
 ### TODO: GitHub Desktop equivalents
 ### TODO: Explain `git checkout -b` and `git checkout` as legacy for `git switch`
-
-# Open questions
-
-* Should we mention conflicts and/or give tips to avoid conflicts? We're going to teach conflicts in a separate session, but having the trainees avoid them for now is probably useful? The exercises are carefully crafted to avoid conflicts.
-* Do we want to talk about reasons to branch from a branch other than `main`? I suspect not for now, keep it simple.
-* Do we need to be more explicit about "How do I see what's on this branch?", or is getting them to look at `git log` sufficient?
-* Do we want to touch on comparing branches (`git diff`) and/or inspecting other branches (`git log other-branch`)?
-* Do we want to talk at all about the idea of "remote" branches and local branches (`git branch -r`), or restrict to just "you can push and pull remote branches"?
