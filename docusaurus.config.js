@@ -77,6 +77,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "git/overview",
+              label: "Git and Github",
+              position: "left",
+            },
+            {
               to: "js-core-1/index",
               label: "JavaScript Core 1",
               position: "left",
@@ -167,6 +172,11 @@ module.exports = {
             {
               to: "workshops/intro-to-accessibility",
               label: "Intro to Web Accessibility",
+              position: "left",
+            },
+            {
+              to: "workshops/a11y-for-devs-basic",
+              label: "Accessibility for Developers - Basic",
               position: "left",
             },
             {

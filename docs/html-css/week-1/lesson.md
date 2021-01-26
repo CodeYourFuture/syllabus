@@ -188,6 +188,7 @@ Work in pairs to complete all the mistakes in the project and fix them.
 
 [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/zoo-css-challenge)
 
+
 ## Resources
 
 1. [HTML5 - semantic elements](https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5)
