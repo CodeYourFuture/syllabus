@@ -133,7 +133,7 @@ In the previous exercise, you used an **expression** that returns a `boolean` va
 
 ### Assert
 
-We will also be using a new keyword to make sure the comparisons we do below return `true`. This is the `assert`.
+We will also be using a new function to make sure the comparisons we do below return `true`. This is the `assert`.
 
 When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.
 
