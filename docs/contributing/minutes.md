@@ -4,6 +4,81 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 20-01-2021
+
+Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy 
+
+### HTML & CSS discussion - led by Lucy
+
+- Atannas has raised several questions regarding the syllabus
+- Syllabus doesn't currently start from scratch with HTML & CSS
+- Always have disparate level of abilities and knowledge with any class
+
+#### Week 1
+
+- Lucy's learning objectives:
+    - Week-1
+    - Starts with a summary of the learning objectives
+    - How to attach CSS to a HTML document
+    - Discuss CSS specificity
+    - Write simple HTML and CSS pairings
+    - Discuss the box model in CSS
+- Avoid git issues and sandboxes
+- Lots of interactive exercises throughout the lesson
+- For homework build a website using some Figma designs
+- Students can find extension tasks at Frontend Mentor
+- Currently still using the bikes for refugees project over the HTML and CSS section
+- Lucy is using smaller layout exercises for this section
+- Try and get students to fork and clone the homework before the end of the class
+
+#### Week 2
+
+- Week 2 deals with responsive design, media queries
+- Homework for week 2 is to add a media query to existing Karma Project for a mobile design
+- More sandbox activities for manipulating the UI with media queries
+- Students given a wireframe for a cake website with a mobile view and a desktop view
+
+#### Week 3
+
+- Start with a lot of repetitive stuff in CSS
+- Introduce the need for classes in order to reuse CSS rules
+- Then introduce a CSS framework like Bootstrap - there to solve the problem of consistency
+- Give students some understanding of columns
+- Issues with Bootstrap:
+    - Comes with clutter like utility CSS etc
+    - Also comes with a lot of JS components
+    - Can sometimes be a little chaotic
+    - Sometimes distracted by Bootstrap features
+- Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
+- Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
+- Homework for week 3 used Wix templates in the past -  needs to change for copyright reaons
+
+- May need an additional 4th class
+- Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
+- Potentially focus on Bootstrap but if you want to use "Simple Grid" then you can if you want
+- Syllabus there to define which concepts need to be understood and which skills need to be acquired but not to prescribe the particular resources used to achieve the skills / resources
+
+### Cloud development - led by Bukola
+
+- Would like to introduce cloud development in the syllabus at some point
+- Could introduce deployment / automation especially when students encounter Netlify and there is a need for deployment
+- Github CLI is a good starting point for this
+- Make use of Bukola's notes for this topic
+- Good turn this into an optional workshop
+- Cloud infrastructure is the number one skill employers are after
+- We could also have a postgraduate module for teaching students stuff after the course ( post graduation )
+- Could introduce bonus material from early on so that the students are primed for the introduction of cloud stuff later on
+- Is there scope for something like Lambda functions around the time of React to bridge with NodeJS
+- Netlify uses a CLI tool for deployment of cloud functions
+
+### Further actions
+
+- Setup a future discussion further down the line re cloud workshop / module
+- Establish learning objectives for a cloud workshop / module
+- Setup a cyf-syllabus-cloud channel
+
+---
+
 ## 06/01/2021
 
 **In Attendance:** Daniel, Chris, Greg, Tim, Mitch, Ali
@@ -207,81 +282,4 @@ Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (G
 - ACTION: Chris to check form feedback in 1 month.
 
 ---
-
-# CYF syllabus - minutes
-
-## 20-01-2021
-
-Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy 
-
-## Agenda points
-
-### HTML & CSS discussion - led by Lucy
-
-- Atannas has raised several questions regarding the syllabus
-- Syllabus doesn't currently start from scratch with HTML & CSS
-- Always have disparate level of abilities and knowledge with any class
-
-Week 1
-
-- Lucy's learning objectives:
-    - Week-1
-    - Starts with a summary of the learning objectives
-    - How to attach CSS to a HTML document
-    - Discuss CSS specificity
-    - Write simple HTML and CSS pairings
-    - Discuss the box model in CSS
-- Avoid git issues and sandboxes
-- Lots of interactive exercises throughout the lesson
-- For homework build a website using some Figma designs
-- Students can find extension tasks at Frontend Mentor
-- Currently still using the bikes for refugees project over the HTML and CSS section
-- Lucy is using smaller layout exercises for this section
-- Try and get students to fork and clone the homework before the end of the class
-
-Week 2
-
-- Week 2 deals with responsive design, media queries
-- Homework for week 2 is to add a media query to existing Karma Project for a mobile design
-- More sandbox activities for manipulating the UI with media queries
-- Students given a wireframe for a cake website with a mobile view and a desktop view
-
-Week 3
-
-- Start with a lot of repetitive stuff in CSS
-- Introduce the need for classes in order to reuse CSS rules
-- Then introduce a CSS framework like Bootstrap - there to solve the problem of consistency
-- Give students some understanding of columns
-- Issues with Bootstrap:
-    - Comes with clutter like utility CSS etc
-    - Also comes with a lot of JS components
-    - Can sometimes be a little chaotic
-    - Sometimes distracted by Bootstrap features
-- Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
-- Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
-- Homework for week 3 used Wix templates in the past -  needs to change for copyright reaons
-
-- May need an additional 4th class
-- Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
-- Potentially focus on Bootstrap but if you want to use "Simple Grid" then you can if you want
-- Syllabus there to define which concepts need to be understood and which skills need to be acquired but not to prescribe the particular resources used to achieve the skills / resources
-
-### Cloud development - led by Bukola
-
-- Would like to introduce cloud development in the syllabus at some point
-- Could introduce deployment / automation especially when students encounter Netlify and there is a need for deployment
-- Github CLI is a good starting point for this
-- Make use of Bukola's notes for this topic
-- Good turn this into an optional workshop
-- Cloud infrastructure is the number one skill employers are after
-- We could also have a postgraduate module for teaching students stuff after the course ( post graduation )
-- Could introduce bonus material from early on so that the students are primed for the introduction of cloud stuff later on
-- Is there scope for something like Lambda functions around the time of React to bridge with NodeJS
-- Netlify uses a CLI tool for deployment of cloud functions
-
-### Further actions
-
-- Setup a future discussion further down the line re cloud workshop / module
-- Establish learning objectives for a cloud workshop / module
-- Setup a cyf-syllabus-cloud channel
 
