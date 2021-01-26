@@ -28,9 +28,9 @@ All students should make sure that they are comfortable with their roles and wha
 
 Here are a couple of starter projects that students can fork to get started:
 
-This one uses [React/Node/SQL](https://github.com/csfilipinyi/cyf-final-project-pgsql-starter-kit)
-
-This one uses [React/Node/MongoDB](https://github.com/CodeYourFuture/cyf-final-project-starter-kit)
+- Starter project for [React/Node/MongoDB](https://github.com/CodeYourFuture/cyf-final-project-starter-kit)
+  - Documentation can be found [here]
+- Starter project for [React/Node/SQL](https://github.com/csfilipinyi/cyf-final-project-pgsql-starter-kit)
 
 ## Briefing Presentation
 

@@ -38,6 +38,8 @@ Before you start, **make sure you fork the repository** to your Github account.
 
 Complete the first three lessons in this course on [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893).
 
+https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
+
 You should complete **Why Responsive?**.
 
 _Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead._

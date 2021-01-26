@@ -16,6 +16,18 @@ If you are teaching this class in the coming weeks you **must** instruct your st
 
 If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
 
+## IMPORTANT - Setup needed For Teacher
+
+One of the teacher-led demos in this class relies on the user not having permission to push to CodeYourFuture's GitHub repositories. As a teacher, you probably have access to push these repositories, and so your demo will not show all of the steps it's meant to show. We recommend using a different GitHub account for this class - if you don't have a second account, and don't want to set one up, come chat in `#cyf-module-git` - we can set up a shared one you can use.
+
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-git](https://codeyourfuture.slack.com/archives/C01DANTAGRK)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Resources
 
 ### Slides
@@ -36,7 +48,7 @@ The aims are:
 2. To set the learners up so that in the coming weeks they can practice basic Git workflows via their ordinary homework.
 3. To see that Git maybe has _some_ use to them for now (via "checkpoint" commits), and encourage frequent commits.
 
-We've purposefully left out anything which may require resolving merge conflicts (merging, pulling after an initial build, reverting), as well as branches in general. These will be introduced later in the course, when they're actively useful for the learners. For now, they don't _need_ them, so we won't overload them.
+We've purposefully left out anything which may require resolving merge conflicts (merging, pulling after an initial clone, reverting), as well as branches in general. These will be introduced later in the course, when they're actively useful for the learners. For now, they don't _need_ them, so we won't overload them.
 
 We also intentionally opted to avoid the command line. This was much debated, but the consensus was that `git` is not the most friendly command line tool for your first experience, and Git is complicated and scary enough without loading in more learning alongside it. Again, `git` will come later, after the learners have used the command line for something else.
 
@@ -52,7 +64,7 @@ Further discussion can take place in:
 
 ### Structure
 
-This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound.
+This class was designed to be taught through lots of worked examples (both teacher-led, and as individual and group exercises). A full four hours is allocated to it, but the actual taught content is relatively light. There should be plenty of time for questions, and it's recommended to take them as they come up. The class is very linear, so any confusion early on is likely to compound. However, the teacher-led demos lend themselves to being completed without much interruption - just seeing the whole flow end-to-end will answer many of the questions that come up, and stopping to take questions will make this less clear, so after starting a demo, perhaps try to finish it before taking questions.
 
 First, we try to give the learners experience of the problems Git solves before introducing Git as a solution, through real-world non-coding examples.
 
@@ -86,30 +98,19 @@ Open questions:
 
 ### Exercise 2
 
-**Aim**: To show the way that Git can solve the collaboration problem that Git can solve.
-
-Give the students some time to discuss as a class how they felt it.
-
-Open questions:
-
-- What would happen if we have lists of 100 items?
-- What if there were 100 people with their lists to merged together?
-
-### Exercise 3
-
 **Aim**: Hands on experience of cloning a repository.
 
 You should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
 
 This exercise may draw out for a long time with all manner of login issues, UI issues, and general confusion. Let it take as long as it takes. Make sure every learner has succeeded before moving on.
 
-### Exercise 4 & 5
+### Exercise 3 & 4
 
 **Aim**: Hands on experience creating a Pull Request.
 
 Again, you should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
 
-### Exercise 6
+### Exercise 5
 
 **Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
 
@@ -117,11 +118,11 @@ This small exercise demonstrates a key misunderstanding that students have aroun
 
 You should prompt and call attention to how we should always write good commit messages. Don't write "_Changes_". Do write "_Added an answer to the other-file.txt file_".
 
-### Exercise 7
+### Exercise 6
 
 **Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
 
-### Exercise 8
+### Exercise 7
 
 **Aim**: A rounding off exercises that shows the solution to the first problem that we discussed.
 

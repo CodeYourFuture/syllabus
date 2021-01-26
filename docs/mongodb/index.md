@@ -4,6 +4,14 @@ title: MongoDB
 sidebar_label: Overview
 ---
 
+## Preparation
+
+Before starting this module there is some [preparation work](./preparation) to get you setup.
+
+Make sure you complete it before attending class.
+
+## Content
+
 | Week                         | Content        |
 | ---------------------------- | -------------- |
 | [week-1](./week-1/lesson.md) | Intro to Mongo |

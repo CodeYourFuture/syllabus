@@ -31,6 +31,7 @@ By the end of this class, you should be able to:
 - Define the difference between `console.log()` and `return`
 - Call functions within functions
 - Search and read documentation to help when you are stuck
+- Use the Code Style Guide to give feedback on other students work
 
 ---
 
@@ -217,10 +218,11 @@ const preciseAge = 30.612437;
 const roughAge = Math.round(preciseAge); // 31
 ```
 
-### Exercise (15 mins)
+### Exercise (5 mins)
 
-1. Using the variables provided in the exercise calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
-2. Using online documentation, what other things can you do with the `Math` library? Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class
+Using the variables provided in the exercise, calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
+
+You should then log this number to the console.
 
 #### Expected result
 
@@ -228,6 +230,14 @@ const roughAge = Math.round(preciseAge); // 31
 Percentage students: 65%
 Percentage mentors: 35%
 ```
+
+### Extra Exercise (10 minutes)
+
+_Intructor note: Only complete this exercise if you have enough time in the lesson_
+
+Using online documentation, what other things can you do with the `Math` library?
+
+Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
 
 ## Functions
 
@@ -315,6 +325,33 @@ function createGreeting(name, age) {
 
 1. Write a function that returns the year someone is born given their age as input
 2. Using the answer from step 1, write a function that takes someone's name and age as input and returns a string that states the person's name and year they were born in a sentence
+
+## Giving Feedback to Each Other
+
+A critical part of being developer is reading other people's code and giving good feedback and improvements. This can happen even when you don't know a lot of code - everybody has unique ideas and insights into how to make code better!
+
+Let's spend the next five minutes reviewing CodeYourFuture's Style Guide.
+
+This style guide is how we expect you to write code whilst you're at CodeYourFuture - most companies have one and it's really important you stick to it to make sure we all write code that other people can understand.
+
+[https://syllabus.codeyourfuture.io/guides/code-style-guide](https://syllabus.codeyourfuture.io/guides/code-style-guide)
+
+:::tip
+A style guide doesn't change anything about how your code operates - code that breaks these rules will still work. However it's important so that **other people** can more easily read your code.
+:::
+
+### Exercise (5 minutes)
+
+_This is a Live exercise. The Teacher should take suggestions from the class on how this code can be improved and add comments themselves. Please read the [teaching notes](./instructors#giving-feedback-to-each-other)._
+
+Next, let's see an example of some code that we could suggest some improvements to.
+
+[https://github.com/CodeYourFuture/BadCodeExample/pull/1](https://github.com/CodeYourFuture/BadCodeExample/pull/1)
+
+Using what you've just read in the Style Guide.
+
+- What improvements could we suggest on the code?
+- Are there any other improvement we could suggest that aren't in the Style Guide?
 
 ## Glossary
 

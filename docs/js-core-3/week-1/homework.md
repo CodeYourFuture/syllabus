@@ -25,9 +25,12 @@ The second skill, problem solving, is the most important one. If you get good at
 
 Take a look at the following resources to learn more about problem solving as applied to programming:
 
-- [How to THINK like a programmer](https://www.youtube.com/watch?v=NNazO2tMHno)
-- [Lessons in problem solving](https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/)
-- [Computational thinking](https://www.youtube.com/watch?v=qbnTZCj0ugI)
+- How to THINK like a programmer
+  - https://www.youtube.com/watch?v=NNazO2tMHno
+- Lessons in problem solving
+  - https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/
+- Computational thinking
+  - https://www.youtube.com/watch?v=qbnTZCj0ugI
 
 After you've watched these videos I'd like you to answer these questions
 
@@ -51,7 +54,9 @@ In this weeks project we will be using the knowledge we learnt from JS1 & JS2 to
 
 ### Project Details
 
-All of the details for this project can be found [here](https://syllabus.codeyourfuture.io/js-core-3/index)
+All of the details for this project can be found here:
+
+https://syllabus.codeyourfuture.io/js-core-3/index
 
 You should complete up to and including Level 300
 
@@ -59,4 +64,6 @@ You should complete up to and including Level 300
 
 It is very important that you make sure you project is setup correctly.
 
-You should follow all of the setup steps [here](https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/getting-started)
+You should follow all of the setup steps here:
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/getting-started

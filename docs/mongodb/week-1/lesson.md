@@ -8,6 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Outline
 
+- Before you start
 - What is a database?
 - Database management systems
 - MongoDB
@@ -22,6 +23,14 @@ import Feedback from "@theme/Feedback";
 - Optional: search operations
   - `$or`
   - `$ne`, `$gt`, `$gte`, `$lt`, `$lte`
+
+## Before you start
+
+Before you arrive at class you **must** have completed the following setup work.
+
+[Node Preparation](../preparation)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
 
 ## What is a database?
 

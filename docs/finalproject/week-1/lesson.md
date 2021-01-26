@@ -47,19 +47,18 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ### 1.4. Create a GitHub repository
 
-- Pick one member to own the repo,
-
+- Pick one member to own the repo
 - Everyone else should be invited as a [collaborator](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository))
-
-- You can fork [this starter kit](https://github.com/CodeYourFuture/cyf-final-project-starter-kit) for a basic React/Express/MongoDB app
+- You can fork [this starter kit](https://syllabus.codeyourfuture.io/finalproject/prep#starter-projects) for a basic project
+  - Make sure you choose the correct one for the stack that you learnt
 
 ## 2. Agile Development (60 minutes)
 
 ### 2.1. What is Agile Development? (30-45 minutes)
 
-_Facilitated by Engineering Mentors_
+_Facilitated by Tech Assistants_
 
-Before we determine what we're going to build we should discuss how we're going to build it. The Engineering TAs will lead us through a discussion on Agile best practices using this deck - [What is Agile Development?](https://docs.google.com/presentation/d/1p9AV-pz_VpM0B9Lo6K6WUNANF1ycXgEPU4SbpgNzzSI/edit#slide=id.p)
+Before we determine what we're going to build we should discuss how we're going to build it. The Tech Assistants will lead us through a discussion on Agile best practices using this deck - [What is Agile Development?](https://docs.google.com/presentation/d/1p9AV-pz_VpM0B9Lo6K6WUNANF1ycXgEPU4SbpgNzzSI/edit#slide=id.p)
 
 ### 2.2. What is a Product Manager? (25-30 minutes)
 
@@ -81,7 +80,7 @@ After you've copied it have a quick look through and ask questions about anythin
 
 ### 2.4. Daily Stand-ups (5 minutes)
 
-_Facilitated by Engineering Mentors_
+_Facilitated by Tech Assistants_
 
 Every day you should post a message in the team's Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you.
 
@@ -125,7 +124,7 @@ Now we've got the problem framed we can spend some time thinking about specific 
 
 ### 3.3. Planning our work (30 minutes)
 
-_Facilitated by Engineering Mentors_
+_Facilitated by Tech Assistants_
 
 When our solution is clear we can dig into some implementation details:
 
@@ -161,7 +160,7 @@ _Facilitated by Product Managers_
 
 In this project we will be working in `Sprints`. You can plan your first sprint using the your copy of the [Project Board](https://trello.com/b/wkQd3R5r/team-name-project-board)
 
-A Sprint is a unit of time (normally a week or two weeks) where teams believe they can deliver by the end of the time given to them.
+A Sprint is a unit of time (normally a week or two weeks) where teams believe they can deliver by the end of the time given to them. For Final Projects you will be mostly working in one week Sprints.
 
 ```txt
 Work with your product manager to begin to split the work into tasks that each person in the team can work on. These tasks should be as small as possible.
