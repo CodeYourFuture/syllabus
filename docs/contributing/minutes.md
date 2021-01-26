@@ -4,7 +4,7 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-## 20-01-2021
+## 20/01/2021
 
 Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy 
 
