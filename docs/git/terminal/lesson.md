@@ -116,7 +116,7 @@ Many of the tasks that you complete using a GUI can also be done using the comma
 - Connecting to the internet
 - Opening programs
 
-You can write `commands` to your computer by wring text after the `$` sign in your terminal window and pressing `enter`.
+You can write `commands` to your computer by wring text after the `$` sign in your terminal window and pressing `enter`. (Some terminals use the `%` or `#` symbol instead of `$` - they work exactly the same).
 
 ![An Empty Terminal Window](assets/terminal-empty.png)
 
