@@ -139,11 +139,21 @@ values={[{ label: "Exercise", value: "exercise", },{ label:"Answer", value: "ans
 <TabItem value="exercise">
 
 :::tip Exercise
+
 Make the command line do something!
 
-It's really really hard to break something in the terminal by mistake.
+It's quite hard to break something in the terminal by mistake.
 
-I want you to try and type random words into the terminal. Stop after five minutes or until you get the terminal to respond to you.
+Let's try with this list of words. Some of them will work, others won't. I'd like you to find out which are valid commands.
+
+- hello, computer
+- take_over_world
+- git
+- email
+- bash
+- run
+- keyboard
+
 :::
 
 </TabItem>
@@ -157,6 +167,8 @@ If you did, you'll have seen this response.
 ![Git response in the terminal](assets/git-response.png)
 
 This might look confusing but you might already recognize some of those words. We'll be covering more about git in the command line in the following weeks.
+
+You'll have noticed that `bash` also didn't return an error - that's because `bash` is a valid command but it needs other information to do something with. We'll get onto more of that later.
 :::
 
 </TabItem>
