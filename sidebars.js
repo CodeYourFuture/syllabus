@@ -278,4 +278,11 @@ module.exports = {
       "workshops/deployment/workshop/cheatsheet",
     ],
   },
+  Accessability: {
+    Overview: ["workshops/accessibility/index"],
+    Workshops: [
+      "workshops/accessibility/intro-to-accessibility",
+      "workshops/accessibility/a11y-for-devs-basic",
+    ],
+  },
 };

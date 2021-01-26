@@ -128,8 +128,8 @@ module.exports = {
           position: "left",
           items: [
             {
-              to: "workshops/welcome-to-cyf",
-              label: "Welcome to CYF",
+              to: "workshops/accessibility/index",
+              label: "Accessibility Workshops",
               position: "left",
             },
             {
@@ -167,16 +167,6 @@ module.exports = {
             {
               to: "workshops/deployment/index",
               label: "Deploying Your Code Workshop",
-              position: "left",
-            },
-            {
-              to: "workshops/intro-to-accessibility",
-              label: "Intro to Web Accessibility",
-              position: "left",
-            },
-            {
-              to: "workshops/a11y-for-devs-basic",
-              label: "Accessibility for Developers - Basic",
               position: "left",
             },
             {

@@ -1,14 +1,12 @@
 ---
 id: intro-to-accessibility
 title: Intro To Web Development Accessibility
-sidebar_label: Intro To Web Development Accessibility
+sidebar_label: 1) Intro To Accessibility
 ---
 
 This is the first part of more courses to come about accessibility.
 
-You can [access the second part here](a11y-for-devs-basic).
-
-![Drawing explaining why Accessibility is abreviated a11y, first and last letters and 11 letters in the middle](assets/a11y-part1/a11y-for-CYF.png)
+![Drawing explaining why Accessibility is abbreviated a11y, first and last letters and 11 letters in the middle](assets/a11y-part1/a11y-for-CYF.png)
 
 ## Projected Time
 
@@ -137,7 +135,8 @@ The main screen readers are:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0xBsR5mIYs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-####  People with low vision:
+#### People with low vision:
+
 - Might need to magnify and miss some information if you don’t **align your content on the left** (for left to right languages, otherwise, align on the right)
 - Might also miss some information if you don’t group related items together
 - Need to be able to scroll both vertically and horizontally
@@ -170,9 +169,10 @@ For example, an error message in red with no other marks that something is wrong
 >
 > _Need about 10 minutes_
 >
-> Looking at this page:  [Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do) 
+> Looking at this page: [Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do)
 > What do you think could be problematic for:
-> - A person with low vision magnifying their screen by 4 (ctlr + to 400%) 
+>
+> - A person with low vision magnifying their screen by 4 (ctlr + to 400%)
 > - A colour blind user
 >
 > Look at the pictures, the contrast, the colours
@@ -198,9 +198,10 @@ About **9 million people in the UK who are Deaf or hard of hearing**
 It could be a missing limb, or a muscle control problem, spams, tremors or a lack of coordination.
 
 Some potential problems:
+
 - Using a mouse might be difficult
 - Drag and drop can be hard to do
-- Selecting a link too close to another 
+- Selecting a link too close to another
 - Tapping a button if it’s too small of too close to another
 
 #### Assistive devices
@@ -277,7 +278,7 @@ Your apps and websites will usually be more performant, (faster loading pages fo
 #### Financially
 
 - Avoid legal cost
-- No upgrade needed to add the accessibility issues after the release if you have been testing and considering accessibility all along 
+- No upgrade needed to add the accessibility issues after the release if you have been testing and considering accessibility all along
 
 #### Reputation
 
@@ -475,7 +476,3 @@ Help to use your current location instead of having to type it. This is complian
 - Go to accessibility meet-ups, we will post them on Slack
 - There will be another course, more specific about **making your code accessible as a developer**
 - You won’t get it right every time, but you learn and do better next time
-
-
-
-
