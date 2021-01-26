@@ -135,6 +135,8 @@ In the previous exercise, you used an **expression** that returns a `boolean` va
 
 We will also be using a new function to make sure the comparisons we do below return `true`. This is the `assert`.
 
+It is not a built-in function like `console.log`, it is part of the NodeJS library, and it has to be loaded with the `require("assert")` command.
+
 When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.
 
 Here's an expression that evaluates to a `boolean`.
