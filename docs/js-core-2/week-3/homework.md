@@ -12,6 +12,8 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2-Solution
 
 Make sure you work out what you don't understand and spend some time considering how the code works.
 
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
 **Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
 
 ## 2) Classwork
