@@ -85,7 +85,7 @@ When you're watching this video you should:
 
 https://www.youtube.com/watch?v=iv8rSLsi1xo
 
-## 6) Share a question you have a Slack (5 Minutes)
+## 6) Share a question you have on Slack (5 Minutes)
 
 It's really helpful for us to see the question you have right now.
 
