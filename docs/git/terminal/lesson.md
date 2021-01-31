@@ -219,7 +219,7 @@ The best way to get started with the Terminal is to start using it - move to the
 
 ## Coursework
 
-You can find this weeks coursework [here](./homework)
+You can find this weeks coursework [here](./homework).
 
 ## Feedback
 
