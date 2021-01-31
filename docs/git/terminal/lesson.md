@@ -27,7 +27,7 @@ By the end of this class, you should be able to:
 
 ## Before you start
 
-If you're on Windows, make sure that you've followed the instructions [here](../preparation) to get setup with WSL. Alternatively, these exercises can be completed using [Git Bash](https://gitforwindows.org/)
+If you're on Windows, make sure that you've followed the instructions [here](../../js-core-1/preparation) to get setup with WSL. Alternatively, these exercises can be completed using [Git Bash](https://gitforwindows.org/)
 
 ## 1) Opening the Terminal
 
