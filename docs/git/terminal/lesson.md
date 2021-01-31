@@ -27,7 +27,7 @@ By the end of this class, you should be able to:
 
 ## Before you start
 
-If you're on Windows, make sure that you've followed the instructions [here](../js-core-1/preparation) to get setup with WSL. Alternatively, these exercises can be completed using [Git Bash](https://gitforwindows.org/)
+If you're on Windows, make sure that you've followed the instructions [here](../../js-core-1/preparation) to get setup with WSL. Alternatively, these exercises can be completed using [Git Bash](https://gitforwindows.org/)
 
 ## 1) Opening the Terminal
 
@@ -116,11 +116,11 @@ Many of the tasks that you complete using a GUI can also be done using the comma
 - Connecting to the internet
 - Opening programs
 
-You can write `commands` to your computer by wring text after the `$` sign in your terminal window and pressing `enter`. (Some terminals use the `%` or `#` symbol instead of `$` - they work exactly the same).
+You can write _commands_ to your computer by writing text after the `$` sign in your terminal window and pressing `enter`. (Some terminals use the `%` or `#` symbol instead of `$` - they work exactly the same).
 
 ![An Empty Terminal Window](assets/terminal-empty.png)
 
-However, you can't just type anything! Your computer only understand commands in a specific format
+However, you can't just type anything! Your computer only understands commands in a specific format
 
 ![Terminal with an error](assets/terminal-error.png)
 
@@ -219,7 +219,7 @@ The best way to get started with the Terminal is to start using it - move to the
 
 ## Coursework
 
-You can find this weeks coursework [here](./homework)
+You can find this weeks coursework [here](./homework).
 
 ## Feedback
 
