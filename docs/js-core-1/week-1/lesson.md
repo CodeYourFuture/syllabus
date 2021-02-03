@@ -23,7 +23,6 @@ By the end of this class, you should be able to:
 - List and describe the different primitive data types in JS
 - Use `typeof` to find the type of a variable
 - Assign data to variables using `let` and `const`
-- What are expressions and statements (and what's the difference)?
 - Define what expressions and statements are and describe the difference
 - Write, call and evaluate functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
