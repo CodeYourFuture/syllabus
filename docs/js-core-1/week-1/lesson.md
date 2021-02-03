@@ -24,7 +24,7 @@ By the end of this class, you should be able to:
 - Use `typeof` to find the type of a variable
 - Assign data to variables using `let` and `const`
 - Define what expressions and statements are and describe the difference
-- Write, call and evaluate functions in JavaScript
+- Write and call functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
 - Manipulate numbers with mathematical operators using the `Math` library
 - Define the difference between `console.log()` and `return`
