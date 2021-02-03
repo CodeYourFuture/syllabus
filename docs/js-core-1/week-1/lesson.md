@@ -230,7 +230,7 @@ _Intructor note: Only complete this exercise if you have enough time in the less
 
 Using online documentation, what other things can you do with the `Math` library?
 
-Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
+Working in small groups, pick one other thing that `Math` can do and prepare a short (2 - 3 min) explanation for the rest of the class. 
 
 
 You can also use expressions with string interpolation or as a `return` value.
