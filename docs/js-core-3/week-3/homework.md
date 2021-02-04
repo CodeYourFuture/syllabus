@@ -57,3 +57,15 @@ https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/code-review
 On Slack, find the usernames of two of your fellow trainees and atleast one volunteer (this could be your teacher, TA or your buddy) and add them to your project for a review. 
 
 Before next week, make sure you have implemented all of the feedback that they have given you. Acting of feedback is essential to becoming a better programmer.
+
+## 5) Giving Feedback to Other People (2 hours)
+
+Hopefully by now other people have already asked you to review thier work - if not -  post on Slack and see if anyone needs their work reviewing. 
+
+Follow the feedback guide here to give good feedback for this project
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/giving-feedback
+
+As always - you should use use the code style guide to recommend better coding practices to your colleagues
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
