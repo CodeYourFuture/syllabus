@@ -42,8 +42,18 @@ This project should consolidate knowledge from JS2 and push you to learn more ab
 
 You should complete as much of the project as you can.
 
-### Project Details
+#### Project Details
 
 All of the details for this project can be found:
 
 https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
+
+## 5) Getting Feedback On Your Project (2 hours)
+
+Follow the instructions in the Code Review section of the project
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/code-review
+
+On Slack, find the usernames of two of your fellow trainees and atleast one volunteer (this could be your teacher, TA or your buddy) and add them to your project for a review. 
+
+Before next week, make sure you have implemented all of the feedback that they have given you. Acting of feedback is essential to becoming a better programmer.
