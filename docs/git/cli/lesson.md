@@ -50,11 +50,9 @@ A big advantage for using Git CLI is that you work comfortably everywhere, the e
 
 ### Fully utilizing Git
 
-The big downside of using GUI for Git is that it exposes you to a relatively small interface (whatever part the GUI creator deemed important), this basically means you are not fully interacting with Git and are therefore not familiar with (at least) some of its capabilities. I’ve met some really good developers that used a certain GUI and were not even aware that Git has a staging area. When using the Git CLI you are using the entire Git interface and are therefore able to see the bigger picture, this makes you much more comfortable with Git and will almost certainly expose you to some useful utils like reflog, bisect & git grep (and many more).
+The big downside of using GUI for Git is that it exposes you to a relatively small interface (whatever part the GUI creator deemed important), this basically means you are not fully interacting with Git and are therefore not familiar with (at least) some of its capabilities.
 
-The authors of The Pragmatic Programmer sum this idea much better than me:
-
-> Many new programmers make the mistake of adopting a single power tool, such as a particular integrated development environment (IDE), and never leave its cozy interface. This really is a mistake. We need to be comfortable beyond the limits imposed by an IDE. The only way to do this is to keep the basic tool set sharp and ready to use.
+There are some really good developers that used a certain GUI and were not even aware that Git has a staging area. When using the Git CLI you are using the entire Git interface and are therefore able to see the bigger picture, this makes you much more comfortable with Git and will almost certainly expose you to some useful tools you might not have used otherwise.
 
 ### Git CLI gives you the power of the command line
 
