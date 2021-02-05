@@ -78,6 +78,14 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
+## 6) Git and the Command Line (7 Hours)
+
+This week we'll be introducing you to Git on the Command Line. You can find these exercises here
+
+https://syllabus.codeyourfuture.io/git/cli/homework
+
+_Instructor Note: Please open this link and copy each task one by one to Google Classroom_
+
 ## 6) (Optional) CodeWars Exercises
 
 Complete the following CodeWars exercises. Go to the webpages below and follow the instructions there.

@@ -14,3 +14,4 @@ Each week, you're going to use Git to get a copy of your Coursework exercises, t
 | --------------------------- | ----------------------- | ------------------------------------------ |
 | [Week 1](./index.md)        | Github & Github Desktop | [Git Coursework](./homework)               |
 | [Week 2](./terminal/lesson) | The Terminal            | [Terminal Coursework](./terminal/homework) |
+| [Week 2](./cli/lesson)      | Git CLI                 | [Terminal Coursework](./cli/homework)      |

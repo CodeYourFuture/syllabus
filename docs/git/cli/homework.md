@@ -48,3 +48,11 @@ You should complete the following sections on Git It
 - Forks and Clones
 
 You'll be continuing this next week
+
+## 5) (Optional) Git Ready
+
+We've only taught you the parts of Git that you need to know right now - if you're feeling ambitious take a look at everything else that Git can do
+
+http://gitready.com/
+
+Important: You don't need to know all of this now! Git is a tool you use to solve your problems - you only need to learn as much you need for now.
