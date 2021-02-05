@@ -19,7 +19,7 @@ import Feedback from "@theme/Feedback";
 - [Integration with NodeJS](#integration-with-nodejs)
   - Introduction to node-postgres
   - Loading data from a database with a GET endpoint
-- [Homework](#homework)
+- [Coursework](#coursework)
 
 ---
 
@@ -284,7 +284,7 @@ Start your server with `node server.js` and try to reach the `/hotels` endpoint 
 
 ## Coursework
 
-All of the homework for this week can be found [here](./homework).
+All of the coursework for this week can be found [here](./homework).
 
 ## Feedback
 

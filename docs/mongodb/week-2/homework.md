@@ -6,7 +6,7 @@ sidebar_label: Coursework
 
 ## 1) Finish in-class exercises
 
-Before continuing with the homework you should make sure you have completed all of the exercises from our class.
+Before continuing with the coursework you should make sure you have completed all of the exercises from our class.
 
 You can find the exercises here:
 

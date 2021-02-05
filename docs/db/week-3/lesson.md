@@ -15,7 +15,7 @@ import Feedback from "@theme/Feedback";
   - [Reading data](#reading-data)
   - [Updating data](#updating-data)
   - [Deleting data](#deleting-data)
-- [Homework](#homework)
+- [Coursework](#coursework)
 
 ---
 
@@ -281,7 +281,7 @@ app.delete("/customers/:customerId", function (req, res) {
 
 ## Coursework
 
-All of the homework for this week can be found [here](/homework).
+All of the coursework for this week can be found [here](/homework).
 
 ## Feedback
 

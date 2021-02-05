@@ -14,7 +14,7 @@ Don't start each exercise until the teacher asks you to.
 
 (If you have not already done this for homework...)
 
-- Log in to github with the account you use for CYF homework
+- Log in to github with the account you use for CYF coursework
 - Visit https://www.netlify.com/
 - Click "get started for free"
 - Choose `github` under "Sign up with one of the following"
@@ -41,7 +41,7 @@ Instructions: [the instructions are here](./instructions).
 
 ## Note: CYF site-naming conventions
 
-Use the standard format for site names for all CYF homework projects - see [site naming conventions](../cyf-site-naming-conventions.md)
+Use the standard format for site names for all CYF coursework projects - see [site naming conventions](../cyf-site-naming-conventions.md)
 
 - cyf-[your github username]-[exact project name as supplied by teacher]
 

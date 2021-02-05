@@ -23,7 +23,7 @@ Participants will be able to:
 - Define what accessibility is
 - Recall some specific conditions for each categories
 - Define what an invisible disability is and give some examples
-- Define situations where you can experience an accessibility issue, for touch, see, hear and speak or a combination of more than one of them (could be done as homework)
+- Define situations where you can experience an accessibility issue, for touch, see, hear and speak or a combination of more than one of them (could be done as coursework)
 - List some reasons why accessibility is important to consider
 - Illustrate what each letter in SCULPT mean
 - Apply advice to check colours and give good text links and alt texts

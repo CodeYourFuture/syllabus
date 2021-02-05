@@ -6,7 +6,7 @@ sidebar_label: Coursework
 
 ## 1) Finish in-class exercises
 
-Before continuing with the homework you should make sure you have completed all of the exercises from our class.
+Before continuing with the coursework you should make sure you have completed all of the exercises from our class.
 
 The only exercise in the class was to write an API server in Express (backed by MongoDB) with routes for the following:
 
