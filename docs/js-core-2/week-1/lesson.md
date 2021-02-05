@@ -1172,7 +1172,7 @@ const studentGrades = {
 // ABDUL - 19
 ```
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 

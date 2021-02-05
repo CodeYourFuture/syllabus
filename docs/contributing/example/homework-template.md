@@ -9,7 +9,7 @@ sidebar_label: Coursework
 1. [Resource 1 to learn more about Topic 1](https://example.com)
 2. [Resource 2 for Topic 2](https://example.com)
 
-## Homework
+## Coursework
 
 1. First part of Homework - Easy
 2. Second part of Homework - Intermediate/Hard

@@ -282,7 +282,7 @@ In the code above:
 
 Start your server with `node server.js` and try to reach the `/hotels` endpoint to see the list of hotels currently available in your `hotels` table of your `cyf_hotels` database. You can try to create/update/delete hotels to verify that your API always returns what is stored in your database.
 
-## Homework
+## Coursework
 
 All of the homework for this week can be found [here](./homework).
 

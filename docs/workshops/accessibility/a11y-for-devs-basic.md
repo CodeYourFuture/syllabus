@@ -50,7 +50,7 @@ You can find the slides for this presentation [here](https://docs.google.com/pre
 
 ---
 
-## Homework
+## Coursework
 
 Try this website from the GOV.UK government and see if you can find most of the issues: [record-a-goose-sighting.herokuapp.com](https://record-a-goose-sighting.herokuapp.com/)
 

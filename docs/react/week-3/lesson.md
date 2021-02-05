@@ -677,9 +677,9 @@ There is another common pattern for handling multiple fields in a form, but it r
 
 [Read more about it here.](./further-reading/multiple-form-fields)
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Feedback
 
