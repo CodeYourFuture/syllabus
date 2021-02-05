@@ -66,7 +66,7 @@ https://github.com/CodeYourFuture/node-challenge-quote-server
 
 In that folder you will find a task to create a Quote Server.
 
-To complete the homework you should:
+To complete the coursework you should:
 
 1. Fork the repository
 2. Complete the tasks

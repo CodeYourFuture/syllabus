@@ -44,7 +44,7 @@ Again, go to this repository and go to the "Pull Requests" tab.
 
 https://github.com/CodeYourFuture/Terminal-Coursework-Week1
 
-Here you will find all of your Classmates answers to the homework.
+Here you will find all of your Classmates answers to the coursework.
 
 1. Choose two pull requests with no, or few, comments.
 2. Leave comments on any of the questions you think they have got wrong. Not sure if their answer is right? Ask them to check it and confirm.
