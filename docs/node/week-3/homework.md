@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 All of the homework for this week can be found in the Node Homework repository [here](https://github.com/CodeYourFuture/NodeJS-Homework) under the Week 3 folder

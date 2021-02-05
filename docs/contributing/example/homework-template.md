@@ -1,7 +1,7 @@
 ---
 id: homework-template
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## Resources
