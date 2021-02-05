@@ -81,7 +81,7 @@ A lesson must have
 
 Focus on exercises in the class rather than presentations or long explanations
 
-### Homework
+### Coursework
 
 Homework should contain
 

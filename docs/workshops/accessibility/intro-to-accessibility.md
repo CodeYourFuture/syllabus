@@ -57,7 +57,7 @@ You can find the slides for this presentation [here](https://docs.google.com/pre
 
 ---
 
-## Homework
+## Coursework
 
 ### Quiz (5 minutes)
 

@@ -305,7 +305,7 @@ Try to use this format when making your own commits. GitHub Desktop tries to enc
 
 Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
-## Homework going forwards
+## Coursework going forwards
 
 For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
 
@@ -317,7 +317,7 @@ We introduced a few new things in this class, and it can be a bit confusing to k
 - **GitHub** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but GitHub is the most popular one.
 - **GitHub Desktop** is a program made by GitHub to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
 
-## Homework
+## Coursework
 
 You can find this weeks homework [here](./homework)
 

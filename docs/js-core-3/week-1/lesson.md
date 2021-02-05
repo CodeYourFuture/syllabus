@@ -383,7 +383,7 @@ You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
 In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 
