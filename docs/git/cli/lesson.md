@@ -64,6 +64,14 @@ We often try to reuse & build on top of existing tools and this is no different 
 
 After using the Git CLI, it’s natural to start automating and scripting your workflow. You can use Git hooks to fail a commit if your tests didn’t pass and even add your Jira ticket ID to the beginning of the commit. This added power allows you to write better deployment script.
 
+## 2) Comparing Github Desktop and Git CLI
+
+TODO: Details and screenshots here comparing them
+
+## 3) Git Cheatsheet and Resources
+
+TODO: Add resources and chearsheet for Git
+
 ## Coursework
 
 You can find this weeks coursework [here](./homework).
