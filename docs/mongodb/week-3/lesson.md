@@ -54,7 +54,7 @@ We now have a pretty extensive dataset that we will use for the rest of the clas
 
 ### Insert a document with accent
 
-The first task here is to insert a document in sample_airbnb.listingsAndReviews with the following fields found [here](./fields.js).
+The first task here is to insert a document in sample_airbnb.listingsAndReviews with the following fields found <a href={require('!file-loader!./assets/fields.js').default} target="_blank" download="fields.js">here</a>.
 
 You can use the code that we developed in lesson 2, or the GUI Hint: you can use clone in GUI
 
