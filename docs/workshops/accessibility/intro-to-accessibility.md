@@ -365,7 +365,7 @@ It can be misinterpreted by screen readers as well.
 ### Make your document accessible
 
 You never know who will read a document, so make it accessible. It’s better for everyone anyway.
-[SCULPT is a framework with some basic advice created by Worcestershire Council](www.worcestershire.gov.uk/WCCSculpt)
+[SCULPT is a framework with some basic advice created by Worcestershire Council](https://www.worcestershire.gov.uk/WCCSculpt)
 
 ![Structure, Colour contrast, Use of images, Links, Plain English, Table Structure](assets/a11y-part1/Sculpt.png)
 
