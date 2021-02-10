@@ -13,8 +13,10 @@ import TabItem from '@theme/TabItem';
 By the end of this class, you should be able to:
 
 - To _clone_ a repository using Git CLI
-- To _commit_, _fork_ a repository, and _push_ changes using Git CLI
+- To _commit_ to a repository
+- To _push_ changes using Git CLI
 - To view Git's _history log_ using Git CLI
+- To view what uncommitted changes you have with git _status_
 
 ---
 
