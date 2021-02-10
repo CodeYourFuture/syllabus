@@ -16,6 +16,24 @@ You can find the preparation material [here](../preparation).
 
 Be sure to assign all of the tasks to your students several days before you aim to teach.
 
+## Delivery Notes
+
+### Giving Feedback to Each Other
+
+For this exercise, you should open the Pull Request and share you screen. Elicit answers from the students based on what they've just read.
+
+You should only type what they say, try to let them take the lead.
+
+**Important**: Please delete the comments after you have finished the exercise so that another teachers can use it!
+
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-js1](https://codeyourfuture.slack.com/archives/C7RBFFKUK)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Presentations
 
 - [Week 1 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=10rob7Nw6mEpA0h1wEZueVIF7doBZqlfY2twQEYlIse4)

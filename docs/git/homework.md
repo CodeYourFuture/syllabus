@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) Tell us about you - using Github! (1 hour)
@@ -70,7 +70,7 @@ https://github.com/CodeYourFuture/GitHomeworkFixErrors
 
 Follow the instructions to complete this homework!
 
-## 4) Mark other peoples homework! (1 hour)
+## 4) Mark other peoples coursework! (1 hour)
 
 Now that you've helped him with his homework we want you to mark other peoples homework from your class. Giving feedback is an important way to help you grow!
 
@@ -86,4 +86,4 @@ Here you will find all of your Classmates answers to the homework.
 
 You should do this for _at least_ two pull requests.
 
-Note sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
+Not sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1

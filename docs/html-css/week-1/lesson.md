@@ -198,9 +198,9 @@ Work in pairs to complete all the mistakes in the project and fix them.
 6. [CSS specificity - MDN](https://developer.mozilla.org/en/docs/Web/CSS/Specificity)
 7. [Pseudo classes - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Feedback
 

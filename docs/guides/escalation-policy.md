@@ -4,7 +4,7 @@ title: How to get help
 sidebar_label: How to get help
 ---
 
-When you get stuck during the homework you should follow the following:
+When you get stuck during the coursework you should follow the following:
 
 ## 1) Search Online
 

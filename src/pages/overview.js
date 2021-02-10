@@ -21,6 +21,7 @@ import DNS from "@material-ui/icons/Dns";
 import Storage from "@material-ui/icons/Storage";
 import Group from "@material-ui/icons/Group";
 import Star from "@material-ui/icons/Star";
+import EmojiPeopleIcon from "@material-ui/icons/EmojiPeople";
 
 function Overview() {
   const context = useDocusaurusContext();
@@ -142,6 +143,36 @@ function Overview() {
                 "https://fundamentals.codeyourfuture.io/"
               )}
               {getComponent(
+                "Induction and Learning To Learn",
+                "1 Week",
+                <div>
+                  <p>
+                    This first week of the Full Stack course introduces
+                    CodeYourFuture Trainees to the technical skills they will be
+                    learning over the next 8 months and ways to optimise their
+                    learning process.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/induction-week",
+                "rgb(176,98,137)",
+                "PD"
+              )}
+              {getComponent(
+                "Git and Github",
+                "1 Week",
+                <div>
+                  <p>
+                    This one week module introduces students to Git and Github
+                    using Github Desktop. This is a key skill for all developers
+                    and is also how we submit coursework at CodeYourFuture.
+                  </p>
+                </div>,
+                <FormatListNumberedIcon />,
+                "/git/index",
+                "Tech"
+              )}
+              {getComponent(
                 "HTML/CSS",
                 "3 Weeks",
                 <div>
@@ -160,7 +191,22 @@ function Overview() {
                   </p>
                 </div>,
                 <ViewQuilt />,
-                "/html-css/index"
+                "/html-css/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Effective Communication",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the
+                    Html/CSS) Module. Trainees will focus on communication
+                    skills essential for a developer.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-2",
+                "PD"
               )}
               {getComponent(
                 "JavaScript Core 1",
@@ -176,7 +222,22 @@ function Overview() {
                   </p>
                 </div>,
                 <Code />,
-                "/js-core-1/index"
+                "/js-core-1/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Preparing for the Workplace",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the JS 1
+                    Module. Trainees will be introduced to important skills
+                    needed for the workplace.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-3",
+                "PD"
               )}
               {getComponent(
                 "JavaScript Core 2",
@@ -196,7 +257,22 @@ function Overview() {
                   </p>
                 </div>,
                 <Web />,
-                "/js-core-2/index"
+                "/js-core-2/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Presentation Skills",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the JS 2
+                    Module. Trainees will explore various tools and techniques
+                    to develop their presentation skills.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-4",
+                "PD"
               )}
               {getComponent(
                 "JavaScript Core 3",
@@ -216,7 +292,8 @@ function Overview() {
                   </p>
                 </div>,
                 <Language />,
-                "/js-core-3/index"
+                "/js-core-3/index",
+                "Tech"
               )}
               {getComponent(
                 "React",
@@ -240,7 +317,22 @@ function Overview() {
                   </p>
                 </div>,
                 <AddToQueue />,
-                "/react/index"
+                "/react/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Preparing for the Job Market",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the React
+                    Module. Trainees will learn about the CYF process of getting
+                    a job and the tools to support getting into a new career.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-5",
+                "PD"
               )}
               {getComponent(
                 "Node.js",
@@ -257,7 +349,22 @@ function Overview() {
                   </p>
                 </div>,
                 <DNS />,
-                "/node/index"
+                "/node/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Interview Skills",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the Node
+                    Module. Trainees will learn about the CYF process of getting
+                    a job and the tools to support getting into a new career.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-6",
+                "PD"
               )}
               {getComponent(
                 "Databases",
@@ -277,7 +384,22 @@ function Overview() {
                   </p>
                 </div>,
                 <Storage />,
-                "/mongodb/index"
+                "/mongodb/index",
+                "Tech"
+              )}
+              {getComponent(
+                "Working in Teams",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the
+                    Database. Trainees will learn about how to work in a team in
+                    preparation for the Final Projects.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-7",
+                "PD"
               )}
               {getComponent(
                 "Final Projects",
@@ -296,7 +418,22 @@ function Overview() {
                   </p>
                 </div>,
                 <Group />,
-                "/finalproject/intro"
+                "/finalproject/intro",
+                "Tech"
+              )}
+              {getComponent(
+                "Presentations and Demo Day",
+                "1 Week",
+                <div>
+                  <p>
+                    This Personal Development day takes place after the Final
+                    Project. The final week of the course focuses on more
+                    Presentation skills and preparing for Demo Day.
+                  </p>
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-8",
+                "PD"
               )}
               <VerticalTimelineElement
                 iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
@@ -310,17 +447,39 @@ function Overview() {
   );
 }
 
-function getComponent(title, length, description, icon, link) {
+function getComponent(title, length, description, icon, link, type) {
+  let rgb;
+  if (type === undefined) {
+    rgb = "rgb(212,62,62)";
+  } else if (type === "Tech") {
+    rgb = "rgb(212,62,62)";
+  } else {
+    rgb = "rgb(176,98,137)";
+  }
+
+  let contentType;
+
+  if (type === undefined) {
+    contentType = "Combined";
+  } else if (type === "Tech") {
+    contentType = "Tech";
+  } else {
+    contentType = "Personal Development";
+  }
+
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: "rgb(212,62,62)", color: "#FFF" }}
+      contentStyle={{ background: rgb, color: "#FFF" }}
       contentArrowStyle={{
-        borderRight: "7px solid  rgb(212,62,62)",
+        borderRight: "7px solid " + rgb,
       }}
-      iconStyle={{ background: "rgb(212,62,62)", color: "#fff" }}
+      iconStyle={{ background: rgb, color: "#fff" }}
       icon={icon}
     >
       <h3 className="vertical-timeline-element-title">{title}</h3>
+      <h4 className="vertical-timeline-element-subtitle">
+        Content Type: {contentType}
+      </h4>
       <h4 className="vertical-timeline-element-subtitle">Length: {length}</h4>
       {description}
       <Link

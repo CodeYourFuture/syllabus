@@ -515,9 +515,9 @@ This function should:
 
 If you're using the above example, you should expect to return an array with 2x `ELAMIN!`, 1x `SANYIA!`, 2x `ISMAEL!` and 1x `JAMES!`.
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## JavaScript 1 Quiz
 

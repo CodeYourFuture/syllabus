@@ -20,6 +20,14 @@ If you students do not arrive with these steps completed then you will lose a lo
 
 One of the teacher-led demos in this class relies on the user not having permission to push to CodeYourFuture's GitHub repositories. As a teacher, you probably have access to push these repositories, and so your demo will not show all of the steps it's meant to show. We recommend using a different GitHub account for this class - if you don't have a second account, and don't want to set one up, come chat in `#cyf-module-git` - we can set up a shared one you can use.
 
+## Questions and Help
+
+We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+
+[cyf-module-git](https://codeyourfuture.slack.com/archives/C01DANTAGRK)
+
+For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
+
 ## Resources
 
 ### Slides

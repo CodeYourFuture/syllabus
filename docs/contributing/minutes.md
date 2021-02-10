@@ -4,64 +4,226 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-### 14/10/2020
+## 03/02/2021
 
-#### In Attendance: Ali Smith, Chris Owen, Greg Dyke, Daniel Wagner-Hall, Tim Hamrouge, Neill Bogie, Mike Hayden, 
+Present: Chris, Ali, Daniel, Mitch, Greg
 
-##### GIT & COMMAND LINE V. GITHUB DESKTOP
+### Interview Prep Workshop
 
-Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
+- Ali & Daniel got chatting on PR about interview prep
+- What kind of companies are we targeting for trainees?
+  - "Upper bound" of companies
+  - Type of company
+- There are several kinds of tech interview
+- Do we prepare trainees for all types of interview?
+- Discussion of specific example of `LazyFlatIterator`
+  - Problem is very abstract, which we think would throw a lot of trainees
+- Is it realistic to expect trainees to get jobs at FAANG/top companies?
+  - We think the majority of student's wouldn't pass the interview
+  - Self-fulfilling strategy - if we prepared trainees for this, would they get it?
+- We could prepare for what kind of things a tech interview, but without looking at specific kinds of problems (e.g. computer science-y problems)
+  - E.g. explain thinking out loud
+  - Think about performance of solutions
+- Potentially involve Anahita - London PD
+  - Tech recruiter for Capgemini
+  - Has expressed interest in developing content in this domain
+- Daniel opened a [ticket to discuss a workshop](https://github.com/CodeYourFuture/syllabus/issues/175)
+- Action points
+  - Chris to speak to Capgemini
+  - Chris to decide what types of companies we are aiming for
+  - Syllabus team to read ticket & discuss
 
-- No final decision was made in the meeting about which technology should be taught. 
-    - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4. 
-    - There much discussion about multiple lessons on Git, in order to reduce the cognitive load and increase familiarity for stuents. Chris said that while additional lessons cannot be added, additional reources (as homework etc.) can be included. 
-    - Daniel and Ali agreed to work on the Git lesson plan for 31/10/2020.
+### When do we release solutions to coursework?
 
-##### STUDENT FEEDBACK FORM
+- London were releasing the week after
+  - Concern is that they could put in minimal effort to solve, then get solution without putting work in
+- Releasing answers helps buddies since the answers are available, but it also means enforcing putting in effort
+- Trainee who is putting in effort, but sees answers then thinks that they understand it, but without actually
+- Suggestion
+  - Release by default
+  - But if Edu Buddy notices that trainee is coasting, the it can be flagged to City Coordinator
+  - Can then restrict that trainee from getting the answers (by not inviting them to the private answers repo)
+- Action points
+  - Chris to write this up as policy for Edu buddies
 
-- Chris has created a Pull Request for a new feedback form to give to students at the end of lessons. 
-    - There was consensus that the form was a good idea, and would be added to the syllabus. It is a substantial change because it will affect all lessons. 
-    - Ali suggested an additional 'Anything Else?' field to capture intangible feedback, Chris Agreed.
-    - Neill pointed out it must be made clear to students who can see their answers and how they will be used, all agreed. 
-- ACTION: Chris to check form feedback in 1 month.
+### Team changes
+
+- Tim taking some time off (too much going on)
+- Few new people joining in the next few weeks
+
+### Git CLI/Terminal
+
+- Terminal lesson went out to London students
+  - 12 students completed. No problems, but they are likely best students, so waiting to see how it goes for other students
+- Git
+  - Daniel working on it, roughly ready to go
+  - PRs incoming
+  - Diagrams are still TODO
+
+## 20/01/2021
+
+Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
+
+### HTML & CSS discussion - led by Lucy
+
+- Atannas has raised several questions regarding the syllabus
+- Syllabus doesn't currently start from scratch with HTML & CSS
+- Always have disparate level of abilities and knowledge with any class
+
+#### Week 1
+
+- Lucy's learning objectives:
+  - Week-1
+  - Starts with a summary of the learning objectives
+  - How to attach CSS to a HTML document
+  - Discuss CSS specificity
+  - Write simple HTML and CSS pairings
+  - Discuss the box model in CSS
+- Avoid git issues and sandboxes
+- Lots of interactive exercises throughout the lesson
+- For homework build a website using some Figma designs
+- Students can find extension tasks at Frontend Mentor
+- Currently still using the bikes for refugees project over the HTML and CSS section
+- Lucy is using smaller layout exercises for this section
+- Try and get students to fork and clone the homework before the end of the class
+
+#### Week 2
+
+- Week 2 deals with responsive design, media queries
+- Homework for week 2 is to add a media query to existing Karma Project for a mobile design
+- More sandbox activities for manipulating the UI with media queries
+- Students given a wireframe for a cake website with a mobile view and a desktop view
+
+#### Week 3
+
+- Start with a lot of repetitive stuff in CSS
+- Introduce the need for classes in order to reuse CSS rules
+- Then introduce a CSS framework like Bootstrap - there to solve the problem of consistency
+- Give students some understanding of columns
+- Issues with Bootstrap:
+  - Comes with clutter like utility CSS etc
+  - Also comes with a lot of JS components
+  - Can sometimes be a little chaotic
+  - Sometimes distracted by Bootstrap features
+- Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
+- Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
+- Homework for week 3 used Wix templates in the past - needs to change for copyright reaons
+
+- May need an additional 4th class
+- Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
+- Potentially focus on Bootstrap but if you want to use "Simple Grid" then you can if you want
+- Syllabus there to define which concepts need to be understood and which skills need to be acquired but not to prescribe the particular resources used to achieve the skills / resources
+
+### Cloud development - led by Bukola
+
+- Would like to introduce cloud development in the syllabus at some point
+- Could introduce deployment / automation especially when students encounter Netlify and there is a need for deployment
+- Github CLI is a good starting point for this
+- Make use of Bukola's notes for this topic
+- Good turn this into an optional workshop
+- Cloud infrastructure is the number one skill employers are after
+- We could also have a postgraduate module for teaching students stuff after the course ( post graduation )
+- Could introduce bonus material from early on so that the students are primed for the introduction of cloud stuff later on
+- Is there scope for something like Lambda functions around the time of React to bridge with NodeJS
+- Netlify uses a CLI tool for deployment of cloud functions
+
+### Further actions
+
+- Setup a future discussion further down the line re cloud workshop / module
+- Establish learning objectives for a cloud workshop / module
+- Setup a cyf-syllabus-cloud channel
 
 ---
 
-### 28/10/2020
+## 06/01/2021
 
-#### In Attendance: Ali Smith, Chris Owen, Daniel Wagner-Hall, Tim Hamrouge, Carlos from Migracode
+**In Attendance:** Daniel, Chris, Greg, Tim, Mitch, Ali
 
-##### CARLOS FROM MIGRACODE
+### Personal Development Syllabus
 
-Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
+- https://personaldevelopment.codeyourfuture.io/
+- Technical Interview might be missing
+  - Can this be rolled into the PD Syllabus?
+- Could we add more time CV Workshops
+- "Asking Good Questions" is a section that could be pulled out earlier and more in depth
+  - Has been included in Day 3 so can be pushed more around
+- We should be aiming to interleave the content between the two Syllabus'
+- "Imposter Syndrome" could be covered
+  - You're not **meant** to understand everything
 
-- Carlos answered questions and gave some insight into Migracode.
-  - Migracode have been around for 1 year. They were using our syllabus from then to teach with until April when Carlos started updating their syllabus with our new content.
-  - Migracode began with one class, then another two in March and started three more in July. The classes consist of ~12 people.
-  - The feedback from Spain is that our syllabus is great because of how up to date it is - particularly the content on React hooks. 
-  - They have split their classes out into smaller groups to enable them to give students more attention. They also have 1 Spanish class and 1 English class because a lot fo their students are from South America, but they do not translate the syllabus, the teacher does that while teaching. 
-  - They offer free English lessons to students. They are able to do this by using trainee teachers who can use the teaching time as credit for their courses. 
+Action: All Attendees - To review the content in more details
 
-##### GIT LESSON
+### UseContext Discussion
 
-- Chris thanked all those who had worked on the content for the Git lesson.
-  - Chris introduced the lesson content to the Birmingham team and it was well received, the lesson will be run by them for the first time on 31/10/20.
+- Greg recently learnt React to help TA a class
+  - He discovered UseContext that could be used in place of Redux
+- Ali - We can use the "Extra Lessons" to contain this
+- Ali - We've always **not** included it as part of the course as it isn't required for most of what the students are trying to do
+- Could this be included into the Post Graduate section of the course?
 
-##### AOB
+Action: Greg to investigate how they could be implemented and included
 
-- Chris needs some eyes on some PRs. Tim said he would take a look.
-- Ali asked for some resources on 'How to ask good questions' and 'How to give good answers'. Ali will write a ticket for this.
+### Instructional Design Class
 
----
+- Greg used to work in this area and knows people who want "clients" to work with
+- Might be able to help us craft a pedagogically good workshop or help with HTML/CSS Module
 
-### 25/11/2020
+Action: Greg to refer them to me
 
-#### In Attendance: Ali Smith, Chris Owen, Daniel Wagner-Hall, Greg Dyke, Tim Hamrouge
+### Round Table
 
-##### Membership
-Atenas will be joining in ~4 weeks after final projects finish in Birmingham.
+- Chris to prepare a plan for a Round Table discussion with lots of different stack holders of the
 
-##### Style guide
+Action: Chris to write up plan and poll for the best time for the Round Table
+
+### Lucy and HTML/CSS
+
+- Lucy Zidour is an experience CYF Teacher from London who has historically taught HTML/CSS
+- She has good tested material that could do with being folded into the Syllabus
+- Lucy will attend our next meeting to discuss
+
+### Git & Terminal
+
+- As part of a roll-out of a better way to teach Git we need to start thinking about how to teach further Git Theory and the Terminal in preparation for React
+- We should start working on this soon
+
+Action: Chris to prepare meeting on this for next week
+
+## 09/12/2020
+
+**In Attendance**: Chris Owen, Ali Smith, Mitchell Lloyd, Tim Hamrouge
+
+### Functions
+
+[Minutes from the call on 7th Dec](https://docs.google.com/document/d/19F9GAR09wP9CwomDp6Y4rYwfBMNnnZgrirHd-8k4uiM/edit#).
+
+Chris overall happy with it. Flagged that the coursework needing to be checked that trainees don't see content out-of-order.
+
+Also had discussion of timings of lesson 1. Concern about fitting in good naming content, but pointed out that this can be covered in variables section earlier. Assigned some rough timings for AM/PM content in week 1.
+
+Next steps:
+
+- Suggested that start learning objectives first
+- Then write exercises that fulfill the LOs
+- And then fill out content
+
+### Code style guide
+
+Ali has started writing it up, but not lots of progress yet.
+
+### JS Core 2 Exercises
+
+Tim demoed some of the exercises so far. Progress looks good.
+
+### Typing tips/test for Intro to Coding
+
+Ali wrote up a [quick guide](https://github.com/CodeYourFuture/Intro-To-Coding-Course/pull/2), but wasn't sure what to do with it. Decided to write up a ticket for the board for Syllabus Team to discuss how to integrate into ItC.
+
+## 25/11/2020
+
+**In Attendance**: Ali Smith, Chris Owen, Daniel Wagner-Hall, Greg Dyke, Tim Hamrouge
+
+### Style guide
 
 Discussing https://github.com/CodeYourFuture/syllabus/issues/105#issuecomment-731769854
 
@@ -83,7 +245,7 @@ Can easily get ESLint installed into VS Code, but ESLint rules are harder becaus
 
 Ali will move forwards.
 
-##### How we teach functions
+### How we teach functions
 
 No one seems to teach functions well.
 
@@ -99,27 +261,29 @@ Our examples aren't places where functions aren't actually useful (e.g. a `sum` 
 
 Mitch is probably going to be away for a bit, so Chris will take it over and start gathering opinions this sprint.
 
-##### This sprint
+### This sprint
 
-###### [SQL](https://github.com/CodeYourFuture/syllabus/pull/139)
+#### [SQL](https://github.com/CodeYourFuture/syllabus/pull/139)
+
 Pretty much everyone except London teaches MongoDB. Glasgow and Manchester have some SQL experts, and Birmingham fell through some cracks of undocumented prep work from having not run the course before.
 
 Why does ~everyone teach SQL except London?
+
 > Partially because of domain knowledge in the particular cities.
 > Partially lack of clarity around what's more valuable to focus on.
 
 Birmingham want to move from Postgres to MySQL. We should work out what to support...
-We should find out why Birmingham want to switch. It may be because they had a bad experience from the first class, but we should find out for sure. 
+We should find out why Birmingham want to switch. It may be because they had a bad experience from the first class, but we should find out for sure.
 Maybe we could just have them connect to pre-running SQL servers, and not need to worry about which flavour of SQL they're using.
 For Mongo, we don't have them run anything locally, just use a hosted MongoDB.
 
-###### [JS2-2 coursework](https://github.com/CodeYourFuture/syllabus/issues/120)
+#### [JS2-2 coursework](https://github.com/CodeYourFuture/syllabus/issues/120)
 
 When we introduce the DOM, there's not much homework. Could do with someone reading over it and evaluate whether the coursework meets the learning objectives. The jump after this week is to a big project.
 
 Tim will pick up.
 
-##### AOB
+### AOB
 
 Chris is taking most of December off (enjoy!). Will still check in to the meeting on December 9th, but won't be picking up work.
 
@@ -127,32 +291,52 @@ We should do an idea generation session, with many attendees, to work out what e
 
 ---
 
-### 09/12/2020
+## 28/10/2020
 
-#### In Attendance: Chris Owen, Ali Smith, Mitchell Lloyd, Tim Hamrouge
+**In Attendance**: Ali Smith, Chris Owen, Daniel Wagner-Hall, Tim Hamrouge, Carlos from Migracode
 
-##### Functions
+### CARLOS FROM MIGRACODE
 
-[Minutes from the call on 7th Dec](https://docs.google.com/document/d/19F9GAR09wP9CwomDp6Y4rYwfBMNnnZgrirHd-8k4uiM/edit#).
+Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 
-Chris overall happy with it. Flagged that the coursework needing to be checked that trainees don't see content out-of-order.
+- Carlos answered questions and gave some insight into Migracode.
+  - Migracode have been around for 1 year. They were using our syllabus from then to teach with until April when Carlos started updating their syllabus with our new content.
+  - Migracode began with one class, then another two in March and started three more in July. The classes consist of ~12 people.
+  - The feedback from Spain is that our syllabus is great because of how up to date it is - particularly the content on React hooks.
+  - They have split their classes out into smaller groups to enable them to give students more attention. They also have 1 Spanish class and 1 English class because a lot fo their students are from South America, but they do not translate the syllabus, the teacher does that while teaching.
+  - They offer free English lessons to students. They are able to do this by using trainee teachers who can use the teaching time as credit for their courses.
 
-Also had discussion of timings of lesson 1. Concern about fitting in good naming content, but pointed out that this can be covered in variables section earlier. Assigned some rough timings for AM/PM content in week 1.
+### GIT LESSON
 
-Next steps:
+- Chris thanked all those who had worked on the content for the Git lesson.
+  - Chris introduced the lesson content to the Birmingham team and it was well received, the lesson will be run by them for the first time on 31/10/20.
 
-- Suggested that start learning objectives first
-- Then write exercises that fulfill the LOs
-- And then fill out content
+### AOB
 
-##### Code style guide
+- Chris needs some eyes on some PRs. Tim said he would take a look.
+- Ali asked for some resources on 'How to ask good questions' and 'How to give good answers'. Ali will write a ticket for this.
 
-Ali has started writing it up, but not lots of progress yet.
+---
 
-##### JS Core 2 Exercises
+## 14/10/2020
 
-Tim demoed some of the exercises so far. Progress looks good.
+**In Attendance**: Ali Smith, Chris Owen, Greg Dyke, Daniel Wagner-Hall, Tim Hamrouge, Neill Bogie, Mike Hayden,
 
-##### Typing tips/test for Intro to Coding
+### GIT & COMMAND LINE V. GITHUB DESKTOP
 
-Ali wrote up a [quick guide](https://github.com/CodeYourFuture/Intro-To-Coding-Course/pull/2), but wasn't sure what to do with it. Decided to write up a ticket for the board for Syllabus Team to discuss how to integrate into ItC.
+Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
+
+- No final decision was made in the meeting about which technology should be taught.
+  - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4.
+  - There much discussion about multiple lessons on Git, in order to reduce the cognitive load and increase familiarity for stuents. Chris said that while additional lessons cannot be added, additional reources (as homework etc.) can be included.
+  - Daniel and Ali agreed to work on the Git lesson plan for 31/10/2020.
+
+### STUDENT FEEDBACK FORM
+
+- Chris has created a Pull Request for a new feedback form to give to students at the end of lessons.
+  - There was consensus that the form was a good idea, and would be added to the syllabus. It is a substantial change because it will affect all lessons.
+  - Ali suggested an additional 'Anything Else?' field to capture intangible feedback, Chris Agreed.
+  - Neill pointed out it must be made clear to students who can see their answers and how they will be used, all agreed.
+- ACTION: Chris to check form feedback in 1 month.
+
+---

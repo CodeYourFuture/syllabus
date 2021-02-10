@@ -23,7 +23,7 @@ import Feedback from "@theme/Feedback";
   - Inserting data
   - Retrieving data
   - Retrieving data with conditions
-- [Homework](#homework)
+- [Coursework](#coursework)
 
 ---
 
@@ -42,6 +42,14 @@ By the end of this lesson students should be able to
 - List the different kinds of data that can be held in a PostgreSQL database
 
 ---
+
+## Before you start
+
+Before you arrive at class you **must** have completed the following setup work.
+
+[PostgreSQL Preparation](../prep)
+
+_If you are a teacher reading this, please check the [Instructor Notes](./mentors)_
 
 ## Introduction to databases
 
@@ -271,9 +279,9 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 - Retrieve all bookings starting in 2020.
 - Retrieve all bookings before 2020 for less than 4 nights.
 
-## Homework
+## Coursework
 
-All of the homework for this week can be found [here](./homework).
+All of the coursework for this week can be found [here](./homework).
 
 ## Feedback
 

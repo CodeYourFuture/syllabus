@@ -31,13 +31,17 @@ module.exports = {
       searchParameters: {}, // Optional (if provided by Algolia)
     },
     navbar: {
-      title: "Home",
       hideOnScroll: true,
       logo: {
         alt: "CodeYourFuture Logo",
         src: "img/logo.png",
       },
       items: [
+        {
+          to: "Overview",
+          label: "Overview",
+          position: "left",
+        },
         {
           label: "Modules",
           position: "left",
@@ -118,8 +122,8 @@ module.exports = {
           position: "left",
           items: [
             {
-              to: "workshops/welcome-to-cyf",
-              label: "Welcome to CYF",
+              to: "workshops/accessibility/index",
+              label: "Accessibility Workshops",
               position: "left",
             },
             {
@@ -160,11 +164,6 @@ module.exports = {
               position: "left",
             },
             {
-              to: "workshops/intro-to-accessibility",
-              label: "Intro to Web Accessibility",
-              position: "left",
-            },
-            {
               label: "-----------",
               position: "left",
             },
@@ -186,8 +185,8 @@ module.exports = {
               position: "left",
             },
             {
-              to: "guides/coding-standards",
-              label: "Coding Standards",
+              to: "guides/code-style-guide",
+              label: "Code Style Guide",
               position: "left",
             },
             {

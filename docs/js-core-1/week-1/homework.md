@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) FreeCodeCamp (3 hours)
@@ -66,9 +66,7 @@ Next, in the same repository complete all of the exercises in the "Mandatory" fo
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-If you finish all of those, spend some time
-
-## 4) Prepare for next week
+## 4) Prepare for next week (2 hours)
 
 To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
 
@@ -78,7 +76,29 @@ To challenge yourself even further, you can get ahead for next week's class by r
 - [ ] Logical operators in JS: https://javascript.info/logical-operators
 - [ ] More on operators: https://javascript.info/operators
 
-## 5) (Optional) Extra JavaScript Challenges
+## 5) Give feedback on your colleague's coursework (1 hour)
+
+Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
+
+You must
+
+1. View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1/pulls
+
+2. Find **two** pull requests from people in your class that have no, or few, comments on them
+3. Leave comments on the **two** pull requests with improvements or suggestions
+4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
+
+## 6) (Optional) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
@@ -86,7 +106,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 6) (Optional) Even more JavaScript Challenges
+## 7) (Optional) Even more JavaScript Challenges
 
 Completed all of the addition challenges in the coursework? We have more challenges that you can find here
 

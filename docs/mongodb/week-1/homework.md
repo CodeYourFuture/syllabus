@@ -1,12 +1,12 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) Finish in-class exercises
 
-Before continuing with the homework you should make sure you have completed all of the exercises from our class.
+Before continuing with the coursework you should make sure you have completed all of the exercises from our class.
 
 You can find the exercises here:
 
@@ -26,7 +26,7 @@ You should complete all of the tasks in WEEK-1.md
 
 You now know enough about MongoDB to make the Node apps that you made in the last module retrieve their data from a database.
 
-For this homework you should add MongoDB to your Quote Server homework so that all of the data is retrieved from the database instead of the `quotes.js` file in the repository.
+For this coursework you should add MongoDB to your Quote Server homework so that all of the data is retrieved from the database instead of the `quotes.js` file in the repository.
 
 You can find the project here:
 https://github.com/CodeYourFuture/node-challenge-quote-server

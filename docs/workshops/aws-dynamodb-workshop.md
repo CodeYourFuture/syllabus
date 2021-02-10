@@ -375,7 +375,7 @@ configure aspects of the application.
 
 - Commit and push the changes to Heroku and see if it works.
 
-## Homework
+## Coursework
 
 Refer to the MongoDB/Node workshop for the Homework tasks -
 <https://github.com/CodeYourFuture/mongo-node-workshop>

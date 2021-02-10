@@ -6,7 +6,7 @@ sidebar_label: Website Naming Conventions
 
 To make it easier for teachers and volunteers to find and review your homework,
 
-All CYF homework projects should be hosted with the following naming scheme:
+All CYF coursework projects should be hosted with the following naming scheme:
 
 `cyf-[username]-[projectname]`
 
