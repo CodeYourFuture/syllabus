@@ -4,7 +4,19 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## FreeCodeCamp (4 hours)
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+## 2) FreeCodeCamp (4 hours)
 
 You should complete all of these FreeCodeCamp exercises - https://www.freecodecamp.org/learn
 
@@ -30,7 +42,7 @@ You should complete all of these FreeCodeCamp exercises - https://www.freecodeca
 - Generate an Array of All Object Keys with Object.keys()
 - Modify an Array Stored in an Object
 
-## 2) JavaScript Exercises (3 hours)
+## 3) JavaScript Exercises (3 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -40,13 +52,13 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 3) JavaScript Challenges (10 hours)
+## 4) JavaScript Challenges (10 hours)
 
 Next, in the same repository complete all of the exercises in the "Mandatory" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
-## 4) Give feedback on your colleague's coursework (1 hour)
+## 5) Give feedback on your colleague's coursework (1 hour)
 
 Just like last week, we want you to continue to give good, helpful feedback to the other students in your class.
 
@@ -66,7 +78,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 5) (Optional) CodeWars
+## 6) (Optional) CodeWars
 
 Today, you'll be using a platform called [CodeWars](https://codewars.com) to help you recap the materials you learnt in JS1. CodeWars is an excellent platform for going through interesting JavaScript exercises, and allows you to communicate with the wider community to learn about the best way of writing JavaScript code.
 
@@ -120,7 +132,7 @@ Today, you'll be using a platform called [CodeWars](https://codewars.com) to hel
 - Slash sum of negatives
   - https://www.codewars.com/kata/count-of-positives-slash-sum-of-negatives/train/javascript
 
-## 5) (Optional) Extra JavaScript Challenges
+## 7) (Optional) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
