@@ -60,7 +60,7 @@ git pull
 | ---------------------------------------------- | --------------------------------------------------- |
 | ![Pushing files to Github](assets/pushing.png) | ![Pushing files using Git CLI](assets/push-cli.gif) |
 
-### Fetching
+### Fetching from Github
 
 To check if there have been any changes on Github you can use
 
@@ -71,3 +71,15 @@ git fetch
 | Github Desktop                                     | Git CLI                                      |
 | -------------------------------------------------- | -------------------------------------------- |
 | ![Fetching on Github Desktop](assets/fetching.png) | ![Fetching on Git CLI](assets/fetch-cli.png) |
+
+### Pulling from Github
+
+To pull any changes from Github you can use
+
+```sh
+git pull
+```
+
+| Github Desktop                                     | Git CLI                                     |
+| -------------------------------------------------- | ------------------------------------------- |
+| ![Pulling changes from Github](assets/pulling.png) | ![Fetching on Git CLI](assets/pull-cli.gif) |
