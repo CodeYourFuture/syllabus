@@ -16,7 +16,7 @@ This video series gives you a good introduction to lots of different Git concept
 
 https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV
 
-Watch all 11 videos in the series, taking notes when you don't understand something.
+Watch videos 1-8 in this series, taking notes when you don't understand something.
 
 Make sure you clarify your understanding moving onto the next step.
 
