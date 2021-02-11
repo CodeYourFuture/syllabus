@@ -68,6 +68,8 @@ It has [a huge gallery of work by other artists](https://www.openprocessing.org/
 
 ## Other courses
 
+In addition to ["Code! Programming with p5.js"](/fundamentals/after-the-course/processing-migrating)...
+
 - The creators of processing have [a p5.js course on kadenze.com - "Introduction to Programming for the Visual Arts with p5.js"](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js-vi/info)
 - Joshua Davis has some courses on processing on skillshare, which is free for 2 months.
 
