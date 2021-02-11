@@ -4,6 +4,7 @@ title: Homework
 sidebar_label: Homework
 ---
 
+<!--
 ## 1) Review Solutions for Last Weeks Coursework
 
 Before starting this week, be sure to review the solutions for last weeks coursework
@@ -16,7 +17,9 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 **Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
 
-## 2) Install ESLint (20 minutes)
+-->
+
+## 1) Install ESLint (20 minutes)
 
 ESLint is what is called an static analysis tool. It checks your code for common mistakes that can impact code quality and styling.
 
@@ -24,7 +27,7 @@ If you haven't already you should install it now.
 
 https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-## 3) Thinking like a Programmer (2 hours)
+## 2) Thinking like a Programmer (2 hours)
 
 During these past weeks you have gotten a taste of what programming is: the various concepts, what it looks like in code and the way it's used. However, having written some code doesn't make you a programmer. Thinking like a programmer makes you into a programmer. But what does that mean, 'thinking like a programmer'?
 
@@ -50,7 +53,7 @@ After you've watched these videos I'd like you to answer these questions
 2. When trying to solve a challenge, what should you do first?
 3. What should you do if you get stuck?
 
-## 4) JavaScript Exercises (4 hours)
+## 3) JavaScript Exercises (4 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -60,7 +63,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 5) TV Show Project - Part 1/3 (12 hours)
+## 4) TV Show Project - Part 1/3 (12 hours)
 
 In this weeks project we will be using the knowledge we learnt from JS1 & JS2 to build the first version of our website
 

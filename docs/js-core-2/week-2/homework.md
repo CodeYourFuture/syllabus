@@ -4,6 +4,7 @@ title: Homework
 sidebar_label: Homework
 ---
 
+<!--
 ## 1) Review Solutions for Last Weeks Coursework
 
 Before starting this week, be sure to review the solutions for last weeks coursework
@@ -16,7 +17,9 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 **Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
 
-## 2) Complete this online course (4 hours)
+-->
+
+## 1) Complete this online course (4 hours)
 
 You should complete the following sections from this online tutorial:
 
@@ -28,7 +31,7 @@ You should complete the following sections from this online tutorial:
 
 https://www.khanacademy.org/computing/computer-programming/html-css-js
 
-## 3) Study these DOM materials (1 hour)
+## 2) Study these DOM materials (1 hour)
 
 ### Readings
 
@@ -42,7 +45,7 @@ https://www.khanacademy.org/computing/computer-programming/html-css-js
 - Coding Train - HTML/CSS/DOM
   - https://thecodingtrain.com/Tutorials/8-html-css-dom/
 
-## 4) JavaScript Challenges (3 hours)
+## 3) JavaScript Challenges (3 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -52,7 +55,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 5) JavaScript Projects (8 hours)
+## 4) JavaScript Projects (8 hours)
 
 Next, in the same repository complete all of the exercises in the "Project" folder.
 
@@ -60,7 +63,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2
 
 If you finish all of those, spend some time
 
-## 6) (Optional) Practice CodeWars (3 hours)
+## 5) (Optional) Practice CodeWars (3 hours)
 
 Complete the following CodeWars on JavaScript concepts you learned in previous weeks.
 
@@ -77,7 +80,7 @@ Complete the following CodeWars on JavaScript concepts you learned in previous w
 - Filter out the Geese
   - https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript
 
-## 7) (Optional) Extra Challenges
+## 6) (Optional) Extra Challenges
 
 Have you completed all of the above homework?
 

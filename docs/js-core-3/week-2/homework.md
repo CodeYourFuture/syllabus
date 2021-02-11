@@ -4,6 +4,7 @@ title: Homework
 sidebar_label: Homework
 ---
 
+<!--
 ## 1) Review Solutions for Last Weeks Coursework
 
 Before starting this week, be sure to review the solutions for last weeks coursework
@@ -16,7 +17,9 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 **Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
 
-## 2) Practice the concepts (1 hours)
+-->
+
+## 1) Practice the concepts (1 hours)
 
 This week's concepts can be challenging, therefore let's get an easy introduction using some interactive exercises! Check the following resources out and start practicing.
 
@@ -25,7 +28,7 @@ You can ignore anything to do with `XMLHttpRequest`
 - FreeCodeCamp
   - https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/
 
-## 3) Code along (1 hour)
+## 2) Code along (1 hour)
 
 Now that you've learned about APIs and how to connect with them, let's apply it in the context of a complete application.
 
@@ -38,7 +41,7 @@ Enjoy!
 - Vanilla JS Numbers Facts App - AJAX & Fetch
   - https://www.youtube.com/watch?v=tUE2Nic21BA
 
-## 4) JavaScript Exercises (2 hours)
+## 3) JavaScript Exercises (2 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -48,13 +51,13 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 5) JavaScript Challenges (6 hours)
+## 4) JavaScript Challenges (6 hours)
 
 Next, in the same repository complete all of the exercises in the "Challenges" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
 
-## 6) TV Show Project - Part 2/3 (8 hours)
+## 5) TV Show Project - Part 2/3 (8 hours)
 
 Continue working on your TV Show Project and so as much as you can.
 
