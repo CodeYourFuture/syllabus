@@ -66,10 +66,15 @@ After using the Git CLI, it’s natural to start automating and scripting your w
 
 ## 2) Comparing Github Desktop and Git CLI
 
+Github Desktop and Git CLI might look very different but they actually have more in common than it looks!
+
+Behind the scenes, Github Desktop is doing **exactly** the same work that Github CLI is doing.
 
 ## 3) Git Cheatsheet and Resources
 
-TODO: Add resources and chearsheet for Git
+Lots of the common tasks that you can complete with Github Desktop are quite simple to complete using the CLI. We've made comparissons in the
+
+[Desktop to Command Line Cheatsheet](./../cheatsheet-cli)
 
 ## Coursework
 
