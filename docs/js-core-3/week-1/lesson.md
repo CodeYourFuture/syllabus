@@ -276,7 +276,7 @@ To catch such problems, we can use a static code analysis tool or commonly known
 
 You can use the ESLint extension for VSCode which you can [download here](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
 
-We have created a sample ESLint configuration to help you get started. You can download it <a href={require('!file-loader!./assets/.eslintrc').default} download=".eslintrc" target="_blank">here</a> (make sure the file is saved as _.eslintrc_).
+We have created a sample ESLint configuration to help you get started. You can download it [here](.eslintrc).
 
 ```javascript
 {
