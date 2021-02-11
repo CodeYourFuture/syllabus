@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) Debugging Practice (3 hours)
@@ -29,7 +29,7 @@ https://github.com/CodeYourFuture/node-challenge-chat-server
 
 In that repository you will find a task to create a Chat Server.
 
-To complete the homework you should:
+To complete the coursework you should:
 
 1. Fork the repository
 2. Complete the tasks

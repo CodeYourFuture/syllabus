@@ -20,7 +20,7 @@ Later in the course, a more advanced workshop may be given.
 
 - After this first 20-minute workshop, students should be able to:
 
-  - Configure the automated deploy of any STATIC (non-generated) site they create on github in future (including all significant CYF homework projects).
+  - Configure the automated deploy of any STATIC (non-generated) site they create on github in future (including all significant CYF coursework projects).
   - Recover from common mistakes they make during deployment configuration.
 
 ### NON-goals:
@@ -97,7 +97,7 @@ This is what you'll learn to do now this workshop.
 
 **Note**: CYF site naming conventions
 
-Use the standard format for site names for all CYF homework projects - see [site naming conventions](/workshops/deployment/cyf-site-naming-conventions)
+Use the standard format for site names for all CYF coursework projects - see [site naming conventions](/workshops/deployment/cyf-site-naming-conventions)
 
 - cyf-[your github username]-[exact project name as supplied by teacher]
 

@@ -15,6 +15,7 @@ Here are some ideas for projects from previous years:
 - [Q & A](https://docs.google.com/document/d/1uuZdIaWM920PS-FeVBQl5PAQQocyywhOEL5_3A5FwIk/edit)
 - [Graduate Directory](https://docs.google.com/document/d/1gFrmuceVcXywf7oZoAdJW32InWo9iIH0hHhhS52LHUM/edit#)
 - [Knowledge Checklist](https://docs.google.com/document/d/1vvvlRZJxfOTYvrwWpSFWR5LiG7QAFI2bXVBMQ-8W0Zs/edit?usp=sharing)
+- [Language Exchange Website](https://docs.google.com/document/d/15mBw5bQBIj0y-tXNmEpSkMfNxdXs9YcVBIvczAYvMSs/edit?usp=sharing)
 
 Additional ideas for projects can be found here
 

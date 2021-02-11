@@ -262,11 +262,16 @@ const [count, setCount] = useState(0);
 If you remember back to [JS Core 3 Week 3](/js-core-3/week-3/lesson#destructuring-syntax), we covered _destructuring_. As a reminder, you can assign variables to parts of an array with destructuring:
 
 ```js
-let [firstWord, secondWord, thirdWord, fourthWord] = ["Hello", "Code", "Your", "Future"];
-console.log(firstWord) // Prints "Hello"
-console.log(secondWord) // Prints "Code"
-console.log(thirdWord) // Prints "Your"
-console.log(fourthWord) // Prints "Future"
+let [firstWord, secondWord, thirdWord, fourthWord] = [
+  "Hello",
+  "Code",
+  "Your",
+  "Future",
+];
+console.log(firstWord); // Prints "Hello"
+console.log(secondWord); // Prints "Code"
+console.log(thirdWord); // Prints "Your"
+console.log(fourthWord); // Prints "Future"
 ```
 
 In React, `useState` will **always** return an array with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
@@ -517,9 +522,9 @@ What happens if you forget to pass a prop to a component? Or if you pass the wro
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/). |
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Feedback
 

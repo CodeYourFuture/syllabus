@@ -297,9 +297,9 @@ The important parts of the the Network Tab are:
 > 1. Did the `POST` request succeed?
 > 2. Using the Details Panel, can you work out why?
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## JavaScript 2 Quiz
 

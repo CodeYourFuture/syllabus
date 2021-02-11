@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) SQL Exercises (5 Hours)

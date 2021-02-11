@@ -16,6 +16,7 @@ module.exports = {
   Git: {
     Overview: ["git/overview", "git/preparation", "git/cheatsheet"],
     "Lesson 1": ["git/index", "git/homework", "git/instructors"],
+    "Lesson 2": ["git/terminal/lesson", "git/terminal/homework"],
   },
   HTMLCSS: {
     Overview: ["html-css/index"],
@@ -276,6 +277,13 @@ module.exports = {
       "workshops/deployment/workshop/workshop",
       "workshops/deployment/workshop/workshop-1-mentors",
       "workshops/deployment/workshop/cheatsheet",
+    ],
+  },
+  Accessability: {
+    Overview: ["workshops/accessibility/index"],
+    Workshops: [
+      "workshops/accessibility/intro-to-accessibility",
+      "workshops/accessibility/a11y-for-devs-basic",
     ],
   },
 };

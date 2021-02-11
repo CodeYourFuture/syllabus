@@ -61,9 +61,9 @@ At the end of each module, we'll have a retrospective. What went right? What wen
 - [Bootstrap 4 Documentation](https://getbootstrap.com/)
 - [Introduction](http://getbem.com/introduction/) and [Naming](http://getbem.com/naming/) with BEM Syntax for Reusable CSS
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Feedback
 

@@ -133,7 +133,9 @@ In the previous exercise, you used an **expression** that returns a `boolean` va
 
 ### Assert
 
-We will also be using a new keyword to make sure the comparisons we do below return `true`. This is the `assert`.
+We will also be using a new function to make sure the comparisons we do below return `true`. This is the `assert`.
+
+It is not a built-in function like `console.log`, it is part of the NodeJS library, and it has to be loaded with the `require("assert")` command.
 
 When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.
 
@@ -632,7 +634,7 @@ for (let i = 0; i < 10; ++i) {
 
 For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 
