@@ -80,4 +80,4 @@ You can find this weeks coursework [here](./homework).
 
 It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
 
-<Feedback module="Git" week="Week 2" />
+<Feedback module="Git" week="Week 3" />
