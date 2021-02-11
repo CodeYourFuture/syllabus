@@ -66,31 +66,6 @@ After using the Git CLI, it’s natural to start automating and scripting your w
 
 ## 2) Comparing Github Desktop and Git CLI
 
-Everything that you're going to be doing using Git CLI you can also do using Github Desktop. Let's run through a few example of this
-
-### Viewing Changed Files
-
-| Github Desktop                                                 | Git CLI                                                      |
-| -------------------------------------------------------------- | ------------------------------------------------------------ |
-| ![Viewing changed files in Github Desktop](assets/changed.png) | ![Viewing changed files in Git CLI](assets/changing-cli.png) |
-
-### Including Files to Commit
-
-| Github Desktop                                      | Git CLI |
-| --------------------------------------------------- | ------- |
-| !["Adding files to commit"](assets/addingfiles.gif) |         |
-
-### Committing Changes
-
-| Github Desktop                                                  | Git CLI |
-| --------------------------------------------------------------- | ------- |
-| !["Committing changes using Github Desktop"](assets/commit.png) |         |
-
-### Fetching
-
-| Github Desktop                                     | Git CLI                                      |
-| -------------------------------------------------- | -------------------------------------------- |
-| ![Fetching on Github Desktop](assets/fetching.png) | ![Fetching on Git CLI](assets/fetch-cli.png) |
 
 ## 3) Git Cheatsheet and Resources
 
