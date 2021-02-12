@@ -4,7 +4,9 @@ title: From Github Desktop To CLI
 sidebar_label: Desktop to CLI Cheatsheet
 ---
 
-Everything that you're going to be doing using Git CLI you can also do using Github Desktop. Let's run through a few example of this
+Everything that you're going to be doing using Git CLI you can also do using Github Desktop.
+
+In this page, you'll comparisons of how to complete command tasks on both Github Desktop and Git CLI.
 
 ### Viewing Changed Files
 
