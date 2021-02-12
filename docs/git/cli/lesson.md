@@ -58,7 +58,7 @@ There are some really good developers that used a certain GUI and were not even 
 
 ### Git CLI gives you the power of the command line
 
-We often try to reuse & build on top of existing tools and this is no different since you’re already using the command line, you are able to compose your Git flow with many useful command-line tools. From looping over each commit and running tests on it, through easily adding files using FZF to using Ag on your logs — the only limit here is your creativity.
+We often try to reuse & build on top of existing tools and this is no different since you’re already using the command line, you are able to compose your Git flow with many useful command-line tools. From looping over each commit and running tests on it, through easily adding files using [FZF](https://www.youtube.com/watch?v=QeJkAs_PEQQ) to using [Ag](http://conqueringthecommandline.com/book/ack_ag) on your logs — the only limit here is your creativity.
 
 ### Git CLI enables easier automation & deployment
 
