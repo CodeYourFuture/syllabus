@@ -53,7 +53,7 @@ The `-m` means that after you are going to write your commit message.
 Finally, pushing your changes to Github can be completed by using
 
 ```
-git pull
+git push
 ```
 
 | Github Desktop                                 | Git CLI                                             |
