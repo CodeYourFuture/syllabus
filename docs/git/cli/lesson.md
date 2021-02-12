@@ -68,8 +68,6 @@ Github Desktop and Git CLI might look very different but they actually have more
 
 Behind the scenes, Github Desktop is doing **exactly** the same work that Github CLI is doing.
 
-## 3) Git Cheatsheet and Resources
-
 Lots of the common tasks that you can complete with Github Desktop are quite simple to complete using the CLI. We've made comparisons in the
 
 [Desktop to CLI Cheatsheet](./../cheatsheet-cli)
