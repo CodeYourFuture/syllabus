@@ -42,7 +42,12 @@ Committing changes to your repository can be done by using this command
 git commit -m "YOUR MESSAGE HERE"
 ```
 
-The `-m` means that after you are going to write your commit message.
+The `-m` means that after you are going to write your commit message. Make sure to put your commit message in quotes! You can press enter to add new lines in your message, too.
+
+Some characters are treated specially in the terminal, and we can tell the terminal not to treat them specially by _escaping_ them with a backslash. For example, if you want to use a quote character inside your message, you need to escape it, otherwise the terminal will think your quote is the end of the message:
+
+```sh
+git commit -m "Use \"s instead of 's" 
 
 | Github Desktop                                               | Git CLI                                             |
 | ------------------------------------------------------------ | --------------------------------------------------- |
