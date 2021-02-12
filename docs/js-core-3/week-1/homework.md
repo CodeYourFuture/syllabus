@@ -4,6 +4,21 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+<!--
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+-->
+
 ## 1) Install ESLint (20 minutes)
 
 ESLint is what is called an static analysis tool. It checks your code for common mistakes that can impact code quality and styling.
@@ -48,7 +63,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) TV Show Project - Part 1 (12 hours)
+## 4) TV Show Project - Part 1/3 (12 hours)
 
 In this weeks project we will be using the knowledge we learnt from JS1 & JS2 to build the first version of our website
 

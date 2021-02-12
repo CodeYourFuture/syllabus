@@ -4,6 +4,21 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+<!--
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+-->
+
 ## 1) Practice the concepts (1 hours)
 
 This week's concepts can be challenging, therefore let's get an easy introduction using some interactive exercises! Check the following resources out and start practicing.
@@ -42,7 +57,7 @@ Next, in the same repository complete all of the exercises in the "Challenges" f
 
 https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
 
-## 5) TV Show Project (8 hours)
+## 5) TV Show Project - Part 2/3 (8 hours)
 
 Continue working on your TV Show Project and so as much as you can.
 

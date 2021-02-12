@@ -4,7 +4,19 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) FreeCodeCamp (3 hours)
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+## 2) FreeCodeCamp (3 hours)
 
 If you haven't already, you should complete all of these lessons on FreeCodeCamp - https://www.freecodecamp.org/learn
 
@@ -54,7 +66,7 @@ and
 - Assignment with a Returned Value
 - Stand in Line
 
-## 2) JavaScript Exercises (4 hours)
+## 3) JavaScript Exercises (4 hours)
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -64,13 +76,13 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 3) JavaScript Challenges (6 hours)
+## 4) JavaScript Challenges (6 hours)
 
 Next, in the same repository complete all of the exercises in the "Mandatory" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
-## 4) Prepare for next week (2 hours)
+## 5) Prepare for next week (2 hours)
 
 To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
 
@@ -81,7 +93,7 @@ To challenge yourself even further, you can get ahead for next week's class by r
 - [ ] What are algorithms: https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
 - [ ] Bubble sort: https://humanwhocodes.com/blog/2009/05/26/computer-science-in-javascript-bubble-sort/
 
-## 5) Give feedback on your colleague's coursework (1 hour)
+## 6) Give feedback on your colleague's coursework (1 hour)
 
 This is the same as last week - getting experience in this vital skill will help you a lot as you move through the course.
 
@@ -101,7 +113,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) (Optional) Extra JavaScript Challenges
+## 7) (Optional) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
