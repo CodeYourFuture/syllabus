@@ -6,7 +6,7 @@ sidebar_label: Homework
 
 ## 1) Read the Lesson Page Content (60 minutes)
 
-Before starting this coursework, read through the lesson and complete the exercises.
+Before starting this coursework, read through the lesson and read the cheat-sheet.
 
 https://syllabus.codeyourfuture.io/git/terminal/lesson
 
