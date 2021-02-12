@@ -90,15 +90,25 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 7) (Optional) CodeWars Exercises
+## 7) Git and the Command Line (7 Hours)
+
+This week we'll be introducing you to Git on the Command Line. You can find these exercises here
+
+https://syllabus.codeyourfuture.io/git/cli/homework
+
+_Instructor Note: Please open this link and copy each task one by one to Google Classroom_
+
+## 8) (Optional) CodeWars Exercises
 
 Complete the following CodeWars exercises. Go to the webpages below and follow the instructions there.
 
 Click "ATTEMPT" to test your solution.
 
-Exercises:
+Here are some exercises to get your started:
 
 - Fix my Method
   - https://www.codewars.com/kata/558710234f02dcc4a8000005)
 - Regular Ball Super Ball
   - https://www.codewars.com/kata/53f0f358b9cb376eca001079/train/javascript)
+
+Practicing these types of challenges can be a really good way for you to improve your programming skills. Choose a few more of a similar difficultly to continue to improve.
