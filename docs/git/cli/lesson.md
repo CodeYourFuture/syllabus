@@ -72,6 +72,10 @@ Lots of the common tasks that you can complete with Github Desktop are quite sim
 
 [Desktop to CLI Cheatsheet](./../cheatsheet-cli)
 
+## 3) Start the Coursework
+
+Git CLI is best learnt by using it - in the coursework you'll find videos and interactive exercises for you to complete.
+
 ## Coursework
 
 You can find this weeks coursework [here](./homework).

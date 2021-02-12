@@ -104,9 +104,11 @@ Complete the following CodeWars exercises. Go to the webpages below and follow t
 
 Click "ATTEMPT" to test your solution.
 
-Exercises:
+Here are some exercises to get your started:
 
 - Fix my Method
   - https://www.codewars.com/kata/558710234f02dcc4a8000005)
 - Regular Ball Super Ball
   - https://www.codewars.com/kata/53f0f358b9cb376eca001079/train/javascript)
+
+Practicing these types of challenges can be a really good way for you to improve your programming skills. Choose a few more of a similar difficultly to continue to improve.
