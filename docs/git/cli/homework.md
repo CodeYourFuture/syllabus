@@ -8,7 +8,7 @@ sidebar_label: Homework
 
 Before starting this coursework, read through the lesson and read the cheat-sheet.
 
-https://syllabus.codeyourfuture.io/git/terminal/lesson
+https://syllabus.codeyourfuture.io/git/cli/lesson
 
 ## 2) Git and Github for Poets (3 Hours)
 
@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6z
 
 Watch videos 1-8 in this series, taking notes when you don't understand something.
 
-Make sure you clarify your understanding moving onto the next step.
+Make sure you clarify your understanding before moving onto the next step.
 
 ## 3) Install Git It (10 minutes)
 
@@ -48,6 +48,20 @@ You should complete the following sections on Git It
 - Forks and Clones
 
 You'll be continuing this next week
+
+## 5) Git CLI Quiz (1 hour)
+
+For this task, you must complete the quiz in the repository and submit it on Github **using ONLY Git CLI**.
+
+This means **you must not open** Github Desktop at all during this task.
+
+You can find the quiz here
+
+https://github.com/CodeYourFuture/Git-CLI-Coursework
+
+Make sure you clone the repository to your own Github Profile before you start working on this task.
+
+As always, when you submit your work you should mark somebody elses.
 
 ## 5) (Optional) Git Ready
 

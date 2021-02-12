@@ -54,15 +54,13 @@ A big advantage for using Git CLI is that you work comfortably everywhere, the e
 
 The big downside of using GUI for Git is that it exposes you to a relatively small interface (whatever part the GUI creator deemed important), this basically means you are not fully interacting with Git and are therefore not familiar with (at least) some of its capabilities.
 
-There are some really good developers that used a certain GUI and were not even aware that Git has a staging area. When using the Git CLI you are using the entire Git interface and are therefore able to see the bigger picture, this makes you much more comfortable with Git and will almost certainly expose you to some useful tools you might not have used otherwise.
-
 ### Git CLI gives you the power of the command line
 
-We often try to reuse & build on top of existing tools and this is no different since you’re already using the command line, you are able to compose your Git flow with many useful command-line tools. From looping over each commit and running tests on it, through easily adding files using [FZF](https://www.youtube.com/watch?v=QeJkAs_PEQQ) to using [Ag](http://conqueringthecommandline.com/book/ack_ag) on your logs — the only limit here is your creativity.
+We often try to reuse & build on top of existing tools and this is no different since you’re already using the command line, you are able to compose your Git flow with many useful command-line tools. From looping over each commit and running tests on it, through to working out who has committed the most code to your repository — the only limit here is your creativity.
 
 ### Git CLI enables easier automation & deployment
 
-After using the Git CLI, it’s natural to start automating and scripting your workflow. You can use Git hooks to fail a commit if your tests didn’t pass and even add your Jira ticket ID to the beginning of the commit. This added power allows you to write better deployment script.
+After using the Git CLI, it’s natural to start automating and scripting your workflow. You can use Git hooks to fail a commit if your tests didn’t pass and even add your name to the beginning of the commit. This added power allows you to write better deployment scripts.
 
 ## 2) Comparing Github Desktop and Git CLI
 
@@ -72,7 +70,7 @@ Behind the scenes, Github Desktop is doing **exactly** the same work that Github
 
 ## 3) Git Cheatsheet and Resources
 
-Lots of the common tasks that you can complete with Github Desktop are quite simple to complete using the CLI. We've made comparissons in the
+Lots of the common tasks that you can complete with Github Desktop are quite simple to complete using the CLI. We've made comparisons in the
 
 [Desktop to CLI Cheatsheet](./../cheatsheet-cli)
 

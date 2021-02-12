@@ -49,7 +49,10 @@ The `-m` means that after you are going to write your commit message. Make sure 
 Some characters are treated specially in the terminal, and we can tell the terminal not to treat them specially by _escaping_ them with a backslash. For example, if you want to use a quote character inside your message, you need to escape it, otherwise the terminal will think your quote is the end of the message:
 
 ```sh
-git commit -m "Use \"s instead of 's" 
+git commit -m "Use \"s instead of 's"
+```
+
+Here's how committing on Github Desktop and Git CLI is different
 
 | Github Desktop                                               | Git CLI                                             |
 | ------------------------------------------------------------ | --------------------------------------------------- |
