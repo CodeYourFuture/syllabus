@@ -50,7 +50,7 @@ Therac-25 was a machine used to administer radiation to cancer patients which ma
 
 **Watch**: You can watch a quick video about the bug [here](https://www.youtube.com/watch?v=izGSOsAGIVQ)
 
-**Discuss**: Why did the Y2K bug happen? What oversights did the developers have?
+**Discuss**: Why did the Therac-25 bug happen? What oversights did the developers have?
 
 ### The Debugging Mindset
 
