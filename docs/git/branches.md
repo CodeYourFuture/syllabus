@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 So far, we've seen that we can use git to share our work, get review, and view history. This week, we're going to learn more about how we can use git to work together in groups, and to work on more than one thing at the same time.
 
-For this class, we're going to use the git CLI, but everything we're doing can also be done in GitHub Desktop. TODO: Link to cheat sheet with equivalences.
+For this class, we're going to use the git CLI, but everything we're doing can also be done in GitHub Desktop. Remember you can always check the [cheatsheet](cheatsheet-cli)!
 
 In this class, we're going to work with a GitHub repository of recipes.
 
@@ -30,7 +30,7 @@ We saw in the first Git lesson that Git stores the history of your changes as a 
 
 TODO: Image of commit history
 
-Since then, you've been pressing a button in GitHub Desktop called "Commit to main" to make a new commit. But what does that "to main" mean? main is called a _branch_, which is a list of commits. It turns out, you can have more than one branch, and they can share some commits if they want:
+Since then, you've been pressing a button in GitHub Desktop called "Commit to main", or running `git commit`, to make a new commit. But what does that "to main" mean? main is called a _branch_, which is a list of commits. It turns out, you can have more than one branch, and they can share some commits if they want:
 
 TODO: Image of two divergent branches with shared history, highlighting which is shared and which is divergent.
 
@@ -76,7 +76,7 @@ Running this command doesn't change any of the files in our repository - they st
 
 ### How do I know what branch I'm on?
 
-You've already run one command which tells you this, you just may not have noticed! (TODO: Check this is true when the git CLI class is out)
+You've already run one command which tells you this, you just may not have noticed!
 
 ```console
 $ git status
@@ -140,7 +140,7 @@ You can have multiple branches at the same time, and you can work on them separa
 
 You can make more than one pull request, as long as each is created from a different branch. This can be useful, so that you can propose multiple changes to code separately.
 
-For example, if you have two changes to make, and one is really simple (like fixing a typo) and the other may need some discussion (like changing the colour scheme of a page), if you make separate pull requests (from separate branches), othe easy one can get merged while the other one is being discussed.
+For example, if you have two changes to make, and one is really simple (like fixing a typo) and the other may need some discussion (like changing the colour scheme of a page), if you make separate pull requests (from separate branches), the easy one can get merged while the other one is being discussed.
 
 Having small, separate pull requests also helps to keep your changes small, and allows your reviewer to focus on one thing, which makes their job easier.
 
@@ -157,7 +157,7 @@ And some bad examples:
 * `branch1` or `branch2`
 * `new`
 * `feature`
-* `addalltheingredientsbutalosremovevanilla`
+* `addalltheingredientsbutalsoremovevanilla`
 
 ### Exercise 3 (10 minutes)
 
@@ -173,7 +173,6 @@ We've seen before that to make a pull request from the git CLI the steps are to 
 
 Most developers avoid doing work on their `main` branch, and always work on some other branch. This is because if you commit things to `main`, all new branches you create will have those changes on, and you generally want to make pull requests with only a specific set of changes compared to upstream's `main`.
 
-TODO: Update this based on whatever we teach the trainees in the git CLI class
 From now on, your steps to start working on code for a pull request should be:
 * `git switch main` (switch back to the main branch)
 * `git pull` (pull in any changes from upstream)
@@ -200,19 +199,16 @@ And finally, delete the branch: `git branch --delete your-branch-name`.
 TODO: Make a pull request from one of your branches. Merge it. Delete the branch. Explain that it's ok to delete the branch because we know the changes are safely on `main`.
 TODO: Show `git status` showing that branches are out of sync.
 
-### Comparing branches
+### Exercise 3
 
-TODO: Fill in an example using `git diff main` and similar, based on what's in the git cli class.
+Make pull requests for both of your branches (one with a story, one with an extra ingredient).
 
-### TODO: Homework
+Pair up with another trainee in your class. Get a them to review each one of your two pull requests. You should also review theirs.
 
-Make pull requests for both of your branches.
+Reviewers: Give some feedback on the pull request you've been asked to review - try to suggest a change. When the author has implemented your change, and you're happy, approve the pull request.
 
-Get a different trainee in your group to review each one of your two pull requests.
+Authors: Make the suggested changes. When your pull request has been approved, merge your pull requests. Delete your branch when you're done.
 
-Reviewers: Give some feedback on the pull request you've been asked to review - try to suggest a change.
+### On "git checkout"
 
-Authors: Make the suggested changes, then merge your pull requests. Delete your branch when you're done.
-
-### TODO: GitHub Desktop equivalents
-### TODO: Explain `git checkout -b` and `git checkout` as legacy for `git switch`
+On the internet, you may see people referring to `git checkout` and `git checkout -b` as ways to switch, or create, branches. These are old versions of the commands `git switch` and `git switch --create`. They work the same, but because their names are less good (and sometimes they can also do extra things, which may be surprising), they have been replaced with `git switch`. You should use `git switch`, but don't be scared if you see someone talking about `git checkout` - it's the same thing!
