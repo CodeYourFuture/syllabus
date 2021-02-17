@@ -59,7 +59,7 @@ Using a comparison operator will always return a `boolean` value.
 
 ### `checkIsTrue`
 
-We have created a function `checkIsTrue` that checks if an **expression** evaluates to `true`or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
+Let's pretend that we have created a function `checkIsTrue` that checks if an **expression** evaluates to `true` or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
 
 For example,
 
