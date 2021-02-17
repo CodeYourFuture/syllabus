@@ -378,7 +378,7 @@ function add(num1, num2) {
 
 ### Exercises (20 minutes)
 
-Try creating a new file when solving the each of the questions below:
+In a new file (`js1-week1-exercises.js`), try solving each of the questions below:
 
 1. Create a function called `formatPenceToPounds` that should
 
