@@ -421,6 +421,8 @@ Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
 
+Then use `console.log` the output in order to check your function.
+
 ---
 
 <br />
