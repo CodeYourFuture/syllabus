@@ -85,7 +85,7 @@ The `>` symbol in the expressions above is also a **comparison operator**. This 
 !== not the same value and type
 ```
 
-You might see people use two other comparison operators. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
+You might see people use two other comparison operators, `==` and `!=`. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
 
 **&#10008; - Do not use == and !=**
 
