@@ -397,7 +397,6 @@ Call `formatPenceToPounds` a few times with different inputs and `console.log` t
 
 ---
 
-
 2. Create a function called `increaseByHalf` that should
 
 - take a number as an input
@@ -424,7 +423,6 @@ Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the ne
 Then use `console.log` the output in order to check your function.
 
 ---
-
 
 3. Check out the code below:
 
@@ -467,6 +465,8 @@ const curiousMessage = getMessage(42);
 
 f) What will the variable `messageForAli` evaluate to when the code above is executed ?
 g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
+
+Remember you can use `console.log` to log variables in order to check your answers to f) and g)
 
 Hint: Think carefully about the parameters and arguments for `getMessage` for part g)
 
