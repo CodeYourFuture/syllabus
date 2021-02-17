@@ -264,7 +264,8 @@ There are other different types of statements that we will learn about in the co
 
 ### Expression
 
-Any unit of code that can be evaluated to a value is known as an **expression**.<br />
+Any unit of code that can be evaluated to a value is known as an **expression**.
+
 We say that an expression _evaluates to_ a value.
 We use expressions all the time in lot of different places:
 
