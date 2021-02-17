@@ -383,7 +383,7 @@ In a new file (`js1-week1-exercises.js`), try solving each of the questions belo
 1. Create a function called `formatPenceToPounds` that should
 
 - take a number as an input ( representing an amount of money in pence )
-- return a string starting with a`£` sign and the input number converted to pounds.
+- return a string starting with a `£` sign and the input number converted to pounds.
 
 For example, `formatPenceToPounds(199)` should evaluate to `"£1.99"`
 
