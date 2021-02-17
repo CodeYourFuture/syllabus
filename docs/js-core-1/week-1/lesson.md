@@ -256,7 +256,7 @@ const greeting = "Hello Code Your Future!";
 ```
 
 The above piece of code is a **variable declaration**, which is also a statement. 
-This statement is just an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
+This statement is an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
 
 Statements end in a semi-colon, though they can be omitted in JavaScript.
 
