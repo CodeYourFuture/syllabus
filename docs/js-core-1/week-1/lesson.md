@@ -353,7 +353,7 @@ const result = double(2);
 console.log(result); // 4
 ```
 
-The function `double` is being invoked by placing parathenses after the name of the function like this `double()`
+The function `double` is being called by placing parathenses after the name of the function like this `double()`
 
 🔑
 The input given to a function is called a **argument**
