@@ -472,7 +472,7 @@ const messageForAli = getMessage('Ali');
 const curiousMessage = getMessage(42);
 ```
 
-f) What will the variable `messageForAli` evaluate to when the code above is executed ?<br />
+f) What will the variable `messageForAli` evaluate to when the code above is executed ?
 g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
 
 Hint: Think carefully about the parameters and arguments for `getMessage` for part g)
