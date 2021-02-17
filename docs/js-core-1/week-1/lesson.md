@@ -425,7 +425,6 @@ Then use `console.log` the output in order to check your function.
 
 ---
 
-<br />
 
 3. Check out the code below:
 
