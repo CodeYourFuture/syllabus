@@ -237,22 +237,7 @@ Working in small groups, pick one other thing that `Math` can do and prepare a s
 
 ## Statements and expressions
 
-In JavaScript, sections of code can called **expressions** and **statements**. We will use these words frequently to describe code.
-
-### Statement
-
-A statement is some code that typically carries out an instruction. You have encountered statements already:
-
-```js
-const greeting = "Hello Code Your Future!";
-```
-
-The above piece of code is a **variable declaration**, which is also a statement.
-This statement is an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
-
-Statements end in a semi-colon, though they can be omitted in JavaScript.
-
-There are other different types of statements that we will learn about in the coming weeks.
+In JavaScript, sections of code can be called **expressions** and **statements**. We will use these words frequently to describe code.
 
 ### Expression
 
@@ -320,10 +305,25 @@ if (true) {
 
 const hoursInADay = 24;
 
-hoursInADay * 7`My favourite colour is ${favouriteColour}`;
+hoursInADay * 7;
+
+`My favourite colour is ${favouriteColour}`;
 ```
 
 (To exit the node REPL, you have to press Ctrl+d)
+
+### Statement
+
+A statement is some code that typically carries out an instruction. You have encountered statements already:
+
+```js
+const greeting = "Hello Code Your Future!";
+```
+
+The above piece of code is a **variable declaration**, which is also a statement.
+This statement is an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
+
+There are other different types of statements that we will learn about in the coming weeks, such as an `if` statement.
 
 ## Functions
 

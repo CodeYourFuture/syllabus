@@ -49,10 +49,10 @@ We can also create an **expression** that evaluates to a `boolean` value - that 
 For example,
 
 `42 === 42` will evaluate to `true`.
-You can check this by logging the expression `42 === 42` in the console.
+You can check this by logging the expression `42 === 42` in the Node REPL.
 
 `42 === 50` will evaluate to `false`.
-You can also check this out by logging the expression `42 === 50` in the console.
+You can also check this out by logging the expression `42 === 50` in the Node REPL.
 
 Using a comparison operator will always return a `boolean` value.
 
