@@ -76,6 +76,13 @@ module.exports = {
         href: "https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges",
       },
     ],
+    Challenges: [
+      {
+        type: "link",
+        label: "JavaScript Assessments",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-2-Assessments",
+      },
+    ],
   },
   JavaScriptCore2: {
     Overview: ["js-core-2/index"],
