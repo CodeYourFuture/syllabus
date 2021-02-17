@@ -288,7 +288,7 @@ let worldGreeting = "Hello" + "World"; // assign the expression "Hello" + "World
 
 You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
 
-This console allows you to enter code in the console line by line and is a great way of testing bits of code before writing it in a script.
+This console allows you to enter code in the console line by line and is a great way of testing bits of code before writing it in a script. Each time you press enter, it will print out what the expression you typed evaluates to.
 
 In your terminal, run the command `node` and then enter a line of code from the code below and then run enter. Do this for each line of code in the list.
 Think about the following questions each time:
