@@ -164,7 +164,7 @@ function checkIsTrue(value1) {
 
 The array comparison doesn't work because JavaScript comparison only works as expected on `number`s, `string`s, and `boolean`s.
 
-You need to be aware of this, and you can go deeper into outside of the lesson, but generally remember that only `number`s, `string`s, and `boolean`s work with equality.
+You need to be aware of this, and you can go deeper into outside of the lesson, but generally remember that only `number`s, `string`s, and `boolean`s work with equality comparisons.
 
 MDN have some in depth, if not too in depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
 
