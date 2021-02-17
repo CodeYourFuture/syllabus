@@ -397,7 +397,6 @@ Call `formatPenceToPounds` a few times with different inputs and `console.log` t
 
 ---
 
-<br />
 
 2. Create a function called `increaseByHalf` that should
 
