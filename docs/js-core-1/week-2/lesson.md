@@ -176,7 +176,7 @@ MDN have some in depth, if not too in depth documentation [here](https://develop
 
 Remember to avoid using `console.log` _inside_ the function itself
 
-E.g. `isEven(100)` should return `true`<br />
+E.g. `isEven(100)` should return `true`
 E.g. `isEven(53)` should return `false`
 
 
