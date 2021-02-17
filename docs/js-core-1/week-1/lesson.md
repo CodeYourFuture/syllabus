@@ -447,10 +447,10 @@ The functions above behave similarly but _differ_ in some important ways.
 
 In groups, study the code above and then answer the following questions:
 
-a) How many times is the function `printMessage` called ?<br />
-b) How many times is the function `getMessage` called ?<br />
-c) What is the parameter name for the function `printMessage` ?<br />
-d) What is the parameter name for the function `getMessage` ?<br />
+a) How many times is the function `printMessage` called ?
+b) How many times is the function `getMessage` called ?
+c) What is the parameter name for the function `printMessage` ?
+d) What is the parameter name for the function `getMessage` ?
 
 Discuss briefly which **parameter name** is better out of the two functions and why ?
 
