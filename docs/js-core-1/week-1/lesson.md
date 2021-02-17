@@ -22,9 +22,8 @@ By the end of this class, you should be able to:
 - Use `console.log()` to print information to the console
 - Use `typeof` to find the type of a variable
 - Assign data to variables using `let` and `const`
-- What are expressions and statements (and what's the difference)?
 - Define what expressions and statements are and describe the difference
-- Write, call and evaluate functions in JavaScript
+- Write and call functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
 - Manipulate numbers with mathematical operators using the `Math` library
 - Define the difference between `console.log()` and `return`
@@ -234,12 +233,11 @@ _Instructor note: Only complete this exercise if you have enough time in the les
 
 Using online documentation, what other things can you do with the `Math` library?
 
-Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
+Working in small groups, pick one other thing that `Math` can do and prepare a short (2 - 3 min) explanation for the rest of the class.
 
 ## Statements and expressions
 
-In JavaScript, there are **expressions** and **statements**.
-We will use these words frequently to describe code.
+In JavaScript, sections of code can called **expressions** and **statements**. We will use these words frequently to describe code.
 
 ### Statement
 
@@ -250,7 +248,7 @@ const greeting = "Hello Code Your Future!";
 ```
 
 The above piece of code is a **variable declaration**, which is also a statement.
-This statement is just an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
+This statement is an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
 
 Statements end in a semi-colon, though they can be omitted in JavaScript.
 
@@ -258,7 +256,8 @@ There are other different types of statements that we will learn about in the co
 
 ### Expression
 
-Any unit of code that can be evaluated to a value is known as an **expression**.<br />
+Any unit of code that can be evaluated to a value is known as an **expression**.
+
 We say that an expression _evaluates to_ a value.
 We use expressions all the time in lot of different places:
 
@@ -324,7 +323,7 @@ const hoursInADay = 24;
 hoursInADay * 7`My favourite colour is ${favouriteColour}`;
 ```
 
-(To exit the node REPL, you have to click Ctrl+d or Cmd+D on Mac)
+(To exit the node REPL, you have to press Ctrl+d)
 
 ## Functions
 
@@ -346,7 +345,7 @@ const result = double(2);
 console.log(result); // 4
 ```
 
-The function `double` is being invoked by placing parathenses after the name of the function like this `double()`
+The function `double` is being called by placing parathenses after the name of the function like this `double()`
 
 🔑
 The input given to a function is called a **argument**
@@ -465,14 +464,14 @@ const messageForAli = getMessage("Ali");
 const curiousMessage = getMessage(42);
 ```
 
-f) What will the variable `messageForAli` evaluate to when the code above is executed ?<br />
+f) What will the variable `messageForAli` evaluate to when the code above is executed ?
 g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
 
 Hint: Think carefully about the parameters and arguments for `getMessage` for part g)
 
 ### Exercise (10 minutes)
 
-1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?
+1. Swap your laptop with your neighbouring pair and review each other's code for the `formatPenceToPounds` and `increaseByHalf` exercise - what can be improved? Is the code readable?
 
 ## Giving Feedback to Each Other
 

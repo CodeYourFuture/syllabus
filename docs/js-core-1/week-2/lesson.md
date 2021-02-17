@@ -58,7 +58,7 @@ Using a comparison operator will always return a `boolean` value.
 
 ### `checkIsTrue`
 
-We have created a function `checkIsTrue` that checks if an **expression** evaluates to `true`or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
+Let's pretend that we have created a function `checkIsTrue` that checks if an **expression** evaluates to `true` or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
 
 For example,
 
@@ -84,7 +84,7 @@ The `>` symbol in the expressions above is also a **comparison operator**. This 
 !== not the same value and type
 ```
 
-You might see people use two other comparison operators. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
+You might see people use two other comparison operators, `==` and `!=`. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
 
 **&#10008; - Do not use == and !=**
 
@@ -157,7 +157,7 @@ function checkIsTrue(value1) {
 
 Remember to avoid using `console.log` _inside_ the function itself
 
-E.g. `isEven(100)` should return `true`<br />
+E.g. `isEven(100)` should return `true`
 E.g. `isEven(53)` should return `false`
 
 Call your function with a number of different inputs to check your function is working as expected. 😄
