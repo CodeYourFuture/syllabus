@@ -331,7 +331,7 @@ hoursInADay * 7
 `My favourite colour is ${favouriteColour}`
 ```
 
-(To exit the node REPL, you have to click Ctrl+d or Cmd+D on Mac)
+(To exit the node REPL, you have to press Ctrl+d)
 
 ## Functions
 
