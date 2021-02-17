@@ -20,7 +20,6 @@ import Feedback from "@theme/Feedback";
 
 By the end of this class, you should be able to:
 
-
 - Define what was a conditional is
 - Define what `for` and `while` loops are and define the difference
 - Write an if statement using a conditional
@@ -45,9 +44,9 @@ We can use boolean values to make decisions in our code based on certain conditi
 
 ## Comparison Operators
 
-We can also create an **expression** that evaluates to a `boolean` value - that is, either `true` or `false`. This is possible when we use  **comparison operators**  such as `===`. This comparison operator will check if two values are the same.
+We can also create an **expression** that evaluates to a `boolean` value - that is, either `true` or `false`. This is possible when we use **comparison operators** such as `===`. This comparison operator will check if two values are the same.
 
-For example, 
+For example,
 
 `42 === 42` will evaluate to `true`.
 You can check this by logging the expression `42 === 42` in the console.
@@ -103,7 +102,6 @@ You might see people use two other comparison operators. They are valid, but are
 
 If you see these, suggest people change them in pull requests.
 
-
 ### Exercise ( 15 mins )
 
 1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
@@ -122,55 +120,38 @@ const people = FILL_ME_IN;
 checkIsTrue(capacity > people);
 
 const organisation = FILL_ME_IN;
-checkIsTrue(typeof organisation === 'string')
-checkIsTrue(organisation.startsWith('Code'));
-checkIsTrue(organisation.includes(' your '));
-checkIsTrue(organisation.endsWith('Future!'));
-
-const firstName = FILL_ME_IN;
-const lastName = FILL_ME_IN;
-checkIsTrue(firstName[0] === lastName[0]);
+checkIsTrue(typeof organisation === "string");
+checkIsTrue(organisation.startsWith("Code"));
+checkIsTrue(organisation.includes(" your "));
+checkIsTrue(organisation.endsWith("Future!"));
 
 const mystery = FILL_ME_IN;
-checkIsTrue(typeof mystery === 'boolean');
+checkIsTrue(typeof mystery === "boolean");
 checkIsTrue(!mystery);
-
-// You will need to research falsy values in order to work out the next 2 problems below!
-
-const mysteryString = FILL_ME_IN;
-checkIsTrue(typeof mysteryString === 'string');
-checkIsTrue(!mysteryString);
-
-const mysteryNumber = FILL_ME_IN;
-checkIsTrue(typeof mysteryNumber === 'number');
-checkIsTrue(!mysteryNumber);
-
-// Can you work out what an exclamation mark at the front of an expression does ?
-
-const nums = [1, 2, 3, 4, 5];
-const numsCopy = FILL_ME_IN;
-checkIsTrue(nums === numsCopy);
 
 // Don't change anything below this point
 var FILL_ME_IN;
 function checkIsTrue(value1) {
   if (value1) {
-    console.log("\x1b[32m%s\x1b[0m","Yes, this expression evaluates to true! ✅");
+    // "\x1b[32m%s\x1b[0m" will change console output to green
+    console.log(
+      "\x1b[32m%s\x1b[0m",
+      "Yes, this expression evaluates to true! ✅"
+    );
   } else {
-    console.log("\x1b[31m%s\x1b[0m","Sorry, this expression evaluates to false! ❌");
+    // "\x1b[31m%s\x1b[0m" will change console output to red
+    console.log(
+      "\x1b[31m%s\x1b[0m",
+      "Sorry, this expression evaluates to false! ❌"
+    );
   }
 }
 ```
 
-The array comparison doesn't work because JavaScript comparison only works as expected on `number`s, `string`s, and `boolean`s.
-
-You need to be aware of this, and you can go deeper into outside of the lesson, but generally remember that only `number`s, `string`s, and `boolean`s work with equality.
-
-MDN have some in depth, if not too in depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
-
 ---
 
 3. Create a function called `isEven` that should
+
 - take a number as an input
 - return a **boolean** indicating if the number is even or odd
 
@@ -178,7 +159,6 @@ Remember to avoid using `console.log` _inside_ the function itself
 
 E.g. `isEven(100)` should return `true`<br />
 E.g. `isEven(53)` should return `false`
-
 
 Call your function with a number of different inputs to check your function is working as expected. 😄
 
