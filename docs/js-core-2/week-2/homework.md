@@ -63,7 +63,29 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2
 
 If you finish all of those, spend some time
 
-## 5) (Optional) Practice CodeWars (3 hours)
+## 5) Give feedback on your colleague's coursework (1 hour)
+
+Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
+
+You must
+
+    View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2/pulls
+
+    Find two pull requests from people in your class that have no, or few, comments on them
+    Leave comments on the two pull requests with improvements or suggestions
+    Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
+
+## 6) (Optional) Practice CodeWars (3 hours)
 
 Complete the following CodeWars on JavaScript concepts you learned in previous weeks.
 
@@ -80,7 +102,7 @@ Complete the following CodeWars on JavaScript concepts you learned in previous w
 - Filter out the Geese
   - https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript
 
-## 6) (Optional) Extra Challenges
+## 7) (Optional) Extra Challenges
 
 Have you completed all of the above homework?
 

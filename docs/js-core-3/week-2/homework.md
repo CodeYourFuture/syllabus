@@ -72,3 +72,25 @@ This could include
 All of the details for this project can be found here
 
 https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
+
+## 5) Give feedback on your colleague's coursework (1 hour)
+
+Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
+
+You must
+
+    View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2/pulls
+
+    Find two pull requests from people in your class that have no, or few, comments on them
+    Leave comments on the two pull requests with improvements or suggestions
+    Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide
