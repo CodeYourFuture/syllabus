@@ -415,7 +415,8 @@ In your groups, think carefully about the following things:
 
 Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
 
-Now declare a variable called `pocketMoney` and assign to it a value of `413`.<br />
+Now declare a variable called `pocketMoney` and assign to it a value of `413`.
+
 Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
 
 Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
