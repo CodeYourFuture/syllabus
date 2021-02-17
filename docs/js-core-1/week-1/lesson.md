@@ -245,8 +245,8 @@ function double(num) {
 
 ## Statements and expressions
 
-In JavaScript, there are **expressions** and **statements**. 
-We will use these words frequently to describe code.
+In JavaScript, sections of code can called **expressions** and **statements**. We will use these words frequently to describe code.
+
 ### Statement
 
 A statement is some code that typically carries out an instruction. You have encountered statements already:
