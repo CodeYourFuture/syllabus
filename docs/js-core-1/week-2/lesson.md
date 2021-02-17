@@ -40,7 +40,7 @@ let codeYourFutureIsGreat = true;
 let thisIsATerribleClass = false;
 ```
 
-We can use boolean values to make decisions in our code based on certain conditions, as we shall later on.
+We can use boolean values to make decisions in our code based on certain conditions, as we shall see later on.
 
 ## Comparison Operators
 
