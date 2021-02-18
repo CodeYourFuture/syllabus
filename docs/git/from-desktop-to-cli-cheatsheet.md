@@ -32,9 +32,9 @@ git add .
 
 This command will add **every** file you have changed to be ready to commit
 
-| Github Desktop                                      | Git CLI                                                          |
-| --------------------------------------------------- | ---------------------------------------------------------------- |
-| !["Adding files to commit"](assets/addingfiles.gif) | !["Adding files to commit with cli"](assets/addingfiles-cli.gif) |
+| Github Desktop                                    | Git CLI                                                        |
+| ------------------------------------------------- | -------------------------------------------------------------- |
+| ![Adding files to commit](assets/addingfiles.gif) | ![Adding files to commit with cli](assets/addingfiles-cli.gif) |
 
 ### Committing Changes
 
