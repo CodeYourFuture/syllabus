@@ -28,11 +28,11 @@ By the end of this class, you should be able to:
 
 We saw in the first Git lesson that Git stores the history of your changes as a list of commits, one after the other:
 
-TODO: Image of commit history
+![Committing to the Master Branch](./assets/git-main-commit.gif)
 
 Since then, you've been pressing a button in GitHub Desktop called "Commit to main", or running `git commit`, to make a new commit. But what does that "to main" mean? main is called a _branch_, which is a list of commits. It turns out, you can have more than one branch, and they can share some commits if they want:
 
-TODO: Image of two divergent branches with shared history, highlighting which is shared and which is divergent.
+![Committing to another Branch](./assets/git-branch-commit.gif)
 
 ### Why would we want to do this?
 
@@ -51,7 +51,7 @@ Or we could only make the ice cream change, then send it for review, then when t
 
 It would be better if we could send out one pull request for the ice cream change, and another for the story. We can do this - with branches:
 
-TODO: Same image as before, of divergent branches, but labelled "ice cream" and "story".
+![Committing to another Branch](./assets/git-example-commit.gif)
 
 We can then add new commits on top of each branch, separately, and later on merge both branches to main.
 
@@ -148,16 +148,16 @@ Having small, separate pull requests also helps to keep your changes small, and 
 
 Just like with variables and files, you want to name your branches in ways that will help you remember/understand what they're for. We normally name git branches with 1-5 words, with no spaces. Some good examples:
 
-* `add-story`
-* `make-button-red`
-* `delete-out-of-date-news`
+- `add-story`
+- `make-button-red`
+- `delete-out-of-date-news`
 
 And some bad examples:
 
-* `branch1` or `branch2`
-* `new`
-* `feature`
-* `addalltheingredientsbutalsoremovevanilla`
+- `branch1` or `branch2`
+- `new`
+- `feature`
+- `addalltheingredientsbutalsoremovevanilla`
 
 ### Exercise 3 (10 minutes)
 
@@ -174,13 +174,14 @@ We've seen before that to make a pull request from the git CLI the steps are to 
 Most developers avoid doing work on their `main` branch, and always work on some other branch. This is because if you commit things to `main`, all new branches you create will have those changes on, and you generally want to make pull requests with only a specific set of changes compared to upstream's `main`.
 
 From now on, your steps to start working on code for a pull request should be:
-* `git switch main` (switch back to the main branch)
-* `git pull` (pull in any changes from upstream)
-* `git switch --create my-new-branch-name` (make a new branch)
-* (make your changes)
-* `git commit`
-* `git push` (send your changes to the remote)
-* Create a pull request through the GitHub UI
+
+- `git switch main` (switch back to the main branch)
+- `git pull` (pull in any changes from upstream)
+- `git switch --create my-new-branch-name` (make a new branch)
+- (make your changes)
+- `git commit`
+- `git push` (send your changes to the remote)
+- Create a pull request through the GitHub UI
 
 If you need to make changes (e.g. because your reviewer gave you feedback), you should switch to your branch, make the changes, commit them, and push them to the remote again. The pull request will automatically get updated with the changes you committed.
 
