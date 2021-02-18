@@ -24,7 +24,7 @@ By the end of this class, you should be able to:
 - Create a pull request from a branch to the main branch.
 - Work with another trainee on non-conflicting changes to a single branch.
 
-## What is a branch?
+## 1) What is a branch?
 
 We saw in the first Git lesson that Git stores the history of your changes as a list of commits, one after the other:
 
@@ -98,6 +98,7 @@ $ git branch
 
 ### Exercise 1 (15 minutes)
 
+:::tip Exercise
 Let's make a new branch, and make a new commit on it.
 
 Create a branch named `story`, and edit `mug-brownie.md`.
@@ -109,8 +110,9 @@ When you've written a bit, make a commit (make sure to give it a good commit mes
 Explore the history with `git log` - make sure you understand the commits in your history and why they're there.
 
 If you're confused, or don't understand what you're seeing, ask on Slack now!
+:::
 
-### Switching back to main
+## 2) Switching back to main
 
 Can you guess how to switch back to the `main` branch?
 
@@ -120,6 +122,7 @@ What will the history look like?
 
 ### Exercise 2 (5 minutes)
 
+:::tip Exercise
 Switch back to the `main` branch (hint: The command to run is like the one you used to create a new branch, but you're not creating a new one).
 
 Look at the contents of `mug-brownie.md` - what's changed?
@@ -127,8 +130,9 @@ Look at the contents of `mug-brownie.md` - what's changed?
 Explore the history with `git log` - make sure you understand the commits in your history and why they're there.
 
 If you're confused, or don't understand what you're seeing, ask on Slack now!
+:::
 
-### Managing multiple branches
+## 3) Managing multiple branches
 
 When we created our `story` branch, it shared its history with the `main` branch. This is because whenever we create a branch, it will start off being the same as the branch we were on before.
 
@@ -161,13 +165,15 @@ And some bad examples:
 
 ### Exercise 3 (10 minutes)
 
+:::tip Exercise
 Make another branch based on `main` called `extra-topping` (remember to make sure you're on the `main` branch before creating the new one!).
 
 Add a new topping to the recipe. Make sure to include it both in the ingredients list, and the steps.
 
 Commit your changes.
+:::
 
-### Managing branches for pull requests
+## 4) Managing branches for pull requests
 
 We've seen before that to make a pull request from the git CLI the steps are to `git push` (to make the remote's version of `main` be the same as your local version), and then make a pull request from the GitHub UI.
 
@@ -185,7 +191,7 @@ From now on, your steps to start working on code for a pull request should be:
 
 If you need to make changes (e.g. because your reviewer gave you feedback), you should switch to your branch, make the changes, commit them, and push them to the remote again. The pull request will automatically get updated with the changes you committed.
 
-#### Deleting branches
+## 5) Deleting branches
 
 After you merge your pull request, you should delete your branch. GitHub can't change things on your computer automatically, so you need to do it yourself.
 
@@ -200,7 +206,7 @@ And finally, delete the branch: `git branch --delete your-branch-name`.
 TODO: Make a pull request from one of your branches. Merge it. Delete the branch. Explain that it's ok to delete the branch because we know the changes are safely on `main`.
 TODO: Show `git status` showing that branches are out of sync.
 
-### Exercise 3
+### Exercise 4 (15 minutes)
 
 Make pull requests for both of your branches (one with a story, one with an extra ingredient).
 
@@ -210,6 +216,16 @@ Reviewers: Give some feedback on the pull request you've been asked to review - 
 
 Authors: Make the suggested changes. When your pull request has been approved, merge your pull requests. Delete your branch when you're done.
 
-### On "git checkout"
+## 6) On "git checkout"
 
 On the internet, you may see people referring to `git checkout` and `git checkout -b` as ways to switch, or create, branches. These are old versions of the commands `git switch` and `git switch --create`. They work the same, but because their names are less good (and sometimes they can also do extra things, which may be surprising), they have been replaced with `git switch`. You should use `git switch`, but don't be scared if you see someone talking about `git checkout` - it's the same thing!
+
+## Coursework
+
+You can find this weeks coursework [here](./homework).
+
+## Feedback
+
+It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
+
+<Feedback module="Git" week="Week 4" />
