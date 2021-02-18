@@ -6,14 +6,6 @@ sidebar_label: Lesson
 
 import Feedback from "@theme/Feedback";
 
-So far, we've seen that we can use git to share our work, get review, and view history. This week, we're going to learn more about how we can use git to work together in groups, and to work on more than one thing at the same time.
-
-For this class, we're going to use the git CLI, but everything we're doing can also be done in GitHub Desktop. Remember you can always check the [cheatsheet](cheatsheet-cli)!
-
-In this class, we're going to work with a GitHub repository of recipes.
-
-CodeYourFuture has made a _template_ repository on GitHub. Go to https://github.com/CodeYourFuture/GitExampleRecipes and click on "Use this template" to make a repository owned by your user account which contains the right files. Then clone your newly created repository onto your computer. You're going to do all of your exercises in your copy of this repository.
-
 ## Learning objectives
 
 By the end of this class, you should be able to:
@@ -23,6 +15,20 @@ By the end of this class, you should be able to:
 - Switch between branches.
 - Create a pull request from a branch to the main branch.
 - Work with another trainee on non-conflicting changes to a single branch.
+
+---
+
+So far, we've seen that we can use Git to share our work, get code review, and view history. This week, we're going to learn more about how we can use Git to work together in groups, and to work on more than one thing at the same time.
+
+For this class, we're going to use the Git CLI, but everything we're doing can also be done in GitHub Desktop. Remember you can always check the [cheatsheet](cheatsheet-cli)!
+
+In this class, we're going to work with a GitHub repository of recipes.
+
+CodeYourFuture has made a _template_ repository on GitHub. Go to
+
+https://github.com/CodeYourFuture/GitExampleRecipes
+
+and click on "Use this template" to make a repository owned by your user account which contains the right files. Then clone your newly created repository onto your computer. You're going to do all of your exercises in your copy of this repository.
 
 ## 1) What is a branch?
 
@@ -73,6 +79,8 @@ Let's run through the bits of that command:
 `story` - the branch we want to switch to (and create) is called `story`.
 
 Running this command doesn't change any of the files in our repository - they stay the same, but if we commit changes, they will only get committed on this branch. If we switched back to the `main` branch, the changes would be un-done. But if we switch back to `story`, they'll come back!
+
+(Note that some of the graphics in this class show slightly different commands than the ones we're teaching you. What we're teaching you is the newer way to do things - there's a note at the bottom of the lesson about the old way if you're curious. But we recommend you use `git switch` :))
 
 ### How do I know what branch I'm on?
 
@@ -150,7 +158,7 @@ Having small, separate pull requests also helps to keep your changes small, and 
 
 #### Naming
 
-Just like with variables and files, you want to name your branches in ways that will help you remember/understand what they're for. We normally name git branches with 1-5 words, with no spaces. Some good examples:
+Just like with variables and files, you want to name your branches in ways that will help you remember/understand what they're for. We normally name Git branches with 1-5 words, with no spaces. Some good examples:
 
 - `add-story`
 - `make-button-red`
@@ -175,7 +183,7 @@ Commit your changes.
 
 ## 4) Managing branches for pull requests
 
-We've seen before that to make a pull request from the git CLI the steps are to `git push` (to make the remote's version of `main` be the same as your local version), and then make a pull request from the GitHub UI.
+We've seen before that to make a pull request from the Git CLI the steps are to `git push` (to make the remote's version of `main` be the same as your local version), and then make a pull request from the GitHub UI.
 
 Most developers avoid doing work on their `main` branch, and always work on some other branch. This is because if you commit things to `main`, all new branches you create will have those changes on, and you generally want to make pull requests with only a specific set of changes compared to upstream's `main`.
 
@@ -197,26 +205,34 @@ After you merge your pull request, you should delete your branch. GitHub can't c
 
 You can't delete a branch you're switched to, so first, switch to `main`: `git switch main`.
 
-Then pull in any changes from upstream (this helps git to work out whether you've already merged your PR): `git pull`.
+Then pull in any changes from upstream (this helps Git to work out whether you've already merged your PR): `git pull`.
 
 And finally, delete the branch: `git branch --delete your-branch-name`.
 
-### Teacher-led example / video
+## 6) Comparing local and remote
 
-TODO: Make a pull request from one of your branches. Merge it. Delete the branch. Explain that it's ok to delete the branch because we know the changes are safely on `main`.
-TODO: Show `git status` showing that branches are out of sync.
+Before, we saw that `git status` can tell you what branch you're on, and any changes you haven't commited.
 
-### Exercise 4 (15 minutes)
+But it can also tell you more than that!
 
-Make pull requests for both of your branches (one with a story, one with an extra ingredient).
+If you have made commits locally, but haven't pushed them, `git status` may say something like:
 
-Pair up with another trainee in your class. Get a them to review each one of your two pull requests. You should also review theirs.
+```console
+$ git status
+Your branch is ahead of 'origin/story' by 2 commits.
+```
 
-Reviewers: Give some feedback on the pull request you've been asked to review - try to suggest a change. When the author has implemented your change, and you're happy, approve the pull request.
+Or if you have run a `git fetch` but not a `git pull`, and the remote has changes that you haven't pulled yet, it may say:
+```console
+$ git status
+Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
+```
 
-Authors: Make the suggested changes. When your pull request has been approved, merge your pull requests. Delete your branch when you're done.
+`git status` can remind you that you have or haven't pushed or pulled yet.
 
-## 6) On "git checkout"
+After you've merged a pull request, you can delete your branch, because you don't need it any more - your code is on the main branch!
+
+## 7) On "git checkout"
 
 On the internet, you may see people referring to `git checkout` and `git checkout -b` as ways to switch, or create, branches. These are old versions of the commands `git switch` and `git switch --create`. They work the same, but because their names are less good (and sometimes they can also do extra things, which may be surprising), they have been replaced with `git switch`. You should use `git switch`, but don't be scared if you see someone talking about `git checkout` - it's the same thing!
 
