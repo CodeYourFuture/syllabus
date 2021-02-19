@@ -53,3 +53,13 @@ Here you will find all of your Classmates answers to the coursework.
 You should do this for _at least_ two pull requests.
 
 Not sure on the answers? See here: https://github.com/CodeYourFuture/Terminal-Coursework-Week1-Solution
+
+## 6) (Optional) Play An Interactive Game
+
+This is just a bit of fun!
+
+Using your new Command Line skills, take a look at this adventure game that uses the command line
+
+https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html
+
+What will you discover?
