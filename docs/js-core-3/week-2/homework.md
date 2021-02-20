@@ -19,13 +19,14 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 -->
 
-## 1) Practice the concepts (1 hours)
+## 1) Practice the concepts (2 hours)
 
 This week's concepts can be challenging, therefore let's get an easy introduction using some interactive exercises! Check the following resources out and start practicing.
 
 You can ignore anything to do with `XMLHttpRequest`
 
 - FreeCodeCamp
+  - https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/
   - https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/
 
 ## 2) Code along (1 hour)
