@@ -43,7 +43,7 @@ If you do not understand the instructions written then please ask on Slack for h
 4. Copy and paste this line into the terminal then press enter
    - `sudo apt-get update`
 5. Copy and paste this line into the terminal then press enter
-   - `$ sudo apt install github-desktop`
+   - `sudo apt install github-desktop`
 
 Github Desktop should now be installed. If any step of this didn't work, please ask for help on Slack.
 
