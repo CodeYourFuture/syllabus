@@ -6,11 +6,15 @@ sidebar_label: Learning Objectives
 
 _The learning objectives under a given topic may be achieved over the multiple weeks of the module, rather than in the first week the topic is introduced._
 
-## HTML Syntax
+## HTML
 
-### tags vs attributes
+### HTML anatomy
 
-- [ ] Can answer: What is a HTML attribute?
+- [ ] Can answer: What is an HTML tag?
+- [ ] Can: identify opening and closing tags.
+- [ ] Can answer: What is an HTML attribute?
+- [ ] Can: identify attribute names and attribute values.
+- [ ] Can answer: What is an HTML element?
 
 ### Forming a hierarchy by nesting tags
 
@@ -21,9 +25,12 @@ _The learning objectives under a given topic may be achieved over the multiple w
   - e.g. "Create an article which contains a h2 header and two p (paragraph) elements." \[detail the text that the tags should include\]
 - [ ] Can: recognise when elements are incorrectly nested, in a short HTML extract.
 
-## Semantic HTML tags
+### Semantic HTML tags
 
 - [ ] Can answer: What is semantic HTML?
+- [ ] Can answer: What are some semantic HTML tags we can use for the main sections of a typical web page?
+- [ ] Can answer: What are some semantic HTML tags we can use for text content?
+- [ ] Can answer: What attribute must we use with every `<img>` tag?
 
 ## Separation of concerns (HTML/CSS/JS)
 
