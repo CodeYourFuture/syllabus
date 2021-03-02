@@ -364,7 +364,7 @@ function add(a, b) {
 
 In the function `add`, the parameters are `a` and `b`.
 
-If we call the function like this `add(10, 32)` then we're passing 2 arguments (or inputs) into the function : `10` and `32`.
+If we call the function like this `add(10, 32)` then we're passing 2 arguments (or inputs) into the function : `10` and `32`. We can use any expression as an argument.
 
 When you write a function (sometimes called _declaring a function_) you can define the parameters with any valid variable name.
 
