@@ -472,7 +472,7 @@ Hint: Think carefully about the parameters and arguments for `getMessage` for pa
 
 ### Exercise (10 minutes)
 
-1. Swap your laptop with your neighbouring pair and review each other's code for the `formatPenceToPounds` and `increaseByHalf` exercise - what can be improved? Is the code readable?
+1. Swap your laptop with your neighbouring pair (or send your code to them over slack) and review each other's code for the `formatPenceToPounds` and `increaseByHalf` exercise - what can be improved? Is the code readable?
 
 ## Giving Feedback to Each Other
 
