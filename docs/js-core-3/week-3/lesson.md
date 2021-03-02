@@ -360,14 +360,13 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
 <Tabs
-  defaultValue="exercise"
-  values={[
-    { label: 'Exercise', value: 'exercise', },
-    { label: 'Solution', value: 'solution', },
-  ]
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
 }>
 <TabItem value="exercise">
-
 
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
@@ -385,7 +384,6 @@ console.log(
 </TabItem>
 <TabItem value="solution">
 
-
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
 
@@ -399,20 +397,18 @@ console.log(
 </TabItem>
 </Tabs>
 
-
 #### Exercise (3)
 
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
 <Tabs
-  defaultValue="exercise"
-  values={[
-    { label: 'Exercise', value: 'exercise', },
-    { label: 'Solution', value: 'solution', },
-  ]
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
 }>
 <TabItem value="exercise">
-
 
 ```js
 function sumAndMultiply(a, b) {
@@ -438,7 +434,6 @@ Which of the following lines of code can be used above?
 </TabItem>
 <TabItem value="solution">
 
-
 ```js
 // Option D
 let [sum, multiply] = sumAndMultiply(2, 3);
@@ -447,20 +442,18 @@ let [sum, multiply] = sumAndMultiply(2, 3);
 </TabItem>
 </Tabs>
 
-
 #### Exercise (4)
 
 When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
 
 <Tabs
-  defaultValue="exercise"
-  values={[
-    { label: 'Exercise', value: 'exercise', },
-    { label: 'Solution', value: 'solution', },
-  ]
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
 }>
 <TabItem value="exercise">
-
 
 ```js
 let citiesByPopulation = [
@@ -481,7 +474,6 @@ console.log(`${manchester.name} population is ${manchester.population}`);
 </TabItem>
 <TabItem value="solution">
 
-
 ```js
 let citiesByPopulation = [
   { name: "London", population: 8000000 },
@@ -500,7 +492,6 @@ console.log(`${manchester.name} population is ${manchester.population}`);
 
 </TabItem>
 </Tabs>
-
 
 #### Exercise (5)
 
@@ -524,7 +515,7 @@ You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
 Students should group into teams based on the Level that they are working on currently.
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 

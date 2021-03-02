@@ -1,10 +1,10 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
-All of the homework for this week can be found in the Node Homework repository [here](https://github.com/CodeYourFuture/NodeJS-Homework) under the Week 3 folder
+All of the coursework for this week can be found in the Node Homework repository [here](https://github.com/CodeYourFuture/NodeJS-Homework) under the Week 3 folder
 
 ## 1) FreeCodeCamp (6 Hours)
 
@@ -20,7 +20,7 @@ Take a look at the project here:
 
 https://github.com/CodeYourFuture/node-challenge-hotel-server
 
-To complete the homework you should:
+To complete the coursework you should:
 
 1. Fork the repository
 2. Complete the tasks

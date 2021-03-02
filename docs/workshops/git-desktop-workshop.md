@@ -10,7 +10,7 @@ sidebar_label: Github Desktop Workshop
 - You will be able to clone a repository using Github Desktop
 - You will be able to make changes to a repository using Github Desktop
 - You can define what the differences between Git and Github are
-- You can use git to submit all your homeworks to Github
+- You can use git to submit all your coursework to Github
 
 ---
 

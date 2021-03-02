@@ -4,21 +4,234 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 17/02/2021
+
+Attendance: Daniel, Chris, Sally, Matthew, Ali, Greg
+
+### Welcome new members
+
+- Matthew
+- Sally
+
+### Updating the intro to coding course (/application process) (Chris)
+
+- No need to get involved, just being generally aware that this is happening.
+- Feedback comes from recent graduates/joiners
+- Tech side: easy for students to pass by just following steps (/googling freecodecamp tribute page)
+- Soft skills side: intro to coding course should represent the soft skills, so that it's a good "sample" of what students can expect
+
+- Improving the tech skills
+  - raise the upper level of how well students can do, by making a "challenge" approach.
+  
+- Questions
+  - Should actual coding be part of intro to coding?
+  - Are the cutoffs during the acceptance process in line with what they've learned and with what we're able to assess? (end of js1)
+  - Could having some sass add coding fundamentals/some other version of programmatic thinking?
+  - Long term intention of the fundamentals course was not really to do what we're doing.
+  
+Action for Chris -> discussion of what is taught in fundamentals course (e.g sass)
+
+### What kinds of tech interviews do our students end up doing and what skills should they be practiced in going in (Chris)
+
+- Cap Gemini put a lot of soft skills to the front (even rejected some strong coders from Birmingham)
+- Got feedback from Cap Gemini hiring manager:
+	- students did worst at selling their technical skills
+	- very good at talking about their own experiences
+	- very good at self directed learning
+	- enthusiastic about learning new things
+	- students tend to pigeon hole themselves (e.g. backend vs frontend)
+	- students don't have confidence that they could learn a new language/take their learning and re-produce it.
+	
+- Question: does the final project affect students confidence in a negative way that we might want to address?
+	- Would it be a good time to invite recent graduates?
+	- Yes, it's quite common for students to fill low in confidence
+	- Lack of having things on github
+	
+Action for Chris -> speak to German about who we're designing the syllabus for (who are the hirers, what skills are they asking for)
+Action for Chris -> chase up city coordinators to fill in the outcomes spreadsheet
+
+### JS Core 2 exercises (Ali)
+
+- Choose your own adventure
+	- Goal: Getting students used to the existence of objects
+	- Concern: it's a bit different from what we've done in the class?
+	- Comment: a bit like an internal DSL
+	
+Action for Chris: Get a Gist from Ali and give it to some students.
+	
+- Suits of cards
+	- More standard
+	- Can we make it more difficult/complex (Ali: assertions become tricky)
+	
+### Git branch (Daniel)
+
+- Seeking feedback
+- Planning to record feedback?
+
+- Git bracken?
+- Git prettyfier? (could then use asciicinema)
+
+### Sprint planning (Chris)
+
+- Git ticket almost ready
+- introducing funtions, ready for review
+- js excercises 2
+
+New tickets
+
+- Encouraging live coding?
+- Cowsay? Sally could pick up
+- Git diagrams? Daniel
+- How to ask a good question -> maybe good for Atanas
+
+Action for Chris, approach people about pairing up with Greg to get started on Mongo
+
+## 03/02/2021
+
+Present: Chris, Ali, Daniel, Mitch, Greg
+
+### Interview Prep Workshop
+
+- Ali & Daniel got chatting on PR about interview prep
+- What kind of companies are we targeting for trainees?
+  - "Upper bound" of companies
+  - Type of company
+- There are several kinds of tech interview
+- Do we prepare trainees for all types of interview?
+- Discussion of specific example of `LazyFlatIterator`
+  - Problem is very abstract, which we think would throw a lot of trainees
+- Is it realistic to expect trainees to get jobs at FAANG/top companies?
+  - We think the majority of student's wouldn't pass the interview
+  - Self-fulfilling strategy - if we prepared trainees for this, would they get it?
+- We could prepare for what kind of things a tech interview, but without looking at specific kinds of problems (e.g. computer science-y problems)
+  - E.g. explain thinking out loud
+  - Think about performance of solutions
+- Potentially involve Anahita - London PD
+  - Tech recruiter for Capgemini
+  - Has expressed interest in developing content in this domain
+- Daniel opened a [ticket to discuss a workshop](https://github.com/CodeYourFuture/syllabus/issues/175)
+- Action points
+  - Chris to speak to Capgemini
+  - Chris to decide what types of companies we are aiming for
+  - Syllabus team to read ticket & discuss
+
+### When do we release solutions to coursework?
+
+- London were releasing the week after
+  - Concern is that they could put in minimal effort to solve, then get solution without putting work in
+- Releasing answers helps buddies since the answers are available, but it also means enforcing putting in effort
+- Trainee who is putting in effort, but sees answers then thinks that they understand it, but without actually
+- Suggestion
+  - Release by default
+  - But if Edu Buddy notices that trainee is coasting, the it can be flagged to City Coordinator
+  - Can then restrict that trainee from getting the answers (by not inviting them to the private answers repo)
+- Action points
+  - Chris to write this up as policy for Edu buddies
+
+### Team changes
+
+- Tim taking some time off (too much going on)
+- Few new people joining in the next few weeks
+
+### Git CLI/Terminal
+
+- Terminal lesson went out to London students
+  - 12 students completed. No problems, but they are likely best students, so waiting to see how it goes for other students
+- Git
+  - Daniel working on it, roughly ready to go
+  - PRs incoming
+  - Diagrams are still TODO
+
+## 20/01/2021
+
+Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
+
+### HTML & CSS discussion - led by Lucy
+
+- Atannas has raised several questions regarding the syllabus
+- Syllabus doesn't currently start from scratch with HTML & CSS
+- Always have disparate level of abilities and knowledge with any class
+
+#### Week 1
+
+- Lucy's learning objectives:
+  - Week-1
+  - Starts with a summary of the learning objectives
+  - How to attach CSS to a HTML document
+  - Discuss CSS specificity
+  - Write simple HTML and CSS pairings
+  - Discuss the box model in CSS
+- Avoid git issues and sandboxes
+- Lots of interactive exercises throughout the lesson
+- For homework build a website using some Figma designs
+- Students can find extension tasks at Frontend Mentor
+- Currently still using the bikes for refugees project over the HTML and CSS section
+- Lucy is using smaller layout exercises for this section
+- Try and get students to fork and clone the homework before the end of the class
+
+#### Week 2
+
+- Week 2 deals with responsive design, media queries
+- Homework for week 2 is to add a media query to existing Karma Project for a mobile design
+- More sandbox activities for manipulating the UI with media queries
+- Students given a wireframe for a cake website with a mobile view and a desktop view
+
+#### Week 3
+
+- Start with a lot of repetitive stuff in CSS
+- Introduce the need for classes in order to reuse CSS rules
+- Then introduce a CSS framework like Bootstrap - there to solve the problem of consistency
+- Give students some understanding of columns
+- Issues with Bootstrap:
+  - Comes with clutter like utility CSS etc
+  - Also comes with a lot of JS components
+  - Can sometimes be a little chaotic
+  - Sometimes distracted by Bootstrap features
+- Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
+- Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
+- Homework for week 3 used Wix templates in the past - needs to change for copyright reaons
+
+- May need an additional 4th class
+- Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
+- Potentially focus on Bootstrap but if you want to use "Simple Grid" then you can if you want
+- Syllabus there to define which concepts need to be understood and which skills need to be acquired but not to prescribe the particular resources used to achieve the skills / resources
+
+### Cloud development - led by Bukola
+
+- Would like to introduce cloud development in the syllabus at some point
+- Could introduce deployment / automation especially when students encounter Netlify and there is a need for deployment
+- Github CLI is a good starting point for this
+- Make use of Bukola's notes for this topic
+- Good turn this into an optional workshop
+- Cloud infrastructure is the number one skill employers are after
+- We could also have a postgraduate module for teaching students stuff after the course ( post graduation )
+- Could introduce bonus material from early on so that the students are primed for the introduction of cloud stuff later on
+- Is there scope for something like Lambda functions around the time of React to bridge with NodeJS
+- Netlify uses a CLI tool for deployment of cloud functions
+
+### Further actions
+
+- Setup a future discussion further down the line re cloud workshop / module
+- Establish learning objectives for a cloud workshop / module
+- Setup a cyf-syllabus-cloud channel
+
+---
+
 ## 06/01/2021
 
 **In Attendance:** Daniel, Chris, Greg, Tim, Mitch, Ali
 
-### Personal Development  Syllabus
+### Personal Development Syllabus
 
 - https://personaldevelopment.codeyourfuture.io/
 - Technical Interview might be missing
   - Can this be rolled into the PD Syllabus?
 - Could we add more time CV Workshops
 - "Asking Good Questions" is a section that could be pulled out earlier and more in depth
-  - Has been included in Day 3 so can be pushed more around 
+  - Has been included in Day 3 so can be pushed more around
 - We should be aiming to interleave the content between the two Syllabus'
 - "Imposter Syndrome" could be covered
-  - You're not **meant** to understand everything 
+  - You're not **meant** to understand everything
 
 Action: All Attendees - To review the content in more details
 
@@ -34,14 +247,14 @@ Action: Greg to investigate how they could be implemented and included
 
 ### Instructional Design Class
 
-- Greg used to work in this area and knows people who want "clients" to work with 
+- Greg used to work in this area and knows people who want "clients" to work with
 - Might be able to help us craft a pedagogically good workshop or help with HTML/CSS Module
 
 Action: Greg to refer them to me
 
 ### Round Table
 
-- Chris to prepare a plan for a Round Table discussion with lots of different stack holders of the 
+- Chris to prepare a plan for a Round Table discussion with lots of different stack holders of the
 
 Action: Chris to write up plan and poll for the best time for the Round Table
 
@@ -133,14 +346,16 @@ Mitch is probably going to be away for a bit, so Chris will take it over and sta
 ### This sprint
 
 #### [SQL](https://github.com/CodeYourFuture/syllabus/pull/139)
+
 Pretty much everyone except London teaches MongoDB. Glasgow and Manchester have some SQL experts, and Birmingham fell through some cracks of undocumented prep work from having not run the course before.
 
 Why does ~everyone teach SQL except London?
+
 > Partially because of domain knowledge in the particular cities.
 > Partially lack of clarity around what's more valuable to focus on.
 
 Birmingham want to move from Postgres to MySQL. We should work out what to support...
-We should find out why Birmingham want to switch. It may be because they had a bad experience from the first class, but we should find out for sure. 
+We should find out why Birmingham want to switch. It may be because they had a bad experience from the first class, but we should find out for sure.
 Maybe we could just have them connect to pre-running SQL servers, and not need to worry about which flavour of SQL they're using.
 For Mongo, we don't have them run anything locally, just use a hosted MongoDB.
 
@@ -169,9 +384,9 @@ Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 - Carlos answered questions and gave some insight into Migracode.
   - Migracode have been around for 1 year. They were using our syllabus from then to teach with until April when Carlos started updating their syllabus with our new content.
   - Migracode began with one class, then another two in March and started three more in July. The classes consist of ~12 people.
-  - The feedback from Spain is that our syllabus is great because of how up to date it is - particularly the content on React hooks. 
-  - They have split their classes out into smaller groups to enable them to give students more attention. They also have 1 Spanish class and 1 English class because a lot fo their students are from South America, but they do not translate the syllabus, the teacher does that while teaching. 
-  - They offer free English lessons to students. They are able to do this by using trainee teachers who can use the teaching time as credit for their courses. 
+  - The feedback from Spain is that our syllabus is great because of how up to date it is - particularly the content on React hooks.
+  - They have split their classes out into smaller groups to enable them to give students more attention. They also have 1 Spanish class and 1 English class because a lot fo their students are from South America, but they do not translate the syllabus, the teacher does that while teaching.
+  - They offer free English lessons to students. They are able to do this by using trainee teachers who can use the teaching time as credit for their courses.
 
 ### GIT LESSON
 
@@ -187,101 +402,23 @@ Welcome to Carlos from Migracode who use our syllabus for their course in Spain.
 
 ## 14/10/2020
 
-**In Attendance**: Ali Smith, Chris Owen, Greg Dyke, Daniel Wagner-Hall, Tim Hamrouge, Neill Bogie, Mike Hayden, 
+**In Attendance**: Ali Smith, Chris Owen, Greg Dyke, Daniel Wagner-Hall, Tim Hamrouge, Neill Bogie, Mike Hayden,
 
 ### GIT & COMMAND LINE V. GITHUB DESKTOP
 
 Discussion around wether to teach GIT & COMMAND LINE (G&CL) or GITHUB DESKTOP (GHD)
 
-- No final decision was made in the meeting about which technology should be taught. 
-    - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4. 
-    - There much discussion about multiple lessons on Git, in order to reduce the cognitive load and increase familiarity for stuents. Chris said that while additional lessons cannot be added, additional reources (as homework etc.) can be included. 
-    - Daniel and Ali agreed to work on the Git lesson plan for 31/10/2020.
+- No final decision was made in the meeting about which technology should be taught.
+  - It was agreed that in order to teach anything with Git comprehensively, more teachning time would be needed. Chris said that the 2 hours used to teach the topic could be spread out to 4.
+  - There much discussion about multiple lessons on Git, in order to reduce the cognitive load and increase familiarity for stuents. Chris said that while additional lessons cannot be added, additional reources (as homework etc.) can be included.
+  - Daniel and Ali agreed to work on the Git lesson plan for 31/10/2020.
 
 ### STUDENT FEEDBACK FORM
 
-- Chris has created a Pull Request for a new feedback form to give to students at the end of lessons. 
-    - There was consensus that the form was a good idea, and would be added to the syllabus. It is a substantial change because it will affect all lessons. 
-    - Ali suggested an additional 'Anything Else?' field to capture intangible feedback, Chris Agreed.
-    - Neill pointed out it must be made clear to students who can see their answers and how they will be used, all agreed. 
+- Chris has created a Pull Request for a new feedback form to give to students at the end of lessons.
+  - There was consensus that the form was a good idea, and would be added to the syllabus. It is a substantial change because it will affect all lessons.
+  - Ali suggested an additional 'Anything Else?' field to capture intangible feedback, Chris Agreed.
+  - Neill pointed out it must be made clear to students who can see their answers and how they will be used, all agreed.
 - ACTION: Chris to check form feedback in 1 month.
 
 ---
-
-# CYF syllabus - minutes
-
-## 20-01-2021
-
-Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy 
-
-## Agenda points
-
-### HTML & CSS discussion - led by Lucy
-
-- Atannas has raised several questions regarding the syllabus
-- Syllabus doesn't currently start from scratch with HTML & CSS
-- Always have disparate level of abilities and knowledge with any class
-
-Week 1
-
-- Lucy's learning objectives:
-    - Week-1
-    - Starts with a summary of the learning objectives
-    - How to attach CSS to a HTML document
-    - Discuss CSS specificity
-    - Write simple HTML and CSS pairings
-    - Discuss the box model in CSS
-- Avoid git issues and sandboxes
-- Lots of interactive exercises throughout the lesson
-- For homework build a website using some Figma designs
-- Students can find extension tasks at Frontend Mentor
-- Currently still using the bikes for refugees project over the HTML and CSS section
-- Lucy is using smaller layout exercises for this section
-- Try and get students to fork and clone the homework before the end of the class
-
-Week 2
-
-- Week 2 deals with responsive design, media queries
-- Homework for week 2 is to add a media query to existing Karma Project for a mobile design
-- More sandbox activities for manipulating the UI with media queries
-- Students given a wireframe for a cake website with a mobile view and a desktop view
-
-Week 3
-
-- Start with a lot of repetitive stuff in CSS
-- Introduce the need for classes in order to reuse CSS rules
-- Then introduce a CSS framework like Bootstrap - there to solve the problem of consistency
-- Give students some understanding of columns
-- Issues with Bootstrap:
-    - Comes with clutter like utility CSS etc
-    - Also comes with a lot of JS components
-    - Can sometimes be a little chaotic
-    - Sometimes distracted by Bootstrap features
-- Lucy has made a separate CSS framework "Simple Grid" for Code Your Future - just for columns ( no JS components and grid etc )
-- Downside is that Bootstrap has loads of documentation and examples online so maybe more difficult for students to figure stuff out
-- Homework for week 3 used Wix templates in the past -  needs to change for copyright reaons
-
-- May need an additional 4th class
-- Syllabus is opinionated - but with flexibility built into it so people can choose to teach something in particular should they choose to do so
-- Potentially focus on Bootstrap but if you want to use "Simple Grid" then you can if you want
-- Syllabus there to define which concepts need to be understood and which skills need to be acquired but not to prescribe the particular resources used to achieve the skills / resources
-
-### Cloud development - led by Bukola
-
-- Would like to introduce cloud development in the syllabus at some point
-- Could introduce deployment / automation especially when students encounter Netlify and there is a need for deployment
-- Github CLI is a good starting point for this
-- Make use of Bukola's notes for this topic
-- Good turn this into an optional workshop
-- Cloud infrastructure is the number one skill employers are after
-- We could also have a postgraduate module for teaching students stuff after the course ( post graduation )
-- Could introduce bonus material from early on so that the students are primed for the introduction of cloud stuff later on
-- Is there scope for something like Lambda functions around the time of React to bridge with NodeJS
-- Netlify uses a CLI tool for deployment of cloud functions
-
-### Further actions
-
-- Setup a future discussion further down the line re cloud workshop / module
-- Establish learning objectives for a cloud workshop / module
-- Setup a cyf-syllabus-cloud channel
-

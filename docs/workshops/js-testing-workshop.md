@@ -384,7 +384,7 @@ Check out these videos. They contain code that is not JavaScript being traced on
 
 [Nested loops](https://www.youtube.com/watch?v=5mxT9x5rgCg)
 
-## Homework
+## Coursework
 
 1. Finish the Katas and exercises in the project we've worked on [today](https://github.com/CodeYourFuture/js-exercises-tdd)
 

@@ -1,8 +1,23 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
+
+<!--
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+-->
 
 ## 1) Code Along (1 hour)
 
@@ -36,14 +51,36 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) Project - Part 3
+## 4) Project - Part 3/3
 
 This project should consolidate knowledge from JS2 and push you to learn more about JavaScript.
 
 You should complete as much of the project as you can.
 
-### Project Details
+#### Project Details
 
 All of the details for this project can be found:
 
 https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
+
+## 5) Getting Feedback On Your Project (2 hours)
+
+Follow the instructions in the Code Review section of the project
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/code-review
+
+On Slack, find the usernames of two of your fellow trainees and atleast one volunteer (this could be your teacher, TA or your buddy) and add them to your project for a review.
+
+Before next week, make sure you have implemented all of the feedback that they have given you. Acting of feedback is essential to becoming a better programmer.
+
+## 5) Giving Feedback to Other People (2 hours)
+
+Hopefully by now other people have already asked you to review thier work - if not - post on Slack and see if anyone needs their work reviewing.
+
+Follow the feedback guide here to give good feedback for this project
+
+https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/giving-feedback
+
+As always - you should use use the code style guide to recommend better coding practices to your colleagues
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide

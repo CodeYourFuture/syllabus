@@ -7,7 +7,7 @@ sidebar_label: Getting Started
 These instructions will guide you to create your own new repository on github, based on a template we have provided.
 
 :exclamation:
-Important: unlike previous CYF homework projects, you should **NOT** fork the CYF project.
+Important: unlike previous CYF coursework projects, you should **NOT** fork the CYF project.
 :exclamation:
 
 1. Go to [https://github.com/CodeYourFuture/tv-show-dom-project](https://github.com/CodeYourFuture/tv-show-dom-project)

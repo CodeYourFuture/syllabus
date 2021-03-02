@@ -511,7 +511,7 @@ Using what you've just read in the Style Guide.
 - Script: a file that contains a program
 - Terminal: another word for "console"
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 

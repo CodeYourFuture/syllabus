@@ -1,8 +1,23 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
+
+<!--
+## 1) Review Solutions for Last Weeks Coursework
+
+Before starting this week, be sure to review the solutions for last weeks coursework
+
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3-Solution
+
+Make sure you work out what you don't understand and spend some time considering how the code works.
+
+In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+
+**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+
+-->
 
 ## 1) Install ESLint (20 minutes)
 
@@ -48,7 +63,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) TV Show Project - Part 1 (12 hours)
+## 4) TV Show Project - Part 1/3 (12 hours)
 
 In this weeks project we will be using the knowledge we learnt from JS1 & JS2 to build the first version of our website
 
@@ -67,3 +82,25 @@ It is very important that you make sure you project is setup correctly.
 You should follow all of the setup steps here:
 
 https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/getting-started
+
+## 5) Give feedback on your colleague's coursework (1 hour)
+
+Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+
+Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
+
+You must
+
+    View the open Pull Requests here
+
+https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1/pulls
+
+    Find two pull requests from people in your class that have no, or few, comments on them
+    Leave comments on the two pull requests with improvements or suggestions
+    Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+
+Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+
+Remember, you should use the Code Style Guide to help you
+
+https://syllabus.codeyourfuture.io/guides/code-style-guide

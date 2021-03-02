@@ -86,6 +86,6 @@ Make sure the put the student in similar ability teams as far as you can.
 
 You can use this project to run out the rest of the lesson if you have extra time or remove it if you're short for time. It's purely a consolidation exercise from the day.
 
-## Homework
+## Coursework
 
 Make sure they know that the Responsive Web Design Fundamentals course will take up the majority of their homework time, even though it's really preparation for the next class.

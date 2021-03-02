@@ -50,7 +50,7 @@ Therac-25 was a machine used to administer radiation to cancer patients which ma
 
 **Watch**: You can watch a quick video about the bug [here](https://www.youtube.com/watch?v=izGSOsAGIVQ)
 
-**Discuss**: Why did the Y2K bug happen? What oversights did the developers have?
+**Discuss**: Why did the Therac-25 bug happen? What oversights did the developers have?
 
 ### The Debugging Mindset
 
@@ -383,7 +383,7 @@ You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
 In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
 
-## Homework
+## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
 

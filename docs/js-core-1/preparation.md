@@ -38,7 +38,7 @@ If you get stuck on any of the below or above instructions, please post in your 
 ### On Ubuntu
 
 1. Type ctrl + alt + T to open up the terminal
-2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && sudo apt-get install -y nodejs`
+2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs`
 3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g. "v13.8.0"
    - `node -v`
 4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"

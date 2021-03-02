@@ -197,9 +197,9 @@ Let's take a break from flexbox for a minute. Do you remember the `:first-child`
 
 See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`). Use [this screenshot](../assets/screenshot-complete.png) to guide you.
 
-## Homework
+## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Feedback
 

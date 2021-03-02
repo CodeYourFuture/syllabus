@@ -14,8 +14,16 @@ module.exports = {
     ],
   },
   Git: {
-    Overview: ["git/overview", "git/preparation", "git/cheatsheet"],
+    Overview: [
+      "git/overview",
+      "git/preparation",
+      "git/cheatsheet",
+      "git/cheatsheet-cli",
+    ],
     "Lesson 1": ["git/index", "git/homework", "git/instructors"],
+    "Lesson 2": ["git/terminal/lesson", "git/terminal/homework"],
+    "Lesson 3": ["git/cli/lesson", "git/cli/homework"],
+    "Lesson 4": ["git/branches/branches", "git/branches/homework"],
   },
   HTMLCSS: {
     Overview: ["html-css/index"],
@@ -92,6 +100,13 @@ module.exports = {
         type: "link",
         label: "JavaScript Challenges",
         href: "https://github.com/CodeYourFuture/JavaScript-Core-2-Challenges",
+      },
+    ],
+    Assessments: [
+      {
+        type: "link",
+        label: "JavaScript Assessments",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-2-Assessment",
       },
     ],
   },
@@ -276,6 +291,13 @@ module.exports = {
       "workshops/deployment/workshop/workshop",
       "workshops/deployment/workshop/workshop-1-mentors",
       "workshops/deployment/workshop/cheatsheet",
+    ],
+  },
+  Accessability: {
+    Overview: ["workshops/accessibility/index"],
+    Workshops: [
+      "workshops/accessibility/intro-to-accessibility",
+      "workshops/accessibility/a11y-for-devs-basic",
     ],
   },
 };
