@@ -25,7 +25,7 @@ By the end of this class, you should be able to:
 - Define what expressions and statements are and describe the difference
 - Write and call functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
-- Manipulate numbers with mathematical operators using the `Math` library
+- Manipulate numbers with mathematical operators and using the `Math` library
 - Define the difference between `console.log()` and `return`
 - Call functions within functions
 - Search and read documentation to help when you are stuck
