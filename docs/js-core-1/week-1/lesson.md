@@ -446,14 +446,14 @@ The functions above behave similarly but _differ_ in some important ways.
 
 In groups, study the code above and then answer the following questions:
 
-a) How many times is the function `printMessage` called ?
-b) How many times is the function `getMessage` called ?
-c) What is the parameter name for the function `printMessage` ?
-d) What is the parameter name for the function `getMessage` ?
+1. How many times is the function `printMessage` called ?
+2. How many times is the function `getMessage` called ?
+3. What is the parameter name for the function `printMessage` ?
+4. What is the parameter name for the function `getMessage` ?
 
 Discuss briefly which **parameter name** is better out of the two functions and why ?
 
-e) What is the **return value** of the function `printMessage` whenever it is called ?
+5. What is the **return value** of the function `printMessage` whenever it is called ?
 
 Someone then creates 2 further variables `messageForAli` and `curiousMessage`:
 

@@ -16,7 +16,7 @@ We highly recommend joining the relevent Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
-## Presentations
+## Presentations (Out of date, for reference only)
 
 - [Week 3 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=1q98KUoX5QQoFEDUl52hLxOnWkoCi2vGrehHjBBEnfdI)
   - Created by Manchester Volunteers
