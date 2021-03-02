@@ -4,6 +4,88 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 17/02/2021
+
+Attendance: Daniel, Chris, Sally, Matthew, Ali, Greg
+
+### Welcome new members
+
+- Matthew
+- Sally
+
+### Updating the intro to coding course (/application process) (Chris)
+
+- No need to get involved, just being generally aware that this is happening.
+- Feedback comes from recent graduates/joiners
+- Tech side: easy for students to pass by just following steps (/googling freecodecamp tribute page)
+- Soft skills side: intro to coding course should represent the soft skills, so that it's a good "sample" of what students can expect
+
+- Improving the tech skills
+  - raise the upper level of how well students can do, by making a "challenge" approach.
+  
+- Questions
+  - Should actual coding be part of intro to coding?
+  - Are the cutoffs during the acceptance process in line with what they've learned and with what we're able to assess? (end of js1)
+  - Could having some sass add coding fundamentals/some other version of programmatic thinking?
+  - Long term intention of the fundamentals course was not really to do what we're doing.
+  
+Action for Chris -> discussion of what is taught in fundamentals course (e.g sass)
+
+### What kinds of tech interviews do our students end up doing and what skills should they be practiced in going in (Chris)
+
+- Cap Gemini put a lot of soft skills to the front (even rejected some strong coders from Birmingham)
+- Got feedback from Cap Gemini hiring manager:
+	- students did worst at selling their technical skills
+	- very good at talking about their own experiences
+	- very good at self directed learning
+	- enthusiastic about learning new things
+	- students tend to pigeon hole themselves (e.g. backend vs frontend)
+	- students don't have confidence that they could learn a new language/take their learning and re-produce it.
+	
+- Question: does the final project affect students confidence in a negative way that we might want to address?
+	- Would it be a good time to invite recent graduates?
+	- Yes, it's quite common for students to fill low in confidence
+	- Lack of having things on github
+	
+Action for Chris -> speak to German about who we're designing the syllabus for (who are the hirers, what skills are they asking for)
+Action for Chris -> chase up city coordinators to fill in the outcomes spreadsheet
+
+### JS Core 2 exercises (Ali)
+
+- Choose your own adventure
+	- Goal: Getting students used to the existence of objects
+	- Concern: it's a bit different from what we've done in the class?
+	- Comment: a bit like an internal DSL
+	
+Action for Chris: Get a Gist from Ali and give it to some students.
+	
+- Suits of cards
+	- More standard
+	- Can we make it more difficult/complex (Ali: assertions become tricky)
+	
+### Git branch (Daniel)
+
+- Seeking feedback
+- Planning to record feedback?
+
+- Git bracken?
+- Git prettyfier? (could then use asciicinema)
+
+### Sprint planning (Chris)
+
+- Git ticket almost ready
+- introducing funtions, ready for review
+- js excercises 2
+
+New tickets
+
+- Encouraging live coding?
+- Cowsay? Sally could pick up
+- Git diagrams? Daniel
+- How to ask a good question -> maybe good for Atanas
+
+Action for Chris, approach people about pairing up with Greg to get started on Mongo
+
 ## 03/02/2021
 
 Present: Chris, Ali, Daniel, Mitch, Greg
