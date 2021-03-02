@@ -263,10 +263,10 @@ The following are all examples of expressions:
 We can take the value produced by an expression and assign it to a variable.
 
 ```js
-let total = 1 + 1; // assign the expression 1 + 1 to a variable total
-let greeting = "hello"; // assign the expression "hello" to a variable greeting
-let product = 2 * 4; // assign the expression 2 * 4 to a variable product
-let worldGreeting = "Hello" + "World"; // assign the expression "Hello" + "World" to a variable worldGreeting
+let total = 1 + 1; // assign the value 2 (the value produced by the expression 1 + 1) to a variable total
+let greeting = "hello"; // assign the value "hello" (the value produced by the expression expression "hello") to a variable greeting
+let product = 2 * 4; // assign the value 8 (the value produced by the expression 2 * 4) to a variable product
+let worldGreeting = "Hello" + "World"; // assign the value "HelloWorld" (the value produced by the expression "Hello" + "World" to a variable worldGreeting)
 ```
 
 ### Exercise ( 15 mins )
