@@ -8,7 +8,6 @@ import Feedback from "@theme/Feedback";
 
 ## Contents
 
-- [Expressions](#expressions)
 - [Booleans](#booleans)
 - [Comparison Operators](#comparison-operators)
 - [Conditionals](#conditionals)
@@ -21,8 +20,6 @@ import Feedback from "@theme/Feedback";
 
 By the end of this class, you should be able to:
 
-- What are expressions and statements (and what's the difference)?
-- Define what expressions and statements are and describe the difference
 - Define what was a conditional is
 - Define what `for` and `while` loops are and define the difference
 - Write an if statement using a conditional
@@ -34,71 +31,6 @@ By the end of this class, you should be able to:
 
 ---
 
-## Expressions
-
-In JavaScript, there are **expressions** and **statements**. We will use these words frequently to describe code.
-
-### Expression
-
-An expression returns a value. Sometimes we will say that an expression _evaluates to_ a value.
-
-The following are all examples of expressions:
-
-```js
-1 + 1; // returns 2
-("hello"); // returns "hello"
-2 * 4; // returns 8
-"Hello" + "World"; // returns "HelloWorld"
-```
-
-We can take the value produced by an expression and assign it to a variable. That line of code would be called a statement.
-
-Expressions can also contain variables.
-
-```js
-function greetingPlanet() {
-  const planet = "Earth";
-  return `Hello ${planet}`; // returns Hello Earth
-}
-```
-
-You can also use expressions inside a string interpolation or as a `return` value.
-
-```js
-console.log(`2 + 4 is ${2 + 4}`); // 2 + 4 is 6
-
-function double(num) {
-  return num * 2; // expression being returned
-}
-```
-
-### Statement
-
-A statement is some code that performs an action. Here are some examples:
-
-```js
-const sum = 1 + 1; // action: assigns result of `1 + 1` to variable `sum`
-const greeting = "hello"; // action: assigns result of the expression "hello" to variable `greeting`
-console.log(2 * 4); // action: logs the result of `2 * 4` to the console
-sayGreeting(greeting); // action: calls the function `sayGreeting` with the parameter `greeting`
-```
-
-There are some other different types of statements that we will learn in the coming weeks.
-
-You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
-
-This console allows you to run expressions in the console line by line and is a great way of testing bits of code before writing it in a script.
-
-### Exercise (5 mins)
-
-In your VS Code terminal, run the command `node` and run the following expressions. What are their outputs? Is there anything you didn't expect? (To exit the node REPL, you have to click <kbd>Ctrl+d</kbd> or <kbd>Cmd+D</kbd> on Mac)
-
-- `1 + 2`
-- `"hello"`
-- `let favouriteColour = "purple"`
-- `favouriteColour`
-- `console.log(favouriteColour)`
-
 ## Booleans
 
 There is another _primitive type_ in JavaScript known as a **boolean** value. A boolean is either `true` or `false`, and it should be written without quotes.
@@ -108,48 +40,40 @@ let codeYourFutureIsGreat = true;
 let thisIsATerribleClass = false;
 ```
 
-### Exercise (10 mins)
-
-1. In a node REPL, what is the `typeof` a `true` or `false`?
-2. Pair up and correct the following function so that the output returns `"You've given me a bool, thanks!"`
-
-```js
-function boolChecker(bool) {
-  if (typeof bool === ) {
-    return "You've given me a bool, thanks!";
-  }
-
-  return "No bool, not cool.";
-}
-
-boolChecker(true);
-```
-
-3. As a class, can you step through the function and explain what each line does?
+We can use boolean values to make decisions in our code based on certain conditions, as we shall see later on.
 
 ## Comparison Operators
 
-In the previous exercise, you used an **expression** that returns a `boolean` value. This was possible because of the **comparison operator** `===`. Using a comparison operator will always return a `boolean` value.
+We can also create an **expression** that evaluates to a `boolean` value - that is, either `true` or `false`. This is possible when we use **comparison operators** such as `===`. This comparison operator will check if two values are the same.
 
-### Assert
+For example,
 
-We will also be using a new function to make sure the comparisons we do below return `true`. This is the `assert`.
+`42 === 42` will evaluate to `true`.
+You can check this by logging the expression `42 === 42` in the Node REPL.
 
-It is not a built-in function like `console.log`, it is part of the NodeJS library, and it has to be loaded with the `require("assert")` command.
+`42 === 50` will evaluate to `false`.
+You can also check this out by logging the expression `42 === 50` in the Node REPL.
 
-When given `true`, it does nothing. Nice. When given `false`, it will error. It is very good for testing things you expect to be `true`.
+Using a comparison operator will always return a `boolean` value.
 
-Here's an expression that evaluates to a `boolean`.
+### `checkIsTrue`
+
+Let's pretend that we have created a function `checkIsTrue` that checks if an **expression** evaluates to `true` or `false`. For the time being, you don't need to know how the function is implemented - you will only need to understand what the function does.
+
+For example,
+
+`checkIsTrue(10 === 10)` should print `"Yes, this expression evaluates to true! ✅"`
+`checkIsTrue(3 > 10000)` should print `"Sorry, this expression evaluates to false! ❌"`
 
 **Can you work out what will happen with the code below?**
 
 ```js
-assert(1 > 2);
+checkIsTrue(1 > 2);
 // and...
-assert(2 < 1);
+checkIsTrue(2 < 1);
 ```
 
-The `>` symbol in the expression is a **comparison operator**. Comparison operators compare two values. This operator checks to see if the number on the left is bigger than the number on the right.
+The `>` symbol in the expressions above is also a **comparison operator**. This operator checks to see if the number on the left is bigger than the number on the right.
 
 ```sh
 >   greater than
@@ -160,7 +84,7 @@ The `>` symbol in the expression is a **comparison operator**. Comparison operat
 !== not the same value and type
 ```
 
-You might see people use two other comparison operators. They are valid, but are the evil twins of `===` and `!==` and it is generally considered bad practice because of the bugs the can cause.
+You might see people use two other comparison operators, `==` and `!=`. They are valid, but are the evil twins of `===` and `!==` and it's generally considered bad practice because of the bugs they can cause.
 
 **&#10008; - Do not use == and !=**
 
@@ -178,43 +102,67 @@ You might see people use two other comparison operators. They are valid, but are
 
 If you see these, suggest people change them in pull requests.
 
-### Exercise (5 mins)
+### Exercise ( 15 mins )
 
-1. Modify the values below to have the compare function return the desired value:
+1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
+
+2. Check out the code below.
+
+Replace the variable `FILL_ME_IN` with actual values to prevent the `checkIsTrue` function from logging an error message.
 
 ```js
-const assert = require("assert");
+const mentorCount = FILL_ME_IN;
+const studentCount = FILL_ME_IN;
+checkIsTrue(mentorCount < studentCount);
 
-const mentorCount = // TODO
-const studentCount = // TODO
-assert(mentorCount < studentCount);
+const capacity = FILL_ME_IN;
+const people = FILL_ME_IN;
+checkIsTrue(capacity > people);
 
-const capacity = 25
-const people = // TODO
-assert(capacity > people);
+const organisation = FILL_ME_IN;
+checkIsTrue(typeof organisation === "string");
+checkIsTrue(organisation.startsWith("Code"));
+checkIsTrue(organisation.includes(" your "));
+checkIsTrue(organisation.endsWith("Future!"));
 
-const name1 = // TODO
-const name2 = // TODO
-assert(name1 === name2);
+const mystery = FILL_ME_IN;
+checkIsTrue(typeof mystery === "boolean");
+checkIsTrue(!mystery);
 
-const number1 = // TODO
-const number2 = // TODO
-assert(number1 !== number2);
-
-const thisNumber = // TODO
-const thatNumber = // TODO
-assert(thisNumber === thatNumber);
-
-const thisArray = [1, 2, 3, 4, 5];
-const thatArray = [1, 2, 3, 4, 5];
-assert(thisArray === thatArray);
+// Don't change anything below this point
+var FILL_ME_IN;
+function checkIsTrue(value1) {
+  if (value1) {
+    // "\x1b[32m%s\x1b[0m" will change console output to green
+    console.log(
+      "\x1b[32m%s\x1b[0m",
+      "Yes, this expression evaluates to true! ✅"
+    );
+  } else {
+    // "\x1b[31m%s\x1b[0m" will change console output to red
+    console.log(
+      "\x1b[31m%s\x1b[0m",
+      "Sorry, this expression evaluates to false! ❌"
+    );
+  }
+}
 ```
 
-The array comparison doesn't work because JavaScript comparison only works as expected on `number`s, `string`s, and `boolean`s.
+---
 
-You need to be aware of this, and its possible for you to go deeper into array comparisons outside of the lesson, though generally remember that only `number`s, `string`s, and `boolean`s work with equality.
+3. Create a function called `isEven` that should
 
-MDN has some slightly in-depth documentation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness).
+- take a number as an input
+- return a **boolean** indicating if the number is even or odd
+
+Remember to avoid using `console.log` _inside_ the function itself
+
+E.g. `isEven(100)` should return `true`
+E.g. `isEven(53)` should return `false`
+
+Call your function with a number of different inputs to check your function is working as expected. 😄
+
+Bonus: Can you ensure your function doesn't use an `if` statement for this exercise 😎
 
 ## Conditionals
 

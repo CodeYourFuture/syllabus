@@ -36,9 +36,6 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Presentations
 
-- [Week 1 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=10rob7Nw6mEpA0h1wEZueVIF7doBZqlfY2twQEYlIse4)
-  - [Function demo](https://github.com/anthonytranDev/cyf-js-core-1-function-demo)
-  - Created by Manchester and Anthony Tran
 - [Week 1 Midweek Catch-up - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=1iyqMSJUhaDSIdRQeguqxt_GZwKCwFk4cvikZpwK5Emo)
   - Created by Scotland and Richard Darby
 

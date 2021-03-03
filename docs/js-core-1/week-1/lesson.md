@@ -10,24 +10,22 @@ import Feedback from "@theme/Feedback";
 
 - [Hello World](#hello-world)
 - [Variables](#variables)
-- [String concatenation](#string-concatenation)
 - [Strings](#strings)
-- [Numbers as integers](#numbers-as-integers)
-- [Numbers as decimals](#numbers-as-decimals)
+- [Numbers](#numbers)
+- [Statements & expressions](#statements-and-expressions)
 - [Functions](#functions)
-- [Calling functions inside functions](#calling-functions-inside-functions)
 
 ## Learning Objectives
 
 By the end of this class, you should be able to:
 
 - Use `console.log()` to print information to the console
-- List and describe the different primitive data types in JS
 - Use `typeof` to find the type of a variable
 - Assign data to variables using `let` and `const`
-- Write, call and evaluate functions in JavaScript
+- Define what expressions and statements are and describe the difference
+- Write and call functions in JavaScript
 - Manipulate strings with concatenation and interpolation techniques
-- Manipulate numbers with mathematical operators using the `Math` library
+- Manipulate numbers with mathematical operators and using the `Math` library
 - Define the difference between `console.log()` and `return`
 - Call functions within functions
 - Search and read documentation to help when you are stuck
@@ -141,7 +139,7 @@ console.log(messageType); // logs 'string'
 
 2. What is the `typeof` a number?
 
-## String concatenation
+### String concatenation
 
 You can add two strings together using the plus operator (`+`) or _string interpolation_.
 
@@ -171,7 +169,7 @@ console.log(greeting); // Logs "Hello, my name is Daniel"
 
 1. Write a program that logs a message with a greeting and your name using the two concatenation methods we used
 
-## Numbers as integers
+## Numbers
 
 The next data type we will learn is **number**.
 
@@ -190,22 +188,9 @@ const quotient = 10 / 2; // 5
 const difference = 10 - 2; // 8
 ```
 
-### Exercise (10 mins)
+### Floating point numbers
 
-1. Create two variables `numberOfStudents` and `numberOfMentors`
-2. Log a message that displays the total number of students and mentors
-
-#### Expected result
-
-```sh
-Number of students: 15
-Number of mentors: 8
-Total number of students and mentors: 23
-```
-
-## Numbers as decimals
-
-Numbers can be integers (whole numbers) or floats (numbers with a decimal).
+Numbers can be integers (whole numbers) or floats (numbers with a decimal point).
 
 ```js
 const preciseAge = 30.612437;
@@ -218,26 +203,127 @@ const preciseAge = 30.612437;
 const roughAge = Math.round(preciseAge); // 31
 ```
 
-### Exercise (5 mins)
+### Exercise (15 mins)
 
-Using the variables provided in the exercise, calculate the percentage of mentors and students in the group (percentages must be a rounded to the nearest integer)
+1. Create two variables `numberOfStudents` and `numberOfMentors`
+2. Log a message that displays the total number of students and mentors
+
+#### Expected result
+
+```sh
+Number of students: 15
+Number of mentors: 8
+Total number of students and mentors: 23
+```
+
+3. Using the variables you created in the previous steps, calculate the percentage of mentors and students in the group (percentages must be rounded to the nearest integer)
 
 You should then log this number to the console.
 
 #### Expected result
 
 ```sh
-Percentage students: 65%
-Percentage mentors: 35%
+Percentage of students: 65%
+Percentage of mentors: 35%
 ```
 
 ### Extra Exercise (10 minutes)
 
-_Intructor note: Only complete this exercise if you have enough time in the lesson_
+_Instructor note: Only complete this exercise if you have enough time in the lesson_
 
 Using online documentation, what other things can you do with the `Math` library?
 
-Pick one thing on your table that you can do other than `Math.round` and prepare an explanation for the rest of the class.
+Working in small groups, pick one other thing that `Math` can do and prepare a short (2 - 3 min) explanation for the rest of the class.
+
+## Statements and expressions
+
+In JavaScript, sections of code can be called **expressions** and **statements**. We will use these words frequently to describe code.
+
+### Expression
+
+Any unit of code that can be evaluated to a value is known as an **expression**.
+
+We say that an expression _evaluates to_ a value.
+We use expressions all the time in lot of different places:
+
+- they can be assigned to variables
+- returned from functions (more on this later)
+- passed as arguments to functions (more on this later)
+- combined with other expressions to form new expressions
+
+The following are all examples of expressions:
+
+```js
+1 + 1; // evaluates to 2
+("hello"); // evaluates to "hello"
+2 * 4; // evaluates to 8
+"Hello" + "World"; // evaluates to "HelloWorld"
+```
+
+We can take the value produced by an expression and assign it to a variable.
+
+```js
+let total = 1 + 1; // assign the value 2 (the value produced by the expression 1 + 1) to a variable total
+let greeting = "hello"; // assign the value "hello" (the value produced by the expression expression "hello") to a variable greeting
+let product = 2 * 4; // assign the value 8 (the value produced by the expression 2 * 4) to a variable product
+let worldGreeting = "Hello" + "World"; // assign the value "HelloWorld" (the value produced by the expression "Hello" + "World" to a variable worldGreeting)
+```
+
+### Exercise ( 15 mins )
+
+You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
+
+This console allows you to enter code in the console line by line and is a great way of testing bits of code before writing it in a script. Each time you press enter, it will print out what the expression you typed evaluates to.
+
+In your terminal, run the command `node` and then enter a line of code from the code below and then run enter. Do this for each line of code in the list.
+Think about the following questions each time:
+
+What is the output in the terminal each time ?
+Is there anything you didn't expect ?
+
+Can you work out which of the lines of code below are **expressions** and which are not ?
+
+- Add some example here
+
+_Remember it can only be an expression if you can place it on the right hand side of an assignment._
+
+```js
+1 + 2;
+
+("hello");
+
+"hello" + " " + "students and volunteers!";
+
+let favouriteColour = "purple";
+
+favouriteColour;
+
+"hello" + 42;
+
+if (true) {
+}
+
+const hoursInADay = 24;
+
+hoursInADay * 7;
+
+`My favourite colour is ${favouriteColour}`;
+```
+
+(To exit the node REPL, you have to press Ctrl+d)
+
+### Statement
+
+A statement is some code that typically carries out an instruction. You have encountered statements already:
+
+```js
+const greeting = "Hello Code Your Future!";
+```
+
+The above piece of code is a **variable declaration**, which is also a statement.
+This statement is an instruction to store the value `"Hello Code Your Future!"` in the variable `greeting`.
+
+There are other different types of statements that we will learn about in the coming weeks, such as an `if` statement.
 
 ## Functions
 
@@ -251,9 +337,7 @@ function double(number) {
 }
 ```
 
-To use the function we need to:
-a) _call_ it with an input and
-b) do something with the returned value, for example assigning it to a variable
+To use a function then we we need to **call** it ( some people will say **invoke** )
 
 ```js
 const result = double(2);
@@ -261,9 +345,16 @@ const result = double(2);
 console.log(result); // 4
 ```
 
-The input given to a function is called a **parameter**.
+The function `double` is being called by placing parathenses after the name of the function like this `double()`
 
-A function can take more than one parameter:
+🔑
+The input given to a function is called a **argument**
+
+🔑 A **parameter** is a variable that is used to refer to an **argument**
+
+In the example above, we're saying that inside the function `double`, there is a variable called number, but we don't know what the value of the variable is until someone calls the function, at which point they will give a value for that variable.
+
+A function can have one or more **parameters**, check out the example below:
 
 ```js
 function add(a, b) {
@@ -271,9 +362,13 @@ function add(a, b) {
 }
 ```
 
-When you write a function (sometimes called _declaring a function_) you assign names to the parameters inside of the parentheses (`()`). Parameters can be called anything.
+In the function `add`, the parameters are `a` and `b`.
 
-This function is exactly the same as the on above:
+If we call the function like this `add(10, 32)` then we're passing 2 arguments (or inputs) into the function : `10` and `32`. We can use any expression as an argument.
+
+When you write a function (sometimes called _declaring a function_) you can define the parameters with any valid variable name.
+
+The function below does exactly the same thing as the one above:
 
 ```js
 function add(num1, num2) {
@@ -281,50 +376,103 @@ function add(num1, num2) {
 }
 ```
 
-### Exercise (20 minutes)
+### Exercises (20 minutes)
 
-1. In pairs, design and create a function that:
+In a new file (`js1-week1-exercises.js`), try solving each of the questions below:
 
-- takes in more than one input
-- uses string concatenation
-- this means adding two strings together
-- performs some form of operation on a number
-- uses `return` to return a **string**
+1. Create a function called `formatPenceToPounds` that should
 
-2. Add a comment above your function to explain what it does
-3. Call your function and run your script
-4. What's the difference between a `return` and `console.log`?
-5. When would you choose to use functions over the way we have been scripting so far?
+- take a number as an input ( representing an amount of money in pence )
+- return a string starting with a `£` sign and the input number converted to pounds.
+
+For example, `formatPenceToPounds(199)` should evaluate to `"£1.99"`
+
+In your groups, think carefully about the following things:
+
+- what the parameter name should be
+- creating good names for any variables you use
+- don't use `console.log` inside the body of the function
+
+Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
+
+---
+
+2. Create a function called `increaseByHalf` that should
+
+- take a number as an input
+- return this input number **increased by a half**
+
+E.g. `increaseByHalf(50)` should **evaluate** to `75`
+
+E.g. `increaseByHalf(100)` should **evaluate** to `150`
+
+In your groups, think carefully about the following things:
+
+- what the parameter name should be
+- creating good names for any variables you use
+- don't use `console.log` inside the body of the function
+
+Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
+
+Now declare a variable called `pocketMoney` and assign to it a value of `413`.
+
+Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
+
+Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
+
+Then use `console.log` the output in order to check your function.
+
+---
+
+3. Check out the code below:
+
+```js
+function printMessage(x) {
+  console.log("Hello, nice to meet you " + x);
+}
+
+function getMessage(name) {
+  return "Hello, nice to meet you " + name;
+}
+
+printMessage("Mitch");
+
+printMessage("August");
+
+getMessage("Laetitia");
+```
+
+The functions above behave similarly but _differ_ in some important ways.
+
+In groups, study the code above and then answer the following questions:
+
+1. How many times is the function `printMessage` called ?
+2. How many times is the function `getMessage` called ?
+3. What is the parameter name for the function `printMessage` ?
+4. What is the parameter name for the function `getMessage` ?
+
+Discuss briefly which **parameter name** is better out of the two functions and why ?
+
+5. What is the **return value** of the function `printMessage` whenever it is called ?
+
+Someone then creates 2 further variables `messageForAli` and `curiousMessage`:
+
+```js
+const messageForAli = getMessage("Ali");
+
+const curiousMessage = getMessage(42);
+```
+
+f) What will the variable `messageForAli` evaluate to when the code above is executed ?
+g) What will the variable `curiousMessage` evaluate to when the code above is executed ?
+
+Remember you can use `console.log` to log variables in order to check your answers to f) and g)
+
+Hint: Think carefully about the parameters and arguments for `getMessage` for part g)
 
 ### Exercise (10 minutes)
 
-1. Swap your laptop with your neighbouring pair and review each other's code - what can be improved? Is the code readable?
-
-## Calling functions inside functions
-
-Functions are very powerful.
-
-- You can write more than one line of code inside of functions.
-- You can use variables inside of functions.
-- You can call other functions inside of functions!
-
-```js
-function getAgeInDays(age) {
-  return age * 365;
-}
-
-function createGreeting(name, age) {
-  const ageInDays = getAgeInDays(age);
-  const message =
-    "My Name is " + name + " and I was born over " + ageInDays + " days ago!";
-  return message;
-}
-```
-
-### Exercise (20 mins)
-
-1. Write a function that returns the year someone is born given their age as input
-2. Using the answer from step 1, write a function that takes someone's name and age as input and returns a string that states the person's name and year they were born in a sentence
+1. Swap your laptop with your neighbouring pair (or send your code to them over slack) and review each other's code for the `formatPenceToPounds` and `increaseByHalf` exercise - what can be improved? Is the code readable?
 
 ## Giving Feedback to Each Other
 
