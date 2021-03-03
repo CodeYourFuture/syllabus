@@ -35,7 +35,7 @@ They define the structure (HTML), presentation (CSS), and behaviour (JavaScript)
 
 > **Principles** - During the course, we will highlight principles that apply to the specific topic but also to Computer Science and Programming in general. It is important to understand these principles, terms and apply them to your thinking in general.
 
-## HTML anatomy
+## HTML Anatomy
 
 <img src={require('!file-loader!../assets/html-anatomy.png').default}
   alt="HTML code of an element with a p tag, class=text attribute, and 'Welcome to lesson 1' content"/>
@@ -65,7 +65,7 @@ All together, let's review the basic syntax in the following example:
 
 Which parts are the **tags** and which parts are the **attributes**?
 
-## HTML structure
+## HTML Structure
 
 Every HTML document has the same base structure, shown in the code example below.
 
@@ -141,7 +141,7 @@ When possible, we should use semantic HTML instead of generic HTML like `<div>` 
 
 > Semantic HTML is the use of HTML markup to reinforce the semantics, or **meaning**, of the information in webpages and web applications rather than merely to define its presentation or look. [Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
 
-### Sectioning content
+### Sectioning Content
 
 HTML provides elements that allow us to semantically divide our page into sections.
 
@@ -159,7 +159,7 @@ We can use specific HTML elements for each of these sections.
 
 Additionally, we can use `<article>` and `<section>` to divide these sections into more sections.
 
-### Text content
+### Text Content
 
 For text content, we can use the following elements.
 
@@ -172,7 +172,7 @@ For text content, we can use the following elements.
 - We can use `<em>` for emphasis
 - We can use `<strong>` to indicate importance, seriousness or urgency
 
-### Image content
+### Image Content
 
 We can use `<img>` to display images on our page.
 
@@ -189,7 +189,7 @@ If the image is not important because it is only for decoration, we can provide 
 <img src="unimportant.jpg" alt="">
 ```
 
-### Tabular content
+### Tabular Content
 
 We can use `<table>` and its related tags to display tabular content.
 
@@ -237,7 +237,7 @@ Below is a table with a caption, along with the HTML code that creates it.
 </table>
 ```
 
-### Exercise (10 minutes)
+#### Exercise 1 (10 minutes)
 
 _Paired Programming Challenge_
 
@@ -251,6 +251,41 @@ Work in pairs to determine where the following tags should be used instead in th
 - `<aside>`
 
 Who benefits when we write "semantic" HTML?
+
+#### Exercise 2 (10 minutes)
+
+_Paired Programming Exercise_
+
+Work in pairs to determine what changes we should make to the code below to make it more semantic.
+
+```html
+<div>Pancake recipe</div>
+<div src="pancakes-with-syrup.jpg"/>
+<div>A quick and easy recipe to make pancakes!</div>
+<div>Ingredients</div>
+<div>
+  <div>175g flour</div>
+  <div>3 eggs</div>
+  <div>450ml milk</div>
+  <div>Sunflower oil</div>
+</div>
+<div>Method</div>
+<div>
+  <div>Add the flour, eggs, and milk to a bowl</div>
+  <div>Whisk the mixture and set it aside for half an hour</div>
+  <div>Heat a pan and add some sunflower oil</div>
+  <div>Add some of the mix to the pan and cook for a few minutes</div>
+  <div>Flip and cook the other side until done, then serve</div>
+</div>
+```
+
+#### Exercise 3 (10 minutes)
+
+_Solo exercise_
+
+Create a table that contains your favourite food and where it comes from.
+It should have two columns: the first column should contain the name of the dish, and the second column should contain the country of origin.
+You can create the table on https://codepen.io/pen/ if you wish.
 
 ## CSS Selectors
 

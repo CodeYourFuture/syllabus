@@ -31,11 +31,11 @@ This outline provides tips to help mentors guide students to the best answers or
 
 This is an opportunity for any students who are struggling to get another pass at the basics. Even if it seems like some students get it quickly, try not to rush through this section.
 
-### HTML structure exercise
+### HTML Structure exercise
 
 When conducting the parent/child tags exercise, don't forget to point out that the first `<p>` tag is both a parent _and_ a child.
 
-### Example HTML/CSS project exercise
+### Example HTML/CSS Project exercise
 
 **Why don't we put everything in one file?**
 
