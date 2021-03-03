@@ -6,6 +6,12 @@ sidebar_label: Marking Guide
 
 This Rubric should be used to guide your assessment of Students Coursework at CodeYourFuture
 
+## How To Mark Coursework
+
+Details on __how__ to mark coursework can be found on the documentation website
+
+[Coursework Feedback Docs](https://docs.codeyourfuture.io/teams/education/homework-feedback)
+
 ## Overview
 
 ### Completeness (/10)
