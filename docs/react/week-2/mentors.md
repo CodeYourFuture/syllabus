@@ -8,7 +8,7 @@ sidebar_label: Instructor Notes
 
 We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
 
-[cyf-module-node](https://codeyourfuture.slack.com/archives/C76GQDRH9)
+[cyf-module-react](https://codeyourfuture.slack.com/archives/C76GQDRH9)
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
