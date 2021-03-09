@@ -4,6 +4,62 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 03/03/2021
+
+Attendance: Daniel, Chris, Anthony, Sally, Greg, Matthew, Mariana, Kevin, Irina, Alastair
+
+## Agenda
+
+- Icebreaker (5 minutes)
+- Actions from last meeting (10 minutes)
+- Agenda Points (~30 minutes)
+- Sprint Planning (~30 minutes)
+- Fundamentals discussion
+- Are Github discussions worth it ?
+
+### Work In Progress
+
+- Functions-expressions PR now merged
+- Cowsay currently in progress courtesy of Sally
+- How to ask a good question
+- Chain of commits diagram
+- Encouraging live coding
+- Coursework solutions
+
+### Fundamentals discussion
+
+- Do we have established way for PD mentors to edit the syllabus ?
+- Fundamentals on GitBook - people can edit directly on there
+- PD changes should be run through Candy
+- Significant changes to the course by Aprill, need an easy to way to make changes for Scotland
+- Need to ensure not confusing for students which parts of the syllabus they need
+- What are the fundamental differences for Scotland ?
+  - Much looser in Scotland
+  - Not about assessment
+  - More about a period of adjustment for students in Scotland
+  - Use some of the ideas but not everything
+  - E.g. A lot of PD tasks like giving presentations in the first week so very demanding
+  - A lot of people not fully comfortable with their computer setup before starting the full course
+- Currently framed as an assessment period
+- Softer exit if students are told they can't continue after the fundamentals section - better than asking students to stop continuing after JS-week-2
+- More an assessment of intent ( truly gauge if they're prepared to work for 20 hours or so )
+- Fundamentals course shouldn't be ability based - should be just a way of assessing attitude
+- Maybe update wording as students may find the wording scary "If you don't do X then you may have to leave the course"
+- Harder to pick on people who are having difficulties with the course whilst working online
+- Confused whether we take 100 for fundamentals and then go down to 30 for the Full Stack
+- Change to fundamentals may be beneficial across the different cities ( Daniel )
+- Some people put on to the course as maybe ( in Manchester ) so assumed that some people are not going to make it on to the full stack bootcamp
+- Could take up to 2 months to know for sure if a student can make it through the course ( Irina )
+- Normally about 3/4 people towards the end of the course that are struggling with the course
+- May need a definition of the ideal student at Code Your Future i.e. do they have previous experience etc.
+- Generally positive about Kahn Academy - but some confusion over whether this is how you build websites
+- May need taught material for the Fundamentals section of the course
+
+## Actions
+
+- Re-structure PD elements and language used in the Fundamentals section
+- Raising issues for the Fundamentals repository
+
 ## 17/02/2021
 
 Attendance: Daniel, Chris, Sally, Matthew, Ali, Greg
@@ -22,47 +78,45 @@ Attendance: Daniel, Chris, Sally, Matthew, Ali, Greg
 
 - Improving the tech skills
   - raise the upper level of how well students can do, by making a "challenge" approach.
-  
 - Questions
   - Should actual coding be part of intro to coding?
   - Are the cutoffs during the acceptance process in line with what they've learned and with what we're able to assess? (end of js1)
   - Could having some sass add coding fundamentals/some other version of programmatic thinking?
   - Long term intention of the fundamentals course was not really to do what we're doing.
-  
+
 Action for Chris -> discussion of what is taught in fundamentals course (e.g sass)
 
 ### What kinds of tech interviews do our students end up doing and what skills should they be practiced in going in (Chris)
 
 - Cap Gemini put a lot of soft skills to the front (even rejected some strong coders from Birmingham)
 - Got feedback from Cap Gemini hiring manager:
-	- students did worst at selling their technical skills
-	- very good at talking about their own experiences
-	- very good at self directed learning
-	- enthusiastic about learning new things
-	- students tend to pigeon hole themselves (e.g. backend vs frontend)
-	- students don't have confidence that they could learn a new language/take their learning and re-produce it.
-	
+  - students did worst at selling their technical skills
+  - very good at talking about their own experiences
+  - very good at self directed learning
+  - enthusiastic about learning new things
+  - students tend to pigeon hole themselves (e.g. backend vs frontend)
+  - students don't have confidence that they could learn a new language/take their learning and re-produce it.
 - Question: does the final project affect students confidence in a negative way that we might want to address?
-	- Would it be a good time to invite recent graduates?
-	- Yes, it's quite common for students to fill low in confidence
-	- Lack of having things on github
-	
+  - Would it be a good time to invite recent graduates?
+  - Yes, it's quite common for students to fill low in confidence
+  - Lack of having things on github
+
 Action for Chris -> speak to German about who we're designing the syllabus for (who are the hirers, what skills are they asking for)
 Action for Chris -> chase up city coordinators to fill in the outcomes spreadsheet
 
 ### JS Core 2 exercises (Ali)
 
 - Choose your own adventure
-	- Goal: Getting students used to the existence of objects
-	- Concern: it's a bit different from what we've done in the class?
-	- Comment: a bit like an internal DSL
-	
+  - Goal: Getting students used to the existence of objects
+  - Concern: it's a bit different from what we've done in the class?
+  - Comment: a bit like an internal DSL
+
 Action for Chris: Get a Gist from Ali and give it to some students.
-	
+
 - Suits of cards
-	- More standard
-	- Can we make it more difficult/complex (Ali: assertions become tricky)
-	
+  - More standard
+  - Can we make it more difficult/complex (Ali: assertions become tricky)
+
 ### Git branch (Daniel)
 
 - Seeking feedback
