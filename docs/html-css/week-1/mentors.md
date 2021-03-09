@@ -27,13 +27,15 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
 
-### HTML Syntax
+### The HTML section
 
 This is an opportunity for any students who are struggling to get another pass at the basics. Even if it seems like some students get it quickly, try not to rush through this section.
 
+### HTML Structure exercise
+
 When conducting the parent/child tags exercise, don't forget to point out that the first `<p>` tag is both a parent _and_ a child.
 
-### Code Walkthrough
+### Example HTML/CSS Project exercise
 
 **Why don't we put everything in one file?**
 
@@ -41,19 +43,17 @@ Discuss:
 
 - Keeping data separate from display
 - Keeping code organised into manageable parts
-- Syntax highlighting in code editors
-- Linting Tools
 - Working in large teams with narrow skill-sets
 
-### Semantic HTML
+### Semantic HTML exercise
 
-HTML elements with the following classes should receive the following semantic tags/attributes:
+HTML elements with the following classes should receive the following semantic tags:
 
 - `.site-header` -> `<header>`
 - `.navbar` -> `<nav>`
-- `.primary-content` -> `role="main"`
+- `.primary-content` -> `<main>`
 - `.article` -> `<article>` (check in primary column and sidebar)
-- `.sidebar-content` -> `<aside role="complementary">`
+- `.sidebar-content` -> `<aside>`
 - `.site-footer` -> `<footer>`
 
 **Who benefits when we write "semantic" HTML?**
