@@ -24,7 +24,7 @@ This will show a list of files that have changed since the last time that you co
 
 ### Including Files to Commit
 
-One key different between Github Desktop and Git CLI is that you need to set which files will be committed to your repository. You can add files to be committed by using
+One key difference between Github Desktop and Git CLI is that you need to set which files will be committed to your repository. You can add files to be committed by using
 
 ```sh
 git add .

@@ -42,7 +42,7 @@ If you see something different, make sure that git is installed correctly. You c
 
 _This section is taken from [this](https://gidgid.medium.com/why-you-should-use-git-from-the-command-line-7054150e7eb) excellent blog_
 
-Up until now you've been using Git using Github Desktop quite happily - why are we confusing you with a different way to use Git.
+Up until now you've been using Git using Github Desktop quite happily - why are we confusing you with a different way to use Git?
 
 Well, there a few really good reasons...
 
