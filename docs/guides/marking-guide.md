@@ -14,7 +14,7 @@ Details on __how__ to mark coursework can be found on the documentation website
 
 ## Overview
 
-### Completeness (/10)
+### Completeness
 
 - The code achieves all of the tasks in the coursework [[read more]](#complete-all-tasks)
 - The code achieves the task in an intended way and solves the "general" problem [[read more]](#achieves-task-in-intended-way)
@@ -22,7 +22,7 @@ Details on __how__ to mark coursework can be found on the documentation website
 - The code does not contain any obvious bugs
 - The code handles error responses as well as success responses [[read more]](#error-responses)
 
-### Code Style (/5)
+### Code Style
 
 - The code follows a consistent style
 - The code follows CodeYourFuture's coding standards [[read more]](#coding-standards)
@@ -32,7 +32,7 @@ Details on __how__ to mark coursework can be found on the documentation website
 - The code uses code which is easy to read and understand [[read more]](#more-readable-code)
 - The code should not use hard coded values [[read more]](#hard-coded-values)
 
-### Clarity (/5)
+### Clarity
 
 - The code is divided into functions of a good size. [[read more]](#small-functions)
 - Code is not repeated in several locations of the coursework. [[read more]](#non-duplicated-code)
