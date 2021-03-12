@@ -92,7 +92,7 @@ In a GUI, there a visual elements (buttons, text, windows etc) that a user can i
 :::tip Exercise
 Research the following questions
 
-- What is a GUI useful?
+- What is a GUI useful for?
 - What are three examples of a GUI?
 - When were GUIs invented?
 - What came before GUIs?

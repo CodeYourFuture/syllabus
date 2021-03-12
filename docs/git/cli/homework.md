@@ -1,7 +1,7 @@
 ---
 id: homework
-title: Homework
-sidebar_label: Homework
+title: Coursework
+sidebar_label: Coursework
 ---
 
 ## 1) Read the Lesson Page Content (60 minutes)
@@ -40,10 +40,10 @@ https://github.com/jlord/git-it-electron#git-it
 
 You should complete the following sections on Git It
 
-- Get git
+- Get Git
 - Repository
 - Commit To It
-- Githubbin
+- GitHubbin
 - Remote Control
 - Forks and Clones
 
