@@ -239,7 +239,27 @@ If they give you suggestions, you should try to implement the suggestions, and p
 
 ## History
 
-One useful features of Git is how it stores your commits. In GitHub Desktop, if you open the History tab, you can see a list of each commit that's been made in the repository, with the oldest at the bottom and the newest at the top.
+One useful features of Git is how it stores your commits. Each time you commit, Git adds your new commit to a chain of commits, one after the other.
+
+You can imagine that each commit points at the commit before, and then adds its own changes on top. Maybe this is what we cloned from GitHub:
+
+![A chain of commits](./assets/commit-chain.png)
+
+Then when we commit locally, we add new commits to the end of the chain:
+
+![A longer chain of commits](./assets/longer-commit-chain.png)
+
+Until we push, GitHub and our computer will have different chains of history - the local history will be the same as the remote history, but with extra commits at the end:
+
+![Local and remote are different](./assets/local-remote-different.png)
+
+And then after we push, the extra commits are added to GitHub's history, and the chains will look the same:
+
+![Local and remote are the same](./assets/local-remote-same.png)
+
+### Exploring history
+
+In GitHub Desktop, if you open the History tab, you can see a list of each commit that's been made in the repository, with the oldest at the bottom and the newest at the top.
 
 If you click on one of the commits, you'll see the changes that happened in it. This can be really useful to understand how the repository evolved to how it looks today. It can also help us to find out when bugs were introduced!
 
