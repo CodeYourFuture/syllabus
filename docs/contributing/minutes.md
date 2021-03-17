@@ -3,6 +3,83 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+## 17/03/2021
+
+Attendance: Ali, Chris, Daniel, Greg, Matthew, Sally
+
+## Agenda
+
+-  Location for solutions to in-class exercises
+-  new Choose Your Own Adventure exercise for JS3 W1
+-  should we add a section about paths in JS? 
+-  MongoDB
+
+### Glasgow forking fundamentals
+
+Chris: Following up on our Scotland meeting - we are forking the repo and we would like them to raise issues and get their improvements feeding back in. Hopefully I'll invite them to come to these things again to have more of those kind of discussion.
+ 
+### Class exercises
+
+Daniel: Antigone put together solutions for class exercises. How and where should we maintain these solutions? Chris suggests tabs. Sally suggests passwords.
+
+#### Action items: 
+- now: put the solutions in tabs
+- future: produce a react component to lock the solutions in future and provide the password after the appropriate lesson
+
+### CYA coursework
+
+Ali: Everyone is happy. Ticket merged. Done!
+
+### Terminal lesson and Cowsay
+https://github.com/CodeYourFuture/syllabus/pull/189
+https://github.com/CodeYourFuture/syllabus/pull/166#issuecomment-770410775
+Discussion: Should we learn paths earlier on? They are not a react concept. If we teach it too early they won't retain it. We won't do paths earlier, but we will do them more in JS3. Possibly put cowsay into JS3 and require a bunch of stuff? 
+
+Ali: I wonder if we could actually take pretty much that entire coursework and turn it into a lesson in the end of js3. Chris: This one I think we definitely need an issue for it and it is gonna be a slightly longer running piece of work.
+
+#### Action items: 
+- Write a paths cheat sheet, SOMEONE? Ali?
+- Dropped thread: cowsay lesson/expansion - Sally will chase this up
+
+### General discussion about iterating and increasing complexity in exercises. 
+
+Would it be interesting or annoying to recap some of the exercises from js1? But with objects, eg the transport one, which is, how can you get with different means of Transport between two cities? Just give them exactly the same exercise, but put the data in objects?
+
+#### Action item:
+Repeat some exercises from week 1 but this time with objects instead of arrays. Sally to make issue.
+
+#### Action items:
+- Redo TV show project in React (with call back to earlier project)
+- Chris to contact Neil Bogie
+
+### MongoDB
+https://github.com/CodeYourFuture/syllabus/discussions/192
+
+* Glasgow school got on well with Postgres
+* He proposes to write out a list of all the things he plans to do so it can be reviewed
+* Hopes to have this ready in 3 months
+* Discussion about mongoDB vs Postgres - 
+
+#### Action item:
+Chris to speak to London teachers and see what they want to teach this year PostGres/Mongo
+
+### Assessments
+https://github.com/CodeYourFuture/JavaScript-Core-2-Assessment/blob/main/scrabble.md
+
+Snapshot assessment at JS2 proved very useful. Teachers want it for JS1 JS3, and React.
+The marking guide is the key part needed here. 
+
+Action items: 
+- Daniel will work on JS3, Matthew will work on JS1. Two assessments of 15 mins each, with a rubric to guide marking.
+- Ali wrote an assessment for React, an open book assesment. Find it, update it, and add it.
+
+### Homework marking guide
+
+We want to write marking guides for buddies. Each coursework should have one. It should cover: the object of the coursework, key points to look for, common mistakes, and how to respond.
+
+#### Action items:
+- Chris is working on this. 
+- Sally will review student submissions and find more patterns.
 
 ## 17/02/2021
 
