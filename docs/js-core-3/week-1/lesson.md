@@ -280,6 +280,13 @@ We have created a sample ESLint configuration to help you get started. You can d
 
 ```javascript
 {
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "semi": ["warn", "always"],
     "quotes": ["warn", "double"],
