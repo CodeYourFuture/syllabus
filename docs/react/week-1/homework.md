@@ -6,11 +6,7 @@ sidebar_label: Coursework
 
 ## 1) Review Solutions for the TV Show Project
 
-At the end of this week, be sure to review the solutions for last weeks coursework
-
-https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week3-Solution
-
-and
+At the end of this week, be sure to review
 
 https://github.com/CodeYourFuture/TV-Show-DOM-Project-Solution
 
