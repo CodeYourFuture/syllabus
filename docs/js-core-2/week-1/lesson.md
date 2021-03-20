@@ -5,6 +5,7 @@ sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
+import ExerciseSolutions from "@theme/ExerciseSolutions";
 
 ## Contents
 
@@ -1171,6 +1172,30 @@ const studentGrades = {
 // TOM - 20
 // ABDUL - 19
 ```
+
+## In Class Exercise Solutions
+
+Below are the solutions to the exercises you did in class. Your teacher will provide the password to unlock the solutions after the lesson.
+
+<ExerciseSolutions password="password">
+
+### Objects
+
+#### Exercise (1)
+
+The solution to this depends on your laptop! Here's an example:
+
+```js
+let laptop = {
+  brand: "Apple",
+  model: "MacBook Pro",
+  screenSize: 13,
+};
+
+console.log(laptop);
+```
+
+</ExerciseSolutions>
 
 ## Coursework
 
