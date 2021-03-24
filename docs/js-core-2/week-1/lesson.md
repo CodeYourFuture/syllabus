@@ -5,6 +5,7 @@ sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
+import Tabs from "@theme/Tabs";
 import ExerciseSolutions from "@theme/ExerciseSolutions";
 
 ## Contents
@@ -50,6 +51,11 @@ let laptop = {
 
 ### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[{ label: "Exercise", value: "exercise" }, { label:"Solution", value: "solution" }]}>
+<TabItem value="exercise">
+
 Describe your own laptop as a JavaScript object. Try to think of as many properties as you can!
 
 Example:
@@ -61,6 +67,28 @@ let laptop = {
   isTouchscreen: true,
 };
 ```
+
+</TabItem>
+<TabItem value="solution">
+
+<ExerciseSolutions password="password">
+
+The solution to this depends on your laptop! Here's an example:
+
+```js
+let laptop = {
+  brand: "Apple",
+  model: "MacBook Pro",
+  screenSize: 13,
+};
+
+console.log(laptop);
+```
+
+</ExerciseSolutions>
+
+</TabItem>
+</Tabs>
 
 ### Exercise (2)
 
@@ -1172,30 +1200,6 @@ const studentGrades = {
 // TOM - 20
 // ABDUL - 19
 ```
-
-## In Class Exercise Solutions
-
-Below are the solutions to the exercises you did in class. Your teacher will provide the password to unlock the solutions after the lesson.
-
-<ExerciseSolutions password="password">
-
-### Objects
-
-#### Exercise (1)
-
-The solution to this depends on your laptop! Here's an example:
-
-```js
-let laptop = {
-  brand: "Apple",
-  model: "MacBook Pro",
-  screenSize: 13,
-};
-
-console.log(laptop);
-```
-
-</ExerciseSolutions>
 
 ## Coursework
 
