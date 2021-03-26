@@ -79,8 +79,7 @@ function Home() {
               <li>Glasgow</li>
               <li>Manchester</li>
               <li>Birmingham</li>
-              <li>Rome</li>
-              <li>Medellín</li>
+              <li>Palestine/Gaza</li>
               <li>Cape Town</li>
             </ul>
             <p>
