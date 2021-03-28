@@ -153,9 +153,18 @@ console.log(laptop["brand"]);
 
 Console.log the values of each property of "kitten"
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
 /*
-Console.log the values of each property of "kitten"
+    Console.log the values of each property of "kitten"
 */
 
 let kitten = {
@@ -165,7 +174,42 @@ let kitten = {
 };
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+    Console.log the values of each property of "kitten"
+*/
+
+let kitten = {
+  ageMonths: 3,
+  isFemale: true,
+  furColour: "brown",
+};
+
+// YOUR CODE GOES BELOW HERE
+console.log(kitten.ageMonths);
+console.log(kitten.isFemale);
+console.log(kitten.furColour);
+
+// YOUR CODE GOES ABOVE HERE
+```
+
+</TabItem>
+</Tabs>
+
 #### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -174,14 +218,14 @@ Once you fix them, run the code, it should output the correct values!
 */
 
 let phone = {
-    brand:'iPhone,
-    model 'iPhone X'
-    launchYear: 2017,
-    is Unlocked: true
+  brand:'iPhone,
+  model 'iPhone X'
+  launchYear: 2017,
+  is Unlocked: true
 ;
 
-let phoneBrand = phone.bbrand;
-let phoneLaunchYear = phone[launchYear];
+let phoneBrand = phone.brand;
+let phoneLaunchYear = phone["launchYear"];
 
 console.log(phoneBrand);
 console.log(phoneLaunchYear);
@@ -190,6 +234,37 @@ console.log(phoneLaunchYear);
 // iPhone
 // 2017
 ```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+The following code contains syntax errors - try and fix them!
+Once you fix them, run the code, it should output the correct values!
+*/
+
+let phone = {
+  brand: "iPhone",
+  model: "iPhone X",
+  launchYear: 2017,
+  isUnlocked: true,
+};
+
+let phoneBrand = phone.brand;
+let phoneLaunchYear = phone["launchYear"];
+
+console.log(phoneBrand);
+console.log(phoneLaunchYear);
+
+// it should output:
+// iPhone
+// 2017
+```
+
+</TabItem>
+</Tabs>
 
 ### Setting the value of a property
 
@@ -217,9 +292,18 @@ laptop.screenSize = 15;
 
 #### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
 /*
-Write code in the space provided so that it outputs "Gilbert"
+  Write code in the space provided so that it outputs "Gilbert"
 */
 
 // WRITE CODE BELOW THIS
@@ -230,11 +314,44 @@ console.log(kitten.name);
 // -> it should output: "Gilbert"
 ```
 
-#### Exercise (2)
+</TabItem>
+
+<TabItem value="solution">
 
 ```js
 /*
-Write code in the space provided so that the expected values output
+  Write code in the space provided so that it outputs "Gilbert"
+*/
+
+// WRITE CODE BELOW THIS
+const kitten = {
+  name: "Gilbert",
+};
+
+// WRITE CODE ABOVE THIS
+
+console.log(kitten.name);
+
+// -> it should output: "Gilbert"
+```
+
+</TabItem>
+</Tabs>
+
+#### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+```js
+/*
+  Write code in the space provided so that the expected values output
 */
 
 let dog = {
@@ -254,6 +371,38 @@ console.log(dog.wantsToPlay);
 // true
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+  Write code in the space provided so that the expected values output
+*/
+
+let dog = {
+  name: "Billy",
+  wantsToPlay: false,
+};
+
+// WRITE CODE BELOW THIS LINE
+dog.name = "Rex";
+dog.wantsToPlay = true;
+
+// WRITE CODE ABOVE THIS LINE
+
+//DO NOT MODIFY BELOW
+console.log(dog.name);
+console.log(dog.wantsToPlay);
+
+// it should output:
+// Rex
+// true
+```
+
+</TabItem>
+</Tabs>
+
 ## More Complex Objects
 
 Object properties can even be assigned other objects, arrays or variables too. The example below shows an object with keys that have been assigned a variable, an array, and an object.
@@ -272,13 +421,28 @@ let kitten = {
 };
 ```
 
-#### Exercise (1)
+<!-- These imports are used to enable this feature. Do not delete. -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+### Exercise (1)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
-Given the following house - follow the instructions below.
+  Given the following house - follow the instructions below.
 
-Make sure you run the file after and it outputs the correct results.
+  Make sure you run the file after and it outputs the correct results.
 */
 
 let house = {
@@ -315,13 +479,75 @@ console.log(
 );
 ```
 
-#### Exercise (2)
+</TabItem>
+
+<TabItem value="solution">
 
 ```js
 /*
-Given the same "house" object again
+  Given the following house - follow the instructions below.
 
-Follow the instructions below and then run the file and make sure it outputs the correct results
+  Make sure you run the file after and it outputs the correct results.
+*/
+
+let house = {
+  address: "1 Kinning Park",
+  previousOwners: ["Claire M.", "John A."],
+  currentOwner: {
+    firstName: "Margaret",
+    lastName: "Conway",
+  },
+};
+
+/*
+  DO NOT EDIT ANYTHING ABOVE THIS LINE
+
+  WRITE YOUR CODE BELOW
+*/
+
+// - change the address of "house" to "51 Berkley Road"
+house.address = "51 Berkley Road";
+// - change the previous owners of "house" to ["Brian M.", "Fiona S."]
+house.previousOwners = ["Brian M.", "Fiona S."];
+// - change the last name of the current owner of "house" to "Montgomery"
+house.currentOwner.lastName = "Montgomery";
+
+/*
+  DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+console.log(
+  "Expected result: 51 Berkley Road. Actual result: " + house.address
+);
+console.log(
+  "Expected result: Brian M., Fiona S. Actual result: " +
+    house.previousOwners.toString()
+);
+console.log(
+  "Expected result: Montgomery. Actual result: " + house.currentOwner.lastName
+);
+```
+
+</TabItem>
+</Tabs>
+
+### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+```js
+/*
+    Given the same "house" object again
+
+    Follow the instructions below and then run the file 
+    and make sure it outputs the correct results
 */
 
 let house = {
@@ -362,15 +588,78 @@ console.log(
 console.log(`Expected result: false. Actual result: ${house.isForSale}`);
 ```
 
-#### Exercise (3)
+</TabItem>
+<TabItem value="solution">
 
 ```js
 /*
+    Given the same "house" object again
 
-Given the same "house" object again
+    Follow the instructions below and then run the file 
+    and make sure it outputs the correct results
+*/
 
-Write the code for the functions as per the description above them
+let house = {
+  address: "1 Kinning Park",
+  previousOwners: ["Claire M.", "John A."],
+  currentOwner: {
+    firstName: "Margaret",
+    lastName: "Conway",
+  },
+};
 
+let newCurrentOwner = {
+  firstName: "Georgina",
+  lastName: "Hernandez",
+};
+
+/*
+  DO NOT EDIT ANYTHING ABOVE THIS LINE
+
+  WRITE YOUR CODE BELOW
+*/
+
+// - assign the value of the variable 'newCurrentOwner' as the value to the house's "currentOwner"
+house.currentOwner = newCurrentOwner;
+// - from the list of previous owners, replace only "John A." with "Stephen B."
+house.previousOwners[1] = "Stephen B.";
+// - give the house a new property called 'isForSale' with the value 'false'
+house.isForSale = false;
+
+/*
+  DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+console.log(
+  "Did you correctly assign the new owner using the given variable?",
+  `Expected result: true. Actual result: ${
+    house.currentOwner === newCurrentOwner
+  }`
+);
+console.log(
+  `Expected result: Claire M., Stephen B.Actual result: ${house.previousOwners.toString()}`
+);
+console.log(`Expected result: false.Actual result: ${house.isForSale}`);
+```
+
+</TabItem>
+</Tabs>
+
+### Exercise (3)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+```js
+/*
+    Given the same "house" object again
+
+    Write the code for the functions as per the description above them
 */
 
 let kinningParkHouse = {
@@ -429,6 +718,83 @@ console.log(
   )}`
 );
 ```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+    Given the same "house" object again
+
+    Write the code for the functions as per the description above them
+*/
+
+let kinningParkHouse = {
+  address: "1 Kinning Park",
+  price: 180000,
+  currentOwner: {
+    firstName: "Margaret",
+    lastName: "Conway",
+    email: "margaret@fake-emails.com",
+  },
+};
+
+let parkAvenueHouse = {
+  address: "50 Park Avenue",
+  price: 195000,
+  currentOwner: {
+    firstName: "Marie",
+    lastName: "McDonald",
+    email: "marie.m@real-emails.com",
+  },
+};
+
+/*
+  DO NOT EDIT ANYTHING ABOVE THIS LINE
+
+  WRITE YOUR CODE BELOW
+*/
+
+// returns the full name (first name + last name) of the owner of the house
+function getOwnerFullName(house) {
+  return `${house.currentOwner.firstName} ${house.currentOwner.lastName}`;
+}
+
+// returns an array of the owners' email addresses of the two houses
+function getEmailAddresses(house1, house2) {
+  return [house1.currentOwner.email, house2.currentOwner.email];
+}
+
+// returns the address for the cheapest house out of the two
+function getCheapestAddress(house1, house2) {
+  return house1.price < house2.price ? house1.address : house2.address;
+}
+
+/*
+  DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+console.log(
+  `Expected result: Margaret Conway. Actual result: ${getOwnerFullName(
+    kinningParkHouse
+  )}`
+);
+console.log(
+  `Expected result: margaret@fake-emails.com, marie.m@real-emails.com. Actual result: ${getEmailAddresses(
+    kinningParkHouse,
+    parkAvenueHouse
+  )}`
+);
+console.log(
+  `Expected result: 1 Kinning Park. Actual result: ${getCheapestAddress(
+    parkAvenueHouse,
+    kinningParkHouse
+  )}`
+);
+```
+
+</TabItem>
+</Tabs>
 
 ## Object Methods
 
@@ -500,7 +866,16 @@ console.log(athlete.goldMedals); // prints "25"
 console.log(athlete.silverMedals); // prints "8"
 ```
 
-#### Exercise (1)
+### Exercise (1)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -528,7 +903,40 @@ console.log(
 );
 ```
 
-#### Exercise (2)
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+
+A person named Alice is defined below.
+  1. Add a method "greet" so this person can say hello.
+  2. Add a method "sayName" so this person can say their own name. Hint: use 'this' keyword to access the name property.
+
+*/
+
+let person = {
+  name: "Alice",
+  age: 25,
+  greet: function () {
+    return "Hello everybody";
+  },
+};
+
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+console.log(
+  `Expected result: Hello everybody. Actual result: ${person.greet()}`
+);
+```
+
+</TabItem>
+</Tabs>
+
+### Exercise (2)
 
 The following code contains syntax errors - try and fix them!
 Once you fix them, run this file, it should output the correct values!
@@ -553,7 +961,7 @@ let person = {
 };
 ```
 
-#### Exercise (3)
+### Exercise (3)
 
 ```js
 /*
@@ -587,7 +995,16 @@ console.log(`Expected result: 26. Actual result: ${person.age}`);
 
 ```
 
-#### Exercise (4)
+### Exercise (4)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -612,7 +1029,49 @@ console.log(
 );
 ```
 
-#### Exercise (5)
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+Alice has a list of good friends.
+
+Define a method "makeFriend" to add a new friend to her list.
+*/
+
+let person = {
+  name: "Alice",
+  friends: ["John", "Nina"],
+  makeFriend: function (friendName) {
+    this.friends.push(friendName);
+  },
+};
+
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+person.makeFriend("Bob");
+
+console.log(
+  `Expected result: 'John,Nina,Bob'. Actual result: ${person.friends}`
+);
+```
+
+</TabItem>
+</Tabs>
+
+### Exercise (5)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -670,6 +1129,78 @@ console.log(
 );
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+A coffee machine is defined below.
+One can buy three different coffees.
+Complete the methods "insertMoney" and "getCoffee" to match the expected result.
+
+insertMoney takes an amount in parameter to add money in the coffee machine.
+getCoffee takes a coffee type in parameter and dispends the selected coffee
+only if the inserted amount is greater or equal than the price of the coffee!
+*/
+
+let coffeeMachine = {
+  brand: "Super Coffee",
+  prices: {
+    cappuccino: 2.4,
+    blackCoffee: 1.5,
+    flatWhite: 3.0,
+  },
+  insertedAmount: 0,
+  insertMoney: function (amount) {
+    this.insertedAmount += amount; // or this.insertedAmount = this.insertedAmount + amount;
+  },
+  getCoffee: function (coffee) {
+    if (this.insertedAmount >= this.prices[coffee]) {
+      this.insertedAmount = 0; // insertedAmount resets after a transaction
+      return `Please take your ${coffee}`;
+    } else {
+      return `Sorry you don't have enough money for a ${coffee}`;
+    }
+  },
+};
+
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+coffeeMachine.insertMoney(2.4);
+console.log(
+  `Expected result: 'Please take your cappuccino'. Actual result: ${coffeeMachine.getCoffee(
+    "cappuccino"
+  )}`
+);
+
+coffeeMachine.insertMoney(1.5);
+console.log(
+  `Expected result: 'Please take your blackCoffee'. Actual result: ${coffeeMachine.getCoffee(
+    "blackCoffee"
+  )}`
+);
+
+coffeeMachine.insertMoney(4.0);
+console.log(
+  `Expected result: 'Please take your flatWhite'. Actual result: ${coffeeMachine.getCoffee(
+    "flatWhite"
+  )}`
+);
+
+coffeeMachine.insertMoney(2.4);
+console.log(
+  `Expected result: 'Sorry you don't have enough money for a flatWhite'. Actual result: ${coffeeMachine.getCoffee(
+    "flatWhite"
+  )}`
+);
+```
+
+</TabItem>
+</Tabs>
+
 ## Arrays of objects
 
 In the past weeks, you've learned about using arrays of numbers, arrays of string etc... In the following, we will learn how to use arrays of objects.
@@ -715,6 +1246,15 @@ kittens.map(getName); // returns ["Fluffy", "Megatron", "Billy"]
 
 ### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
 /*
 1) Define an array containing the 3 persons defined below.
@@ -723,18 +1263,18 @@ kittens.map(getName); // returns ["Fluffy", "Megatron", "Billy"]
 */
 
 let person1 = {
-    name: "Alice",
-    age: 25
+  name: "Alice",
+  age: 25,
 };
 
 let person2 = {
-    name: "Bob",
-    age: 30
+  name: "Bob",
+  age: 30,
 };
 
 let person3 = {
-    name: "John",
-    age: 20
+  name: "John",
+  age: 20,
 };
 
 /*
@@ -742,30 +1282,120 @@ DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
 
-
 let persons = // Complete here
 
 let personNames = // Complete here
 
 let personsYoungerThan28YearsOld = // Complete here
 
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+console.log(
+  "Question 1: array defined with 3 persons -> ",
+  persons[0] === person1 && persons[1] === person2 && persons[2] === person3
+    ? "Passed :)"
+    : "Not yet :("
+);
+
+console.log(
+  "Question 2: array containing the person names -> ",
+  personNames[0] === "Alice" &&
+    personNames[1] === "Bob" &&
+    personNames[2] === "John"
+    ? "Passed :)"
+    : "Not yet :("
+);
+
+console.log(
+  "Question 3: array containing the persons younger than 28 years old -> ",
+  personsYoungerThan28YearsOld[0] === person1 &&
+    personsYoungerThan28YearsOld[1] === person3
+    ? "Passed :)"
+    : "Not yet :("
+);
+```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+1) Define an array containing the 3 persons defined below.
+2) Return an array of the person names (hint: use map).
+3) Filter the persons to return an array with the person younger than 28 years old (hint: use filter).
+*/
+
+let person1 = {
+  name: "Alice",
+  age: 25,
+};
+
+let person2 = {
+  name: "Bob",
+  age: 30,
+};
+
+let person3 = {
+  name: "John",
+  age: 20,
+};
+
+/*
+DO NOT EDIT ANYTHING ABOVE THIS LINE
+WRITE YOUR CODE BELOW
+*/
+
+let persons = [person1, person2, person3];
+
+let personNames = persons.map((person) => person.name);
+
+let personsYoungerThan28YearsOld = persons.filter((person) => person.age < 28);
 
 /*
 DO NOT EDIT ANYTHING BELOW THIS LINE
 */
 
-console.log("Question 1: array defined with 3 persons -> ",
-    (persons[0] === person1 && persons[1] === person2 && persons[2] === person3) ? 'Passed :)' : 'Not yet :(');
+console.log(
+  "Question 1: array defined with 3 persons -> ",
+  persons[0] === person1 && persons[1] === person2 && persons[2] === person3
+    ? "Passed :)"
+    : "Not yet :("
+);
 
-console.log("Question 2: array containing the person names -> ",
-    (personNames[0] === "Alice" && personNames[1] === "Bob" && personNames[2] === "John") ? 'Passed :)' : 'Not yet :(');
+console.log(
+  "Question 2: array containing the person names -> ",
+  personNames[0] === "Alice" &&
+    personNames[1] === "Bob" &&
+    personNames[2] === "John"
+    ? "Passed :)"
+    : "Not yet :("
+);
 
-console.log("Question 3: array containing the persons younger than 28 years old -> ",
-    (personsYoungerThan28YearsOld[0] === person1 && personsYoungerThan28YearsOld[1] === person3) ? 'Passed :)' : 'Not yet :(');
-
+console.log(
+  "Question 3: array containing the persons younger than 28 years old -> ",
+  personsYoungerThan28YearsOld[0] === person1 &&
+    personsYoungerThan28YearsOld[1] === person3
+    ? "Passed :)"
+    : "Not yet :("
+);
 ```
 
+</TabItem>
+</Tabs>
+
 ### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -777,38 +1407,41 @@ Each destination has a name, a distance from Glasgow, and a list of transportati
 3) Print in the console all the destination names more than 300 kms far away and reachable by train.
 */
 
-
 let destination1 = {
-    destinationName: "Edinburgh",
-    distanceKms: 80,
-    transportations: ["car", "bus", "train"]
+  destinationName: "Edinburgh",
+  distanceKms: 80,
+  transportations: ["car", "bus", "train"],
 };
 
 let destination2 = {
-    destinationName: "London",
-    distanceKms: 650,
-    transportations: ["car", "bus", "train"]
+  destinationName: "London",
+  distanceKms: 650,
+  transportations: ["car", "bus", "train"],
 };
 
 let destination3 = {
-    destinationName: "Paris",
-    distanceKms: 900,
-    transportations: ["train", "plane"]
+  destinationName: "Paris",
+  distanceKms: 900,
+  transportations: ["train", "plane"],
 };
 
 let destination4 = {
-    destinationName: "Dublin",
-    distanceKms: 350,
-    transportations: ["plane", "ferry"]
+  destinationName: "Dublin",
+  distanceKms: 350,
+  transportations: ["plane", "ferry"],
 };
 
-let travelDestinations = [destination1, destination2, destination3, destination4];
+let travelDestinations = [
+  destination1,
+  destination2,
+  destination3,
+  destination4,
+];
 
 /*
 DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
-
 
 let destinationNamesWithin500Kms = // Complete here
 
@@ -816,27 +1449,136 @@ let destinationNameReachableByFerry = // Complete here
 
 let destinationNamesMoreThan300KmsAwayByTrain = // Complete here (PRINT THE RESULT IN THE CONSOLE USING FOREACH)
 
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+console.log(
+  `Question 1) Expected result: Edinburgh,Dublin, actual result: ${destinationNamesWithin500Kms}`
+);
+console.log(
+  `Question 2) Expected result: Dublin, actual result: ${destinationNameReachableByFerry}`
+);
+console.log(
+  `Question 3) Expected result: London,Paris, actual result: ${destinationNamesMoreThan300KmsAwayByTrain}`
+);
+
+
+```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+An array of travel destinations is defined below.
+Each destination has a name, a distance from Glasgow, and a list of transportations available to go there.
+
+1) Filter the travelDestinations array to return all destination names reachable within 500 kms.
+2) Find a destination name reachable by ferry.
+3) Print in the console all the destination names more than 300 kms far away and reachable by train.
+*/
+
+let destination1 = {
+  destinationName: "Edinburgh",
+  distanceKms: 80,
+  transportations: ["car", "bus", "train"],
+};
+
+let destination2 = {
+  destinationName: "London",
+  distanceKms: 650,
+  transportations: ["car", "bus", "train"],
+};
+
+let destination3 = {
+  destinationName: "Paris",
+  distanceKms: 900,
+  transportations: ["train", "plane"],
+};
+
+let destination4 = {
+  destinationName: "Dublin",
+  distanceKms: 350,
+  transportations: ["plane", "ferry"],
+};
+
+let travelDestinations = [
+  destination1,
+  destination2,
+  destination3,
+  destination4,
+];
+
+/* 
+DO NOT EDIT ANYTHING ABOVE THIS LINE
+WRITE YOUR CODE BELOW
+*/
+
+let getDestinationName = (destination) => destination.destinationName;
+
+let isWithin500Kms = (destination) => destination.distanceKms <= 500;
+let destinationNamesWithin500Kms = travelDestinations
+  .filter(isWithin500Kms)
+  .map(getDestinationName);
+// or in one line
+// let destinationNamesWithin500Kms = travelDestinations.filter(destination=>destination.distanceKms<=500).map(destination=>destination.destinationName);
+
+let isReachableByFerry = (destination) =>
+  destination.transportations.includes("ferry");
+let destinationNameReachableByFerry = travelDestinations
+  .filter(isReachableByFerry)
+  .map(getDestinationName);
+// or in one line
+// let destinationNameReachableByFerry = travelDestinations.filter(destination=>destination.transportations.includes('ferry')).map(destination=>destination.destinationName);
+
+let isMoreThan300KmsAwayByTrain = (destination) =>
+  destination.distanceKms > 300 &&
+  destination.transportations.includes("train");
+let destinationNamesMoreThan300KmsAwayByTrain = travelDestinations
+  .filter(isMoreThan300KmsAwayByTrain)
+  .map(getDestinationName);
+// or in one line
+// let destinationNamesMoreThan300KmsAwayByTrain = travelDestinations.filter(destination=>destination.distanceKms>300 && destination.transportations.includes('train')).map(destination=>destination.destinationName)
 
 /*
 DO NOT EDIT ANYTHING BELOW THIS LINE
 */
 
-console.log(`Question 1) Expected result: Edinburgh,Dublin, actual result: ${destinationNamesWithin500Kms}`);
-console.log(`Question 2) Expected result: Dublin, actual result: ${destinationNameReachableByFerry}`);
-console.log(`Question 3) Expected result: London,Paris, actual result:  ${destinationNamesMoreThan300KmsAwayByTrain}`);
-
+console.log(
+  `Question 1) Expected result: Edinburgh,Dublin, actual result: ${destinationNamesWithin500Kms}`
+);
+console.log(
+  `Question 2) Expected result: Dublin, actual result: ${destinationNameReachableByFerry}`
+);
+console.log(
+  `Question 3) Expected result: London,Paris, actual result: ${destinationNamesMoreThan300KmsAwayByTrain}`
+);
 ```
+
+</TabItem>
+</Tabs>
 
 ### Exercise (3)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
-/*
-Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats,
+/* 
+Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats, 
 the number of customers in the restaurant at the moment and the menu with prices.
 
 We want to build an object to simulate a Restaurant Finder application (see below restaurantFinderApplication).
 
-1) Define a method findAvailableRestaurants which takes a number of people in parameter and returns
+1) Define a method findAvailableRestaurants which takes a number of people in parameter and returns 
 all the restaurant names which have the required number of seats available at the moment.
 
 2) Define a method findRestaurantServingDish which takes a dish name in parameter and returns
@@ -927,6 +1669,128 @@ console.log(
 );
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/* 
+Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats, 
+the number of customers in the restaurant at the moment and the menu with prices.
+
+We want to build an object to simulate a Restaurant Finder application (see below restaurantFinderApplication).
+
+1) Define a method findAvailableRestaurants which takes a number of people in parameter and returns 
+all the restaurant names which have the required number of seats available at the moment.
+
+2) Define a method findRestaurantServingDish which takes a dish name in parameter and returns
+all the restaurant names serving this dish.
+
+3) Define a method countNumberOfRestaurantsInArea which takes an area of Glasgow in parameter (center, west),
+and returns the number of restaurants in this area.
+*/
+
+let restaurant1 = {
+  name: "Paesano",
+  totalSeats: 10,
+  numberOfCustomers: 8,
+  address: {
+    city: "Glasgow",
+    area: "center",
+  },
+  menu: ["pizza", "calzone", "salad"],
+};
+
+let restaurant2 = {
+  name: "Ubiquitous Chip",
+  totalSeats: 20,
+  numberOfCustomers: 10,
+  address: {
+    city: "Glasgow",
+    area: "west",
+  },
+  menu: ["salad", "chocolate cake", "roast lamb"],
+};
+
+let restaurant3 = {
+  name: "Monkeyz",
+  totalSeats: 15,
+  numberOfCustomers: 8,
+  address: {
+    city: "Glasgow",
+    area: "center",
+  },
+  menu: ["stew", "chocolate cake", "panini"],
+};
+
+let restaurants = [restaurant1, restaurant2, restaurant3];
+
+/* 
+DO NOT EDIT ANYTHING ABOVE THIS LINE
+WRITE YOUR CODE BELOW
+*/
+
+const isRestaurantAvailable = (restaurant, numberOfPeople) => {
+  const availableSeats = restaurant.totalSeats - restaurant.numberOfCustomers;
+  return availableSeats >= numberOfPeople;
+};
+
+const includesDish = (restaurant, dishName) =>
+  restaurant.menu.includes(dishName);
+
+let restaurantFinderApplication = {
+  applicationName: "Restaurant Finder",
+  applicationVersion: "1.0",
+  restaurants: restaurants,
+  findAvailableRestaurants: function (numberOfPeople) {
+    return restaurants
+      .filter((restaurant) => isRestaurantAvailable(restaurant, numberOfPeople))
+      .map((restaurant) => restaurant.name);
+    // or
+    // return restaurants.filter((restaurant) => (restaurant.totalSeats - restaurant.numberOfCustomers) >= numberOfPeople ).map(restaurant => restaurant.name);
+  },
+  findRestaurantServingDish: function (dishName) {
+    return restaurants
+      .filter((restaurant) => includesDish(restaurant, dishName))
+      .map((restaurant) => restaurant.name);
+    // or
+    // return restaurants.filter(restaurant => restaurant.menu.includes(dishName)).map(restaurant => restaurant.name);
+  },
+  countNumberOfRestaurantsInArea: function (area) {
+    return restaurants.filter((restaurant) => restaurant.address.area === area)
+      .length;
+  },
+};
+
+/*
+DO NOT EDIT ANYTHING BELOW THIS LINE
+*/
+
+let restaurantsAvailableFor5People = restaurantFinderApplication.findAvailableRestaurants(
+  5
+);
+console.log(
+  `Find available restaurants for 5 people: Expected result: Ubiquitous Chip,Monkeyz, actual result: ${restaurantsAvailableFor5People}`
+);
+
+let restaurantsServingSalad = restaurantFinderApplication.findRestaurantServingDish(
+  "salad"
+);
+console.log(
+  `Find restaurants serving salad: Expected result: Paesano,Ubiquitous Chip, actual result: ${restaurantsServingSalad}`
+);
+
+let numberOfRestaurantsInCityCentre = restaurantFinderApplication.countNumberOfRestaurantsInArea(
+  "center"
+);
+console.log(
+  `Number of restaurants in city centre: Expected result: 2, actual result: ${numberOfRestaurantsInCityCentre}`
+);
+```
+
+</TabItem>
+</Tabs>
+
 ## Object built-in methods
 
 Since we started JavaScript, we have used `console.log` to print things to our console.
@@ -973,6 +1837,15 @@ console.log(Object.values(footballClubs));
 
 ### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
 /*
 
@@ -981,17 +1854,17 @@ Return the keys and values of the following object
 */
 
 let capitalCities = {
-  scotland: 'Edinburgh',
-  kenya: 'Nairobi',
-  australia: 'Canberra',
-  canada: 'Ottawa'
+  scotland: "Edinburgh",
+  kenya: "Nairobi",
+  australia: "Canberra",
+  canada: "Ottawa",
 };
 
 let highScores = {
-  55: 'Alistair',
-  100: 'David',
-  89: 'Hannah',
-  34: ['Sergi', 'Frank',]
+  55: "Alistair",
+  100: "David",
+  89: "Hannah",
+  34: ["Sergi", "Frank"],
 };
 
 // ONLY EDIT BELOW HERE
@@ -1006,18 +1879,76 @@ let highScoresValues = ;
 console.log(capitalCitiesKeys);
 // prints [ 'scotland', 'kenya', 'australia', 'canada' ]
 
-console.log(highScoresKeys)
+console.log(highScoresKeys);
 // prints ['34, '55', '89', '100']
 
 console.log(capitalCitiesValues);
 // prints [ 'Edinburgh', 'Nairobi', 'Canberra', 'Ottawa' ]
 
-console.log(highScoresValues)
+console.log(highScoresValues);
 // prints [[ 'Sergi', 'Frank' ], 'Alistair, 'David', 'Hannah']
-
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+
+Return the keys and values of the following object
+
+*/
+
+let capitalCities = {
+  scotland: "Edinburgh",
+  kenya: "Nairobi",
+  australia: "Canberra",
+  canada: "Ottawa",
+};
+
+let highScores = {
+  55: "Alistair",
+  100: "David",
+  89: "Hannah",
+  34: ["Sergi", "Frank"],
+};
+
+// ONLY EDIT BELOW HERE
+
+let capitalCitiesKeys = Object.keys(capitalCities);
+let highScoresKeys = Object.keys(highScores);
+let capitalCitiesValues = Object.values(capitalCities);
+let highScoresValues = Object.values(highScores);
+
+// ONLY EDIT ABOVE HERE
+
+console.log(capitalCitiesKeys);
+// prints [ 'scotland', 'kenya', 'australia', 'canada' ]
+
+console.log(highScoresKeys);
+// prints ['34, '55', '89', '100']
+
+console.log(capitalCitiesValues);
+// prints [ 'Edinburgh', 'Nairobi', 'Canberra', 'Ottawa' ]
+
+console.log(highScoresValues);
+// prints [[ 'Sergi', 'Frank' ], 'Alistair, 'David', 'Hannah']
+```
+
+</TabItem>
+</Tabs>
+
 ### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -1032,7 +1963,7 @@ let mentorsAges = {
   james: 29,
   JOSH: 35,
   JAMIE: 25,
-  Mozafar: 30
+  Mozafar: 30,
 };
 
 // ONLY EDIT BELOW THIS LINE
@@ -1048,7 +1979,53 @@ console.log(mentorsNamedUppercased);
 
 ```
 
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+
+You have an object of mentors and their ages below, but the keys are inconsistent. JOSH and JAMIE are uppercase, while james and Mozafar are not. You want to return an array of mentors with the names in uppercase.
+
+You're going to have to used what we learned at the start of this lesson, and some other JavaScript methods to accomplish this task.
+
+*/
+
+let mentorsAges = {
+  james: 29,
+  JOSH: 35,
+  JAMIE: 25,
+  Mozafar: 30,
+};
+
+// ONLY EDIT BELOW THIS LINE
+
+let mentorsNames = Object.keys(mentorsAges);
+
+let mentorsNamedUppercased = mentorsNames.map((mentorName) =>
+  mentorName.toUpperCase()
+);
+
+// ONLY EDIT ABOVE THIS LINE
+
+console.log(mentorsNamedUppercased);
+// prints [ 'JAMES', 'JOSH', 'JAMIE', 'MOZAFAR' ]
+```
+
+</TabItem>
+</Tabs>
+
 ### Exercise (3)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 ```js
 /*
@@ -1098,6 +2075,62 @@ console.log();
 
 // ONLY EDIT ABOVE THIS LINE
 ```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+/*
+
+Objects very often contain other objects.
+
+This exercise will give you practice in getting the keys of objects inside other objects.
+
+Use the provided console.log statements below and follow the instructions above them.
+
+*/
+
+let storeBranches = {
+  glasgow: {
+    manager: "Andrew",
+    assistant: "Laura",
+    interns: {
+      head_intern: "Mozafar",
+      intern: "James",
+    },
+  },
+
+  edinburgh: {
+    director: "Kelly",
+    manager: "Sally",
+    assistant: "Derek",
+    interns: {
+      head_intern: "John",
+      intern: "Sarah",
+    },
+  },
+};
+
+// ONLY EDIT BELOW THIS LINE
+
+// # 1
+// prints [ 'glasgow', 'edinburgh' ]
+console.log(Object.keys(storeBranches));
+
+// # 2
+// prints [ 'manager', 'assistant', 'interns' ]
+console.log(Object.keys(storeBranches.glasgow));
+
+// # 3
+// prints [ 'head_intern', 'intern' ]
+console.log(Object.keys(storeBranches.glasgow.interns));
+
+// ONLY EDIT ABOVE THIS LINE
+```
+
+</TabItem>
+</Tabs>
 
 ## Loop through an Object
 
@@ -1156,6 +2189,15 @@ flowerKeys.forEach((key) => {
 
 #### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 ```js
 // You are given an object of student names and grades
 // Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
@@ -1171,6 +2213,43 @@ const studentGrades = {
 // TOM - 20
 // ABDUL - 19
 ```
+
+</TabItem>
+
+<TabItem value="solution">
+
+```js
+// You are given an object of student names and grades
+// Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
+// Try to use both methods shown above to achieve this
+
+const studentGrades = {
+  tom: 20,
+  george: 17,
+  abdul: 19,
+};
+
+for (let name in studentGrades) {
+  if (studentGrades[name] > 18) {
+    console.log(`${name.toUpperCase()} - ${studentGrades[name]}`);
+  }
+}
+
+// Alternatively:
+// const studentNames = Object.keys(studentGrades);
+// studentNames.forEach((name) => {
+//     if (studentGrades[name] > 18) {
+//         console.log(`${name.toUpperCase()} - ${studentGrades[name]}`)
+//     }
+// });
+
+// Prints
+// TOM - 20
+// ABDUL - 19
+```
+
+</TabItem>
+</Tabs>
 
 ## Coursework
 
