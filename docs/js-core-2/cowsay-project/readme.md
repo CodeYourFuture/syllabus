@@ -30,7 +30,6 @@ Cowsay was originally written in [Perl](https://simple.wikipedia.org/wiki/Perl).
 Before we start, what's the fastest way you could get the cow to talk? Well, you can execute some packages directly [in the command line with npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner).
 
 ```
-npm install cowsay
 npx cowsay Moooo
 ```
 
