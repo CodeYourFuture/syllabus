@@ -47,7 +47,7 @@ npm install cowsay
 
 Let's find out how to execute cowsay from our package.json. Open /cowsaying in your text editor and look at the [package.json](https://nodejs.dev/learn/the-package-json-guide).
 
-Add cowsay to the scripts array. 
+Add cowsay to the scripts object.
 ```
 "scripts": {
     "cowsay": "cowsay Mooooo"
