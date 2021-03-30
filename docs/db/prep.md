@@ -12,7 +12,7 @@ We shall be using PostgreSQL - a widely used relational database. It's open-sour
 - If you use Windows then see [here](#windows).
 - If you have Mac-OS then see [here](#macos).
 
-If you get stuck at any stage please post a message requesting help on #north-west-class-3.
+If you get stuck at any stage please post a message requesting help on your class channel.
 
 If you don't use any of the above operating systems then please talk to a mentor about how to proceed.
 
