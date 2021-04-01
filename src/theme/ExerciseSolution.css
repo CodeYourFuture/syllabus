@@ -1,0 +1,21 @@
+.exercise-solutions {
+  border: 1px solid var(--ifm-color-info);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.exercise-solutions__password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.exercise-solutions__input {
+  margin-left: 0.35rem;
+  padding: 0.2rem 0.175rem;
+  font-size: var(--ifm-font-size-base);
+}
+
+.exercise-solutions__submit {
+  align-self: flex-start;
+}
