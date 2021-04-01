@@ -204,6 +204,22 @@ For other variables that will never change you should use `const`, for example
 const centimetersInMeter = 100;
 ```
 
+### Avoid Long Functions
+
+Sometimes writing long functions are unavoidable, however most of the time is better to split a long function into a few shorter ones. 
+
+This will 
+
+1. Make your code easier to read
+2. Make your code easier to maintain
+3. Make your code easier to review by out volunteers
+
+When you writing code you should also try to keep in mind that you will only ever write the code once, but you will read the code many times. Always aim to write code that is readable. 
+
+For more details you can read these useful articles
+
+- (The Art of Writing Small and Plain Functions)[https://dmitripavlutin.com/the-art-of-writing-small-and-plain-functions/]
+
 ## Advanced
 
 These additional rules may be harder for you to understand at the start of your programming journey however they are important concepts as your develop.
