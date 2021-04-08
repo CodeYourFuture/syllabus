@@ -4,8 +4,12 @@ title: JavaScript Core II - 1
 sidebar_label: Lesson
 ---
 
+<!-- These imports are used to enable this feature. Do not delete. -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
+
 import Feedback from "@theme/Feedback";
 import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 import ExerciseSolutions from "@theme/ExerciseSolutions";
 
 ## Contents
@@ -449,12 +453,6 @@ let kitten = {
   },
 };
 ```
-
-<!-- These imports are used to enable this feature. Do not delete. -->
-<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
-
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
 
 ### Exercise (1)
 
