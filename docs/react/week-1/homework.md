@@ -6,6 +6,8 @@ sidebar_label: Coursework
 
 ## 1) Mid-Course Feedback
 
+We're now over half way through the Full Stack Course!
+
 Your feedback is really important to us. We use your feedback to improve the course for all of the hundreds of students across CodeYourFuture now and in the future.
 
 This feedback is anonymous meaning we won't have an idea who you are after you submit. 
