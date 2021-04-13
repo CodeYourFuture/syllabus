@@ -52,6 +52,13 @@ module.exports = {
         href: "https://github.com/CodeYourFuture/HTML-CSS-Challenges",
       },
     ],
+    Assessments: [
+      {
+        type: "link",
+        label: "JavaScript Assessments",
+        href: "https://github.com/CodeYourFuture/HTML-CSS-Assessment",
+      },
+    ],
   },
   JavaScriptCore1: {
     Overview: ["js-core-1/index", "js-core-1/preparation"],
@@ -75,6 +82,13 @@ module.exports = {
         type: "link",
         label: "JavaScript Challenges",
         href: "https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges",
+      },
+    ],
+    Assessments: [
+      {
+        type: "link",
+        label: "JavaScript Assessments",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-1-Assessment",
       },
     ],
   },
@@ -154,6 +168,11 @@ module.exports = {
         label: "JavaScript Challenges",
         href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Challenges",
       },
+      {
+        type: "link",
+        label: "JavaScript Assessments",
+        href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Assessment",
+      },
     ],
   },
   React: {
@@ -198,6 +217,13 @@ module.exports = {
           "react/class-components/lesson",
           "react/class-components/instructors",
         ],
+      },
+    ],
+    Assessments: [
+      {
+        type: "link",
+        label: "React Assessments",
+        href: "https://github.com/CodeYourFuture/React-Assessment",
       },
     ],
   },
