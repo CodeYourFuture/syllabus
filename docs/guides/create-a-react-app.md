@@ -11,7 +11,7 @@ Install & set up a Create React App by following the steps below:
 2. In your terminal, run (this may take several minutes to complete):
 
 ```
-npx create-react-app pokedex
+npx create-react-app@latest pokedex --use-npm --template @codeyourfuture
 ```
 
 (Note: for the React module lessons, you should name your app `pokedex`, but if you are creating another app, you can name it whatever you like.)
@@ -54,19 +54,6 @@ You might notice that once you have run `npm start` your terminal will look diff
 To stop the program, open your terminal and press `Ctrl-C` (it's the same on Windows, Mac & Linux). Unfortunately, closing your terminal will **not** stop the program from running.
 
 Once you have stopped running the program, your React app **will stop working**. To start it again, see the instructions above for starting your app.
-
-## Installing stop-runaway-react-effects
-
-We also need to install another package that will help us later in the React module.
-
-To install it, follow these steps:
-
-1. Ensure that the React app is **not** running, by following the instructions above
-2. Open your terminal and ensure that you are within the `pokedex` folder
-3. Then run in your terminal: `npm install stop-runaway-react-effects`
-4. Once this has this finished, open the `src/index.js` file in your editor. Don't worry about understanding the code in this file, we'll learn about it later.
-5. Add an extra line **at the top of the file** with this code: `import 'stop-runaway-react-effects/hijack';`. If it is not on **line 1** of the file, it will **not** work
-6. Start the app again (by following the instructions above) to check that it still works
 
 # Bonus
 
