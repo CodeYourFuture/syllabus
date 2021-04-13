@@ -9,19 +9,43 @@ import Feedback from "@theme/Feedback";
 ## Contents
 
 - [What makes a web page?](#what-makes-a-web-page)
-- [HTML anatomy](#html-anatomy)
-- [HTML structure](#html-structure)
-- [Semantic HTML](#semantic-html)
-- [CSS selectors, CSS cascade, Pseudo-classes such as `:hover`/`:focus`](#css-selectors)
-- [Box model: `margin`/`padding`/`border` etc...](#box-model)
+- HTML
+  - [What is HTML](#what-is-html)
+  - [HTML Anatomy](#html-anatomy)
+  - [HTML Structure](#html-structure)
+  - [Semantic HTML](#semantic-html)
+- CSS
+  - [What is CSS?](#what-is-css)
+  - [CSS Anatomy](#css-anatomy)
+  - [Common CSS Properties](#common-css-properties)
+  - [CSS Units](#css-units)
+  - [CSS Selectors](#css-selectors)
+  - [CSS Box Model](#css-box-model)
+  - [CSS Inheritance, Cascade, and Specificity](#css-inheritance-cascade-and-specificity)
 
 ---
 
 ## Learning Objectives
 
-Learning objectives for this lesson can be found [here](./learning-objectives.md)
+Learning objectives for this lesson can be found on the [Learning Objectives page](./learning-objectives.md)
 
 ---
+
+## HTML/CSS Project
+
+In today's class, we will begin adapting styles on this Bikes for Refugees example website.
+We'll review some of the HTML/CSS basics you already encountered during your application process and learn some new concepts.
+By the end of the third lesson, we will have worked together to improve the example site on the left screenshot below so that it looks like the right screenshot below.
+
+<a href="../assets/screenshot-start.png" target="blank">
+ <img src={require('!file-loader!../assets/screenshot-start.png').default} alt="Bikes for Refugees home page, unstyled" width="50%"/>
+</a>
+<a href="../assets/screenshot-complete.png" target="blank">
+ <img src={require('!file-loader!../assets/screenshot-complete.png').default} alt="Bikes for Refugees home page, styled" width="50%"/>
+</a>
+
+The example website you'll begin working with is available on the Code Your Future [Bikes for Refugees repository](https://github.com/CodeYourFuture/bikes-for-refugees) on GitHub.
+Fork the repository to your personal account and then clone the repository.
 
 ## What makes a web page?
 
@@ -33,27 +57,39 @@ They define the structure (HTML), presentation (CSS), and behaviour (JavaScript)
 
 > **Separation of Concerns:** In computer science, separation of concerns (SoC) is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. ([Wikipedia](https://en.wikipedia.org/wiki/Separation_of_concerns))
 
-> **Principles** - During the course, we will highlight principles that apply to the specific topic but also to Computer Science and Programming in general. It is important to understand these principles, terms and apply them to your thinking in general.
+> **Principles:** During the course, we will highlight principles that apply to the specific topic but also to Computer Science and Programming in general. It is important to understand these principles, terms and apply them to your thinking in general.
+
+:::note Exercise (5 minutes)
+In the Bikes for Refugees project, spend a few minutes exploring the `.html` and `.css` files.
+Why don't we put everything in one file?
+:::
+
+## What is HTML?
+
+HTML (HyperText Markup Language) is the language used to create documents that are displayed on web browsers.
+It gives **structure** and **meaning** to content by using tags such as `<h1>` and `<p>` to describe headings and paragraphs of text. 
 
 ## HTML Anatomy
 
 <img src={require('!file-loader!../assets/html-anatomy.png').default}
   alt="HTML code of an element with a p tag, class=text attribute, and 'Welcome to lesson 1' content"/>
 
-An HTML element is made up of tags, attributes, and content.
+An HTML element is made up of **tags**, **attributes**, and **content**.
 
-- A tag is the HTML element name enclosed in angle brackets.
-  In the image above, `<p>` is the opening tag and `</p>` is the closing tag.
-- An attribute comes after the HTML element name within the angle brackets.
-  In the image above, `class="text"` is an attribute.
-  - `class` is the attribute name
-  - `text` is the attribute value
-- The content is the part of the code in between the opening and closing tags.
-  In the image above, `Welcome to lesson 1` is the content.
+- A **tag** is the HTML element name enclosed in angle brackets
+  - `<p>` is the **opening tag**
+  - `</p>` is the **closing tag**
+- An **attribute** comes after the HTML element name within the angle brackets
+  - `class="text"` is the **attribute**
+  - `class` is the **attribute name**
+  - `text` is the **attribute value**
+- The **content** is the part of the code in between the opening and closing tags
+  - `Welcome to lesson 1` is the **content**
 
-### Exercise (1 minute)
+:::note Exercise (1 minute)
+All together, let's review the basic syntax in the following example.
 
-All together, let's review the basic syntax in the following example:
+Which parts are the elements, tags, attributes, and content?
 
 ```html
 <article>
@@ -62,8 +98,7 @@ All together, let's review the basic syntax in the following example:
   <a href="http://html5rocks.com">Read Article</a>
 </article>
 ```
-
-Which parts are the **tags** and which parts are the **attributes**?
+:::
 
 ## HTML Structure
 
@@ -94,13 +129,12 @@ The `html` element declares that it is an HTML document, and contains a `head` a
 - The `head` contains data about the web page, such as the name of the page (`My web page`) and the text encoding (`UTF-8`).
 - The `body` contains the content which is shown in the browser.
 
-HTML tags are arranged in a hierarchy. This is sometimes called "nesting" tags or creating an HTML "tree". Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these "child" tags, because they have a parent-child relationship.
+HTML tags are arranged in a hierarchy. This is sometimes called **nesting** tags or creating an HTML **tree**. Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these **child** tags, because they have a parent-child relationship.
 
 <img src={require('!file-loader!../assets/html-hierarchy.png').default}
   alt="Tree diagram showing an article tag with h1, p, and a tags as direct children"/>
 
-### Exercise (5 minutes)
-
+:::note Exercise (5 minutes)
 As a group, let's try to name all of the parent and child tags in the following example.
 
 ```html
@@ -114,32 +148,22 @@ As a group, let's try to name all of the parent and child tags in the following 
   <a href="http://html5rocks.com">Read Article</a>
 </article>
 ```
-
-## Example HTML/CSS Project
-
-In today's class, we will begin adapting styles on this example website. We'll review some of the HTML/CSS basics you already encountered during your application process and learn some new techniques. By the end of the third lesson, we will have worked together to improve the example site on the left screenshot below so that it looks like the screenshot below on the right.
-
-<a href="../assets/screenshot-start.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-start.png').default} alt="Bikes for Refugees home page, unstyled" width="50%"/>
-</a>
-<a href="../assets/screenshot-complete.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-complete.png').default} alt="Bikes for Refugees home page, styled" width="50%"/>
-</a>
-
-The example website you'll begin working with is available on the Code Your Future [Bikes for Refugees repository](https://github.com/CodeYourFuture/bikes-for-refugees) on GitHub.
-Fork the repository to your personal account and then clone the repository.
-
-### Exercise (5 minutes)
-
-Spend a few minutes exploring the `.html` and `.css` files for this page. Why don't we put everything in one file?
+:::
 
 ## Semantic HTML
+
+> Semantic HTML is the use of HTML markup to reinforce the semantics, or **meaning**, of the information in webpages and web applications rather than merely to define its presentation or look. [Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
 
 When writing HTML code, we can use different tags to describe the content. Is it a navigation menu, a paragraph of text, or an article? By using the correct tag, we help search engines like Google or screen readers for the visually impaired understand the content better.
 
 When possible, we should use semantic HTML instead of generic HTML like `<div>` and `<span>`.
+The following four sections cover different types of semantic HTML we can use.
 
-> Semantic HTML is the use of HTML markup to reinforce the semantics, or **meaning**, of the information in webpages and web applications rather than merely to define its presentation or look. [Wikipedia](https://en.wikipedia.org/wiki/Semantic_HTML)
+If you want to view all semantic HTML elements, visit the [MDN HTML elements reference page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+
+:::tip
+When creating a web page, we should always think about how to structure the content using semantic HTML **first**, then think about the styling afterwards.
+:::
 
 ### Sectioning Content
 
@@ -159,18 +183,23 @@ We can use specific HTML elements for each of these sections.
 
 Additionally, we can use `<article>` and `<section>` to divide these sections into more sections.
 
+:::tip
+Use these sectioning HTML elements in every website you build.
+This lets screen reader users jump to these sections of the website quickly.
+:::
+
 ### Text Content
 
 For text content, we can use the following elements.
 
-- We can use `<h1>` to `<h6>` for headings
+- We can use `<h1>` to `<h6>` for **headings**
   - There should be only one `<h1>` element on the page, and we shouldn't skip levels
-- We can use `<p>` for paragraphs of text
-- We can use `<ul>` and `<ol>` for lists
+- We can use `<p>` for **paragraphs** of text
+- We can use `<ul>` and `<ol>` for **lists**
   - `<ul>`, unordered list, shows as bullet points
   - `<ol>`, ordered list, shows as numeric points
-- We can use `<em>` for emphasis
-- We can use `<strong>` to indicate importance, seriousness or urgency
+- We can use `<em>` for **emphasis**
+- We can use `<strong>` to indicate **importance**, seriousness or urgency
 
 ### Image Content
 
@@ -185,8 +214,8 @@ If the image is not important because it is only for decoration, we can provide 
 <!-- Image with a description -->
 <img src="sleepy-cat.jpg" alt="A sleeping cat">
 
-<!-- Unimportant image for decoration -->
-<img src="unimportant.jpg" alt="">
+<!-- Image for decoration -->
+<img src="decorative-image.jpg" alt="">
 ```
 
 ### Tabular Content
@@ -237,8 +266,7 @@ Below is a table with a caption, along with the HTML code that creates it.
 </table>
 ```
 
-#### Exercise 1 (10 minutes)
-
+:::note Exercise 1 (10 minutes)
 _Paired Programming Challenge_
 
 Work in pairs to determine where the following tags should be used instead in the Bike for Refugees `index.html` file.
@@ -250,10 +278,10 @@ Work in pairs to determine where the following tags should be used instead in th
 - `<article>`
 - `<aside>`
 
-Who benefits when we write "semantic" HTML?
+Who benefits when we write **semantic** HTML?
+:::
 
-#### Exercise 2 (10 minutes)
-
+:::note Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
 Work in pairs to determine what changes we should make to the code below to make it more semantic.
@@ -278,50 +306,211 @@ Work in pairs to determine what changes we should make to the code below to make
   <div>Flip and cook the other side until done, then serve</div>
 </div>
 ```
+:::
 
-#### Exercise 3 (10 minutes)
-
+:::note Exercise 3 (10 minutes)
 _Solo exercise_
 
 Create a table that contains your favourite food and where it comes from.
 It should have two columns: the first column should contain the name of the dish, and the second column should contain the country of origin.
 You can create the table on https://codepen.io/pen/ if you wish.
+:::
+
+## What is CSS?
+
+CSS (Cascading Style Sheets) is the language used to modify the **style** of the HTML document.
+
+## CSS Anatomy
+
+<img src={require('!file-loader!../assets/css-anatomy.png').default}
+  alt="CSS rule with an h1 selector, font-size:1.5rem; declaration, font-size property, and 1.5rem value"/>
+
+A CSS rule is made up of **selectors**, **properties**, and **values**.
+
+- A **selector** describes which HTML elements to style
+  - `h1` is the **selector**
+- A **property** is the specific style to apply
+  - `font-size` is the **property**
+- A **value** is the value for the property
+  - `1.5rem` is the **value**
+- A **declaration** is the combination of the property and value
+  - `font-size: 1.5rem;` is the **declaration**
+- A **rule** is the combination of the selector and its declarations
+  - `h1 { font-size: 1.5rem; }` is the **rule**
+
+:::note Exercise (1 minute)
+All together, let's review the basic syntax in the following example.
+
+Which parts are the rules, selectors, properties, values, and declarations?
+
+```css
+h1, h2, h3, h4, h5, h6, p {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.box {
+  border: 1px solid #333;
+}
+```
+:::
+
+## Common CSS properties
+
+A typical web page contains text structured into headings and paragraphs.
+We can use CSS to modify the styling of text.
+Some common CSS properties are shown in the following example:
+
+```css
+body {
+  font-family: Arial, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: white;
+  color: black;
+}
+```
+
+:::note Exercise (5 minutes)
+All together, let's review what each of the CSS properties in the previous code example does.
+:::
+
+## CSS Units
+
+When we measure objects in real life we might use centimeters or inches.
+CSS also uses measurement units like these.
+
+There are two types of units: absolute and relative units.
+
+- Absolute units are always the same size, even when the user zooms in on the browser.
+- Relative units are based on the size of something else, such as the font size or viewport size.
+  When the user zooms in the browser, elements using relative units will increase in size too.
+  
+The following table contains some of the most commonly used CSS units.
+
+<table>
+  <caption>Common CSS units</caption>
+  <thead>
+    <tr>
+      <th>Unit</th>
+      <th>Relative or absolute</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>rem</code></td>
+      <td>Relative</td>
+      <td>1rem is equal to the font size of the root element. If the root font size is 16px, then 1rem = 16px and 0.5rem = 8px</td>
+    </tr>
+    <tr>
+      <td><code>em</code></td>
+      <td>Relative</td>
+      <td>1rem is equal to the font size of the parent element. If the parent font size is 16px, then 1rem = 16px and 0.5rem = 8px</td>
+    </tr>
+    <tr>
+      <td><code>%</code></td>
+      <td>Relative</td>
+      <td>100% is equal to the full width or height of the parent element</td>
+    </tr>
+    <tr>
+      <td><code>px</code></td>
+      <td>Absolute</td>
+      <td>1px is 1/96th of 1 inch</td>
+    </tr>
+  </tbody>
+</table>
+
+The following code example shows how these units are typically used.
+
+```css
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.sidebar {
+  padding: 1rem;
+  width: 25%;
+}
+```
+
+If you want to view all CSS units, visit the [MDN CSS values and units page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units#numeric_data_types).
+
+:::tip
+Some users who find it difficult to read small text will use the browser zoom to increase the content size. 
+Since absolute units do not increase in size with browser zoom, we should use relative units whenever possible.
+Therefore, we should **prefer** using `rem` and `%`, and **avoid** using `px`.
+:::
+
+:::note Exercise (5 minutes)
+All together, let's review what each of the values in the previous code example mean.
+:::
 
 ## CSS Selectors
 
-During your application process, you became familiar with CSS selectors. We'll review the basic selectors and then practice combining these to modify our button styles.
+CSS selectors enable us to select an HTML element to apply styles to.
+There are several types of CSS selectors, which offer different ways to select HTML elements.
+The common ones are shown in the following table.
 
-> If you want to review the selectors, read the [Common Selectors section](http://learn.shayhowe.com/advanced-html-css/complex-selectors/) of this page.
+<table>
+  <caption>Common CSS selectors</caption>
+  <thead>
+    <tr>
+      <th>Selector</th>
+      <th>Example</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Class selector</td>
+      <td><code>.text &#123; &#125;</code></td>
+      <td>Selects all HTML elements with class <code>class="text"</code></td>
+    </tr>
+    <tr>
+      <td>Type selector</td>
+      <td><code>p &#123; &#125;</code></td>
+      <td>Selects all <code>p</code> HTML elements</td>
+    </tr>
+    <tr>
+      <td>ID selector</td>
+      <td><code>#text &#123; &#125;</code></td>
+      <td>Selects all HTML elements with ID <code>id="text"</code></td>
+    </tr>
+    <tr>
+      <td>Descendant combinator</td>
+      <td><code>article p { }</code></td>
+      <td>Selects all <code>p</code> HTML elements that are a descendant of an <code>article</code> element</td>
+    </tr>
+    <tr>
+      <td>Child combinator</td>
+      <td><code>article > p { }</code></td>
+      <td>Selects all <code>p</code> HTML elements that are a direct child of an <code>article</code> element</td>
+    </tr>
+    <tr>
+      <td>Pseudo-class selector</td>
+      <td><code>p:hover &#123; &#125;</code></td>
+      <td>Selects all <code>p</code> HTML elements that have a mouse hovering on them</td>
+    </tr>
+  </tbody>
+</table>
 
-### Exercise (10 minutes)
+If you want to view all CSS selectors, visit the [MDN CSS selectors page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors).
 
-_Paired Programming Exercise_
+:::tip
+Class selectors are the preferred way to style in many software teams.
+They typically discourage using type, ID, and descendent/child combinators, as well as the `style` attribute.
 
-Work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
-
-## Pseudo Classes
-
-You can assign CSS rules to a class like this:
-
-```css
-.btn {
-  background: #ce5f31;
-}
-```
-
-There are also things called "pseudo" classes. In this section, we'll introduce you to the common pseudo classes for assigning styles to interactions, such as moving your mouse over a link.
-
-> "pseudo" is a fancy word for "fake". We call them "pseudo" classes because they're not really there in the HTML, but the browser knows what to do with them.
-
-Here's an example of a pseudo class which changes the color of a link when the mouse moves over it.
-
-```css
-.btn:hover {
-  background: #ef7f52;
-}
-```
-
-Not everyone uses a mouse. Some users will prefer a keyboard, where they can hit `tab` to move between links on a page. So that they can see where they are, you should add effects to the `:focus` pseudo class too.
+When using a `:hover` pseudo-class selector, it is usually a good idea to also include `:focus` like in the following example so that both mouse **and** keyboard users are included.
 
 ```css
 .btn:hover,
@@ -329,24 +518,79 @@ Not everyone uses a mouse. Some users will prefer a keyboard, where they can hit
   background: #ef7f52;
 }
 ```
+:::
 
-### Exercise (10 minutes)
+:::note Exercise 1 (10 minutes)
+_Paired Programming Exercise_
 
-Work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
+In the Bikes for Refugees project, work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
+:::
 
-## Box Model
+:::note Exercise 2 (10 minutes)
+_Paired Programming Exercise_
 
-In CSS, everything is a box. An image is a box. A link is a box. The area around this box can be modified with properites that we call margins, borders and padding. Here's a diagram showing what the box looks like.
+In the Bikes for Refugees project, work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
+:::
+
+## CSS Box Model
+
+In CSS, everything is a **box**. An image is a box. A link is a box. The following diagram shows what the box model looks like.
 
 ![Box Model. Source: MDN](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png)
 
-### Exercise (10 minutes)
+The **content** is the text or image and it has a **border**.
+Inside the border there is space called **padding**, and outside the border there is space called **margin**.
 
-Work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
+We can modify these properties using CSS like in the following example.
 
-## Borders
+```css
+.content {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+```
 
-You may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
+Instead of typing out each property, we can use shorthand properties for border, margin, and padding so we can make the code more concise.
+
+```css
+.content {
+  /* width | style | color */
+  border: 1px solid black;
+
+  /* Apply to all four sides */
+  margin: 1rem;
+
+  /* vertical | horizontal */
+  padding: 0.5rem 1rem;
+}
+```
+
+We can also modify the **width** and **height** of the content like in the following example.
+
+```css
+.square {
+  height: 10rem;
+  width: 10rem;
+}
+```
+
+:::note Exercise 1 (10 minutes)
+In the Bikes for Refugees project, work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
+:::
+
+:::note Exercise 2 (10 minutes)
+In the Bikes for Refugees project, you may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
 
 You can also set a transparent border, so that it takes up the space without showing a visible border.
 
@@ -356,31 +600,174 @@ You can also set a transparent border, so that it takes up the space without sho
 }
 ```
 
-### Exercise (10 minutes)
-
 Use a transparent border so that the width of each navigation menu item stays the same even when it is hovered or focused.
+:::
 
-## CSS Project (60 minutes+)
+### Block and Inline Boxes
 
-In this repository you will find a CSS Project for you to complete using what you've learnt so far today.
+We can think of CSS as having two types of boxes: **block** boxes and **inline** boxes.
 
+- Block boxes take up the whole width of its container and stack on top of each other vertically.
+- Inline boxes are only as wide as its content and flow next to each other horizontally.
+
+The following image illustrates this visually.
+
+<img src={require('!file-loader!../assets/css-block-inline-flow.png').default}
+  alt="Diagram showing that block elements stack vertically and inline elements stack horizontally"/>
+
+Block and inline boxes have a few more differences, which if you're not aware of can make it difficult to understand why inline elements are not being styled as expected.
+The following table describes the differences between the two in more detail.
+
+<table>
+  <caption>Block versus inline boxes</caption>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Block</th>
+      <th>Inline</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Does it start on a new line?</td>
+      <td>Yes, block elements start on a new line</td>
+      <td>No, inline elements continue on the same line</td>
+    </tr>
+    <tr>
+      <td>Does it take up the full width?</td>
+      <td>Yes, block elements extend to take up the full width</td>
+      <td>No, inline elements are only as wide as its content</td>
+    </tr>
+    <tr>
+      <td>How does <code>width</code> and <code>height</code> work?</td>
+      <td>They work as expected for block elements</td>
+      <td>They do not work for inline elements</td>
+    </tr>
+    <tr>
+      <td>How does <code>padding</code>, <code>margin</code>, and <code>border</code> work?</td>
+      <td>They work as expected for block elements, and push other boxes away</td>
+      <td>
+        Horizontal <code>padding</code>, <code>margin</code>, and <code>border</code> work as expected, and push other boxes away.
+        Vertical <code>padding</code>, <code>margin</code>, and <code>border</code> work as expected but do not push other boxes away.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+HTML elements are either block or inline elements.
+
+Common block elements are:
+
+- `h1` to `h6`
+- `p`
+- `ul`, `ol` and `li`
+- `form`
+- `table`
+- `article` and `section`
+- `div`
+
+Common inline elements are:
+
+- `a`
+- `img`
+- `button`
+- `input`, `select` and `label`
+- `span`
+
+To change the type of box, we can use the `display` CSS property like in the following example.
+
+```css
+/* Change the inline `img` element into a block */
+img {
+  display: block;
+}
+
+/* Change the block `li` element into an inline */
+li {
+  display: inline;
+}
+```
+
+If you want to view a list of all block and inline elements, visit the
+[MDN block-level elements page](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements) and
+[MDN inline-level elements page](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#elements).
+
+## CSS Inheritance, Cascade and Specificity
+
+In CSS, you can write many rules including ones that conflict with one another.
+How does CSS know when to apply rules and when to override them? 
+It uses the concepts of **inheritance**, **cascade**, and **specificity** to figure it out.
+
+### Inheritance
+
+Inheritance is where a CSS property is inherited by child elements.
+Some properties that are inherited are `font`, `color`, and `line-height`.
+This means we can set the color of text for the `body` as `pink` and all its descendent elements will have pink text.
+
+```css
+/* All descendent elements of `body` will have pink text because of inheritance */
+body {
+  color: pink;
+}
+```
+
+### Cascade
+
+In CSS, the stylesheets cascade which means that the order of the CSS rules matter.
+If we have two CSS rules that target the same element, then the one that comes last in the stylesheet is used.
+
+```css
+p {
+  color: red;
+}
+
+/* Since this rule comes last, the `p` element will be blue and not red because of cascade */
+p {
+  color: blue;
+}
+```
+
+### Specificity
+
+Specificity is how CSS figures out which rule to use when different selectors are used for the same element.
+Quite simply, a rule with an ID selector is typically chosen over one with a class selector, which is typically chosen over one with a type selector.
+
+```css
+/* An ID selector has the highest specificity of these three rules, so the paragraph is orange */
+#paragraph {
+  color: orange;
+}
+
+/* Even though this rule comes after, the paragraph is not yellow because the ID selector has higher specificity */
+.paragraph {
+  color: yellow;
+}
+
+/* Even though this rule comes after, the paragraph is not green because the ID selector has higher specificity */
+p {
+  color: green;
+}
+```
+
+If you want to read more about inheritance, cascade and specificity, visit the [MDN Cascade and inheritance page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+
+## CSS Project
+
+The [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/zoo-css-challenge)
+is a CSS Project for you to complete using what you've learnt so far today.
+Fork the repository to your personal account and then clone the repository.
+
+:::note Exercise (60 minutes+)
 Work in pairs to complete all the mistakes in the project and fix them.
+:::
 
-[Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/zoo-css-challenge)
+## Further Learning
 
-## Resources
-
-1. [HTML5 - semantic elements](https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5)
-2. [CSS Selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-3. [The Cascade - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
-4. [Box Model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
-5. [Box Model, box-sizing: border-box - CSS Tricks](https://css-tricks.com/international-box-sizing-awareness-day/)
-6. [CSS specificity - MDN](https://developer.mozilla.org/en/docs/Web/CSS/Specificity)
-7. [Pseudo classes - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+If you want to learn about `box-sizing` and why the default is changed for many websites, read this [CSS Tricks article](https://css-tricks.com/international-box-sizing-awareness-day/).
 
 ## Coursework
 
-Click [here](./homework) to view the coursework for this lesson.
+Visit the [Coursework page](./homework) to view the coursework for this lesson.
 
 ## Feedback
 

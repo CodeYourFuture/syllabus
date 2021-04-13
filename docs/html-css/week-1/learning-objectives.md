@@ -8,59 +8,63 @@ _The learning objectives under a given topic may be achieved over the multiple w
 
 ## HTML
 
-### HTML anatomy
+### HTML Anatomy
 
 - [ ] Can answer: What is an HTML tag?
-- [ ] Can: identify opening and closing tags.
 - [ ] Can answer: What is an HTML attribute?
-- [ ] Can: identify attribute names and attribute values.
 - [ ] Can answer: What is an HTML element?
+- [ ] Can: identify opening and closing tags.
+- [ ] Can: identify attribute names and attribute values.
 
-### Forming a hierarchy by nesting tags
+### HTML Structure
 
-- [ ] Can answer: What are "parent" and "child" elements?
+- [ ] Can answer: What are parent and child elements?
 - [ ] Can: identify parent and children elements.
 - [ ] Can: identify first child of an element.
-- [ ] Can: write a simple html fragment, correctly observing syntax when nesting one tag within another.
-  - e.g. "Create an article which contains a h2 header and two p (paragraph) elements." \[detail the text that the tags should include\]
+- [ ] Can: write a simple HTML fragment, correctly observing syntax when nesting one tag within another.
+  - e.g. "Create an article which contains a `h2` header and two `p` (paragraph) elements." \[detail the text that the tags should include\]
 - [ ] Can: recognise when elements are incorrectly nested, in a short HTML extract.
 
-### Semantic HTML tags
+### Semantic HTML
 
 - [ ] Can answer: What is semantic HTML?
 - [ ] Can answer: What are some semantic HTML tags we can use for the main sections of a typical web page?
 - [ ] Can answer: What are some semantic HTML tags we can use for text content?
 - [ ] Can answer: What attribute must we use with every `<img>` tag?
 
-## Separation of concerns (HTML/CSS/JS)
+## CSS
 
-- [ ] Can answer: "Why do we separate HTML, CSS and JavaScript?"
+### CSS Anatomy
 
-### Linking Resources
+- [ ] Can answer: What is a CSS selector?
+- [ ] Can answer: What is a CSS property?
+- [ ] Can answer: What is a CSS value?
+- [ ] Can answer: What is a CSS declaration?
+- [ ] Can: identify a CSS selector
+- [ ] Can: identify a CSS property
+- [ ] Can: identify a CSS value
+- [ ] Can: identify a CSS declaration
 
-- [ ] Can: recognise a `link` element linking a css file, and can explain its purpose.
-- [ ] Can: add a `link` element to an HTML file to link to a provided CSS or JS file. [Example](https://github.com/CodeYourFuture/html-css-git-exercises/tree/master/week-1/4-links-scripts)
+### CSS Units
 
-## CSS Selectors
+- [ ] Can answer: What are some common CSS units?
+- [ ] Can answer: What is the difference between absolute and relative CSS units?
+- [ ] Can answer: Should we prefer absolute or relative CSS units, and why?
 
-- [ ] Can answer: What is a selector in CSS?
-- [ ] Can answer: What is the difference between a tag, class, and ID selector?
-- [ ] Can answer: What is an attribute selector in CSS and how does it relate to the HTML code?
-- [ ] Can: recognise some simple attribute selectors and state their purpose.
+### CSS Selectors
 
-## CSS Properties
+- [ ] Can answer: What is the difference between a type, class, and ID selector?
 
-- [ ] Can answer: What is a property in CSS?
-- [ ] Can answer: What is the cascade?
-
-## The Box Model
+### CSS Box Model
 
 - [ ] Can answer: What is the CSS box model?
-- [ ] Can answer: What properties modify the box model in CSS?
+- [ ] Can answer: What CSS properties modify the box model?
+- [ ] Can answer: What is the difference between block and inline boxes?
+- [ ] Can answer: What are some HTML block elements and HTML inline elements?
+- [ ] Can answer: What CSS property do we use to change whether the element is a block or inline?
 
-# Git Learning Objectives
+### CSS Inheritance, Cascade and Specificity
 
-## Git Branching
-
-- [ ] Can: fork a project on GitHub
-- [ ] Can: commit changes locally and push to their fork
+- [ ] Can answer: What is inheritance?
+- [ ] Can answer: What is cascade?
+- [ ] Can answer: What is specificity?
