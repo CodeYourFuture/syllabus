@@ -18,11 +18,6 @@ We highly recommend joining the relevent Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
-## Presentations
-
-- [Week 1 - CSS [Google Slides] - 28/05/2020](https://docs.google.com/presentation/d/18gCQlySM5kNaK4og4-XF8kHlyJVZUrRcbRK1zXC5SBg/edit#slide=id.p)
-  - Created by Birmingham (Request edit access if needed)
-
 ## Overview
 
 This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
