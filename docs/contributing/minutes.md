@@ -3,26 +3,65 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+
+## 14/04/2021
+
+- Sally opened a PR for JS1 marking guide
+  - Discovered an issue with student understanding of `true`/`false`
+  - Predicates exercise
+    - Any code will pass the test
+    - Opened a ticket: https://github.com/CodeYourFuture/syllabus/issues/233
+    - Action: fix this test
+  - Daniel: last time he sat in on this, students didn't know what an expression was
+    - This should be addressed with Mitch's changes to JS1
+  - Daniel also found another example of a bad test: https://github.com/CodeYourFuture/syllabus/issues/230
+    - Action: fix this too
+- Fundamentals
+  - Why Processing.js?
+    - Fast to get something tangible
+      - It's difficult with vanilla JS to make something "fun" (i.e. not printing text to a terminal). Processing makes it easy to code something interesting quickly
+      - Trade-off: Processing is "magical", and KA is particularly weird about it
+    - "Flipped classroom": sessions at the weekend were to unstick students, not necessarily to introduce new concepts
+      - Hence need for a good online course
+  - There's a lack of documentation describing the above
+    - Action: Sally to do write this up
+  - Fundamentals was also originally designed to be a "taster session" for programming, as well as an intro to JS
+    - Wouldn't need lots of volunteer time on at the weekend, so online course is ideal
+    - Could be run much more regularly during the year
+- React assessment
+  - PR to assessment: https://github.com/CodeYourFuture/React-Assessment/pull/1
+  - Action: Ali will likely merge soon. but feel free to leave comments if you'd like
+- TDD
+
+  - Came up in context of exercises with `require('assert')`: https://github.com/CodeYourFuture/syllabus/issues/169
+  - We remembered that Chris was going to update us about this
+  - Action: Chris update us about this
+
+  ## 31/04/2021
+
+Missing notes 😢
+
 ## 17/03/2021
 
 Attendance: Ali, Chris, Daniel, Greg, Matthew, Sally
 
 ## Agenda
 
--  Location for solutions to in-class exercises
--  new Choose Your Own Adventure exercise for JS3 W1
--  should we add a section about paths in JS? 
--  MongoDB
+- Location for solutions to in-class exercises
+- new Choose Your Own Adventure exercise for JS3 W1
+- should we add a section about paths in JS?
+- MongoDB
 
 ### Glasgow forking fundamentals
 
 Chris: Following up on our Scotland meeting - we are forking the repo and we would like them to raise issues and get their improvements feeding back in. Hopefully I'll invite them to come to these things again to have more of those kind of discussion.
- 
+
 ### Class exercises
 
 Daniel: Antigone put together solutions for class exercises. How and where should we maintain these solutions? Chris suggests tabs. Sally suggests passwords.
 
-#### Action items: 
+#### Action items:
+
 - now: put the solutions in tabs
 - future: produce a react component to lock the solutions in future and provide the password after the appropriate lesson
 
@@ -31,45 +70,53 @@ Daniel: Antigone put together solutions for class exercises. How and where shoul
 Ali: Everyone is happy. Ticket merged. Done!
 
 ### Terminal lesson and Cowsay
+
 https://github.com/CodeYourFuture/syllabus/pull/189
 https://github.com/CodeYourFuture/syllabus/pull/166#issuecomment-770410775
-Discussion: Should we learn paths earlier on? They are not a react concept. If we teach it too early they won't retain it. We won't do paths earlier, but we will do them more in JS3. Possibly put cowsay into JS3 and require a bunch of stuff? 
+Discussion: Should we learn paths earlier on? They are not a react concept. If we teach it too early they won't retain it. We won't do paths earlier, but we will do them more in JS3. Possibly put cowsay into JS3 and require a bunch of stuff?
 
 Ali: I wonder if we could actually take pretty much that entire coursework and turn it into a lesson in the end of js3. Chris: This one I think we definitely need an issue for it and it is gonna be a slightly longer running piece of work.
 
-#### Action items: 
+#### Action items:
+
 - Write a paths cheat sheet, SOMEONE? Ali?
 - Dropped thread: cowsay lesson/expansion - Sally will chase this up
 
-### General discussion about iterating and increasing complexity in exercises. 
+### General discussion about iterating and increasing complexity in exercises.
 
 Would it be interesting or annoying to recap some of the exercises from js1? But with objects, eg the transport one, which is, how can you get with different means of Transport between two cities? Just give them exactly the same exercise, but put the data in objects?
 
 #### Action item:
+
 Repeat some exercises from week 1 but this time with objects instead of arrays. Sally to make issue.
 
 #### Action items:
+
 - Redo TV show project in React (with call back to earlier project)
 - Chris to contact Neil Bogie
 
 ### MongoDB
+
 https://github.com/CodeYourFuture/syllabus/discussions/192
 
-* Glasgow school got on well with Postgres
-* He proposes to write out a list of all the things he plans to do so it can be reviewed
-* Hopes to have this ready in 3 months
-* Discussion about mongoDB vs Postgres - 
+- Glasgow school got on well with Postgres
+- He proposes to write out a list of all the things he plans to do so it can be reviewed
+- Hopes to have this ready in 3 months
+- Discussion about mongoDB vs Postgres -
 
 #### Action item:
+
 Chris to speak to London teachers and see what they want to teach this year PostGres/Mongo
 
 ### Assessments
+
 https://github.com/CodeYourFuture/JavaScript-Core-2-Assessment/blob/main/scrabble.md
 
 Snapshot assessment at JS2 proved very useful. Teachers want it for JS1 JS3, and React.
-The marking guide is the key part needed here. 
+The marking guide is the key part needed here.
 
-Action items: 
+Action items:
+
 - Daniel will work on JS3, Matthew will work on JS1. Two assessments of 15 mins each, with a rubric to guide marking.
 - Ali wrote an assessment for React, an open book assesment. Find it, update it, and add it.
 
@@ -78,7 +125,8 @@ Action items:
 We want to write marking guides for buddies. Each coursework should have one. It should cover: the object of the coursework, key points to look for, common mistakes, and how to respond.
 
 #### Action items:
-- Chris is working on this. 
+
+- Chris is working on this.
 - Sally will review student submissions and find more patterns.
 
 ## 03/03/2021
