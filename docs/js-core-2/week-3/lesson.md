@@ -42,7 +42,7 @@ In a synchronous programming model, tasks run one at a time. When a long running
 
 Asynchronous programming allows multiple actions to happen at the same time. When a long running action starts, the program can continue to run. When the action finishes the program will get notified and get access to the result returned.
 
-<img src={require('!file-loader!./assets/sync-vs-async.jpg').default}/>
+<img src={require('!file-loader!./assets/sync-vs-async.jpg').default} />
 
 ### A real life example
 
@@ -73,6 +73,14 @@ console.log("Third action");
 
 ### Exercise (1)
 
+Before running the code in your browser, discuss the expected order of each loop
+
+1. Synchronous - Write code that loops through the array of greek gods and print the index numbers and values to the console, e.g. '1. Ares'
+
+2. Asynchronous - Same as before but the index and the value of the god at position 2 in array should be printed after 2 seconds. Use: setTimeout()
+
+:::tip Exercise
+
 ```js
 const greekGods = [
   "Aphrodite",
@@ -82,13 +90,9 @@ const greekGods = [
   "Poseidon",
   "Zeus",
 ];
-
-// before running the code in your browser, discuss the expected order of each loop
-
-// synchronous - loop through the array of greek gods and print the index numbers and values to the console, e.g. '1. Ares'
-
-// asynchronous - same as before but the index and the value of the god at position 2 in array should be printed after 2 seconds. Use: setTimeout()
 ```
+
+:::
 
 ## The Callstack
 
@@ -100,7 +104,7 @@ The call stack is a data structure that works by the "Last in, First out" princi
 
 This is why when you get an error in Javascript, you may see multiple lines with line numbers in the error, like:
 
-```
+```sh
 $ node my.js
 /home/dwh/my.js:2
     console.log(message);
@@ -109,7 +113,7 @@ $ node my.js
 ReferenceError: message is not defined
     at logSomething (/home/dwh/my.js:2:17)
     at computeSomething (/home/dwh/my.js:6:5)
-    at Object.<anonymous> (/home/dwh/my.js:9:1)
+    at Object.<anonymous(/home/dwh/my.js:9:1)
     at Module._compile (internal/modules/cjs/loader.js:689:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
     at Module.load (internal/modules/cjs/loader.js:599:32)
@@ -123,9 +127,13 @@ This error happened because of a problem in the `logSomething` function on line 
 
 Since there is only one call stack in Javascript, function execution is done one at a time from top to bottom. This means that the last function that gets pushed into the call stack is always the one to be executed when the call stack is popped. Think of it like pushing to, and popping from, an array; it's always the last item of the array that is affected.
 
-> [Let's use this tool to see how the Callstack works!](http://latentflip.com/loupe/)
+:::tip Exercise
 
-> So, how to the `call stack` and `asynchronous` work together? Asynchronous programming essentially helps us to make JavaScript act like a multi-threaded language -- although JavaScript only has a single call stack managing function execution, coding our JavaScript asynchronously means that we can have several functions executing at the same time.
+[Let's use this tool to see how the Callstack works!](http://latentflip.com/loupe/)
+
+So, how to the `call stack` and `asynchronous` work together? Asynchronous programming essentially helps us to make JavaScript act like a multi-threaded language -- although JavaScript only has a single call stack managing function execution, coding our JavaScript asynchronously means that we can have several functions executing at the same time.
+
+:::
 
 ## Callbacks
 
@@ -182,30 +190,38 @@ mainFunction(myCallbackFunction);
 
 ### Exercise (2)
 
-> - Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
-> - Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
->
-> ![](http://g.recordit.co/g2EqBccNzh.gif)
->
-> Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?editors=1011)
+:::tip Exercise
+
+- Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
+- Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
+
+![](http://g.recordit.co/g2EqBccNzh.gif)
+
+Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?editors=1011)
+
+:::
 
 ### Exercise (3)
 
-> Complete the exercises in this [CodePen](https://codepen.io/textbook/pen/MWwMgmW?editors)
->
-> - You are given a list of movie objects to work with<br/>
-> - Use setTimeout to imitate that some actions take time
-> - Remember that setTimeout behaves asynchronously
->
-> All set, go! Work on the tasks given. Your result html will look like this:
->
-> <img alt="preview-exercise-2-result" src="https://i.imgur.com/wbrtLNL.png" width="500" />
+:::tip Exercise
+
+Complete the exercises in this [CodePen](https://codepen.io/textbook/pen/MWwMgmW?editors)
+
+- You are given a list of movie objects to work with<br/
+- Use setTimeout to imitate that some actions take time
+- Remember that setTimeout behaves asynchronously
+
+All set, go! Work on the tasks given. Your result html will look like this:
+
+<img alt="preview-exercise-2-result" src="https://i.imgur.com/wbrtLNL.png" width="500" />
+
+:::
 
 ## How does the web work?
 
 ### Client/Server architecture
 
-<img src={require('!file-loader!./assets/client-server.png').default}/>
+<img src={require('!file-loader!./assets/client-server.png').default} />
 
 A **Client** is the typical web user's internet-connected devices and apps. This can be a web browser, a Slack app, your phone, etc.
 
@@ -217,7 +233,7 @@ The **server** communicates with **clients**.
 
 Client–server systems use the **request–response** model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result or acknowledgement.
 
-<img src={require('!file-loader!./assets/request-response-architecture.png').default}/>
+<img src={require('!file-loader!./assets/request-response-architecture.png').default} />
 
 ### HTTP Requests
 
@@ -238,7 +254,7 @@ HTTP is the language of the internet. In our case we're using Javascript, but yo
 
 The network tab is a useful tool that helps us understand how content is loaded on a website.
 
-You can view it by `Right Click` > `Inspect` > `Network`.
+You can view it by `Right Click` `Inspect` `Network`.
 
 Take some time to look at the network tab when we open [this lesson](/js-core-2/week-3/lesson).
 
@@ -250,52 +266,63 @@ The important parts of the the Network Tab are:
 
 #### Exercise - GET Requests
 
-> Let's take a look at GET requests in the Browser.
->
-> Look at this repository here:
->
-> - https://github.com/CodeYourFuture/Network-Tab-Example
->
-> In your groups, you should try to work out what you expect to see in the Network tab when we look at it. You should create a list of the requests that will be made in this format.
->
-> **You are not allowed to open the website in a browser**
->
-> e.g.
->
-> 1. GET index.html
-> 2. GET format.de
-> 3. GET otherfile.se
-> 4. ...
->
-> When you have completed the list you should share it on Slack
->
-> You can see the website online here
->
-> - https://codeyourfuture.github.io/Network-Tab-Example/
->
-> **Extra**
->
-> Go to your favorite website and take a look at the Network tab. Can you work out what each (or any) of the requests are doing?
->
-> Warning! There will be **a lot** of requests made on complicated websites.
+:::tip Exercise
+
+Let's take a look at GET requests in the Browser.
+
+Look at this repository here:
+
+- https://github.com/CodeYourFuture/Network-Tab-Example
+
+In your groups, you should try to work out what you expect to see in the Network tab when we look at it. You should create a list of the requests that will be made in this format.
+
+**You are not allowed to open the website in a browser**
+
+e.g.
+
+1. GET index.html
+2. GET format.de
+3. GET otherfile.se
+4. ...
+
+When you have completed the list you should share it on Slack
+
+You can see the website online here
+
+- https://codeyourfuture.github.io/Network-Tab-Example/
+
+:::
+
+:::tip Exercise Extra
+
+Go to your favorite website and take a look at the Network tab. Can you work out what each (or any) of the requests are doing?
+
+Warning! There will be **a lot** of requests made on complicated websites.
+
+:::
 
 #### Exercise - POST Requests
 
-> Let's take a look at POST requests in the Browser.
->
-> You can see the website online here
->
-> - https://codeyourfuture.github.io/Network-Tab-Example/
->
-> At the bottom of the page you will see a series of buttons. When you click a button on the website it will send a POST request to a server.
->
-> 1. **Using only the Network tab** work out which button is sending a post request.
-> 2. What is in the `body` of the post request?
->
-> **Extra**
->
-> 1. Did the `POST` request succeed?
-> 2. Using the Details Panel, can you work out why?
+:::tip Exercise
+
+Let's take a look at POST requests in the Browser.
+
+You can see the website online here
+
+- https://codeyourfuture.github.io/Network-Tab-Example/
+  At the bottom of the page you will see a series of buttons. When you click a button on the website it will send a POST request to a server.
+
+1. **Using only the Network tab** work out which button is sending a post request.
+2. What is in the `body` of the post request?
+
+:::
+
+:::tip Exercise Extra
+
+1. Did the `POST` request succeed?
+2. Using the Details Panel, can you work out why?
+
+:::
 
 ## Coursework
 

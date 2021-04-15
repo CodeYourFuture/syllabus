@@ -68,9 +68,13 @@ For more examples, you can consult the following tutorial: [Postgres alter table
 
 #### Exercise 1
 
-- Add a column `date_of_birth` of type `DATE` in the `customers` table.
-- Rename the column `date_of_birth` to `birthdate` in the `customers` table.
-- Delete the column `birthdate` from the `customers` table
+:::tip Exercise
+
+1. Add a column `date_of_birth` of type `DATE` in the `customers` table.
+2. Rename the column `date_of_birth` to `birthdate` in the `customers` table.
+3. Delete the column `birthdate` from the `customers` table
+
+:::
 
 ### Dropping a table
 
@@ -80,10 +84,14 @@ To delete the table `customers`:
 DROP TABLE customers;
 ```
 
-#### Exercise 2:
+#### Exercise 2
 
-- Create a new table `test`
-- Drop the table `test`
+:::tip Exercise
+
+1. Create a new table `test`
+2. Drop the table `test`
+
+:::
 
 ### Updating a row
 
@@ -101,10 +109,14 @@ UPDATE customers SET name='Bob Marley', country='Jamaica' WHERE id=3;
 
 #### Exercise 3
 
+:::tip Exercise
+
 - Update the postcode of the hotel named `Elder Lake Hotel` to `L10XYZ`
 - Update the number of rooms of `Cozy Hotel` to `25`
 - For the customer named `Nadia Sethuraman`, update her address to `2 Blue Street`, her city to `Glasgow` and her postcode to `G11ABC` in one query
 - Update all the bookings of customer with ID `1` for the hotel with ID `1` to `5` nights in one query
+
+:::
 
 ### Deleting a row
 
@@ -124,9 +136,13 @@ DELETE FROM bookings WHERE id=4;
 
 #### Exercise 4
 
+:::tip Exercise
+
 - Delete the booking of customer ID `8` for the date `2020-01-03`
 - Delete all the bookings of customer ID `6`
 - Delete the customer with ID `6`
+
+:::
 
 ### Joining tables
 
@@ -161,10 +177,14 @@ WHERE customers.id=1;
 
 #### Exercise 5
 
+:::tip Exercise
+
 - Try and understand each of the queries above in your `psql` prompt
 - Retrieve all the bookings along with customer data for bookings starting in 2020
 - Retrieve the customer names, booking start dates and number of nights for all customers who booked the hotel name `Jade Peaks Hotel`
 - Retrieve all the booking start dates with customer names and hotel names for all bookings for more than 5 nights
+
+:::
 
 ### Other useful operations
 
@@ -211,9 +231,13 @@ LIMIT 3;
 
 #### Exercise 6
 
+:::tip Exercise
+
 - Retrieve all customers whose name starts with the letter `S`
 - Retrieve all hotels which have the word `Hotel` in their name
 - Retrieve the booking start date, customer name, hotel name for the top 5 bookings ordered by number of nights in descending order
+
+:::
 
 ## Integration with NodeJS
 

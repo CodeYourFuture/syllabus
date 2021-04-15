@@ -104,9 +104,15 @@ If you see these, suggest people change them in pull requests.
 
 ### Exercise ( 15 mins )
 
-1. What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
+:::tip Exercise 1
 
-2. Check out the code below.
+What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
+
+:::
+
+:::tip Exercise 2
+
+Check out the code below.
 
 Replace the variable `FILL_ME_IN` with actual values to prevent the `checkIsTrue` function from logging an error message.
 
@@ -148,9 +154,11 @@ function checkIsTrue(value1) {
 }
 ```
 
----
+:::
 
-3. Create a function called `isEven` that should
+:::tip Exercise 3
+
+Create a function called `isEven` that should
 
 - take a number as an input
 - return a **boolean** indicating if the number is even or odd
@@ -163,6 +171,8 @@ E.g. `isEven(53)` should return `false`
 Call your function with a number of different inputs to check your function is working as expected. 😄
 
 Bonus: Can you ensure your function doesn't use an `if` statement for this exercise 😎
+
+:::
 
 ## Conditionals
 
@@ -233,6 +243,8 @@ What if there is more than one condition you want to handle in your function? Fo
 
 ### Exercise (5 mins)
 
+:::tip Exercise
+
 Can you explain what this function does line by line? What happens when you pass in a string?
 
 ```js
@@ -249,7 +261,11 @@ function numberChecker(num) {
 }
 ```
 
+:::
+
 ### Exercise (10 mins)
+
+:::tip Exercise
 
 Create a function that gives you a message depending on your mood! It should:
 
@@ -258,6 +274,8 @@ Create a function that gives you a message depending on your mood! It should:
 - return "Every cloud has a silver lining" if you pass in "sad"
 - return "Beep beep boop" if you pass in a number
 - return "I'm sorry, I'm still learning about feelings!" if you pass in anything else
+
+:::
 
 ## Logical Operators
 
@@ -283,7 +301,9 @@ We can test expressions with logical operators in a node console too.
 
 ### Exercise (5 mins)
 
-Type the following expressions into your node REPL and note the output. Anything you didn't expect?
+:::tip Exercise
+
+Type the following expressions into your Node and note the output. Anything you didn't expect?
 
 - `let num = 10`
 - `num > 5 && num < 15`
@@ -294,13 +314,19 @@ Type the following expressions into your node REPL and note the output. Anything
 - `!greaterThan5`
 - `!(num === 10)`
 
+:::
+
 ### Exercise (15 mins)
+
+:::tip Exercise
 
 In pairs, write a function that checks a username is of an acceptable format for a user type. The function must:
 
 - take two parameters: one for the username and one for the user type
 - if the username starts with a capital letter _and_ has length between 5 and 10 characters long, it must return `"Username valid"`; otherwise, it must return `"Username invalid"`
 - if the user type is an `admin` _or_ a `manager`, all usernames must return `"Username valid"`
+
+:::
 
 ## Loops
 
@@ -324,11 +350,15 @@ It's important that the condition inside the parenthesis becomes false at some p
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
+
 Write a function that:
 
 - Takes one number `n` as a parameter
 - Adds all numbers from `0` to `n`. For example, if the input is `3`, the output should be `0 + 1 + 2 + 3`
 - You should use a while loop
+
+:::
 
 ### for loop
 
@@ -346,11 +376,15 @@ for (let i = 0; i < 20; i++) {
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
+
 Write a function, similar to the last exercise, that:
 
 - Takes one number `n` as a parameter
 - Adds all numbers from `0` to `n`. For example, if the input is `3`, the output should be `0 + 1 + 2 + 3`
 - You should use an for loop
+
+:::
 
 ## Arrays
 
@@ -401,7 +435,9 @@ console.log(trainees); // ["Ahmed", "Maria", "Bianca", "Nahidul", "Jack"]
 
 ### Exercise (5 mins)
 
-In the node REPL, enter the following array:
+:::tip Exercise
+
+In Node, enter the following array:
 
 ```sh
 > const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange'];
@@ -416,7 +452,11 @@ Now, using the correct indexes, get the following values from the array:
 
 Then, replace 'apple' with 'raspberry', and replace 'fig' with 'pineapple'.
 
+:::
+
 ### Exercise (5 mins)
+
+:::tip Exercise
 
 Complete this function so that, if the second element in the array contains the name "Amy", it returns `"Second element matched!"`
 
@@ -428,6 +468,8 @@ function secondMatchesAmy(array) {
   return "Second element not matched";
 }
 ```
+
+:::
 
 ### Using for loops with arrays
 
@@ -455,9 +497,15 @@ for (let i = 0; i < daysOfWeek.length; i++) {
 
 ### Exercise (10 mins)
 
+:::tip Exercise
+
 Write a function which takes your **trainees** array as an input. In the function, use a for loop to **iterate** over the array and print the name of each trainee to the console.
 
+:::
+
 ### Exercise - extra credit (20 mins)
+
+:::tip Exercise
 
 In pairs, write a function which squares all numbers in an array and returns the array of squared numbers.
 
@@ -465,7 +513,11 @@ Write a second function which takes an input of arrays and only returns an array
 
 How can you combine the two functions to return an array of even and squared numbers?
 
+:::
+
 ## Extra exercises
+
+:::tip Exercise
 
 ### Playing computer I
 
@@ -503,6 +555,10 @@ for (let i = 0; i < daysOfWeek.length; i++) {
 }
 ```
 
+:::
+
+:::tip Exercise
+
 ### Playing computer II
 
 1. Working in pairs or groups, you have to predict the output of this program without executing it.
@@ -531,6 +587,10 @@ for (let i = 0; i < 5; ++i) {
   }
 }
 ```
+
+:::
+
+:::tip Exercise
 
 ### Playing computer III
 
@@ -569,6 +629,8 @@ for (let i = 0; i < 10; ++i) {
   }
 }
 ```
+
+:::
 
 ## Glossary
 

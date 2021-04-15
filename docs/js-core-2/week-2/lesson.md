@@ -87,42 +87,39 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
 
 ### Preparation for exercises
 
-> ---
->
-> Let's work on the code provided here:
-> https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
->
-> 1. Open "A-dom-manipulation" project in VS code
-> 2. You will have to work on the `exercise.js` file for today's homework
-> 3. View your changes by
->    - using [vscode-live-server](https://github.com/ritwickdey/vscode-live-server) plugin to get live updates of your changes.
->      - Install the plugin
->      - Right click on `index.html` and select "Open with Live Server"
->    - or just open the `index.html` on your browser and refresh every time you change your code
->
-> ---
+:::tip Exercise
+
+Let's work on the code provided here:
+https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
+
+1. Open "A-dom-manipulation" project in VS code
+2. View your changes by
+   - using [vscode-live-server](https://github.com/ritwickdey/vscode-live-server) plugin to get live updates of your changes.
+     - Install the plugin
+     - Right click on `index.html` and select "Open with Live Server"
+   - or just open the `index.html` on your browser and refresh every time you change your code
+
+:::
 
 ### Exercise (1)
 
-```js
-/*
-Task 1
-=======
+:::tip Exercise
+
 Write JavaScript below that logs:
-    1. all the "p" element nodes of the document,
-    --> should log a list of nodes with a length of 6
 
-    2. the first div element node
-    --> should log the ".site-header" node
+1. all the "p" element nodes of the document,
+   --> should log a list of nodes with a length of 6
 
-    3. the element with id "jumbotron-text"
-    --> should log the "#jumbotron-text" node
+2. the first div element node
+   --> should log the ".site-header" node
 
-    4. all the "p" elements contained inside  the .primary-content element node
-    --> should log a list of nodes with a length of 3
+3. the element with id "jumbotron-text"
+   --> should log the "#jumbotron-text" node
 
-*/
-```
+4. all the "p" elements contained inside the .primary-content element node
+   --> should log a list of nodes with a length of 3
+
+:::
 
 ## Attach events to DOM elements
 
@@ -141,14 +138,9 @@ You will notice in the example that we passed a second argument to `addEventList
 
 ### Exercise (2)
 
-```js
-/*
-Task 2
-======
+:::tip Exercise
 
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
-*/
-```
 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
 
@@ -157,16 +149,15 @@ let myElement = document.querySelector("#myElement");
 myElement.style.backgroundColor = "red";
 ```
 
+:::
+
 ### Exercise (3)
 
-```js
-/*
-Task 3
-=======
+:::tip Exercise
 
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
-*/
-```
+
+:::
 
 ## Create DOM elements
 
@@ -181,14 +172,11 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 
 ### Exercise (4)
 
-```js
-/*
-Task 4
-======
+:::tip Exercise
 
 When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
-*/
-```
+
+:::
 
 ## Manipulate DOM elements
 
@@ -240,14 +228,11 @@ To get the entered text from it, we use the `value` property: `let title = input
 
 ### Exercise (5)
 
-```js
-/*
-Task 5
-======
+:::tip Exercise
 
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
-*/
-```
+
+:::
 
 ## Feedback
 

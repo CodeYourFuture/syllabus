@@ -29,6 +29,8 @@ The purpose of this class is to introduce to the trainee:
 
 ## 1. Debugging Quiz
 
+:::tip Quiz
+
 Let's see what you remember from last week!
 
 _Answer in a thread on Slack_
@@ -38,6 +40,8 @@ _Answer in a thread on Slack_
 3. What is a `syntax` error?
 4. What is a `reference` error?
 5. What is a `type` error?
+
+:::
 
 ## 2. How the web works - quick recap
 
@@ -100,13 +104,15 @@ Common content types include
 
 ### Exercise
 
-```
+:::tip Exercise
+
 In Slack post answers to the following
 
 - What can HTTP headers contain?
 - What is the purpose of status codes?
 - What can an HTTP message contain?
-```
+
+:::
 
 ## 3. What are APIs and how to interact with them
 
@@ -163,39 +169,46 @@ As you can see the URL changes the data that we get from the API. This can be br
 
 <img src={require('!file-loader!./assets/api-breakdown.png').default}/>
 
-### Exercise
+### Exercise (5 mins)
 
-**Task (5 mins):**
+:::tip Exercise
 
-```
 Let's use the TFL API to get data about the London Underground
 
 https://api.tfl.gov.uk
 
-1.  Which endpoint would you use to find out if there is a disruption on the 'central' line? 2. Does the 'central' line have a disruption right now? Name another line that has a disruption on it.
+1. Which endpoint would you use to find out if there is a disruption on the 'central' line?
+2. Does the 'central' line have a disruption right now?
+3. Name another line that has a disruption on it.
 
 Hint: Use your browser to access the endpoints
-```
+
+:::
 
 #### Recap
 
-**Question:**
+:::tip Recap
 
-    Which of the following statements below about APIs is false?
+##### Question
 
-    A) Public APIs can be accessed by anyone on the Internet.
-    B) You must use Javascript to access an API.
-    C) APIs can control access to data or features of an application.
-    D) You can change data via an API.
+Which of the following statements below about APIs is false?
 
-**Question:**
+A) Public APIs can be accessed by anyone on the Internet.
+B) You must use Javascript to access an API.
+C) APIs can control access to data or features of an application.
+D) You can change data via an API.
 
-    Give an example of a company that uses an API to allow access to their data.
+##### Question
 
-**Question:**
+Give an example of a company that uses an API to allow access to their data.
 
-    What is the `myapi/` part of a url called in this url?
-    http://www.google.com/**myapi**/
+##### Question
+
+What is the `myapi/` part of a url called in this url?
+
+http://www.google.com/**myapi**/
+
+:::
 
 ## 4. How to use `fetch` to do network requests
 
@@ -207,7 +220,7 @@ Hint: Use your browser to access the endpoints
   - We can use this website to help us - [caniuse.com](https://caniuse.com/#feat=fetch))
 - Fetch API documentations by Mozilla [link](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
-### How does fetch work?
+### Using `fetch`
 
 Fetch uses a JavaScript pattern called "Promises" which has a very specific structure.
 
@@ -224,7 +237,7 @@ In this example we
 3. When I've drank the milk `then` I should recycle the bottle
 4. If anything goes wrong with those steps I should `catch` the error and `warn` everyone what happened
 
-### Example
+Here is an example of this code:
 
 ```javascript
 getMilkFromShops
@@ -240,9 +253,13 @@ getMilkFromShops
   .catch((error) => console.warn("Oh no, I dropped the milk"));
 ```
 
+_Note: This is "Psuedo Code"- meaning it doesn't work! This is just to demonstrate how it **might** work_
+
+### Live Coded Examples
+
 #### Example 1
 
-_Live Coding Exercise_
+:::tip Teacher-Led Live Coding Example
 
 Let's step through how the Fetch function is used and what it is comprised of
 
@@ -261,9 +278,11 @@ fetch("https://cat-fact.herokuapp.com/facts")
   .catch((error) => console.log(error));
 ```
 
+:::
+
 #### Example 2
 
-_Live Coding Exercise_
+:::tip Teacher-Led Live Coding Example
 
 Wouldn't it be cool to make a new friend with just the click of a button?
 
@@ -277,7 +296,9 @@ Write a function that makes an API call using `fetch` to `https://www.randomuser
   - Add a profile picture
   - Add some styling using CSS
 
-### Error handling
+:::
+
+### Error Handling
 
 We saw earlier that each HTTP response contains an status code which indicates if our request was successful or not. If the our request failed we usually want to handle it appropriately.
 
@@ -303,7 +324,9 @@ fetch("https://httpstat.us/500")
   });
 ```
 
-#### Exercise
+### Group Exercise
+
+:::tip Group Exercise
 
 In groups the trainees should create a page of details about the United Kingdom.
 
@@ -315,12 +338,12 @@ The website should include
 - The country's capital city
 - An unordered list of the country's name in other all of the other returned languages
 
-##### Getting Started
+#### Getting Started
 
 1. Go to [this Glitch Project](https://glitch.com/edit/#!/js3-2-country-exercise?path=README.md%3A3%3A80)
 2. Click `Remix to Start` to being working
 
-##### Steps
+#### Steps
 
 Example `html` and `javascript` files can be found in the section below
 
@@ -336,39 +359,47 @@ Example `html` and `javascript` files can be found in the section below
    - For each of the translated names in the JSON, add a `li` tag
 7. Uncomment the lines inside `onLoad()` to load other countries details!
 
-**Extra**
+#### Finished Example
+
+You can find the finished example of this website [here](https://codeyourfuture.github.io/completed-country-website/).
+
+:::
+
+:::tip Extra Exercise
 
 - Load the country's flag into an `img` tag
 - Add CSS to make your website look really nice
 - Add other information from the JSON to your Country Details
 
-##### Finished Example
-
-You can find the finished example of this website [here](https://codeyourfuture.github.io/completed-country-website/).
+:::
 
 #### Recap
 
 **Question (5 mins):**
 
-```
+:::note Question
 Complete the following sentence:
 
 Fetch is a web API that allows you to **\_** from **\_**.
-```
+:::
 
 **Task (5 mins):**
 
-```
+:::note Question
+
 Complete the rest of this code to connect to the following API: `https://dog.ceo/api/breeds/image/random`
 
-    fetch(_____)
-    .then(_____)
-    .then(body => console.log(body))
-    .catch(error => console.log(error));
+```js
+fetch(_____)
+  .then(_____)
+  .then((body) => console.log(body))
+  .catch((error) => console.log(error));
+```
 
 1. Post your code on Slack
 2. Post the image you retrieved on Slack
-```
+
+:::
 
 ## Coursework
 

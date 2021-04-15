@@ -55,11 +55,15 @@ Finally, we wrap all of our styles for this media query in brackets (`{` and `}`
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
 Working in pairs, reduce the size of the "Bikes for Refugees" text so that it fits on a small screen (`320px`). But make sure it increases in size on larger screens.
+:::
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
 The two buttons in the jumbotron don't fit on the same line on small screens around `320px` wide. Can you adjust their size so that they fit on the same line?
+:::
 
 ## Flexbox
 
@@ -72,6 +76,7 @@ You can see all the rules that can be applied to both the container and the chil
 
 ### Exercise (20 minutes)
 
+:::tip Exercise
 Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
 
 <img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
@@ -89,6 +94,7 @@ You can start with something like the below, by just adding a container, and the
 ```
 
 Once that's done you can move on to creating boxes for each individual text piece, and again, using flexbox to position the text piece in the middle of its box.
+:::
 
 ---
 
@@ -96,7 +102,9 @@ Let's take a break from flexbox for a minute. Do you remember the `:first-child`
 
 ### Exercise (5 minutes)
 
+:::tip Exercise
 See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`). Use [this screenshot](../assets/screenshot-complete.png) to guide you.
+:::
 
 ## Coursework
 

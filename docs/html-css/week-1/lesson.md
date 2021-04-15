@@ -50,7 +50,7 @@ Fork the repository to your personal account and then clone the repository.
 ## What makes a web page?
 
 <img src={require('!file-loader!../assets/webpage-parts.png').default}
-  alt="Diagram showing that structure (HTML), presentation (CSS), and behaviour (JavaScript) are interlinked"/>
+alt="Diagram showing that structure (HTML), presentation (CSS), and behaviour (JavaScript) are interlinked"/>
 
 A web page consists of three programming languages: HTML, CSS, and JavaScript.
 They define the structure (HTML), presentation (CSS), and behaviour (JavaScript) of the page.
@@ -59,7 +59,7 @@ They define the structure (HTML), presentation (CSS), and behaviour (JavaScript)
 
 > **Principles:** During the course, we will highlight principles that apply to the specific topic but also to Computer Science and Programming in general. It is important to understand these principles, terms and apply them to your thinking in general.
 
-:::note Exercise (5 minutes)
+:::tip Exercise (5 minutes)
 In the Bikes for Refugees project, spend a few minutes exploring the `.html` and `.css` files.
 Why don't we put everything in one file?
 :::
@@ -67,12 +67,12 @@ Why don't we put everything in one file?
 ## What is HTML?
 
 HTML (HyperText Markup Language) is the language used to create documents that are displayed on web browsers.
-It gives **structure** and **meaning** to content by using tags such as `<h1>` and `<p>` to describe headings and paragraphs of text. 
+It gives **structure** and **meaning** to content by using tags such as `<h1>` and `<p>` to describe headings and paragraphs of text.
 
 ## HTML Anatomy
 
 <img src={require('!file-loader!../assets/html-anatomy.png').default}
-  alt="HTML code of an element with a p tag, class=text attribute, and 'Welcome to lesson 1' content"/>
+alt="HTML code of an element with a p tag, class=text attribute, and 'Welcome to lesson 1' content"/>
 
 An HTML element is made up of **tags**, **attributes**, and **content**.
 
@@ -86,7 +86,7 @@ An HTML element is made up of **tags**, **attributes**, and **content**.
 - The **content** is the part of the code in between the opening and closing tags
   - `Welcome to lesson 1` is the **content**
 
-:::note Exercise (1 minute)
+:::tip Exercise (1 minute)
 All together, let's review the basic syntax in the following example.
 
 Which parts are the elements, tags, attributes, and content?
@@ -98,6 +98,7 @@ Which parts are the elements, tags, attributes, and content?
   <a href="http://html5rocks.com">Read Article</a>
 </article>
 ```
+
 :::
 
 ## HTML Structure
@@ -105,22 +106,20 @@ Which parts are the elements, tags, attributes, and content?
 Every HTML document has the same base structure, shown in the code example below.
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My web page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>My web page</title>
-</head>
-
-<body>
-  <article>
-    <h1>Learning HTML</h1>
-    <p>Get to know the HTML basics.</p>
-    <a href="http://html5rocks.com">Read Article</a>
-  </article>
-</body>
-
+  <body>
+    <article>
+      <h1>Learning HTML</h1>
+      <p>Get to know the HTML basics.</p>
+      <a href="http://html5rocks.com">Read Article</a>
+    </article>
+  </body>
 </html>
 ```
 
@@ -132,9 +131,9 @@ The `html` element declares that it is an HTML document, and contains a `head` a
 HTML tags are arranged in a hierarchy. This is sometimes called **nesting** tags or creating an HTML **tree**. Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these **child** tags, because they have a parent-child relationship.
 
 <img src={require('!file-loader!../assets/html-hierarchy.png').default}
-  alt="Tree diagram showing an article tag with h1, p, and a tags as direct children"/>
+alt="Tree diagram showing an article tag with h1, p, and a tags as direct children"/>
 
-:::note Exercise (5 minutes)
+:::tip Exercise (5 minutes)
 As a group, let's try to name all of the parent and child tags in the following example.
 
 ```html
@@ -148,6 +147,7 @@ As a group, let's try to name all of the parent and child tags in the following 
   <a href="http://html5rocks.com">Read Article</a>
 </article>
 ```
+
 :::
 
 ## Semantic HTML
@@ -170,7 +170,7 @@ When creating a web page, we should always think about how to structure the cont
 HTML provides elements that allow us to semantically divide our page into sections.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
-  alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
+alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
 
 The image above shows a common layout of a web page.
 We can use specific HTML elements for each of these sections.
@@ -212,10 +212,10 @@ If the image is not important because it is only for decoration, we can provide 
 
 ```html
 <!-- Image with a description -->
-<img src="sleepy-cat.jpg" alt="A sleeping cat">
+<img src="sleepy-cat.jpg" alt="A sleeping cat" />
 
 <!-- Image for decoration -->
-<img src="decorative-image.jpg" alt="">
+<img src="decorative-image.jpg" alt="" />
 ```
 
 ### Tabular Content
@@ -246,7 +246,9 @@ Below is a table with a caption, along with the HTML code that creates it.
 
 ```html
 <table>
-  <caption>Family member ages</caption>
+  <caption>
+    Family member ages
+  </caption>
   <thead>
     <tr>
       <th>Name</th>
@@ -266,7 +268,7 @@ Below is a table with a caption, along with the HTML code that creates it.
 </table>
 ```
 
-:::note Exercise 1 (10 minutes)
+:::tip Exercise 1 (10 minutes)
 _Paired Programming Challenge_
 
 Work in pairs to determine where the following tags should be used instead in the Bike for Refugees `index.html` file.
@@ -281,14 +283,14 @@ Work in pairs to determine where the following tags should be used instead in th
 Who benefits when we write **semantic** HTML?
 :::
 
-:::note Exercise 2 (10 minutes)
+:::tip Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
 Work in pairs to determine what changes we should make to the code below to make it more semantic.
 
 ```html
 <div>Pancake recipe</div>
-<div src="pancakes-with-syrup.jpg"/>
+<div src="pancakes-with-syrup.jpg" />
 <div>A quick and easy recipe to make pancakes!</div>
 <div>Ingredients</div>
 <div>
@@ -306,9 +308,10 @@ Work in pairs to determine what changes we should make to the code below to make
   <div>Flip and cook the other side until done, then serve</div>
 </div>
 ```
+
 :::
 
-:::note Exercise 3 (10 minutes)
+:::tip Exercise 3 (10 minutes)
 _Solo exercise_
 
 Create a table that contains your favourite food and where it comes from.
@@ -323,7 +326,7 @@ CSS (Cascading Style Sheets) is the language used to modify the **style** of the
 ## CSS Anatomy
 
 <img src={require('!file-loader!../assets/css-anatomy.png').default}
-  alt="CSS rule with an h1 selector, font-size:1.5rem; declaration, font-size property, and 1.5rem value"/>
+alt="CSS rule with an h1 selector, font-size:1.5rem; declaration, font-size property, and 1.5rem value"/>
 
 A CSS rule is made up of **selectors**, **properties**, and **values**.
 
@@ -338,13 +341,19 @@ A CSS rule is made up of **selectors**, **properties**, and **values**.
 - A **rule** is the combination of the selector and its declarations
   - `h1 { font-size: 1.5rem; }` is the **rule**
 
-:::note Exercise (1 minute)
+:::tip Exercise (1 minute)
 All together, let's review the basic syntax in the following example.
 
 Which parts are the rules, selectors, properties, values, and declarations?
 
 ```css
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: #333;
   margin-bottom: 2rem;
 }
@@ -353,6 +362,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: 1px solid #333;
 }
 ```
+
 :::
 
 ## Common CSS properties
@@ -372,7 +382,7 @@ body {
 }
 ```
 
-:::note Exercise (5 minutes)
+:::tip Exercise (5 minutes)
 All together, let's review what each of the CSS properties in the previous code example does.
 :::
 
@@ -386,7 +396,7 @@ There are two types of units: absolute and relative units.
 - Absolute units are always the same size, even when the user zooms in on the browser.
 - Relative units are based on the size of something else, such as the font size or viewport size.
   When the user zooms in the browser, elements using relative units will increase in size too.
-  
+
 The following table contains some of the most commonly used CSS units.
 
 <table>
@@ -446,12 +456,12 @@ h2 {
 If you want to view all CSS units, visit the [MDN CSS values and units page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units#numeric_data_types).
 
 :::tip
-Some users who find it difficult to read small text will use the browser zoom to increase the content size. 
+Some users who find it difficult to read small text will use the browser zoom to increase the content size.
 Since absolute units do not increase in size with browser zoom, we should use relative units whenever possible.
 Therefore, we should **prefer** using `rem` and `%`, and **avoid** using `px`.
 :::
 
-:::note Exercise (5 minutes)
+:::tip Exercise (5 minutes)
 All together, let's review what each of the values in the previous code example mean.
 :::
 
@@ -518,15 +528,16 @@ When using a `:hover` pseudo-class selector, it is usually a good idea to also i
   background: #ef7f52;
 }
 ```
+
 :::
 
-:::note Exercise 1 (10 minutes)
+:::tip Exercise 1 (10 minutes)
 _Paired Programming Exercise_
 
 In the Bikes for Refugees project, work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
 :::
 
-:::note Exercise 2 (10 minutes)
+:::tip Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
 In the Bikes for Refugees project, work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
@@ -548,12 +559,12 @@ We can modify these properties using CSS like in the following example.
   border-width: 1px;
   border-style: solid;
   border-color: black;
-  
+
   margin-top: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
-  
+
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -585,11 +596,11 @@ We can also modify the **width** and **height** of the content like in the follo
 }
 ```
 
-:::note Exercise 1 (10 minutes)
+:::tip Exercise 1 (10 minutes)
 In the Bikes for Refugees project, work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
 :::
 
-:::note Exercise 2 (10 minutes)
+:::tip Exercise 2 (10 minutes)
 In the Bikes for Refugees project, you may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
 
 You can also set a transparent border, so that it takes up the space without showing a visible border.
@@ -613,7 +624,7 @@ We can think of CSS as having two types of boxes: **block** boxes and **inline**
 The following image illustrates this visually.
 
 <img src={require('!file-loader!../assets/css-block-inline-flow.png').default}
-  alt="Diagram showing that block elements stack vertically and inline elements stack horizontally"/>
+alt="Diagram showing that block elements stack vertically and inline elements stack horizontally"/>
 
 Block and inline boxes have a few more differences, which if you're not aware of can make it difficult to understand why inline elements are not being styled as expected.
 The following table describes the differences between the two in more detail.
@@ -695,7 +706,7 @@ If you want to view a list of all block and inline elements, visit the
 ## CSS Inheritance, Cascade and Specificity
 
 In CSS, you can write many rules including ones that conflict with one another.
-How does CSS know when to apply rules and when to override them? 
+How does CSS know when to apply rules and when to override them?
 It uses the concepts of **inheritance**, **cascade**, and **specificity** to figure it out.
 
 ### Inheritance
@@ -757,7 +768,7 @@ The [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/mai
 is a CSS Project for you to complete using what you've learnt so far today.
 Fork the repository to your personal account and then clone the repository.
 
-:::note Exercise (60 minutes+)
+:::tip Exercise (60 minutes+)
 Work in pairs to complete all the mistakes in the project and fix them.
 :::
 

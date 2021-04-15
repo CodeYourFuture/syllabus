@@ -232,7 +232,7 @@ module.exports = {
     ],
   },
   Node: {
-    Overview: ["node/index", "node/preparation"],
+    Overview: ["node/index", "node/preparation", "node/coordinator"],
     "Lesson 1": [
       "node/week-1/lesson",
       "node/week-1/homework",

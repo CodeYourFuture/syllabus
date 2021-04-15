@@ -30,15 +30,15 @@ _If you are a teacher reading this, please check the [Instructor Notes](./instru
 
 ## 1) API Refresh
 
-```
-Group exercise (5 minutes)
+:::tip Exercise
 
 Exercise: Discuss known APIs
 
 1. Groups discuss any APIs they know about.
 2. What might you do with it?
 3. Announce answers to class.
-```
+
+:::
 
 Before we make our own API, let's look at and use some other APIs.
 
@@ -51,10 +51,12 @@ Here's an example API that shows us the Sunrise and Sunset times of everywhere i
 
 Next let's try an exercise
 
-```
-Group exercise 5 minutes: experiment with existing APIs
+#### Group Exercise (5 minutes)
+
+:::tip Exercise
 
 Pick a couple of these and experiment with them, modify the requests, report your findings.
+
 - http://www.tvmaze.com/api
   - e.g. http://api.tvmaze.com/shows/82/episodes
 - Sunrise/Sunset times: https://sunrise-sunset.org/api
@@ -68,7 +70,8 @@ Pick a couple of these and experiment with them, modify the requests, report you
   - e.g. All Beyonce's music videos: https://itunes.apple.com/search?term=beyonce&entity=musicVideo
 - CYF resource-library https://resource-library.codeyourfuture.io/api/resources
 - (Difficult) Wikipedia API: https://en.wikipedia.org/w/api.php?
-```
+
+:::
 
 So what's the big deal? I can see this information on web sites already!
 
@@ -85,6 +88,8 @@ We've made a really simple server about cats. You can check it out here:
 - [Source](https://glitch.com/~cyfcats)
 - [Live](https://cyfcats.glitch.me/)
 
+:::tip Teacher-Led Live Coding Example
+
 Let's inspect the different parts of the Node App and how Express works. Let's discuss
 
 - `require` on Line 1
@@ -95,29 +100,38 @@ Let's inspect the different parts of the Node App and how Express works. Let's d
 
 Can we work out what each those lines are doing?
 
-> In-Class Exercise
->
-> As a class - try to make a simple express server.
->
-> You can pick any theme you like but maybe try
->
-> - The class' favorite foods
-> - The class' favorite songs
-> - or get ideas from the class!
+:::
 
-Now let's make a server ourselves from scratch.......
+:::tip Teacher-Led Live Coding Example
 
-#### Exercise: Make your own node server (on glitch)
+As a class - try to make a simple express server.
 
-```
+You can pick any theme you like but maybe try
+
+- The class' favorite foods
+- The class' favorite songs
+- or get ideas from the class!
+
+The server should have one endpoint. When you request the data from that endpoint it should give you the whole list of items that are stored in your node server.
+
+:::
+
+Now let's make a server ourselves from scratch...
+
+:::tip Exercise:
+
+Make your own node server on glitch
+
 All trainees should "remix" this one for a simple start: https://glitch.com/~cyf-simple-express
 Have them it read and modify it to do something different.
+
 1. Login to Glitch and ‘remix’ this project and rename to be yours
 2. e.g. say "Hello Miles", instead of "Hello Kash"
 3. Make it return an array of strings as json.
 4. Make it return the current time
 5. Advanced: make it return whatever you want! 3 minutes.
-```
+
+:::
 
 ## 3) Make a Node API
 
@@ -130,12 +144,6 @@ In small groups complete each of the steps below. At different points, the teach
 Fork and clone the repo [https://github.com/CodeYourFuture/Node-Starter-Kit](https://github.com/CodeYourFuture/Node-Starter-Kit).
 
 It is an empty project that includes all the details you need to get started building your first Node App.
-
-#### Download Postman
-
-Postman is a tool that helps us test and develop APIs.
-
-> Download and install [Postman](https://www.getpostman.com/).
 
 ### 3.2) Installing The Project
 
@@ -213,7 +221,9 @@ app.listen(3000, function () {
 });
 ```
 
-> Try to use ES6 arrow functions instead of `function`.
+:::tip Task
+Try to use ES6 arrow functions instead of `function`.
+:::
 
 #### 5. Switch the server on!
 
@@ -293,9 +303,11 @@ app.listen(3000, function () {
 });
 ```
 
-> Exercise: Try to `console.log` the `request` object inside the handler
-> function. Restart your server, send the request again with Postman, then go to your terminal
-> to see what it looks like. You should see a lot of data come through.
+::: Break Exercise
+Try to `console.log` the `request` object inside the handler function.
+
+Restart your server, send the request again with Postman, then go to your terminal to see what it looks like. You should see a lot of data come through.
+:::
 
 #### 2. Check it out in Postman
 
@@ -310,7 +322,9 @@ Now, open Postman, and send a `GET` request to
 `http://localhost:3000`. If you see your message in Postman,
 congratulations! You just sent your first response from the server.
 
-> Checkpoint: Do you understand all these terms? You should be able to see examples of them in Postman
+:::tip Checkpoint
+
+Do you understand all these terms? You should be able to see examples of them in Postman
 
 - [ ] Client
 - [ ] Server
@@ -323,12 +337,16 @@ congratulations! You just sent your first response from the server.
 - [ ] HTTP Response Codes
 - [ ] HTTP Request Methods (or Verbs)
 
+:::
+
 ### 3.4) Routing
 
 At the moment our server only does one thing. When it receives a request from
 the `/` endpoint, it sends back the same response: "Yay Node!".
 
-> Try typing http://localhost:3000/node and see what happens.
+:::tip Exercise
+Try typing http://localhost:3000/node and see what happens.
+:::
 
 However by making use of endpoints, we can make the server send different
 responses for different requests. This concept is called **routing**.
@@ -361,8 +379,11 @@ app.get("/chocolate", function (req, res) {
 });
 ```
 
-> **Exercise:** Add some code so that your server sends one message when the
-> endpoint is `/node` and another one when it's `/codeyourfuture`.
+:::tip Exercise
+
+Add some code so that your server sends one message when the endpoint is `/node` and another one when it's `/codeyourfuture`.
+
+:::
 
 ### 3.5) Query Parameters
 
@@ -395,10 +416,13 @@ Here is an example of how we would use this endpoint with query parameters:
 
 Now your turn!
 
-> **Exercise:** Add some code so that your server returns the amount of chocolate that you
-> want from `/chocolate` endpoint. For example
->
-> http://localhost:3000/chocolate?amount=3
+:::tip Exercise
+
+Add some code so that your server returns the amount of chocolate that you want from `/chocolate` endpoint. For example
+
+http://localhost:3000/chocolate?amount=3
+
+:::
 
 ### 2. Multiple Query Parameters
 
@@ -418,12 +442,16 @@ app.get("/json", function (req, res) {
 });
 ```
 
-> **Exercise** Add some code so that your server takes 2 values that we will multiply together and return the value
-> For example
->
-> http://localhost:3000/multiply?value1=2&value2=10
->
-> Which would give a return value of 20
+:::tip Exercise
+
+Add some code so that your server takes 2 values that we will multiply together and return the value
+For example
+
+http://localhost:3000/multiply?value1=2&value2=10
+
+This should return value of 20
+
+:::
 
 ## Feedback
 

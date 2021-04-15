@@ -76,12 +76,17 @@ scores[3] = 51; // Add a new score
 
 ### Exercise (5 minutes)
 
+:::tip Exercise
+
 - Create an array with the names of the people on your table
 - `console.log` out the names and how many people are at the table
 - Put someone from another table at the beginning of the array
 - Add someone else to the end of the list
 
-## Working with arrays
+:::
+
+## Working with Arrays
+
 When working with lists it is often useful to manipulate, enhance, or search the information in that list.
 
 Some examples of things you might want to do with a list of data:
@@ -98,7 +103,11 @@ Some examples of things you might want to do with a list of data:
 
 ### Exercise - extra credit (10 minutes)
 
+:::tip Exercise
+
 Working as a group - use the [MDN documentation on arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods) to see if you can find what methods might be useful to achieving the above examples.
+
+:::
 
 ## Array methods
 
@@ -206,11 +215,15 @@ There is a string method `.split()`. In an interactive console try using the str
 
 ### Exercise (10 minutes)
 
-- Use the array of the people from your table
+:::tip Exercise
+
+- Use the array of the people from your table (or breakout room)
 - Combine it with another array filled with the names from another table
 - `console.log` the names in alphabetical order
 - Create a new value with the 2nd, 3rd and 4th people in it
 - Create a function that takes a `name` and an array of names and returns a string. If the name is not in an array, it should return `<name> is not sitting at the table with <people in the array>`. If the name is in the array, it should return `<name> is sitting at the table with <people in the array>`.
+
+:::
 
 ## Array map
 
@@ -295,6 +308,8 @@ In the example above, the expression `number * 2` is automatically returned beca
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
+
 I have a function defined below as:
 
 ```js
@@ -321,11 +336,17 @@ This function does not need to be modified. Can you pass in a _callback function
 
 - Upper cases all letters in the array
 
+:::
+
 ### Exercise - extra credit
+
+:::tip Exercise
 
 Modify your callback function from the previous exercise so that it also:
 
 - Sorts `abracaArray` in alphabetical order
+
+:::
 
 ## Array forEach
 
@@ -363,17 +384,25 @@ names.forEach(function (name, index) {
 
 ### Exercise (10 minutes)
 
+:::tip Exercise
+
 - Create a function that takes a `birthYear`, and returns the age of someone
 - You are given an array with year that 7 people were born, `[1964, 2008, 1999, 2005, 1978, 1985, 1919]`. Take this array and create another array containing their ages.
 - `console.log` the birth years array
 
+:::
+
 ### Exercise (5 minutes)
+
+:::tip Exercise
 
 You can drive in the UK at the age of 17.
 
 - Write another function that takes a birth year and returns a string `Born in {year} can drive` or `Born in {year} can drive in {x} years`
 - Use the array of birth years, `[ 1964, 2008, 1999, 2005, 1978, 1985, 1919 ]`, to get an array of strings saying if these people can drive
 - `console.log` the answers
+
+:::
 
 ## Array filter
 
@@ -407,11 +436,15 @@ console.log(highTestScores); // logs [90, 100, 81]
 
 ### Exercise (10 mins)
 
+:::tip Exercise
+
 Create a function which:
 
 - Takes an array of `birthYears`
 - Uses `console.log` to print the message `These are the birth years of people who can drive: <filtered birth years>`
 - Returns an array of people who can drive (remember, you can drive if you are 17 years or older)
+
+:::
 
 ## Array find
 
@@ -445,11 +478,15 @@ console.log(longName); // logs Mozafar
 
 ### Exercise (10 mins)
 
+:::tip Exercise
+
 Create a function which:
 
-- Takes an array of names
+- Takes an array of names as a parameter
 - Looks to see if your name is in the array
 - If it is, return `Found me!`; if not, return `Haven't found me :(`
+
+:::
 
 ### Chaining
 
@@ -488,6 +525,8 @@ This code does not work because `forEach()` does not return a new array (it retu
 
 ### Exercise (15 minutes)
 
+:::tip Exercise
+
 Create a function which accepts an array of "messy" strings. Example:
 
 ```js
@@ -514,6 +553,8 @@ This function should:
 - Change the strings to upper case, and add an exclamation mark to the end
 
 If you're using the above example, you should expect to return an array with 2x `ELAMIN!`, 1x `SANYIA!`, 2x `ISMAEL!` and 1x `JAMES!`.
+
+:::
 
 ## Coursework
 
