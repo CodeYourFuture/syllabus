@@ -29,7 +29,7 @@ When programmers work together it can be hard to stay in sync. This can be demon
 
 The teacher is the single source of truth for the project. This is fine so long as both people don't make a change at the same time.
 
-- Now both students change a word on their piece of paper
+- Now both trainees change a word on their piece of paper
 - They then try to give both pieces of paper to the teacher
   - But the teacher doesn't know what to do! Which one is correct?
 
@@ -49,7 +49,7 @@ Give an overview of Github including
 
 ### Exercise
 
-All students should now complete the following steps
+All trainees should now complete the following steps
 
 ```
 1. Create a repository called "Code Your Future".
@@ -75,7 +75,7 @@ Give a demonstration of
 
 ### Exercise
 
-The students should now complete the following steps
+The trainees should now complete the following steps
 
 ```
 1. Clone their repository called `Code Your Future` to their computer
@@ -114,7 +114,7 @@ The teacher should
 
 ## Exercise
 
-All students should now
+All trainees should now
 
 ```
 1. Create a branch called "my-favorite-stuff"
@@ -133,10 +133,10 @@ Branching is particularly helpful for using in Pull Requests
 
 ### Exercise
 
-Now the students should try this themselves
+Now the trainees should try this themselves
 
 ```
-1. Each student should go to this repository
+1. Each trainee should go to this repository
    - https://github.com/CodeYourFuture/GitTeaching
 2. They should open a pull request
 3. Share the link to their pull request in Slack with the rest of the class
@@ -154,7 +154,7 @@ The teacher should show
 - How to make a commit
 - How to how to push to the repository
 
-This is only to show students how it's done! We'll be doing more of this in the future.
+This is only to show trainees how it's done! We'll be doing more of this in the future.
 
 ## Quiz
 

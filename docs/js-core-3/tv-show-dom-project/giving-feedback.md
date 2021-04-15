@@ -80,7 +80,7 @@ Find some other ideas on how people can improve their code in [AirBnB's Style Gu
 
 ### Functionality
 
-Before starting this section, check which `Level` the student has completed up until. We don't want to ask them to change functionality that doesn't work yet!
+Before starting this section, check which `Level` the trainee has completed up until. We don't want to ask them to change functionality that doesn't work yet!
 
 - Does the website do everything that it is meant to?
 - Is the website easy to use?

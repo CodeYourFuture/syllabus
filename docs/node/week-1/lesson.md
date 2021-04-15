@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define what an API is used for
 - Use Glitch to deploy and edit `express` servers
@@ -110,7 +110,7 @@ Now let's make a server ourselves from scratch.......
 #### Exercise: Make your own node server (on glitch)
 
 ```
-All students should "remix" this one for a simple start: https://glitch.com/~cyf-simple-express
+All trainees should "remix" this one for a simple start: https://glitch.com/~cyf-simple-express
 Have them it read and modify it to do something different.
 1. Login to Glitch and ‘remix’ this project and rename to be yours
 2. e.g. say "Hello Miles", instead of "Hello Kash"

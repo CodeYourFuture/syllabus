@@ -54,7 +54,7 @@ Answer the following questions:
 
 ### Submission
 
-Share your answers with the other students in your Buddy Group or on your Slack class channel.
+Share your answers with the other trainees in your Buddy Group or on your Slack class channel.
 
 Did you get different answers to other people? Ask them how they worked them out!
 

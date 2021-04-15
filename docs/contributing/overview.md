@@ -13,29 +13,29 @@ This syllabus has the following aims
 - To direct teachers across our network to our content
 - To share content developed by volunteers between our cities (slides, videos, exercises etc)
 - To ease the load of planning lessons for our teachers
-- To be a repository of exercises for our students
-- To be a resource for our students to refer to
+- To be a repository of exercises for our trainees
+- To be a resource for our trainees to refer to
 
-### Target Students
+### Target Trainees
 
-The vast majority of our students fit this profile:
+The vast majority of our trainees fit this profile:
 
 - Non-native English speaking
 - Limited to zero prior experience in programming
 - Many do not have higher education certificates (Bachelors or higher)
 - Some have not worked in a professional setting before
 
-This means that in general our students
+This means that in general our trainees
 
 - Respond better to exercises than written material
 - Will quickly become overwhelmed with long, meandering lectures
 - May have a lower resilience to failure and errors
 
-You should keep these qualities in mind whenever we develop content for our students.
+You should keep these qualities in mind whenever we develop content for our trainees.
 
 ### Organisational Documents
 
-This website contains everything that we teach our students. For organisational documents you can reference the Docs website.
+This website contains everything that we teach our trainees. For organisational documents you can reference the Docs website.
 
 [https://docs.codeyourfuture.io](https://docs.codeyourfuture.io)
 
@@ -51,7 +51,7 @@ These tasks are to do with one of our modules. These modules are living document
 
 - Workshop Development - [here](https://github.com/CodeYourFuture/syllabus/projects/2)
 
-These tasks are one workshops that provide non-essential skills or experiences to our students. For example, modules in Mobile Application Development or Machine Learning. Once run, these modules are kept as a library for future students and volunteers to refer back to.
+These tasks are one workshops that provide non-essential skills or experiences to our trainees. For example, modules in Mobile Application Development or Machine Learning. Once run, these modules are kept as a library for future trainees and volunteers to refer back to.
 
 ### Github
 
@@ -85,11 +85,11 @@ Focus on exercises in the class rather than presentations or long explanations
 
 Homework should contain
 
-- Resources to help the student study the material in the lesson
-- A set of homework that the student must complete before the next lesson
-- Any tasks the student should complete before the next lesson
+- Resources to help the trainee study the material in the lesson
+- A set of homework that the trainee must complete before the next lesson
+- Any tasks the trainee should complete before the next lesson
 
-The homework should be relevant, get harder gradually with an (optional) stretch goal for more advanced students.
+The homework should be relevant, get harder gradually with an (optional) stretch goal for more advanced trainees.
 
 ### Instructor Notes
 

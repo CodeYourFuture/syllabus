@@ -18,11 +18,11 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Before you teach this lesson
 
-If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
 [MongoDB Preparation](../preparation)
 
-If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## Presentations
 

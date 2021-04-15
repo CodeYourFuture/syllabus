@@ -27,7 +27,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Overview
 
-This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+This outline provides tips to help mentors guide trainees to the best answers or outcomes for the lesson topics and exercises.
 
 ### Articles
 
@@ -77,7 +77,7 @@ When completing the second exercise, make sure they're only modifying the button
 
 ### Content Layout: Flexbox
 
-This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that students are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
+This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that trainees are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
 
 When they add a background and border to the "Learn More" articles, make sure they're adding padding so the text doesn't go right up to the edge. If they are using `px` units, nudge them towards `em` and explain that `em` is often preferred because it scales well when you need to change font size for different viewports.
 

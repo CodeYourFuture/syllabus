@@ -35,7 +35,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Overview
 
-This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+This outline provides tips to help mentors guide trainees to the best answers or outcomes for the lesson topics and exercises.
 
 ### Open-source HTML/CSS Frameworks
 
@@ -45,22 +45,22 @@ Using the [Card](https://getbootstrap.com/docs/4.0/components/card/#example) exa
 
 ### Personal Websites
 
-The goal of this exercise is to identify students who are struggling to keep up. Try to identify where a student is struggling:
+The goal of this exercise is to identify trainees who are struggling to keep up. Try to identify where a trainee is struggling:
 
 - Can they find their files quickly?
 - Are they using the command line when appropriate?
 - Do they understand how their HTML and CSS interact?
 - Do they seem to understand syntax, or are they writing code in the wrong place?
 
-If you find a student who is struggling with any of these basics, try to work through them together, then give them a short assignment where they need to do something on their own.
+If you find a trainee who is struggling with any of these basics, try to work through them together, then give them a short assignment where they need to do something on their own.
 
-There will be several students who have the basics down. If they do, push them on some of the higher-level abstract concepts, like re-usable HTML/CSS components, and using CSS specificity cleverly (eg - basic and primary buttons). Beyond that, let them read up on HTML Forms (links in the resources), do some of the advanced suggestions in the syllabus, or challenge them to read and implement BEM naming syntax.
+There will be several trainees who have the basics down. If they do, push them on some of the higher-level abstract concepts, like re-usable HTML/CSS components, and using CSS specificity cleverly (eg - basic and primary buttons). Beyond that, let them read up on HTML Forms (links in the resources), do some of the advanced suggestions in the syllabus, or challenge them to read and implement BEM naming syntax.
 
 ### Retrospective
 
 Try to use a tool such as [MetroRetro](https://metroretro.io/) to facilitate this discussion.
 
-It is **very** important to reinforce the fact tha criticizing the course makes us better. Remind the students that there are 100s of students coming after them at CodeYourFuture - every bit of critical feedback makes us better for them.
+It is **very** important to reinforce the fact tha criticizing the course makes us better. Remind the trainees that there are 100s of trainees coming after them at CodeYourFuture - every bit of critical feedback makes us better for them.
 
 You can prompt them with questions such as:
 

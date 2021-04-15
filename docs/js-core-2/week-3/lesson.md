@@ -23,7 +23,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define the difference between synchronous and asynchronous code
 - Describe why writing asynchronous code is important when working with the internet
@@ -303,7 +303,7 @@ Click [here](./homework) to view the coursework for this lesson.
 
 ## JavaScript 2 Quiz
 
-An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform) which can be used to test students understanding. This can be done in class or set as homework.
+An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform) which can be used to test trainees understanding. This can be done in class or set as homework.
 
 ## Feedback
 

@@ -16,7 +16,7 @@ sidebar_label: Overview
 
 ## Overall Learning Objectives - React module
 
-By the end of the three lessons & homework, students should be able to build a React application:
+By the end of the three lessons & homework, trainees should be able to build a React application:
 
 - Written with components
   - Appropriately composed/nested
@@ -34,7 +34,7 @@ By the end of the three lessons & homework, students should be able to build a R
 
 <!-- TODO: use this to make a rubric? -->
 
-For advanced students, some further objectives would be:
+For advanced trainees, some further objectives would be:
 
 - Use class components instead of function components/Hooks
 - Explain why React state is used over plain old JavaScript variables
@@ -51,4 +51,6 @@ These topics are considered out-of-scope:
 - CSS-in-JS
 - In depth functional programming
 
----
+## Coordination
+
+Coordination details for this module can be found on the [Module Coordinator's page](./coordi

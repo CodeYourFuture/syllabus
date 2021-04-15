@@ -6,7 +6,7 @@ sidebar_label: Lesson
 
 ## Learning Objectives
 
-By the end of this lesson a student will be able to
+By the end of this lesson a trainee will be able to
 
 - Do X
 - Describe Y
@@ -42,7 +42,7 @@ High level explanation of Topic 2 - rely on the exercises
 
 > **Harder Exercise 3**: Always have exercises
 
-## Topic 
+## Topic
 
 High level explanation of Topic 3 - rely on the exercises
 

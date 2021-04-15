@@ -20,11 +20,11 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Overview
 
-This outline provides tips to help mentors guide students to the best answers or outcomes for the lesson topics and exercises.
+This outline provides tips to help mentors guide trainees to the best answers or outcomes for the lesson topics and exercises.
 
 ### The HTML section
 
-This is an opportunity for any students who are struggling to get another pass at the basics. Even if it seems like some students get it quickly, try not to rush through this section.
+This is an opportunity for any trainees who are struggling to get another pass at the basics. Even if it seems like some trainees get it quickly, try not to rush through this section.
 
 ### HTML Structure exercise
 
@@ -57,9 +57,9 @@ Search engines, anyone with a visual impairment who uses a screen reader. Reinfo
 
 ### CSS Selectors
 
-Students may need more or less review depending on how much they remember from their application process. If students are struggling with the basics, have them go through this [CSS Introduction course](https://www.codecademy.com/courses/web-beginner-en-TlhFi/resume?curriculum_id=50579fb998b470000202dc8b), starting with the CSS Syntax lesson. Mentors should help guide them through and identify where they're struggling.
+Trainees may need more or less review depending on how much they remember from their application process. If trainees are struggling with the basics, have them go through this [CSS Introduction course](https://www.codecademy.com/courses/web-beginner-en-TlhFi/resume?curriculum_id=50579fb998b470000202dc8b), starting with the CSS Syntax lesson. Mentors should help guide them through and identify where they're struggling.
 
-Students should set the button background color using the `.btn-primary` selector, and adjust the white button using the `.btn-secondary` selector. If they use the `.btn` selector, they'll effect both buttons. When they do that, use it as a lesson in how Object-Oriented CSS works and how to choose the right selector.
+Trainees should set the button background color using the `.btn-primary` selector, and adjust the white button using the `.btn-secondary` selector. If they use the `.btn` selector, they'll effect both buttons. When they do that, use it as a lesson in how Object-Oriented CSS works and how to choose the right selector.
 
 ### Box Model
 
@@ -77,7 +77,7 @@ For the second exercise, the answer will look something like this:
 
 ### CSS Project
 
-Make sure the put the student in similar ability teams as far as you can.
+Make sure the put the trainee in similar ability teams as far as you can.
 
 You can use this project to run out the rest of the lesson if you have extra time or remove it if you're short for time. It's purely a consolidation exercise from the day.
 

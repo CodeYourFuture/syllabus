@@ -8,13 +8,13 @@ Want to make a change to this week but don't have the time? Click [here](https:/
 
 Want to report a bug in this week? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=bug&template=bug-report.md&title=)
 
-## IMPORTANT - Setup Needed For Students
+## IMPORTANT - Setup Needed For Trainees
 
-If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
 [PostgreSQL Preparation](../prep)
 
-If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## Questions and Help
 

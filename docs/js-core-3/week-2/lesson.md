@@ -20,7 +20,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the student:
+The purpose of this class is to introduce to the trainee:
 
 1. Debugging Quiz
 2. How the web works
@@ -305,7 +305,7 @@ fetch("https://httpstat.us/500")
 
 #### Exercise
 
-In groups the students should create a page of details about the United Kingdom.
+In groups the trainees should create a page of details about the United Kingdom.
 
 The API endpoint can be found [here](https://restcountries.eu/rest/v2/name/Great%20Britain?fullText=true)
 

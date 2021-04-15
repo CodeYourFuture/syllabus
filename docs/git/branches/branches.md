@@ -223,6 +223,7 @@ Your branch is ahead of 'origin/story' by 2 commits.
 ```
 
 Or if you have run a `git fetch` but not a `git pull`, and the remote has changes that you haven't pulled yet, it may say:
+
 ```console
 $ git status
 Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
@@ -242,6 +243,6 @@ You can find this weeks coursework [here](./homework).
 
 ## Feedback
 
-It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
+It's really helpful if you give us feedback for this lesson. This helps us improve it for future trainees!
 
 <Feedback module="Git" week="Week 4" />

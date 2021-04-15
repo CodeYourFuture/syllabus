@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Demo (60 minutes)
 
-_Led by Students, presented back to the class_
+_Led by Trainees, presented back to the class_
 
 Integrate all of your work together and share your progress so far with the mentors.
 
@@ -45,7 +45,7 @@ Retros can help a team focus on what is important and what they can improve for 
 
 _Facilitated by Product Managers_
 
-If you're building an internal product - show what you’ve built and what you’re planning to build next to potential users (other students, mentors, etc.) and use any feedback they have to improve your plans.
+If you're building an internal product - show what you’ve built and what you’re planning to build next to potential users (other trainees, mentors, etc.) and use any feedback they have to improve your plans.
 
 If you're working with on external product this might be tricky to do immediately but you spend time discussing how you could find users to demo to and the best way to contact them.
 

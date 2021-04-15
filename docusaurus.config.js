@@ -61,7 +61,7 @@ module.exports = {
             },
             {
               href:
-                "https://personaldevelopment.codeyourfuture.io/sessions/induction-week",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
               label: "Induction",
               position: "left",
               className: "outside-link",

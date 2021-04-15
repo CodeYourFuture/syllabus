@@ -14,7 +14,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the student:
+The purpose of this class is to introduce to the trainee:
 
 1. The scoping of variables, specifically in reference to:
    - Global
@@ -513,7 +513,7 @@ For the rest of the day we'll be working together on our group projects
 
 You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
-Students should group into teams based on the Level that they are working on currently.
+Trainees should group into teams based on the Level that they are working on currently.
 
 ## Coursework
 

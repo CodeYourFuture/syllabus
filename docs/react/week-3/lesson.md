@@ -179,7 +179,7 @@ You might notice that even though we re-rendered, we did **not** run the `useEff
 | 1. Open the `pokedex` React application again.                                                                                                                                                                                                             |
 | 2. Create a new file `src/PokemonMoves.js`, and copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmoves-useeffect-exercise-starting-point-f1mwm?file=/src/PokemonMoves.js).                                                      |
 | 3. Render the `PokemonMoves` component inside the `App` component (underneath `CaughtPokemon`).                                                                                                                                                            |
-| 4. Take a few minutes to read the code in the new `PokemonMoves` component. Discuss with another student why you think it doesn't work.                                                                                                                    |
+| 4. Take a few minutes to read the code in the new `PokemonMoves` component. Discuss with another trainee why you think it doesn't work.                                                                                                                    |
 | 5. Create a new state variable called `pokemonData` and initialise it to `null`. <details><summary>Click here if you are stuck.</summary>Check last week's lesson for a reminder on creating state variables.</details>                                    |
 | 6. Now add a `useEffect` call, but leave the callback function empty for now. **Make sure you remember to add the empty array after the callback function**.                                                                                               |
 | 7. Inside the `useEffect` callback, call the `fetch` function with this URL: `https://pokeapi.co/api/v2/pokemon/1/`.                                                                                                                                       |
@@ -187,7 +187,7 @@ You might notice that even though we re-rendered, we did **not** run the `useEff
 | 9. Add a second `.then` handler after the one we just added, where the callback function will receive an argument called `data`.                                                                                                                           |
 | 11. Within the second `.then` callback function, log out the data that we just received (hint: `console.log(data)`). Inspect the data in the dev tools console. Is there any interesting data? (Hint: think about what the component is trying to render). |
 | 12. Still within the second `.then` callback, set the `pokemonData` state to be the `data` object we received from the API.                                                                                                                                |
-| 13. What happens in your browser? Do you understand why? If not, discuss it with another student. If you are both stuck, ask a Teaching Assistant.                                                                                                         |
+| 13. What happens in your browser? Do you understand why? If not, discuss it with another trainee. If you are both stuck, ask a Teaching Assistant.                                                                                                         |
 
 ### Conditional rendering
 
@@ -406,7 +406,7 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
 
 | Exercise D (estimate: 5 min)                                                                          |
 | :---------------------------------------------------------------------------------------------------- |
-| 1. Did you spot where the bug was? Discuss with a group of 2 - 3 students where you think the bug is. |
+| 1. Did you spot where the bug was? Discuss with a group of 2 - 3 trainees where you think the bug is. |
 | 2. Report back to the rest of the class where you think the bug happened.                             |
 
 <details>
@@ -449,7 +449,7 @@ To help you understand this better, try "playing computer" again, but this time 
 | 4. Take a few minutes to read what the `PokemonMovesSelector` component does. If you have questions, ask a Teaching Assistant to help. We **won't** need to make any more changes to this component.                                                                                                                                                                                   |
 | 5. Open the `PokemonMoves` component again. Change the URL to use backticks (`` `...` ``) instead of double-quotes (`"..."`). Then replace the hard-coded number 1 with `${props.pokemonId}`. What will this do? <details><summary>Click here if you don't know</summary>The URL will contain the <code>pokemonId</code> instead of always fetching the Pokemon with id of 1</details> |
 | 6. Open your browser and find where the `PokemonMovesSelector` component is rendered. **Before you click the buttons**, think about what you expect will happen. Then click the "Fetch Bulbasaur" button to find out what actually happens.                                                                                                                                            |
-| 7. Refresh the page. What happens now if you click the "Fetch Bulbasaur" button, then click the "Fetch Charmander" button? Is this what you expected? Discuss with another student why this happens.                                                                                                                                                                                   |
+| 7. Refresh the page. What happens now if you click the "Fetch Bulbasaur" button, then click the "Fetch Charmander" button? Is this what you expected? Discuss with another trainee why this happens.                                                                                                                                                                                   |
 | 8. Fix the bug by adding `props.pokemonId` to the `useEffect` dependencies array in `PokemonMoves`. Remember that you can test if the bug still happens by refreshing the page, clicking one of the buttons, then the other button.                                                                                                                                                    |
 
 ### ESLint rules for React Hooks

@@ -48,7 +48,7 @@ At least include a (consistent!) name / handle in the title which your teacher w
 
 If teachers and volunteers can find your site more quickly _they can spend more time giving you valuable feedback_!
 
-There are a LOT of students, and a lot of projects, and it saves volunteers time if they can predict your project site names without having to go to find it e.g. in slack.
+There are a LOT of trainees, and a lot of projects, and it saves volunteers time if they can predict your project site names without having to go to find it e.g. in slack.
 
 Imagine a volunteer has 10 browser tabs open or is looking for your site in their browser history - they can find it really quickly if you follow the naming conventions above.
 
@@ -63,8 +63,8 @@ Remember:
 
 ## Mentor Notes
 
-- These conventions are being trialled in London to make it easier for volunteers to handle 40 students. If you find them too draconian for your city, OK! Let us know!
-- Doesn't this help students to cheat? Yes
+- These conventions are being trialled in London to make it easier for volunteers to handle 40 trainees. If you find them too draconian for your city, OK! Let us know!
+- Doesn't this help trainees to cheat? Yes
 - Why github username? This is globally unique. There will be more collisions when people try to use their given name.
 - The `cyf-` prefix also helps avoid collisions with other netlify-hosted projects AND assists autocompletion in the reviewer's browser, etc.
 

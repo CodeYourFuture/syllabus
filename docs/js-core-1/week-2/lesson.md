@@ -112,8 +112,8 @@ Replace the variable `FILL_ME_IN` with actual values to prevent the `checkIsTrue
 
 ```js
 const mentorCount = FILL_ME_IN;
-const studentCount = FILL_ME_IN;
-checkIsTrue(mentorCount < studentCount);
+const traineeCount = FILL_ME_IN;
+checkIsTrue(mentorCount < traineeCount);
 
 const capacity = FILL_ME_IN;
 const people = FILL_ME_IN;
@@ -383,20 +383,20 @@ You can access elements in an array using the **index** of an element with **bra
 **🔔 Remember:** All arrays start at position 0! To access the first element in an array, you need to access index `0`, the second element at `1`, the fifth at `4` and so forth. This is called zero-based indexed arrays. There are some [very intense reasons for this](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html), but most people just accept it and move on.
 
 ```js
-const students = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
+const trainees = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
 
-students[0]; // "Ahmed"
-students[3]; // "Nahidul"
+trainees[0]; // "Ahmed"
+trainees[3]; // "Nahidul"
 ```
 
 You can also _assign_ new values to parts of an array:
 
 ```js
-const students = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
+const trainees = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
 
-students[2] = "Bianca";
+trainees[2] = "Bianca";
 
-console.log(students); // ["Ahmed", "Maria", "Bianca", "Nahidul", "Jack"]
+console.log(trainees); // ["Ahmed", "Maria", "Bianca", "Nahidul", "Jack"]
 ```
 
 ### Exercise (5 mins)
@@ -455,7 +455,7 @@ for (let i = 0; i < daysOfWeek.length; i++) {
 
 ### Exercise (10 mins)
 
-Write a function which takes your **students** array as an input. In the function, use a for loop to **iterate** over the array and print the name of each student to the console.
+Write a function which takes your **trainees** array as an input. In the function, use a for loop to **iterate** over the array and print the name of each trainee to the console.
 
 ### Exercise - extra credit (20 mins)
 

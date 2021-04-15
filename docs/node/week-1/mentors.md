@@ -10,11 +10,11 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ## Before you teach this lesson
 
-If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
 [Node Preparation](../preparation)
 
-If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## Questions and Help
 
@@ -36,7 +36,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 - Glitch and Codesandbox had issues
   - Possible non starters.
   - Didn't have reload button (code sandbox).
-  - Groups tended to just rely on the one student whose setup was working. or work locally.
+  - Groups tended to just rely on the one trainee whose setup was working. or work locally.
 - Last exercise needs rework
   - Don't just return the data sent by user
   - "Why would you do this?"

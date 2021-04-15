@@ -4,11 +4,11 @@ title: Marking Guide
 sidebar_label: Marking Guide
 ---
 
-This Rubric should be used to guide your assessment of Students Coursework at CodeYourFuture
+This Rubric should be used to guide your assessment of Trainees Coursework at CodeYourFuture
 
 ## How To Mark Coursework
 
-Details on __how__ to mark coursework can be found on the documentation website
+Details on **how** to mark coursework can be found on the documentation website
 
 [Coursework Feedback Docs](https://docs.codeyourfuture.io/teams/education/homework-feedback)
 
@@ -170,11 +170,11 @@ Dead code should be removed from your coursework or re-written so it is used. Ha
 
 ### Coding Standards
 
-All code written by Students at CodeYourFuture should follow our [Coding Standard](./coding-standards) guidelines.
+All code written by Trainees at CodeYourFuture should follow our [Coding Standard](./coding-standards) guidelines.
 
 These guidelines are based on ones used in industry.
 
-Guidelines are important in big organisations so that everyone writes code in the same way across a large application. It's important that students get used to writing in a consistent style early on.
+Guidelines are important in big organisations so that everyone writes code in the same way across a large application. It's important that trainees get used to writing in a consistent style early on.
 
 #### More Reading
 

@@ -223,6 +223,6 @@ You can find this weeks coursework [here](./homework).
 
 ## Feedback
 
-It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
+It's really helpful if you give us feedback for this lesson. This helps us improve it for future trainees!
 
 <Feedback module="Git" week="Week 2" />

@@ -1,5 +1,5 @@
 ---
-id: index
+id: lesson
 title: Lesson
 sidebar_label: Lesson
 ---
@@ -194,7 +194,7 @@ Normally, when people push changes to a fork on GitHub, they're doing so because
 
 We call pulling someone's change into a repository "merging" the change, because we're merging what we're pulling into our repo with what we had before.
 
-For submitting homework, every week you're going to create a pull request, and a volunteer will look at it and give you feedback, but we won't be pulling your homework into CodeYourFuture's copy (then the next student would have the answers when they tried to read the questions!). You'll be creating pull requests, but we won't actually merge your changes into the repository.
+For submitting homework, every week you're going to create a pull request, and a volunteer will look at it and give you feedback, but we won't be pulling your homework into CodeYourFuture's copy (then the next trainee would have the answers when they tried to read the questions!). You'll be creating pull requests, but we won't actually merge your changes into the repository.
 
 In GitHub Desktop, if you open the Branch menu, and click "Create Pull Request", it will open your web browser at GitHub, and show you the changes you're about to make a pull request for. This is another great time to check that you're happy with your homework (if you're not, go back to VS Code, make your changes, commit them, push them to origin again, and refresh this page).
 
@@ -343,6 +343,6 @@ You can find this weeks homework [here](./homework)
 
 ## Feedback
 
-It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
+It's really helpful if you give us feedback for this lesson. This helps us improve it for future trainees!
 
 <Feedback module="Git" week="Week 1" />

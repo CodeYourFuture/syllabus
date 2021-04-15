@@ -377,7 +377,7 @@ You can drive in the UK at the age of 17.
 
 ## Array filter
 
-Imagine you have an array of students' test scores:
+Imagine you have an array of trainees' test scores:
 
 ```js
 const testScores = [90, 50, 100, 66, 25, 80, 81];
@@ -521,7 +521,7 @@ Click [here](./homework) to view the coursework for this lesson.
 
 ## JavaScript 1 Quiz
 
-An optional quiz can be found [here](https://docs.google.com/forms/d/1-jVH3eTZy6Cig8iEZqDTdLaFgJCgVKv8q5HIF5yDUQ0/edit) which can be used to test students understanding. This can be done in class or set as homework.
+An optional quiz can be found [here](https://docs.google.com/forms/d/1-jVH3eTZy6Cig8iEZqDTdLaFgJCgVKv8q5HIF5yDUQ0/edit) which can be used to test trainees understanding. This can be done in class or set as homework.
 
 ## Feedback
 

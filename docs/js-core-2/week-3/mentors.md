@@ -29,7 +29,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ### Exercise - Synchronous vs Asynchronous
 
-The aim of this exercise is to enable students to define the difference between synchronous and asynchronous code.This should be run in small groups and TAs should make sure that there's a dicussion about the order of the expected results.
+The aim of this exercise is to enable trainees to define the difference between synchronous and asynchronous code.This should be run in small groups and TAs should make sure that there's a dicussion about the order of the expected results.
 
 The main messages to be delivered here are:
 
@@ -48,15 +48,15 @@ That is to say that when a HTML is parsed that GET requests are made to the reso
 
 ### Exercise - GET Requests
 
-The aim of this exercises to let the students explore the network tab and spending some time reading code.
+The aim of this exercises to let the trainees explore the network tab and spending some time reading code.
 
 When the class has submitted their lists open the network tab and see exactly what was requested by the website. Have a discussion around each of the GET requests. You can find the website in the exercise [here](https://codeyourfuture.github.io/Network-Tab-Example/).
 
-For students that go very quickly through the exercise send them to a complicated website and continue to let them explore through the exercises. Some ideas:
+For trainees that go very quickly through the exercise send them to a complicated website and continue to let them explore through the exercises. Some ideas:
 
 - https://codeyourfuture.io/meet-the-team/ - Good because it has lots of images
 - https://www.bbc.co.uk/news - Lots of icons and images
 
 ### Exercise - POST Requests
 
-Again, the aim of this exercises is to let the students see how requests can be triggered by a button click and forces them to see the difference between a GET and POST request.
+Again, the aim of this exercises is to let the trainees see how requests can be triggered by a button click and forces them to see the difference between a GET and POST request.

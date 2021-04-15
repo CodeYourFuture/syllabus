@@ -29,7 +29,7 @@ By the end of this class, you should be able to:
 - Define the difference between `console.log()` and `return`
 - Call functions within functions
 - Search and read documentation to help when you are stuck
-- Use the Code Style Guide to give feedback on other students work
+- Use the Code Style Guide to give feedback on other trainees work
 
 ---
 
@@ -205,25 +205,25 @@ const roughAge = Math.round(preciseAge); // 31
 
 ### Exercise (15 mins)
 
-1. Create two variables `numberOfStudents` and `numberOfMentors`
-2. Log a message that displays the total number of students and mentors
+1. Create two variables `numberOfTrainees` and `numberOfMentors`
+2. Log a message that displays the total number of trainees and mentors
 
 #### Expected result
 
 ```sh
-Number of students: 15
+Number of trainees: 15
 Number of mentors: 8
-Total number of students and mentors: 23
+Total number of trainees and mentors: 23
 ```
 
-3. Using the variables you created in the previous steps, calculate the percentage of mentors and students in the group (percentages must be rounded to the nearest integer)
+3. Using the variables you created in the previous steps, calculate the percentage of mentors and trainees in the group (percentages must be rounded to the nearest integer)
 
 You should then log this number to the console.
 
 #### Expected result
 
 ```sh
-Percentage of students: 65%
+Percentage of trainees: 65%
 Percentage of mentors: 35%
 ```
 
@@ -292,7 +292,7 @@ _Remember it can only be an expression if you can place it on the right hand sid
 
 ("hello");
 
-"hello" + " " + "students and volunteers!";
+"hello" + " " + "trainees and volunteers!";
 
 let favouriteColour = "purple";
 

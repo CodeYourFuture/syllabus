@@ -33,11 +33,11 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 With Hooks, we don't really talk about the "lifecycle" of a component any more, but this section is intended to show exactly what happens at each step in the code.
 
-Walking through the code like this is sometimes called "playing computer". A step-by-step description has been provided in the syllabus, but this was intended as revision material. It is recommended to keep the code example on the screen and walk through each line together with the students.
+Walking through the code like this is sometimes called "playing computer". A step-by-step description has been provided in the syllabus, but this was intended as revision material. It is recommended to keep the code example on the screen and walk through each line together with the trainees.
 
-To keep students engaged, it can be useful to ask them to predict what the next step does. This also allows you to get feedback on whether a student is following or not.
+To keep trainees engaged, it can be useful to ask them to predict what the next step does. This also allows you to get feedback on whether a trainee is following or not.
 
-At the end of the "playing computer" ask whether the students have spotted the bug in the logic: the effect is not updating when the prop changes. Therefore the key point to emphasize is that `useEffect` is **not** queued when the component re-renders.
+At the end of the "playing computer" ask whether the trainees have spotted the bug in the logic: the effect is not updating when the prop changes. Therefore the key point to emphasize is that `useEffect` is **not** queued when the component re-renders.
 
 ### ESLint rule for React Hooks
 

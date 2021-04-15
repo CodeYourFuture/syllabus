@@ -30,11 +30,11 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 ### Handling Events
 
 - Function references vs function calls is a very common source of confusion
-  - It is worth recapping again to ensure that students really do understand it
+  - It is worth recapping again to ensure that trainees really do understand it
 - Passing event handler function references
-  - The concept trips up a lot of students - will try to immediately call the function when passing to an event handler (e.g. `onClick={this.foo()})`
+  - The concept trips up a lot of trainees - will try to immediately call the function when passing to an event handler (e.g. `onClick={this.foo()})`
 - Passing functions as props
-  - This concept isn't really that much different from the section above, but passing across components does often confuse students
+  - This concept isn't really that much different from the section above, but passing across components does often confuse trainees
 
 ### Re-Rendering Components
 
@@ -44,7 +44,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
   - It is also convenient to (briefly) discuss how the virtual DOM is efficient
 - Re-rendering demo
   - Focus on the `Counter` component primarily, in particular the `console.log`
-  - The code in `index.js` is just a way of forcing a re-render without using state. But we don't really want students to learn the bad habits here (we want them to ultimately learn state), so they are hidden away.
+  - The code in `index.js` is just a way of forcing a re-render without using state. But we don't really want trainees to learn the bad habits here (we want them to ultimately learn state), so they are hidden away.
 
 ### State
 
@@ -52,8 +52,8 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 - Before fixing the problem, something to emphasise is the moment when we start using the virtual DOM for the first time
   - When we trigger a manual re-render to `ReactDOM.render()`
   - But we are updating the DOM here - we mentioned in lesson 1 that this was hard, and now we've got an easy way of updating it. This is the true power of React
-  - The demo is not very impressive, so it's easy for the students to miss
-- We cover the problems with using a global variable, so hopefully that is enough to prevent the students copy/pasting the wrong way
+  - The demo is not very impressive, so it's easy for the trainees to miss
+- We cover the problems with using a global variable, so hopefully that is enough to prevent the trainees copy/pasting the wrong way
   - Ensure that you emphasise this is the wrong way to do state
 - Demonstrate the app with multiple counters
   - Shows that each components remembers their own state separate to other components

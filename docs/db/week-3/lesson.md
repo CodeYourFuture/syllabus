@@ -21,7 +21,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to
+By the end of this lesson trainees should be able to
 
 - Create an API endpoint that can add data to a database
 - Write code that effectively validates data before adding it to a database

@@ -17,3 +17,7 @@ Make sure you complete it before attending class.
 | [week-1](./week-1/lesson.md) | Intro to Mongo |
 | [week-2](./week-2/lesson.md) | More Mongo     |
 | [week-3](./week-3/lesson.md) | Advanced Mongo |
+
+## Coordination
+
+Coordination details for this module can be found on the [Module Coordinator's page](./coordinator)

@@ -55,7 +55,7 @@ function Overview() {
                 (seen right)
               </li>
               <li>One-off workshops that have been run by specialists</li>
-              <li>Useful guides for our students</li>
+              <li>Useful guides for our trainees</li>
             </ul>
             <br />
             <h2>How should I use the Syllabus?</h2>
@@ -73,7 +73,7 @@ function Overview() {
                 you are also welcome to change, remix and re-create the content
                 you find here as you wish
               </b>
-              . Over your time here you will get to know your specific students
+              . Over your time here you will get to know your specific trainees
               and will know what kind of content and teaching they need. We
               encourage you to innovate and experiment with the lesson plans you
               find here.
@@ -81,16 +81,16 @@ function Overview() {
             <p>
               Every lesson has a set of <b>Learning Objectives</b> that we're
               trying to achieve in each lesson, as a teacher your goal to have
-              your student achieve these goals throughout your lesson and the
+              your trainee achieve these goals throughout your lesson and the
               accompanying coursework.
             </p>
             <p>
               Be sure to check out the <b>Teaching Notes</b> attached to every
               lesson for notes, slides and videos from previous teachers.
             </p>
-            <h3>As a student...</h3>
+            <h3>As a trainee...</h3>
             <p>
-              If you're reading this as a student you will find lots of the
+              If you're reading this as a trainee you will find lots of the
               lesson plans that you've been following in your class. You will
               also find links to resources that we think you will find useful,
               additional exercises and links to all of the coursework for the
@@ -114,7 +114,7 @@ function Overview() {
                 "Self Paced",
                 <div>
                   <p>
-                    This online, self-paced course gives students a basic
+                    This online, self-paced course gives trainees a basic
                     understanding of HTML & CSS and guides them to building
                     their first simple website. Completion of this course is
                     required before continuing onto the full course.
@@ -128,13 +128,13 @@ function Overview() {
                 "4 Weeks",
                 <div>
                   <p>
-                    This module aims to give students a grounding in algorithmic
+                    This module aims to give trainees a grounding in algorithmic
                     thinking, breaking down problems and an introduction to
                     JavaScript before they continue onto the full course.
                   </p>
                   <p>
-                    Before writing any code, students use block-based
-                    programming to solve technical challenges. Students are then
+                    Before writing any code, trainees use block-based
+                    programming to solve technical challenges. Trainees are then
                     exposed to JavaScript for the first time and given projects
                     using Processing.js to experiment with.
                   </p>
@@ -154,7 +154,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/induction-week",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
                 "rgb(176,98,137)",
                 "PD"
               )}
@@ -163,7 +163,7 @@ function Overview() {
                 "1 Week",
                 <div>
                   <p>
-                    This one week module introduces students to Git and Github
+                    This one week module introduces trainees to Git and Github
                     using Github Desktop. This is a key skill for all developers
                     and is also how we submit coursework at CodeYourFuture.
                   </p>
@@ -205,7 +205,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-2",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-2",
                 "PD"
               )}
               {getComponent(
@@ -236,7 +236,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-3",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-3",
                 "PD"
               )}
               {getComponent(
@@ -271,7 +271,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-4",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-4",
                 "PD"
               )}
               {getComponent(
@@ -331,7 +331,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-5",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-5",
                 "PD"
               )}
               {getComponent(
@@ -363,7 +363,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-6",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-6",
                 "PD"
               )}
               {getComponent(
@@ -398,7 +398,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-7",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-7",
                 "PD"
               )}
               {getComponent(
@@ -432,7 +432,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/sessions/pd-session-8",
+                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-8",
                 "PD"
               )}
               <VerticalTimelineElement

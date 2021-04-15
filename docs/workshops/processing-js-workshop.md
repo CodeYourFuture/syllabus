@@ -75,7 +75,7 @@ In addition to ["Code! Programming with p5.js"](/fundamentals/after-the-course/p
 
   [Programming Graphics I: Introduction to Generative Art](https://www.skillshare.com/classes/Programming-Graphics-I-Introduction-to-Generative-Art/782118657). This does _not_ teach in javascript but in Processing, which uses the Java language instead. However, if you LOVE the topic, you could skim these videos and still learn a lot. Normally I would recommend getting strong in ONE language \(JavaScript\) for the first year or two of your programming journey.
 
-- Mostly aimed at teachers: [Introduction to Computational Media with p5.js](https://nycdoe-cs4all.github.io/) has material for teachers to run a course. Students can find some interesting project ideas.
+- Mostly aimed at teachers: [Introduction to Computational Media with p5.js](https://nycdoe-cs4all.github.io/) has material for teachers to run a course. Trainees can find some interesting project ideas.
 - If you want to stick with processing.js and Khan Academy longer, there is [Advanced JS: Games and Visualizations](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations). I haven't worked through this course, yet.
 
 ## Some more differences between Processing.js and p5.js

@@ -10,17 +10,17 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ## Before Teaching this Module
 
-Before you start teaching this module you must inform all students that there is preparation work to do.
+Before you start teaching this module you must inform all trainees that there is preparation work to do.
 
 You can find the preparation material [here](../preparation).
 
-Be sure to assign all of the tasks to your students several days before you aim to teach.
+Be sure to assign all of the tasks to your trainees several days before you aim to teach.
 
 ## Delivery Notes
 
 ### Giving Feedback to Each Other
 
-For this exercise, you should open the Pull Request and share you screen. Elicit answers from the students based on what they've just read.
+For this exercise, you should open the Pull Request and share you screen. Elicit answers from the trainees based on what they've just read.
 
 You should only type what they say, try to let them take the lead.
 
@@ -55,11 +55,11 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
   - e.g. setting a new array value using the [x] notation should be replaced with .push()
   - Also suggest adding filter() to array methods section.
 
-- Can we introduce arrow functions here? It is likely students will encounter this notation during their research, so it would be useful to cover this.
+- Can we introduce arrow functions here? It is likely trainees will encounter this notation during their research, so it would be useful to cover this.
 
 ### Other thoughts
 
-- Students confuse returns and console.logs
-- It's difficult for students to differentiate between variables the coder has created, and reserved words that are built into javascript. e.g. multiply() vs push()
+- Trainees confuse returns and console.logs
+- It's difficult for trainees to differentiate between variables the coder has created, and reserved words that are built into javascript. e.g. multiply() vs push()
 - The Predicates section was spent mostly trying to grasp typeof. Not sure if this is just a good opportunity to teach typeof, or if it distracts from the point of the lesson i.e. predicates?
-- Students make some confusions between the function definition and the function call during the tdd exercises. They try to reuse the values or the variables passed as parameters when calling the function inside the function itself. For Example, given the definition: function addOne(numbers) and the call: addOne(myArray), students try to use the name myArray inside the function or they think that the parameter in the function definition should be called myArray...
+- Trainees make some confusions between the function definition and the function call during the tdd exercises. They try to reuse the values or the variables passed as parameters when calling the function inside the function itself. For Example, given the definition: function addOne(numbers) and the call: addOne(myArray), trainees try to use the name myArray inside the function or they think that the parameter in the function definition should be called myArray...

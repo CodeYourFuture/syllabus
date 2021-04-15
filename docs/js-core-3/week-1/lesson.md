@@ -15,7 +15,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the student:
+The purpose of this class is to introduce to the trainee:
 
 1. Debugging your code
 2. Consolidate learning for the project work
@@ -57,7 +57,7 @@ Therac-25 was a machine used to administer radiation to cancer patients which ma
 Debugging is a fact of life! Not everything will work the first time you do it and even when it does there will often be times when even if you feel like you've covered everything another bug may occur!
 
 **Task (5 Minutes)**
-In teams, the students should have quick discussion about the bugs that have occurred to them in the past. When they finish the class should regroup and gather together all the different types of bugs that have happened to them.
+In teams, the trainees should have quick discussion about the bugs that have occurred to them in the past. When they finish the class should regroup and gather together all the different types of bugs that have happened to them.
 
 ### Types of Errors
 
@@ -163,7 +163,7 @@ Debugging is a process of loops and iteration. Think about what you've done so f
 
 **Task (5 Minutes)**
 
-In teams, the students should have quick discussion about the ways that they have solved bugs or errors they've had in the past.
+In teams, the trainees should have quick discussion about the ways that they have solved bugs or errors they've had in the past.
 
 When they finish the discussion we should regroup and gather together all the ways that they have solved bugs in the past.
 

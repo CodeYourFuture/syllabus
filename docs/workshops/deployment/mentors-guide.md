@@ -4,18 +4,18 @@ title: Mentors Guide
 sidebar_label: Mentors Guide
 ---
 
-A work-in-progress of content development around the topic of how students deploy their homework projects and portfolio projects.
+A work-in-progress of content development around the topic of how trainees deploy their homework projects and portfolio projects.
 
 ### Envisaged deliverables:
 
 1. Short (20 min) workshops to drop into relevant modules
-2. Supporting reference material for students (e.g. cheatsheet) and teachers (lesson plan)
-3. (optional) extra tooling (student project gallery / HW lookup)
+2. Supporting reference material for trainees (e.g. cheatsheet) and teachers (lesson plan)
+3. (optional) extra tooling (trainee project gallery / HW lookup)
 
 # TODO:
 
 - [ ] Write a workshop for netlify deploy via github (requiring no knowledge of command-line or npm)
-- [ ] Write supporting reference material for students to access in future, including the student's HW submission duties regarding deployments (as stand-alone page so that teachers can simply and reliably link to it when assigning HW)
+- [ ] Write supporting reference material for trainees to access in future, including the trainee's HW submission duties regarding deployments (as stand-alone page so that teachers can simply and reliably link to it when assigning HW)
 - [ ] Consider how to test for understanding during the workshop
   - [ ] Write a 5-minute kahoot for the first (or certainly second workshop) to check for understanding
 - [ ] Write a group work exercise for the workshop
@@ -24,7 +24,7 @@ A work-in-progress of content development around the topic of how students deplo
 - [x] Write separate instructions for Create Netlify Account (+ github) so that we can...
   - [x] Assign the Create Netlify Account (+ github) as HW now (time-saver)
 - [x] Discuss practice projects with Lucy and Sophie
-- [ ] Generate three little test projects the students can fork and deploy (and perhaps modify) (landing page, CV & portfolio)
+- [ ] Generate three little test projects the trainees can fork and deploy (and perhaps modify) (landing page, CV & portfolio)
 - [ ] Add mentor notes for "why not GH pages" - a link to wiki discussion page is fine?
 - [ ] Write a trivial initial gallery tool (serves as test suite) during practice
 - [ ] Deliver workshop over two weeks (20mins, 20 mins):
@@ -34,7 +34,7 @@ A work-in-progress of content development around the topic of how students deplo
 
 Later
 
-- [ ] Bonus: Try to get budget (a sponsor) to have us buy a domain for each student for 1 or 2 years (caution: what happens when they can't afford it - all their links break. there's also the ownership hand-over, if CYF buy them initially)
+- [ ] Bonus: Try to get budget (a sponsor) to have us buy a domain for each trainee for 1 or 2 years (caution: what happens when they can't afford it - all their links break. there's also the ownership hand-over, if CYF buy them initially)
 - [ ] Bonus: get some cheapo custom domain(s) for the groups final projects (e.g. cyf-projects.io)
 
 # Meta
@@ -44,10 +44,10 @@ Later
 - K.I.S.S.
 - Give them a recipe for what to do and have them practice it
 - LATER weeks can see discussion of finer points (advantages, bigger picture, alternatives exist, etc)
-- If possible, have a gallery in place, the students will detect when they have named incorrectly
+- If possible, have a gallery in place, the trainees will detect when they have named incorrectly
 
-## Simple all-student Gallery
+## Simple all-trainee Gallery
 
-- (list of students, list of projects, generates expected links to each project)
-- Allows students to quickly test if their site naming is correct (and demonstrates to them WHY it matters with 40 students)
+- (list of trainees, list of projects, generates expected links to each project)
+- Allows trainees to quickly test if their site naming is correct (and demonstrates to them WHY it matters with 40 trainees)
 - get grads involved

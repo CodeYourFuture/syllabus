@@ -4,7 +4,7 @@ title: Final Project Roles
 sidebar_label: Roles
 ---
 
-In the Final Project we have several roles that volunteers and students should adopt.
+In the Final Project we have several roles that volunteers and trainees should adopt.
 
 These roles should in total create a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU). Each team must have at least one of each of the below roles.
 
@@ -24,7 +24,7 @@ Scrum Masters are expected to coordinate the team and make sure everyone knows w
 
 **Time Commitment**: One day a week plus ~4 hours during the week
 
-Teaching assistant provide technical support to the students as they are developing their projects. They can provide support in
+Teaching assistant provide technical support to the trainees as they are developing their projects. They can provide support in
 
 - Architecture of the application
 - Helping to solve specific implementation problems
@@ -35,7 +35,7 @@ Teaching assistant provide technical support to the students as they are develop
 
 _UI/UX Designers are spread across multiple teams_
 
-UI/UX'ers will provide their expertise in supporting the UI/UX students in each team. The can provide support in
+UI/UX'ers will provide their expertise in supporting the UI/UX trainees in each team. The can provide support in
 
 - Developing simple UI for the applications
 - Providing support on answering UX issues

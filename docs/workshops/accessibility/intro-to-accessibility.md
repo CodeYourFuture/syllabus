@@ -15,7 +15,7 @@ This is the first part of more courses to come about accessibility.
 
 ## Prior Knowledge
 
-Here are areas that you will need to have before starting this training. Students should have
+Here are areas that you will need to have before starting this training. Trainees should have
 
 - No prior knowledge needed
 
@@ -23,7 +23,7 @@ Here are areas that you will need to have before starting this training. Student
 
 It is important to learn about this because
 
-- Students should understand why considering accessibility is important when they are working
+- Trainees should understand why considering accessibility is important when they are working
 - Many employers will look for an understanding of common accessibility patterns
 - We should all endeavour to make websites that everyone can use
 

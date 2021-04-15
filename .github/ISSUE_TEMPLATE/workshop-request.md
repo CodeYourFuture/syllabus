@@ -3,8 +3,7 @@ name: Workshop Request
 about: Request a workshop from a CodeYourFuture volunteer
 title: "[Workshop]"
 labels: Workshop
-assignees: ''
-
+assignees: ""
 ---
 
 # Workshop Request
@@ -17,7 +16,7 @@ assignees: ''
 
 <!--- What your answer here. Be as precise as possible -->
 
-## What knowledge does the student need before starting?
+## What knowledge does the trainee need before starting?
 
 <!--- What your answer here. Be as precise as possible -->
 

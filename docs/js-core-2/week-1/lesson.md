@@ -26,7 +26,7 @@ import ExerciseSolutions from "@theme/ExerciseSolutions";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define what an object is in JavaScript
 - Be able to write code that can use an object to store data
@@ -2226,11 +2226,11 @@ values={[
 <TabItem value="exercise">
 
 ```js
-// You are given an object of student names and grades
-// Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
+// You are given an object of trainee names and grades
+// Loop through all the trainees' grades and console log the name and grade of the ones with grade more than 18
 // Try to use both methods shown above to achieve this
 
-const studentGrades = {
+const traineeGrades = {
   tom: 20,
   george: 17,
   abdul: 19,
@@ -2246,27 +2246,27 @@ const studentGrades = {
 <TabItem value="solution">
 
 ```js
-// You are given an object of student names and grades
-// Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
+// You are given an object of trainee names and grades
+// Loop through all the trainees' grades and console log the name and grade of the ones with grade more than 18
 // Try to use both methods shown above to achieve this
 
-const studentGrades = {
+const traineeGrades = {
   tom: 20,
   george: 17,
   abdul: 19,
 };
 
-for (let name in studentGrades) {
-  if (studentGrades[name] > 18) {
-    console.log(`${name.toUpperCase()} - ${studentGrades[name]}`);
+for (let name in traineeGrades) {
+  if (traineeGrades[name] > 18) {
+    console.log(`${name.toUpperCase()} - ${traineeGrades[name]}`);
   }
 }
 
 // Alternatively:
-// const studentNames = Object.keys(studentGrades);
-// studentNames.forEach((name) => {
-//     if (studentGrades[name] > 18) {
-//         console.log(`${name.toUpperCase()} - ${studentGrades[name]}`)
+// const traineeNames = Object.keys(traineeGrades);
+// traineeNames.forEach((name) => {
+//     if (traineeGrades[name] > 18) {
+//         console.log(`${name.toUpperCase()} - ${traineeGrades[name]}`)
 //     }
 // });
 

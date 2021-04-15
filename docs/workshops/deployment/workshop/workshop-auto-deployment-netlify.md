@@ -4,7 +4,7 @@ title: "Workshop: Basic Automatic Project Deployment using Netlify"
 sidebar_label: Workshop
 ---
 
-Student exercises and notes.
+Trainee exercises and notes.
 
 ## NOTE: Wait!
 

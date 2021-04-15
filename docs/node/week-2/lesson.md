@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define what each part of CRUD is and what it does
 - Process a GET request using Express and Node to retrieve data from memory

@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Process an PUT request using Express and Node to update data in memory
 - Upload their node app to the internet so it can be accessed anywhere using Heroku

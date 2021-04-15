@@ -122,7 +122,7 @@ Think of it like this: we give the event handler to React, so that React can cal
 | 3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).                                     |
 | 4. Add an `onClick` handler to the `<img>` that will call `logWhenClicked`. (Hint: look at the `ClickLogger` component above).            |
 | 5. In your web browser, try clicking on the logo image. What do you see in the JavaScript console?                                        |
-| 6. In a group of 2 - 3 students, discuss what would happen if you changed your code to `onClick={logWhenClicked()}`. Can you explain why? |
+| 6. In a group of 2 - 3 trainees, discuss what would happen if you changed your code to `onClick={logWhenClicked()}`. Can you explain why? |
 | 7. Report your discussion back to the rest of the class.                                                                                  |
 
 ### Passing Functions as Props
@@ -163,7 +163,7 @@ Notice how this is very similar to the example above where we created the handle
 | 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                                                                                                                        |
 | 3. Pass the `logWhenClicked` function **reference** as a prop to the `Logo` component. (Hint: look at the `ClickLoggerApp` component above for an example).                                                                                              |
 | 4. In the `Logo` component change the `onClick` prop so that it passes `props.handleClick`. (Hint: look at the `FancyButton` component above for an example).                                                                                            |
-| 5. In a group of 2 - 3 students, discuss what you think will happen when you click the logo image now. Can you explain why?                                                                                                                              |
+| 5. In a group of 2 - 3 trainees, discuss what you think will happen when you click the logo image now. Can you explain why?                                                                                                                              |
 | 6. Report back to the rest of the class what you thought was going to happen and why.                                                                                                                                                                    |
 
 ## Re-rendering components
@@ -295,7 +295,7 @@ const [unreadMessages, setUnreadMessages] = useState(5);
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
 | 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
 | 3. Initialise a new state variable with `useState` that will fix the app. Think carefully about how you should name the variables.     |
-| 4. Discuss with another student how you would create another state variable that represents the weather conditions (e.g. sunny, rain). |
+| 4. Discuss with another trainee how you would create another state variable that represents the weather conditions (e.g. sunny, rain). |
 
 ### Updating State
 
@@ -356,7 +356,7 @@ On the second render, `count` is now set to 1. Every time we click the button, t
 | 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.                                                                                                                                                                                                                                                                                          |
 | 4. Add a button to the component with an `onClick` handler that calls a function called `catchPokemon`.                                                                                                                                                                                                                                                                                       |
 | 5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>                                                                                              |
-| 6. Write down the things that will happen when you click the button. Compare your list with another student and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
+| 6. Write down the things that will happen when you click the button. Compare your list with another trainee and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
 
 #### Don't mutate State
 
@@ -433,7 +433,7 @@ The `list.push` method won't work here, as this method _mutates_ the existing ar
 | In this exercise, we'll change the `CaughtPokemon` component to show a list of Pokemon that we have caught instead of a number: <ExerciseEDemo />                                                                                                                                     |
 | 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                         |
 | 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                                   |
-| 3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another student what you think the problem is.                                                                                                                                     |
+| 3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another trainee what you think the problem is.                                                                                                                                     |
 | 4. Change the JSX to instead render `caught.length`. Does this fix the bug?                                                                                                                                                                                                           |
 | 5. Let's now show the names of the Pokemon we have caught. Render a `<ul>` element within the component. Then use the `map` method to loop through each item in the `caught` array and render it in an `<li>` element.                                                                |
 | 6. Change the `catchPokemon` function to add a new Pokemon (it doesn't matter which one) onto the `caught` array. (Hint: use the `concat` method.)                                                                                                                                    |
@@ -510,7 +510,7 @@ From this we can get a clue about when to use state. If data _changes over time_
 | Exercise F (estimate: 5 min)                                                                                                            |
 | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).                            |
-| 2. Take a few minutes to read the code. Discuss with another student what you think will happen when you click on the highlighted word. |
+| 2. Take a few minutes to read the code. Discuss with another trainee what you think will happen when you click on the highlighted word. |
 | 3. Now click on the highlighted word. Can you explain why this happened?                                                                |
 | 4. Fix the app so that clicking on the highlighted word will change the highlight color to purple.                                      |
 
