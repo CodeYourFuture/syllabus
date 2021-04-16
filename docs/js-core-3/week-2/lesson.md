@@ -33,7 +33,7 @@ The purpose of this class is to introduce to the trainee:
 
 Let's see what you remember from last week!
 
-_Answer in a thread on Slack_
+You should _answer in a thread on Slack_
 
 1. What are the four questions we ask ourselves in the Debugging Framework?
 2. What are three of the tools we could use to debug our programs?
@@ -139,7 +139,7 @@ What are some problems that I would have with sharing my data with everyone?
 
 An API is a special type of program what acts as a **gatekeeper** to all of this information. Having an API means that I can control which information is shared about my users and who it is shared with. Perfect!
 
-#### Types of APIs:
+#### Types of APIs
 
 - Private: for employees only under a company network for internal use.
 - Semi-private: for clients who paid for the API.

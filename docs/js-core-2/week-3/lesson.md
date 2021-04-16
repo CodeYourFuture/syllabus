@@ -195,7 +195,7 @@ mainFunction(myCallbackFunction);
 - Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
 - Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
 
-![](http://g.recordit.co/g2EqBccNzh.gif)
+![Exercise example](http://g.recordit.co/g2EqBccNzh.gif)
 
 Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?editors=1011)
 
@@ -276,7 +276,7 @@ Look at this repository here:
 
 In your groups, you should try to work out what you expect to see in the Network tab when we look at it. You should create a list of the requests that will be made in this format.
 
-**You are not allowed to open the website in a browser**
+**Note:** You are not allowed to open the website in a browser
 
 e.g.
 

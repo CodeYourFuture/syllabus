@@ -175,11 +175,13 @@ Debugging is a process of loops and iteration. Think about what you've done so f
 
 #### Tools
 
-**Task (5 Minutes)**
+:::note Task (5 Minutes)
 
 In teams, the trainees should have quick discussion about the ways that they have solved bugs or errors they've had in the past.
 
 When they finish the discussion we should regroup and gather together all the ways that they have solved bugs in the past.
+
+:::
 
 ##### Thinking like a computer
 
