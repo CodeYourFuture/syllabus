@@ -169,7 +169,7 @@ function Overview() {
                   </p>
                 </div>,
                 <FormatListNumberedIcon />,
-                "/git/index",
+                "/git/overview",
                 "Tech"
               )}
               {getComponent(
@@ -199,9 +199,9 @@ function Overview() {
                 "1 Week",
                 <div>
                   <p>
-                    This Personal Development day takes place after the
-                    Html/CSS) Module. Trainees will focus on communication
-                    skills essential for a developer.
+                    This Personal Development day takes place after the HTML/CSS
+                    Module. Trainees will focus on communication skills
+                    essential for a developer.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
