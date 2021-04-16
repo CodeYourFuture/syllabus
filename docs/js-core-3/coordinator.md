@@ -23,3 +23,17 @@ The aim of these assessments is to
 - Work out how well each trainee is doing in the class
 - Highlight trainees who are falling behind and require help
 - Get oversight of any common misconceptions in the class
+
+## 3) TV Show Project
+
+The bulk of this module's coursework is the "TV Show DOM Project" that can be found [here](./js-core-3/tv-show-dom-project/readme). This project spans all three weeks of the module.
+
+Trainees are instructed to get as far in this project as they can so this project is a good determinant of the trainees progress through the class so far.
+
+Given what the trainees have learnt so far, all of them - over the three weeks - **should be able to complete Level 500 and beyond**.
+
+Over the module you **should track the progress of the trainee** (in a spreadsheet, doc etc) so that you can see their progress.
+
+### Trainees completing only Level 100 or 200
+
+This trainee is struggling and they may not be ready to move onto the later parts of the course as they have not secured the key understanding of JavaScript that they need.
