@@ -76,7 +76,7 @@ scores[3] = 51; // Add a new score
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 - Create an array with the names of the people on your table
 - `console.log` out the names and how many people are at the table
@@ -103,7 +103,7 @@ Some examples of things you might want to do with a list of data:
 
 ### Exercise - extra credit (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 Working as a group - use the [MDN documentation on arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods) to see if you can find what methods might be useful to achieving the above examples.
 
@@ -215,7 +215,7 @@ There is a string method `.split()`. In an interactive console try using the str
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 - Use the array of the people from your table (or breakout room)
 - Combine it with another array filled with the names from another table
@@ -308,7 +308,7 @@ In the example above, the expression `number * 2` is automatically returned beca
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 I have a function defined below as:
 
@@ -340,7 +340,7 @@ This function does not need to be modified. Can you pass in a _callback function
 
 ### Exercise - extra credit
 
-:::tip Exercise
+:::note Exercise
 
 Modify your callback function from the previous exercise so that it also:
 
@@ -384,7 +384,7 @@ names.forEach(function (name, index) {
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 - Create a function that takes a `birthYear`, and returns the age of someone
 - You are given an array with year that 7 people were born, `[1964, 2008, 1999, 2005, 1978, 1985, 1919]`. Take this array and create another array containing their ages.
@@ -394,7 +394,7 @@ names.forEach(function (name, index) {
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 You can drive in the UK at the age of 17.
 
@@ -436,7 +436,7 @@ console.log(highTestScores); // logs [90, 100, 81]
 
 ### Exercise (10 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Create a function which:
 
@@ -478,7 +478,7 @@ console.log(longName); // logs Mozafar
 
 ### Exercise (10 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Create a function which:
 
@@ -525,7 +525,7 @@ This code does not work because `forEach()` does not return a new array (it retu
 
 ### Exercise (15 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 Create a function which accepts an array of "messy" strings. Example:
 

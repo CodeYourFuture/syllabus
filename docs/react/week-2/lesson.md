@@ -116,7 +116,7 @@ Think of it like this: we give the event handler to React, so that React can cal
 
 #### Exercise A (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise we will extend our `Logo` component to log to the console when clicking on the image.
 
@@ -167,7 +167,7 @@ Notice how this is very similar to the example above where we created the handle
 
 #### Exercise B (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll move the `logWhenClicked` function in the `Logo` component to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise A.
 
@@ -306,7 +306,7 @@ const [unreadMessages, setUnreadMessages] = useState(5);
 
 #### Exercise C (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).
 2. Take a few minutes to read the code. Why do you think the app is broken?
@@ -368,7 +368,7 @@ On the second render, `count` is now set to 1. Every time we click the button, t
 
 #### Exercise D (estimate: 15 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll add a button to the `CaughtPokemon` component which adds one to the number of Pokemon you have caught:
 
@@ -457,7 +457,7 @@ The `list.push` method won't work here, as this method _mutates_ the existing ar
 
 #### Exercise E (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll change the `CaughtPokemon` component to show a list of Pokemon that we have caught instead of a number:
 
@@ -543,7 +543,7 @@ From this we can get a clue about when to use state. If data _changes over time_
 
 #### Exercise F (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).
 2. Take a few minutes to read the code. Discuss with another trainee what you think will happen when you click on the highlighted word. |
@@ -558,7 +558,7 @@ What happens if you forget to pass a prop to a component? Or if you pass the wro
 
 #### Exercise G (OPTIONAL)
 
-:::tip Exercise
+:::note Exercise
 
 Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/).
 

@@ -68,7 +68,7 @@ For more examples, you can consult the following tutorial: [Postgres alter table
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 1. Add a column `date_of_birth` of type `DATE` in the `customers` table.
 2. Rename the column `date_of_birth` to `birthdate` in the `customers` table.
@@ -86,7 +86,7 @@ DROP TABLE customers;
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 1. Create a new table `test`
 2. Drop the table `test`
@@ -109,7 +109,7 @@ UPDATE customers SET name='Bob Marley', country='Jamaica' WHERE id=3;
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 - Update the postcode of the hotel named `Elder Lake Hotel` to `L10XYZ`
 - Update the number of rooms of `Cozy Hotel` to `25`
@@ -136,7 +136,7 @@ DELETE FROM bookings WHERE id=4;
 
 #### Exercise 4
 
-:::tip Exercise
+:::note Exercise
 
 - Delete the booking of customer ID `8` for the date `2020-01-03`
 - Delete all the bookings of customer ID `6`
@@ -177,7 +177,7 @@ WHERE customers.id=1;
 
 #### Exercise 5
 
-:::tip Exercise
+:::note Exercise
 
 - Try and understand each of the queries above in your `psql` prompt
 - Retrieve all the bookings along with customer data for bookings starting in 2020
@@ -231,7 +231,7 @@ LIMIT 3;
 
 #### Exercise 6
 
-:::tip Exercise
+:::note Exercise
 
 - Retrieve all customers whose name starts with the letter `S`
 - Retrieve all hotels which have the word `Hotel` in their name

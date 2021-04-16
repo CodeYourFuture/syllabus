@@ -133,7 +133,7 @@ These nested callback functions can be confusing, but they are important to unde
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 Look at this code:
 
@@ -162,7 +162,7 @@ Which is the callback function?
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 Rewrite the code in the previous exercise so that there are no new function names.
 
@@ -170,7 +170,7 @@ Rewrite the code in the previous exercise so that there are no new function name
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 Write a new function `sayHiAndRun(callback)` that takes a callback function, prints `Hi!`, and then runs the callback function.
 
@@ -178,7 +178,7 @@ Write a new function `sayHiAndRun(callback)` that takes a callback function, p
 
 #### Exercise 4
 
-:::tip Exercise
+:::note Exercise
 
 Which other functions that you learned in CYF lessons take a callback function as an argument?
 
@@ -342,7 +342,7 @@ We told Express to respond with an array, and Express automatically turned it in
 
 #### Exercise 5
 
-:::tip Exercise
+:::note Exercise
 
 Make a new Express endpoint on the server for `/books`. There is another database on the MongoDB server named `literature` and a collection named `books`. Connect to that collection on this endpoint and return all the documents. How many of them are there?
 
@@ -387,7 +387,7 @@ Now, when the user goes to `/`, they will get only the tracks by Justice.
 
 #### Exercise 6
 
-:::tip Exercise
+:::note Exercise
 
 Make a new endpoint for `/tracks/search`. When a user requests it with the query parameter `artist`, return only the tracks with that query parameter's value. For example, if you go to `/tracks/search?artist=Sebastian`, it should show only the tracks by Sebastian.
 
@@ -428,7 +428,7 @@ Now, the user will only get only the tracks by Justice from the year 2007.
 
 #### Exercise 7
 
-:::tip Exercise
+:::note Exercise
 
 Update your endpoint `/tracks/search` so that it works with the query parameter `year`, too. For example, if you go to `/tracks/search?artist=Sebastian&year=2006`, it should show only the tracks by Sebastian from the year 2006.
 
@@ -436,7 +436,7 @@ Update your endpoint `/tracks/search` so that it works with the query paramete
 
 #### Exercise 8
 
-:::tip Exercise
+:::note Exercise
 
 Update the `/tracks/search` endpoint so that it works with any combination of the query parameters `title`, `artist`, `album`, and `year`. For example, if you go to `/tracks/search?artist=Sebastian&album=Total`, it should show only the track by Sebastian on the album *Total*.
 
@@ -513,7 +513,7 @@ Now, we should only get the one track with that ID (not an array).
 
 #### Exercise 9
 
-:::tip Exercise
+:::note Exercise
 
 Add an endpoint `/tracks/:id` that returns only the track with the given ID. For example, if you go to `/tracks/5cf2eb7d1c9d4400006fca92`, you should get only the track with the ID `5cf2eb7d1c9d4400006fca92`. Make sure that it does not return an array. Make sure that `/tracks/search` still works.
 
@@ -521,7 +521,7 @@ Add an endpoint `/tracks/:id` that returns only the track with the given ID. F
 
 #### Exercise 10
 
-:::tip Exercise
+:::note Exercise
 
 What happens when you give a 24-character ID that does not exist in the database? For example, try going to `/tracks/0123456789abcdef01234567`. Update the endpoint so that it returns a `404` status when this happens.
 
@@ -529,7 +529,7 @@ What happens when you give a 24-character ID that does not exist in the database
 
 #### Exercise 11
 
-:::tip Exercise
+:::note Exercise
 
 What happens when you try to give an ID that is not 24 characters long or has non-hexadecimal characters? For example, try going to `/tracks/foobar`. Update the `/tracks/:id` endpoint so that it returns a `400` status when there is that kind of error.
 
@@ -724,7 +724,7 @@ Following this pattern, you can also use `$lt` for field values *less than* 
 
 #### Exercise 12
 
-:::tip Exercise
+:::note Exercise
 
 Add an endpoint `/tracks/new` that returns only the tracks released after 2010.
 
@@ -732,7 +732,7 @@ Add an endpoint `/tracks/new` that returns only the tracks released after 2010
 
 #### Exercise 13
 
-:::tip Exercise
+:::note Exercise
 
 Add an endpoint `/tracks/old` that returns only the tracks released before 2000.
 

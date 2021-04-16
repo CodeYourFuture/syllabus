@@ -234,7 +234,7 @@ Scope allows us to control where our variables can be accessed from. We want to 
 
 ### Exercise
 
-:::tip Exercise
+:::note Exercise
 
 In small groups answer the following the questions.
 
@@ -327,7 +327,7 @@ console.log(
 
 #### Exercise (1)
 
-:::tip Exercise
+:::note Exercise
 
 We have the names of the Simpsons family stored in an array called `familyMembers`. Create variables to store the names of the family members so that the `console.log` will print out the following message:
 `In the Simpsons family, Homer and Marge are the parents. Bart is the son, Lisa is the daughter, and Maggie is the baby.`
@@ -375,7 +375,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Rewrite the code below to use array destructuring instead of assigning each value to a variable.
 
@@ -421,7 +421,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
@@ -468,7 +468,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
 
@@ -514,7 +514,7 @@ console.log(`${manchester.name} population is ${manchester.population}`);
 
 #### Exercise (5)
 
-:::tip Exercise
+:::note Exercise
 
 Complete all of the exercises found [here](https://repl.it/@codeyourfuture0/ArrayDestructuring)
 

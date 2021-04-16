@@ -87,7 +87,7 @@ Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
 
 ### Preparation for exercises
 
-:::tip Exercise
+:::note Exercise
 
 Let's work on the code provided here:
 https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
@@ -103,7 +103,7 @@ https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-
 
 ### Exercise (1)
 
-:::tip Exercise
+:::note Exercise
 
 Write JavaScript below that logs:
 
@@ -138,7 +138,7 @@ You will notice in the example that we passed a second argument to `addEventList
 
 ### Exercise (2)
 
-:::tip Exercise
+:::note Exercise
 
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
 
@@ -153,7 +153,7 @@ myElement.style.backgroundColor = "red";
 
 ### Exercise (3)
 
-:::tip Exercise
+:::note Exercise
 
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
@@ -172,7 +172,7 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 
 ### Exercise (4)
 
-:::tip Exercise
+:::note Exercise
 
 When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
@@ -228,7 +228,7 @@ To get the entered text from it, we use the `value` property: `let title = input
 
 ### Exercise (5)
 
-:::tip Exercise
+:::note Exercise
 
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 

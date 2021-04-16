@@ -67,7 +67,7 @@ These errors are usually quite simple to fix and happen when you've typed some c
 
 ##### Examples of Syntax Errors
 
-:::tip Exercise
+:::note Exercise
 
 How would we fix these syntax errors? Post your answers in Slack!
 
@@ -106,7 +106,7 @@ These errors most commonly happen when you try to access variable that has not b
 
 How would we fix these reference errors? Post your answers in Slack!
 
-:::tip Exercise
+:::note Exercise
 
 - `ReferenceError: "word" is not defined`
 
@@ -123,7 +123,7 @@ Type errors usually occur when you are trying to access a method or variable fro
 
 ##### Examples of Type Errors
 
-:::tip Exercise
+:::note Exercise
 
 How would we fix these reference errors? Post your answers in Slack!
 
@@ -274,7 +274,7 @@ We can click the button with the blue triangle to tell the debugger to continue 
 
 To remove a breakpoint you either remove the `debugger` statement or if you placed a breakpoint from the debugger itself, you can click that line number again to remove it.
 
-:::tip Exercise
+:::note Exercise
 
 In groups, spend ten minutes experimenting with the debugger in a previous piece of your coursework.
 
@@ -329,7 +329,7 @@ We have created a sample ESLint configuration to help you get started. You can d
 
 You can see all rules and their explanations at [https://eslint.org/docs/rules/](https://eslint.org/docs/rules/). Many of them not make sense to you (they don't to me), but it can be a handy reference and over time your use and understanding of them will improve and increase.
 
-:::tip Exercise
+:::note Exercise
 
 Make sure that you've got ESLint enabled and configured correctly in Visual Studio Code
 
@@ -348,7 +348,7 @@ Before continuing make sure that everyone in your group has it working.
 
 ### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 As a class we should step through solving all of the issues in this small piece of code. You should copy it into a code editor (e.g. VS Code) in a `.js` file so you can debug and run it easily. **Be sure to use The Debugging Framework that we discussed earlier**
 
@@ -402,7 +402,7 @@ Try to categorise the bugs found under:
 
 ### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 In your groups we want you to go through this program and find all of the bugs that are happening in this code.
 

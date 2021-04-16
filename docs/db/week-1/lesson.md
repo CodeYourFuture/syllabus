@@ -163,7 +163,7 @@ Few things to mention from the SQL statement above:
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 - Create the `customers` table in the `cyf_hotels` database.
 - Verify that the table `customers` is created with the psql command `\dt` which lists the existing tables.
@@ -188,7 +188,7 @@ In the above, `customer_id` and `hotel_id` are called **foreign keys** as they r
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 - Create the table `bookings` in your `cyf_hotels` database and verify that it is correctly created.
 
@@ -212,7 +212,7 @@ INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (1, 1,
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 - Run the 3 SQL statements above.
 - Insert yourself in the `customers` table.
@@ -234,7 +234,7 @@ SELECT * FROM customers;
 
 #### Exercise 4
 
-:::tip Exercise
+:::note Exercise
 
 - Use the above SQL statement to display all the data inserted in the `customers` table.
 - Use the above SQL statement to display all the data inserted in the `hotels` table.
@@ -282,7 +282,7 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 
 #### Exercise 5
 
-:::tip Exercise
+:::note Exercise
 
 1. Execute the file [`cyf_hotels_exercise5.sql`](./cyf_hotels_exercise5.sql) which will reset your existing tables and insert more data in the `customers`, `hotels` and `bookings` tables. (hint: in the terminal, use `psql -d cyf_hotels -f cyf_hotels_exercise5.sql`).
 2. Retrieve all information for the customer Laurence Lebihan.

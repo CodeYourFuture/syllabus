@@ -59,7 +59,7 @@ They define the structure (HTML), presentation (CSS), and behaviour (JavaScript)
 
 > **Principles:** During the course, we will highlight principles that apply to the specific topic but also to Computer Science and Programming in general. It is important to understand these principles, terms and apply them to your thinking in general.
 
-:::tip Exercise (5 minutes)
+:::note Exercise (5 minutes)
 In the Bikes for Refugees project, spend a few minutes exploring the `.html` and `.css` files.
 Why don't we put everything in one file?
 :::
@@ -86,7 +86,7 @@ An HTML element is made up of **tags**, **attributes**, and **content**.
 - The **content** is the part of the code in between the opening and closing tags
   - `Welcome to lesson 1` is the **content**
 
-:::tip Exercise (1 minute)
+:::note Exercise (1 minute)
 All together, let's review the basic syntax in the following example.
 
 Which parts are the elements, tags, attributes, and content?
@@ -133,7 +133,7 @@ HTML tags are arranged in a hierarchy. This is sometimes called **nesting** tags
 <img src={require('!file-loader!../assets/html-hierarchy.png').default}
 alt="Tree diagram showing an article tag with h1, p, and a tags as direct children"/>
 
-:::tip Exercise (5 minutes)
+:::note Exercise (5 minutes)
 As a group, let's try to name all of the parent and child tags in the following example.
 
 ```html
@@ -268,7 +268,7 @@ Below is a table with a caption, along with the HTML code that creates it.
 </table>
 ```
 
-:::tip Exercise 1 (10 minutes)
+:::note Exercise 1 (10 minutes)
 _Paired Programming Challenge_
 
 Work in pairs to determine where the following tags should be used instead in the Bike for Refugees `index.html` file.
@@ -283,7 +283,7 @@ Work in pairs to determine where the following tags should be used instead in th
 Who benefits when we write **semantic** HTML?
 :::
 
-:::tip Exercise 2 (10 minutes)
+:::note Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
 Work in pairs to determine what changes we should make to the code below to make it more semantic.
@@ -311,7 +311,7 @@ Work in pairs to determine what changes we should make to the code below to make
 
 :::
 
-:::tip Exercise 3 (10 minutes)
+:::note Exercise 3 (10 minutes)
 _Solo exercise_
 
 Create a table that contains your favourite food and where it comes from.
@@ -341,7 +341,7 @@ A CSS rule is made up of **selectors**, **properties**, and **values**.
 - A **rule** is the combination of the selector and its declarations
   - `h1 { font-size: 1.5rem; }` is the **rule**
 
-:::tip Exercise (1 minute)
+:::note Exercise (1 minute)
 All together, let's review the basic syntax in the following example.
 
 Which parts are the rules, selectors, properties, values, and declarations?
@@ -382,7 +382,7 @@ body {
 }
 ```
 
-:::tip Exercise (5 minutes)
+:::note Exercise (5 minutes)
 All together, let's review what each of the CSS properties in the previous code example does.
 :::
 
@@ -461,7 +461,7 @@ Since absolute units do not increase in size with browser zoom, we should use re
 Therefore, we should **prefer** using `rem` and `%`, and **avoid** using `px`.
 :::
 
-:::tip Exercise (5 minutes)
+:::note Exercise (5 minutes)
 All together, let's review what each of the values in the previous code example mean.
 :::
 
@@ -531,13 +531,13 @@ When using a `:hover` pseudo-class selector, it is usually a good idea to also i
 
 :::
 
-:::tip Exercise 1 (10 minutes)
+:::note Exercise 1 (10 minutes)
 _Paired Programming Exercise_
 
 In the Bikes for Refugees project, work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
 :::
 
-:::tip Exercise 2 (10 minutes)
+:::note Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
 In the Bikes for Refugees project, work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
@@ -596,11 +596,11 @@ We can also modify the **width** and **height** of the content like in the follo
 }
 ```
 
-:::tip Exercise 1 (10 minutes)
+:::note Exercise 1 (10 minutes)
 In the Bikes for Refugees project, work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
 :::
 
-:::tip Exercise 2 (10 minutes)
+:::note Exercise 2 (10 minutes)
 In the Bikes for Refugees project, you may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
 
 You can also set a transparent border, so that it takes up the space without showing a visible border.
@@ -768,7 +768,7 @@ The [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/mai
 is a CSS Project for you to complete using what you've learnt so far today.
 Fork the repository to your personal account and then clone the repository.
 
-:::tip Exercise (60 minutes+)
+:::note Exercise (60 minutes+)
 Work in pairs to complete all the mistakes in the project and fix them.
 :::
 

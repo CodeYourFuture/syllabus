@@ -30,7 +30,7 @@ _If you are a teacher reading this, please check the [Instructor Notes](./instru
 
 ## 1) API Refresh
 
-:::tip Exercise
+:::note Exercise
 
 Exercise: Discuss known APIs
 
@@ -53,7 +53,7 @@ Next let's try an exercise
 
 #### Group Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 Pick a couple of these and experiment with them, modify the requests, report your findings.
 
@@ -88,7 +88,7 @@ We've made a really simple server about cats. You can check it out here:
 - [Source](https://glitch.com/~cyfcats)
 - [Live](https://cyfcats.glitch.me/)
 
-:::tip Teacher-Led Live Coding Example
+:::note Teacher-Led Live Coding Example
 
 Let's inspect the different parts of the Node App and how Express works. Let's discuss
 
@@ -102,7 +102,7 @@ Can we work out what each those lines are doing?
 
 :::
 
-:::tip Teacher-Led Live Coding Example
+:::note Teacher-Led Live Coding Example
 
 As a class - try to make a simple express server.
 
@@ -118,7 +118,7 @@ The server should have one endpoint. When you request the data from that endpoin
 
 Now let's make a server ourselves from scratch...
 
-:::tip Exercise:
+:::note Exercise:
 
 Make your own node server on glitch
 
@@ -221,7 +221,7 @@ app.listen(3000, function () {
 });
 ```
 
-:::tip Task
+:::note Task
 Try to use ES6 arrow functions instead of `function`.
 :::
 
@@ -322,7 +322,7 @@ Now, open Postman, and send a `GET` request to
 `http://localhost:3000`. If you see your message in Postman,
 congratulations! You just sent your first response from the server.
 
-:::tip Checkpoint
+:::note Checkpoint
 
 Do you understand all these terms? You should be able to see examples of them in Postman
 
@@ -344,7 +344,7 @@ Do you understand all these terms? You should be able to see examples of them in
 At the moment our server only does one thing. When it receives a request from
 the `/` endpoint, it sends back the same response: "Yay Node!".
 
-:::tip Exercise
+:::note Exercise
 Try typing http://localhost:3000/node and see what happens.
 :::
 
@@ -379,7 +379,7 @@ app.get("/chocolate", function (req, res) {
 });
 ```
 
-:::tip Exercise
+:::note Exercise
 
 Add some code so that your server sends one message when the endpoint is `/node` and another one when it's `/codeyourfuture`.
 
@@ -416,7 +416,7 @@ Here is an example of how we would use this endpoint with query parameters:
 
 Now your turn!
 
-:::tip Exercise
+:::note Exercise
 
 Add some code so that your server returns the amount of chocolate that you want from `/chocolate` endpoint. For example
 
@@ -442,7 +442,7 @@ app.get("/json", function (req, res) {
 });
 ```
 
-:::tip Exercise
+:::note Exercise
 
 Add some code so that your server takes 2 values that we will multiply together and return the value
 For example

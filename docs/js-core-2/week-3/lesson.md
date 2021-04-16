@@ -79,7 +79,7 @@ Before running the code in your browser, discuss the expected order of each loop
 
 2. Asynchronous - Same as before but the index and the value of the god at position 2 in array should be printed after 2 seconds. Use: setTimeout()
 
-:::tip Exercise
+:::note Exercise
 
 ```js
 const greekGods = [
@@ -127,7 +127,7 @@ This error happened because of a problem in the `logSomething` function on line 
 
 Since there is only one call stack in Javascript, function execution is done one at a time from top to bottom. This means that the last function that gets pushed into the call stack is always the one to be executed when the call stack is popped. Think of it like pushing to, and popping from, an array; it's always the last item of the array that is affected.
 
-:::tip Exercise
+:::note Exercise
 
 [Let's use this tool to see how the Callstack works!](http://latentflip.com/loupe/)
 
@@ -190,7 +190,7 @@ mainFunction(myCallbackFunction);
 
 ### Exercise (2)
 
-:::tip Exercise
+:::note Exercise
 
 - Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
 - Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
@@ -203,7 +203,7 @@ Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?
 
 ### Exercise (3)
 
-:::tip Exercise
+:::note Exercise
 
 Complete the exercises in this [CodePen](https://codepen.io/textbook/pen/MWwMgmW?editors)
 
@@ -266,7 +266,7 @@ The important parts of the the Network Tab are:
 
 #### Exercise - GET Requests
 
-:::tip Exercise
+:::note Exercise
 
 Let's take a look at GET requests in the Browser.
 
@@ -293,7 +293,7 @@ You can see the website online here
 
 :::
 
-:::tip Exercise Extra
+:::note Exercise Extra
 
 Go to your favorite website and take a look at the Network tab. Can you work out what each (or any) of the requests are doing?
 
@@ -303,7 +303,7 @@ Warning! There will be **a lot** of requests made on complicated websites.
 
 #### Exercise - POST Requests
 
-:::tip Exercise
+:::note Exercise
 
 Let's take a look at POST requests in the Browser.
 
@@ -317,7 +317,7 @@ You can see the website online here
 
 :::
 
-:::tip Exercise Extra
+:::note Exercise Extra
 
 1. Did the `POST` request succeed?
 2. Using the Details Panel, can you work out why?

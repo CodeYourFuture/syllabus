@@ -61,7 +61,7 @@ The console is a tool which is mainly used to log information - it's useful for 
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 _(This exercise will help you understand how to run a basic JS script and explore the different ways you can run JS code)_
 
 1. Create your first `js1-week1.js` script
@@ -75,7 +75,7 @@ _(This exercise will help you understand how to run a basic JS script and explor
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 _(This exercise will help you expand your understanding of console.log)_
 
 Write 10 statements like these, but in different languages.
@@ -114,7 +114,7 @@ The program above will print "Hello world" to the console. Notice how it uses th
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 1. Add a variable `greeting` to js1-week1.js and assign a greeting of your choice to the variable
 2. Print your `greeting` to the console 3 times. You should see your greeting 3 times on the console, one on each line.
@@ -144,7 +144,7 @@ console.log(messageType); // logs 'string'
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 1. Write a program that:
 
@@ -184,7 +184,7 @@ console.log(greeting); // Logs "Hello, my name is Daniel"
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Write a program that logs a message with a greeting and your name using the two concatenation methods we used
 
@@ -226,7 +226,7 @@ const roughAge = Math.round(preciseAge); // 31
 
 ### Exercise (15 mins)
 
-:::tip Exercise
+:::note Exercise
 
 1. Create two variables `numberOfTrainees` and `numberOfMentors`
 2. Log a message that displays the total number of trainees and mentors
@@ -241,7 +241,7 @@ Total number of trainees and mentors: 23
 
 :::
 
-:::tip Exercise
+:::note Exercise
 
 Using the variables you created in the previous steps, calculate the percentage of mentors and trainees in the group (percentages must be rounded to the nearest integer)
 
@@ -258,7 +258,7 @@ Percentage of mentors: 35%
 
 ### Extra Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 _Instructor note: Only complete this exercise if you have enough time in the lesson_
 
 Using online documentation, what other things can you do with the `Math` library?
@@ -302,7 +302,7 @@ let worldGreeting = "Hello" + "World"; // assign the value "HelloWorld" (the val
 
 ### Exercise ( 15 mins )
 
-:::tip Exercise
+:::note Exercise
 You can run `node` by itself, which will open a _node console_, also called a [Read–Eval–Print Loop (REPL)](https://www.tutorialspoint.com/nodejs/nodejs_repl_terminal.htm).
 
 This console allows you to enter code in the console line by line and is a great way of testing bits of code before writing it in a script. Each time you press enter, it will print out what the expression you typed evaluates to.
@@ -344,7 +344,7 @@ hoursInADay * 7;
 
 (To exit the node REPL, you have to press Ctrl+d)
 
-:::tip Exercise
+:::note Exercise
 
 ### Statement
 
@@ -414,7 +414,7 @@ function add(num1, num2) {
 
 In a new javascript file try solving each of the questions below:
 
-:::tip Exercise 1
+:::note Exercise 1
 
 Create a function called `formatPenceToPounds` that should
 
@@ -432,7 +432,7 @@ In your groups, think carefully about the following things:
 Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
 :::
 
-:::tip Exercise 2
+:::note Exercise 2
 
 Create a function called `increaseByHalf` that should
 
@@ -460,7 +460,7 @@ Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the ne
 Then use `console.log` the output in order to check your function.
 
 :::
-:::tip Exercise 3
+:::note Exercise 3
 
 Check out the code below:
 
@@ -511,7 +511,7 @@ Hint: Think carefully about the parameters and arguments for `getMessage` for pa
 
 ### Pair Programming Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 Swap your laptop with your neighbouring pair (or send your code to them over slack) and review each other's code for the `formatPenceToPounds` and `increaseByHalf` exercise - what can be improved? Is the code readable?
 :::
 
@@ -531,7 +531,7 @@ A style guide doesn't change anything about how your code operates - code that b
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 _This is a Live exercise. The Teacher should take suggestions from the class on how this code can be improved and add comments themselves. Please read the [teaching notes](./instructors#giving-feedback-to-each-other)._
 
 Next, let's see an example of some code that we could suggest some improvements to.

@@ -104,13 +104,13 @@ If you see these, suggest people change them in pull requests.
 
 ### Exercise ( 15 mins )
 
-:::tip Exercise 1
+:::note Exercise 1
 
 What do `typeof true` and `typeof false` evaluate to - write some code and log the output to the console to work out the answer.
 
 :::
 
-:::tip Exercise 2
+:::note Exercise 2
 
 Check out the code below.
 
@@ -156,7 +156,7 @@ function checkIsTrue(value1) {
 
 :::
 
-:::tip Exercise 3
+:::note Exercise 3
 
 Create a function called `isEven` that should
 
@@ -243,7 +243,7 @@ What if there is more than one condition you want to handle in your function? Fo
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Can you explain what this function does line by line? What happens when you pass in a string?
 
@@ -265,7 +265,7 @@ function numberChecker(num) {
 
 ### Exercise (10 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Create a function that gives you a message depending on your mood! It should:
 
@@ -301,7 +301,7 @@ We can test expressions with logical operators in a node console too.
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Type the following expressions into your Node and note the output. Anything you didn't expect?
 
@@ -318,7 +318,7 @@ Type the following expressions into your Node and note the output. Anything you 
 
 ### Exercise (15 mins)
 
-:::tip Exercise
+:::note Exercise
 
 In pairs, write a function that checks a username is of an acceptable format for a user type. The function must:
 
@@ -350,7 +350,7 @@ It's important that the condition inside the parenthesis becomes false at some p
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 Write a function that:
 
@@ -376,7 +376,7 @@ for (let i = 0; i < 20; i++) {
 
 ### Exercise (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 
 Write a function, similar to the last exercise, that:
 
@@ -435,7 +435,7 @@ console.log(trainees); // ["Ahmed", "Maria", "Bianca", "Nahidul", "Jack"]
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 In Node, enter the following array:
 
@@ -456,7 +456,7 @@ Then, replace 'apple' with 'raspberry', and replace 'fig' with 'pineapple'.
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Complete this function so that, if the second element in the array contains the name "Amy", it returns `"Second element matched!"`
 
@@ -497,7 +497,7 @@ for (let i = 0; i < daysOfWeek.length; i++) {
 
 ### Exercise (10 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Write a function which takes your **trainees** array as an input. In the function, use a for loop to **iterate** over the array and print the name of each trainee to the console.
 
@@ -505,7 +505,7 @@ Write a function which takes your **trainees** array as an input. In the functio
 
 ### Exercise - extra credit (20 mins)
 
-:::tip Exercise
+:::note Exercise
 
 In pairs, write a function which squares all numbers in an array and returns the array of squared numbers.
 
@@ -517,7 +517,7 @@ How can you combine the two functions to return an array of even and squared num
 
 ## Extra exercises
 
-:::tip Exercise
+:::note Exercise
 
 ### Playing computer I
 
@@ -557,7 +557,7 @@ for (let i = 0; i < daysOfWeek.length; i++) {
 
 :::
 
-:::tip Exercise
+:::note Exercise
 
 ### Playing computer II
 
@@ -590,7 +590,7 @@ for (let i = 0; i < 5; ++i) {
 
 :::
 
-:::tip Exercise
+:::note Exercise
 
 ### Playing computer III
 

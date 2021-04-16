@@ -175,7 +175,7 @@ You might notice that even though we re-rendered, we did **not** run the `useEff
 
 #### Exercise A (estimate: 15 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll fetch some data about a Pokemon's moves from the Pokemon API and render it a component:
 
@@ -238,7 +238,7 @@ You'll notice in the `&&` example above, we do not render a 'Loading...' message
 
 #### Exercise B (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll change the `PokemonMoves` component to use a ternary operator. Your app should still look the same in your browser as Exercise A.
 
@@ -255,7 +255,7 @@ Let's take a look at an example:
 
 #### Exercise C (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-not-working-x1dox?file=/src/App.js).
 2. Take 5 minutes to read the code.
@@ -424,7 +424,7 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
 
 #### Exercise D (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 1. Did you spot where the bug was? Discuss with a group of 2 - 3 trainees where you think the bug is.
 2. Report back to the rest of the class where you think the bug happened.
@@ -464,7 +464,7 @@ To help you understand this better, try "playing computer" again, but this time 
 
 #### Exercise E (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll add some buttons which allow you to select which Pokemon's moves we will fetch from the Pokemon API: <ExerciseEDemo />
 
@@ -529,7 +529,7 @@ In addition, instead of just saving the value of the input in the state, we coul
 
 #### Exercise F (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll create a new component where you can type in the name of a Pokemon city and see it on screen.
 
@@ -606,7 +606,7 @@ We now have three different inputs named `username`, `email` and `password`. The
 
 #### Exercise G (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we will change the `CaughtPokemon` component so that you can type in the name of a Pokemon that you caught and it will show in the list:
 

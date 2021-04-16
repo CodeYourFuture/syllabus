@@ -29,7 +29,7 @@ The purpose of this class is to introduce to the trainee:
 
 ## 1. Debugging Quiz
 
-:::tip Quiz
+:::note Quiz
 
 Let's see what you remember from last week!
 
@@ -104,7 +104,7 @@ Common content types include
 
 ### Exercise
 
-:::tip Exercise
+:::note Exercise
 
 In Slack post answers to the following
 
@@ -171,7 +171,7 @@ As you can see the URL changes the data that we get from the API. This can be br
 
 ### Exercise (5 mins)
 
-:::tip Exercise
+:::note Exercise
 
 Let's use the TFL API to get data about the London Underground
 
@@ -187,7 +187,7 @@ Hint: Use your browser to access the endpoints
 
 #### Recap
 
-:::tip Recap
+:::note Recap
 
 ##### Question
 
@@ -259,7 +259,7 @@ _Note: This is "Psuedo Code"- meaning it doesn't work! This is just to demonstra
 
 #### Example 1
 
-:::tip Teacher-Led Live Coding Example
+:::note Teacher-Led Live Coding Example
 
 Let's step through how the Fetch function is used and what it is comprised of
 
@@ -282,7 +282,7 @@ fetch("https://cat-fact.herokuapp.com/facts")
 
 #### Example 2
 
-:::tip Teacher-Led Live Coding Example
+:::note Teacher-Led Live Coding Example
 
 Wouldn't it be cool to make a new friend with just the click of a button?
 
@@ -326,7 +326,7 @@ fetch("https://httpstat.us/500")
 
 ### Group Exercise
 
-:::tip Group Exercise
+:::note Group Exercise
 
 In groups the trainees should create a page of details about the United Kingdom.
 
@@ -365,7 +365,7 @@ You can find the finished example of this website [here](https://codeyourfuture.
 
 :::
 
-:::tip Extra Exercise
+:::note Extra Exercise
 
 - Load the country's flag into an `img` tag
 - Add CSS to make your website look really nice

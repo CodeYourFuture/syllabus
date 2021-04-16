@@ -106,7 +106,7 @@ $ git branch
 
 ### Exercise 1 (15 minutes)
 
-:::tip Exercise
+:::note Exercise
 Let's make a new branch, and make a new commit on it.
 
 Create a branch named `story`, and edit `mug-brownie.md`.
@@ -130,7 +130,7 @@ What will the history look like?
 
 ### Exercise 2 (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 Switch back to the `main` branch (hint: The command to run is like the one you used to create a new branch, but you're not creating a new one).
 
 Look at the contents of `mug-brownie.md` - what's changed?
@@ -173,7 +173,7 @@ And some bad examples:
 
 ### Exercise 3 (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 Make another branch based on `main` called `extra-topping` (remember to make sure you're on the `main` branch before creating the new one!).
 
 Add a new topping to the recipe. Make sure to include it both in the ingredients list, and the steps.

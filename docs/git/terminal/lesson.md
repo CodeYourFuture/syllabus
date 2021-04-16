@@ -71,7 +71,7 @@ Type `Terminal` and press Enter to find and launch the Terminal shortcut. You ca
 
 ### Exercise (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 Using the above instructions, open the terminal now.
 
 Having issues? Can't open the terminal? Ask for help on your Slack channel **now**!.
@@ -89,7 +89,7 @@ In a GUI, there a visual elements (buttons, text, windows etc) that a user can i
 
 ### Self-Study Exercise (15 minutes)
 
-:::tip Exercise
+:::note Exercise
 Research the following questions
 
 - What is a GUI useful for?
@@ -138,7 +138,7 @@ defaultValue="exercise"
 values={[{ label: "Exercise", value: "exercise", },{ label:"Answer", value: "answer", },]}>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Make the command line do something!
 
@@ -204,7 +204,7 @@ That hosting service probably still uses the same CLI. The new version is backwa
 
 ### Self-Study Exercise (15 minutes)
 
-:::tip Exercise
+:::note Exercise
 Research the following questions
 
 - When was the Command Line Interface invented?

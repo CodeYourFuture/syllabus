@@ -48,7 +48,7 @@ Read this description of what an API from [How To Geek](https://www.howtogeek.co
 
 An API does not have to be web-based. But in our work, since we are doing web development, we will work only with web based APIs, so you might as well hear the word **Web Service**, and we will communicate with those services using the protocol for Web: **HTTP**.
 
-:::tip Checkpoint
+:::note Checkpoint
 Recap what we know about HTTP before continuing.
 :::
 
@@ -73,7 +73,7 @@ We will build these endpoints:
 
 To get started, let's setup our server so that we can retrieve all of the albums at once
 
-:::tip Exercise
+:::note Exercise
 
 1. In `server.js` Add the endpoint for `GET /albums`.
 
@@ -120,7 +120,7 @@ app.get("/albums", function (req, res) {
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
-:::tip Teacher Led Live Coding
+:::note Teacher Led Live Coding
 
 #### Objective
 
@@ -180,7 +180,7 @@ now from your terminal, use the command `npm run dev` and that will run the _ser
 
 This is an Teacher led exercise which can be used to show how we might add an element using an API
 
-:::tip Teacher Led Live Coding
+:::note Teacher Led Live Coding
 
 #### Objective
 
@@ -250,7 +250,7 @@ app.post("/albums", function (req, res) {
 });
 ```
 
-:::tip Exercise
+:::note Exercise
 Use Postman to `POST` this data to `/albums` endpoint.
 
 ```json
@@ -267,7 +267,7 @@ Use Postman to `POST` this data to `/albums` endpoint.
 
 :::
 
-:::tip Exercise
+:::note Exercise
 Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
 :::
 
@@ -277,7 +277,7 @@ Finish the code for the route `POST /albums` to add the album data to the albums
 
 This is an Teacher led exercise which can be used to show how we might remove an element using an API
 
-:::tip Teacher Led Live Coding
+:::note Teacher Led Live Coding
 
 #### Objective
 

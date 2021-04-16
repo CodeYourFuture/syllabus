@@ -99,7 +99,7 @@ Now, let's do the same using the Atlas GUI.
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 Search for the document using the index.
 
@@ -182,7 +182,7 @@ More information: <https://docs.mongodb.com/manual/aggregation/>
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 Now, let's do the same using the Atlas GUI.
 
@@ -292,7 +292,7 @@ Database operations need to be inside our session if we want to benefit from tra
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 Transfer 40 monads from account 1 to account 2. Observe how it works perfectly fine.
 
@@ -300,7 +300,7 @@ Transfer 40 monads from account 1 to account 2. Observe how it works perfectly f
 
 ## MongoDB Project
 
-:::tip Exercise
+:::note Exercise
 
 Based on the data from the AirBnB listings and reviews collection, we want to create a front end for it.
 

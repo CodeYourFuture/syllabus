@@ -226,7 +226,7 @@ That is how you can add a document easily with MongoDB Atlas.
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 Try adding two new films to your database, using the Atlas web interface. Give each of them a title, year, and a few actors.
 
@@ -280,7 +280,7 @@ To try it, restart your server first: go to your terminal shell, press `ctrl+c`
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 Update the new endpoint to take query parameters `title`, `year`, and `actors` and create and return a new film with those fields and values. Make sure that only those fields are added. If a query parameter is missing, return a `400` error. Make sure that the year is a number in the database (not a string). Let the actors be separated by commas.
 
@@ -416,7 +416,7 @@ To try it, restart your server again (in the terminal: `ctrl+c`, `up`, `enter
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 Change the new endpoint to `/films/:id`, and make it take a JSON object body and replace the document that has that `id`.
 
@@ -523,7 +523,7 @@ To try it, restart your server, find a film title in your database, and send a 
 
 #### Exercise 4
 
-:::tip Exercise
+:::note Exercise
 
 Change the new endpoint to `/films/:id`. Make it delete only the object with the given `id`.
 

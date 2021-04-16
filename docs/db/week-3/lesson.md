@@ -162,7 +162,7 @@ app.post("/hotels", function (req, res) {
 
 #### Exercise 1
 
-:::tip Exercise
+:::note Exercise
 
 - Follow the above steps to create a new POST endpoint `/hotels` to create a new hotel. Make sure to add validation for the number of rooms and the hotel name. Test your new API endpoint with Postman and check that the new hotel has been correctly created in your database.
 - Add a new POST API endpoint to create a new customer in the `customers` table.
@@ -216,7 +216,7 @@ app.get("/hotels/:hotelId", function (req, res) {
 
 #### Exercise 2
 
-:::tip Exercise
+:::note Exercise
 
 - Add the GET endpoints `/hotels` and `/hotels/:hotelId` mentioned above and try to use these endpoints with Postman.
 - Add a new GET endpoint `/customers` to load all customers ordered by name.
@@ -245,7 +245,7 @@ What can go wrong in the code above? Again, there is no validation! We could set
 
 #### Exercise 3
 
-:::tip Exercise
+:::note Exercise
 
 - Add the PUT endpoint `/customers/:customerId` and verify you can update a customer email using Postman.
 - Add validation for the email before updating the customer record in the database. If the email is empty, return an error message.
@@ -288,7 +288,7 @@ app.delete("/customers/:customerId", function (req, res) {
 
 #### Exercise 4
 
-:::tip Exercise
+:::note Exercise
 
 - Add the DELETE endpoint `/customers/:customerId` above and verify you can delete a customer along their bookings with Postman.
 - Add a new DELETE endpoint `/hotels/:hotelId` to delete a specific hotel.

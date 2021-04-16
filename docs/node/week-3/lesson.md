@@ -36,7 +36,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
-:::tip Teacher-Led Live Coding
+:::note Teacher-Led Live Coding
 
 #### Objective
 
@@ -79,7 +79,7 @@ This can be a little tricky however the documentation is good.
 
 https://devcenter.heroku.com/articles/getting-started-with-nodejs
 
-:::tip Exercise
+:::note Exercise
 
 Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online.
 
@@ -104,7 +104,7 @@ After making a `commit` your updated website with my made available online.
 
 ## 4) City Guide and Paired Programming
 
-:::tip Exercise
+:::note Exercise
 
 For this exercises you should split into groups of two or three people.
 

@@ -60,7 +60,7 @@ defaultValue="exercise"
 values={[{ label: "Exercise", value: "exercise" }, { label:"Solution", value: "solution" }]}>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Describe your own laptop as a JavaScript object. Try to think of as many properties as you can!
 
@@ -100,7 +100,7 @@ console.log(laptop);
 
 ### Exercise (2)
 
-:::tip Exercise
+:::note Exercise
 
 Think of 5 different real world "things" that you can describe with a JavaScript object
 Assign each of them to a separate variable
@@ -118,7 +118,7 @@ let jumper = {
 
 ### Exercise (3)
 
-:::tip Exercise
+:::note Exercise
 
 The objects below have some syntax issues - try and fix them all!
 
@@ -152,7 +152,7 @@ Useful words to remember when talking about objects:
 
 ### Exercise (4)
 
-:::tip Exercise
+:::note Exercise
 
 Choose a few nearby colleagues and one mentor, and go through each variable you
 declared above in Part 1, 2 or 3, reading everything that happens out loud.
@@ -211,7 +211,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 ```js
 /*
@@ -264,7 +264,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 The following code contains syntax errors - try and fix them!
 Once you fix them, run the code, it should output the correct values!
@@ -348,7 +348,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Write code in the space provided so that it outputs "Gilbert"
 
@@ -399,7 +399,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Write code in the space provided so that the expected values output
 
@@ -488,7 +488,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Given the following house - follow the instructions below.
 
@@ -594,7 +594,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Given the same "house" object again
 
@@ -709,7 +709,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Given the same "house" object again
 
@@ -933,7 +933,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 A person named Alice is defined below.
 
@@ -995,7 +995,7 @@ console.log(
 
 ### Exercise (2)
 
-:::tip Exercise
+:::note Exercise
 
 The following code contains syntax errors - try and fix them!
 Once you fix them, run this file, it should output the correct values!
@@ -1019,7 +1019,7 @@ let person = {
 
 ### Exercise (3)
 
-:::tip Exercise
+:::note Exercise
 
 The following code contains syntax errors - try and fix them!
 
@@ -1065,7 +1065,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Alice has a list of good friends.
 
@@ -1134,7 +1134,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 A coffee machine is defined below.
 One that can buy three different coffees.
@@ -1318,7 +1318,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 1. Define an array containing the 3 persons defined below.
 2. Return an array of the person names (hint: use map).
@@ -1463,7 +1463,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 An array of travel destinations is defined below.
 Each destination has a name, a distance from Glasgow, and a list of transportations available to go there.
@@ -1639,7 +1639,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats,
 the number of customers in the restaurant at the moment and the menu with prices.
@@ -1916,7 +1916,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Return the keys and values of the following object
 
@@ -2021,7 +2021,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 You have an object of mentors and their ages below, but the keys are inconsistent. JOSH and JAMIE are uppercase, while james and Mozafar are not. You want to return an array of mentors with the names in uppercase.
 
@@ -2099,7 +2099,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 Objects very often contain other objects.
 
@@ -2270,7 +2270,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-:::tip Exercise
+:::note Exercise
 
 You are given an object of trainee names and grades
 Loop through all the trainees' grades and console log the name and grade of the ones with grade more than 18

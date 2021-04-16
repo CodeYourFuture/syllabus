@@ -60,7 +60,7 @@ There are no hard & fast rules for making components. UIs can be split up into c
 
 #### Exercise A (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 1. Look at the example online shopping user interface in the [Thinking in React article](https://reactjs.org/docs/thinking-in-react.html) (the image at the top).
 2. Draw boxes around the components and give them names. Compare with the example components shown in the second image.
@@ -113,7 +113,7 @@ As you can see, this is much easier to read than both the straight `React.create
 
 #### Exercise B (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 Change the [JSX example from above](http://jsbin.com/gekahexige/edit?html,output) to instead render a `h1` tag with the text "Hello Code Your Future".
 :::
 
@@ -121,7 +121,7 @@ Change the [JSX example from above](http://jsbin.com/gekahexige/edit?html,output
 
 #### Exercise C (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 If you haven't already, follow [the instructions to create a React app](../../guides/creating-a-react-app) called `pokedex`.
 :::
 
@@ -158,7 +158,7 @@ The process of _rendering_ is turning the JSX elements returned by the component
 
 #### Exercise D (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise we replace the placeholder React app with our own. It should look like this:
 
@@ -208,7 +208,7 @@ Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are
 
 #### Exercise E (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we will split out a new `Logo` component from the `App` component. And then we'll add a new `BestPokemon` component:
 
@@ -266,7 +266,7 @@ If we want to do this, we can still use arrow functions but we can't use the imp
 
 #### Exercise F (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll convert the Pokedex app to use arrow functions. It should still look the same in your browser as Exercise E.
 
@@ -355,7 +355,7 @@ Here we are using `Array.map` to turn an array of strings into an array of compo
 
 #### Exercise G (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll change the `Logo` component to use a variable for the app name. Then we'll add a new component `CaughtPokemon` which displays today's date. And finally we'll make `BestPokemon` show a list of abilities:
 
@@ -427,7 +427,7 @@ The convention is to name component files exactly the same as the component (inc
 
 #### Exercise H (estimate: 5 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll split the Pokedex app into separate files. It should still look the same in your browser as Exercise G.
 
@@ -493,7 +493,7 @@ Or calculating new values:
 
 #### Exercise I (estimate: 10 min)
 
-:::tip Exercise
+:::note Exercise
 
 In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtPokemon` to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise H.
 
