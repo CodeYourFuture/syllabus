@@ -62,7 +62,10 @@ There are no hard & fast rules for making components. UIs can be split up into c
 
 :::note Exercise
 
-1. Look at the example online shopping user interface in the [Thinking in React article](https://reactjs.org/docs/thinking-in-react.html) (the image at the top).
+1. Look at the user interface below:
+
+![Twitter homepage](../assets/twitter-components-exercise.png)
+
 2. Draw boxes around the components and give them names. Compare with the example components shown in the second image.
 
 :::
