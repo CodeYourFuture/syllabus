@@ -227,9 +227,9 @@ In Postman, change the request `method` to `POST` instead of `GET` and test our 
 
 So what format does the client send the data with? It is up to us, but since we already are familiar with `json`, let us use it.
 
-In order for our _server-side_ to receive and use the data sent by the client. We will need to install and use a **middleware**.
+In order for our _server-side_ to receive and use the data sent by the client, we will need to install and use a **middleware**.
 
-> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example)
+> Middleware: We will cover middleware in more details in the next class. For now, imagine pieces of code that process a request and pass it to the next middleware until one of them returns a response (with `res.send` for example).
 
 [Express Body Parser](https://github.com/expressjs/body-parser#examples) makes it easier for our _endpoints_ to receive and understand different formats of data.
 
