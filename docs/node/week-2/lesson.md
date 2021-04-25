@@ -227,18 +227,16 @@ In Postman, change the request `method` to `POST` instead of `GET` and test our 
 
 So what format does the client send the data with? It is up to us, but since we already are familiar with `json`, let us use it.
 
-In order for our _server-side_ to receive and use the data sent by the client. We will need to install and use a **middleware**.
+In order for our _server-side_ to receive and use the data sent by the client, we will need to install and use a **middleware**.
 
-> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example)
+> Middleware: We will cover middleware in more details in the next class. For now, imagine pieces of code that process a request and pass it to the next middleware until one of them returns a response (with `res.send` for example).
 
-[Express Body Parser](https://github.com/expressjs/body-parser#examples) makes it easier for our _endpoints_ to receive and understand different formats of data.
+The JSON middleware makes it easy for our route handlers to read JSON data from the request. If the `Content-Type` request header indicates that the request body contains JSON data then the middleware calls `JSON.parse` to convert the request body into a JavaScript data structure.
 
-First install the package: `npm install body-parser --save`
+To register the JSON middleware, add the following to the server code:
 
 ```js
-const bodyParser = require("body-parser");
-
-app.use(bodyParser.json()); // before our routes definition
+app.use(express.json()); // before our routes definition
 ```
 
 Now we will receive the data as `req.body`.
