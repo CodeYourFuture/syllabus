@@ -105,11 +105,11 @@ In this section we want to evaluate if the project is nice too look at and to us
 - Are the colours they use on their website nice to look at?
   - Can you suggest any changes in colour?
 - Is all the text easy to read?
-  - Make sure they haven't put dark text on a dark background as this is hard to read for some people
+  - Make sure they haven't put dark text on a dark background as this is hard to read for some people. [Test the contrast with Devtools](https://developer.chrome.com/docs/devtools/accessibility/reference/#contrast).
 - Are images the right size in each card?
   - Sometimes images can look distorted if they've been loaded incorrectly
 - Is the text on the website the correct size?
-  - Is the text too large?
-  - Is the text too small?
+  - Is the text too large? More than 24px for body copy is probably too large. Headings can be larger.
+  - Is the text too small? In general, body copy should be 16px or more on mobile.
 
-You should also thing of other ways that the design could be improved and suggest them!
+You should also think of other ways that the design could be improved and suggest them!
