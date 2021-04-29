@@ -4,6 +4,42 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 14/04/2021
+
+- Sally opened a PR for JS1 marking guide
+  - Discovered an issue with student understanding of `true`/`false`
+  - Predicates exercise
+    - Any code will pass the test
+    - Opened a ticket: https://github.com/CodeYourFuture/syllabus/issues/233
+    - Action: fix this test
+  - Daniel: last time he sat in on this, students didn't know what an expression was
+    - This should be addressed with Mitch's changes to JS1
+  - Daniel also found another example of a bad test: https://github.com/CodeYourFuture/syllabus/issues/230
+    - Action: fix this too
+- Fundamentals
+  - Why Processing.js?
+    - Fast to get something tangible
+      - It's difficult with vanilla JS to make something "fun" (i.e. not printing text to a terminal). Processing makes it easy to code something interesting quickly
+      - Trade-off: Processing is "magical", and KA is particularly weird about it
+    - "Flipped classroom": sessions at the weekend were to unstick students, not necessarily to introduce new concepts
+      - Hence need for a good online course
+  - There's a lack of documentation describing the above
+    - Action: Sally to do write this up
+  - Fundamentals was also originally designed to be a "taster session" for programming, as well as an intro to JS
+    - Wouldn't need lots of volunteer time on at the weekend, so online course is ideal
+    - Could be run much more regularly during the year
+- React assessment
+  - PR to assessment: https://github.com/CodeYourFuture/React-Assessment/pull/1
+  - Action: Ali will likely merge soon. but feel free to leave comments if you'd like
+- TDD
+  - Came up in context of exercises with `require('assert')`: https://github.com/CodeYourFuture/syllabus/issues/169
+  - We remembered that Chris was going to update us about this
+  - Action: Chris update us about this
+
+## 31/04/2021
+
+Missing notes 😢
+
 ## 17/03/2021
 
 Attendance: Ali, Chris, Daniel, Greg, Matthew, Sally
