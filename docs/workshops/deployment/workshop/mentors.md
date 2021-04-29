@@ -6,37 +6,37 @@ sidebar_label: "Mentors"
 
 ## What's this?
 
-Mentor notes outlining an in-class workshop in which students will learn the basics of automatic deployment of their (simple) html/css projects using Netlify and GitHub.
+Mentor notes outlining an in-class workshop in which trainees will learn the basics of automatic deployment of their (simple) html/css projects using Netlify and GitHub.
 
 ## Who's it for?
 
-It's for students in the HTML/CSS module.
+It's for trainees in the HTML/CSS module.
 
-It's intended students attend the actual workshop session, which this document supports but does not replace.
+It's intended trainees attend the actual workshop session, which this document supports but does not replace.
 
 Later in the course, a more advanced workshop may be given.
 
 ## Workshop goals:
 
-- After this first 20-minute workshop, students should be able to:
+- After this first 20-minute workshop, trainees should be able to:
 
   - Configure the automated deploy of any STATIC (non-generated) site they create on github in future (including all significant CYF coursework projects).
   - Recover from common mistakes they make during deployment configuration.
 
 ### NON-goals:
 
-- After this _first_ workshop, the students DON'T need to be able to explain HOW it is working (only what the trigger(s) and results are). We'll have time in later sessions.
+- After this _first_ workshop, the trainees DON'T need to be able to explain HOW it is working (only what the trigger(s) and results are). We'll have time in later sessions.
 
 ## Workshop pre-requisites:
 
-Students should have:
+Trainees should have:
 
 - made some very simple sites (even a single index.html)
 - the source of at least some of those sites as repos on github.
 - know their github login
 - [created netlify account for homework](https://classroom.google.com/u/1/c/Mzk3NDA1NjA4MTVa/a/NjA0NjEwMzM1MzRa/submissions/by-status/and-sort-first-name/not-done)
 
-Students **don't** need to know anything about the command line or npm.
+Trainees **don't** need to know anything about the command line or npm.
 
 ### Computer setup
 
@@ -58,17 +58,17 @@ Demonstrate VERY quickly, to build curiosity. We'll break it down later.
 Live coding:
 
 - Show teacher's copy of cake repo on github [nbogie/responsive-cake-webpage](https://github.com/nbogie/responsive-cake-webpage)
-- Modify the content to prove we are live (students can suggest some silly (text) content.
+- Modify the content to prove we are live (trainees can suggest some silly (text) content.
 - State: I wish to publish at https://cyf-nbogie-cakes.netlify.com/
 - [Post to slack](https://app.slack.com/client/T2H71EFLK/CSE061L6L/thread/CSE061L6L-1581174531.227000)
-- Have a student check there's nothing there yet
+- Have a trainee check there's nothing there yet
 - Add the site to Netlify
 - Observe deployed site (random name)
 - Change site name
 - Observe at new location
 - Commit and push
 - [Observe deployed site](https://cyf-nbogie-cakes.netlify.com/) (maybe wait 60 seconds)
-- Have students observe at new location
+- Have trainees observe at new location
 
 ## Demonstration #2. (Another 60-second demonstration.)
 

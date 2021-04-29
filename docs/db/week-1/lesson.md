@@ -29,7 +29,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to
+By the end of this lesson trainees should be able to
 
 - Explain why databases are needed in Web Development
 - Define what SQL is and what it is used for
@@ -163,6 +163,8 @@ Few things to mention from the SQL statement above:
 
 #### Exercise 1
 
+:::note Exercise
+
 - Create the `customers` table in the `cyf_hotels` database.
 - Verify that the table `customers` is created with the psql command `\dt` which lists the existing tables.
 - Display the table `customers` definition with the command `\d customers` and verify that it matches what you expect.
@@ -182,9 +184,15 @@ CREATE TABLE bookings (
 
 In the above, `customer_id` and `hotel_id` are called **foreign keys** as they reference an id from a different table. This set a very strong constraint as you will not be able to create a booking for a customer id which does not exist in the customers table!
 
+:::
+
 #### Exercise 2
 
+:::note Exercise
+
 - Create the table `bookings` in your `cyf_hotels` database and verify that it is correctly created.
+
+:::
 
 ### Inserting data
 
@@ -204,6 +212,8 @@ INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (1, 1,
 
 #### Exercise 3
 
+:::note Exercise
+
 - Run the 3 SQL statements above.
 - Insert yourself in the `customers` table.
 - Insert the following 3 hotels in the `hotels` table:
@@ -211,6 +221,8 @@ INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (1, 1,
   - The `Royal Cosmos Hotel` has 5 rooms, its postcode is `TR209AX`
   - The `Pacific Petal Motel` has 15 rooms, its postcode is `BN180TG`
 - Try to insert a booking for a customer id which does not exist in the `customers` table (for example ID `100`). What is happening and why?
+
+:::
 
 ### Retrieving data
 
@@ -222,9 +234,13 @@ SELECT * FROM customers;
 
 #### Exercise 4
 
+:::note Exercise
+
 - Use the above SQL statement to display all the data inserted in the `customers` table.
 - Use the above SQL statement to display all the data inserted in the `hotels` table.
 - Use the above SQL statement to display all the data inserted in the `bookings` table.
+
+:::
 
 ### Retrieving data with conditions
 
@@ -266,18 +282,22 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 
 #### Exercise 5
 
-- Execute the file [`cyf_hotels_exercise5.sql`](./cyf_hotels_exercise5.sql) which will reset your existing tables and insert more data in the `customers`, `hotels` and `bookings` tables. (hint: in the terminal, use `psql -d cyf_hotels -f cyf_hotels_exercise5.sql`).
-- Retrieve all information for the customer Laurence Lebihan.
-- Retrieve all customers name living in UK.
-- Retrieve the address, city and postcode of Melinda Marsh.
-- Retrieve all hotels located in the postcode DGQ127.
-- Retrieve all hotels with more than 11 rooms.
-- Retrieve all hotels with more than 6 rooms but less than 15 rooms.
-- Retrieve all hotels with exactly 10 rooms or 20 rooms.
-- Retrieve all bookings for customer id 1.
-- Retrieve all bookings for more than 4 nights.
-- Retrieve all bookings starting in 2020.
-- Retrieve all bookings before 2020 for less than 4 nights.
+:::note Exercise
+
+1. Execute the file [`cyf_hotels_exercise5.sql`](./cyf_hotels_exercise5.sql) which will reset your existing tables and insert more data in the `customers`, `hotels` and `bookings` tables. (hint: in the terminal, use `psql -d cyf_hotels -f cyf_hotels_exercise5.sql`).
+2. Retrieve all information for the customer Laurence Lebihan.
+3. Retrieve all customers name living in UK.
+4. Retrieve the address, city and postcode of Melinda Marsh.
+5. Retrieve all hotels located in the postcode DGQ127.
+6. Retrieve all hotels with more than 11 rooms.
+7. Retrieve all hotels with more than 6 rooms but less than 15 rooms.
+8. Retrieve all hotels with exactly 10 rooms or 20 rooms.
+9. Retrieve all bookings for customer id 1.
+10. Retrieve all bookings for more than 4 nights.
+11. Retrieve all bookings starting in 2020.
+12. Retrieve all bookings before 2020 for less than 4 nights.
+
+:::
 
 ## Coursework
 

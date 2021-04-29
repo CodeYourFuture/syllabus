@@ -46,9 +46,9 @@ We are going to use the sample cluster that we have already connected to in Mong
 
 Let's use the Atlas GUI to:
 
-1.  create a new database
-2.  create a new collection
-3.  import sample data (we are interested in the AirBnB listings and reviews sample database)
+1. Create a new database
+2. Create a new collection
+3. Import sample data (we are interested in the AirBnB listings and reviews sample database)
 
 We now have a pretty extensive dataset that we will use for the rest of the class.
 
@@ -67,15 +67,10 @@ Let's start by visiting the official documentation: <https://docs.mongodb.com/m
 The most interesting index properties are:
 
 - Default id index
-
 - Let's take a look in the indexes that we have in Atlas GUI sample database.
-
 - Index Types
-
 - Index Properties
-
 - Collation
-
 - Covered queries
 
 ### Create an index
@@ -104,11 +99,15 @@ Now, let's do the same using the Atlas GUI.
 
 #### Exercise 1
 
+:::note Exercise
+
 Search for the document using the index.
 
 How can we be sure that we use the index? Can we create a covered query?
 
 Hint: `db.collection.find().explain()`
+
+:::
 
 ## Role based authentication
 
@@ -183,7 +182,11 @@ More information: <https://docs.mongodb.com/manual/aggregation/>
 
 #### Exercise 2
 
+:::note Exercise
+
 Now, let's do the same using the Atlas GUI.
+
+:::
 
 ## Replication
 
@@ -289,9 +292,15 @@ Database operations need to be inside our session if we want to benefit from tra
 
 #### Exercise 3
 
+:::note Exercise
+
 Transfer 40 monads from account 1 to account 2. Observe how it works perfectly fine.
 
+:::
+
 ## MongoDB Project
+
+:::note Exercise
 
 Based on the data from the AirBnB listings and reviews collection, we want to create a front end for it.
 
@@ -304,6 +313,8 @@ Functions:
 You can use Node/Express and the Aggregation framework if you see fit.
 
 Please use this index.html file as a starting point: <https://github.com/agiamas/cyf-mongodb-2019/blob/master/index.html>
+
+:::
 
 ## Next Steps
 

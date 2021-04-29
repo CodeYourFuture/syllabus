@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Process an PUT request using Express and Node to update data in memory
 - Upload their node app to the internet so it can be accessed anywhere using Heroku
@@ -32,9 +32,11 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 > Which of these have we learnt so far?
 
-### 2.1) Using Update exercise
+### 2.1) Using Update
 
 This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
+
+:::note Teacher-Led Live Coding
 
 #### Objective
 
@@ -48,9 +50,9 @@ You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~c
 
 When you remix the starting project, immediately rename it as your own.
 
-#### Updating Data
+:::
 
-**Complete in-class (1) Using Update exercise at this point**
+#### 2.2 Workshop: Updating Data
 
 Lets look back at our original objectives.
 
@@ -77,6 +79,8 @@ This can be a little tricky however the documentation is good.
 
 https://devcenter.heroku.com/articles/getting-started-with-nodejs
 
+:::note Exercise
+
 Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online.
 
 You should complete all of the following sections:
@@ -96,19 +100,27 @@ git push heroku master
 
 After making a `commit` your updated website with my made available online.
 
+:::
+
 ## 4) City Guide and Paired Programming
 
-In this exercises you should split into groups of two people.
+:::note Exercise
+
+For this exercises you should split into groups of two or three people.
+
+This challenge should be completed in a Pair Programming style.
 
 You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challenges/tree/master/challenge-london-mini-guide) here.
 
-### 4.1) Rules
+#### Rules
 
-1. One of you will be leading on building the React (Server) application
-2. One of you will be leading on building the Node.js (Client) Application
+1. One of you will be leading on building the React (Client) application
+2. One of you will be leading on building the Node.js (Node) Application
 3. It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
    - e.g. Both of you have to finish Level 100 before continuing onto Level 200.
    - If one of you gets stuck - help each other!
+
+:::
 
 ## Feedback
 

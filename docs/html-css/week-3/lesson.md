@@ -36,7 +36,9 @@ The main goals of a design framework are to ensure design consistency and avoid 
 
 ### Exercise (15 minutes)
 
+:::note Exercise
 Fork [this repository](https://github.com/NateWr/groupstrap) and follow the instructions in the [readme](https://github.com/NateWr/groupstrap) to create a new page and add a card component to it.
+:::
 
 ## Personal Website Project
 

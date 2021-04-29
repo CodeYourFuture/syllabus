@@ -29,19 +29,19 @@ Communication skills:
 
 The final projects form the final module of the full-stack web development course, comprising four weeks following the completion of the last teaching-based module (currently the database module). The objectives of this module are to:
 
-- Bring together everything the students have learned so far (most projects involve a Node/Express backend with a database and a React frontend);
-- Give an opportunity to demonstrate teamwork and a mix of interpersonal and technical skills that the students can talk about when applying for jobs; and Deliver something valuable for CYF or a partner organisation.
+- Bring together everything the trainees have learned so far (most projects involve a Node/Express backend with a database and a React frontend);
+- Give an opportunity to demonstrate teamwork and a mix of interpersonal and technical skills that the trainees can talk about when applying for jobs; and Deliver something valuable for CYF or a partner organisation.
 - Also: nice portfolio piece; practice agile stuff; practical experience of junior dev role.
 
 # Project team
 
 Ideally, the project team would consist of the following:
 
-- Four CYF students;
+- Four CYF trainees;
 - Three volunteer mentors, forming a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU); and
 - A product owner.
 
-The mentor group would include an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer), designer (responsible for user research and UI/UX) and product manager (responsible for prioritisation and alignment with the product owner’s goals). This gives an opportunity to bring in volunteers from the broader tech community, and exposes the students to the roles they could be collaborating with in employment.
+The mentor group would include an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer), designer (responsible for user research and UI/UX) and product manager (responsible for prioritisation and alignment with the product owner’s goals). This gives an opportunity to bring in volunteers from the broader tech community, and exposes the trainees to the roles they could be collaborating with in employment.
 
 For more information on roles [click here](./roles.md)
 
@@ -57,6 +57,6 @@ We’re going to run the final projects in weekly “sprints”, planning out wh
 - **Classes**: we’ll continue to meet on class days where we will be spending time on:
   - **Demo**: integrate all of your work together and share your progress so far with the mentors.
   - **Retrospective**: what’s gone well this week? What’s gone badly? What are you going to do differently next week to make things better?
-  - **User research**: show what you’ve built and what you’re planning to build next to potential users (other students, mentors, etc.) and use any feedback they have to improve your plans.
+  - **User research**: show what you’ve built and what you’re planning to build next to potential users (other trainees, mentors, etc.) and use any feedback they have to improve your plans.
   - **Sprint planning**: decide what you’re each going to be doing during the following week and where you want to be by the next class.
   - **Technical support**: mentors will be on hand to help you get unstuck from any blocking technical issues.

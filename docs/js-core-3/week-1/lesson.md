@@ -15,7 +15,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the student:
+The purpose of this class is to introduce to the trainee:
 
 1. Debugging your code
 2. Consolidate learning for the project work
@@ -57,7 +57,7 @@ Therac-25 was a machine used to administer radiation to cancer patients which ma
 Debugging is a fact of life! Not everything will work the first time you do it and even when it does there will often be times when even if you feel like you've covered everything another bug may occur!
 
 **Task (5 Minutes)**
-In teams, the students should have quick discussion about the bugs that have occurred to them in the past. When they finish the class should regroup and gather together all the different types of bugs that have happened to them.
+In teams, the trainees should have quick discussion about the bugs that have occurred to them in the past. When they finish the class should regroup and gather together all the different types of bugs that have happened to them.
 
 ### Types of Errors
 
@@ -66,6 +66,8 @@ In teams, the students should have quick discussion about the bugs that have occ
 These errors are usually quite simple to fix and happen when you've typed some code wrong or missed a character. These will normally happen as soon as you run your code.
 
 ##### Examples of Syntax Errors
+
+:::note Exercise
 
 How would we fix these syntax errors? Post your answers in Slack!
 
@@ -94,6 +96,8 @@ var charge = function() {
 };
 ```
 
+:::
+
 #### Reference Errors
 
 These errors most commonly happen when you try to access variable that has not been defined anywhere.
@@ -102,6 +106,8 @@ These errors most commonly happen when you try to access variable that has not b
 
 How would we fix these reference errors? Post your answers in Slack!
 
+:::note Exercise
+
 - `ReferenceError: "word" is not defined`
 
 ```javascript
@@ -109,11 +115,17 @@ var ward = "hello";
 word.substring(1);
 ```
 
+:::
+
 #### Type Errors
 
 Type errors usually occur when you are trying to access a method or variable from an object that doesn't have that in it.
 
 ##### Examples of Type Errors
+
+:::note Exercise
+
+How would we fix these reference errors? Post your answers in Slack!
 
 - `TypeError: document.getElByID is not a function`
 
@@ -139,6 +151,8 @@ var name;
 name.substring(1);
 ```
 
+:::
+
 ### The Debugging Framework
 
 When debugging you should always ask yourself a few key questions
@@ -161,11 +175,13 @@ Debugging is a process of loops and iteration. Think about what you've done so f
 
 #### Tools
 
-**Task (5 Minutes)**
+:::note Task (5 Minutes)
 
-In teams, the students should have quick discussion about the ways that they have solved bugs or errors they've had in the past.
+In teams, the trainees should have quick discussion about the ways that they have solved bugs or errors they've had in the past.
 
 When they finish the discussion we should regroup and gather together all the ways that they have solved bugs in the past.
+
+:::
 
 ##### Thinking like a computer
 
@@ -260,6 +276,14 @@ We can click the button with the blue triangle to tell the debugger to continue 
 
 To remove a breakpoint you either remove the `debugger` statement or if you placed a breakpoint from the debugger itself, you can click that line number again to remove it.
 
+:::note Exercise
+
+In groups, spend ten minutes experimenting with the debugger in a previous piece of your coursework.
+
+Make sure that _every_ member of your group has been able to use the debugger.
+
+:::
+
 ##### Comparing console.log and debugger
 
 As a developer you will likely use both tools to understand what your code is doing and help you fin and fix bugs. `console.log` can be a quick and easy way to check a value, but it can also be a bit inflexible since you can only inspect the value you log out in that one place.
@@ -307,6 +331,14 @@ We have created a sample ESLint configuration to help you get started. You can d
 
 You can see all rules and their explanations at [https://eslint.org/docs/rules/](https://eslint.org/docs/rules/). Many of them not make sense to you (they don't to me), but it can be a handy reference and over time your use and understanding of them will improve and increase.
 
+:::note Exercise
+
+Make sure that you've got ESLint enabled and configured correctly in Visual Studio Code
+
+Before continuing make sure that everyone in your group has it working.
+
+:::
+
 ##### Summary
 
 - Bugs are a fact of life. No one produces bug free code.
@@ -317,6 +349,8 @@ You can see all rules and their explanations at [https://eslint.org/docs/rules/]
 - Use tools such as console.log and debugger to find root of bugs
 
 ### Exercise 1
+
+:::note Exercise
 
 As a class we should step through solving all of the issues in this small piece of code. You should copy it into a code editor (e.g. VS Code) in a `.js` file so you can debug and run it easily. **Be sure to use The Debugging Framework that we discussed earlier**
 
@@ -331,7 +365,7 @@ These are the errors:
 
 -->
 
-```javascript
+```js
 
 let printValuesOf = (jsObject, keys) => {
   for (let i = 0; i <= keys.length; i++) {
@@ -366,11 +400,17 @@ Try to categorise the bugs found under:
 2. Syntactical
 3. Other (programmer/user error)
 
+:::
+
 ### Exercise 2
+
+:::note Exercise
 
 In your groups we want you to go through this program and find all of the bugs that are happening in this code.
 
 You can find the project [here](https://github.com/CodeYourFuture/syllabus/tree/master/docs/js-core-3/week-1/debugging-code)
+
+:::
 
 ### Quiz (10 - 15 minutes)
 

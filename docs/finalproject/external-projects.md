@@ -4,7 +4,7 @@ title: External Projects
 sidebar_label: External Projects
 ---
 
-At CodeYourFuture we try to find interesting, tech-for-good projects for that stretch the abilities of our students whilst helping an NGO or Charity solve a business problem they are facing.
+At CodeYourFuture we try to find interesting, tech-for-good projects for that stretch the abilities of our trainees whilst helping an NGO or Charity solve a business problem they are facing.
 
 ## Past Projects
 
@@ -20,7 +20,7 @@ You can also find more example project briefs on the Project Brief
 
 ## Goals
 
-With the final projects, we’re looking to give our students:
+With the final projects, we’re looking to give our trainees:
 
 - Experience of collaborating in a team to deliver software
 - An opportunity to solve real world business problems
@@ -41,11 +41,11 @@ To be a good Stakeholder/Product Owner you should
 - Be in a position to advise the development of the project
   - e.g. Should we prioritise Feature A or Feature B?
   - e.g. We should remove Feature B because it's no longer needed.
-- Have realistic expectations of what our students can build in the time given to them
+- Have realistic expectations of what our trainees can build in the time given to them
 
-In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our students more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our students. Students may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
+In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our trainees more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
 
-In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our students. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
+In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our trainees. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
 
 ## What is a Good Project?
 
@@ -71,7 +71,7 @@ A Good Final Project should have the following qualities
 
 3. Be well-defined
 
-   - This means that from day one our students understand what they are building
+   - This means that from day one our trainees understand what they are building
    - For example, a well defined project should be able to answer using [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories) **all** of the functionality of the project
    - We **can** work with Charities to define projects if they contact us early enough
 
@@ -86,18 +86,18 @@ We use the following technologies at CodeYourFuture
 - Node with Express
 - MongoDB or PostgreSQL
 
-An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our students to use all of the skills that they have learnt in our course.
+An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our trainees to use all of the skills that they have learnt in our course.
 
-We prohibit using other core frameworks as they will fall outside our students areas of competency due to the time constraints that we have.
+We prohibit using other core frameworks as they will fall outside our trainees areas of competency due to the time constraints that we have.
 
 ### Limitations
 
-As Junior Developers, our students do have some limits on what they can produce
+As Junior Developers, our trainees do have some limits on what they can produce
 
 - Visual Design Complexity
-  - An overly complex design will take a lot longer for our students to develop. Try to keep your designs simple and functional.
+  - An overly complex design will take a lot longer for our trainees to develop. Try to keep your designs simple and functional.
 - Instant Answers
-  - You shouldn't expect our students to be able to give instant answers to any technical questions you might have. They will get there with time however!
+  - You shouldn't expect our trainees to be able to give instant answers to any technical questions you might have. They will get there with time however!
 
 ## Next Steps
 

@@ -4,13 +4,13 @@ title: Instructor Notes
 sidebar_label: Instructor Notes
 ---
 
-## IMPORTANT - Setup Needed For Students
+## IMPORTANT - Setup Needed For Trainees
 
-If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
 [React Preparation](../prep)
 
-If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## Questions and Help
 
@@ -47,7 +47,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 - Rendering in React section
   - Build towards component usage from vanilla DOM
   - This hopefully reduces the "magic" that React is
-  - Although don't spend too much time on it - the student's don't know about other frameworks, and so don't really care about other approaches
+  - Although don't spend too much time on it - the trainee's don't know about other frameworks, and so don't really care about other approaches
   - Also useful to identify why the React api is improved over the vanilla DOM apis
 - JSX section
   - Open the [Babel REPL](https://babeljs.io/repl/) - demonstrate that there isn't any magic in JSX
@@ -57,24 +57,24 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
     - Saves time waiting for everyone to install
     - Also saves CPU cycles on slower computers, which may affect video calls
   - CRA can consume a lot of resources (especially on older laptops) so emphasize stopping/starting
-  - This is the first time that students will have encountered a file watcher/daemon background process
+  - This is the first time that trainees will have encountered a file watcher/daemon background process
     - So take some time to demonstrate how to start and stop the app
-    - Recommend that students with slower computers stop the app when they are not using it
+    - Recommend that trainees with slower computers stop the app when they are not using it
 - Installing `stop-runaway-react-effects`
   - A package to prevent accidental infinite `useEffect` loops
   - It **must** be imported before the `react` import so that `useEffect` can be monkey-patched
   - [Package docs](https://github.com/kentcdodds/stop-runaway-react-effects)
 - React components section
   - Originally this was written with class components first
-    - However, students went home and googled and saw alternative syntaxes
+    - However, trainees went home and googled and saw alternative syntaxes
     - This is a common theme in this first lesson - have to teach some stuff that is perhaps unnecessary just so that they're prepared when they see it at home
 - Making an argument for props section - Relate to a situation in real life, something like: imagine what our boss might ask for with this small application. What could our boss ask for which would mean we would have to make changes to the code?
 - Exercises
   - Written to be quite step-by-step deliberately
-    - Some students were distracted by the wording and not getting to the useful part of the exercise
-    - This is a tricky balance though - now some students will be distracted by the wordy-ness of the exercises. Feedback welcome
+    - Some trainees were distracted by the wording and not getting to the useful part of the exercise
+    - This is a tricky balance though - now some trainees will be distracted by the wordy-ness of the exercises. Feedback welcome
   - Exercises in lessons 2 & 3 depend on the completing the exercises in lesson 1
-    - So ensure students have completed most of them before moving on
+    - So ensure trainees have completed most of them before moving on
     - We may want to introduce a way of "catching them up" - have tagged "checkpoints" on a git repo?
 - Interactive examples
   - All of the examples should have an associated CodeSandbox with identical code
@@ -83,7 +83,7 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
     - You can type up exactly what they're asking about and demo it
   - Props section
     - Makes a common analogy of "props as arguments" to a function
-    - Students often get tripped on up on the `props` argument to a functional component
+    - Trainees often get tripped on up on the `props` argument to a functional component
       - They tend to forget to add it to the function signature
       - Or they think that each prop is given as a separate argument
   - The first class may be a little short. But not short enough to start getting into state

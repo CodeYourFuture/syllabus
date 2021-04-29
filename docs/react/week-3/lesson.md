@@ -124,7 +124,7 @@ The `useEffect` Hook takes two arguments:
 1. A callback function, where we can put our `fetch` call. In this example, we're fetching some data from the NASA API! 🚀
 2. An array, which we'll look at later but is very important that you don't forget it!
 
-:::tip
+:::note
 When writing your `useEffect`, write the "skeleton" first, then fill in the callback function later.
 
 ```js
@@ -173,21 +173,30 @@ The timeline of this component is now what we wanted at the start:
 
 You might notice that even though we re-rendered, we did **not** run the `useEffect` a second time. The way we've set it up, `useEffect` will only run after the **first** time a component renders. We'll look at controlling this in more detail later.
 
-| Exercise A (estimate: 15 min)                                                                                                                                                                                                                              |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we'll fetch some data about a Pokemon's moves from the Pokemon API and render it a component: <ExerciseADemo />                                                                                                                          |
-| 1. Open the `pokedex` React application again.                                                                                                                                                                                                             |
-| 2. Create a new file `src/PokemonMoves.js`, and copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmoves-useeffect-exercise-starting-point-f1mwm?file=/src/PokemonMoves.js).                                                      |
-| 3. Render the `PokemonMoves` component inside the `App` component (underneath `CaughtPokemon`).                                                                                                                                                            |
-| 4. Take a few minutes to read the code in the new `PokemonMoves` component. Discuss with another student why you think it doesn't work.                                                                                                                    |
-| 5. Create a new state variable called `pokemonData` and initialise it to `null`. <details><summary>Click here if you are stuck.</summary>Check last week's lesson for a reminder on creating state variables.</details>                                    |
-| 6. Now add a `useEffect` call, but leave the callback function empty for now. **Make sure you remember to add the empty array after the callback function**.                                                                                               |
-| 7. Inside the `useEffect` callback, call the `fetch` function with this URL: `https://pokeapi.co/api/v2/pokemon/1/`.                                                                                                                                       |
-| 8. Add a `.then` handler into the `fetch` function (remember this needs to come immediately after the `fetch` call) which converts the response from JSON (hint: `.then(res => res.json())`).                                                              |
-| 9. Add a second `.then` handler after the one we just added, where the callback function will receive an argument called `data`.                                                                                                                           |
-| 11. Within the second `.then` callback function, log out the data that we just received (hint: `console.log(data)`). Inspect the data in the dev tools console. Is there any interesting data? (Hint: think about what the component is trying to render). |
-| 12. Still within the second `.then` callback, set the `pokemonData` state to be the `data` object we received from the API.                                                                                                                                |
-| 13. What happens in your browser? Do you understand why? If not, discuss it with another student. If you are both stuck, ask a Teaching Assistant.                                                                                                         |
+#### Exercise A (estimate: 15 min)
+
+:::note Exercise
+
+In this exercise, we'll fetch some data about a Pokemon's moves from the Pokemon API and render it a component:
+
+<ExerciseADemo />
+
+You should complete the following steps:
+
+1. Open the `pokedex` React application again.
+2. Create a new file `src/PokemonMoves.js`, and copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmoves-useeffect-exercise-starting-point-f1mwm?file=/src/PokemonMoves.js).
+3. Render the `PokemonMoves` component inside the `App` component (underneath `CaughtPokemon`).
+4. Take a few minutes to read the code in the new `PokemonMoves` component. Discuss with another trainee why you think it doesn't work.
+5. Create a new state variable called `pokemonData` and initialise it to `null`. <details><summary>Click here if you are stuck.</summary>Check last week's lesson for a reminder on creating state variables.</details>
+6. Now add a `useEffect` call, but leave the callback function empty for now. **Make sure you remember to add the empty array after the callback function**.
+7. Inside the `useEffect` callback, call the `fetch` function with this URL: `https://pokeapi.co/api/v2/pokemon/1/`.
+8. Add a `.then` handler into the `fetch` function (remember this needs to come immediately after the `fetch` call) which converts the response from JSON (hint: `.then(res => res.json())`).
+9. Add a second `.then` handler after the one we just added, where the callback function will receive an argument called `data`.
+10. Within the second `.then` callback function, log out the data that we just received (hint: `console.log(data)`). Inspect the data in the dev tools console. Is there any interesting data? (Hint: think about what the component is trying to render).
+11. Still within the second `.then` callback, set the `pokemonData` state to be the `data` object we received from the API.
+12. What happens in your browser? Do you understand why? If not, discuss it with another trainee. If you are both stuck, ask a Teaching Assistant.
+
+:::
 
 ### Conditional rendering
 
@@ -227,11 +236,16 @@ return (
 
 You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no `else` case).
 
-| Exercise B (estimate: 5 min)                                                                                                                              |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we'll change the `PokemonMoves` component to use a ternary operator. Your app should still look the same in your browser as Exercise A. |
-| 1. Open the `pokedex` application and the `src/PokemonMoves.js` file.                                                                                     |
-| 2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead.                       |
+#### Exercise B (estimate: 5 min)
+
+:::note Exercise
+
+In this exercise, we'll change the `PokemonMoves` component to use a ternary operator. Your app should still look the same in your browser as Exercise A.
+
+1. Open the `pokedex` application and the `src/PokemonMoves.js` file.
+2. Change the `if` / `else` statement in your JSX to use the ternary operator (`condition ? outputIfTrue : outputIfFalse`) instead.
+
+:::
 
 ### The Circle of Life
 
@@ -239,12 +253,16 @@ We now know how to fetch data and render it in our React applications. However, 
 
 Let's take a look at an example:
 
-| Exercise C (estimate: 10 min)                                                                                                             |
-| :---------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-not-working-x1dox?file=/src/App.js).                          |
-| 2. Take 5 minutes to read the code.                                                                                                       |
-| 3. Click the "Fetch image for 2019" button. **If you're feeling confident**: predict what is going to happen before you click the button. |
-| 4. Now click the "Fetch image for 2020" button. What did you expect to happen? What actually happened? Can you explain why?               |
+#### Exercise C (estimate: 10 min)
+
+:::note Exercise
+
+1. Open [this CodeSandbox](https://codesandbox.io/s/fetch-with-prop-updates-not-working-x1dox?file=/src/App.js).
+2. Take 5 minutes to read the code.
+3. Click the "Fetch image for 2019" button. **If you're feeling confident**: predict what is going to happen before you click the button.
+4. Now click the "Fetch image for 2020" button. What did you expect to happen? What actually happened? Can you explain why?
+
+:::
 
 Together let's "play computer" to break down exactly what is happening with these components:
 
@@ -404,10 +422,12 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
   }
 ```
 
-| Exercise D (estimate: 5 min)                                                                          |
-| :---------------------------------------------------------------------------------------------------- |
-| 1. Did you spot where the bug was? Discuss with a group of 2 - 3 students where you think the bug is. |
-| 2. Report back to the rest of the class where you think the bug happened.                             |
+#### Exercise D (estimate: 5 min)
+
+:::note Exercise
+
+1. Did you spot where the bug was? Discuss with a group of 2 - 3 trainees where you think the bug is.
+2. Report back to the rest of the class where you think the bug happened.
 
 <details>
 <summary>Click here to reveal the answer!</summary>
@@ -415,6 +435,8 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
 The key that the `useEffect` in `MartianImageFetcher` is **only run once**. This is because we told React that the queue should be queued on the first render only. However, as we saw, sometimes you need the effect to run again when some data changes. In this case the `date` prop, changed from `"2019-01-01"` to `"2020-01-01"`, meaning that we have to fetch data different data. We call this a _dependency_ of the effect. Any variables which are used inside the `useEffect` callback function are dependencies.
 
 </details>
+
+:::
 
 ### `useEffect` dependencies array
 
@@ -440,17 +462,22 @@ Here's a diagram showing when the `useEffect` callback will be run:
 
 To help you understand this better, try "playing computer" again, but this time think about what happens when we use `[props.photoDate]` for the dependencies argument. Think carefully about what changes with step 6 after we click the 2020 button.
 
-| Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                                                                                                                          |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we'll add some buttons which allow you to select which Pokemon's moves we will fetch from the Pokemon API: <ExerciseEDemo />                                                                                                                                                                                                                                         |
-| 1. Open the `pokedex` React application.                                                                                                                                                                                                                                                                                                                                               |
-| 2. Create a new file `src/PokemonMovesSelector.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmovesselector-exercise-starting-point-wt5d0) into the new file.                                                                                                                                                                                        |
-| 3. Open `src/App.js` and replace the `PokemonMoves` component with the `PokemonMovesSelector` component (remember to update the `import` too!)                                                                                                                                                                                                                                         |
-| 4. Take a few minutes to read what the `PokemonMovesSelector` component does. If you have questions, ask a Teaching Assistant to help. We **won't** need to make any more changes to this component.                                                                                                                                                                                   |
-| 5. Open the `PokemonMoves` component again. Change the URL to use backticks (`` `...` ``) instead of double-quotes (`"..."`). Then replace the hard-coded number 1 with `${props.pokemonId}`. What will this do? <details><summary>Click here if you don't know</summary>The URL will contain the <code>pokemonId</code> instead of always fetching the Pokemon with id of 1</details> |
-| 6. Open your browser and find where the `PokemonMovesSelector` component is rendered. **Before you click the buttons**, think about what you expect will happen. Then click the "Fetch Bulbasaur" button to find out what actually happens.                                                                                                                                            |
-| 7. Refresh the page. What happens now if you click the "Fetch Bulbasaur" button, then click the "Fetch Charmander" button? Is this what you expected? Discuss with another student why this happens.                                                                                                                                                                                   |
-| 8. Fix the bug by adding `props.pokemonId` to the `useEffect` dependencies array in `PokemonMoves`. Remember that you can test if the bug still happens by refreshing the page, clicking one of the buttons, then the other button.                                                                                                                                                    |
+#### Exercise E (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise, we'll add some buttons which allow you to select which Pokemon's moves we will fetch from the Pokemon API: <ExerciseEDemo />
+
+1. Open the `pokedex` React application.
+2. Create a new file `src/PokemonMovesSelector.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemonmovesselector-exercise-starting-point-wt5d0) into the new file.
+3. Open `src/App.js` and replace the `PokemonMoves` component with the `PokemonMovesSelector` component (remember to update the `import` too!)
+4. Take a few minutes to read what the `PokemonMovesSelector` component does. If you have questions, ask a Teaching Assistant to help. We **won't** need to make any more changes to this component.
+5. Open the `PokemonMoves` component again. Change the URL to use backticks (`` `...` ``) instead of double-quotes (`"..."`). Then replace the hard-coded number 1 with `${props.pokemonId}`. What will this do? <details><summary>Click here if you don't know</summary>The URL will contain the <code>pokemonId</code> instead of always fetching the Pokemon with id of 1</details>
+6. Open your browser and find where the `PokemonMovesSelector` component is rendered. **Before you click the buttons**, think about what you expect will happen. Then click the "Fetch Bulbasaur" button to find out what actually happens.
+7. Refresh the page. What happens now if you click the "Fetch Bulbasaur" button, then click the "Fetch Charmander" button? Is this what you expected? Discuss with another trainee why this happens.
+8. Fix the bug by adding `props.pokemonId` to the `useEffect` dependencies array in `PokemonMoves`. Remember that you can test if the bug still happens by refreshing the page, clicking one of the buttons, then the other button. |
+
+:::
 
 ### ESLint rules for React Hooks
 
@@ -500,19 +527,26 @@ If we didn't call `setReminder` in the `handleChange` function, then the input's
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
 
-| Exercise F (estimate: 10 min)                                                                                                                                                                           |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| In this exercise, we'll create a new component where you can type in the name of a Pokemon city and see it on screen. <ExerciseFDemo />                                                                 |
-| 1. Open the `pokedex` React application.                                                                                                                                                                |
-| 2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file. |
-| 3. Open the `src/App.js` file and render the new `PokemonCity` component (underneath `PokemonMovesSelector`).                                                                                           |
-| 4. Take a few minutes to understand what the `PokemonCity` component does.                                                                                                                              |
-| 5. Add an `<input type="text" />` element above the `<p>` element.                                                                                                                                      |
-| 6. Set the `value` attribute of the `<input>` to the `city` state.                                                                                                                                      |
-| 7. Create a function within the component called `updateCity`. Pass this function to the `onChange` event handler.                                                                                      |
-| 8. Change the `updateCity` component so that it has a parameter named `event`.                                                                                                                          |
-| 9. Add a `console.log` to inspect the value of `event.target.value`. What happens when you type in the input?                                                                                           |
-| 10. Using `setCity`, update the city state to what was typed in the input box.                                                                                                                          |
+#### Exercise F (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise, we'll create a new component where you can type in the name of a Pokemon city and see it on screen.
+
+<ExerciseFDemo />
+
+1. Open the `pokedex` React application.
+2. Create a new file `src/PokemonCity.js`. Copy/paste the code from [this CodeSandbox](https://codesandbox.io/s/pokemon-city-exercise-starting-point-6wivm?file=/src/PokemonCity.js) into the new file.
+3. Open the `src/App.js` file and render the new `PokemonCity` component (underneath `PokemonMovesSelector`).
+4. Take a few minutes to understand what the `PokemonCity` component does.
+5. Add an `<input type="text" />` element above the `<p>` element.
+6. Set the `value` attribute of the `<input>` to the `city` state.
+7. Create a function within the component called `updateCity`. Pass this function to the `onChange` event handler.
+8. Change the `updateCity` component so that it has a parameter named `event`.
+9. Add a `console.log` to inspect the value of `event.target.value`. What happens when you type in the input?
+10. Using `setCity`, update the city state to what was typed in the input box.
+
+:::
 
 ### Form with Multiple Fields
 
@@ -570,20 +604,27 @@ function CreateAccountForm() {
 
 We now have three different inputs named `username`, `email` and `password`. There is a corresponding state variable and change handler function for each value.
 
-| Exercise G (estimate: 10 min)                                                                                                                                                                              |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we will change the `CaughtPokemon` component so that you can type in the name of a Pokemon that you caught and it will show in the list: <ExerciseGDemo />                               |
-| 1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.                                                                                                                    |
-| 2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).                                                                                                                              |
-| 3. Create a new state variable called `pokemonNameInput` and initialise to an empty string (`""`).                                                                                                         |
-| 4. Add a `value` attribute to the `<input>` which is set to the `pokemonNameInput` state variable. (Hint: `value={pokemonNameInput}`)                                                                      |
-| 5. Create a new `handleInputChange` function within the component.                                                                                                                                         |
-| 6. Add a `onChange` handler to the `<input>` that will call `handleInputChange`.                                                                                                                           |
-| 7. Add a parameter called `event` to the `handleInputChange` function. Set the `pokemonNameInput` state variable to `event.target.value`. Try typing in the `<input>` again. What happens now?             |
-| 8. Change the `catchPokemon` function to add the `pokemonNameInput` state to the `caught` array (hint: change the value that we are passing to the `concat` method)                                        |
-| 9. Open your browser, type a Pokemon name into the `<input>` and click on the "Catch Pokemon" button. Do you see your new Pokemon being added to the list?                                                 |
-| 10. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caught` array in the `catchPokemon` function. |
-| 11: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caught` state if the value of `pokemonNameInput` state is empty.                                                                    |
+#### Exercise G (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise, we will change the `CaughtPokemon` component so that you can type in the name of a Pokemon that you caught and it will show in the list:
+
+<ExerciseGDemo />
+
+1. Open the `pokedex` React application again and open the `src/CaughtPokemon.js` file.
+2. Render an `<input>` before the `<button>` (hint: `<input type="text" />`).
+3. Create a new state variable called `pokemonNameInput` and initialise to an empty string (`""`).
+4. Add a `value` attribute to the `<input>` which is set to the `pokemonNameInput` state variable. (Hint: `value={pokemonNameInput}`)
+5. Create a new `handleInputChange` function within the component.
+6. Add a `onChange` handler to the `<input>` that will call `handleInputChange`.
+7. Add a parameter called `event` to the `handleInputChange` function. Set the `pokemonNameInput` state variable to `event.target.value`. Try typing in the `<input>` again. What happens now?
+8. Change the `catchPokemon` function to add the `pokemonNameInput` state to the `caught` array (hint: change the value that we are passing to the `concat` method)
+9. Open your browser, type a Pokemon name into the `<input>` and click on the "Catch Pokemon" button. Do you see your new Pokemon being added to the list?
+10. Empty the `<input>` after clicking on the button. To do this, set the state of `pokemonNameInput` to an empty string `""` after we have added it to the `caught` array in the `catchPokemon` function.
+    11: **(STRETCH GOAL)** Make sure the user cannot add a Pokemon to the `caught` state if the value of `pokemonNameInput` state is empty.
+
+:::
 
 #### Inlining event handlers
 

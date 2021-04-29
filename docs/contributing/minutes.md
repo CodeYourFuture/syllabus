@@ -32,12 +32,11 @@ sidebar_label: Team Minutes
   - PR to assessment: https://github.com/CodeYourFuture/React-Assessment/pull/1
   - Action: Ali will likely merge soon. but feel free to leave comments if you'd like
 - TDD
-
   - Came up in context of exercises with `require('assert')`: https://github.com/CodeYourFuture/syllabus/issues/169
   - We remembered that Chris was going to update us about this
   - Action: Chris update us about this
 
-  ## 31/04/2021
+## 31/04/2021
 
 Missing notes 😢
 
@@ -343,7 +342,7 @@ Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
 - Avoid git issues and sandboxes
 - Lots of interactive exercises throughout the lesson
 - For homework build a website using some Figma designs
-- Students can find extension tasks at Frontend Mentor
+- Trainees can find extension tasks at Frontend Mentor
 - Currently still using the bikes for refugees project over the HTML and CSS section
 - Lucy is using smaller layout exercises for this section
 - Try and get students to fork and clone the homework before the end of the class
@@ -353,7 +352,7 @@ Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
 - Week 2 deals with responsive design, media queries
 - Homework for week 2 is to add a media query to existing Karma Project for a mobile design
 - More sandbox activities for manipulating the UI with media queries
-- Students given a wireframe for a cake website with a mobile view and a desktop view
+- Trainees given a wireframe for a cake website with a mobile view and a desktop view
 
 #### Week 3
 

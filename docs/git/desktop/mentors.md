@@ -8,13 +8,13 @@ Want to make a change to this week but don't have the time? Click [here](https:/
 
 Want to report a bug in this week? Click [here](https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=bug&template=bug-report.md&title=)
 
-## IMPORTANT - Setup Needed For Students
+## IMPORTANT - Setup Needed For Trainees
 
-If you are teaching this class in the coming weeks you **must** instruct your students to complete the instructions below.
+If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
 [Git Preparation](./preparation)
 
-If you students do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help students get set up.
+If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## IMPORTANT - Setup needed For Teacher
 
@@ -86,7 +86,7 @@ Commit messages, commit hygiene, when to commit, etc are all skills that are har
 
 ### Exercise 1
 
-**Aim**: To show the student a concrete example of the problem they are trying to solve with using Git.
+**Aim**: To show the trainee a concrete example of the problem they are trying to solve with using Git.
 
 Let this exercise open a discussion about why this is hard and how this could become completely unmanageable in a larger system.
 
@@ -100,7 +100,7 @@ Open questions:
 
 **Aim**: Hands on experience of cloning a repository.
 
-You should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
+You should expect a host of small issues and problems with the trainees doing this. Work closely with them in small groups to resolve these issues.
 
 This exercise may draw out for a long time with all manner of login issues, UI issues, and general confusion. Let it take as long as it takes. Make sure every learner has succeeded before moving on.
 
@@ -108,13 +108,13 @@ This exercise may draw out for a long time with all manner of login issues, UI i
 
 **Aim**: Hands on experience creating a Pull Request.
 
-Again, you should expect a host of small issues and problems with the students doing this. Work closely with them in small groups to resolve these issues.
+Again, you should expect a host of small issues and problems with the trainees doing this. Work closely with them in small groups to resolve these issues.
 
 ### Exercise 5
 
 **Aim**: A follow on exercise that demonstrates how a file can can be added to a Pull Request.
 
-This small exercise demonstrates a key misunderstanding that students have around how they can add files to a Pull Request.
+This small exercise demonstrates a key misunderstanding that trainees have around how they can add files to a Pull Request.
 
 You should prompt and call attention to how we should always write good commit messages. Don't write "_Changes_". Do write "_Added an answer to the other-file.txt file_".
 

@@ -4,6 +4,11 @@ title: JavaScript Core III - 3
 sidebar_label: Lesson
 ---
 
+<!-- These imports are used to enable this feature. Do not delete. -->
+<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
@@ -14,7 +19,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the student:
+The purpose of this class is to introduce to the trainee:
 
 1. The scoping of variables, specifically in reference to:
    - Global
@@ -39,7 +44,7 @@ let favouriteFoods = ["pizza", "apples", "tofu"];
 // lots of code here
 
 // later
-console.log("my name is " + name);
+console.log("My name is " + name);
 ```
 
 Now, imagine what would happen when our code gets really long. Every time we want to define a new variable we have to check that it hasn't already been used for something else. If that variable is already being used and we redefine it, bad things can happen. We could overwrite something important.
@@ -229,7 +234,11 @@ Scope allows us to control where our variables can be accessed from. We want to 
 
 ### Exercise
 
-In small groups answer the following the questions. Try to solve each exercise before running code to verify answer. Try to explain your answer using what you learned above about scope. Think about the order JavaScript will execute each piece of code and what the values will be at each stage.
+:::note Exercise
+
+In small groups answer the following the questions.
+
+Try to solve each exercise before running code to verify answer. Try to explain your answer using what you learned above about scope. Think about the order JavaScript will execute each piece of code and what the values will be at each stage.
 
 ```js
 // 1.
@@ -287,6 +296,8 @@ function six() {
 six();
 ```
 
+:::
+
 ## 2. Array Destructuring
 
 ### The Problem
@@ -316,6 +327,8 @@ console.log(
 
 #### Exercise (1)
 
+:::note Exercise
+
 We have the names of the Simpsons family stored in an array called `familyMembers`. Create variables to store the names of the family members so that the `console.log` will print out the following message:
 `In the Simpsons family, Homer and Marge are the parents. Bart is the son, Lisa is the daughter, and Maggie is the baby.`
 
@@ -330,6 +343,8 @@ console.log(
 ```
 
 **Question**: How many lines of code did you add?
+
+:::
 
 ### Destructuring syntax
 
@@ -351,14 +366,6 @@ With array destructuring you were able to reduce this code down from 7 lines of 
 
 #### Exercise (2)
 
-Rewrite the code below to use array destructuring instead of assigning each value to a variable.
-
-<!-- These imports are used to enable this feature. Do not delete. -->
-<!-- https://v2.docusaurus.io/docs/markdown-features#multi-language-support-code-blocks -->
-
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
-
 <Tabs
 defaultValue="exercise"
 values={[
@@ -367,6 +374,10 @@ values={[
 ]
 }>
 <TabItem value="exercise">
+
+:::note Exercise
+
+Rewrite the code below to use array destructuring instead of assigning each value to a variable.
 
 ```js
 let sentence = ["Hello", "Code", "Your", "Future"];
@@ -380,6 +391,8 @@ console.log(
   `FirstWord: ${firstWord}, SecondWord: ${secondWord}, ThirdWord: ${thirdWord}, FourthWord: ${fourthWord},`
 );
 ```
+
+:::
 
 </TabItem>
 <TabItem value="solution">
@@ -399,8 +412,6 @@ console.log(
 
 #### Exercise (3)
 
-We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
-
 <Tabs
 defaultValue="exercise"
 values={[
@@ -409,6 +420,10 @@ values={[
 ]
 }>
 <TabItem value="exercise">
+
+:::note Exercise
+
+We have a function called `sumAndMultiply`. It will take two numbers and then return an array where the first number is the sum of the two numbers, and the second number is the multiplication of the two numbers.
 
 ```js
 function sumAndMultiply(a, b) {
@@ -420,16 +435,16 @@ function sumAndMultiply(a, b) {
 console.log(
   `The sum of the two numbers is ${sum}, the multiplication of the two numbers is ${multiply}`
 );
+```
 
-/*
 Which of the following lines of code can be used above?
 
 - A) let sum, multiply = sumAndMultiply(2, 3);
 - B) let [sumAndMultiply] = sumAndMultiply(2, 3);
 - C) let [sum, multiply] = sumAndMultiply(a, b);
 - D) let [sum, multiply] = sumAndMultiply(2, 3);
-*/
-```
+
+:::
 
 </TabItem>
 <TabItem value="solution">
@@ -444,8 +459,6 @@ let [sum, multiply] = sumAndMultiply(2, 3);
 
 #### Exercise (4)
 
-When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
-
 <Tabs
 defaultValue="exercise"
 values={[
@@ -454,6 +467,10 @@ values={[
 ]
 }>
 <TabItem value="exercise">
+
+:::note Exercise
+
+When you do array destructuring, the array can be of any data type. Try destructuring with the next array, which contains objects.
 
 ```js
 let citiesByPopulation = [
@@ -470,6 +487,8 @@ console.log(`${birmingham.name} population is ${birmingam.population}`);
 console.log(`${glasgow.name} population is ${glasgow.population}`);
 console.log(`${manchester.name} population is ${manchester.population}`);
 ```
+
+:::
 
 </TabItem>
 <TabItem value="solution">
@@ -495,7 +514,11 @@ console.log(`${manchester.name} population is ${manchester.population}`);
 
 #### Exercise (5)
 
+:::note Exercise
+
 Complete all of the exercises found [here](https://repl.it/@codeyourfuture0/ArrayDestructuring)
+
+:::
 
 ### Resources
 
@@ -513,7 +536,7 @@ For the rest of the day we'll be working together on our group projects
 
 You can find the project [here](/js-core-3/tv-show-dom-project/readme)
 
-Students should group into teams based on the Level that they are working on currently.
+Trainees should group into teams based on the Level that they are working on currently.
 
 ## Coursework
 

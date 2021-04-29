@@ -14,19 +14,19 @@ module.exports = {
     ],
   },
   Git: {
-    Overview: [
-      "git/overview",
-      "git/preparation",
-      "git/cheatsheet",
-      "git/cheatsheet-cli",
+    Overview: ["git/overview", "git/preparation", "git/coordinator"],
+    Resources: ["git/desktop/cheatsheet", "git/desktop/cheatsheet-cli"],
+    "Lesson 1": [
+      "git/desktop/lesson",
+      "git/desktop/homework",
+      "git/desktop/instructors",
     ],
-    "Lesson 1": ["git/index", "git/homework", "git/instructors"],
     "Lesson 2": ["git/terminal/lesson", "git/terminal/homework"],
     "Lesson 3": ["git/cli/lesson", "git/cli/homework"],
     "Lesson 4": ["git/branches/branches", "git/branches/homework"],
   },
   HTMLCSS: {
-    Overview: ["html-css/index"],
+    Overview: ["html-css/index", "html-css/coordinator"],
     "Lesson 1": [
       "html-css/week-1/learning-objectives",
       "html-css/week-1/lesson",
@@ -61,7 +61,11 @@ module.exports = {
     ],
   },
   JavaScriptCore1: {
-    Overview: ["js-core-1/index", "js-core-1/preparation"],
+    Overview: [
+      "js-core-1/index",
+      "js-core-1/preparation",
+      "js-core-1/coordinator",
+    ],
     "Lesson 1": [
       "js-core-1/week-1/lesson",
       "js-core-1/week-1/homework",
@@ -93,7 +97,7 @@ module.exports = {
     ],
   },
   JavaScriptCore2: {
-    Overview: ["js-core-2/index"],
+    Overview: ["js-core-2/index", "js-core-2/coordinator"],
     "Lesson 1": [
       "js-core-2/week-1/lesson",
       "js-core-2/week-1/homework",
@@ -125,7 +129,7 @@ module.exports = {
     ],
   },
   JavaScriptCore3: {
-    Overview: ["js-core-3/index"],
+    Overview: ["js-core-3/index", "js-core-3/coordinator"],
     "Lesson 1": [
       "js-core-3/week-1/lesson",
       "js-core-3/week-1/homework",
@@ -176,7 +180,7 @@ module.exports = {
     ],
   },
   React: {
-    Overview: ["react/index", "react/prep"],
+    Overview: ["react/index", "react/prep", "react/coordinator"],
     Resources: [
       "guides/react-cheatsheet",
       "guides/creating-a-react-app",
@@ -228,7 +232,7 @@ module.exports = {
     ],
   },
   Node: {
-    Overview: ["node/index", "node/preparation"],
+    Overview: ["node/index", "node/preparation", "node/coordinator"],
     "Lesson 1": [
       "node/week-1/lesson",
       "node/week-1/homework",

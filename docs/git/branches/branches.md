@@ -106,7 +106,7 @@ $ git branch
 
 ### Exercise 1 (15 minutes)
 
-:::tip Exercise
+:::note Exercise
 Let's make a new branch, and make a new commit on it.
 
 Create a branch named `story`, and edit `mug-brownie.md`.
@@ -130,7 +130,7 @@ What will the history look like?
 
 ### Exercise 2 (5 minutes)
 
-:::tip Exercise
+:::note Exercise
 Switch back to the `main` branch (hint: The command to run is like the one you used to create a new branch, but you're not creating a new one).
 
 Look at the contents of `mug-brownie.md` - what's changed?
@@ -173,7 +173,7 @@ And some bad examples:
 
 ### Exercise 3 (10 minutes)
 
-:::tip Exercise
+:::note Exercise
 Make another branch based on `main` called `extra-topping` (remember to make sure you're on the `main` branch before creating the new one!).
 
 Add a new topping to the recipe. Make sure to include it both in the ingredients list, and the steps.
@@ -223,6 +223,7 @@ Your branch is ahead of 'origin/story' by 2 commits.
 ```
 
 Or if you have run a `git fetch` but not a `git pull`, and the remote has changes that you haven't pulled yet, it may say:
+
 ```console
 $ git status
 Your branch is behind 'origin/main' by 3 commits, and can be fast-forwarded.
@@ -242,6 +243,6 @@ You can find this weeks coursework [here](./homework).
 
 ## Feedback
 
-It's really helpful if you give us feedback for this lesson. This helps us improve it for future students!
+It's really helpful if you give us feedback for this lesson. This helps us improve it for future trainees!
 
 <Feedback module="Git" week="Week 4" />

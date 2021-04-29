@@ -65,7 +65,7 @@ If you finish all of those, spend some time
 
 ## 5) Give feedback on your colleague's coursework (1 hour)
 
-Use what you learned in this lesson to give feedback to other students who have submitted their coursework.
+Use what you learned in this lesson to give feedback to other trainees who have submitted their coursework.
 
 Helping to give feedback on other peoples coursework doesn't only help them, it also helps you by reading a variety of different code.
 

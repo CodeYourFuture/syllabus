@@ -8,9 +8,9 @@ sidebar_label: Coursework
 
 We're now over half way through the Full Stack Course!
 
-Your feedback is really important to us. We use your feedback to improve the course for all of the hundreds of students across CodeYourFuture now and in the future.
+Your feedback is really important to us. We use your feedback to improve the course for all of the hundreds of trainees across CodeYourFuture now and in the future.
 
-This feedback is anonymous meaning we won't have an idea who you are after you submit. 
+This feedback is anonymous meaning we won't have an idea who you are after you submit.
 
 We really appreaciate you being honest since this allows us to improve faster.
 
@@ -79,7 +79,7 @@ You should complete the following project
 
 ## 6) Prepare for the next class (1 hour)
 
-In our next class we'll be exploring the difference between Props vs State. 
+In our next class we'll be exploring the difference between Props vs State.
 
 Spend some time reading about the difference between the two.
 
@@ -87,7 +87,6 @@ Here are some resources to get you started
 
 1. Read Props vs State
    - https://kentcdodds.com/blog/props-vs-state
-
 
 ## 7) (Optional) More Challenges
 

@@ -25,9 +25,9 @@ You might be interested in this role if you want to
 
 ### Exercises & Challenges
 
-Our syllabus has a small but growing array of homework, exercises and challenges that we can assign to our students to teach and test what they learning in the class.
+Our syllabus has a small but growing array of homework, exercises and challenges that we can assign to our trainees to teach and test what they learning in the class.
 
-This content makes up the bulk of our content and is one of the main ways that our students can learn what we are teaching in classes.
+This content makes up the bulk of our content and is one of the main ways that our trainees can learn what we are teaching in classes.
 
 This role involves
 
@@ -46,12 +46,12 @@ This role involves
 
 ### Coordinating and Running Workshop
 
-We have many other topics that our community wants to learn about that lie outside of our syllabus. Additionally, we also have a lot of subject area experts come to us with topics for workshops that would not be helpful for all of our students.
+We have many other topics that our community wants to learn about that lie outside of our syllabus. Additionally, we also have a lot of subject area experts come to us with topics for workshops that would not be helpful for all of our trainees.
 
 This role involves
 
 - Coordinating workshops with course creators
-- Organising workshop events for our students & graduates
+- Organising workshop events for our trainees & graduates
 
 ### Reviewing Changes
 

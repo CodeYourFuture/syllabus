@@ -20,6 +20,10 @@ sidebar_label: Overview
 
 | Week                          | Content           |
 | ----------------------------- | ----------------- |
-| [week-1](./week-1/lesson.md)  | Debugging         |
-| [week-2](./week-2/lesson.md)  | Fetch, AJAX, APIS |
-| [week-3](./week-3/lesson.mdx) | Scope & `this`    |
+| [Week 1](./week-1/lesson.md)  | Debugging         |
+| [Week 2](./week-2/lesson.md)  | Fetch, AJAX, APIS |
+| [Week 3](./week-3/lesson.mdx) | Scope & `this`    |
+
+## Coordination
+
+Coordination details for this module can be found on the [Module Coordinator's page](./coordinator)

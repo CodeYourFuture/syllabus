@@ -5,11 +5,11 @@ sidebar_label: Instructor Notes
 ---
 
 - Class components section
-  - Students often get tripped on converting between functional & class components
+  - Trainees often get tripped on converting between functional & class components
   - Common problem - `render(props)` instead of using `this.props`
 - Uses the `state = {}` class property pattern
   - This avoids having to use a `constructor` and calling `super(props)`
-    - Students won't have encountered class inheritance, so this can cause confusion
+    - Trainees won't have encountered class inheritance, so this can cause confusion
 - Uses the `foo = () => {}` method style
   - For non-React-provided methods (e.g. lifecycle methods)
   - Avoids issues with `this`. Which is a huge pain to explain/understand, so we avoid it

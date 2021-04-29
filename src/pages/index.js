@@ -64,7 +64,7 @@ function Home() {
               </a>
               .
             </p>
-            <h2 id="students">Students</h2>
+            <h2 id="trainees">Trainees</h2>
             <p>
               If you&#39;re interested in joining the program, please{" "}
               <a href="https://codeyourfuture.io/students">

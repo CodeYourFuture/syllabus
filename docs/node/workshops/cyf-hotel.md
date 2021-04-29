@@ -6,11 +6,11 @@ sidebar_label: CYF Hotel Workshop
 
 ## Contents
 
-* [Introduction](#introduction)
-* [Problem Statement](#problem-statement)
-* [User Journeys](#user-journeys)
-* [Team Work](#team-work)
-* [Learning Outcomes](#learning-outcomes)
+- [Introduction](#introduction)
+- [Problem Statement](#problem-statement)
+- [User Journeys](#user-journeys)
+- [Team Work](#team-work)
+- [Learning Outcomes](#learning-outcomes)
 
 ## Introduction
 
@@ -40,21 +40,21 @@ Similarly the hotel **Customers** cannnot get a link to their invoices online to
 
 We are looking at three personas today:
 
-* Hotel Customer
-* Hotel Receptionist
-* Hotel Manager
+- Hotel Customer
+- Hotel Receptionist
+- Hotel Manager
 
 `As a < type of user >, I want < some goal > so that < some reason >.`
 
-* As a _Hotel Manager_, I want to **view a list of all customers**
-* As a _Hotel Manager_, I want to **view a customers details by their customer account ID**
-* As a _Hotel Manager_, I want to **view a list of all invoice**
-* As a _Hotel Manager_, I want to **view a an invoice by it's Invoice ID**
+- As a _Hotel Manager_, I want to **view a list of all customers**
+- As a _Hotel Manager_, I want to **view a customers details by their customer account ID**
+- As a _Hotel Manager_, I want to **view a list of all invoice**
+- As a _Hotel Manager_, I want to **view a an invoice by it's Invoice ID**
 
-* As a _Hotel Receptionist_, I want to **list of all reservations**
-* AS a _Hotel Receptionist_, I want to **view a reservation by it's reservation ID**
+- As a _Hotel Receptionist_, I want to **list of all reservations**
+- AS a _Hotel Receptionist_, I want to **view a reservation by it's reservation ID**
 
-* As a _Hotel Customer_, I want to **view my invoice page**
+- As a _Hotel Customer_, I want to **view my invoice page**
 
 ## Team Work
 
@@ -66,7 +66,7 @@ We need you to work in a team by dividing up the work
 | Frontend           | HTML/CSS/Templates (Handlebars) |
 | PM/User Experience | User journeys, tickets          |
 
-As a student you can have multiple roles.
+As a trainee you can have multiple roles.
 
 Get a mentor to help provide direction/focus for your team.
 
@@ -76,11 +76,11 @@ The PM creates tickets on Trello and assigns them between the team members
 
 The important concepts for this workshop is learning how to:
 
-* Work in a team
-* Plan
-* Consider user journey
-* Consider your data structures
-* Deliver a solution, no matter how minimal it may be
-* Present your experience: your challenges
+- Work in a team
+- Plan
+- Consider user journey
+- Consider your data structures
+- Deliver a solution, no matter how minimal it may be
+- Present your experience: your challenges
 
 Also see deliverables in the repository `README.md`.

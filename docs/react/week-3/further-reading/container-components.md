@@ -14,4 +14,4 @@ Container components usually have some state and handler methods, while presenta
 | Exercise A                                                                                                                                                   |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1. Take a look at the components in your Pokedex app - can you identify a good use case for a 'container' component? What about 'presentational' components? |
-| 2. Discuss this with another student.                                                                                                                        |
+| 2. Discuss this with another trainee.                                                                                                                        |

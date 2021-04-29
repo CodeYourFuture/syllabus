@@ -110,20 +110,29 @@ Here's a few examples (a full list is available [here](https://reactjs.org/docs/
 
 Notice that just like with `addEventListener` above, we pass the function **reference** to `onClick` instead of **calling** the function. If we call the function, it will run the function when we render, not when the user clicks on the button. (Remember that _rendering_ is the term in React for inserting into the DOM).
 
-:::tip
+:::note
 Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
 :::
 
-| Exercise A (estimate: 10 min)                                                                                                             |
-| :---------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise we will extend our `Logo` component to log to the console when clicking on the image. <ExerciseADemo />                  |
-| 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
-| 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
-| 3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).                                     |
-| 4. Add an `onClick` handler to the `<img>` that will call `logWhenClicked`. (Hint: look at the `ClickLogger` component above).            |
-| 5. In your web browser, try clicking on the logo image. What do you see in the JavaScript console?                                        |
-| 6. In a group of 2 - 3 students, discuss what would happen if you changed your code to `onClick={logWhenClicked()}`. Can you explain why? |
-| 7. Report your discussion back to the rest of the class.                                                                                  |
+#### Exercise A (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise we will extend our `Logo` component to log to the console when clicking on the image.
+
+<ExerciseADemo />
+
+You should then complete the following steps:
+
+1. Open the `pokedex` React application from last week and open the `Logo.js` file.
+2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).
+3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).
+4. Add an `onClick` handler to the `<img>` that will call `logWhenClicked`. (Hint: look at the `ClickLogger` component above).
+5. In your web browser, try clicking on the logo image. What do you see in the JavaScript console?
+6. In a group of 2 - 3 trainees, discuss what would happen if you changed your code to `onClick={logWhenClicked()}`. Can you explain why?
+7. Report your discussion back to the rest of the class.
+
+:::
 
 ### Passing Functions as Props
 
@@ -156,15 +165,20 @@ function FancyButton(props) {
 
 Notice how this is very similar to the example above where we created the handler and used it in the same component? The only difference here is that we are passing the function reference through a prop. We could even pass it through multiple components as props.
 
-| Exercise B (estimate: 10 min)                                                                                                                                                                                                                            |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we'll move the `logWhenClicked` function in the `Logo` component to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise A. |
-| 1. Open the `pokedex` React application and open the `Logo.js` file.                                                                                                                                                                                     |
-| 2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.                                                                                                                                                        |
-| 3. Pass the `logWhenClicked` function **reference** as a prop to the `Logo` component. (Hint: look at the `ClickLoggerApp` component above for an example).                                                                                              |
-| 4. In the `Logo` component change the `onClick` prop so that it passes `props.handleClick`. (Hint: look at the `FancyButton` component above for an example).                                                                                            |
-| 5. In a group of 2 - 3 students, discuss what you think will happen when you click the logo image now. Can you explain why?                                                                                                                              |
-| 6. Report back to the rest of the class what you thought was going to happen and why.                                                                                                                                                                    |
+#### Exercise B (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise, we'll move the `logWhenClicked` function in the `Logo` component to the `App` component. Then we'll make `App` pass those variables as props to the sub-components. Your app should still look the same in your browser as Exercise A.
+
+1. Open the `pokedex` React application and open the `Logo.js` file.
+2. Copy and paste the `logWhenClicked` function from the `Logo` component to the `App` component.
+3. Pass the `logWhenClicked` function **reference** as a prop to the `Logo` component. (Hint: look at the `ClickLoggerApp` component above for an example).
+4. In the `Logo` component change the `onClick` prop so that it passes `props.handleClick`. (Hint: look at the `FancyButton` component above for an example). |
+5. In a group of 2 - 3 trainees, discuss what you think will happen when you click the logo image now. Can you explain why?
+6. Report back to the rest of the class what you thought was going to happen and why.
+
+:::
 
 ## Re-rendering components
 
@@ -276,7 +290,7 @@ console.log(fourthWord); // Prints "Future"
 
 In React, `useState` will **always** return an array with two items. The first item in the array is the current value of the `count` state. In our example it will be 0 on the first render. The second item in the array is a function that we will use to update our state.
 
-:::tip
+:::note
 Follow the `useState` naming convention.
 :::
 
@@ -290,12 +304,16 @@ const [username, setUsername] = useState("chris");
 const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
-| Exercise C (estimate: 5 min)                                                                                                           |
-| :------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).                               |
-| 2. Take a few minutes to read the code. Why do you think the app is broken?                                                            |
-| 3. Initialise a new state variable with `useState` that will fix the app. Think carefully about how you should name the variables.     |
-| 4. Discuss with another student how you would create another state variable that represents the weather conditions (e.g. sunny, rain). |
+#### Exercise C (estimate: 5 min)
+
+:::note Exercise
+
+1. Open [this CodeSandbox](https://codesandbox.io/s/using-usestate-exercise-3kwei?file=/src/Weather.js).
+2. Take a few minutes to read the code. Why do you think the app is broken?
+3. Initialise a new state variable with `useState` that will fix the app. Think carefully about how you should name the variables.
+4. Discuss with another trainee how you would create another state variable that represents the weather conditions (e.g. sunny, rain).
+
+:::
 
 ### Updating State
 
@@ -348,15 +366,24 @@ function Counter() {
 
 On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
 
-| Exercise D (estimate: 15 min)                                                                                                                                                                                                                                                                                                                                                                 |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| In this exercise, we'll add a button to the `CaughtPokemon` component which adds one to the number of Pokemon you have caught: <ExerciseDDemo />                                                                                                                                                                                                                                              |
-| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                                                                                                                                 |
-| 2. Create a new state variable with `useState`. It should be named `caught` and be initialised to `0`                                                                                                                                                                                                                                                                                         |
-| 3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.                                                                                                                                                                                                                                                                                          |
-| 4. Add a button to the component with an `onClick` handler that calls a function called `catchPokemon`.                                                                                                                                                                                                                                                                                       |
-| 5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>                                                                                              |
-| 6. Write down the things that will happen when you click the button. Compare your list with another student and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details> |
+#### Exercise D (estimate: 15 min)
+
+:::note Exercise
+
+In this exercise, we'll add a button to the `CaughtPokemon` component which adds one to the number of Pokemon you have caught:
+
+<ExerciseDDemo/>
+
+You should complete the following steps
+
+1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.
+2. Create a new state variable with `useState`. It should be named `caught` and be initialised to `0`
+3. Within the JSX, there should be a "hard-coded" number 0. Replace it with your new `caught` state.
+4. Add a button to the component with an `onClick` handler that calls a function called `catchPokemon`.
+5. Create the `catchPokemon` function and have it update the `caught` state so that it is increased by 1 on each click. <details><summary>Click here if you are stuck.</summary>You will need to call the set state function (the 2nd item in the `useState` array) with `caught + 1`.</details>
+6. Write down the things that will happen when you click the button. Compare your list with another trainee and discuss. <details><summary>Click here for a hint.</summary>The state will be updated to be the current state + 1. React is notified that our state has changed, so it re-renders. When rendering, the current state will be different and so React updates the DOM.</details>
+
+:::
 
 #### Don't mutate State
 
@@ -428,16 +455,23 @@ Don't use the array `push` method with state. Instead use the array `concat` met
 
 The `list.push` method won't work here, as this method _mutates_ the existing array. React requires a completely new array to be set as the new state, otherwise it doesn't realise that the value has changed. The `concat` method works because it copies the whole existing array to a brand new array before it adds the new item.
 
-| Exercise E (estimate: 10 min)                                                                                                                                                                                                                                                         |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| In this exercise, we'll change the `CaughtPokemon` component to show a list of Pokemon that we have caught instead of a number: <ExerciseEDemo />                                                                                                                                     |
-| 1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.                                                                                                                                                                                                         |
-| 2. Change the `useState` to be initialised to an empty array (`[]`)                                                                                                                                                                                                                   |
-| 3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another student what you think the problem is.                                                                                                                                     |
-| 4. Change the JSX to instead render `caught.length`. Does this fix the bug?                                                                                                                                                                                                           |
-| 5. Let's now show the names of the Pokemon we have caught. Render a `<ul>` element within the component. Then use the `map` method to loop through each item in the `caught` array and render it in an `<li>` element.                                                                |
-| 6. Change the `catchPokemon` function to add a new Pokemon (it doesn't matter which one) onto the `caught` array. (Hint: use the `concat` method.)                                                                                                                                    |
-| 7. **(STRETCH GOAL)** Generate a random Pokemon each time you click the button <details><summary>Click here if you're stuck.</summary>[This StackOverflow post](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array) may be helpful.</details> |
+#### Exercise E (estimate: 10 min)
+
+:::note Exercise
+
+In this exercise, we'll change the `CaughtPokemon` component to show a list of Pokemon that we have caught instead of a number:
+
+<ExerciseEDemo />
+
+1. Open the `pokedex` React application and open the `CaughtPokemon.js` file.
+2. Change the `useState` to be initialised to an empty array (`[]`)
+3. There will now be a bug in your app! We don't see how many Pokemon we have caught. Discuss with another trainee what you think the problem is.
+4. Change the JSX to instead render `caught.length`. Does this fix the bug?
+5. Let's now show the names of the Pokemon we have caught. Render a `<ul>` element within the component. Then use the `map` method to loop through each item in the `caught` array and render it in an `<li>` element.
+6. Change the `catchPokemon` function to add a new Pokemon (it doesn't matter which one) onto the `caught` array. (Hint: use the `concat` method.)
+7. **(STRETCH GOAL)** Generate a random Pokemon each time you click the button <details><summary>Click here if you're stuck.</summary>[This StackOverflow post](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array) may be helpful.</details>
+
+:::
 
 ### Setting multiple States
 
@@ -507,20 +541,28 @@ If we were allowed to change props, React doesn't have a way of telling that we'
 
 From this we can get a clue about when to use state. If data _changes over time_, then we need to use state. My rule of thumb is that I always use props until I know that it needs to change over time, then I convert it to state.
 
-| Exercise F (estimate: 5 min)                                                                                                            |
-| :-------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).                            |
-| 2. Take a few minutes to read the code. Discuss with another student what you think will happen when you click on the highlighted word. |
-| 3. Now click on the highlighted word. Can you explain why this happened?                                                                |
-| 4. Fix the app so that clicking on the highlighted word will change the highlight color to purple.                                      |
+#### Exercise F (estimate: 5 min)
+
+:::note Exercise
+
+1. Open [this CodeSandbox](https://codesandbox.io/s/props-vs-state-exercise-mjmor?file=/src/Highlighter.js).
+2. Take a few minutes to read the code. Discuss with another trainee what you think will happen when you click on the highlighted word. |
+3. Now click on the highlighted word. Can you explain why this happened?
+4. Fix the app so that clicking on the highlighted word will change the highlight color to purple.
+
+:::
 
 ## Further Reading
 
 What happens if you forget to pass a prop to a component? Or if you pass the wrong type of data to a component? Sometimes React will just render an empty element but sometimes it could throw an error! This is why `propTypes` are useful. [This page on the React documentation](https://reactjs.org/docs/typechecking-with-proptypes.html) describes how to use `propTypes` in more detail.
 
-| Exercise G (OPTIONAL)                                                                                                                                                                                                                                                   |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/). |
+#### Exercise G (OPTIONAL)
+
+:::note Exercise
+
+Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-libraries/react/) on `propTypes`: [Use PropTypes to Define the Props You Expect](https://learn.freecodecamp.org/front-end-libraries/react/use-proptypes-to-define-the-props-you-expect/).
+
+:::
 
 ## Coursework
 

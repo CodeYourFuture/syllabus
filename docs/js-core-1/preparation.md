@@ -6,7 +6,7 @@ sidebar_label: Preparation
 
 ## 1) Install "Windows Subsystem for Linux" (60 minutes)
 
-**For students with Windows 10 only (if you have been assigned this and you don't have Windows 10, please submit as resolved and comment your OS).**
+**For trainees with Windows 10 only (if you have been assigned this and you don't have Windows 10, please submit as resolved and comment your OS).**
 
 WSL stands for "Windows Subsystem for Linux" and allows Windows 10 users to run Linux instructions (more commonly called "commands") without running Linux as an operating system. If you are a Mac user, you do not need WSL because Mac runs like Linux and most commands that you can run on Linux can be run on a Mac. You will need to run Linux commands throughout your course, especially if you want to run JavaScript or a web application on your machine.
 

@@ -15,7 +15,7 @@ This is the second part of courses about accessibility.
 
 ## Prior Knowledge
 
-Here are areas that you will need to have before starting this training. Students should have
+Here are areas that you will need to have before starting this training. Trainees should have
 
 - Need to know HTML, CSS and the DOM - ideally, should also be familiar with Chrome Devtools
 
@@ -23,7 +23,7 @@ Here are areas that you will need to have before starting this training. Student
 
 It is important to learn about this because
 
-- Students should understand why considering accessibility is important when they are working
+- Trainees should understand why considering accessibility is important when they are working
 - Many employers will look for an understanding of common accessibility patterns
 - We should all endeavour to make websites that everyone can use
 

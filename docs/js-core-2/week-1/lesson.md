@@ -26,7 +26,7 @@ import ExerciseSolutions from "@theme/ExerciseSolutions";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define what an object is in JavaScript
 - Be able to write code that can use an object to store data
@@ -60,6 +60,8 @@ defaultValue="exercise"
 values={[{ label: "Exercise", value: "exercise" }, { label:"Solution", value: "solution" }]}>
 <TabItem value="exercise">
 
+:::note Exercise
+
 Describe your own laptop as a JavaScript object. Try to think of as many properties as you can!
 
 Example:
@@ -71,6 +73,8 @@ let laptop = {
   isTouchscreen: true,
 };
 ```
+
+:::
 
 </TabItem>
 <TabItem value="solution">
@@ -96,6 +100,8 @@ console.log(laptop);
 
 ### Exercise (2)
 
+:::note Exercise
+
 Think of 5 different real world "things" that you can describe with a JavaScript object
 Assign each of them to a separate variable
 
@@ -108,12 +114,16 @@ let jumper = {
 };
 ```
 
+:::
+
 ### Exercise (3)
 
-```js
-/*
+:::note Exercise
+
 The objects below have some syntax issues - try and fix them all!
-*/
+
+```js
+
 
 let kitten = {
     fur colour: "orange",
@@ -138,7 +148,11 @@ Useful words to remember when talking about objects:
 - **property** or **key**: `brand`, `screenSize` and `isTouchScreen` are properties/keys of the object
 - **values**: `"Lenovo"`, `13` and `true` are values of the object's properties
 
+:::
+
 ### Exercise (4)
+
+:::note Exercise
 
 Choose a few nearby colleagues and one mentor, and go through each variable you
 declared above in Part 1, 2 or 3, reading everything that happens out loud.
@@ -153,6 +167,8 @@ Make sure you use words like:
 - string / number / boolean
 - declaring a variable
 - etc.
+
+:::
 
 ## Objects Get and Set
 
@@ -195,6 +211,8 @@ values={[
 }>
 <TabItem value="exercise">
 
+:::note Exercise
+
 ```js
 /*
     Console.log the values of each property of "kitten"
@@ -206,6 +224,8 @@ let kitten = {
   furColour: "brown",
 };
 ```
+
+:::
 
 </TabItem>
 
@@ -244,12 +264,16 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
+
 The following code contains syntax errors - try and fix them!
 Once you fix them, run the code, it should output the correct values!
-*/
 
+It should output:
+iPhone
+2017
+
+```js
 let phone = {
   brand:'iPhone,
   model 'iPhone X'
@@ -263,21 +287,15 @@ let phoneLaunchYear = phone["launchYear"];
 console.log(phoneBrand);
 console.log(phoneLaunchYear);
 
-// -> it should output:
-// iPhone
-// 2017
 ```
+
+:::
 
 </TabItem>
 
 <TabItem value="solution">
 
 ```js
-/*
-The following code contains syntax errors - try and fix them!
-Once you fix them, run the code, it should output the correct values!
-*/
-
 let phone = {
   brand: "iPhone",
   model: "iPhone X",
@@ -290,10 +308,6 @@ let phoneLaunchYear = phone["launchYear"];
 
 console.log(phoneBrand);
 console.log(phoneLaunchYear);
-
-// it should output:
-// iPhone
-// 2017
 ```
 
 </TabItem>
@@ -334,18 +348,21 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
-  Write code in the space provided so that it outputs "Gilbert"
-*/
+:::note Exercise
 
+Write code in the space provided so that it outputs "Gilbert"
+
+It should output: "Gilbert"
+
+```js
 // WRITE CODE BELOW THIS
 
 // WRITE CODE ABOVE THIS
 
 console.log(kitten.name);
-// -> it should output: "Gilbert"
 ```
+
+:::
 
 </TabItem>
 
@@ -382,11 +399,15 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
-  Write code in the space provided so that the expected values output
-*/
+:::note Exercise
 
+Write code in the space provided so that the expected values output
+
+It should output:
+Rex
+true
+
+```js
 let dog = {
   name: "Billy",
   wantsToPlay: false,
@@ -403,6 +424,8 @@ console.log(dog.wantsToPlay);
 // Rex
 // true
 ```
+
+:::
 
 </TabItem>
 
@@ -465,13 +488,13 @@ values={[
 }>
 <TabItem value="exercise">
 
+:::note Exercise
+
+Given the following house - follow the instructions below.
+
+Make sure you run the file after and it outputs the correct results.
+
 ```js
-/*
-  Given the following house - follow the instructions below.
-
-  Make sure you run the file after and it outputs the correct results.
-*/
-
 let house = {
   address: "1 Kinning Park",
   previousOwners: ["Claire M.", "John A."],
@@ -505,6 +528,8 @@ console.log(
   `Expected result: Montgomery. Actual result: ${house.currentOwner.lastName}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -569,14 +594,14 @@ values={[
 }>
 <TabItem value="exercise">
 
+:::note Exercise
+
+Given the same "house" object again
+
+Follow the instructions below and then run the file
+and make sure it outputs the correct results
+
 ```js
-/*
-    Given the same "house" object again
-
-    Follow the instructions below and then run the file 
-    and make sure it outputs the correct results
-*/
-
 let house = {
   address: "1 Kinning Park",
   previousOwners: ["Claire M.", "John A."],
@@ -614,6 +639,8 @@ console.log(
 );
 console.log(`Expected result: false. Actual result: ${house.isForSale}`);
 ```
+
+:::
 
 </TabItem>
 <TabItem value="solution">
@@ -682,13 +709,13 @@ values={[
 }>
 <TabItem value="exercise">
 
+:::note Exercise
+
+Given the same "house" object again
+
+Write the code for the functions as per the description above them
+
 ```js
-/*
-    Given the same "house" object again
-
-    Write the code for the functions as per the description above them
-*/
-
 let kinningParkHouse = {
   address: "1 Kinning Park",
   price: 180000,
@@ -745,6 +772,8 @@ console.log(
   )}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -904,15 +933,14 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
 
 A person named Alice is defined below.
-  1. Add a method "greet" so this person can say hello.
-  2. Add a method "sayName" so this person can say their own name. Hint: use 'this' keyword to access the name property.
 
-*/
+1. Add a method "greet" so this person can say hello.
+2. Add a method "sayName" so this person can say their own name. Hint: use 'this' keyword to access the name property.
 
+```js
 let person = {
   name: "Alice",
   age: 25,
@@ -929,6 +957,8 @@ console.log(
   `Expected result: 'My name is Alice'. Actual result: ${person.sayName()}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -965,15 +995,12 @@ console.log(
 
 ### Exercise (2)
 
+:::note Exercise
+
 The following code contains syntax errors - try and fix them!
 Once you fix them, run this file, it should output the correct values!
 
 ```js
-/*
-The following code contains syntax errors - try and fix them!
-
-Once you fix them, run this file, it should output the correct values!
-*/
 
 let person = {
     name: "Alice",
@@ -988,14 +1015,17 @@ let person = {
 };
 ```
 
+:::
+
 ### Exercise (3)
 
-```js
-/*
+:::note Exercise
+
 The following code contains syntax errors - try and fix them!
 
 Once you fix them, run this file, it should output the correct values!
-*/
+
+```js
 
 let person = {
     name: "Alice",
@@ -1022,6 +1052,8 @@ console.log(`Expected result: 26. Actual result: ${person.age}`);
 
 ```
 
+:::
+
 ### Exercise (4)
 
 <Tabs
@@ -1033,13 +1065,13 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
+
 Alice has a list of good friends.
 
 Define a method "makeFriend" to add a new friend to her list.
-*/
 
+```js
 let person = {
   name: "Alice",
   friends: ["John", "Nina"],
@@ -1055,6 +1087,8 @@ console.log(
   `Expected result: 'John,Nina,Bob'. Actual result: ${person.friends}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -1100,17 +1134,17 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
+
 A coffee machine is defined below.
-One can buy three different coffees.
+One that can buy three different coffees.
 Complete the methods "insertMoney" and "getCoffee" to match the expected result.
 
 insertMoney takes an amount in parameter to add money in the coffee machine.
 getCoffee takes a coffee type in parameter and dispends the selected coffee
 only if the inserted amount is greater or equal than the price of the coffee!
-*/
 
+```js
 let coffeeMachine = {
   brand: "Super Coffee",
   prices: {
@@ -1155,6 +1189,8 @@ console.log(
   )}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -1282,12 +1318,13 @@ values={[
 }>
 <TabItem value="exercise">
 
+:::note Exercise
+
+1. Define an array containing the 3 persons defined below.
+2. Return an array of the person names (hint: use map).
+3. Filter the persons to return an array with the person younger than 28 years old (hint: use filter).
+
 ```js
-/*
-1) Define an array containing the 3 persons defined below.
-2) Return an array of the person names (hint: use map).
-3) Filter the persons to return an array with the person younger than 28 years old (hint: use filter).
-*/
 
 let person1 = {
   name: "Alice",
@@ -1343,6 +1380,8 @@ console.log(
     : "Not yet :("
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -1424,15 +1463,16 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
+
 An array of travel destinations is defined below.
 Each destination has a name, a distance from Glasgow, and a list of transportations available to go there.
 
-1) Filter the travelDestinations array to return all destination names reachable within 500 kms.
-2) Find a destination name reachable by ferry.
-3) Print in the console all the destination names more than 300 kms far away and reachable by train.
-*/
+1. Filter the travelDestinations array to return all destination names reachable within 500 kms.
+2. Find a destination name reachable by ferry.
+3. Print in the console all the destination names more than 300 kms far away and reachable by train.
+
+```js
 
 let destination1 = {
   destinationName: "Edinburgh",
@@ -1490,8 +1530,9 @@ console.log(
   `Question 3) Expected result: London,Paris, actual result: ${destinationNamesMoreThan300KmsAwayByTrain}`
 );
 
-
 ```
+
+:::
 
 </TabItem>
 
@@ -1598,23 +1639,23 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/* 
-Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats, 
+:::note Exercise
+
+Below are some restaurants in Glasgow. Each restaurant has a name, the number of total seats,
 the number of customers in the restaurant at the moment and the menu with prices.
 
 We want to build an object to simulate a Restaurant Finder application (see below restaurantFinderApplication).
 
-1) Define a method findAvailableRestaurants which takes a number of people in parameter and returns 
-all the restaurant names which have the required number of seats available at the moment.
+1. Define a method findAvailableRestaurants which takes a number of people in parameter and returns
+   all the restaurant names which have the required number of seats available at the moment.
 
-2) Define a method findRestaurantServingDish which takes a dish name in parameter and returns
-all the restaurant names serving this dish.
+2. Define a method findRestaurantServingDish which takes a dish name in parameter and returns
+   all the restaurant names serving this dish.
 
-3) Define a method countNumberOfRestaurantsInArea which takes an area of Glasgow in parameter (center, west),
-and returns the number of restaurants in this area.
-*/
+3. Define a method countNumberOfRestaurantsInArea which takes an area of Glasgow in parameter (center, west),
+   and returns the number of restaurants in this area.
 
+```js
 let restaurant1 = {
   name: "Paesano",
   totalSeats: 10,
@@ -1695,6 +1736,8 @@ console.log(
   `Number of restaurants in city centre: Expected result: 2, actual result: ${numberOfRestaurantsInCityCentre}`
 );
 ```
+
+:::
 
 </TabItem>
 
@@ -1873,12 +1916,11 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
 
 Return the keys and values of the following object
 
-*/
+```js
 
 let capitalCities = {
   scotland: "Edinburgh",
@@ -1915,6 +1957,8 @@ console.log(capitalCitiesValues);
 console.log(highScoresValues);
 // prints [[ 'Sergi', 'Frank' ], 'Alistair, 'David', 'Hannah']
 ```
+
+:::
 
 </TabItem>
 
@@ -1977,14 +2021,13 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
 
 You have an object of mentors and their ages below, but the keys are inconsistent. JOSH and JAMIE are uppercase, while james and Mozafar are not. You want to return an array of mentors with the names in uppercase.
 
 You're going to have to used what we learned at the start of this lesson, and some other JavaScript methods to accomplish this task.
 
-*/
+```js
 
 let mentorsAges = {
   james: 29,
@@ -2005,6 +2048,8 @@ console.log(mentorsNamedUppercased);
 // prints [ 'JAMES', 'JOSH', 'JAMIE', 'MOZAFAR' ]
 
 ```
+
+:::
 
 </TabItem>
 
@@ -2054,8 +2099,7 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-/*
+:::note Exercise
 
 Objects very often contain other objects.
 
@@ -2063,8 +2107,7 @@ This exercise will give you practice in getting the keys of objects inside other
 
 Use the provided console.log statements below and follow the instructions above them.
 
-*/
-
+```js
 let storeBranches = {
   glasgow: {
     manager: "Andrew",
@@ -2102,6 +2145,8 @@ console.log();
 
 // ONLY EDIT ABOVE THIS LINE
 ```
+
+:::
 
 </TabItem>
 
@@ -2225,12 +2270,14 @@ values={[
 }>
 <TabItem value="exercise">
 
-```js
-// You are given an object of student names and grades
-// Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
-// Try to use both methods shown above to achieve this
+:::note Exercise
 
-const studentGrades = {
+You are given an object of trainee names and grades
+Loop through all the trainees' grades and console log the name and grade of the ones with grade more than 18
+Try to use both methods shown above to achieve this
+
+```js
+const traineeGrades = {
   tom: 20,
   george: 17,
   abdul: 19,
@@ -2241,32 +2288,34 @@ const studentGrades = {
 // ABDUL - 19
 ```
 
+:::
+
 </TabItem>
 
 <TabItem value="solution">
 
 ```js
-// You are given an object of student names and grades
-// Loop through all the students' grades and console log the name and grade of the ones with grade more than 18
+// You are given an object of trainee names and grades
+// Loop through all the trainees' grades and console log the name and grade of the ones with grade more than 18
 // Try to use both methods shown above to achieve this
 
-const studentGrades = {
+const traineeGrades = {
   tom: 20,
   george: 17,
   abdul: 19,
 };
 
-for (let name in studentGrades) {
-  if (studentGrades[name] > 18) {
-    console.log(`${name.toUpperCase()} - ${studentGrades[name]}`);
+for (let name in traineeGrades) {
+  if (traineeGrades[name] > 18) {
+    console.log(`${name.toUpperCase()} - ${traineeGrades[name]}`);
   }
 }
 
 // Alternatively:
-// const studentNames = Object.keys(studentGrades);
-// studentNames.forEach((name) => {
-//     if (studentGrades[name] > 18) {
-//         console.log(`${name.toUpperCase()} - ${studentGrades[name]}`)
+// const traineeNames = Object.keys(traineeGrades);
+// traineeNames.forEach((name) => {
+//     if (traineeGrades[name] > 18) {
+//         console.log(`${name.toUpperCase()} - ${traineeGrades[name]}`)
 //     }
 // });
 
@@ -2277,6 +2326,8 @@ for (let name in studentGrades) {
 
 </TabItem>
 </Tabs>
+
+:::
 
 ## Coursework
 

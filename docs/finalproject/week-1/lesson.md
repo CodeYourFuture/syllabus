@@ -70,7 +70,7 @@ _A note for PMs_ - don't forget to create your own copy of the presentation and 
 
 ### 2.3. Project Management Boards (5 minutes)
 
-_Led by students_
+_Led by trainees_
 
 Project Management boards are a tool that you can use to help you organise how you work.
 

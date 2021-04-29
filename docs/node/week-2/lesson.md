@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-By the end of this lesson students should be able to:
+By the end of this lesson trainees should be able to:
 
 - Define what each part of CRUD is and what it does
 - Process a GET request using Express and Node to retrieve data from memory
@@ -35,62 +35,6 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 Below are three in-class exercises which can be used to demonstrate parts of the API workshop below.
 
-### 2.1) Get Exercise
-
-This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
-
-#### Objective
-
-Change a quote API server to allow GETting a quote according to the given ID.
-
-The id should be given in the URL structure like this:
-
-> /quotes/2
-
-You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start). This is because this project has quotes with IDs.
-
-When you remix the starting project, immediately rename it as your own.
-
-### 2.2) Post Exercise
-
-This is an Teacher led exercise which can be used to show how we might add an element to an array
-
-#### Objective
-
-Change a quote API server to allow POSTs of new quotes.
-
-The new quotes should be added to your quotes list, which is just an array in memory.
-
-You can assume the POSTed quotes are all in the correct JSON format.
-
-The route should use the HTTP method POST and should use the URL:
-
-> /quotes
-
-You should use the starting project: [cyf-quotes-post-start](https://glitch.com/~cyf-quotes-post-start), NOT your own existing quote server. This is because our project has an HTML form for creating new quotes.
-
-When you remix our starting project, immediately rename it.
-
-Then you can visit / and submit the form there, when you are ready to try to submit new quotes!
-
-### 2.3) Delete Exercise
-
-This is an Teacher led exercise which can be used to show how we might remove an element to an array
-
-#### Objective
-
-Change a quote API server to allow updating a quote according to the given ID.
-
-The id should be given in the URL structure like this:
-
-/quotes/2
-
-You should use the `delete` HTTP method
-
-You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start), NOT your own existing quote server. This is because this project has quotes with IDs.
-
-When you remix the starting project, immediately rename it as your own.
-
 ## 3) Workshop
 
 You can use this [Express Cheatsheet](https://github.com/nbogie/express-notes/blob/master/express-cheatsheet.md) to help you.
@@ -104,7 +48,9 @@ Read this description of what an API from [How To Geek](https://www.howtogeek.co
 
 An API does not have to be web-based. But in our work, since we are doing web development, we will work only with web based APIs, so you might as well hear the word **Web Service**, and we will communicate with those services using the protocol for Web: **HTTP**.
 
-> **Checkpoint:** Let us recap what we know about HTTP before continuing.
+:::note Checkpoint
+Recap what we know about HTTP before continuing.
+:::
 
 ### Workshop Objective
 
@@ -117,13 +63,17 @@ Our **API** will manage Beyoncé albums:
 
 We will build these endpoints:
 
-`GET /albums` should return all the albums
-`GET /albums/:albumId` should return a single album (that matches the passed albumId)
-`POST /albums` should save a new album
-`PUT /albums/:albumId` should update the album (that matches the passed albumId)
-`DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
+- `GET /albums` should return all the albums
+- `GET /albums/:albumId` should return a single album (that matches the passed albumId)
+- `POST /albums` should save a new album
+- `PUT /albums/:albumId` should update the album (that matches the passed albumId)
+- `DELETE /albums/:albumId` should delete the album (that matches the passed albumId)
 
 ### 3.1) Get All Albums
+
+To get started, let's setup our server so that we can retrieve all of the albums at once
+
+:::note Exercise
 
 1. In `server.js` Add the endpoint for `GET /albums`.
 
@@ -162,9 +112,31 @@ app.get("/albums", function (req, res) {
 
 3. Add another item to the array and test that the `GET /albums` returns three items. (Remember you need to close the server `ctrl+c` and run it again `node server.js`)
 
+:::
+
 ### 3.2) Get Album by ID
 
-**Complete in-class (1) GET Exercise at this point**
+### 3.2.1) Live Coding
+
+This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
+
+:::note Teacher Led Live Coding
+
+#### Objective
+
+Change a quote API server to allow `GET`ting a quote according to the given ID.
+
+The id should be given in the URL structure like this:
+
+> /quotes/2
+
+You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start). This is because this project has quotes with IDs.
+
+When you remix the starting project, immediately rename it as your own.
+
+:::
+
+### 3.2.2) Workshop
 
 Sometimes, we do not want to _list_ all the information in one request, maybe we only want to get the information related to a single album. Imagine if we have a page to display the details of one album, we could call the server and get all albums then filter the one we need _client-side_, but would it not be more effective to tell the server to just return the one album we are interested in?
 
@@ -204,9 +176,39 @@ now from your terminal, use the command `npm run dev` and that will run the _ser
 
 ### 3.4) Add a New Album
 
-**Complete in-class (2) Post Exercise at this point**
+#### 3.4.1) Live Coding
 
-> Our analogy with the Restaurant menu is somewhat incomplete. In a restaurant, we only GET items from the menu. In the world of APIs, we also have the possibility to create items, we can provide _ingredients_ to create a new dish. In this case, we provide some data (a payload) and we use a different verb **POST** (Create) as opposed to GET.
+This is an Teacher led exercise which can be used to show how we might add an element using an API
+
+:::note Teacher Led Live Coding
+
+#### Objective
+
+Change a quote API server to allow POSTs of new quotes.
+
+The new quotes should be added to your quotes list, which is an array in memory.
+
+You can assume the POSTed quotes are all in the correct JSON format.
+
+The route should use the HTTP method POST and should use the URL:
+
+> /quotes
+
+You should use the starting project: [cyf-quotes-post-start](https://glitch.com/~cyf-quotes-post-start), NOT your own existing quote server. This is because our project has an HTML form for creating new quotes.
+
+When you remix our starting project, immediately rename it.
+
+Then you can visit / and submit the form there, when you are ready to try to submit new quotes!
+
+:::
+
+#### 3.4.2) Workshop
+
+Our analogy with the Restaurant menu is somewhat incomplete.
+
+In a restaurant, we only GET items from the menu. In the world of APIs, we also have the possibility to create items, we can provide _ingredients_ to create a new dish.
+
+In this case, we provide some data (a payload) and we use a different verb **POST** (Create) as opposed to GET.
 
 `POST /albums` should save a new album and return `200` with JSON `{ success: true }` to the user.
 
@@ -219,22 +221,22 @@ app.post("/albums", function (req, res) {
 
 Let's start by testing using Postman. Do a `POST` request to the endpoint and make sure it prints the console.log message we have added.
 
-> In Postman, change the request `method` to `POST` instead of `GET` and test our endpoint. It should log the message to the terminal but the request will hang because we did not end it, i.e. we did not say `res.send(something)`
+:::note Tip
+In Postman, change the request `method` to `POST` instead of `GET` and test our endpoint. It should log the message to the terminal but the request will hang because we did not end it, i.e. we did not say `res.send(something)`
+:::
 
 So what format does the client send the data with? It is up to us, but since we already are familiar with `json`, let us use it.
 
-In order for our _server-side_ to receive and use the data sent by the client. We will need to install and use a **middleware**.
+In order for our _server-side_ to receive and use the data sent by the client, we will need to install and use a **middleware**.
 
-> Middleware: We will cover middleware in more details in the next class. For now, imagine them piece of code that process a request and pass them to the next middleware until one of them returns a response (with `res.send` for example)
+> Middleware: We will cover middleware in more details in the next class. For now, imagine pieces of code that process a request and pass it to the next middleware until one of them returns a response (with `res.send` for example).
 
-[Express Body Parser](https://github.com/expressjs/body-parser#examples) makes it easier for our _endpoints_ to receive and understand different formats of data.
+The JSON middleware makes it easy for our route handlers to read JSON data from the request. If the `Content-Type` request header indicates that the request body contains JSON data then the middleware calls `JSON.parse` to convert the request body into a JavaScript data structure.
 
-First install the package: `npm install body-parser --save`
+To register the JSON middleware, add the following to the server code:
 
 ```js
-const bodyParser = require("body-parser");
-
-app.use(bodyParser.json()); // before our routes definition
+app.use(express.json()); // before our routes definition
 ```
 
 Now we will receive the data as `req.body`.
@@ -246,7 +248,8 @@ app.post("/albums", function (req, res) {
 });
 ```
 
-> Exercise: Use Postman to `POST` this data to `/albums` endpoint.
+:::note Exercise
+Use Postman to `POST` this data to `/albums` endpoint.
 
 ```json
 {
@@ -260,11 +263,37 @@ app.post("/albums", function (req, res) {
 }
 ```
 
-> Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
+:::
+
+:::note Exercise
+Finish the code for the route `POST /albums` to add the album data to the albums list (how to amend to an array?)
+:::
 
 ### 3.5) Delete an album
 
-**Complete in-class (3) DELETE Exercise at this point**
+#### 3.5.1) Delete Exercise
+
+This is an Teacher led exercise which can be used to show how we might remove an element using an API
+
+:::note Teacher Led Live Coding
+
+#### Objective
+
+Change a quote API server to allow updating a quote according to the given ID.
+
+The id should be given in the URL structure like this:
+
+> /quotes/2
+
+You should use the `delete` HTTP method
+
+You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start), NOT your own existing quote server. This is because this project has quotes with IDs.
+
+When you remix the starting project, immediately rename it as your own.
+
+:::
+
+#### 3.5.2) Workshop
 
 Lets look back at our original objectives.
 
