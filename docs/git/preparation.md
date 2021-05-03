@@ -99,6 +99,6 @@ We use this software to write our code. You'll be using it a lot over the next f
 
 https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#visual-studio-code
 
-If this your first time using Visual Studio code? Watch this video here
+If this is your first time using Visual Studio code, watch this video here
 
 https://www.youtube.com/watch?v=S320N3sxinE
