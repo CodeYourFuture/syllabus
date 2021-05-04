@@ -44,7 +44,7 @@ Missing notes 😢
 
 Attendance: Ali, Chris, Daniel, Greg, Matthew, Sally
 
-## Agenda
+### Agenda
 
 - Location for solutions to in-class exercises
 - new Choose Your Own Adventure exercise for JS3 W1
@@ -132,7 +132,7 @@ We want to write marking guides for buddies. Each coursework should have one. It
 
 Attendance: Daniel, Chris, Anthony, Sally, Greg, Matthew, Mariana, Kevin, Irina, Alastair
 
-## Agenda
+### Agenda
 
 - Icebreaker (5 minutes)
 - Actions from last meeting (10 minutes)

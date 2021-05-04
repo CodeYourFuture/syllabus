@@ -158,25 +158,23 @@ module.exports = {
       "js-core-3/tv-show-dom-project/level-500",
       "js-core-3/tv-show-dom-project/level-999",
     ],
-    "Additional Resources": [
-      {
-        type: "category",
-        label: "Extra Lessons",
-        items: [
-          "js-core-3/other/javascript-classes",
-          "js-core-3/other/this-keyword",
-        ],
-      },
+    Challenges: [
       {
         type: "link",
         label: "JavaScript Challenges",
         href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Challenges",
       },
+    ],
+    Assessments: [
       {
         type: "link",
         label: "JavaScript Assessments",
         href: "https://github.com/CodeYourFuture/JavaScript-Core-3-Assessment",
       },
+    ],
+    "Additional Resources": [
+      "js-core-3/other/javascript-classes",
+      "js-core-3/other/this-keyword",
     ],
   },
   React: {
