@@ -70,7 +70,7 @@ Behind the scenes, Github Desktop is doing **exactly** the same work that Github
 
 Lots of the common tasks that you can complete with Github Desktop are quite simple to complete using the CLI. We've made comparisons in the
 
-[Desktop to CLI Cheatsheet](./../cheatsheet-cli)
+[Desktop to CLI Cheatsheet](./../desktop/cheatsheet-cli)
 
 ## 3) Start the Coursework
 
