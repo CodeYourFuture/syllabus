@@ -22,24 +22,15 @@ https://github.com/CodeYourFuture/MongoDB-Coursework-Week1-2
 
 You should complete all of the tasks in WEEK-1.md
 
-## 3) Making Your Quote App Full Stack
+## 3) Full Stack Project - Week 1 (8 hours)
 
-You now know enough about MongoDB to make the Node apps that you made in the last module retrieve their data from a database.
+Over the next three weeks, you'll be bringing everything you've learnt together into a Full Stack project.
 
-For this coursework you should add MongoDB to your Quote Server homework so that all of the data is retrieved from the database instead of the `quotes.js` file in the repository.
+This week, you'll only be building the Front End of your website.
 
-You can find the project here:
-https://github.com/CodeYourFuture/node-challenge-quote-server
+You can find all of the details for this project here
 
-You should continue with the same project that you made before.
+https://github.com/CodeYourFuture/Full-Stack-Project-Assessment
 
-### Database Details
-
-We've setup a MongoDB database with some quotes on it. You can use the details below to connect to it.
-
-- URI
-  - mongodb+srv://dbuser:dbuser@cluster0.adgpn.mongodb.net/quotes?retryWrites=true&w=majority
-- Database Name
-  - quotes
-- Collection Name
-  - quotes
+For this week, you should complete Level 100
+If you finish all of Level 100, continue to Level 199

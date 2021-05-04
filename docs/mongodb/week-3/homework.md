@@ -58,13 +58,13 @@ In this repository you will find exercises and projects for you to complete.
 
 https://github.com/CodeYourFuture/MongoDB-Coursework-Week3
 
-## 4) Making Your Hotel Apps Full Stack (2 Hours+)
+## 4) Full Stack Project - Week 3 (3 hours)
 
-You now know enough about MongoDB to make the Node apps that you made in the last module store the data they have in a database.
+Continuing on your project from the past two weeks, this week you'll be adding a database and connecting it to your Back End.
 
-For this homework - you should add MongoDB to your Hotel Server homework so that all of the data is stored in a database.
+You can find all of the details for this project here
 
-You can find the project here:
-https://github.com/CodeYourFuture/node-challenge-hotel-server
+https://github.com/CodeYourFuture/Full-Stack-Project-Assessment
 
-You should continue with the same project that you made before.
+For this week, you should complete Level 300.
+If you finish all of Level 300, continue to Level 399

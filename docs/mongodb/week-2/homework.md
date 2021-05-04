@@ -22,13 +22,13 @@ https://github.com/CodeYourFuture/MongoDB-Coursework-Week1-2
 
 You should complete all of the tasks in WEEK-2.md
 
-## 3) Making Your Chat App Full Stack (3 hours)
+## 3) Full Stack Project - Week 2 (5 hours)
 
-You now know enough about MongoDB to make the Node apps that you made in the last module store the data they have in a database.
+Continuing on your project from last week, this week you'll be building the Backend of your Full Stack website.
 
-For this homework - you should add MongoDB to your Chat Server homework so that all of the data is stored in a database.
+You can find all of the details for this project here
 
-You can find the project here:
-https://github.com/CodeYourFuture/node-challenge-chat-server
+https://github.com/CodeYourFuture/Full-Stack-Project-Assessment
 
-You should continue with the same project that you made before.
+For this week, you should complete Level 200 & Level 250
+If you finish all of Level 200 and 250, continue to Level 299
