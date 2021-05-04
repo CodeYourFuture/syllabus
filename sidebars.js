@@ -45,13 +45,6 @@ module.exports = {
       "html-css/week-3/homework",
       "html-css/week-3/instructors",
     ],
-    Challenges: [
-      {
-        type: "link",
-        label: "HTML/CSS Challenges",
-        href: "https://github.com/CodeYourFuture/HTML-CSS-Challenges",
-      },
-    ],
     Assessments: [
       {
         type: "link",
