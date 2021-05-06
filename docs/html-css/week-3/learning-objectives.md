@@ -6,40 +6,43 @@ sidebar_label: Learning Objectives
 
 ## Forms
 
-### What are forms?
-
 - [ ] Can answer: what are HTML forms used for?
 
-### The HTML Form
+### Form controls
 
-- Fields
-- Labels
-- Buttons
+- [ ] Can answer: what form controls can we use when we want the user to enter text
+- [ ] Can answer: what form controls can we use when we want the user to choose a single option from a list
+- [ ] Can answer: what form controls can we use when we want the user to choose multiple options from a list
+- [ ] Can: identify the type of form input likely in use in a sample form
+- [ ] Can: select the correct form inputs when building a simple form
 
-- [ ] Can answer: what happens when the user clicks on a form's Submit button?
+### Labels
 
-- More Field Types
+- [ ] Can answer: why are labels necessary?
+- [ ] Can answer: in which ways do form control labels benefit users?
+- [ ] Can answer: how do we associate a label with a form control?
+- [ ] Can answer: how do we give a group of radio or checkbox inputs a label
+- [ ] Can answer: why are text input placeholders bad?
 
-- [ ] Can: identify the type of form input likely in use in a sample form.
-- [ ] Can: select the correct form inputs when building a simple form.
+### Form validation
 
-- Fieldsets
-- Form field Attributes
+- [ ] Can answer: what are some attributes we can use for form validation?
 
-- [ ] Can answer: What's the purpose of a form field's `required` attribute? What about its `readonly`, `value`, or `checked` attributes?
+### Form submission
 
-- [ ] Can answer: When should you use GET or POST as a form's `method` attribute?
+- [ ] Can answer: in which ways can we submit a form?
+- [ ] Can answer: how can we submit a form to a web server?
+  
+### Form security
 
-### Accessibility
+- [ ] Can answer: what should we never trust in software?
 
-- [ ] Can answer: What are some ways to make an HTML form more accessible to someone who needs to use a screen reader?
+## HTML/CSS Frameworks
 
-## Unsorted practical skills
+- [ ] Can: use Bootstrap to create components
+
+## Devtools (optional)
 
 - [ ] Can: manually locate the source of a specific piece of text from a page's rendered view in the source HTML, for a simple case.
 - [ ] Can: use the browser's inspector to automatically locate the corresponding source for a given element of the rendered view.
 - [ ] Can: discover the current box model attributes of an element, using the inspector.
-
-# Git learning objectives
-
-## Git Merge Conflicts

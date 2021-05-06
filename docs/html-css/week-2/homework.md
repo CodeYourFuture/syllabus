@@ -20,7 +20,15 @@ https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 3) Prepare for the next class (1 Hour)
+## 3) Complete the CSS Zoo project
+
+Now that we have learned Flexbox, complete the [Zoo project](https://github.com/CodeYourFuture/HTML-CSS-Challenges).
+
+## 4) Complete the Bikes For Refugees project
+
+Now that we have learned Flexbox, complete the [Bikes For Refugees project](https://github.com/CodeYourFuture/bikes-for-refugees).
+
+## 5) Prepare for the next class (1 Hour)
 
 Look at the documentation for "Bootstrap 4" and look at their examples to see how they are building components.
 

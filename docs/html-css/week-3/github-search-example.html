@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Search GitHub</title>
+</head>
+<body>
+	<form action="https://github.com/search" method="get" target="_blank" rel="noreferrer">
+		<h1>Search GitHub</h1>
+
+		<p>
+			<label for="sort">Sort by</label>
+			<select id="sort" name="s">
+				<option value="stars">Stars</option>
+				<option value="forks">Forks</option>
+				<option value="updated">Updated</option>
+			</select>
+		</p>
+
+		<fieldset>
+			<legend>Sort by order</legend>
+			<input id="desc" type="radio" name="o" value="desc"><label for="desc">Descending</label>
+			<input id="asc" type="radio" name="o" value="asc"><label for="asc">Ascending</label>
+		</fieldset>
+
+		<p>
+			<label for="search">Search</label>
+			<input id="search" type="text" name="q">
+		</p>
+
+		<button>Search GitHub</button>
+	</form>
+</body>
+</html>

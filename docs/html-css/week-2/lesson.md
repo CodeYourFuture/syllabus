@@ -6,14 +6,11 @@ sidebar_label: Lesson
 
 import Feedback from "@theme/Feedback";
 
-## What will we learn today?
+## Contents
 
-- [Responsive web design](#responsive-web-design)
-- [Units of Measurement in Web Development](#units-of-measurement)
-- [Media queries](#media-queries)
+- [Responsive Web Design](#responsive-web-design)
+- [Media Queries](#media-queries)
 - [Flexbox](#flexbox)
-- (Optional) Content layout: floats
-- (Optional) Content layout: relative and absolute positioning
 
 ---
 
@@ -27,9 +24,9 @@ When we build for the web, we're making websites that can be viewed in a phone, 
 
 See how much variety there is in [viewport sizes](https://decadecity.net/blog/2014/08/19/a-device-agnostic-approach-to-inlining-css).
 
-### Exercise (5 minutes)
-
+:::note Exercise (5 minutes)
 As a group, let's brainstorm as many devices as we can think of which might access the websites we build.
+:::
 
 ## Media Queries
 
@@ -53,30 +50,139 @@ In this media query, we're assigning a red background color to the `<body>` elem
 
 Finally, we wrap all of our styles for this media query in brackets (`{` and `}`), just like a CSS rule.
 
-### Exercise (10 minutes)
-
-:::note Exercise
+:::note Exercise (10 minutes)
 Working in pairs, reduce the size of the "Bikes for Refugees" text so that it fits on a small screen (`320px`). But make sure it increases in size on larger screens.
 :::
 
-### Exercise (10 minutes)
-
-:::note Exercise
+:::note Exercise (10 minutes)
 The two buttons in the jumbotron don't fit on the same line on small screens around `320px` wide. Can you adjust their size so that they fit on the same line?
 :::
 
 ## Flexbox
 
-Flexbox is a name for a set of CSS layout rules which are supported in newer browsers. They allow you to apply rules to elements to place them side-by-side and re-arrange them. You just specify how you want your elements arranged and the browser will scale this arrangement depending on the screen size and device used for viewing.
+Flexbox is a name for a set of CSS layout rules for laying out items in rows or columns. They allow you to apply rules to elements to place them side-by-side and re-arrange them. You just specify how you want your elements arranged and the browser will scale this arrangement depending on the screen size and device used for viewing.
 
-Most flexbox rules are applied to the container, to tell it how to arrange its children. However, there are some rules that can be applied to children as well.
+To add flexbox:
 
-You can see all the rules that can be applied to both the container and the children here:
-[https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+1. Identify the elements you want to arrange in a certain way. For example, these three buttons:
+   ```html
+   <button>Home</button>
+   <button>Gallery</button>
+   <button>Contact</button>
+   ```
+1. Make sure they're part of the same container:
+   ```html
+   <div class="menu">
+     <button>Home</button>
+     <button>Gallery</button>
+     <button>Contact</button>
+   </div>
+   ```
+1. Tell the container to use Flexbox to arrange all its children:
+   ```css
+   .menu {
+     display: flex;
+   }
+   ```
 
-### Exercise (20 minutes)
+Once you have flexbox applied to the container you can start adding more rules to tell it exactly how the elements should be arranged.
 
-:::note Exercise
+### Display elements in a row
+
+Use `flex-direction: row` to display the child elements in a row.
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-direction-row.png').default} alt=""/>
+
+### Display elements in a column
+
+Use `flex-direction: column` to display the child elements in a column.
+
+```css
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-direction-column.png').default} alt=""/>
+
+### Space out elements equally in a row
+
+Use `justify-content: space-between` to space out elements equally.
+
+This can be used when the elements are displayed in a row:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or space-around */
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-justify-content-row.png').default} alt=""/>
+
+### Space out elements equally in a column
+
+This can be used when the elements are displayed in a column:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or space-around */
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-justify-content-column.png').default} alt=""/>
+
+In the above 2 examples we used the same rule `justify-content: space-between`, but we changed `flex-direction` from `row` to `column`.
+Notice how `justify-content` works in the same direction as `flex-direction`.
+In the images above, the green arrow for `justify-content` is operating in the same direction as `flex-direction`.
+
+### Align elements in a row
+
+Use `align-items: center` to align the child elements in the centre.
+
+This can be used when the elements are displayed in a row:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-align-items-row.png').default} alt=""/>
+
+### Align elements in a column
+
+This can be used when the elements are displayed in a column:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-align-items-column.png').default} alt=""/>
+
+While `justify-content` works in the same direction as `flex-direction`, align-items works the opposite way!
+Have a close look at the above images—the green arrow is opposite to the yellow `flex-direction` one.
+
+If you want to view all flexbox rules, visit the [A Guide To Flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+:::note Exercise (20 minutes)
 Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
 
 <img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
@@ -96,19 +202,24 @@ You can start with something like the below, by just adding a container, and the
 Once that's done you can move on to creating boxes for each individual text piece, and again, using flexbox to position the text piece in the middle of its box.
 :::
 
----
-
+:::note Exercise (5 minutes)
 Let's take a break from flexbox for a minute. Do you remember the `:first-child` psuedo class? There's a `:last-child` psuedo class as well.
 
-### Exercise (5 minutes)
-
-:::note Exercise
-See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`). Use [this screenshot](../assets/screenshot-complete.png) to guide you.
+See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`).
 :::
 
 ## Coursework
 
-Click [here](./homework) to view the coursework for this lesson.
+Click [here](./homework) to view the coursework for this lesson. 
+
+## Further Learning
+
+There are other CSS layout techniques not covered in this lesson.
+To learn more about these other techniques, visit the following MDN pages.
+
+- [CSS positioning](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning) — this is still commonly used across the web.
+- [CSS grids](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) — this is a recent addition to CSS. Flexbox is used for creating 1-dimensional layout; grid is used for creating 2-dimensional layout.
+- [CSS floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) — this is not really used anymore, so it's not essential to know it.
 
 ## Feedback
 

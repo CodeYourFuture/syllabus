@@ -4,21 +4,7 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) HTML Reading (1 hour)
-
-Read this page on HTML syntax. It gives you a good overview of how HTML works inside a website.
-
-https://marksheet.io/html-syntax.html
-
-## 2) Advanced CSS Selectors
-
-### 2.1) Read about CSS Selectors (1 Hour)
-
-Read this article about CSS Selectors
-
-http://learn.shayhowe.com/advanced-html-css/complex-selectors/
-
-### 2.2) CSS Diner (3 hours)
+### 1) CSS Diner (3 hours)
 
 This online game will help you learn Advanced CSS Selectors.
 
@@ -26,7 +12,7 @@ You should complete every level before moving onto the next part of the homework
 
 https://flukeout.github.io/
 
-## 3) HTML/CSS Project (5 hours)
+## 2) HTML/CSS Project (5 hours)
 
 In this repository you will find a project for you to complete
 
@@ -34,7 +20,7 @@ https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) Prepare for the next class (2 hours)
+## 3) Prepare for the next class (2 hours)
 
 Complete the first three lessons in this course on [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893).
 

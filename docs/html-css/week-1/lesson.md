@@ -8,6 +8,7 @@ import Feedback from "@theme/Feedback";
 
 ## Contents
 
+- [Who uses the web?](#who-uses-the-web)
 - [What makes a web page?](#what-makes-a-web-page)
 - HTML
   - [What is HTML](#what-is-html)
@@ -33,19 +34,38 @@ Learning objectives for this lesson can be found on the [Learning Objectives pag
 
 ## HTML/CSS Project
 
-In today's class, we will begin adapting styles on this Bikes for Refugees example website.
+In today's class, we will begin adapting styles on the [Bikes for Refugees](https://github.com/CodeYourFuture/bikes-for-refugees) project.
 We'll review some of the HTML/CSS basics you already encountered during your application process and learn some new concepts.
-By the end of the third lesson, we will have worked together to improve the example site on the left screenshot below so that it looks like the right screenshot below.
-
-<a href="../assets/screenshot-start.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-start.png').default} alt="Bikes for Refugees home page, unstyled" width="50%"/>
-</a>
-<a href="../assets/screenshot-complete.png" target="blank">
- <img src={require('!file-loader!../assets/screenshot-complete.png').default} alt="Bikes for Refugees home page, styled" width="50%"/>
-</a>
-
-The example website you'll begin working with is available on the Code Your Future [Bikes for Refugees repository](https://github.com/CodeYourFuture/bikes-for-refugees) on GitHub.
 Fork the repository to your personal account and then clone the repository.
+
+## Who uses the web?
+
+:::note Exercise (10 minutes)
+As a group, let's think of everyone that uses the web.
+
+- What kinds of people use the web?
+- How might their experiences be different?
+:::
+
+As web developers, we don't build websites for ourselves—we build them for our users.
+Therefore, it is our responsibility to build websites that can be used by all users of the web.
+These include:
+
+- Users that are blind or have low vision
+- Users that are colourblind
+- Users with mobility impairment
+- Users that are deaf or have hearing loss
+
+To aid using the web, these users might use assistive technologies.
+These include:
+
+- Screen readers, which is software that reads out content on the screen to the user.
+- Screen magnification software, which enlarges the content on the screen for the user to see better.
+- Speech input software, which allows the user to perform commands using their voice instead of a mouse and keyboard.
+
+Creating accessible websites is important for users with disabilities and users that use assistive technologies so they can access the same content as able-bodied users.
+This is especially important when the website provides an essential service, such as one through a government website.
+In this module, we will learn some of the ways to make websites accessible.
 
 ## What makes a web page?
 
@@ -347,13 +367,7 @@ All together, let's review the basic syntax in the following example.
 Which parts are the rules, selectors, properties, values, and declarations?
 
 ```css
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   color: #333;
   margin-bottom: 2rem;
 }
@@ -382,8 +396,12 @@ body {
 }
 ```
 
-:::note Exercise (5 minutes)
-All together, let's review what each of the CSS properties in the previous code example does.
+:::note Exercise (10 minutes)
+_Paired Programming Exercise_
+
+In the Bikes for Refugees project, work in pairs to make the `Donate Now` and `Donate a bike today`
+buttons on the page an orange-red `#c05326` colour, and make the `Volunteer` button white `#fff`
+with orange-red `#c05326` text. Leave the border for now.
 :::
 
 ## CSS Units
@@ -528,19 +546,13 @@ When using a `:hover` pseudo-class selector, it is usually a good idea to also i
   background: #ef7f52;
 }
 ```
-
 :::
 
-:::note Exercise 1 (10 minutes)
+:::note Exercise (10 minutes)
 _Paired Programming Exercise_
 
-In the Bikes for Refugees project, work in pairs to make the blue buttons on the page red (`#ce5f31`). The white button, which says "Volunteer", should remain white but the text should change to red.
-:::
-
-:::note Exercise 2 (10 minutes)
-_Paired Programming Exercise_
-
-In the Bikes for Refugees project, work in pairs and use the pseudo classes to make the background color of the red buttons change when in a "hover" or "focus" state. See if you can make the white "Volunteer" button change to a different background without effecting the red buttons.
+In the Bikes for Refugees project, work in pairs and use pseudo classes to make the background color of all buttons change to the darker colour `#934423` when in a "hover" and "focus" state.
+Test that it works by hovering over all buttons with your mouse, and by using the `Tab` key to focus on each button.
 :::
 
 ## CSS Box Model
@@ -581,9 +593,15 @@ Instead of typing out each property, we can use shorthand properties for border,
 
   /* Apply to all four sides */
   margin: 1rem;
+  padding: 1rem;
 
   /* vertical | horizontal */
+  margin: 0.5rem 1rem;
   padding: 0.5rem 1rem;
+  
+  /* top | right | bottom | left */
+  margin: 1rem 0.5rem 2rem 0.25rem;
+  padding: 1rem 0.5rem 2rem 0.25rem;
 }
 ```
 
@@ -596,22 +614,13 @@ We can also modify the **width** and **height** of the content like in the follo
 }
 ```
 
-:::note Exercise 1 (10 minutes)
-In the Bikes for Refugees project, work in pairs and use the `margin` and `padding` rules to spread your navigation links out a bit wider. There should be a small gap between them and enough padding so that the border is not too tight on the text.
-:::
+:::note Exercise 1 (20 minutes)
+In the Bikes for Refugees project, work in pairs and:
 
-:::note Exercise 2 (10 minutes)
-In the Bikes for Refugees project, you may have noticed that the border you added to the navigation links causes the links to jump around when you move your mouse over them. That's because the border is adding to the width of the box model, pushing the others to the side.
-
-You can also set a transparent border, so that it takes up the space without showing a visible border.
-
-```css
-.navlink {
-  border: 1px solid transparent;
-}
-```
-
-Use a transparent border so that the width of each navigation menu item stays the same even when it is hovered or focused.
+1. Use the `padding` property to add some more horizontal space inside the navigation links in the header.
+1. Use the `padding` property to add more space inside all buttons.
+1. Use the `border` property to remove the border from all buttons.
+1. For bonus points, you can use the `border-radius` property to make the corners of the buttons rounded.
 :::
 
 ### Block and Inline Boxes
@@ -769,16 +778,19 @@ is a CSS Project for you to complete using what you've learnt so far today.
 Fork the repository to your personal account and then clone the repository.
 
 :::note Exercise (60 minutes+)
-Work in pairs to complete all the mistakes in the project and fix them.
+Work in pairs to complete as much of the project as you can.
+
+You will be able to fully complete it after lesson 2 once we've learned flexbox.
 :::
-
-## Further Learning
-
-If you want to learn about `box-sizing` and why the default is changed for many websites, read this [CSS Tricks article](https://css-tricks.com/international-box-sizing-awareness-day/).
 
 ## Coursework
 
 Visit the [Coursework page](./homework) to view the coursework for this lesson.
+
+## Further Learning
+
+- If you want to learn about `box-sizing` and why the default is changed for many websites, read this [CSS Tricks article](https://css-tricks.com/international-box-sizing-awareness-day/).
+- If you want to learn how to add a title and favicon to a webpage, visit the [MDN Metadata in HTML page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML).
 
 ## Feedback
 

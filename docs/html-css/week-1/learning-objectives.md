@@ -8,6 +8,10 @@ _The learning objectives under a given topic may be achieved over the multiple w
 
 ## HTML
 
+- [ ] Can answer: Why is it important to build accessible websites?
+- [ ] Can: Identify the kinds of users who browse the web, including blind and disabled users.
+- [ ] Can: Identify the kinds assistive technologies some users use to browse the web, including screen readers.
+
 ### HTML Anatomy
 
 - [ ] Can answer: What is an HTML tag?
