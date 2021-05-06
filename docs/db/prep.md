@@ -107,6 +107,14 @@ Note that to exit psql back to the terminal prompt use the command `\q`.
 
 ## Windows
 
+### WSL (Windows Subsystem for Linux)
+
+If your computer supports WSL, you can - and should - use that instead.
+
+Follow the instructions above for Ubuntu in WSL.
+
+**Note:** Some of CYF members have reported that WSL will be buggy when used in the VSCode terminal. To ensure this is working properly, run WSL from the Windows command prompt.
+
 ### Install
 
 **Note that you must be logged in as a user with Administrator privileges on Windows for all these steps.**
@@ -243,7 +251,7 @@ Note that to exit psql back to the terminal prompt use the command `\q`.
 
 With the Apple Mac you can choose either a graphical installation or a command line method. The graphical method mostly involves dragging and dropping icons with a little bit of command line to configure the tools we need. The command line method uses only command line but is fairly simple.
 
-#### Graphical Installation
+### Graphical Installation
 
 **Note that you must be logged in as a user with Administrator privileges on OSX for all these steps.**
 
