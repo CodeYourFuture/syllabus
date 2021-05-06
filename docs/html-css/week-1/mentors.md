@@ -18,6 +18,14 @@ We highly recommend joining the relevent Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Students Prior Knowledge
+
+To get to this point in the course students will already have learn the basics of HTML/CSS by learning course [this](https://www.freecodecamp.org/learn/responsive-web-design/) from KhanAcademy. 
+
+This means that this lesson is a level-settings.recap lesson to make sure that all of our students are at the same point.
+
+If it is obvious that your students already understand the concepts that you are covering, you are encouraged to move quickly through the content. 
+
 ## Overview
 
 This outline provides tips to help mentors guide trainees to the best answers or outcomes for the lesson topics and exercises.
