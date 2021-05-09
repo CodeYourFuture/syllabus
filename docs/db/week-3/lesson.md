@@ -80,19 +80,12 @@ In the following, we will add a new API endpoint to create a new hotel in the ta
 INSERT INTO hotels (name, rooms, postcode) VALUES ('New Hotel', 5, 'ABC001');
 ```
 
-As we create a new record in the database, we will add a new POST endpoint in the `cyf-hotels-api` project from last class. Moreover, we need to be able to pass some parameters to this API endpoint such as the hotel name, the number of rooms and the postcode, so we can use this API to create different hotel. These parameters can be sent in the body of the request. To access the parameters in the body of the request with Express.JS, we need to add the module `body-parser` to the `cyf-hotels-api` project:
-
-```
-npm install --save body-parser
-```
-
-Then include it in the `server.js`:
+As we create a new record in the database, we will add a new POST endpoint in the `cyf-hotels-api` project from last class. Moreover, we need to be able to pass some parameters to this API endpoint such as the hotel name, the number of rooms and the postcode, so we can use this API to create a different hotel. These parameters can be sent in the body of the request. To access the parameters in the body of the request with Express.JS, we need add the following line in the `server.js` file of the `cyf-hotels-api` project:
 
 ```js
-const bodyParser = require("body-parser");
-app.use(bodyParser.json());
+app.use(express.json());
 ```
-
+This means the body will be automatically parsed from a string into a JSON object.
 We can finally add our new endpoint to create a new hotel:
 
 ```js
