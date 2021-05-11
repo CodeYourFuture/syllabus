@@ -15,6 +15,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
+            cyf-syllabus-
       - name: Test Build
         run: |
           npm ci
@@ -27,6 +34,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
+            cyf-syllabus-
       - name: Add key to allow access to repository
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
