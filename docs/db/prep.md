@@ -249,7 +249,7 @@ Note that to exit psql back to the terminal prompt use the command `\q`.
 
 ## MacOS
 
-With the Apple Mac you can choose either a graphical installation or a command line method. The graphical method mostly involves dragging and dropping icons with a little bit of command line to configure the tools we need. The command line method uses only command line but is fairly simple.
+With the Apple Mac you can choose either a [graphical installation](#graphical-installation) or a [command line](#macos-command-line-installation) method. The graphical method mostly involves dragging and dropping icons with a little bit of command line to configure the tools we need. The command line method uses only command line but is fairly simple.
 
 ### Graphical Installation
 
@@ -269,7 +269,7 @@ PostgreSQL initialises itself, creating the initial databases (`template1`, `pos
 
 ![Running](./assets/Screenshot_Postgres_running.png)
 
-### Configure the Command Line Interface (CLI)
+#### Configure the Command Line Interface (CLI) (**part of the Graphical installation**)
 
 To use the PostgreSQL command line tools you need to add the directory to your path (used to find commands in the terminal). There are several ways to do this but the simplest is to create a file containing the directory path name. Open the terminal and enter the appropriate commands from the list below (note: you may not need to create the directory):
 
@@ -299,25 +299,38 @@ and this should produce something like the following:
 
 The final line is the psql command prompt, waiting for you to enter a command. It comprises your database name (created with the same name as your username, in the example this is 'keith') followed by '=#'.
 
-You are going to rename the database to `cyf_hotel` for the purposes of this course, so from the psql prompt (as above) first disconnect from your database by connecting to database `postgres`:
+You are going to create a `cyf_hotel` database for the purposes of this course, so from the psql prompt (as above) first create the database:
 
 ```
-keith=# \connect postgres
+keith=# create database cyf_hotel;
 ```
 
-Now, still at the psql prompt, rename the database:
+You can list all the databases using the '\l' command;
+
+To use the cyf_hotel database:
 
 ```
-keith=# alter database keith rename to cyf_hotel;
+keith=# \connect cyf_hotel;
+
+cyf_hotel=#
 ```
 
-Clearly, you'll use your own name as the name of the database to be renamed.
+The prompt will change to reflect that you are now working with the cyf_hotel database; 
 
 Note that to exit psql back to the terminal prompt use the command `\q`.
+
+In future start psql using:
+
+```
+    psql cyf_hotel
+```
+to connect to the cyf_hotel database immediately.
 
 **MacOS Graphical Install Complete**
 
 ### MacOS Command Line Installation
+
+*Don't do this if you have already completed the Graphical Installation*
 
 You need Homebrew installed on your Mac to use this approach. If you don't yet have it then you should probably use the graphical method. If you already have Homebrew installed then the following command installs PostgreSQL:
 
