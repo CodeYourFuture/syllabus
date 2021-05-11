@@ -4,13 +4,7 @@ title: Module Coordinator
 sidebar_label: Module Coordinator
 ---
 
-## 1) Preparation
-
-This module has some preparation work that should be set as coursework before the module starts
-
-You can find the preparation work [here](./preparation)
-
-## 2) Assessment
+## 1) Assessment
 
 After the final week of this module there are assessment that should be completed by all trainees.
 
@@ -24,7 +18,7 @@ The aim of these assessments is to
 - Highlight trainees who are falling behind and require help
 - Get oversight of any common misconceptions in the class
 
-## 3) TV Show Project
+## 2) TV Show Project
 
 The bulk of this module's coursework is the "TV Show DOM Project" that can be found [here](./js-core-3/tv-show-dom-project/readme). This project spans all three weeks of the module.
 

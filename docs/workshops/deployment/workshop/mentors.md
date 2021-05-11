@@ -97,7 +97,7 @@ This is what you'll learn to do now this workshop.
 
 **Note**: CYF site naming conventions
 
-Use the standard format for site names for all CYF coursework projects - see [site naming conventions](/workshops/deployment/cyf-site-naming-conventions)
+Use the standard format for site names for all CYF coursework projects - see [site naming conventions](/workshops/deployment/site-naming-conventions)
 
 - cyf-[your github username]-[exact project name as supplied by teacher]
 

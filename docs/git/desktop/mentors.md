@@ -12,7 +12,7 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 If you are teaching this class in the coming weeks you **must** instruct your trainees to complete the instructions below.
 
-[Git Preparation](./preparation)
+[Git Preparation](../preparation)
 
 If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 

@@ -32,7 +32,7 @@ By the end of this class, you should be able to:
 
 Before you arrive at class you **must** have completed the following setup work.
 
-[Git Preparation](preparation)
+[Git Preparation](../preparation)
 
 _If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
 
