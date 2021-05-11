@@ -14,9 +14,9 @@ Make sure you complete it before attending class.
 
 | Week                         | Content        |
 | ---------------------------- | -------------- |
-| [Week 1](./week-1/lesson.md) | Intro to Mongo |
-| [Week 2](./week-2/lesson.md) | More Mongo     |
-| [Week 3](./week-3/lesson.md) | Advanced Mongo |
+| [Week 1](./week-1/lesson)    | Intro to Mongo |
+| [Week 2](./week-2/lesson)    | More Mongo     |
+| [Week 3](./week-3/lesson)    | Advanced Mongo |
 
 ## Coordination
 
