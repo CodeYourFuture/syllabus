@@ -15,6 +15,6 @@ Each week, you're going to use Git to get a copy of your Coursework exercises, t
 | Lesson                             | Content                 | Coursework                                     | When is this delivered?            |
 | ---------------------------------- | ----------------------- | ---------------------------------------------- | ---------------------------------- |
 | [Lesson 1](./desktop/lesson)       | Github & Github Desktop | [Git Coursework](./desktop/homework)           | On Week 2 of the Full Stack Course |
-| [Lesson 2](./terminal/lesson)      | The Terminal            | [Terminal Coursework](./terminal/homework)     | As Coursework (see [Coordinator](../coordinator) page) |
-| [Lesson 3](./cli/lesson)           | Git on the Command Line | [Git CLI Coursework](./cli/homework)           | As Coursework (see [Coordinator](../coordinator) page) |
-| [Lesson 4](./branches/branches.md) | Branches                | [Git Branches Coursework](./branches/homework) | As Coursework (see [Coordinator](../coordinator) page) |
+| [Lesson 2](./terminal/lesson)      | The Terminal            | [Terminal Coursework](./terminal/homework)     | As Coursework (see [Coordinator](./coordinator) page) |
+| [Lesson 3](./cli/lesson)           | Git on the Command Line | [Git CLI Coursework](./cli/homework)           | As Coursework (see [Coordinator](./coordinator) page) |
+| [Lesson 4](./branches/branches.md) | Branches                | [Git Branches Coursework](./branches/homework) | As Coursework (see [Coordinator](./coordinator) page) |

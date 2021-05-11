@@ -20,7 +20,7 @@ By the end of this class, you should be able to:
 
 So far, we've seen that we can use Git to share our work, get code review, and view history. This week, we're going to learn more about how we can use Git to work together in groups, and to work on more than one thing at the same time.
 
-For this class, we're going to use the Git CLI, but everything we're doing can also be done in GitHub Desktop. Remember you can always check the [cheatsheet](cheatsheet-cli)!
+For this class, we're going to use the Git CLI, but everything we're doing can also be done in GitHub Desktop. Remember you can always check the [cheatsheet](../desktop/cheatsheet-cli)!
 
 In this class, we're going to work with a GitHub repository of recipes.
 

@@ -299,7 +299,7 @@ app.delete("/customers/:customerId", function (req, res) {
 
 ## Coursework
 
-All of the coursework for this week can be found [here](/homework).
+All of the coursework for this week can be found [here](./homework).
 
 ## Feedback
 
