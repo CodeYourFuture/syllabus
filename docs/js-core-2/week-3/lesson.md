@@ -221,7 +221,7 @@ All set, go! Work on the tasks given. Your result html will look like this:
 
 ### Client/Server architecture
 
-<img src={require('!file-loader!./assets/client-server.png').default} />
+<img class="onDarkMode_whiteBg" src={require('!file-loader!./assets/client-server.png').default} />
 
 A **Client** is the typical web user's internet-connected devices and apps. This can be a web browser, a Slack app, your phone, etc.
 
