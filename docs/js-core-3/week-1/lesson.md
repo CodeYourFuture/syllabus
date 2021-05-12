@@ -30,7 +30,7 @@ The purpose of this class is to introduce to the trainee:
 
 ### Why is Debugging Important?
 
-When are projects are very small it's easy to see the problems and when something does break it's not to much of an issue. This isn't true when we start working on larger projects.
+When our projects are very small it's easy to see the problems and when something does break it's not to much of an issue. This isn't true when we start working on larger projects.
 
 The code that we write has real world uses and real world effects.
 
@@ -159,11 +159,11 @@ When debugging you should always ask yourself a few key questions
 
 - What did I expect to happen?
 
-You should very clearly be able to say exact what you expected to happen when you run your code. If you cannot do this, then you do not understand the problem well enough.
+You should very clearly be able to say exactly what you expected to happen when you run your code. If you cannot do this, then you do not understand the problem well enough.
 
 - Is it actually broken?
 
-Sometime what you think is broken is actually working fine but not what you thought was going to happen. You should confirm with what the program is trying to do.
+Sometimes what you think is broken is actually working fine but not executing what you thought was going to happen. You should confirm with what the program is trying to do.
 
 - What happened instead?
 
@@ -200,7 +200,7 @@ It is important when working on your code to test each part of your code separat
 [Stack Overflow](https://stackoverflow.com/) is a crucial tool for lots of new developers in finding answers to their programming problems. While a lot of the information is very good there are several points to keep in mind.
 
 - Information goes out of date very quickly
-  - You have to make sure that what your looking at it new
+  - You have to make sure that what your looking at is new
 - Don't copy and paste code
   - If you don't understand what your code does then there is no pointing using it since soon you won't be able to debug it
 - The Chosen Answer isn't always the right answer for you
@@ -272,7 +272,7 @@ Once we have finished inspecting the values, we can use the controls in the top 
 
 <img src={require('!file-loader!./assets/controls.png').default}/>
 
-We can click the button with the blue triangle to tell the debugger to continue executing code until it hits the next breakpoint. Or if we want to execute code line by line ourselves, we can press the button with the curved arrow that will the debugger to execute the current line and stop on the next line.
+We can click the button with the blue triangle to tell the debugger to continue executing code until it hits the next breakpoint. Or if we want to execute code line by line ourselves, we can press the button with the curved arrow that will instruct the debugger to execute the current line and stop on the next line.
 
 To remove a breakpoint you either remove the `debugger` statement or if you placed a breakpoint from the debugger itself, you can click that line number again to remove it.
 
@@ -286,7 +286,7 @@ Make sure that _every_ member of your group has been able to use the debugger.
 
 ##### Comparing console.log and debugger
 
-As a developer you will likely use both tools to understand what your code is doing and help you fin and fix bugs. `console.log` can be a quick and easy way to check a value, but it can also be a bit inflexible since you can only inspect the value you log out in that one place.
+As a developer you will likely use both tools to understand what your code is doing and help you find and fix bugs. `console.log` can be a quick and easy way to check a value, but it can also be a bit inflexible since you can only inspect the value you log out in that one place.
 
 Using the debug tool to inspect values can be a bit slower than console logging out values. However, it is also more flexible since you can inspect any value and move execution yourself line by line.
 
@@ -329,7 +329,7 @@ We have created a sample ESLint configuration to help you get started. You can d
 `no-redeclare` will warn you if you redeclare an existing variable
 `no-undef` will warn you if you try to use an undeclared variable or function
 
-You can see all rules and their explanations at [https://eslint.org/docs/rules/](https://eslint.org/docs/rules/). Many of them not make sense to you (they don't to me), but it can be a handy reference and over time your use and understanding of them will improve and increase.
+You can see all rules and their explanations at [https://eslint.org/docs/rules/](https://eslint.org/docs/rules/). Many of them may not make sense to you (they don't to me), but it can be a handy reference and over time your use and understanding of them will improve and increase.
 
 :::note Exercise
 
@@ -343,10 +343,10 @@ Before continuing make sure that everyone in your group has it working.
 
 - Bugs are a fact of life. No one produces bug free code.
 - Test regularly to find bugs early.
-- Having multiple bugs in code can make them harder to deal with. See previous rule
-- Use tools such a linters spot and prevent bugs early
-- Error messages might look scary, but they are your friend
-- Use tools such as console.log and debugger to find root of bugs
+- Having multiple bugs in code can make them harder to deal with. See previous rule.
+- Use tools such a linters spot and prevent bugs early.
+- Error messages might look scary, but they are your friend.
+- Use tools such as console.log and debugger to find root of bugs.
 
 ### Exercise 1
 
