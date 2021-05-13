@@ -51,3 +51,7 @@
 .mt-1 {
   margin-top: 16px;
 }
+
+.onDarkMode_whiteBg {
+  background: white;
+}

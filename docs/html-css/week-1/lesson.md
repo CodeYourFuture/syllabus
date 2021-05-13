@@ -150,7 +150,7 @@ The `html` element declares that it is an HTML document, and contains a `head` a
 
 HTML tags are arranged in a hierarchy. This is sometimes called **nesting** tags or creating an HTML **tree**. Between the opening `<article>` tag and the closing `</article>` tag there are three other tags. We call these **child** tags, because they have a parent-child relationship.
 
-<img src={require('!file-loader!../assets/html-hierarchy.png').default}
+<img class="onDarkMode_whiteBg" src={require('!file-loader!../assets/html-hierarchy.png').default}
 alt="Tree diagram showing an article tag with h1, p, and a tags as direct children"/>
 
 :::note Exercise (5 minutes)
