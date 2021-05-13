@@ -8,12 +8,9 @@ sidebar_label: Module Coordinator
 
 This module is unusual as it follows an irregular delivery pattern
 
-- Lesson 1 - Delivered on the second week of the full stack course
-- Lesson 2 - Assigned as Coursework after JavaScript Core 1 Week 3
-- Lesson 3 - Assigned as Coursework after JavaScript Core 2 Week 1
-- Lesson 4 - Assigned as Coursework after JavaScript Core 2 Week 3
-
 The content has been written to be delivered in this specific way to make the best use of Trainee's time through the course.
+
+See the [Overview](./overview) page for when the lessons are given.
 
 ## 2) Preparation
 
