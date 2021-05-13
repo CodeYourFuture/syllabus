@@ -13,7 +13,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
-          routeBasePath: "/", // Set this value to '/'.
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -21,6 +21,7 @@ module.exports = {
       },
     ],
   ],
+  plugins: ["./sitePlugin"],
   themeConfig: {
     googleAnalytics: {
       trackingID: "UA-159979458-2",
