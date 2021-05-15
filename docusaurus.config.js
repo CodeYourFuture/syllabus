@@ -13,13 +13,21 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/CodeYourFuture/Syllabus-V2/edit/master/",
-          routeBasePath: "/", // Set this value to '/'.
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
+  ],
+  scripts: [
+    // See comments in static/js/fix-location.js
+    {
+      src: "/js/fix-location.js",
+      async: false,
+      defer: false
+    }
   ],
   themeConfig: {
     googleAnalytics: {
