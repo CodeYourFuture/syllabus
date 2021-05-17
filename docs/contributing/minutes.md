@@ -3,6 +3,40 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+## 12/05/2021
+Attendance: Chris, Daniel, Greg, Mitch, Sally
+### Agenda
+- Tech test
+- TDD first steps
+- HTML/CSS content discussion
+- Trailing slash
+- Promises
+- Report from new Git lesson
+### Important Points raised
+- New person is joining team soon, hurray
+- Chris is eating amazingly vile sounding KFC flavoured crisps
+#### We reviewed a tech test
+- Action: Chris to raise an issue to write up a tech test for our trainees.
+#### TDD: Jest
+We met with people from tech projects last week and agreed to use Jest.
+- Action: Daniel to put Jest in JS-1 and convert tests
+- Action: Mitch to write Jest overview
+- Action: Mitch to write short npm intro for JS-1 and update pre-reqs before NW4 start JS-1
+#### HTML/CSS module
+Sally links presentation on the DOM for HTML W1. Lots of work being done separately across cities. Can we combine our efforts?
+- Action: Sally to teach through module and identify missing pieces
+- Action: Sally to get marking guide/s from Lucy into the repo
+#### Trailing slash
+Trailing slash bug has been raised as top 10 things to fix. Please can a Javascript person take a look?
+- Action: Chris to raise an issue
+#### Promises
+Greg asks can we find a place in [JS-3] to explain promises. Daniel asks should we teach anything other than async await.
+- Action: Chris to raise a discussion point on this
+#### New git
+Mitch reports from teaching new git material. A success!
+
+## 28/04/2021 
+Missing notes 😢
 
 ## 14/04/2021
 
