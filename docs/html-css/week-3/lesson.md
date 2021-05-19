@@ -106,24 +106,24 @@ When creating a group of radio inputs, we should give each radio input the same 
 We can also use the `checked` attribute to make an option selected by default.
 
 ```html
-<input id="small" type="radio" name="name" value="small">
+<input id="small" type="radio" name="size" value="small">
 <label for="small">Small</label>
 
-<input id="medium" type="radio" name="name" value="medium" checked>
+<input id="medium" type="radio" name="size" value="medium" checked>
 <label for="medium">Medium</label>
 
-<input id="large" type="radio" name="name" value="large">
+<input id="large" type="radio" name="size" value="large">
 <label for="large">Large</label>
 ```
 
 :::note Interactive example
-<input id="small" type="radio" name="name" value="small"/>
+<input id="small" type="radio" name="size" value="small"/>
 <label for="small" style={{marginRight: '0.5rem'}}>Small</label>
 
-<input id="medium" type="radio" name="name" value="medium" checked />
+<input id="medium" type="radio" name="size" value="medium" checked />
 <label for="medium" style={{marginRight: '0.5rem'}}>Medium</label>
 
-<input id="large" type="radio" name="name" value="large"/>
+<input id="large" type="radio" name="size" value="large"/>
 <label for="large">Large</label>
 :::
 
@@ -136,13 +136,13 @@ For a group of radio inputs, we can wrap the inputs in a `fieldset` with a `lege
 <fieldset>
   <legend>Coffee size</legend>
 
-  <input id="small" type="radio" name="name" value="small">
+  <input id="small" type="radio" name="size" value="small">
   <label for="small">Small</label>
   
-  <input id="medium" type="radio" name="name" value="medium">
+  <input id="medium" type="radio" name="size" value="medium">
   <label for="medium">Medium</label>
   
-  <input id="large" type="radio" name="name" value="large">
+  <input id="large" type="radio" name="size" value="large">
   <label for="large">Large</label>
 </fieldset>
 ```
@@ -151,13 +151,13 @@ For a group of radio inputs, we can wrap the inputs in a `fieldset` with a `lege
 <fieldset>
   <legend>Coffee size</legend>
 
-  <input id="coffee-small" type="radio" name="coffee-name" value="small"/>
+  <input id="coffee-small" type="radio" name="coffee-size" value="small"/>
   <label for="coffee-small">Small</label>
 
-  <input id="coffee-medium" type="radio" name="coffee-name" value="medium"/>
+  <input id="coffee-medium" type="radio" name="coffee-size" value="medium"/>
   <label for="coffee-medium">Medium</label>
 
-  <input id="coffee-large" type="radio" name="coffee-name" value="large"/>
+  <input id="coffee-large" type="radio" name="coffee-size" value="large"/>
   <label for="coffee-large">Large</label>
 </fieldset>
 :::
@@ -331,7 +331,7 @@ Default styles for placeholders can also have poor colour contrast, which means 
 
 <input style={{width:'100%', marginBottom:'1rem'}} type="text" placeholder="I am a placeholder. Placeholders are not labels so do not use me as a label."/>
 
-In summary, always give every form control a label.
+In summary, **always** give every form control a label.
 :::
 
 ### Form validation

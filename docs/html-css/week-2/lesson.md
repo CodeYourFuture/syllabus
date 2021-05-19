@@ -203,9 +203,9 @@ Once that's done you can move on to creating boxes for each individual text piec
 :::
 
 :::note Exercise (5 minutes)
-Let's take a break from flexbox for a minute. Do you remember the `:first-child` psuedo class? There's a `:last-child` psuedo class as well.
+Let's take a break from flexbox for a minute. Do you remember the `:first-child` pseudo class? There's a `:last-child` pseudo class as well.
 
-See if you can use these psuedo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`).
+See if you can use these pseudo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`).
 :::
 
 ## Coursework
