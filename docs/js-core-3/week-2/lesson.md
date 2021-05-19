@@ -253,7 +253,7 @@ getMilkFromShops
   .catch((error) => console.warn("Oh no, I dropped the milk"));
 ```
 
-_Note: This is "Psuedo Code"- meaning it doesn't work! This is just to demonstrate how it **might** work_
+_Note: This is "Pseudo Code"- meaning it doesn't work! This is just to demonstrate how it **might** work_
 
 ### Live Coded Examples
 
