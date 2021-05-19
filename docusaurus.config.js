@@ -26,8 +26,8 @@ module.exports = {
     {
       src: "/js/fix-location.js",
       async: false,
-      defer: false
-    }
+      defer: false,
+    },
   ],
   themeConfig: {
     googleAnalytics: {
@@ -68,8 +68,7 @@ module.exports = {
               className: "outside-link",
             },
             {
-              href:
-                "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
+              href: "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
               label: "Induction",
               position: "left",
               className: "outside-link",
@@ -141,16 +140,6 @@ module.exports = {
               position: "left",
             },
             {
-              to: "workshops/git-desktop",
-              label: "Github Desktop Workshop",
-              position: "left",
-            },
-            {
-              to: "workshops/mongodb-101",
-              label: "MongoDB 101 Workshop",
-              position: "left",
-            },
-            {
               to: "workshops/processing-js-workshop",
               label: "Processing.js Workshop",
               position: "left",
@@ -159,13 +148,6 @@ module.exports = {
               to: "workshops/js-testing-workshop",
               label: "JavaScript Testing Workshop",
               position: "left",
-            },
-            {
-              href:
-                "https://github.com/Thomas-Stewart/syllabus/tree/master/java",
-              label: "Java Workshop",
-              position: "left",
-              className: "outside-link",
             },
             {
               to: "workshops/deployment/index",
@@ -177,8 +159,7 @@ module.exports = {
               position: "left",
             },
             {
-              href:
-                "https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=Workshop&template=workshop-request.md&title=%5BWorkshop%5D",
+              href: "https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=Workshop&template=workshop-request.md&title=%5BWorkshop%5D",
               label: "Want to request a workshop?",
               position: "left",
             },
