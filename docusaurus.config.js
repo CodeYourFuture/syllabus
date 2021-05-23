@@ -204,6 +204,11 @@ module.exports = {
               label: "Creating a React App",
               position: "left",
             },
+            {
+              to: "guides/intro-to-tests",
+              label: "Introduction to tests",
+              position: "left",
+            },
           ],
         },
         {
