@@ -12,7 +12,7 @@ These roles should in total create a [balanced team](https://www.youtube.com/wat
 
 ### Product Manager // Scrum Master
 
-**Time Commitment**: One day a week plus ~4 hours during the week
+**Time Commitment**: One day a week plus 2-4 hours during the week
 
 Scrum Masters are expected to coordinate the team and make sure everyone knows what they are working on. They can provide support in
 
@@ -22,7 +22,7 @@ Scrum Masters are expected to coordinate the team and make sure everyone knows w
 
 ### Technical Assitant
 
-**Time Commitment**: One day a week plus ~4 hours during the week
+**Time Commitment**: One day a week plus 2-4 hours during the week
 
 Teaching assistant provide technical support to the trainees as they are developing their projects. They can provide support in
 
