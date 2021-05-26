@@ -63,7 +63,7 @@ We can now define what a test is in software engineering.
 
 > 🔑 A **test** is any piece of code that **checks a certain unit of code** ( typically a function ) **behaves in a particular way**.
 
-For example, we could write a test to check that `createWordCount` behaves in a particular way when passed a string containing a single word. For this example, we're using a popular JavaScript testing framework called [Jest](https://jestjs.io/docs/getting-started) to write the test code. We'll examine the example below written using Jest, and then break down the different parts of the test code to understand how it all works.
+For example, we could write a test to check that `createWordCount` behaves in the way we described above when passed a string containing a single word. For this example, we're using a popular JavaScript testing framework called [Jest](https://jestjs.io/docs/getting-started) to write the test code. We'll examine the example below written using Jest, and then break down the different parts of the test code to understand how it all works.
 
 ```js
 test("will count the number of words for a single word string", function () {
