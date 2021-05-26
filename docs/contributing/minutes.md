@@ -3,6 +3,51 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+
+## 26/05/2021
+Attendance: Chris, Daniel, Greg, Mitch, Sally, Ali, Matt
+
+### Actions from Last Time
+
+- Daniel to put JS1 convert tests - done
+- Mitch write short npm intro 
+- Sally to teach HTML module - Currently doing, made contact with Lucy in London, had same points as Sally
+- Chris to fix bug - Daniel has fixed bug
+- Promises, greg to explain more in JS3 - Chris has made a thread, no discussions made so far
+
+### Agenda Points
+
+- Ali’s syllabus link - Chris has fixed this already, could probably close all the tickets on it
+- Chris, non-mathsy codewars exercises - think that the codewars katas are good, not sure about including them within the syllabus or not, can make collections of katas by modules, collections are tied to an account but we can create a CYF account on codewars for this, need to be careful about adding more marking. Chris to add them in as optional coursework. 
+- Hotel App - Could get more peer-review marking involved with optional challenges of react.
+- HTML/CSS Sally - Spent a lot of time defining terms. Could potentially be useful to add a glossary in for terms they are to cover on specific modules. Potential issue that if we create a glossary there is an assumption there that because its written down it doesn’t need to be taught. Flatiron html coursework was good but UI of website horrendous and very confusing for the students. Potential option to teach grid first, made teaching box difficult. Sally has made a set of notes, will feedback after finishing teaching. Potential issues surrounding semantic html, lack of understanding of when to use div tags and when not. Live debugging using dev tools was really good.
+
+### Jest
+
+- Are we requiring test or accepting globally
+- Are we going to run the tests through github actions? - issue that students might then only practice tests when they submit to git rather than testing locally
+- Just having pure pass fail might be useful for markers
+- Mitch happy to add a guide for CI output interpretation
+- We shouldn’t hide the logs for the students
+- No intention at this point to get the students to write the tests, it’s more about interpretation at this stage
+- First use case going to be NW4 in about two weeks
+
+### Github Actions
+
+- Github actions to automatically close issues
+- List of github actions - https://github.com/sdras/awesome-actions
+- Action used - https://github.com/JulienKode/team-labeler-action
+
+### Sprint Planning 
+
+- JS Core 1 Assessment - Matt to look at Chris’s comments
+- JS Core 1 Challenges - Added back into ready for development 
+- React Week 2 - Ali still to work on this
+- Add Pre-Work for HTML/CSS - Chris assigned himself
+- Use uuids instead of ids for albumsData - Chris assigned himself
+- Get jest merged this week
+- Everybody to review the PR’s 
+
 ## 12/05/2021
 Attendance: Chris, Daniel, Greg, Mitch, Sally
 ### Agenda
