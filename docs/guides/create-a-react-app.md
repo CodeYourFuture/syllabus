@@ -55,15 +55,13 @@ To stop the program, open your terminal and press `Ctrl-C` (it's the same on Win
 
 Once you have stopped running the program, your React app **will stop working**. To start it again, see the instructions above for starting your app.
 
-# Bonus
+## Bonus
 
-You're done! You don't have to read more - you can now develop React apps, locally.
+You're done! You don't have to read more - you can now develop React apps on your computer. How do we get them onto the web so we can share them with others?
 
-But what about deployment?
+### Deployment with Netlify
 
-## Deployment with Netlify
-
-If you have already learned to [deploy your apps from github using Netlify](https://github.com/CodeYourFuture/syllabus/blob/master/others/deployment/1-for-html-module/instructions-for-automatic-deployment-with-netlify-and-github.md), you can use the same process to deploy any React apps you created initially with create-react-app.
+If you have already learned to [deploy your apps from github using Netlify](../workshops/deployment/workshop/instructions-auto-deployment-netlify.md), you can use the same process to deploy any React apps you created initially with create-react-app.
 
 You may notice that Netlify automatically sets the following two config settings:
 
@@ -72,4 +70,4 @@ You may notice that Netlify automatically sets the following two config settings
 
 These are correct and necessary - don't change them.
 
-(You should expect deployment of your react apps to be slower than your old "vanilla JS" apps, due to the build process that takes place.)
+(You should expect deployment of your React apps to be slower than your old "vanilla JS" apps, due to the build process that takes place.)
