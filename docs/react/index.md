@@ -44,8 +44,6 @@ For advanced trainees, some further objectives would be:
 
 These topics are considered out-of-scope:
 
-- Object-Orientated JavaScript (classes/inheritance)
-  - Details of `extends`/`super()` are not necessary to use React (they are an implementation detail of `Component` class), so don't go out of the way to teach this
 - Redux
   - Want to focus on learning and practising the basics of React, before introducing new concepts
   - Learning Redux will be easier once confident with React
