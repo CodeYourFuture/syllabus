@@ -317,14 +317,14 @@ const [unreadMessages, setUnreadMessages] = useState(5);
 
 ### Updating State
 
-Our Counter isn't very useful right now! Let's make it more useful by getting `count` to actually count up ([interactive example](https://codesandbox.io/s/usestate-counter-lorv5?file=/src/Counter.js)):
+Our Counter isn't very useful right now! Let's make it more useful by getting `count` to actually count up ([interactive example](https://codesandbox.io/s/usestate-setting-state-lorv5?file=/src/Counter.js)):
 
 ```js
 function Counter() {
   const [count, setCount] = useState(0);
 
   function incrementCount() {
-    setCount(count + 1);
+    setCount(1);
   }
 
   return (
@@ -342,11 +342,11 @@ Our component now has a `<button>`, which will call the `incrementCount` functio
 <button onClick={incrementCount}>Click me</button>
 ```
 
-The `incrementCount` function then calculates the **new** state by adding 1 onto the current `count`. And then calls `setCount` to set the new state:
+The `incrementCount` function calls `setCount` to set the new state to be `1`:
 
 ```js
 function incrementCount() {
-  setCount(count + 1);
+  setCount(1);
 }
 ```
 
@@ -364,7 +364,53 @@ function Counter() {
 }
 ```
 
-On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
+On the second render, `count` is now set to 1. If we wanted to set the state to a different value, then we pass a different value to `setCount`.
+
+#### Setting state based on previous state
+
+You might have noticed that our `Counter` app isn't very useful... It can only count to 1! You might think that we could do something like this ([interactive example](https://codesandbox.io/s/usestate-counter-broken-9qd6f?file=/src/Counter.js)):
+
+:::danger
+This code has a bug!
+:::
+
+```js
+function incrementCount() {
+  setCount(count + 1);
+}
+```
+
+However, this code has a bug. Let's see what happens if we put 2 `setCount` calls within `incrementCount` ([interactive example](https://codesandbox.io/s/usestate-counter-broken-without-timeout-wel7p?file=/src/Counter.js)):
+
+```js
+function incrementCount() {
+  setCount(count + 1);
+  setCount(count + 1);
+}
+```
+
+If you click the button, then the counter will only count up to 1. This is because the `count` variable does not actually update until the component re-renders and `useState` gives a new value of `count`. We can see this if we put a `console.log(count)` in-between the `setCount` calls.
+
+As you can see, `count` remains at 0, even after we try to update it to 1. This means that in the second `setCount` call we are actually still trying to update the state to 1!
+
+To fix this problem, there is another way we can call `setCount` if we always need to get the latest version of state when setting it ([interactive example](https://codesandbox.io/s/usestate-counter-updating-based-on-previous-state-dyyo6?file=/src/Counter.js)):
+
+```js
+function incrementCount() {
+  setCount((c1) => {
+    return c1 + 1;
+  });
+  setCount((c2) => {
+    return c2 + 1;
+  });
+}
+```
+
+When we pass a callback function to `setCount`, React will pass us the **latest version** of the count state. In this example, the variables are named `c1` and `c2` to make it clear that they are different from the `count` variable. Now if we add `console.log(c1)` and `console.log(c2)` then we can see that they get the correct values.
+
+:::tip
+If you need to calculate the new state based on the old state, then use the callback function to make sure the variable is up-to-date.
+:::
 
 #### Exercise D (estimate: 20 min)
 
