@@ -435,7 +435,7 @@ The following table contains some of the most commonly used CSS units.
     <tr>
       <td><code>em</code></td>
       <td>Relative</td>
-      <td>1rem is equal to the font size of the parent element. If the parent font size is 16px, then 1rem = 16px and 0.5rem = 8px</td>
+      <td>1em is equal to the font size of the parent element. If the parent font size is 16px, then 1em = 16px and 0.5em = 8px</td>
     </tr>
     <tr>
       <td><code>%</code></td>
