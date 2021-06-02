@@ -121,9 +121,9 @@ If you haven't already, follow [the instructions to create a React app](../../gu
 
 ### What got created?
 
-Diagram of folder layout created by create-react-app. Click [here](https://excalidraw.com/#json=5666421027635200,SRigco8_OhrCb94QSj4Wow) for live diagram.
+Diagram of folder layout created by create-react-app.
 
-<img src={require('!file-loader!../assets/diagram-of-folder-structure-for-create-react-app.png').default}/>
+<img src={require('!file-loader!../assets/diagram-of-folder-structure-for-create-react-app.png').default} width="60%" />
 
 ## React Components
 
