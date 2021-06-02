@@ -58,7 +58,7 @@ There are no hard & fast rules for making components. UIs can be split up into c
 - Components should have good, explicit names
   - This helps you to remember what the component's job is
 
-#### Exercise A (estimate: 10 min)
+#### Exercise A (estimate: 15 min)
 
 :::note Exercise
 
@@ -113,7 +113,7 @@ Change the [JSX example from above](http://jsbin.com/gekahexige/edit?html,output
 
 ## Let's create a React app
 
-#### Exercise C (estimate: 10 min)
+#### Exercise C (should be completed in prep)
 
 :::note Exercise
 If you haven't already, follow [the instructions to create a React app](../../guides/creating-a-react-app) called `pokedex`.
@@ -150,7 +150,7 @@ There are 3 important parts in this code:
 The process of _rendering_ is turning the JSX elements returned by the component function into DOM elements on the screen. This is done by React for you.
 :::
 
-#### Exercise D (estimate: 10 min)
+#### Exercise D (estimate: 20 min)
 
 :::note Exercise
 
@@ -200,7 +200,7 @@ We are also using some shorter syntax within the `HelloWorld` component. `<Greet
 
 Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are written using a `camel case` convention and always start with an uppercase letter? And "regular DOM" components (`div`, `span`) are always lowercase? This is a convention to let you know whether you are using a "regular DOM component" or a component that you have written. When you're making your own components, you should always start them with an uppercase letter.
 
-#### Exercise E (estimate: 5 min)
+#### Exercise E (estimate: 10 min)
 
 :::note Exercise
 
@@ -258,7 +258,7 @@ const HelloWorld = () => (
 
 If we want to do this, we can still use arrow functions but we can't use the implicit return.
 
-#### Exercise F (estimate: 5 min)
+#### Exercise F (estimate: 10 min)
 
 :::note Exercise
 
@@ -347,7 +347,7 @@ function MentorsList() {
 
 Here we are using `Array.map` to turn an array of strings into an array of components.
 
-#### Exercise G (estimate: 10 min)
+#### Exercise G (estimate: 20 min)
 
 :::note Exercise
 
@@ -419,7 +419,7 @@ export default Greeting;
 
 The convention is to name component files exactly the same as the component (including the capital letter).
 
-#### Exercise H (estimate: 5 min)
+#### Exercise H (estimate: 10 min)
 
 :::note Exercise
 
@@ -485,7 +485,7 @@ Or calculating new values:
 <div>{props.age + 1}</div>
 ```
 
-#### Exercise I (estimate: 10 min)
+#### Exercise I (estimate: 20 min)
 
 :::note Exercise
 
