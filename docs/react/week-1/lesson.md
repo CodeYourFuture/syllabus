@@ -81,20 +81,14 @@ First, lets recap how we could do this using "vanilla" JS ([interactive version]
 ```js
 let divNode = document.createElement("div");
 divNode.innerText = "Hello World";
-
-let rootElement = document.querySelector("#root");
-rootElement.appendChild(divNode);
 ```
 
-Now let's convert to using React ([interactive version](https://jsbin.com/calaqitede/1/edit?html,output)):
+Now let's convert to using React ([interactive version](https://jsbin.com/jagugot/edit?html,output)):
 
 ```js
 const element = React.createElement("div", {
   children: "Hello World",
 });
-
-const rootElement = document.querySelector("#root");
-ReactDOM.render(element, rootElement);
 ```
 
 ## JSX
@@ -103,13 +97,10 @@ As you can see, React is already helping us a bit by cleaning up some of the ver
 
 JSX is a simple syntax _sugar_ that looks like HTML, but is actually converted to the `React.createElement` function when you run it.
 
-Using JSX ([interactive version](https://jsbin.com/gabujocuda/edit?html,output)):
+Using JSX ([interactive version](https://jsbin.com/rideris/edit?html,output)):
 
 ```js
 const element = <div>Hello World</div>;
-
-const rootElement = document.querySelector("#root");
-ReactDOM.render(element, rootElement);
 ```
 
 As you can see, this is much easier to read than both the straight `React.createElement` API and the vanilla JS API. Most people using React use JSX to write their components.
