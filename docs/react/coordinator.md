@@ -6,9 +6,9 @@ sidebar_label: Module Coordinator
 
 ## 1) Preparation
 
-This module has some preparation work that should be set as coursework before the module starts
+This module has some preparation work that should be set as coursework **before the module starts**, so that you do not waste time in the lesson.
 
-You can find the preparation work [here](./prep)
+You can find the preparation work [here](./prep).
 
 ## 2) Assessment
 

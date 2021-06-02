@@ -4,11 +4,12 @@ title: Overview
 sidebar_label: Overview
 ---
 
-| Week                                             | Content                     | Homework                                                    |
-| ------------------------------------------------ | --------------------------- | ----------------------------------------------------------- |
-| [Week 1](./week-1/lesson.md)                     | React 101                   | [React 101 Homework](./week-1/lesson.md#homework)           |
-| [Week 2](./week-2/lesson.md)                     | Reacting to Changes         | [Reacting to Changes Homework](./week-2/lesson.md#homework) |
-| [Week 3](./week-3/lesson.md)                     | Fetching Data               | [Fetching Data Homework](./week-3/lesson.md#homework)       |
+| Week                                             | Content                     | Coursework                   |
+| ------------------------------------------------ | --------------------------- | ---------------------------- |
+| **Before the module starts**                     | Preparation                 | [Link](./prep)               |
+| [Week 1](./week-1/lesson.md)                     | React 101                   | [Link](./week-1/homework.md) |
+| [Week 2](./week-2/lesson.md)                     | Reacting to Changes         | [Link](./week-2/homework.md) |
+| [Week 3](./week-3/lesson.md)                     | Fetching Data               | [Link](./week-3/homework.md) |
 | [React Router](./react-router/lesson.md)         | Routing (optional)          |
 | [Class Components](./class-components/lesson.md) | Class Components (optional) |
 
@@ -43,8 +44,6 @@ For advanced trainees, some further objectives would be:
 
 These topics are considered out-of-scope:
 
-- Object-Orientated JavaScript (classes/inheritance)
-  - Details of `extends`/`super()` are not necessary to use React (they are an implementation detail of `Component` class), so don't go out of the way to teach this
 - Redux
   - Want to focus on learning and practising the basics of React, before introducing new concepts
   - Learning Redux will be easier once confident with React
@@ -53,4 +52,4 @@ These topics are considered out-of-scope:
 
 ## Coordination
 
-Coordination details for this module can be found on the [Module Coordinator's page](./coordi
+Coordination details for this module can be found on the [Module Coordinator's page](./coordinator.md).
