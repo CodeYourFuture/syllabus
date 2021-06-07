@@ -42,10 +42,10 @@ Explanation of the aims of the topic and any advice on how this can be delivered
 
 ### What worked well in the past
 
-- What the trainees have enjoyed and go the most out of
+- What the trainees have enjoyed and got the most out of
 
 ### What hasn't worked well in the past
 
-- Any common gotchas to watch our for
+- Any common gotchas to watch out for
 - Any technical pitfalls that the trainees fall into
-- The areas that it's best to spend you time in the lesson
+- The best areas to spend your lesson time on
