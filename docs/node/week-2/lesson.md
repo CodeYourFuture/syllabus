@@ -87,8 +87,7 @@ const albumsData = [
       "http://is1.mzstatic.com/image/thumb/Music20/v4/23/c1/9e/23c19e53-783f-ae47-7212-03cc9998bd84/source/100x100bb.jpg",
     releaseDate: "2016-04-25T07:00:00Z",
     primaryGenreName: "Pop",
-    url:
-      "https://www.youtube.com/embed/PeonBmeFR8o?rel=0&amp;controls=0&amp;showinfo=0",
+    url: "https://www.youtube.com/embed/PeonBmeFR8o?rel=0&amp;controls=0&amp;showinfo=0",
   },
   {
     albumId: "11",
@@ -98,8 +97,7 @@ const albumsData = [
       "http://is1.mzstatic.com/image/thumb/Music/v4/18/93/6d/18936d85-8f6b-7597-87ef-62c4c5211298/source/100x100bb.jpg",
     releaseDate: "2003-06-24T07:00:00Z",
     primaryGenreName: "Pop",
-    url:
-      "https://www.youtube.com/embed/ViwtNLUqkMY?rel=0&amp;controls=0&amp;showinfo=0",
+    url: "https://www.youtube.com/embed/ViwtNLUqkMY?rel=0&amp;controls=0&amp;showinfo=0",
   },
 ];
 
@@ -128,9 +126,9 @@ Change a quote API server to allow `GET`ting a quote according to the given ID.
 
 The id should be given in the URL structure like this:
 
-> /quotes/2
+> /quotes/242342
 
-You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start). This is because this project has quotes with IDs.
+You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-ids-start). This is because this project has quotes with IDs.
 
 When you remix the starting project, immediately rename it as your own.
 
@@ -140,9 +138,9 @@ When you remix the starting project, immediately rename it as your own.
 
 Sometimes, we do not want to _list_ all the information in one request, maybe we only want to get the information related to a single album. Imagine if we have a page to display the details of one album, we could call the server and get all albums then filter the one we need _client-side_, but would it not be more effective to tell the server to just return the one album we are interested in?
 
-Let us add a new endpoint to return only a single album `GET /albums/:albumId`. In this case, _albumId_ will tell us what album we can return so the call will be something like `GET /albums/10` and that will return the album with that has _albumId_ 10 ()
+Let us add a new endpoint to return only a single album `GET /albums/:albumId`. In this case, _albumId_ will tell us what album we can return so the call will be something like `GET /albums/242342` and that will return the album with that has _albumId_ 242342.
 
-This endpoint has something different. The endpoint `/albums/:albumId` has a _dynamic_ part, the _albumId_ will vary depending on what the client send. If we call `/albums/12` then albumId is 12, if we call `/albums/10` then we will return the album with albumId 10 and so on.
+This endpoint has something different. The endpoint `/albums/:albumId` has a _dynamic_ part, the _albumId_ will vary depending on what the client send. If we call `/albums/424252` then albumId is 424252, if we call `/albums/242342` then we will return the album with albumId 242342 and so on.
 
 How can we achieve that using `express` - `req.params` will have the value of
 
