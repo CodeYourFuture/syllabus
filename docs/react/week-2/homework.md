@@ -27,7 +27,3 @@ Some other suitable projects for you to work on right now are:
 - [Baby Names Picker - Level 2](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker)
 - [Countries - Level 2](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries)
 - [Job Listing - Level 2](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing)
-
-## 4) Prepare for the next class
-
-TODO
