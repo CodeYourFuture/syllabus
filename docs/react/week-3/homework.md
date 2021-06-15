@@ -6,37 +6,27 @@ sidebar_label: Coursework
 
 ## 1) In Class Exercises
 
-If you haven't already, complete the in-class exercises on your `pokedex` app
+If you haven't already, complete the in-class exercises on your `pokedex` app.
 
 ## 2) CYF Hotel (5 hours)
 
-Complete all of the Lesson 3 exercises in the `cyf-hotel-react` project
+Complete all of the Lesson 3 exercises in the `cyf-hotel-react` project: https://github.com/CodeYourFuture/cyf-hotel-react#lesson-3.
 
-https://github.com/CodeYourFuture/cyf-hotel-react#lesson-3
+You can also try to complete the Stretch Goal exercises in the `cyf-hotel-react` homework: https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals.
 
-Try to complete the Stretch Goal exercises in the `cyf-hotel-react` homework
+## 3) Challenges (15 hours+) (Optional, but recommended)
 
-https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals
+The **best** way to get better at React is to practice by building small projects.
 
-## 3) Challenges (15 hours+)
+Continue to work on your projects from previous weeks. Complete as many of the projects as you can before the next lesson.
 
-The key way to get better at React is to build lots of small projects and build up your knowledge.
+- [Baby Names Picker - All Levels](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker)
+- [Countries - All levels](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries)
+- [Job Listing - All levels](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing)
 
-You can see a full list of the challenges [here](https://github.com/CodeYourFuture/cyf-react-challenges/)
+If you want to work on a new project you could start working on:
 
-Continue to work on your projects from previous weeks. Completes as many of the projects as you can before the next lesson.
-
-- Baby Names Picker - All Levels
-  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker
-- Countries - All levels
-  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries
-- Job Listing - All levels
-  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-job-listing
-
-If you want to work on a new project you could start working on
-
-- TFL Lines Challenge
-  - https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-tfl-lines
+- [TFL Lines Challenge](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-tfl-lines)
 
 ## 4) Prepare for the next class
 

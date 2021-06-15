@@ -173,7 +173,7 @@ The timeline of this component is now what we wanted at the start:
 
 You might notice that even though we re-rendered, we did **not** run the `useEffect` a second time. The way we've set it up, `useEffect` will only run after the **first** time a component renders. We'll look at controlling this in more detail later.
 
-#### Exercise A (estimate: 15 min)
+#### Exercise A (estimate: 20 min)
 
 :::note Exercise
 
@@ -236,7 +236,7 @@ return (
 
 You'll notice in the `&&` example above, we do not render a 'Loading...' message, because there is no alternative output (no `else` case).
 
-#### Exercise B (estimate: 5 min)
+#### Exercise B (estimate: 10 min)
 
 :::note Exercise
 
@@ -422,7 +422,7 @@ Phew! That was a lot of work just to render an image! But we're not quite done y
   }
 ```
 
-#### Exercise D (estimate: 5 min)
+#### Exercise D (estimate: 10 min)
 
 :::note Exercise
 
@@ -462,7 +462,7 @@ Here's a diagram showing when the `useEffect` callback will be run:
 
 To help you understand this better, try "playing computer" again, but this time think about what happens when we use `[props.photoDate]` for the dependencies argument. Think carefully about what changes with step 6 after we click the 2020 button.
 
-#### Exercise E (estimate: 10 min)
+#### Exercise E (estimate: 15 min)
 
 :::note Exercise
 
@@ -527,7 +527,7 @@ If we didn't call `setReminder` in the `handleChange` function, then the input's
 
 In addition, instead of just saving the value of the input in the state, we could have also transformed the string before we set it with `setReminder`, for example by calling `toUpperCase()` on the string.
 
-#### Exercise F (estimate: 10 min)
+#### Exercise F (estimate: 15 min)
 
 :::note Exercise
 
@@ -604,7 +604,7 @@ function CreateAccountForm() {
 
 We now have three different inputs named `username`, `email` and `password`. There is a corresponding state variable and change handler function for each value.
 
-#### Exercise G (estimate: 10 min)
+#### Exercise G (estimate: 15 min)
 
 :::note Exercise
 

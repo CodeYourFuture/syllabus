@@ -114,7 +114,7 @@ Notice that just like with `addEventListener` above, we pass the function **refe
 Think of it like this: we give the event handler to React, so that React can call our function when the element is clicked.
 :::
 
-#### Exercise A (estimate: 10 min)
+#### Exercise A (estimate: 15 min)
 
 :::note Exercise
 
@@ -165,7 +165,7 @@ function FancyButton(props) {
 
 Notice how this is very similar to the example above where we created the handler and used it in the same component? The only difference here is that we are passing the function reference through a prop. We could even pass it through multiple components as props.
 
-#### Exercise B (estimate: 10 min)
+#### Exercise B (estimate: 15 min)
 
 :::note Exercise
 
@@ -304,7 +304,7 @@ const [username, setUsername] = useState("chris");
 const [unreadMessages, setUnreadMessages] = useState(5);
 ```
 
-#### Exercise C (estimate: 5 min)
+#### Exercise C (estimate: 10 min)
 
 :::note Exercise
 
@@ -366,7 +366,7 @@ function Counter() {
 
 On the second render, `count` is now set to 1. Every time we click the button, the whole cycle starts again.
 
-#### Exercise D (estimate: 15 min)
+#### Exercise D (estimate: 20 min)
 
 :::note Exercise
 
@@ -455,7 +455,7 @@ Don't use the array `push` method with state. Instead use the array `concat` met
 
 The `list.push` method won't work here, as this method _mutates_ the existing array. React requires a completely new array to be set as the new state, otherwise it doesn't realise that the value has changed. The `concat` method works because it copies the whole existing array to a brand new array before it adds the new item.
 
-#### Exercise E (estimate: 10 min)
+#### Exercise E (estimate: 15 min)
 
 :::note Exercise
 
@@ -541,7 +541,7 @@ If we were allowed to change props, React doesn't have a way of telling that we'
 
 From this we can get a clue about when to use state. If data _changes over time_, then we need to use state. My rule of thumb is that I always use props until I know that it needs to change over time, then I convert it to state.
 
-#### Exercise F (estimate: 5 min)
+#### Exercise F (estimate: 10 min)
 
 :::note Exercise
 
