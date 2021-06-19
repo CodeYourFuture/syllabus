@@ -356,8 +356,8 @@ The following example demonstrates some of the attributes we can use.
   <label for="disabled">Disabled input</label>
   <input id="disabled" type="text" value="You cannot click me" disabled>
   
-  <label for="disabled">Read-only input</label>
-  <input id="disabled" type="text" value="You can only read my value" readonly>
+  <label for="read-only">Read-only input</label>
+  <input id="read-only" type="text" value="You can only read my value" readonly>
   
   <button>Submit</button>
 </form>
@@ -366,8 +366,8 @@ The following example demonstrates some of the attributes we can use.
 :::note Interactive example
 <form style={{border:'1px solid black', padding:'0.5rem'}} onSubmit={(event) => {event.preventDefault(); alert('Form submit success!\n\nThe form does not have any invalid values.')}}>
   <p>
-    <label for="username" style={{display:'block'}}>Username that must be between 3 and 8 characters</label>
-    <input id="username" type="text" minlength="3" maxlength="8" required/>
+    <label for="username-2" style={{display:'block'}}>Username that must be between 3 and 8 characters</label>
+    <input id="username-2" type="text" minlength="3" maxlength="8" required/>
   </p>
   
   <p>
@@ -391,8 +391,8 @@ The following example demonstrates some of the attributes we can use.
   </p>
   
   <p>
-    <label for="disabled" style={{display:'block'}}>Read-only input</label>
-    <input id="disabled" type="text" value="You cannot edit me" readonly/>
+    <label for="read-only" style={{display:'block'}}>Read-only input</label>
+    <input id="read-only" type="text" value="You cannot edit me" readonly/>
   </p>
   
   <button>Submit</button>
@@ -458,8 +458,8 @@ the browser will send the `q=codeyourfuture` key-value pair to `https://duckduck
 ```
 :::note Interactive example
 <form action="https://duckduckgo.com" method="get">
-  <label for="search">Search</label>
-  <input id="search" type="search" name="q"/>
+  <label for="ddg-search">Search</label>
+  <input id="ddg-search" type="search" name="q"/>
   <button>Search DuckDuckGo</button>
 </form>
 :::
@@ -480,7 +480,8 @@ If you want to open the search results in a new tab, you can add `target="_blank
 #### Client-side form submission
 
 If we want to handle the form using JavaScript instead, we don't add `action` and `method` attributes.
-Instead, we can add an `onsubmit` attribute with a value that is a function name or expression to execute JavaScript.
+Instead, we can use [`addEventListener`](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) to execute JavaScript on submission of the form.
+Additionally, we can use [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData) or the [Constraint Validation API](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript) to help us when working with forms.
 
 However, as we haven't covered JavaScript yet, don't worry about this right now.
 We'll cover it later in the course.
