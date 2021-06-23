@@ -4,6 +4,72 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 9/6/21
+
+###Present
+Chris, Ben, Mitchell, Sally, Greg
+
+Welcome to Ben
+
+###Actions:
+
+- check in notes from last time and followup on any actions
+- @Chris to write up why students are struggling
+- @all create issue to tell them "do codewars" in the syllabus
+- Raise wider discussion of modularisation - how far do we want to take the concept.
+- @Greg bring up teaching unit testing for Glasgow
+- @Chris invite Kerim and Craig 
+
+### Unit testing
+
+- Mitchell getting PR ready for unit testing
+
+### Proposed renaming/refocusing of Javascript
+
+- Sally - maybe should focus more on modularisation so that we can teach (inside module and across module) in whatever order
+- Mitchell - should we make explicit the dependencies/place other things earlier
+- (side discussion on scope: would like to bring it in early, groundwork can be laid in css)
+- Sally: could have teams that are module focused to "garden" the individual modules
+  - syllabus team should figure out how to support people in doing this
+- Greg: As well as dependencies: document reasoning 
+  - Sally: would also be good to have better communciation/collaboration between modules
+- Ben: at school of code, similar issues - making things reorderable
+- Greg: concern that "Basics of Javascript" makes it a dumping ground for everything that is conceptually "basic", even if we could delay teaching it
+
+### Boxtribute work-study internship
+
+- Chris has already pushed back on the technology list
+- Originally they wanted to set up a code school and Chris encouraged them to pay interns instead
+- Could we get clarification on how they intend to support students in the self-study
+- Some companies that offer similar programmes also pay a living wage
+- CYF probably shouldn’t be encouraging students to take positions that are poorly remunerated
+
+### Codewars
+
+- Sally has created a cyf collection https://www.codewars.com/users/CodeYourFuture/authored_collections 
+- Graduates who are struggling have not been doing the suggested work
+- Very little mandatory code katas in the curriculum
+- Sally: by JS3, everyone should have level 6 (means completing 20 entry-level kata)
+- Could we introduce the principle of the a daily standup to be done by a slackbot
+ - posting in the void might feel unfun (and seeing that other people don’t do it, so I don’t have to)
+- Would be good to demo that as part of the weekly class
+- Target 300 so that you can make your own kata (careful to not have them reviewed as trivial katas get ripped to shreds)
+- Kata: have some katas to deliberately revisit
+
+### Node re-ordering discussion thread
+
+- should have that conversation
+
+### 3blue1brown
+
+- Mathematical animation engine
+- would be really cool to have something similar based on coding
+
+### Stratification in groups
+
+- should we find out the pros and cons? is it something to formalise?
+- more driven by necessity in London
+
 ## 26/05/2021
 Attendance: Chris, Daniel, Greg, Mitch, Sally, Ali, Matt
 
