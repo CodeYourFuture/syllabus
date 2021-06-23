@@ -6,12 +6,12 @@ sidebar_label: Team Minutes
 
 ## 9/6/21
 
-###Present
+### Present
 Chris, Ben, Mitchell, Sally, Greg
 
 Welcome to Ben
 
-###Actions:
+### Actions:
 
 - check in notes from last time and followup on any actions
 - @Chris to write up why students are struggling
