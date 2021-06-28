@@ -408,6 +408,8 @@ function incrementCount() {
 
 When we pass a callback function to `setCount`, React will pass us the **latest version** of the count state. In this example, the variables are named `c1` and `c2` to make it clear that they are different from the `count` variable. Now if we add `console.log(c1)` and `console.log(c2)` then we can see that they get the correct values.
 
+Reminder: `c1` and `c2` are just arbitrary names we pick to be the name of the parameter to the function we're passing - we could have called them both `c`, and everything would still work - they're not related to each other, as they are defined in different scopes.
+
 :::tip
 If you need to calculate the new state based on the old state, then use the callback function to make sure the variable is up-to-date.
 :::
