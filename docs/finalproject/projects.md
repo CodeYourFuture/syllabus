@@ -4,6 +4,10 @@ title: Project Briefings
 sidebar_label: Project Briefings
 ---
 
+New projects:
+- [Development Planner](https://docs.google.com/document/d/1cRTR-5_sOcocnrWDV3WRE7o_VqODEVUPguxH_gQ0W0U/edit?usp=sharing)
+- [Energise!](https://docs.google.com/document/d/1DFAus1otq8Ld2lebN3GnEqD8KIaCM5zYOYEZe7uUc_Q/edit?usp=sharing)
+
 Here are some ideas for projects from previous years:
 
 - [Glossary](https://docs.google.com/document/d/1MxlmMCq2ddsLjghlNumG-kMKruglYomirifBfuU_XHU/edit?usp=sharing)
