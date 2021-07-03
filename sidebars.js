@@ -328,4 +328,11 @@ module.exports = {
       "workshops/accessibility/a11y-for-devs-basic",
     ],
   },
+  Interviews: {
+    Overview: ["workshops/interviews/index"],
+    "Technical Interviews": [
+      "workshops/interviews/technical/workshop",
+      "workshops/interviews/technical/sample-questions",
+    ],
+  },
 };
