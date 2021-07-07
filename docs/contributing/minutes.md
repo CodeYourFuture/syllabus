@@ -4,6 +4,132 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2021-07-07
+
+### Present
+Sally, Chris, Greg, Ali, Daniel, Philip Fol
+
+### Actions:
+
+* Everyone: Take a look at Codility, get a feel, form opinions.
+* Chris: Create a Codility test for the end of JS2 Week 1.
+* Think about what are our crucial stages for getting feedback on how trainees are doing.
+* Sally: Work out how to convey (probably to buddies, maybe more broadly too) that we teach somewhat functional programming, and accordingly don't lean much into things like OOP.
+* Sally: Try to re-brand optional coursework exercises. Maybe as "stretch", or maybe just re-designate them as all mandatory.
+  * Sally: Also identify for buddles what the most important concept/exercise is the most important each week.
+* Chris: Arrange a separate testing-focused meeting. Some agenda items:
+  * Module systems.
+  * Do we want tests for React + Node + DBs?
+  * GitHub Actions to run tests.
+* Review [Chris's PR](https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2/pull/75)
+* Take a look at [Daniel's draft tech interview workshop](https://github.com/CodeYourFuture/syllabus/pull/293)
+* Follow up with Codility to see if they can integrate with Google Classroom or similar for sending out assessments to groups.
+
+### Catch-up from last time
+
+* Continue TDD - on-going
+* Think about exit criteria
+
+### Membership
+
+Welcome Philip Fol! Matthew will be stepping back for a bit.
+
+### Codility
+
+We're having a partnership with Codility - tech test platform (we're pretty sure they're giving it to us for free).
+
+Codility is a system for screening out people who can't code. Target is filtering away the people who can't code from thousands of candidates. That isn't exactly our aim.
+
+Had a sales call - Sally has a recording if anyone's interested, but it's just a tour of the interface.
+
+We got a bunch of trainees to do an "HTML Exit" test as an example.
+
+Tracks time spent, requirements completeness. Can replay their test-taking step by step - mostly not needed, but can dig in when things go wrong.
+
+They have an API for exporting details if we need.
+
+Copying and pasting is allowed and works fine.
+
+#### Positives
+
+* They have an API
+* They produce stats at scale
+* Can get a good at-a-glance view of how trainees are doing
+* Flexible on the backend, e.g. we could allow re-attempts, give more time, etc.
+
+#### Downsides
+
+* Making a test depends on their pre-canned tests (split up by role) and/or libraries to build them up.
+* Most of the pre-canned stuff is probably better targeted at graduates than people during the course.
+* Blunt tool. Need to work out how to make it work for us and how to not just be more work for us.
+* Quality of pre-canned tests - Sally looked at 3 HTML tests - one 5-minute was set as a 40-minute test, one was fine, and one was just incorrect in its expectations.
+* Vendor lock-in.
+* The exercise taker can't write their own tests - can only run the pre-supplied ones.
+* There's no versioning in the tests.
+
+#### How do you invite them to a challenge?
+
+Manually by email in the interface, or by API. Can also create public links but they're anonymous - struggle to track and get cohort information from it.
+
+We could maybe ask them to integrate better with e.g. Google Classroom, but unlikely to get much traction.
+
+#### What are our concerns RE false positives/negatives
+
+Much more likely people will fail when they should pass than pass when they should fail.
+
+Trainees could plausibly cheat pretty easily if they wanted to.
+
+#### What stages would we use this for?
+
+End of module assessments. Possibly entry criteria assessment for modules too.
+
+Have an intense desire from cities to be able to see at a glance who needs extra support which isn't a large complicated spreadsheet. Also a desire to not spend so much time doing rote marking and automate that as much as possible.
+
+Goal is to de-emphasise time spent marking coursework - push the trainees to own their coursework experience, and rely on more formal/structured assessments for progress tracking.
+
+#### Concerns
+
+* Vendor lock-in (Sally also has an account with https://www.qualified.io/ now)
+* Watch how much time we sink into the proof of concept.
+* How to introduce tests - if we spring them on people it's surprising, if we warn them in advance it's daunting.
+
+#### How are tests written?
+
+Three styles - kata-style, multiple choice, long-form written answer, and whiteboard coding style.
+
+#### Do we want to tell the trainees their results?
+
+Lots of down-sides to doing so:
+* For trainees lacking confidence getting a poor score even though they've done pretty well can knock confidence.
+* For trainees struggling, if they score really highly but it's not representative, that's a very hard conversation.
+
+#### Next steps
+
+* Syllabus: Take a look, get a feel, form opinions. Maybe do this with a 15-minute in-class experience to avoid a large lead-time.
+* Work out our crucial stages for getting feedback on how trainees are doing.
+
+### Cohorts 
+
+Many people have been thinking in different ways about how we deal with the tension between having a cohort which forms a community, and being flexible around how long individuals take to learn things and advance.
+
+### On-boarding volunteers and buddies
+
+Want to decentralise this a bit - make it less Sally's job and more each city's coordinator.
+
+### Differentiating factors between our trainees
+
+Very clear that the trainees who don't do the optional exercises don't do well.
+
+Part of that is probably because we don't communicate how to get support well enough.
+
+Why don't we set all of our exercises as mandatory? Maybe we should...
+
+We don't have a great story for how to catch people up when they're behind.
+
+We need to make the modules more modular, and make better off-ramps.
+
+We also need to work out how to bring the product people more into the fold of the syllabus - this is a big thorny problem!
+
 ## 9/6/21
 
 ### Present
