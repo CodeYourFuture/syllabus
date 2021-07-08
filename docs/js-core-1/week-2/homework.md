@@ -113,7 +113,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 7) (Optional) Extra JavaScript Challenges
+## 7) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
