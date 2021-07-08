@@ -98,18 +98,27 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) (Stretch) Extra JavaScript Challenges
+## 6) Codewars (1.5 hours)
+
+1. Join Codewars: www.codewars.com/r/3xvPTg
+2. Read through this tutorial, to help you understand how to use Codewars: https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
+3. Link your account with Github, and join the CodeYourFuture clan, so we can find you on the clan board here: https://www.codewars.com/users/CodeYourFuture/allies 
+4. Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the collection for JS-1 Week 1 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
+## 7) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
-**Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+**Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 7) (Stretch) Even more JavaScript Challenges
+## 8) (Stretch) Even more JavaScript Challenges
 
 Completed all of the addition challenges in the coursework? We have more challenges that you can find here
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges
 
-Make sure you share the challenges that you're working on in Slack to see if other people are also working on it. If you have time, try paired programming to solve these challenges!
+Make sure you share the challenges that you're working on in Slack to see if other people are also working on it. Try paired programming to solve these challenges!
