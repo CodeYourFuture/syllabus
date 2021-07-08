@@ -61,24 +61,12 @@ If you get stuck, reach out to your classmates on Slack for help!
 2. Modern JavaScript Tutorial #5 - Objects
    - https://www.youtube.com/watch?v=X0ipw1k7ygU
 
-## 5) CodeWars (4 hours)
+## 5) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-Complete the following CodeWars exercises. Go to the webpages below and follow the instructions there.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
 
-Click "ATTEMPT" to test your solution.
-
-Exercises:
-
-- Training JS #5: Basic data types--Object
-  - https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript
-- Welcome!
-  - https://www.codewars.com/kata/welcome/train/javascript
-- Crash Override
-  - https://www.codewars.com/kata/crash-override/train/javascript
-- Job Matching #1
-  - https://www.codewars.com/kata/56c22c5ae8b139416c00175d/train/javascript
-- Split the Bill
-  - https://www.codewars.com/kata/5641275f07335295f10000d0/train/javascript
+Find the Collection for JS2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
 ## 6) JavaScript Challenges (3 hours)
 
@@ -97,18 +85,3 @@ This week we'll be introducing you to Git on the Command Line. You can find thes
 https://syllabus.codeyourfuture.io/git/cli/homework
 
 _Instructor Note: Please open this link and copy each task one by one to Google Classroom_
-
-## 8) (Optional) CodeWars Exercises
-
-Complete the following CodeWars exercises. Go to the webpages below and follow the instructions there.
-
-Click "ATTEMPT" to test your solution.
-
-Here are some exercises to get your started:
-
-- Fix my Method
-  - https://www.codewars.com/kata/558710234f02dcc4a8000005)
-- Regular Ball Super Ball
-  - https://www.codewars.com/kata/53f0f358b9cb376eca001079/train/javascript)
-
-Practicing these types of challenges can be a really good way for you to improve your programming skills. Choose a few more of a similar difficultly to continue to improve.
