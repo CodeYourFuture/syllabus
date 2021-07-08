@@ -68,7 +68,7 @@ https://www.freecodecamp.org/learn/front-end-libraries/react/
 - Learn About Self-Closing JSX Tags
 - Create a Stateless Functional Component
 
-## 6) Challenges (10 hours+) (Optional, but recommended)
+## 6) Challenges (10 hours+)
 
 The **best** way to get better at React is to practice by building small projects.
 
@@ -78,7 +78,7 @@ We recommend that you attempt the following challenge:
 
 - [High Score Table - Level 1](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-high-score-tables)
 
-Some other suitable projects for you to work on right now are:
+Stretch Goals: Some other suitable projects for you to work on right now are:
 
 - [Baby Names Picker - Level 1](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-baby-name-picker)
 - [Countries - Level 1](https://github.com/CodeYourFuture/cyf-react-challenges/tree/master/challenge-countries)
