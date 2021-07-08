@@ -14,7 +14,7 @@ Complete all of the Lesson 3 exercises in the `cyf-hotel-react` project: https:/
 
 You can also try to complete the Stretch Goal exercises in the `cyf-hotel-react` homework: https://github.com/CodeYourFuture/cyf-hotel-react#stretch-goals.
 
-## 3) Challenges (15 hours+) (Optional, but recommended)
+## 3) Challenges (15 hours+) (Recommended)
 
 The **best** way to get better at React is to practice by building small projects.
 
