@@ -113,10 +113,17 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 7) (Stretch) Extra JavaScript Challenges
+## 7) Codewars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
+
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the collection for JS-1 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
+## 8) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
-**Beware:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+**Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
