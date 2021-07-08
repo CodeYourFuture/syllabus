@@ -95,3 +95,10 @@ Make sure you mark at least two other pull requests. It's important that you see
 Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
+
+## 6) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
+
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the Collection for JS-3 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
