@@ -112,4 +112,5 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-3 Week 1 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-#### 6a) Start mentoring others in the #cyf-codewars channel. Remember to follow the channel rules.
+#### 6a) Start mentoring others in the #cyf-codewars channel. 
+Remember to follow the channel rules. We don't give solutions in Codewars.
