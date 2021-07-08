@@ -84,3 +84,11 @@ https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/giving-feedback
 As always - you should use use the code style guide to recommend better coding practices to your colleagues
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
+
+## 6) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
+
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
