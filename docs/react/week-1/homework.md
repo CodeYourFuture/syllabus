@@ -30,7 +30,7 @@ https://github.com/CodeYourFuture/TV-Show-DOM-Project-Solution
 
 ## 3) In Class Exercises
 
-If you haven't already, complete the in-class exercises on your `pokedex` app
+If you haven't already, complete the in-class exercises on your `pokedex` app. 
 
 ## 4) CYF Hotel (7 hours)
 
@@ -86,7 +86,12 @@ Stretch Goals: Some other suitable projects for you to work on right now are:
 
 You should complete these challenges in the order they are in above.
 
-## 7) IronHack Labs Practice (Optional)
+## 6) Codewars (1 hour)
+Do your usual three kata and then...
+1. Find the pinned suggestions thread in the #cyf-codewars
+2. Suggest a kata, or upvote one, to add to the syllabus
+
+## 7) IronHack Labs Practice (Stretch)
 
 If you want more practice with the basics of making React components and passing props,
 
