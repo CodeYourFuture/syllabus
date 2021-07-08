@@ -41,4 +41,4 @@ If you have problems installing Create React App then you **must** post on your 
    - C. What does he say is the benefit of using JSX?
    - D. What makes React fast?
 
-3. Once you have answered the questions, submit your answers on Slack. This will help you teaches see what level you're at before you start the module.
+3. Once you have answered the questions, submit your answers on Slack. This will help your teachers see what level you're at before you start the module.
