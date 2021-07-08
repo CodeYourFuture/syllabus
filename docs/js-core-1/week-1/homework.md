@@ -98,7 +98,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) (Optional) Extra JavaScript Challenges
+## 6) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
@@ -106,7 +106,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 7) (Optional) Even more JavaScript Challenges
+## 7) (Stretch) Even more JavaScript Challenges
 
 Completed all of the addition challenges in the coursework? We have more challenges that you can find here
 
