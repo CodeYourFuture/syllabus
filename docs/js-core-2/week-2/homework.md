@@ -85,24 +85,14 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) (Optional) Practice CodeWars (3 hours)
+## 6) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-Complete the following CodeWars on JavaScript concepts you learned in previous weeks.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
 
-- Is it even?
-  - https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/javascript
-- Will you make it?
-  - https://www.codewars.com/kata/5861d28f124b35723e00005e/train/javascript
-- Removing elements
-  - https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
-- Grasshopper - Summation
-  - https://www.codewars.com/kata/55d24f55d7dd296eb9000030/train/javascript
-- Find the Difference in Age between Oldest and Youngest Family Members
-  - https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/train/javascript
-- Filter out the Geese
-  - https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7/train/javascript
+Find the Collection for JS-2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) (Optional) Extra Challenges
+## 7) (Stretch) Extra Challenges
 
 Have you completed all of the above homework?
 
