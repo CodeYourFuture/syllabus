@@ -87,13 +87,20 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 5) (Optional) Add extra features to your Challenges (5 hours)
+## 5) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
+
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the Collection for JS-2 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
+## 6) (Stretch) Add extra features to your Challenges (5 hours)
 
 In the "Extra" folder of this repository you will find extra tasks for you to complete.
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
-## 6) (Optional) Codeacademy Course
+## 7) (Stretch) Codeacademy Course
 
 The end of this module is a really good opportunity to cover everything we've done over the last six weeks.
 
