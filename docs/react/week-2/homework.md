@@ -12,7 +12,7 @@ If you haven't already, complete the in-class exercises on your `pokedex` app.
 
 Complete all of the Lesson 2 exercises in the `cyf-hotel-react` project: https://github.com/CodeYourFuture/cyf-hotel-react#lesson-2.
 
-## 3) Challenges (10 hours+) (Optional, but recommended)
+## 3) Challenges (10 hours+) 
 
 The **best** way to get better at React is to practice by building small projects.
 
