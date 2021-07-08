@@ -86,12 +86,12 @@ Stretch Goals: Some other suitable projects for you to work on right now are:
 
 You should complete these challenges in the order they are in above.
 
-## 6) Codewars (1 hour)
+## 7) Codewars (1 hour)
 Do your usual three kata and then...
 1. Find the pinned suggestions thread in the #cyf-codewars
 2. Suggest a kata, or upvote one, to add to the syllabus
 
-## 7) IronHack Labs Practice (Stretch)
+## 8) IronHack Labs Practice (Stretch)
 
 If you want more practice with the basics of making React components and passing props,
 
@@ -105,7 +105,7 @@ Notes:
 - In "Iteration 6" just pass the prop as normal: `<Rating rating={4.5} />`.
   - To do it as specified in the exercise would require you to use something new: "props.children".
 
-## 8) Prepare for the next class (1 hour)
+## 9) Prepare for the next class (1 hour)
 
 In our next class we'll be exploring the difference between Props vs State.
 
