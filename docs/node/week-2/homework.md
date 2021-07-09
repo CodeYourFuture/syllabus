@@ -47,8 +47,13 @@ Next class we will be presenting to each other to share what we have learnt.
 
 NOTE: Slides (or presenting from computer) is NOT allowed.
 
-## 4) (Optional) Challenges
+## 4) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-You can find additional challenges to work on here if you finish all of your homework.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the collection on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
+## 5) Challenges (Stretch)
 
 https://github.com/CodeYourFuture/cyf-node-challenges
