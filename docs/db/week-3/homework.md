@@ -23,9 +23,11 @@ https://github.com/CodeYourFuture/Full-Stack-Project-Assessment
 For this week, you should complete Level 300.
 If you finish all of Level 300, continue to Level 399
 
-## 3) CodeWars (1 hour)
-https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
+## 3) Prepare for Final Projects with Codewars (3 hours)
 
-Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+https://www.codewars.com/collections/cyf-final-projects
 
-Find the collection on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+* Before you go to Final Projects you need to be a Level 5 kyu in Codewars.
+* Before you are accepted on to a Final Project you need to complete the Final Projects collection. You must not pair on these kata.
+
+
