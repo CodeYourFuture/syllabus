@@ -26,8 +26,13 @@ To complete the coursework you should:
 2. Complete the tasks
 3. Create a pull request back to the original repository
 
-## 3) (Optional) Challenges
+## 3) CodeWars (1 hour)
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-You can find additional challenges to work on here if you finish all of your homework.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+
+Find the collection on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
+## 4) Challenges (Stretch)
 
 https://github.com/CodeYourFuture/cyf-node-challenges
