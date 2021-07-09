@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Which module(s) and week(s) does this change effect?**
+**Which module(s) and week(s) does this change affect?**
 Module(s):
 Week(s):
 
