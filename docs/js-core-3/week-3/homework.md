@@ -88,7 +88,7 @@ https://syllabus.codeyourfuture.io/guides/code-style-guide
 ## 6) CodeWars (1 hour)
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout. This week you must reach Level **6 kyu** or below.
 
 Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
