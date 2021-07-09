@@ -64,9 +64,10 @@ If you get stuck, reach out to your classmates on Slack for help!
 ## 5) CodeWars (1 hour)
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
-Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout. You must be at **level 7 kyu** or below in this week of the course.
 
 Find the Collection for JS2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+
 
 ## 6) JavaScript Challenges (3 hours)
 
