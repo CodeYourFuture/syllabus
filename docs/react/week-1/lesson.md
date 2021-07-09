@@ -76,14 +76,14 @@ Remember how annoying it was to manage the DOM yourself in [our previous lesson]
 
 Let's take a look at an example. We are going to walk through how to render a `<div>` with the text "Hello World" within it.
 
-First, lets recap how we could do this using "vanilla" JS ([interactive version](https://jsbin.com/zexiyulavu/edit?html,output)):
+How we could do this using "vanilla" JS? ([interactive version](https://jsbin.com/zexiyulavu/edit?html,output)):
 
 ```js
 let divNode = document.createElement("div");
 divNode.innerText = "Hello World";
 ```
 
-Now let's convert to using React ([interactive version](https://jsbin.com/jagugot/edit?html,output)):
+Now convert to using React ([interactive version](https://jsbin.com/jagugot/edit?html,output)):
 
 ```js
 const element = React.createElement("div", {
@@ -93,9 +93,9 @@ const element = React.createElement("div", {
 
 ## JSX
 
-As you can see, React is already helping us a bit by cleaning up some of the verbose vanilla JS APIs. However in a typical React application you would still use a _lot_ of the `React.createElement` function. To improve the developer experience the React team developed **JSX**.
+React is already helping us a bit by cleaning up some of the verbose vanilla JS APIs. However in a typical React application you would still use a _lot_ of the `React.createElement` function. To improve the developer experience the React team developed **JSX**.
 
-JSX is a simple syntax _sugar_ that looks like HTML, but is actually converted to the `React.createElement` function when you run it.
+JSX is a syntax _sugar_ that looks like HTML, but is actually converts to the `React.createElement` function when you run it.
 
 Using JSX ([interactive version](https://jsbin.com/rideris/edit?html,output)):
 
@@ -103,7 +103,7 @@ Using JSX ([interactive version](https://jsbin.com/rideris/edit?html,output)):
 const element = <div>Hello World</div>;
 ```
 
-As you can see, this is much easier to read than both the straight `React.createElement` API and the vanilla JS API. Most people using React use JSX to write their components.
+This is much easier to read than both the straight `React.createElement` API and the vanilla JS API. Most people using React use JSX to write their components.
 
 #### Exercise B (estimate: 5 min)
 
@@ -127,7 +127,7 @@ Diagram of folder layout created by create-react-app.
 
 ## React Components
 
-We looked at the beginning of the lesson at the concept of components. Now let's look at how components are made in React.
+We looked at the beginning of the lesson at the concept of components. Now look at how components are made in React.
 
 ```js
 import React from "react";
@@ -158,7 +158,7 @@ In this exercise we replace the placeholder React app with our own. It should lo
 
 <ExerciseDDemo />
 
-You should complete the following steps:
+Complete the following steps:
 
 1. In the `pokedex` React app that you just created, open the `src/App.js` file.
 2. Delete everything in the file except the line containing `export default App`. You should see an error in your terminal and in your web browser - don't panic! We're going to remake the `App` component ourselves.
@@ -173,7 +173,7 @@ You should complete the following steps:
 
 #### Component Composition
 
-A component can be combined with another component so that both are rendered. This is called _composition_ ([interactive example](https://codesandbox.io/s/0x4wonqn00)):
+You can combine a component with another component to render both. This is called _composition_ ([interactive example](https://codesandbox.io/s/0x4wonqn00)):
 
 ```js
 function Greeting() {
@@ -196,9 +196,9 @@ function HelloWorld() {
 
 In the `HelloWorld` component we are using a reference to the `Greeting` and `Mentor` components. React reads these references when rendering `HelloWorld` and so it renders the `Greeting` and `Mentor` _child_ components.
 
-We are also using some shorter syntax within the `HelloWorld` component. `<Greeting />` is just a shorter way of writing `<Greeting></Greeting>`, which is useful if we don't need to put anything inside the `Greeting` component.
+We are also using some shorter syntax within the `HelloWorld` component. `<Greeting />` is a shorter way of writing `<Greeting></Greeting>`, which is useful if we don't need to put anything inside the `Greeting` component.
 
-Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are written using a `camel case` convention and always start with an uppercase letter? And "regular DOM" components (`div`, `span`) are always lowercase? This is a convention to let you know whether you are using a "regular DOM component" or a component that you have written. When you're making your own components, you should always start them with an uppercase letter.
+Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are written using a `camel case` convention and always start with an uppercase letter. And "regular DOM" components (`div`, `span`) are always lowercase? This is a convention to let you know whether you are using a "regular DOM component" or a component that you have written. When you're making your own components, you should always start them with an uppercase letter.
 
 #### Exercise E (estimate: 10 min)
 
@@ -221,7 +221,7 @@ You should complete the following steps:
 
 #### Arrow Functions for shorter syntax
 
-Because a React component is just a function, we can also use the arrow function syntax:
+Because a React component is a function, we can also use the arrow function syntax:
 
 ```js
 const HelloWorld = () => {
@@ -256,7 +256,7 @@ const HelloWorld = () => (
 
 ```
 
-If we want to do this, we can still use arrow functions but we can't use the implicit return.
+So we will use arrow functions but we should not use the implicit return for now..
 
 #### Exercise F (estimate: 10 min)
 
@@ -271,7 +271,7 @@ In this exercise, we'll convert the Pokedex app to use arrow functions. It shoul
 
 ## Embedding JavaScript into JSX
 
-So far all of the components we have looked at haven't been able to change - they are _hard-coded_. But this doesn't make very interesting websites, we want to be able to use variables with different data. We can insert variables (and some other things) into our React components.
+So far all of the components we have looked at haven't been able to change - they are _hard-coded_. But this doesn't make very interesting websites. We want to use variables with different data. We can insert variables (and some other things) into our React components.
 
 Anything in the JSX that is inside curly braces `{}` is interpreted as a regular JavaScript _expression_. That means you can use every object or function from JavaScript that we have learned so far. Let's look at an example ([interactive example](https://codesandbox.io/s/interpolation-in-jsx-l910pqnjql)):
 
@@ -292,7 +292,7 @@ function Mentor() {
 }
 ```
 
-Now we have modified the `Mentor` component to use the `Array.join` method so that it lists several mentor's names. This also works with other JS types:
+Now we have modified the `Mentor` component to use the `Array.join` method so that it lists several mentors' names. This works with other JS types:
 
 ```js
 function Addition() {
@@ -387,11 +387,11 @@ function MentorsList() {
 }
 ```
 
-Here we have added a `key` prop to the `li` element. A documentation page explaining in more depth is in the further reading section but basically the `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which.
+Here we have added a `key` prop to the `li` element.  The `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which. A documentation page explaining in more depth is in the further reading section.
 
 ## Importing/Exporting Components
 
-To help organise your code, components can be imported and exported just like any other JavaScript code ([interactive example](https://codesandbox.io/s/1z6xozl81l)):
+Organise your code by importing and exporting components. This works in the same way as regular JavaScript import and exports. ([interactive example](https://codesandbox.io/s/1z6xozl81l)):
 
 ```js
 import Greeting from "./Greeting";
@@ -407,7 +407,7 @@ function HelloMentor() {
 }
 ```
 
-We also need to export our components if we want to use them in other files:
+We need to export our components to use them in other files:
 
 ```js
 function Greeting() {
@@ -417,7 +417,7 @@ function Greeting() {
 export default Greeting;
 ```
 
-The convention is to name component files exactly the same as the component (including the capital letter).
+Name component files exactly the same as the component (including the capital letter). Do this every time.
 
 #### Exercise H (estimate: 10 min)
 
@@ -440,13 +440,13 @@ In this exercise, we'll split the Pokedex app into separate files. It should sti
 
 What's the problem with our `HelloMentor` component above?
 
-The component `HelloMentor` is very static. What if we want to say _hello_ to a different mentor? Currently, we would have to change the code too! This is easy in our tiny application but for "real" applications this might be more difficult.
+The component `HelloMentor` is static. What if we want to say _hello_ to a different mentor? We would have to change the code too! This is easy in our tiny application but for "real" applications this might be more difficult.
 
-Instead wouldn't it be good if we could change which mentor we are saying hello to every time we render the component? So we could reuse the `HelloMentor` component for different mentor names. This is what _props_ are for.
+Instead, wouldn't it be good if we could _change_ which mentor we are saying hello to every time we render the component? We could reuse the `HelloMentor` component for different mentor names. This is what _props_ are for.
 
 ## What are Props?
 
-Props are what we use in React to pass "arguments" to components. They are very similar to arguments in functions - you can "pass" props to components, and you can use those props within a component.
+Props are what we use in React to pass "arguments" to components. They are very similar to arguments in functions. You can "pass" props to components and you can use those props within a component.
 
 First let's look at passing props to your components ([interactive example](https://codesandbox.io/s/intro-to-props-vmjy0o91m7?file=/src/HelloMentor.js)):
 
@@ -454,15 +454,15 @@ First let's look at passing props to your components ([interactive example](http
 <Mentor name="Mozafar" />
 ```
 
-As you can see props are key-value pairs, in this example the key is `name` and the value is the string `'Mozafar'`. We can pass as many props as we like to a component.
+Props are key-value pairs. In this example, the key is `name` and the value is the string `'Mozafar'`. We can pass as many props as we like to a component.
 
-We don't have to use strings, we can use any valid JavaScript data like numbers, arrays and objects. Remember that in JSX you can use curly braces `{}` to inject data that is not a string:
+We don't have to use strings; we can use any valid JavaScript data like numbers, arrays and objects. In JSX you can use curly braces `{}` to inject data that is not a string:
 
 ```js
 <Mentor age={30}>
 ```
 
-Now let's take a look at using props that we have passed to a component ([interactive example](https://codesandbox.io/s/intro-to-props-vmjy0o91m7?file=/src/Mentor.js)):
+Now look at using props that we have passed to a component ([interactive example](https://codesandbox.io/s/intro-to-props-vmjy0o91m7?file=/src/Mentor.js)):
 
 ```js
 function Mentor(props) {
@@ -471,9 +471,9 @@ function Mentor(props) {
 }
 ```
 
-React gives you access to props in the **first argument** to the component function. We can then inject props into our component using curly braces.
+React gives you access to props in the **first argument** to the component function. We can inject props into our component using curly braces.
 
-The `props` variable is just a normal object with key-value pairs that match what was passed to the component. Because it is just a variable, it can be used like any other variable. That includes injecting props into attributes:
+The `props` variable is a normal object with key-value pairs that match what was passed to the component. It is a variable and it can be used like any other variable. That includes injecting props into attributes:
 
 ```js
 <div id={"mentor-id-" + props.id}>{props.name}</div>
@@ -512,7 +512,7 @@ Inspiration & examples for this module were taken from [Kent C. Dodd's](https://
 
 ## Coursework
 
-Click [here](./homework) to view the coursework for this lesson.
+Follow to [view the coursework](./homework) for this lesson.
 
 ## Feedback
 
