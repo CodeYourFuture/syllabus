@@ -14,7 +14,7 @@ import { ExerciseGDemo } from './demos/ExerciseG.js'
 
 ---
 
-Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
+See the [Learning Objectives](./learning-objectives) for this lesson.
 
 ---
 
