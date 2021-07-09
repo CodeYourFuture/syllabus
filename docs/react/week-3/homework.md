@@ -47,3 +47,8 @@ This includes the following videos
   - https://www.youtube.com/watch?v=e4qKBkwwkNg
 - Routes with Parameters
   - https://www.youtube.com/watch?v=oMhAd864bBc
+
+5) CodeWars (1 hour)#
+https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
+
+Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout. This week you must choose your own kata, based on what you know you need to practice.
