@@ -87,6 +87,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "SallyMcGrath",
+      "name": "Sally McGrath",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42203406?v=4",
+      "profile": "http://codeyourfuture.io/",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
