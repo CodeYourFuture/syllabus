@@ -102,3 +102,9 @@ https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#
 If this is your first time using Visual Studio code, watch this video here
 
 https://www.youtube.com/watch?v=S320N3sxinE
+
+## 8) Create a CYF folder on your hard drive (5 mins)
+
+If you have not done so already, create a CYF folder on your hard drive in your home directory or top level directory.
+
+Clone all your repos and _always do all your work in this folder_. Create subfolders inside the CYF directory for your modules. Don't have files all over your computer in a giant mess. Be professional from day one, and you will run into fewer problems as the course continues.
