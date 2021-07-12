@@ -155,6 +155,11 @@ module.exports = {
               position: "left",
             },
             {
+              to: "workshops/interviews/index",
+              label: "Interviews",
+              position: "left"
+            },
+            {
               label: "-----------",
               position: "left",
             },
