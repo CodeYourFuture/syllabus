@@ -54,7 +54,16 @@ You should do this for _at least_ two pull requests.
 
 Not sure on the answers? See here: https://github.com/CodeYourFuture/Terminal-Coursework-Week1-Solution
 
-## 6) (Optional) Play An Interactive Game
+## 6) Play the CLI Treasure Hunt
+
+https://github.com/CodeYourFuture/CLI-Treasure-Hunt
+
+Clone this repo and follow the instructions. 
+1. If your system doesn't have `touch`, use `echo`. 
+2. Don't give away the answer. 
+3. Show it in class next week.
+
+## 7) (Stretch) Play An Interactive Game
 
 This is just a bit of fun!
 
