@@ -49,10 +49,10 @@ We are looking at three personas today:
 - As a _Hotel Manager_, I want to **view a list of all customers**
 - As a _Hotel Manager_, I want to **view a customers details by their customer account ID**
 - As a _Hotel Manager_, I want to **view a list of all invoice**
-- As a _Hotel Manager_, I want to **view a an invoice by it's Invoice ID**
+- As a _Hotel Manager_, I want to **view a an invoice by its Invoice ID**
 
 - As a _Hotel Receptionist_, I want to **list of all reservations**
-- AS a _Hotel Receptionist_, I want to **view a reservation by it's reservation ID**
+- AS a _Hotel Receptionist_, I want to **view a reservation by its reservation ID**
 
 - As a _Hotel Customer_, I want to **view my invoice page**
 
