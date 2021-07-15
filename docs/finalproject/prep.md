@@ -16,6 +16,8 @@ A good project should
 - Be interesting to employers
 - Solve a real world problem that you have faced in the past or at CodeYourFuture
 
+All code should be done _in public on the trainees' Githubs_, unless there is a strong security concern with an external project. It should never belong to a mentor. This work is an important **portfolio piece**. Commits must belong to the trainee and the work should be clearly displayed to potential future employers.
+
 ## Teams
 
 Before class starts volunteer and trainee teams should have been assigned.
@@ -30,8 +32,6 @@ Here is a starter project that trainees can fork to get started:
 
 - Starter project for [Mongo/Express/React/Node](https://github.com/CodeYourFuture/cyf-final-project-starter-kit)
 - Starter project for [Postgres/Express/React/Node](https://github.com/CodeYourFuture/cyf-final-project-starter-kit/tree/postgres) (this is a branch of the above project)
-
-All code should be done _in public on the trainees' Githubs_, unless there is a strong security concern with an external project. It should never belong to a mentor. This work is an important **portfolio piece**. Commits must belong to the trainee and the work should be clearly displayed to potential future employers.
 
 Documentation can be found [here](https://github.com/textbook/starter-kit/wiki) for both of the above projects
 
