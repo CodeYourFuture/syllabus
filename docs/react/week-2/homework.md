@@ -12,7 +12,14 @@ If you haven't already, complete the in-class exercises on your `pokedex` app.
 
 Complete all of the Lesson 2 exercises in the `cyf-hotel-react` project: https://github.com/CodeYourFuture/cyf-hotel-react#lesson-2.
 
-## 3) Challenges (10 hours+) 
+## 3) Codewars (1 hour)
+https://www.codewars.com/users/$YOURNAME/completed
+
+Go to your completed view, scroll down to the bottom and redo the fifth, tenth, and fifteenth in the list. 
+
+How will you approach these kata differently now you have more experience?
+
+## 4) Challenges (10 hours+) 
 
 The **best** way to get better at React is to practice by building small projects.
 
