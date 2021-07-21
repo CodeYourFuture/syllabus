@@ -4,6 +4,96 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+# 2021-07-21
+
+## Present
+
+Ali, Sally, Mitchell, Chris, Greg
+
+## Notes
+
+- Codility
+  - Agreed on a few assessments, based on a few that Ali found
+  - Waiting on the city coordinators to tell people about it, reduce the surprise
+  - Sally got access to their tests repo, has downloaded a copy
+    - We can use this as a basis for writing our own tests, and potentially move platforms if wanted
+  - Integration with Google Classroom
+    - Sally have been in talks with them about a number of things
+    - Fairly unlikely
+- Crucial stages for giving feedback to trainees
+  - End of JS2-1 - end of JS syntax
+  - End of JS3 - end of JS in the browser
+  - End of React - last point at which we can fork
+- Optional coursework
+  - Marking optional coursework as "stretch" - Sally did this
+  - Identifying most important coursework - this is a job for module gardener
+- Testing
+  - Discussed in a follow up meeting. Actions:
+    - Where are we?
+      - Most of js1 and js2 done
+      - A few outstanding PRs
+    - JS3
+      - How do we test the JS3 TV Show DOM Project
+      - Filter/Search could be a nice standalone component
+      - Can we reduce the amount of duplicated code that student write?
+        - Students currently write one massive function
+        - DRY?
+    - React
+      - Jest makes it quite easy to write tests for React
+        - JSDom
+        - React Testing Library
+    - Actions
+      - Give the TV Show project more framework so that it can be easier to test (e.g. Separate some business and dom logic)
+      - Write Github Action for showing if the tests are passing on a students PRs
+      - Write up issue about teaching require/import module dependencies
+  - TV show project needs more work, so it's easier to test
+  - Should we test React, Node?
+    - Need to figure out the testing frameworks etc for this
+    - Trainees should probably be writing their own tests?
+      - Might need lesson time to teach react-testing-library, etc
+      - Possible this could be done in a coursework (written) lesson
+  - ITC testing
+    - Sally put together a test suite ITC projects: https://codepen.io/sallymcgrath/pen/PommVwg
+    - Initial concerns about wall of red, but have some trainees signed up to test. We'll see what happens
+      - Assertions could be a bit more descriptive - ideal would be "tried to find X element in the DOM but could not find it"
+- Tech interview workshop
+  - Ali gave some feedback, positive
+    - There's opportunities to talk about take-home tests - but probably can be tweaked to cover this
+- Funding source
+  - They have changed the terms of the tender
+    - Max course length of 24 weeks
+    - Minimum of 100 learners
+      - Possible to partner with others, but will only do this if we get something out of it
+    - Have to be employed within 90 days
+  - CYF won't change our core demographic to keep the money
+  - Reasons to do this
+    - Diversify into cybersecurity & cloud
+      - Lots of jobs in ops/IT admin roles - both in big & small companies
+      - Understanding of security is important to get these roles
+        - Challenges
+          - We don't have expertise in this
+            - Can buy in a course, but we don't have anyone to deliver it
+          - Would have to find more volunteers - can spend some of the money to do this
+            - Outreach - going to meetups etc
+      - Another cybersecurity bootcamp: https://www.capslock.ac/
+      - Potential starting point for cybersecurity knowledge: https://www.cybok.org/knowledgebase/
+      - A lot of cloud roles require paid for certs (e.g. AWS, Microsoft)
+        - Companies (e.g. Capgemini) may be willing to pay for the cert (after we've trained them up)
+    - Possibility of a data science course
+      - Challenges
+        - Trainees need to be strong in maths
+- Github Sponsors
+  - Sally signed us up for this
+  - Got approved for it today! You can sponsor the syllabus!
+- Changes to template repo
+  - Chris says there's a way of pushing down changes to the [parent template repo](https://github.com/CodeYourFuture/CYF-Coursework-Template) to all the "child" repos
+
+## Actions
+
+- Greg to write on the [Mongo archive ticket](https://github.com/CodeYourFuture/syllabus/issues/296) all the things that need to be done
+- Chris to ticket the plan for changes to TV show project (and potentially other "free-form project")
+- Chris to update the coursework template
+
 ## 2021-07-07
 
 ### Present
