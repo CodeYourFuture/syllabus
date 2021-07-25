@@ -31,3 +31,6 @@ We recommend that you
 - Complete some online courses to see what gaps you have in your knowledge you have
 - Prepare any questions you have about basic JavaScript
 - Have a call with other trainees to discuss anything you don't understand.
+
+You should always read through the next lesson, in preparation for class. For JS-1 you need to complete this prep:
+https://syllabus.codeyourfuture.io/js-core-1/preparation
