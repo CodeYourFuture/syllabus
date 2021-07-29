@@ -4,13 +4,13 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-# 2021-07-21
+## 2021-07-21
 
-## Present
+### Present
 
 Ali, Sally, Mitchell, Chris, Greg
 
-## Notes
+### Notes
 
 - Codility
   - Agreed on a few assessments, based on a few that Ali found
@@ -88,7 +88,7 @@ Ali, Sally, Mitchell, Chris, Greg
 - Changes to template repo
   - Chris says there's a way of pushing down changes to the [parent template repo](https://github.com/CodeYourFuture/CYF-Coursework-Template) to all the "child" repos
 
-## Actions
+### Actions
 
 - Greg to write on the [Mongo archive ticket](https://github.com/CodeYourFuture/syllabus/issues/296) all the things that need to be done
 - Chris to ticket the plan for changes to TV show project (and potentially other "free-form project")
