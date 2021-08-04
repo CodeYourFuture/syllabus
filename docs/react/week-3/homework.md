@@ -54,3 +54,5 @@ https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#code
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout. 
 
 This week you must choose your own kata, based on what you know you need to practice.
+
+**Upcoming milestone**: Check your levels. Before you are accepted on to a Final Project on the developer track, you need to complete the Final Projects collection and reach a **Level 5 kyu** in Codewars. Are you on track to reach this standard? Have you run a study group to work on kata? Have you reached out on the #cyf-codewars channel? What is your plan to meet this goal?
