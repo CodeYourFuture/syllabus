@@ -85,7 +85,11 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the collection for JS-1 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) (Stretch) Extra JavaScript Challenges
+## 7) Learn About the Terminal (8 hours)
+
+Most developers spend a lot of time using something called the terminal. This week, you are going to follow a course to learn about the terminal - it has [its own homework page here](/git/terminal/homework) for you to work from.
+
+## 8) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
