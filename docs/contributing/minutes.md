@@ -4,6 +4,65 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 04/08/2021
+
+### Present
+
+Sally, Ali, Daniel, Greg, Chris
+
+### Minutes
+
+- Action Points from last meeting
+  - Greg, MongoDB Ticket Write Up
+    - Push back 1 month
+  - Chris, Ticket plan for JS3 Proj
+    - Done
+  - Chris, Coursework Update thingy
+    - Done
+- Tender
+  - Has been submitted
+  - We've aimed to have everything in there be good for CYF
+  - Compromise on the length of the course
+    - Max was 24 weeks
+    - Now the course "officially" starts after JS3
+  - Fundamentals convertion to a self-paced course
+    - We'd lose 
+      - Students get know each other
+      - Students getting to know mentors
+      - 121 assessments
+        - Was originally the core of the idea
+      - Team building? Community?
+      - CYF getting to know the students e.g. attendence, punctuality
+      - The chance to remove people from the course
+    - We'd gain
+      - Less of an odd gap between Fundamentals and JS1
+    - We want to gain
+      - "I am a tiny god"
+    - Would this become an Intro To Coding 2?
+  - HTML/CSS/JS Combination & Reword
+    - See Sally for Notes
+  - How does JS1 and Fundamentals overlap?
+    - Could we make better use of this time?
+    - nb: functions - we teach twice and some (lots) of students still don't get it
+  - Separate pathways (this money comes from the tender)
+    - Cyber - requires money and qulaificiations so may be lower priority
+    - Product - currently doing adhoc. 
+- Github Actions
+  - Seem to be working well!
+  - Just need more review on it
+  - What happens if we want 
+- Classroom API
+  - Could we integrate it to the syllabus to automate posting
+- Live Code Blocks vs Codesandbox
+  - Which do we want?
+  - CSB is used in React
+  - Leaning towards Codesandbox
+
+### Actions
+
+- Daniel - To do more work on Github Actions work
+- Chris - Write a brief for the "Add to Google Classroom" button from the Syllabus
+
 ## 2021-07-21
 
 ### Present
