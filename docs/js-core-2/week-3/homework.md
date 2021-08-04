@@ -94,13 +94,17 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-2 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 6) (Stretch) Add extra features to your Challenges (5 hours)
+## 6) Learn About Git Branches (5 hours)
+
+Continuing your background learning about Git, this week you're going to learn about something called branches. [You'll find the lesson to follow here](/git/branches/homework).
+
+## 7) (Stretch) Add extra features to your Challenges (5 hours)
 
 In the "Extra" folder of this repository you will find extra tasks for you to complete.
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
-## 7) (Stretch) Codeacademy Course
+## 8) (Stretch) Codeacademy Course
 
 The end of this module is a really good opportunity to cover everything we've done over the last six weeks.
 
