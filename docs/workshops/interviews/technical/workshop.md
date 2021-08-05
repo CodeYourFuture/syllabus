@@ -139,7 +139,7 @@ It can feel unnatural to talk through what you're thinking, _particularly_ when 
 
 Here's an example of how you might talk aloud for our example problem:
 
-> I need to find the split the string into words, and then I need to find the logest word...
+> I need to split the string into words, and then I need to find the longest word...
 >
 > To split the string into words, I need to remove any punctuation, and then split it on whitespace.
 >
