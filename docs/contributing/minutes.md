@@ -4,6 +4,177 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 18/08/2021
+
+### Present
+
+Sally, Ali, Daniel, Richard Darby
+
+### Minutes
+
+Guest: Richard Darby in Glasgow - they just finished JS2.
+
+#### Action items from last time
+
+* GitHub Actions
+  * They landed!
+  * Plan is for buddies to only pay attention to coursework if it's late or a trainee reaches out for help.
+  * Coursework Tracker team are sprinting at the moment - goal is to notify buddies if coursework is late.
+* Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
+
+#### What do we teach and why?
+
+[Doc being discussed](https://docs.google.com/document/d/1Npj5z_KbXVDyz-cIjFF2UJ_c-jK9j9mqU4xlyOYLpuk/edit).
+
+Purpose of doc: Communicating a very top-level strategy for what we teach and why we teach those things, and why we don't teach other things. So that mentors/buddies/teachers/... get a general gist of what we're trying to do, and help us decide whether to include things.
+
+Tried to keep it very brief and concise. Tried to avoid making value judgements because don't want to spend time in fights.
+
+##### State
+
+Sally didn't end up mentioning anything about state.
+
+React [has a bit about state](https://syllabus.codeyourfuture.io/react/week-2/lesson) but it's introducing both the concept of state _and_ how React does it - can we pull the general concept of state earlier in the course to make this easier to handle?
+
+Also, we perhaps aren't setting up our trainees to be able to answer interview questions which require managing state.
+
+##### Next steps
+
+Daniel and Ali to make a few edits, then Sally to publish.
+
+##### Bon code
+
+[Bon Code](https://boncode.nl/) allow uploads of code and static analysis against coding standards. They seem eager for us to try them out.
+
+### Sally's Big Presentation
+
+Core problems:
+* Some people who make it to the end of the course aren't equipped to become professional developers, which is what we promise them.
+* Making the course shorter for WM.
+* Making it easier to deliver the course in high volume in London and WM (but not assuming high volume for other schools).
+
+Objective: Need to be able to track people's aptitudes/progress, in a way that doesn't rely on a volunteer directly assessing them, so that we can communicate progress and options to trainees. Be able to positively reframe "I enjoyed this but struggled with that" as specialisation (e.g. "become a UX designer").
+
+Chris: Could we just raise the level required to get on the course? (May affect whether we're targeting the right people)
+
+Hack Your Future rank their ITC graduates best to worst, interview the top 40, accept 30.
+
+Don't want our key demographic to be pushed out by sharp elbowed and technically eligible. We'd maybe be aiming at the middle of the ranking rather than the top - the top group can probably look after themselves.
+
+Ali: One of the original ideas was to run Fundamentals a lot more regularly, so we could more easily say "Not now" rather than "No". Designed to enable volunteers to say no.
+
+We can talk about exits, but we need to have realistic options at those exits, otherwise we will always end up struggling to say no.
+
+#### Course diversification
+
+Want to create strands of achievements - people go through most of the course together, but at points split off and do different coursework to get practice with different roles in tech.
+
+Preparing people for different roles or focuses while they're still with us, rather than doing it ad-hoc after graduation.
+
+Currently we end up picking up trainees more based on personal connection than by open offerings, and craft course that help them (e.g. cloud - Pedro is teaching a bunch of folks cloud stuff and we ended up with 16 hired)...
+
+There are a lot of agency, WordPress, etc jobs, particularly in Birmingham, we can push people towards which maybe aren't as prestigious as other jobs, but are perfectly fine jobs and which wouldn't require too much extra teaching.
+
+Chris: Are we being too reactive? If we were to plan based on what jobs are available, what would we do? Go from an objective, put together a team of volunteers to put together a course and design something outcome-oriented.
+
+We've split at least two London classes, it's probably the best outcome we could have had with them - we should be open about it and plan for it.
+
+#### Revamping fundamentals
+
+Trying to encompas all of the use-cases all of the different schools have.
+
+London Class 8 starts September 25th and is going to be 66 people going through fundamentals. So unlikely to get revisions in by then. On current track, means 132 1:1 assessments!
+
+West Midlands 4 and 5 will attempt to be two classes running simultaneously.
+
+Manchester and Glasgow will probably be staying as-is.
+
+Everyone agrees that getting together in class and doing the live session is what's super important.
+
+Scotland's experience is that people go from Fundamentals into JS1 and are basically starting from scratch as if they hadn't done Fundamentals.
+
+Original goal of Fundamentals was to get the lowest-achieving trainees up to a place where they can complete the course, without making the course any longer, and treat it like a month-long interview.
+
+WM are going to have to get through Fundamentals in 3 weeks because of funding constraints.
+
+200 hours of interviews (as happened in London for class 8) is unsustainable, particularly if they're too early to get good signal.
+
+Current course is a bit painfully slide-heavy - was originally designed without slides, but PD is hard to teach off the cuff, so slide were born. The experience is also very different in different places with different teachers. Also the style of Fundamentals is hard to do in person.
+
+##### Our new objectives in this new world
+
+* Know what's missing from employability
+ * Notice missing or redundant modules
+* Make sure module exit criteria map to entry criteria
+
+##### Suggestion
+
+3 live sessions of Fundamentals, 2 self-paced coursework tracks (which could be done over 3 weeks or a longer period). Technical (could drop), and Applied Digital Skills (PD).
+
+In the session, have one technical project:
+* Take the home page they already made in ITD.
+* Learn what a user story is, and implement one
+* Deploy to GitHub pages so it has a URL.
+
+At end of Fundamentals, get badges:
+* Have created a CV.
+* Have sent a professional email.
+* Have created a website that you can show off.
+
+If you achieve all four badges (+ any other qualification criteria), you're on the course.
+
+Move interviews to after Fundamentals - can only do it after getting your four badges.
+
+#### Why do we lose people?
+
+At interviews:
+* Not having time to commit
+* Really lacking language skills
+* Clearly not understanding their code
+
+After Fundamentals or in first few months of course:
+* Medical
+* Life change, e.g. work shifts change
+* People who should realistically have never gotten onto the course but no one had the heart to turn them down
+
+People who are successful in one area tend to be successful in all of them (e.g. turning up to class, doing homework, doing Code Wars, etc). People who miss any tend to miss most.
+
+Hard to evaluate without them actually trying out the course. Which was originally a key motivator to Fundamentals.
+
+##### Badges
+
+Each badge has 3 levels. Host the badges externally somewhere.
+
+Half a badge is creating the learning hours, guided learning hours, total qualification time.
+
+Badges are an established standard we can lean on - integrate with things like LinkedIn.
+
+##### Varying perspectives
+
+CYF had a similar big discussion two years ago around who we're taking and what our objectives are.
+
+Had a lot of push-back from people who have been through the program - for a lot of people, their objectives _weren't_ primarily to get people into jobs. A number of people whose involvement is important have very different views on objectives.
+
+Sally: If we're telling people "Come to Code Your Future so you can get a job in tech", we need to deliver on that, or change our messaging.
+
+For people with low self-confidence, will we end up not pushing them enough? e.g. Will we end up channelling all of the women into more ancillary roles?
+
+##### RainBird
+
+Company who have offered to potentially give us some computing capacity to help with our interviewing/recruiting process.
+
+Their person is going to let Liliana unload all of her thoughts about our interviewing process and see if/how they can help.
+
+### Action items
+
+* Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
+* Ali: What do we teach and why?: Talk about why we don't teach classes
+* Daniel: What do we teach and why?: Expand "what we don't teach" a bit - pull out of table
+* Daniel: File ticket about pulling state earlier into the course.
+* Schedule a session next week so Greg + Mitch can join, and walk through the assorted artifacts.
+* Sally: To put together a single doc in one place for folks to give feedback.
+* Everyone: Put together feedback on Sally's many produced pieces for next steps for high-level course redesigns, and specifics around badges.
+
 ## 04/08/2021
 
 ### Present
