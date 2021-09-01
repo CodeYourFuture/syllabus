@@ -4,6 +4,45 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 01/09/2021
+
+### Present
+
+Daniel, Chris, Sally, Mitchell, Greg
+
+### Minutes
+
+- We all did our actions this week!
+- Greg doesn't know who New Order are (shockingly)
+  - Sally and Mitch and everyone in Manchester to attend their upcoming gig
+- Meet Up
+  - End of September sounds good
+  - Most likely down in London
+  - **Action**: Make a doodle
+- Big Changes Doc
+  - We've all looked over it and have generally good feelings about it (or atleast greg did!)
+  - Fundamentals - we've got months to make this change
+  - Could we work on the badge schema sooner?
+    - This seems like a smaller job - so yes
+  - **Action**: Design a Schema for a badge (Sally)
+  - **Action**: Setup Miro for brainstorming Fundamentals ideas
+    - To be discussed next week at this meeting
+- London Feedback on the non-traditional route to Final Projects
+  - This is working on a very small scale
+    - But probably scale beyond this will be very difficult
+  - This is a good signal
+- Tech Projects
+  - Could we think about running a hackathon around some of these projects?
+  - They're fairly disfunctional right now so could be improved
+    - As in - students could get more out of it, we could get more out of it
+
+### Actions
+
+- **Action**: Make a doodle for when to meet up
+- **Action**: Design a Schema for a badge (Sally)
+- **Action**: Setup Miro for brainstorming Fundamentals ideas
+  - To be discussed next week at this meeting
+
 ## 18/08/2021
 
 ### Present
