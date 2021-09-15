@@ -31,7 +31,7 @@ This means that in general our trainees
 - Will quickly become overwhelmed with long, meandering lectures
 - May have a lower resilience to failure and errors
 
-You should keep these qualities in mind whenever we develop content for our trainees.
+You should keep these qualities in mind whenever we develop content for our trainees. You can find some concrete guidelines around content in this document: [Our Approach](/guides/paradigm).
 
 ### Organisational Documents
 
@@ -51,7 +51,7 @@ These tasks are to do with one of our modules. These modules are living document
 
 - Workshop Development - [here](https://github.com/CodeYourFuture/syllabus/projects/2)
 
-These tasks are one workshops that provide non-essential skills or experiences to our trainees. For example, modules in Mobile Application Development or Machine Learning. Once run, these modules are kept as a library for future trainees and volunteers to refer back to.
+These tasks are one day workshops that provide non-essential skills or experiences to our trainees. For example, modules in Mobile Application Development or Machine Learning. Once run, these modules are kept as a library for future trainees and volunteers to refer back to.
 
 ### Github
 
