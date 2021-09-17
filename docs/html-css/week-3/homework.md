@@ -4,33 +4,8 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) Why Responsive? (5 hours)
+## Mandatory coursework
 
-You should complete the whole course of Lesson 1 - "Why Responsive?"
+### 1) 🔑 Create a Cakes Co webpage (4 hours)
 
-Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead.
-
-https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
-
-## 2) Responsive Cake Website Project (4 hours)
-
-In this repository you will find a project for you to complete
-
-https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week3
-
-Before you start, **make sure you fork the repository** to your Github account.
-
-## 3) Prepare for the next class (2 hours)
-
-Next lesson, we will be going back to learning about JavaScript.
-
-Review what you've learnt so far to prepare yourself for the next lesson.
-
-We recommend that you
-
-- Complete some online courses to see what gaps you have in your knowledge you have
-- Prepare any questions you have about basic JavaScript
-- Have a call with other trainees to discuss anything you don't understand.
-
-You should always read through the next lesson, in preparation for class. For JS-1 you need to complete this prep:
-https://syllabus.codeyourfuture.io/js-core-1/preparation
+Fork then clone the [HTML/CSS week 3 coursework](https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week3), and follow the instructions in the `README.md` file.
