@@ -4,32 +4,22 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) Complete Flexbox Froggy (3 hours)
+## Mandatory coursework 
 
-Flexbox Froggy is a really fun way of learning how Flexbox works.
+### 1) 🔑 Create a Karma clone webpage (4 hours)
 
-You should complete all the levels
+Fork then clone the [HTML/CSS week 2 coursework](https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week2), and follow the instructions in the `README.md` file.
 
-https://flexboxfroggy.com/
+### 2) Complete Flexbox Froggy game (3 hours)
 
-## 2) Flexbox Project (4 hours)
+Complete all levels of the [Flexbox Froggy game](https://flexboxfroggy.com) to get practise on flexbox.
 
-In this repository you will find a project for you to complete
+## Optional coursework
 
-https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week2
+### 3) Complete the Zoo CSS challenge (optional)
 
-Before you start, **make sure you fork the repository** to your Github account.
+Now that we have learned flexbox, complete the [Zoo CSS challenge](https://github.com/CodeYourFuture/HTML-CSS-Challenges).
 
-## 3) Complete the CSS Zoo project
+### 4) Complete the Bikes For Refugees project (optional)
 
-Now that we have learned Flexbox, complete the [Zoo project](https://github.com/CodeYourFuture/HTML-CSS-Challenges).
-
-## 4) Complete the Bikes For Refugees project
-
-Now that we have learned Flexbox, complete the [Bikes For Refugees project](https://github.com/CodeYourFuture/bikes-for-refugees).
-
-## 5) Prepare for the next class (1 Hour)
-
-Look at the documentation for "Bootstrap 4" and look at their examples to see how they are building components.
-
-https://getbootstrap.com/docs/4.4/getting-started/introduction/
+Now that we have learned flexbox, complete the [Bikes For Refugees project](https://github.com/CodeYourFuture/bikes-for-refugees).

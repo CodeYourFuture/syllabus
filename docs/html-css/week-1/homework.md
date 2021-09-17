@@ -4,28 +4,14 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-### 1) CSS Diner (3 hours)
+## Mandatory coursework
 
-This online game will help you learn Advanced CSS Selectors.
+### 1) 🔑 Create your own webpage (4 hours)
 
-You should complete every level before moving onto the next part of the homework.
+Fork then clone the [HTML/CSS week 1 coursework](https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week1), and follow the instructions in the `README.md` file.
 
-https://flukeout.github.io/
+## Optional coursework
 
-## 2) HTML/CSS Project (5 hours)
+### 2) CSS Diner game (optional, 3 hours)
 
-In this repository you will find a project for you to complete
-
-https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week1
-
-Before you start, **make sure you fork the repository** to your Github account.
-
-## 3) Prepare for the next class (2 hours)
-
-Complete the first three lessons in this course on [Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893).
-
-https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
-
-You should complete **Why Responsive?**.
-
-_Don't worry if you don't have a phone you can use for Remote Debugging. You can use the browser's Device Emulation instead._
+Try to complete all levels of the [CSS Diner game](https://flukeout.github.io) to get practise on advanced CSS selectors.
