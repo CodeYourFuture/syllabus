@@ -75,12 +75,11 @@ function Home() {
             <h2 id="getting-involved">Getting involved</h2>
             <p>We are looking for volunteers in</p>
             <ul>
-              <li>London</li>
-              <li>Glasgow</li>
-              <li>Manchester</li>
-              <li>Birmingham</li>
-              <li>Palestine/Gaza</li>
-              <li>Cape Town</li>
+              <li>London, UK</li>
+              <li>Glasgow, UK</li>
+              <li>Manchester, UK</li>
+              <li>Birmingham, UK</li>
+              <li>Cape Town, South Africa</li>
             </ul>
             <p>
               Both coders and non-coders can help out in a variety of ways that
