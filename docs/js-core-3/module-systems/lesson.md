@@ -264,12 +264,12 @@ If you look at your coursework repos, you might notice that there is also a `dev
 
 Now we know where to look, we can understand that running `npm install` will mean that NPM looks in the `package.json` file for the `dependencies` section and downloads all the files for those packages so that you can use them on your computer.
 
-| Exercise B                                                                            |
-| ------------------------------------------------------------------------------------- |
-| 1. Clone REPO_LINK from Github. [ALI'S NOTE: would have cowsay in deps]               |
-| 2. Run `npm install` in the repo.                                                     |
-| 3. Run `npm run cowsaying`. [ALI'S NOTE: this would be a simple script to run cowsay] |
-| 4. What happens? Discuss with a classmate what you think happens and why.             |
+| Exercise B                                                                               |
+| ---------------------------------------------------------------------------------------- |
+| 1. Clone [this repo](https://github.com/40thieves/module-systems-exercises) from Github. |
+| 2. Run `npm install` in the repo.                                                        |
+| 3. Run `npm run cowsaying`.                                                              |
+| 4. What happens? Discuss with a classmate what you think happens and why.                |
 
 ### Using packages in our apps
 
