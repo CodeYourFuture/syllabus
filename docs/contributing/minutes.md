@@ -3,6 +3,51 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+## 29/09/2021
+### Present
+
+Sally, Chris, Greg, Ali
+
+### Actions
+
+- All: volunteer for a module
+- Chair for next time: Put off to next time
+
+### Minutes
+
+Discuss way of working (alternating discussion and planning)
+
+- Put off to next time
+
+Module teams
+
+- Each module team should be built up by one of us
+- action for all: volunteer for a module
+- Greg: could js1-3 be thought of as one module (see discussion about themes in JS modules)
+- All: discussed the value of thinking of them as 3 modules and agreed that for various reasons, it's positive to have 3 modules (and 3 module gardeners)
+
+Blockly
+
+- What are some of the khan academy criticisms this solves? Something they can understand and carry forward, something they can ship as a product
+- What do we "lose" from khan academy? Videos (we could write ours). Is is "as fun". (Maybe yes, because "small god feel")
+
+Module systems
+
+- Yes, we should break out bits (filesystem to where we do terminal? npm to where we first introduce npm install?)
+- Can we come to a comfortable solution for one module system vs an other? (probably within CYF syllabus, we can just say "use this syntax here, use the other syntax there")
+- where do we put it? import for react, require for node. Require for tests? but how do we write nicely testable code that also runs in the browser without a build system?
+
+Student tracker
+
+- DEMO of how it works
+- Pro: lots of our best volunteers are edu buddies who spend time getting data that could be automated
+- Milestones? What milestones are needed?
+- Google classrooms API is not connected through
+- Would be nice to automate attendance (slackbot?)
+- Rate limiting of github API -> need to authenticate?
+- Could also pipe this into some notifications to buddies?
+- Not clear how we would "devops" this, beyond copy pasting into "prod" (could maybe write an application?)
+
 
 ## 01/09/2021
 
