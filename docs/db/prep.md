@@ -68,22 +68,22 @@ Remember the new username and password details - you will need them later.
 
 ### Creating a new database
 
-In a terminal, create a new database named `cyf_hotel` with the following command:
+In a terminal, create a new database named `cyf_hotels` with the following command:
 
 ```
-$ createdb cyf_hotel
+$ createdb cyf_hotels
 ```
 
 Then connect to your database with:
 
 ```
-$ psql cyf_hotel
+$ psql cyf_hotels
 ```
 
 Note that if you chose to use your Ubuntu username for the database you don't need it (or the password) to log in to `psql`. If you used a different username then you'll need to log in with:
 
 ```
-$ psql -U <username> cyf_hotel
+$ psql -U <username> cyf_hotels
 ```
 
 and you'll be prompted for the password.
@@ -94,10 +94,10 @@ The output from this command should look something like this:
     psql (12.2 (Ubuntu 12.2.4))
     Type "help" for help.
 
-    cyf_hotel=>
+    cyf_hotels=>
 ```
 
-The last line (`cyf_hotel=>`) is the `psql` command prompt, made up of your database name plus '=>'.
+The last line (`cyf_hotels=>`) is the `psql` command prompt, made up of your database name plus '=>'.
 
 Note that to exit psql back to the terminal prompt use the command `\q`.
 
@@ -174,13 +174,13 @@ C:\Users\keith> createuser -U postgres -P --createdb keith
 To create a database you can now use your new username:
 
 ```
-C:\...> createdb -U <your user name> cyf_hotel
+C:\...> createdb -U <your user name> cyf_hotels
 ```
 
 On Windows you'll need to enter your password for the new account each time you use the username. To access your new database you just need to enter:
 
 ```
-C:\...> psql -U <username> cyf_hotel
+C:\...> psql -U <username> cyf_hotels
 ```
 
 then enter your password when prompted.
@@ -215,7 +215,7 @@ Open this file using your favourite text editor (Visual Studio should work OK). 
 
 You should find a number of non-comment lines below this - these define login methods for different situations. Enter the following line just below the header line:
 
-    host    cyf_hotel       all             ::1/128                 trust
+    host    cyf_hotels       all             ::1/128                 trust
 
 Save the changes.
 
@@ -224,10 +224,10 @@ Finally you must restart the PostgreSQL service so that the configuration change
 From here onwards you shouldn't need to switch to the postgres user again nor enter a password. You can get into the PostgreSQL command-line tool using just:
 
 ```
-C:\...> psql cyf_hotel
+C:\...> psql cyf_hotels
 ```
 
-This connects you to the database named cyf_hotel and connects as the same username as your Windows user.
+This connects you to the database named cyf_hotels and connects as the same username as your Windows user.
 
 The output from this command should look something like this:
 
@@ -238,7 +238,7 @@ The output from this command should look something like this:
          8-bit characters might not work correctly. See psql reference
          page "Notes for Windows users" for details.
 
-    cyf_hotel=>
+    cyf_hotels=>
 ```
 
 Note that to exit psql back to the terminal prompt use the command `\q`.
@@ -299,7 +299,7 @@ and this should produce something like the following:
 
 The final line is the psql command prompt, waiting for you to enter a command. It comprises your database name (created with the same name as your username, in the example this is 'keith') followed by '=#'.
 
-You are going to rename the database to `cyf_hotel` for the purposes of this course, so from the psql prompt (as above) first disconnect from your database by connecting to database `postgres`:
+You are going to rename the database to `cyf_hotels` for the purposes of this course, so from the psql prompt (as above) first disconnect from your database by connecting to database `postgres`:
 
 ```
 keith=# \connect postgres
@@ -308,7 +308,7 @@ keith=# \connect postgres
 Now, still at the psql prompt, rename the database:
 
 ```
-keith=# alter database keith rename to cyf_hotel;
+keith=# alter database keith rename to cyf_hotels;
 ```
 
 Clearly, you'll use your own name as the name of the database to be renamed.
