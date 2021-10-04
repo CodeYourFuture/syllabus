@@ -58,7 +58,7 @@ Next, in the same repository complete all of the exercises in the "Challenges" f
 
 https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week2
 
-## 5) TV Show Project - Part 2/3 (8 hours)
+## 5) TV Show Project - Part 2/3 (8 hours) 🔑
 
 Continue working on your TV Show Project and so as much as you can.
 
