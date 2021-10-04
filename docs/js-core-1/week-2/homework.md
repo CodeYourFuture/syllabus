@@ -76,7 +76,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) JavaScript Challenges (6 hours)
+## 4) JavaScript Challenges (6 hours) 🔑
 
 Next, in the same repository complete all of the exercises in the "Mandatory" folder.
 
