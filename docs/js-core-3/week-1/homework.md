@@ -63,7 +63,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) TV Show Project - Part 1/3 (12 hours)
+## 4) TV Show Project - Part 1/3 (12 hours) 🔑
 
 In this weeks project we will be using the knowledge we learnt from JS1 & JS2 to build the first version of our website
 
