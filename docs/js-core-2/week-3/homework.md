@@ -47,7 +47,7 @@ https://www.youtube.com/watch?v=7_LPdttKXPc
 
 Be sure to share what you find in your class channel!
 
-## 3) JavaScript Challenges (14 hours)
+## 3) JavaScript Challenges (14 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
