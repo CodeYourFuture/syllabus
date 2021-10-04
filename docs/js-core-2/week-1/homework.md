@@ -69,7 +69,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 Find the Collection for JS2 Week 1 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
 
-## 6) JavaScript Challenges (3 hours)
+## 6) JavaScript Challenges (3 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
