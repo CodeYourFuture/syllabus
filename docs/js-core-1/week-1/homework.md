@@ -98,7 +98,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) Codewars (1.5 hours)
+## 6) Codewars (1.5 hours) 🔑
 
 1. Join Codewars: www.codewars.com/r/3xvPTg
 2. Read through this tutorial, to help you understand how to use Codewars: https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
