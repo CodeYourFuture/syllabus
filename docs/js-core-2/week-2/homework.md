@@ -45,7 +45,7 @@ https://www.khanacademy.org/computing/computer-programming/html-css-js
 - Coding Train - HTML/CSS/DOM
   - https://thecodingtrain.com/Tutorials/8-html-css-dom/
 
-## 3) JavaScript Challenges (3 hours)
+## 3) JavaScript Challenges (3 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
