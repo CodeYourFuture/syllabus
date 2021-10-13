@@ -68,7 +68,7 @@ In practical terms this means preferring methods that return new objects, arrays
 
 And so therefore: **prefer arrow functions**
 
-Arrow functions do not have their own bindings to `this` or `super`, or an arguments object. Obviously this advice does not apply to JS2 DOM manipulation.
+Arrow functions do not have their own bindings to `this` or `super`, or an arguments object. 
 
 ### Code as documentation
 
