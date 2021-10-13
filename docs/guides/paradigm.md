@@ -76,7 +76,7 @@ Expressing ideas clearly in code. Code should be simple, clearly named, and easy
 
 **Name data clearly**
 
-Prefer verbose and specific naming conventions over algebraic ones so students can trace the function. Yes to numberOfDevelopers.map(developer => ..., no to xs.map(x =>
+Prefer verbose and specific naming conventions over algebraic ones so students can trace the function. Yes to `numberOfDevelopers.map(developer => ...`, no to `xs.map(x => ...`
 
 **Comments are why not what**
 
