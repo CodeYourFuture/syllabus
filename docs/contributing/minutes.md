@@ -3,6 +3,62 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+
+## 13/10/2021
+### Present
+
+Sally, Mitch, Daniel
+
+### Minutes
+
+Mitch is running the “intro to coding thinking” course at Cornerstone starting late October - 3 sessions, probably mostly offline.
+
+Sally’s going to be out of the country for ~November
+
+Sally hacked together a trainee tracker. Has also promised Candy she’ll hack together a PD tracker.
+* Seeking our input: Put some milestones in the course (clearly communicated up-front) where we explicitly make clear to trainees where we think they are.
+  * Not intended to be blockers, just status check-ins.
+  * Except end of JS3 - if the work hasn’t been done, won’t progress to final projects.
+* Most of the people Sally’s been working with are surprised by their status.
+* One milestone check-in led to a good conversation about someone who'd done lots of work but hadn't shared it. Great outcome!
+* NW folks are way ahead of the milestones being set.
+* Need to make sure we have “here’s how we’re going to enable you to move forwards” paths for folks who are falling behind milestones.
+* ["Next steps" outcomes Sally has collected](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
+  * These conversations should start happening around JS3 to give people time to make change if they need/want.
+* QA: Don’t want to push people too strongly towards it because it can be easy to get pigeonholed in and hard to get out of if that’s not what you want.
+  * Glasgow currently have no one wanting to go into QA - not sure why.
+* A few folks did some extra learning before moving on to final projects, and joined another class's final projects - this went really well (both for the folks who took extra time, and for the groups they joined).
+
+PD team update
+* Approached Sally to ask about changing the whole syllabus
+* Want each tech module to be 4 weeks - get rid of PD weeks.
+* Want 90 minutes in every live session to do a PD session.
+* PD volunteered would need to be present for some of every class, and work more closely with tech volunteers.
+* Would want to theme PD work to support the tech focus of the week.
+* Stretching 3x 4 hour sessions into 4x 3 hour sessions sounds fine.
+* Questions around timings and consistency for volunteer engagement.
+  * Probably want the PD session to be start or end of the day to avoid both tech and PD volunteers getting a bunch of extra down-time in their weeks.
+
+Sally: Please review my pull requests!
+
+Teacher Training
+* Mitch volunteered to do some teacher training
+* Aim is to diversify our teachers
+* Was aiming for emphasis to be on React and Node, but interested seemed to be more general
+* Do we have any resources?
+  * Yes! Sally will share Chris’s slides and some other stuff.
+  * https://teachertraining.codeyourfuture.io/roles/lead-teacher/teaching-a-session-at-cyf
+* Mitch will push forwards!
+
+Mitch has opened up a PR for the to do list tests - please take a look!
+
+Signing up to help form module gardening teams
+* [Organising doc](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
+* Goals:
+  * Get feedback (retros after classes)
+  * Act on feedback (file bugs, fix bugs - small changes)
+  * NO REWRITES. Come talk to syllabus team about things in general, and with big ideas. But NO REWRITES.
+
 ## 29/09/2021
 ### Present
 
