@@ -6,16 +6,11 @@ sidebar_label: Coursework
 
 ## 1) PostgreSQL Exercises (3 hours)
 
-Please try to complete the remaining 'Simple' SQL Queries.
+Please try to complete the remaining [Basic SQL Queries](https://pgexercises.com/questions/basic/) and the [Joins and Subqueries](https://pgexercises.com/questions/joins/) exercises.
 
-https://pgexercises.com/questions/basic/
+If you are stumped, do use the hint to point you in the right direction.
 
-The last three all use sql operators we haven't mentioned in the course, so do use the hint to point you in the right direction. 
-The official Postgresql documentation can be found at 
-
-https://www.postgresql.org/docs.
-
-but you may prefer [this tutorial site](https://www.postgresqltutorial.com/) instead.
+You could use [The official Postgresql documentation](https://www.postgresql.org/docs) for your research, but you may prefer [this tutorial site](https://www.postgresqltutorial.com/) instead.
 
 ## 2) SQL Exercises (5 Hours)
 
