@@ -26,7 +26,7 @@ Sally hacked together a trainee tracker. Has also promised Candy she’ll hack t
 * ["Next steps" outcomes Sally has collected](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
   * These conversations should start happening around JS3 to give people time to make change if they need/want.
 * QA: Don’t want to push people too strongly towards it because it can be easy to get pigeonholed in and hard to get out of if that’s not what you want.
-  * Glasgow currently have no one wanting to go into QA - not sure why.
+  * Currently have no one wanting to go into QA anyway
 * A few folks did some extra learning before moving on to final projects, and joined another class's final projects - this went really well (both for the folks who took extra time, and for the groups they joined).
 
 PD team update
