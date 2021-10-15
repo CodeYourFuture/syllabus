@@ -122,5 +122,3 @@ You should complete as many or as few of these modules as you'd like from this l
 6. Loops
 7. Iterators
 8. Objects
-9. Classes
-10. Browser Compatibility and Transpilation
