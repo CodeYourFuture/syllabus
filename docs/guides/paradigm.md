@@ -21,7 +21,7 @@ There’s so much we don’t cover in our syllabus. It’s not always obvious wh
 We don’t teach the following topics, though useful and important, simply because we don’t have time to cover them:
 
 - Recursion
-- Regex (though we typically mention them in JS1W3, we don’t teach them or expect trainees to be able to write them)
+- Regex (though we typically mention them in JS1-W3, we don’t teach them or expect trainees to be able to write them)
 - Handling null
 
 We have some Codewars collections around these topics.
@@ -48,7 +48,7 @@ We teach three purely declarative languages: HTML, CSS, & SQL and one multiparad
 
 ### Functional
 
-When we mentor students we guide them with these principles:
+When we mentor trainees we guide them with these principles:
 
 **Prefer pure functions**
 
@@ -76,7 +76,7 @@ Expressing ideas clearly in code. Code should be simple, clearly named, and easy
 
 **Name data clearly**
 
-Prefer verbose and specific naming conventions over algebraic ones so students can trace the function. Yes to `numberOfDevelopers.map(developer => ...`, no to `xs.map(x => ...`
+Prefer verbose and specific naming conventions over algebraic ones so trainees can trace the function. Yes to `numberOfDevelopers.map(developer => ...`, no to `xs.map(x => ...`
 
 **Comments are why not what**
 
@@ -84,7 +84,7 @@ Encourage skeleton code in comments as part of development. Then delete those co
 
 **Documentation**
 
-Documentation is expected, simple and routine. Our students must practice writing.
+Documentation is expected, simple and routine. Our trainees must practice writing.
 
 ### Test driven development
 
