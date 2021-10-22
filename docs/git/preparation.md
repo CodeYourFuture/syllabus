@@ -8,18 +8,18 @@ It is important that you complete all of the following work before you get to th
 
 ## 1) Sign Up To GitHub (30 Minutes)
 
-We'll use GitHub to share code with each other.
+If you did not do so during Fundmentals, sign up now. We'll use GitHub to share code with each other.
 
 1. Sign up on https://github.com
 2. Let us know your GitHub username as we'll need it for future assignments
 
-## 2) Download and Install Github Desktop (30 minutes)
+## 2) Download and Install Github Desktop (30 minutes) 🔑
 
-We'll be using this tool in next weeks class so it's _very_ important that you set it up before class.
+We'll be using this tool in next weeks class so it's _very_ important that you set it up before class. You must come to class prepared.
 
-### Windows or Mac
+### Mac
 
-To install, go to the website and click `Download for Windows` or `Download for Mac`
+To install, go to the website and click `Download for Mac`
 
 https://desktop.github.com/
 
@@ -31,7 +31,7 @@ Follow the instructions here to install Github Desktop
 
 https://github.com/shiftkey/desktop#debianubuntu-distributions
 
-If you do not understand the instructions written then please ask on Slack for help. We haven't covered how to install software like this yet and you are not expected to understand how to do it.
+If you do not understand the instructions written then please ask on Slack for help. We haven't covered how to install software like this yet and you are not expected to understand how to do it. 
 
 #### Install Instructions
 
@@ -95,8 +95,9 @@ If you cannot find a post already, post a question with the title "**Github Ques
 
 ## 7) Install VS Code (30-40 Minutes)
 
-We use this software to write our code. You'll be using it a lot over the next few months!
+We use this software to write our code. You'll be using it a lot over the next few months. If you have not done so already during Fundamentals, install this now.
 
+https://fundamentals.codeyourfuture.io/about-this-course/before-the-course-begins#prep-2-developer-tools
 https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#visual-studio-code
 
 If this is your first time using Visual Studio code, watch this video here
