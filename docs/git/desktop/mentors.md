@@ -22,7 +22,7 @@ One of the teacher-led demos in this class relies on the user not having permiss
 
 ## Questions and Help
 
-We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+We highly recommend joining the relevant Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
 
 [cyf-module-git](https://codeyourfuture.slack.com/archives/C01DANTAGRK)
 
