@@ -18,6 +18,10 @@ import Feedback from "@theme/Feedback";
 
 Learning objectives for this lesson can be found [here](./learning-objectives.md)
 
+## Coursework review (45 minutes)
+
+We open our class with live coding and group debugging using trainees' work as material. This session is an opportunity to work through common problems with coursework and also to demonstrate productive code review and debugging strategies. Use Devtools and live code.
+
 ## Responsive Web Design
 
 When we build for the web, we're making websites that can be viewed in a phone, a laptop, a tablet and more. To ensure we're presenting a website that's easy to use on any device, we use Responsive Web Design techniques to modify how content is displayed depending on the viewport.
@@ -210,7 +214,7 @@ See if you can use these pseudo classes to give the left box a grey background (
 
 ## Coursework
 
-Click [here](./homework) to view the coursework for this lesson. 
+Click [here](./homework) to view the coursework for this lesson.
 
 ## Further Learning
 

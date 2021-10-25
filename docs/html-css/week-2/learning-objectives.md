@@ -32,17 +32,17 @@ sidebar_label: Learning Objectives
 
 - [ ] Can answer: in which ways can we submit a form?
 - [ ] Can answer: how can we submit a form to a web server?
-  
+
 ### Form security
 
 - [ ] Can answer: what should we never trust in software?
 
-## HTML/CSS Frameworks
-
-- [ ] Can: use Bootstrap to create components
-
-## Devtools (optional)
+## Devtools
 
 - [ ] Can: manually locate the source of a specific piece of text from a page's rendered view in the source HTML, for a simple case.
 - [ ] Can: use the browser's inspector to automatically locate the corresponding source for a given element of the rendered view.
 - [ ] Can: discover the current box model attributes of an element, using the inspector.
+
+### Developer thinking
+
+- [ ] Can participate in live coding

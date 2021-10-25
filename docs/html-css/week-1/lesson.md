@@ -23,6 +23,9 @@ import Feedback from "@theme/Feedback";
   - [CSS Selectors](#css-selectors)
   - [CSS Box Model](#css-box-model)
   - [CSS Inheritance, Cascade, and Specificity](#css-inheritance-cascade-and-specificity)
+- Grid
+- [What is Grid?](#what-is-grid)
+- [Named areas](#named-areas)
 
 ---
 
@@ -622,7 +625,8 @@ In the Bikes for Refugees project, work in pairs and:
 1. Use the `padding` property to add more space inside all buttons.
 1. Use the `border` property to remove the border from all buttons.
 1. For bonus points, you can use the `border-radius` property to make the corners of the buttons rounded.
-   :::
+
+:::
 
 ### Block and Inline Boxes
 
@@ -768,18 +772,36 @@ p {
 }
 ```
 
-If you want to read more about inheritance, cascade and specificity, visit the [MDN Cascade and inheritance page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+To read more about inheritance, cascade and specificity, visit the [MDN Cascade and inheritance page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+
+## CSS Grid
+
+### What is CSS Grid?
+
+CSS grid is a way to layout components and whole pages with CSS. First you turn on the grid:
+
+```css
+display: grid;
+```
+
+Then you define the layout of the grid as a template. We can do this with named areas so it's clear what should go where. Let's imagine in our semantic html page we have a header, some navigation, some main content, a sidebar and a footer. Now we describe that with grid:
+
+```css
+grid-template-areas:
+  "header header header"
+  "nav    nav    sidebar"
+  "main   main   sidebar"
+  "footer footer footer";
+```
 
 ## CSS Project
 
 The [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/zoo-css-challenge)
-is a CSS Project for you to complete using what you've learnt so far today.
+is a CSS Project for you to practice and consolidate the concepts you've explore so far.
 Fork the repository to your personal account and then clone the repository.
 
 :::note Exercise (60 minutes+)
 Work in pairs to complete as much of the project as you can.
-
-You will be able to fully complete it after lesson 2 once we've learned flexbox.
 :::
 
 ## Coursework
