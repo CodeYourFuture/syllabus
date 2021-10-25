@@ -4,7 +4,11 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## Mandatory coursework 
+# Coursework SSOT
+
+Is your Google Classroom, not here! Teachers and trainees, make sure you check your Google Classroom for latest updates.
+
+## Mandatory coursework
 
 ### 1) 🔑 Create a Karma clone webpage (4 hours)
 

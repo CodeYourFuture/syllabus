@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: HTML/CSS - 3
+title: HTML/CSS - 4
 sidebar_label: Lesson
 ---
 
@@ -44,6 +44,7 @@ textarea {
   font-size: 100%;
 }
 ```
+
 :::
 
 #### Text input fields
@@ -53,7 +54,7 @@ When we want the user to enter text, we can use a text input field in our form.
 We can use `<input type="text">` to create a single-line text input, like in the following example.
 
 ```html
-<input type="text">
+<input type="text" />
 ```
 
 :::note Interactive example
@@ -72,7 +73,7 @@ We:
 
 ```html
 <label for="username">Username</label>
-<input id="username" type="text" name="username">
+<input id="username" type="text" name="username" />
 ```
 
 :::note Interactive example
@@ -106,13 +107,13 @@ When creating a group of radio inputs, we should give each radio input the same 
 We can also use the `checked` attribute to make an option selected by default.
 
 ```html
-<input id="small" type="radio" name="size" value="small">
+<input id="small" type="radio" name="size" value="small" />
 <label for="small">Small</label>
 
-<input id="medium" type="radio" name="size" value="medium" checked>
+<input id="medium" type="radio" name="size" value="medium" checked />
 <label for="medium">Medium</label>
 
-<input id="large" type="radio" name="size" value="large">
+<input id="large" type="radio" name="size" value="large" />
 <label for="large">Large</label>
 ```
 
@@ -136,18 +137,19 @@ For a group of radio inputs, we can wrap the inputs in a `fieldset` with a `lege
 <fieldset>
   <legend>Coffee size</legend>
 
-  <input id="small" type="radio" name="size" value="small">
+  <input id="small" type="radio" name="size" value="small" />
   <label for="small">Small</label>
-  
-  <input id="medium" type="radio" name="size" value="medium">
+
+  <input id="medium" type="radio" name="size" value="medium" />
   <label for="medium">Medium</label>
-  
-  <input id="large" type="radio" name="size" value="large">
+
+  <input id="large" type="radio" name="size" value="large" />
   <label for="large">Large</label>
 </fieldset>
 ```
 
 :::note Interactive example
+
 <fieldset>
   <legend>Coffee size</legend>
 
@@ -180,7 +182,7 @@ When we want the user to toggle a choice, or select multiple choices out of a li
 We can use `<input type="checkbox">` to create a checkbox input, like in the following example.
 
 ```html
-<input id="agreement" type="checkbox" name="agreement">
+<input id="agreement" type="checkbox" name="agreement" />
 <label for="agreement">I agree you are the best mentor in CodeYourFuture</label>
 ```
 
@@ -198,19 +200,20 @@ Like with radio inputs:
 ```html
 <fieldset>
   <legend>Fruit I like</legend>
-    
-  <input id="apples" type="checkbox" name="favourite-fruit" value="apples">
+
+  <input id="apples" type="checkbox" name="favourite-fruit" value="apples" />
   <label for="apples">Apples</label>
-  
-  <input id="bananas" type="checkbox" name="favourite-fruit" value="bananas">
+
+  <input id="bananas" type="checkbox" name="favourite-fruit" value="bananas" />
   <label for="bananas">Bananas</label>
-  
-  <input id="oranges" type="checkbox" name="favourite-fruit" value="oranges">
+
+  <input id="oranges" type="checkbox" name="favourite-fruit" value="oranges" />
   <label for="oranges">Oranges</label>
 </fieldset>
 ```
 
 :::note Interactive example
+
 <fieldset>
   <legend>Fruit I like</legend>
   
@@ -263,6 +266,7 @@ We can also use the `selected` attribute to make an option selected by default.
 :::note Interactive example
 <label for="cuisine">Favourite cuisine</label>
 <select id="cuisine" name="cuisine">
+
   <option value="scottish" selected>Scottish</option>
   <option value="italian">Italian</option>
   <option value="french">French</option>
@@ -306,7 +310,7 @@ This is the preferred way as it is more explicit.
 
 ```html
 <label for="username">Username</label>
-<input id="username" type="text" name="username">
+<input id="username" type="text" name="username" />
 ```
 
 The second way is by wrapping the `input` within the `label`.
@@ -314,7 +318,7 @@ The second way is by wrapping the `input` within the `label`.
 ```html
 <label>
   Username
-  <input type="text" name="username">
+  <input type="text" name="username" />
 </label>
 ```
 
@@ -342,28 +346,36 @@ The following example demonstrates some of the attributes we can use.
 ```html
 <form>
   <label for="username">Username that must be between 3 and 8 characters</label>
-  <input id="username" type="text" minlength="3" maxlength="8" required>
+  <input id="username" type="text" minlength="3" maxlength="8" required />
 
   <label for="email">Email that is required</label>
-  <input id="email" type="email" required>
+  <input id="email" type="email" required />
 
-  <label for="password">Password that can autocomplete with a suggested new password</label>
-  <input id="password" type="password" autocomplete="new-password" required>
-  
+  <label for="password"
+    >Password that can autocomplete with a suggested new password</label
+  >
+  <input id="password" type="password" autocomplete="new-password" required />
+
   <label for="age">Age that must be between 18 and 118</label>
-  <input id="age" type="number" min="18" max="118" required>
-  
+  <input id="age" type="number" min="18" max="118" required />
+
   <label for="disabled">Disabled input</label>
-  <input id="disabled" type="text" value="You cannot click me" disabled>
-  
+  <input id="disabled" type="text" value="You cannot click me" disabled />
+
   <label for="read-only">Read-only input</label>
-  <input id="read-only" type="text" value="You can only read my value" readonly>
-  
+  <input
+    id="read-only"
+    type="text"
+    value="You can only read my value"
+    readonly
+  />
+
   <button>Submit</button>
 </form>
 ```
 
 :::note Interactive example
+
 <form style={{border:'1px solid black', padding:'0.5rem'}} onSubmit={(event) => {event.preventDefault(); alert('Form submit success!\n\nThe form does not have any invalid values.')}}>
   <p>
     <label for="username-2" style={{display:'block'}}>Username that must be between 3 and 8 characters</label>
@@ -413,14 +425,15 @@ To prevent a button from submitting the form, we can add `type="button"` to the 
 ```html
 <form>
   <label for="search">Search</label>
-  <input id="search" type="text">
-  
+  <input id="search" type="text" />
+
   <button>I will submit the form</button>
   <button type="button">I will not submit the form</button>
 </form>
 ```
 
 :::note Interactive example
+
 <form onSubmit={(event) => {event.preventDefault();alert('Form submitted!')}}>
   <label for="search">Search</label>
   <input id="search" type="text"/>
@@ -452,11 +465,13 @@ the browser will send the `q=codeyourfuture` key-value pair to `https://duckduck
 ```html
 <form action="https://duckduckgo.com" method="get">
   <label for="search">Search</label>
-  <input id="search" type="submit" name="q">
+  <input id="search" type="submit" name="q" />
   <button>Search DuckDuckGo</button>
 </form>
 ```
+
 :::note Interactive example
+
 <form action="https://duckduckgo.com" method="get">
   <label for="ddg-search">Search</label>
   <input id="ddg-search" type="search" name="q"/>
@@ -536,7 +551,7 @@ Click [here](./homework) to view the coursework for this lesson.
 ## Further learning
 
 There's much more we haven't covered in this module.
-Once you're comfortable with CSS, you can read up on the following topics which are used by a variety of software teams.  
+Once you're comfortable with CSS, you can read up on the following topics which are used by a variety of software teams.
 
 - [BEM](http://getbem.com/introduction/) — this is a set of rules to improve the naming and structure of a project's CSS
 - [CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) — this is used to create an animation from one state to another

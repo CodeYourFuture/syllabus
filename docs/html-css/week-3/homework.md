@@ -4,6 +4,10 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+# Coursework SSOT
+
+Is your Google Classroom, not here! Teachers and trainees, make sure you check your Google Classroom for latest updates.
+
 ## Mandatory coursework
 
 ### 1) 🔑 Create a Cakes Co webpage (4 hours)

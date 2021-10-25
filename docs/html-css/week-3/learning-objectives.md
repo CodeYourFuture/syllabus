@@ -4,45 +4,21 @@ title: Learning Objectives
 sidebar_label: Learning Objectives
 ---
 
-## Forms
+## Responsive web design
 
-- [ ] Can answer: what are HTML forms used for?
+- [ ] Can: identify a diverse set of devices for the web (phone, tablet, laptop, desktop, tv, game console, etc.)
+- [ ] Can answer: What is responsive web design?
+- [ ] Can answer: what are some ways we might want to have a layout change as we reduce or increase screen size?
 
-### Form controls
+## Media queries
 
-- [ ] Can answer: what form controls can we use when we want the user to enter text
-- [ ] Can answer: what form controls can we use when we want the user to choose a single option from a list
-- [ ] Can answer: what form controls can we use when we want the user to choose multiple options from a list
-- [ ] Can: identify the type of form input likely in use in a sample form
-- [ ] Can: select the correct form inputs when building a simple form
+- [ ] Can answer: What is a media query?
+- [ ] Can answer: When would you use a media query?
+- [ ] Can answer: How can I test how a website looks on different screen sizes?
 
-### Labels
+## Flexbox
 
-- [ ] Can answer: why are labels necessary?
-- [ ] Can answer: in which ways do form control labels benefit users?
-- [ ] Can answer: how do we associate a label with a form control?
-- [ ] Can answer: how do we give a group of radio or checkbox inputs a label
-- [ ] Can answer: why are text input placeholders bad?
-
-### Form validation
-
-- [ ] Can answer: what are some attributes we can use for form validation?
-
-### Form submission
-
-- [ ] Can answer: in which ways can we submit a form?
-- [ ] Can answer: how can we submit a form to a web server?
-  
-### Form security
-
-- [ ] Can answer: what should we never trust in software?
-
-## HTML/CSS Frameworks
-
-- [ ] Can: use Bootstrap to create components
-
-## Devtools (optional)
-
-- [ ] Can: manually locate the source of a specific piece of text from a page's rendered view in the source HTML, for a simple case.
-- [ ] Can: use the browser's inspector to automatically locate the corresponding source for a given element of the rendered view.
-- [ ] Can: discover the current box model attributes of an element, using the inspector.
+- [ ] Can answer: What is flexbox?
+- [ ] Can answer: When would you use flexbox?
+- [ ] Can answer: What are the different ways to arrange elements using flexbox?
+- [ ] Can answer: In what ways can you position individual items using flexbox?

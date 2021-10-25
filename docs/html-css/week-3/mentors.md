@@ -18,53 +18,69 @@ We highly recommend joining the relevent Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
-## Resources
+## Presentations
 
-- [Bootstrap Demo](https://github.com/anthonytranDev/cyf-bootstrap)
-
-## Articles
-
-- [What is design system - Please scroll the bottom for explanation in the FAQs](https://enonic.com/blog/what-is-design-system)
-
-## Quizzes
-
-- [HTML/CSS Quick Quiz - 19/05/2020](https://drive.google.com/open?id=1_6kJSfIqY2f5iltyH_SUXyfeUGXRLZiGKcecATavByA)
-  - Created by Scotland and Nate
-- [HTML/CSS Quick Quiz - 18/04/2020](https://drive.google.com/open?id=1x-5GVJMeSe-gauVC6rDOBAa--ltZJNPd5pE095zYmC4)
-  - Created by Manchester and Anthony Tran
+- [Week 2 - Responsive Design [Google Slides] - 28/05/2020](https://docs.google.com/presentation/d/1REawHd4Uy-WGVDmrwvyLLtX-mEurrS15b9QyLn8lULo/edit)
+  - Created by Birmingham
+- [Week 2 - Flexbox & Media Queries [Google Slides] - 28/05/2020](https://docs.google.com/presentation/d/10Y7ev8w0OZSwuCDU3dUB3wertwVgRIwd0pWC5l5qS8Y/edit#slide=id.g854eaaa097_0_58)
+  - Created by Birmingham
 
 ## Overview
 
 This outline provides tips to help mentors guide trainees to the best answers or outcomes for the lesson topics and exercises.
 
-### Open-source HTML/CSS Frameworks
+### Articles
 
-Using the [Navbar color schemes](https://getbootstrap.com/docs/4.0/components/navbar/#color-schemes), use the browser's dev tools to show how changing the navbar classes in the example website changes the look based on Bootstrap.
+- [History of Responsive Web Design](https://alistapart.com/article/responsive-web-design/)
+- [Most Common ViewPort Sizes](https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/)
 
-Using the [Card](https://getbootstrap.com/docs/4.0/components/card/#example) example, try to illustrate the way tags are nested inside of each other in a specific hierarchy. Emphasise the practice of paying close attention to documentation and picking up on minor details.
+### Responsive Web Design
 
-### Personal Websites
+Devices to brainstorm together:
 
-The goal of this exercise is to identify trainees who are struggling to keep up. Try to identify where a trainee is struggling:
+- Phones
+- Tablets
+- Laptops
+- Desktop computers
+- Gaming consoles (Playstation/Xbox)
+- [Apple Watch](https://www.youtube.com/watch?v=wmyth7Bpyyo)
+- Smart devices (fridges, washing machines, TVs)
+- Screen readers
+- Crawlers (search engines)
 
-- Can they find their files quickly?
-- Are they using the command line when appropriate?
-- Do they understand how their HTML and CSS interact?
-- Do they seem to understand syntax, or are they writing code in the wrong place?
+Use this list to illustrate the range of device sizes we build for. Reinforce the separation between data and display.
 
-If you find a trainee who is struggling with any of these basics, try to work through them together, then give them a short assignment where they need to do something on their own.
+### Media Queries
 
-There will be several trainees who have the basics down. If they do, push them on some of the higher-level abstract concepts, like re-usable HTML/CSS components, and using CSS specificity cleverly (eg - basic and primary buttons). Beyond that, let them read up on HTML Forms (links in the resources), do some of the advanced suggestions in the syllabus, or challenge them to read and implement BEM naming syntax.
+When completing the exercises, make sure they use a "mobile-first" technique. They shouldn't shrink the text on small screens, but enlarge it on bigger screens.
 
-### Retrospective
+```css
+/* Don't */
+@media (max-width: 480px) {
+  .jumbotron .display-3 {
+    font-size: 3rem;
+  }
+}
 
-Try to use a tool such as [MetroRetro](https://metroretro.io/) to facilitate this discussion.
+/* Do */
+.jumbotron .display-3 {
+  font-size: 3rem;
+}
+@media (min-width: 480px) {
+  .jumbotron .display-3 {
+    font-size: 4.5rem;
+  }
+}
+```
 
-It is **very** important to reinforce the fact tha criticizing the course makes us better. Remind the trainees that there are 100s of trainees coming after them at CodeYourFuture - every bit of critical feedback makes us better for them.
+When completing the second exercise, make sure they're only modifying the buttons in the jumbotron. The button in the header shouldn't be effected.
 
-You can prompt them with questions such as:
+### Content Layout: Flexbox
 
-- What did you not understanding for the module?
-- What else do you with you learnt?
-- What do you wish we did more of?
-- What do you with we did less of?
+This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that trainees are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
+
+When they add a background and border to the "Learn More" articles, make sure they're adding padding so the text doesn't go right up to the edge. If they are using `px` units, nudge them towards `em` and explain that `em` is often preferred because it scales well when you need to change font size for different viewports.
+
+## Coursework
+
+When checking their use of flexbox in their webpage, make sure they're using gutters where appropriate and that they're using the kinds of design patterns you would expect to see on a website (ie - items line up, text is proportionate, etc).

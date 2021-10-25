@@ -45,7 +45,7 @@ As a group, let's think of everyone that uses the web.
 
 - What kinds of people use the web?
 - How might their experiences be different?
-:::
+  :::
 
 As web developers, we don't build websites for ourselves—we build them for our users.
 Therefore, it is our responsibility to build websites that can be used by all users of the web.
@@ -187,7 +187,7 @@ When creating a web page, we should always think about how to structure the cont
 
 ### Sectioning Content
 
-HTML provides elements that allow us to semantically divide our page into sections.
+We can group elements with 'sectioning' tags.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
 alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
@@ -205,21 +205,21 @@ Additionally, we can use `<article>` and `<section>` to divide these sections in
 
 :::tip
 Use these sectioning HTML elements in every website you build.
-This lets screen reader users jump to these sections of the website quickly.
+This lets screen reader users jump to these [sections](https://www.w3.org/TR/WCAG20-TECHS/G115.html) of the website quickly.
 :::
 
 ### Text Content
 
-For text content, we can use the following elements.
+For text we mainly use these block and inline elements.
 
-- We can use `<h1>` to `<h6>` for **headings**
+- `<h1>` to `<h6>` for **headings**
   - There should be only one `<h1>` element on the page, and we shouldn't skip levels
-- We can use `<p>` for **paragraphs** of text
-- We can use `<ul>` and `<ol>` for **lists**
-  - `<ul>`, unordered list, shows as bullet points
-  - `<ol>`, ordered list, shows as numeric points
-- We can use `<em>` for **emphasis**
-- We can use `<strong>` to indicate **importance**, seriousness or urgency
+- `<p>` for **paragraphs** of text
+- `<ul>` and `<ol>` for **lists**
+  - `<ul>`, **u**nordered **l**ist for items not in any particular order
+  - `<ol>`, **o**rdered **l**ist for lists where the order matters
+- `<em>` for **emphasis**
+- `<strong>` to indicate **importance**, seriousness or urgency
 
 ### Image Content
 
@@ -306,7 +306,7 @@ Who benefits when we write **semantic** HTML?
 :::note Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
-Work in pairs to determine what changes we should make to the code below to make it more semantic.
+Work in pairs to determine what changes we should make to the code below to make it more semantic. Semantic means 'meaningful'.
 
 ```html
 <div>Pancake recipe</div>
@@ -367,7 +367,13 @@ All together, let's review the basic syntax in the following example.
 Which parts are the rules, selectors, properties, values, and declarations?
 
 ```css
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: #333;
   margin-bottom: 2rem;
 }
@@ -473,12 +479,6 @@ h2 {
 
 If you want to view all CSS units, visit the [MDN CSS values and units page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units#numeric_data_types).
 
-:::tip
-Some users who find it difficult to read small text will use the browser zoom to increase the content size.
-Since absolute units do not increase in size with browser zoom, we should use relative units whenever possible.
-Therefore, we should **prefer** using `rem` and `%`, and **avoid** using `px`.
-:::
-
 :::note Exercise (5 minutes)
 All together, let's review what each of the values in the previous code example mean.
 :::
@@ -546,6 +546,7 @@ When using a `:hover` pseudo-class selector, it is usually a good idea to also i
   background: #ef7f52;
 }
 ```
+
 :::
 
 :::note Exercise (10 minutes)
@@ -598,7 +599,7 @@ Instead of typing out each property, we can use shorthand properties for border,
   /* vertical | horizontal */
   margin: 0.5rem 1rem;
   padding: 0.5rem 1rem;
-  
+
   /* top | right | bottom | left */
   margin: 1rem 0.5rem 2rem 0.25rem;
   padding: 1rem 0.5rem 2rem 0.25rem;
@@ -621,19 +622,17 @@ In the Bikes for Refugees project, work in pairs and:
 1. Use the `padding` property to add more space inside all buttons.
 1. Use the `border` property to remove the border from all buttons.
 1. For bonus points, you can use the `border-radius` property to make the corners of the buttons rounded.
-:::
+   :::
 
 ### Block and Inline Boxes
 
 We can think of CSS as having two types of boxes: **block** boxes and **inline** boxes.
 
 - Block boxes take up the whole width of its container and stack on top of each other vertically.
-- Inline boxes are only as wide as its content and flow next to each other horizontally.
-
-The following image illustrates this visually.
+- Inline boxes are only as wide as its content and flow next to each other horizontally. In other words they go along in a line.
 
 <img src={require('!file-loader!../assets/css-block-inline-flow.png').default}
-alt="Diagram showing that block elements stack vertically and inline elements stack horizontally"/>
+alt="Diagram showing that block elements stack vertically and inline elements stack horizontally."/>
 
 Block and inline boxes have a few more differences, which if you're not aware of can make it difficult to understand why inline elements are not being styled as expected.
 The following table describes the differences between the two in more detail.
@@ -749,8 +748,8 @@ p {
 
 ### Specificity
 
-Specificity is how CSS figures out which rule to use when different selectors are used for the same element.
-Quite simply, a rule with an ID selector is typically chosen over one with a class selector, which is typically chosen over one with a type selector.
+Specificity is how CSS figures out which rule to use when different selectors are used for the same element. Selectors have different 'weights'.
+A rule with an ID selector is typically chosen over one with a class selector, which is typically chosen over one with a type selector.
 
 ```css
 /* An ID selector has the highest specificity of these three rules, so the paragraph is orange */
