@@ -4,7 +4,46 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 07/10/21
+
+### Present
+
+Sally, Daniel, Ali, Chris
+
+### Minutes
+
+- Greg to continue to work on Blockly
+- Several grants have come through so we may have the ability to spend on the Syllabus team (early next year)
+- Fundamentals
+  - Greg to continue to work on Blockly
+  - Syllabus Team Goals: https://docs.google.com/document/d/1fc-c9NZQPtBieftrvTXj3yiwU0HLBZ68bnagHja1NsE/edit
+  - London 8 Results 
+    - Both tests that were run were good successes - [Blockers](https://fundamentals.codeyourfuture.io/lessons/lesson-1#blockers) and Shipping a Website
+    - These have been merged into the current syllabus
+    - The [instructions](https://fundamentals.codeyourfuture.io/teacher-resources/instructor-notes-1#solving-problems-workshop) were very helpful for Blockers
+  - Exit Criteria
+    - Could we provide a buffet of graduate criteria that volunteers can pick from?
+    - Could we use a self assessment for the students>
+    - Actions Raised
+  - PD Content
+    - How much time do we need for PD?
+    - This should be interleaved as we're planning to do for HTML/CSS
+- HTML/CSS (#LDN8 Plan)
+  - Lucy (#LDN8 Teacher ) to include netlify 
+  - Attempt for interleaved PD through this module
+    - Module extended to four weeks with 90 mins per day for PD
+- Module Gardeners
+  - Ongoing search happening [here](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit#)
+
+### Actions
+
+- Chris: Ticket for KPIs for Fundamentals to be written
+- Chris + Ali: Over the next two weeks, work on the KPIs for Fundamentals
+- Daniel: Work on skeleton for two 90 minute sessions 
+- Greg: Continue to work on Blockly
+
 ## 13/10/2021
+
 ### Present
 
 Sally, Mitch, Daniel
