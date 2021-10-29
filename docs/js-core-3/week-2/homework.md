@@ -74,7 +74,7 @@ All of the details for this project can be found here
 
 https://syllabus.codeyourfuture.io/js-core-3/tv-show-dom-project/readme
 
-## 5) Give feedback on your colleague's coursework (1 hour)
+## 6) Give feedback on your colleague's coursework (1 hour)
 
 Use what you learned in this lesson to give feedback to other trainees who have submitted their coursework.
 
@@ -96,7 +96,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) CodeWars (1 hour)
+## 7) CodeWars (1 hour)
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
