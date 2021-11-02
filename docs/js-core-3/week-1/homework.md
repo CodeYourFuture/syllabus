@@ -91,13 +91,13 @@ Helping to give feedback on other peoples coursework doesn't only help them, it 
 
 You must
 
-    View the open Pull Requests here
+1. View the open Pull Requests here
 
 https://github.com/CodeYourFuture/JavaScript-Core-3-Coursework-Week1/pulls
 
-    Find two pull requests from people in your class that have no, or few, comments on them
-    Leave comments on the two pull requests with improvements or suggestions
-    Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
+2. Find two pull requests from people in your class that have no, or few, comments on them
+3. Leave comments on the two pull requests with improvements or suggestions
+4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
 
 Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
 
@@ -106,11 +106,13 @@ Remember, you should use the Code Style Guide to help you
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
 ## 6) CodeWars (1 hour)
+
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
 
 Find the Collection for JS-3 Week 1 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-#### 6a) Start mentoring others in the #cyf-codewars channel. 
+#### 6a) Start mentoring others in the #cyf-codewars channel.
+
 Remember to follow the channel rules. We don't give solutions in Codewars.
