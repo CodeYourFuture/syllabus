@@ -24,7 +24,7 @@ Trainees come to this class having already built several small web pages with HT
 
 All trainees should have prepared for class with a recap course: [HTML CSS Crash Course](https://scrimba.com/learn/htmlcss)
 
-This means that this lesson is a level-settings.recap lesson to make sure that all of our trainees are at the same point.
+This means that this lesson is a level setting and expectation setting session.
 
 If it is obvious that your trainees already understand the concepts that you are covering, you are encouraged to move quickly through the content and spend your time on the main instructor-led theme of the lesson: **structuring data with semantic HTML**.
 
@@ -85,10 +85,12 @@ For the second exercise, the answer will look something like this:
 }
 ```
 
-### CSS Project
+### Content Layout: Flexbox
 
-Make sure the put the trainee in similar ability teams as far as you can.
+This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that trainees are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
 
-You can use this project to run out the rest of the lesson if you have extra time or remove it if you're short for time. It's purely a consolidation exercise from the day.
+When they add a background and border to the "Learn More" articles, make sure they're adding padding so the text doesn't go right up to the edge. If they are using `px` units, nudge them towards `em` and explain that `em` is often preferred because it scales well when you need to change font size for different viewports.
 
 ## Coursework
+
+When checking their use of flexbox in their webpage, make sure they're using gutters where appropriate and that they're using the kinds of design patterns you would expect to see on a website (ie - items line up, text is proportionate, etc).

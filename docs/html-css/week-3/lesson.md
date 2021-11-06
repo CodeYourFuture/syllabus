@@ -1,6 +1,6 @@
 ---
 id: lesson
-title: HTML/CSS - 2
+title: HTML/CSS - 3
 sidebar_label: Lesson
 ---
 
@@ -10,7 +10,7 @@ import Feedback from "@theme/Feedback";
 
 - [Responsive Web Design](#responsive-web-design)
 - [Media Queries](#media-queries)
-- [Flexbox](#flexbox)
+- [Grid](#grid)
 
 ---
 
@@ -62,154 +62,46 @@ Working in pairs, reduce the size of the "Bikes for Refugees" text so that it fi
 The two buttons in the jumbotron don't fit on the same line on small screens around `320px` wide. Can you adjust their size so that they fit on the same line?
 :::
 
-## Flexbox
-
-Flexbox is a name for a set of CSS layout rules for laying out items in rows or columns. They allow you to apply rules to elements to place them side-by-side and re-arrange them. You just specify how you want your elements arranged and the browser will scale this arrangement depending on the screen size and device used for viewing.
-
-To add flexbox:
-
-1. Identify the elements you want to arrange in a certain way. For example, these three buttons:
-   ```html
-   <button>Home</button>
-   <button>Gallery</button>
-   <button>Contact</button>
-   ```
-1. Make sure they're part of the same container:
-   ```html
-   <div class="menu">
-     <button>Home</button>
-     <button>Gallery</button>
-     <button>Contact</button>
-   </div>
-   ```
-1. Tell the container to use Flexbox to arrange all its children:
-   ```css
-   .menu {
-     display: flex;
-   }
-   ```
-
-Once you have flexbox applied to the container you can start adding more rules to tell it exactly how the elements should be arranged.
-
-### Display elements in a row
-
-Use `flex-direction: row` to display the child elements in a row.
-
-```css
-.menu {
-  display: flex;
-  flex-direction: row;
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-direction-row.png').default} alt=""/>
-
-### Display elements in a column
-
-Use `flex-direction: column` to display the child elements in a column.
-
-```css
-.menu {
-  display: flex;
-  flex-direction: column;
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-direction-column.png').default} alt=""/>
-
-### Space out elements equally in a row
-
-Use `justify-content: space-between` to space out elements equally.
-
-This can be used when the elements are displayed in a row:
-
-```css
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* or space-around */
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-justify-content-row.png').default} alt=""/>
-
-### Space out elements equally in a column
-
-This can be used when the elements are displayed in a column:
-
-```css
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* or space-around */
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-justify-content-column.png').default} alt=""/>
-
-In the above 2 examples we used the same rule `justify-content: space-between`, but we changed `flex-direction` from `row` to `column`.
-Notice how `justify-content` works in the same direction as `flex-direction`.
-In the images above, the green arrow for `justify-content` is operating in the same direction as `flex-direction`.
-
-### Align elements in a row
-
-Use `align-items: center` to align the child elements in the centre.
-
-This can be used when the elements are displayed in a row:
-
-```css
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-align-items-row.png').default} alt=""/>
-
-### Align elements in a column
-
-This can be used when the elements are displayed in a column:
-
-```css
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-```
-
-<img src={require('!file-loader!../assets/css-flex-align-items-column.png').default} alt=""/>
-
-While `justify-content` works in the same direction as `flex-direction`, align-items works the opposite way!
-Have a close look at the above images—the green arrow is opposite to the yellow `flex-direction` one.
-
-If you want to view all flexbox rules, visit the [A Guide To Flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
-
-:::note Exercise (20 minutes)
-Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
-
-<img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
-
-You can start with something like the below, by just adding a container, and the 3 text pieces within it. Try to use flexbox to position the text elements within the container to match the picture:
-
-```html
-<div>
-  <!-- CONTAINER START -->
-  <div>Check availability</div>
-  <div>Donate bikes</div>
-  <div>Volunteer with us</div>
-</div>
-<!-- CONTAINER END -->
-```
-
-Once that's done you can move on to creating boxes for each individual text piece, and again, using flexbox to position the text piece in the middle of its box.
-:::
+## CSS Grid
 
 :::note Exercise (5 minutes)
-Let's take a break from flexbox for a minute. Do you remember the `:first-child` pseudo class? There's a `:last-child` pseudo class as well.
+Open a web page.
+Everyone point to the grid.
+Now everyone circle a card component. You can use the annotations tool in Zoom or an extension like [Annotate](https://chrome.google.com/webstore/detail/annotate-web-annotations/gdojjgflncpbcfmenbkndfhoamlhajmf/related) in person.
 
-See if you can use these pseudo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`).
+Go around the room -- each person must circle a smaller component until you have reached single html tags.
+:::
+
+### What is CSS Grid?
+
+CSS grid is a way to lay out both components and whole pages with CSS. We can define a layout grid, then slot child components into the grid wherever we want them, regardless of the HTML structure. It's a display property, so first we turn on the grid:
+
+```css
+display: grid;
+```
+
+Then we define the layout of the grid as a template. There are lots of ways to do this, but the simplest way is to do this with named areas so it's really clear what should go where. Let's imagine in our semantic html page we have a header, some navigation, some main content, a sidebar and a footer. We can describe that with grid:
+
+```css
+grid-template-areas:
+  "header header header"
+  "nav    nav    sidebar"
+  "main   main   sidebar"
+  "footer footer footer";
+```
+
+:::tip
+CSS Grid areas, like all HTML elements, are always rectangles. To make more complicated shapes you must overlap areas.
+:::
+
+:::note Exercise (1min)
+Draw around the words to create a wireframe layout. When you are designing your CSS grid, it helps to sketch the boxes first.
+:::
+
+The words make a layout template - a little map of where things will be placed on the page. This is a different kind of semantics. Instead of describing our code to a computer, we are describing it to our fellow coders. The computer doesn't understand these words at all.
+
+:::note Exercise (10 minutes)
+Unlike the semantic HTML elements we discussed, where different tags are parsed in different ways by the browser, you could use any string of characters as a name in CSS Grid. But should you? What is the value and purpose of naming things clearly? Discuss your ideas in small groups.
 :::
 
 ## Coursework

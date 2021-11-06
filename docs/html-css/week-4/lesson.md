@@ -28,6 +28,8 @@ We are going to build a site and deploy it to the internet, or 'Ship It'. You di
 
 Many developers struggle with perfectionism. At CYF we challenge you to ship your code quickly and often, as this is the best way to improve your [quality and your quantity](https://betterprogramming.pub/why-perfectionism-is-killing-your-progress-as-a-coder-42a842d5e7c0).
 
+We will also use Devtools to run tests (Lighthouse Audit) on our websites and examine our code critically. Developers must test their work.
+
 :::note Deploy to Netlify Workshop 1
 
 https://syllabus.codeyourfuture.io/workshops/deployment/workshop/workshop
