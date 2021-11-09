@@ -330,7 +330,7 @@ fetch("https://httpstat.us/500")
 
 In groups the trainees should create a page of details about the United Kingdom.
 
-The API endpoint can be found [here](https://restcountries.eu/rest/v2/name/Great%20Britain?fullText=true)
+The API endpoint can be found [here](https://restcountries.com/v3.1/name/Great%20Britain)
 
 The website should include
 
@@ -340,7 +340,7 @@ The website should include
 
 #### Getting Started
 
-1. Go to [this Glitch Project](https://glitch.com/edit/#!/js3-2-country-exercise?path=README.md%3A3%3A80)
+1. Go to [this Glitch Project](https://glitch.com/edit/#!/js3-2-country-exercise-v2?path=README.md)
 2. Click `Remix to Start` to being working
 
 #### Steps
