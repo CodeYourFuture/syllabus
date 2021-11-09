@@ -173,15 +173,12 @@ As you can see the URL changes the data that we get from the API. This can be br
 
 :::note Exercise
 
-Let's use the TFL API to get data about the London Underground
+The purpose of the exercise is to get used to interpreting API documentation.
 
-https://api.tfl.gov.uk
+Let's use the Chuck Norris Jokes API. The documentation can be found at https://api.chucknorris.io/.
 
-1. Which endpoint would you use to find out if there is a disruption on the 'central' line?
-2. Does the 'central' line have a disruption right now?
-3. Name another line that has a disruption on it.
-
-Hint: Use your browser to access the endpoints
+1. Read the "Usage" section and try each endpoint in the browser.
+2. Retrieve a random Chuck Norris joke related to _movies_. You will need to get data from one endpoint and then use it to retrieve data from another endpoint.
 
 :::
 
