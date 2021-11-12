@@ -45,6 +45,12 @@ module.exports = {
       "html-css/week-3/homework",
       "html-css/week-3/instructors",
     ],
+    "Lesson 4": [
+      "html-css/week-4/learning-objectives",
+      "html-css/week-4/lesson",
+      "html-css/week-4/homework",
+      "html-css/week-4/instructors",
+    ],
     Challenges: [
       {
         type: "link",
@@ -321,7 +327,7 @@ module.exports = {
       "workshops/deployment/workshop/cheatsheet",
     ],
   },
-  Accessability: {
+  Accessibility: {
     Overview: ["workshops/accessibility/index"],
     Workshops: [
       "workshops/accessibility/intro-to-accessibility",

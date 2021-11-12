@@ -6,7 +6,7 @@ sidebar_label: Instructor Notes
 
 ## Questions and Help
 
-We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+We highly recommend joining the relevant Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
 
 [cyf-module-react](https://codeyourfuture.slack.com/archives/C76GQDRH9)
 

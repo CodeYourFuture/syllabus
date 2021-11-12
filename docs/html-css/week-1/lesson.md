@@ -5,26 +5,13 @@ sidebar_label: Lesson
 ---
 
 import Feedback from "@theme/Feedback";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
 
 ## Contents
 
-- [Who uses the web?](#who-uses-the-web)
-- [What makes a web page?](#what-makes-a-web-page)
-- HTML
-  - [What is HTML](#what-is-html)
-  - [HTML Anatomy](#html-anatomy)
-  - [HTML Structure](#html-structure)
-  - [Semantic HTML](#semantic-html)
-- CSS
-  - [What is CSS?](#what-is-css)
-  - [CSS Anatomy](#css-anatomy)
-  - [Common CSS Properties](#common-css-properties)
-  - [CSS Units](#css-units)
-  - [CSS Selectors](#css-selectors)
-  - [CSS Box Model](#css-box-model)
-  - [CSS Inheritance, Cascade, and Specificity](#css-inheritance-cascade-and-specificity)
-
----
+<TOCInline toc={toc} />;
 
 ## Learning Objectives
 
@@ -45,7 +32,7 @@ As a group, let's think of everyone that uses the web.
 
 - What kinds of people use the web?
 - How might their experiences be different?
-:::
+  :::
 
 As web developers, we don't build websites for ourselves—we build them for our users.
 Therefore, it is our responsibility to build websites that can be used by all users of the web.
@@ -89,7 +76,7 @@ Why don't we put everything in one file?
 HTML (HyperText Markup Language) is the language used to create documents that are displayed on web browsers.
 It gives **structure** and **meaning** to content by using tags such as `<h1>` and `<p>` to describe headings and paragraphs of text.
 
-## HTML Anatomy
+### HTML Anatomy
 
 <img src={require('!file-loader!../assets/html-anatomy.png').default}
 alt="HTML code of an element with a p tag, class=text attribute, and 'Welcome to lesson 1' content"/>
@@ -121,7 +108,7 @@ Which parts are the elements, tags, attributes, and content?
 
 :::
 
-## HTML Structure
+### HTML Structure
 
 Every HTML document has the same base structure, shown in the code example below.
 
@@ -187,7 +174,7 @@ When creating a web page, we should always think about how to structure the cont
 
 ### Sectioning Content
 
-HTML provides elements that allow us to semantically divide our page into sections.
+We can group elements with 'sectioning' tags.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
 alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
@@ -205,21 +192,21 @@ Additionally, we can use `<article>` and `<section>` to divide these sections in
 
 :::tip
 Use these sectioning HTML elements in every website you build.
-This lets screen reader users jump to these sections of the website quickly.
+This lets screen reader users jump to these [sections](https://www.w3.org/TR/WCAG20-TECHS/G115.html) of the website quickly.
 :::
 
 ### Text Content
 
-For text content, we can use the following elements.
+For text we mainly use these block and inline elements.
 
-- We can use `<h1>` to `<h6>` for **headings**
+- `<h1>` to `<h6>` for **headings**
   - There should be only one `<h1>` element on the page, and we shouldn't skip levels
-- We can use `<p>` for **paragraphs** of text
-- We can use `<ul>` and `<ol>` for **lists**
-  - `<ul>`, unordered list, shows as bullet points
-  - `<ol>`, ordered list, shows as numeric points
-- We can use `<em>` for **emphasis**
-- We can use `<strong>` to indicate **importance**, seriousness or urgency
+- `<p>` for **paragraphs** of text
+- `<ul>` and `<ol>` for **lists**
+  - `<ul>`, **u**nordered **l**ist for items not in any particular order
+  - `<ol>`, **o**rdered **l**ist for lists where the order matters
+- `<em>` for **emphasis**
+- `<strong>` to indicate **importance**, seriousness or urgency
 
 ### Image Content
 
@@ -306,7 +293,7 @@ Who benefits when we write **semantic** HTML?
 :::note Exercise 2 (10 minutes)
 _Paired Programming Exercise_
 
-Work in pairs to determine what changes we should make to the code below to make it more semantic.
+Work in pairs to determine what changes we should make to the code below to make it more semantic. Semantic means 'meaningful'.
 
 ```html
 <div>Pancake recipe</div>
@@ -343,7 +330,7 @@ You can create the table on https://codepen.io/pen/ if you wish.
 
 CSS (Cascading Style Sheets) is the language used to modify the **style** of the HTML document.
 
-## CSS Anatomy
+### CSS Anatomy
 
 <img src={require('!file-loader!../assets/css-anatomy.png').default}
 alt="CSS rule with an h1 selector, font-size:1.5rem; declaration, font-size property, and 1.5rem value"/>
@@ -367,7 +354,13 @@ All together, let's review the basic syntax in the following example.
 Which parts are the rules, selectors, properties, values, and declarations?
 
 ```css
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: #333;
   margin-bottom: 2rem;
 }
@@ -379,7 +372,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 :::
 
-## Common CSS properties
+### Common CSS properties
 
 A typical web page contains text structured into headings and paragraphs.
 We can use CSS to modify the styling of text.
@@ -404,7 +397,7 @@ buttons on the page an orange-red `#c05326` colour, and make the `Volunteer` but
 with orange-red `#c05326` text. Leave the border for now.
 :::
 
-## CSS Units
+### CSS Units
 
 When we measure objects in real life we might use centimeters or inches.
 CSS also uses measurement units like these.
@@ -473,79 +466,73 @@ h2 {
 
 If you want to view all CSS units, visit the [MDN CSS values and units page](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units#numeric_data_types).
 
-:::tip
-Some users who find it difficult to read small text will use the browser zoom to increase the content size.
-Since absolute units do not increase in size with browser zoom, we should use relative units whenever possible.
-Therefore, we should **prefer** using `rem` and `%`, and **avoid** using `px`.
-:::
-
 :::note Exercise (5 minutes)
 All together, let's review what each of the values in the previous code example mean.
 :::
 
-## CSS Selectors
+### CSS Selectors
 
-CSS selectors enable us to select an HTML element to apply styles to.
-There are several types of CSS selectors, which offer different ways to select HTML elements.
-The common ones are shown in the following table.
+We target or _select_ HTML elements with CSS Selectors. The selector comes before the ruleset.
+
+<Tabs defaultValue="exercise"
+values={[{ label: "Exercise", value: "exercise" }, { label:"Clues", value: "clues" }]}>
+<TabItem value="exercise" label="exercise" default>
+
+:::note Exercise (5 minutes)
+Go around the room and name a selector each until you run out.
+:::
+</TabItem>
+<TabItem value="clues" label="clues">
 
 <table>
-  <caption>Common CSS selectors</caption>
-  <thead>
-    <tr>
-      <th>Selector</th>
-      <th>Example</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Class selector</td>
-      <td><code>.text &#123; &#125;</code></td>
-      <td>Selects all HTML elements with class <code>class="text"</code></td>
-    </tr>
-    <tr>
-      <td>Type selector</td>
-      <td><code>p &#123; &#125;</code></td>
-      <td>Selects all <code>p</code> HTML elements</td>
-    </tr>
-    <tr>
-      <td>ID selector</td>
-      <td><code>#text &#123; &#125;</code></td>
-      <td>Selects all HTML elements with ID <code>id="text"</code></td>
-    </tr>
-    <tr>
-      <td>Descendant combinator</td>
-      <td><code>article p { }</code></td>
-      <td>Selects all <code>p</code> HTML elements that are a descendant of an <code>article</code> element</td>
-    </tr>
-    <tr>
-      <td>Child combinator</td>
-      <td><code>article > p { }</code></td>
-      <td>Selects all <code>p</code> HTML elements that are a direct child of an <code>article</code> element</td>
-    </tr>
-    <tr>
-      <td>Pseudo-class selector</td>
-      <td><code>p:hover &#123; &#125;</code></td>
-      <td>Selects all <code>p</code> HTML elements that have a mouse hovering on them</td>
-    </tr>
-  </tbody>
+<caption>Common CSS selectors</caption>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Class selector</td>
+<td><code>.text &#123; &#125;</code></td>
+<td>Selects all HTML elements with class <code>class="text"</code></td>
+</tr>
+<tr>
+<td>Type selector</td>
+<td><code>p &#123; &#125;</code></td>
+<td>Selects all <code>p</code> HTML elements</td>
+</tr>
+<tr>
+<td>ID selector</td>
+<td><code>#text &#123; &#125;</code></td>
+<td>Selects all HTML elements with ID <code>id="text"</code></td>
+</tr>
+<tr>
+<td>Descendant combinator</td>
+<td><code>article p { }</code></td>
+<td>Selects all <code>p</code> HTML elements that are a descendant of an <code>article</code> element</td>
+</tr>
+<tr>
+<td>Child combinator</td>
+<td><code>article > p { }</code></td>
+<td>Selects all <code>p</code> HTML elements that are a direct child of an <code>article</code> element</td>
+</tr>
+<tr>
+<td>Pseudo-class selector</td>
+<td><code>p:hover &#123; &#125;</code></td>
+<td>Selects all <code>p</code> HTML elements that have a mouse hovering on them</td>
+</tr>
+</tbody>
 </table>
+</TabItem>
+</Tabs>
 
-If you want to view all CSS selectors, visit the [MDN CSS selectors page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors).
+To view all CSS selectors, visit the [MDN CSS selectors page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors#reference_table_of_selectors).
 
 :::tip
-Class selectors are the preferred way to style in many software teams.
-They typically discourage using type, ID, and descendent/child combinators, as well as the `style` attribute.
-
-When using a `:hover` pseudo-class selector, it is usually a good idea to also include `:focus` like in the following example so that both mouse **and** keyboard users are included.
-
-```css
-.btn:hover,
-.btn:focus {
-  background: #ef7f52;
-}
-```
+There are many selectors, but professionals typically avoid using type, ID, and combinators, as well as the `style` attribute.
 :::
 
 :::note Exercise (10 minutes)
@@ -555,7 +542,7 @@ In the Bikes for Refugees project, work in pairs and use pseudo classes to make 
 Test that it works by hovering over all buttons with your mouse, and by using the `Tab` key to focus on each button.
 :::
 
-## CSS Box Model
+### CSS Box Model
 
 In CSS, everything is a **box**. An image is a box. A link is a box. The following diagram shows what the box model looks like.
 
@@ -598,7 +585,7 @@ Instead of typing out each property, we can use shorthand properties for border,
   /* vertical | horizontal */
   margin: 0.5rem 1rem;
   padding: 0.5rem 1rem;
-  
+
   /* top | right | bottom | left */
   margin: 1rem 0.5rem 2rem 0.25rem;
   padding: 1rem 0.5rem 2rem 0.25rem;
@@ -621,19 +608,18 @@ In the Bikes for Refugees project, work in pairs and:
 1. Use the `padding` property to add more space inside all buttons.
 1. Use the `border` property to remove the border from all buttons.
 1. For bonus points, you can use the `border-radius` property to make the corners of the buttons rounded.
+
 :::
 
-### Block and Inline Boxes
+#### Block and Inline Boxes
 
 We can think of CSS as having two types of boxes: **block** boxes and **inline** boxes.
 
 - Block boxes take up the whole width of its container and stack on top of each other vertically.
-- Inline boxes are only as wide as its content and flow next to each other horizontally.
-
-The following image illustrates this visually.
+- Inline boxes are only as wide as its content and flow next to each other horizontally. In other words they go along in a line.
 
 <img src={require('!file-loader!../assets/css-block-inline-flow.png').default}
-alt="Diagram showing that block elements stack vertically and inline elements stack horizontally"/>
+alt="Diagram showing that block elements stack vertically and inline elements stack horizontally."/>
 
 Block and inline boxes have a few more differences, which if you're not aware of can make it difficult to understand why inline elements are not being styled as expected.
 The following table describes the differences between the two in more detail.
@@ -749,8 +735,8 @@ p {
 
 ### Specificity
 
-Specificity is how CSS figures out which rule to use when different selectors are used for the same element.
-Quite simply, a rule with an ID selector is typically chosen over one with a class selector, which is typically chosen over one with a type selector.
+Specificity is how CSS figures out which rule to use when different selectors are used for the same element. Selectors have different 'weights'.
+A rule with an ID selector is typically chosen over one with a class selector, which is typically chosen over one with a type selector.
 
 ```css
 /* An ID selector has the highest specificity of these three rules, so the paragraph is orange */
@@ -769,18 +755,156 @@ p {
 }
 ```
 
-If you want to read more about inheritance, cascade and specificity, visit the [MDN Cascade and inheritance page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
+To read more about inheritance, cascade and specificity, visit the [MDN Cascade and inheritance page](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance).
 
-## CSS Project
+## Flexbox
 
-The [Zoo Project](https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/zoo-css-challenge)
-is a CSS Project for you to complete using what you've learnt so far today.
-Fork the repository to your personal account and then clone the repository.
+Flexbox is a name for a set of CSS layout rules for laying out items in rows or columns. They allow you to apply rules to elements to place them side-by-side and re-arrange them. You just specify how you want your elements arranged and the browser will scale this arrangement depending on the screen size and device used for viewing.
 
-:::note Exercise (60 minutes+)
-Work in pairs to complete as much of the project as you can.
+To add flexbox:
 
-You will be able to fully complete it after lesson 2 once we've learned flexbox.
+1. Identify the elements you want to arrange in a certain way. For example, these three buttons:
+   ```html
+   <button>Home</button>
+   <button>Gallery</button>
+   <button>Contact</button>
+   ```
+1. Make sure they're part of the same container:
+   ```html
+   <div class="menu">
+     <button>Home</button>
+     <button>Gallery</button>
+     <button>Contact</button>
+   </div>
+   ```
+1. Tell the container to use Flexbox to arrange all its children:
+   ```css
+   .menu {
+     display: flex;
+   }
+   ```
+
+Once you have flexbox applied to the container you can start adding more rules to tell it exactly how the elements should be arranged.
+
+### Display elements in a row
+
+Use `flex-direction: row` to display the child elements in a row.
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-direction-row.png').default} alt=""/>
+
+### Display elements in a column
+
+Use `flex-direction: column` to display the child elements in a column.
+
+```css
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-direction-column.png').default} alt=""/>
+
+### Space out elements equally in a row
+
+Use `justify-content: space-between` to space out elements equally.
+
+This can be used when the elements are displayed in a row:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or space-around */
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-justify-content-row.png').default} alt=""/>
+
+### Space out elements equally in a column
+
+This can be used when the elements are displayed in a column:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* or space-around */
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-justify-content-column.png').default} alt=""/>
+
+In the above 2 examples we used the same rule `justify-content: space-between`, but we changed `flex-direction` from `row` to `column`.
+Notice how `justify-content` works in the same direction as `flex-direction`.
+In the images above, the green arrow for `justify-content` is operating in the same direction as `flex-direction`.
+
+### Align elements in a row
+
+Use `align-items: center` to align the child elements in the centre.
+
+This can be used when the elements are displayed in a row:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-align-items-row.png').default} alt=""/>
+
+### Align elements in a column
+
+This can be used when the elements are displayed in a column:
+
+```css
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+
+<img src={require('!file-loader!../assets/css-flex-align-items-column.png').default} alt=""/>
+
+While `justify-content` works in the same direction as `flex-direction`, align-items works the opposite way!
+Have a close look at the above images—the green arrow is opposite to the yellow `flex-direction` one.
+
+If you want to view all flexbox rules, visit the [A Guide To Flexbox article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+
+:::note Exercise (20 minutes)
+Continue editing the "Bike for refugees" website by adding 3 boxes below Jumbotron, and using Flexbox, make sure they are arranged like in the sketch below:
+
+<img src={require('!file-loader!../assets/flexbox_practice.png').default}/>
+
+You can start with something like the below, by just adding a container, and the 3 text pieces within it. Try to use flexbox to position the text elements within the container to match the picture:
+
+```html
+<div>
+  <!-- CONTAINER START -->
+  <div>Check availability</div>
+  <div>Donate bikes</div>
+  <div>Volunteer with us</div>
+</div>
+<!-- CONTAINER END -->
+```
+
+Once that's done you can move on to creating boxes for each individual text piece, and again, using flexbox to position the text piece in the middle of its box.
+:::
+
+:::note Exercise (5 minutes)
+Let's take a break from flexbox for a minute. Do you remember the `:first-child` pseudo class? There's a `:last-child` pseudo class as well.
+
+See if you can use these pseudo classes to give the left box a grey background (`#ddd`) and the right box a grey border (`1px solid #ddd`).
 :::
 
 ## Coursework

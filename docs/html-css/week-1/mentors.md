@@ -12,19 +12,21 @@ Want to report a bug in this week? Click [here](https://github.com/CodeYourFutur
 
 ## Questions and Help
 
-We highly recommend joining the relevent Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content.
+We highly recommend joining the relevant Slack Channel for this module. In this channel you can ask questions, get advice from previous teachers and discuss lesson content. The Module Gardeners, who lead this module globally, keep an eye on this channel.
 
 [cyf-module-html-css](https://codeyourfuture.slack.com/archives/CEFGER48H)
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
-## Students Prior Knowledge
+## Trainees Prior Knowledge
 
-To get to this point in the course students will already have learn the basics of HTML/CSS by learning course [this](https://www.freecodecamp.org/learn/responsive-web-design/) from KhanAcademy. 
+Trainees come to this class having already built several small web pages with HTML and CSS in the Intro to Digital course and having completed at least some of [FreeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/).
 
-This means that this lesson is a level-settings.recap lesson to make sure that all of our students are at the same point.
+All trainees should have prepared for class with a recap course: [HTML CSS Crash Course](https://scrimba.com/learn/htmlcss)
 
-If it is obvious that your students already understand the concepts that you are covering, you are encouraged to move quickly through the content. 
+This means that this lesson is a level setting and expectation setting session.
+
+If it is obvious that your trainees already understand the concepts that you are covering, you are encouraged to move quickly through the content and spend your time on the main instructor-led theme of the lesson: **structuring data with semantic HTML**.
 
 ## Overview
 
@@ -67,7 +69,7 @@ Search engines, anyone with a visual impairment who uses a screen reader. Reinfo
 
 Trainees may need more or less review depending on how much they remember from their application process. If trainees are struggling with the basics, have them go through this [CSS Introduction course](https://www.codecademy.com/courses/web-beginner-en-TlhFi/resume?curriculum_id=50579fb998b470000202dc8b), starting with the CSS Syntax lesson. Mentors should help guide them through and identify where they're struggling.
 
-Trainees should set the button background color using the `.btn-primary` selector, and adjust the white button using the `.btn-secondary` selector. If they use the `.btn` selector, they'll effect both buttons. When they do that, use it as a lesson in how Object-Oriented CSS works and how to choose the right selector.
+Trainees should set the button background color using the `.btn-primary` selector, and adjust the white button using the `.btn-secondary` selector. If they use the `.btn` selector, they'll affect both buttons. When they do that, use it as a lesson in how classes in CSS work and how to choose the right selector.
 
 ### Box Model
 
@@ -83,12 +85,12 @@ For the second exercise, the answer will look something like this:
 }
 ```
 
-### CSS Project
+### Content Layout: Flexbox
 
-Make sure the put the trainee in similar ability teams as far as you can.
+This lesson is really just intended to get them a bit familiar with flexbox, media queries and thinking about different viewports when doing their layouts. Make sure that trainees are not relying on Bootstrap's grid when completing these exercises. Make sure they're only using flexbox in `min-width` media queries, and that they're applying sensible class naming patterns and wrapping elements where necessary.
 
-You can use this project to run out the rest of the lesson if you have extra time or remove it if you're short for time. It's purely a consolidation exercise from the day.
+When they add a background and border to the "Learn More" articles, make sure they're adding padding so the text doesn't go right up to the edge. If they are using `px` units, nudge them towards `em` and explain that `em` is often preferred because it scales well when you need to change font size for different viewports.
 
 ## Coursework
 
-Make sure they know that the Responsive Web Design Fundamentals course will take up the majority of their homework time, even though it's really preparation for the next class.
+When checking their use of flexbox in their webpage, make sure they're using gutters where appropriate and that they're using the kinds of design patterns you would expect to see on a website (ie - items line up, text is proportionate, etc).

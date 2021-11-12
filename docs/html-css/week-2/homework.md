@@ -4,22 +4,24 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## Mandatory coursework 
+## Coursework Source of Truth...
 
-### 1) 🔑 Create a Karma clone webpage (4 hours)
+Is your Google Classroom, not here! Teachers and trainees, make sure you check your Google Classroom for latest updates.
 
-Fork then clone the [HTML/CSS week 2 coursework](https://github.com/CodeYourFuture/HTML-CSS-Coursework-Week2), and follow the instructions in the `README.md` file.
+## Mandatory coursework
 
-### 2) Complete Flexbox Froggy game (3 hours)
+## 1) Forms, Data, Validation, and Devtools 🔑
 
-Complete all levels of the [Flexbox Froggy game](https://flexboxfroggy.com) to get practise on flexbox.
+Design a form to collect your data. Choose form controls to help you validate the inputs. Evaluate your work with Devtools.
 
-## Optional coursework
+https://github.com/CodeYourFuture/HTML-CSS-Challenges/tree/main/Form-Controls
 
-### 3) Complete the Zoo CSS challenge (optional)
+### 2) Complete the Bikes For Refugees project
 
-Now that we have learned flexbox, complete the [Zoo CSS challenge](https://github.com/CodeYourFuture/HTML-CSS-Challenges).
+Use flexbox to complete the [Bikes For Refugees project](https://github.com/CodeYourFuture/bikes-for-refugees).
 
-### 4) Complete the Bikes For Refugees project (optional)
+## Stretch coursework
 
-Now that we have learned flexbox, complete the [Bikes For Refugees project](https://github.com/CodeYourFuture/bikes-for-refugees).
+### 3) Complete the Zoo CSS challenge (stretch)
+
+Use flexbox to complete the [Zoo CSS challenge](https://github.com/CodeYourFuture/HTML-CSS-Challenges).
