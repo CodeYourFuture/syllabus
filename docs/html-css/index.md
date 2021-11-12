@@ -8,7 +8,7 @@ sidebar_label: Overview
 | ------------------------------ | --------------------------------- | ------------------------------------------------------ |
 | [Lesson 1](./week-1/lesson.md) | Fundamentals • Semantics          | [Learning objectives](./week-1/learning-objectives.md) |
 | [Lesson 3](./week-2/lesson.md) | Forms • Structuring Data          | [Learning objectives](./week-2/learning-objectives.md) |
-| [Lesson 3](./week-2/lesson.md) | Layout • Flexbox • Grid           | [Learning objectives](./week-2/learning-objectives.md) |
+| [Lesson 3](./week-2/lesson.md) | Layout • Flexbox • Grid           | [Learning objectives](./week-3/learning-objectives.md) |
 | [Lesson 4](./week-4/lesson.md) | Ship it • Putting it all together | [Learning objectives](./week-4/learning-objectives.md) |
 
 ## Coordination
