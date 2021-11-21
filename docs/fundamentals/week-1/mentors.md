@@ -18,6 +18,18 @@ Long-term:
 
 Really, the idea is to just get people to start exercising these muscles. It doesn't matter much what they do or produce, as long as they're thinking.
 
+## Coursework tracker reflection
+
+Lead an open-ended discussion about why user stories are helpful, and any "who" and "why" are useful parts of user stories.
+
+A few examples you may find useful:
+* Some "who"s for the coursework tracker: Lead teachers, trainees, education buddies, programme managers, module authors.
+* Some "why"s for the coursework tracker, all of which may need different slices/views of data:
+  * Trainees need to know what to do.
+  * Lead teachers need to know what topics people are struggling with to recap them in class.
+  * Module authors need to know which parts of homework are confusing, so they can be improved.
+  * Education buddies need to know how specific trainees are getting on.
+
 ## Problem break-down exercise
 
 We consistently see trainees try to jump straight into solving whole problems without breaking them down into smaller steps. This frequently leads to frustration and confusion. Accordingly, it's really important they start practicing breaking problems down now.

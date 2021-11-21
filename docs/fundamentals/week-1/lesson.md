@@ -4,51 +4,52 @@
 
 ### Learning objectives
 
-* Be able to take a description of a problem and identify described requirements.
-* Be able to identify extra requirements from your own experience.
-* Be able to consider and resolve trade-offs in conflicting requirements.
-* Be able to translate requirements into high-level design outlines.
+After this lesson, you should be able to:
+* Take a description of a problem and identify described requirements.
+* Identify extra requirements from your own experience.
+* Resolve trade-offs in conflicting requirements.
+* Translate requirements into high-level design outlines.
 
 While it can sometimes be fun to work on open-ended projects, exploring with no particular plan, most of the time we are trying to achieve something with a project.
 
-It is very useful to think about **why** we're working on a project, **who** we're making it for, and **when** they're going to use it.
+It is very useful to think about **why** we're working on a project, **who** we're making it for, and **what** they're going to use it for.
 
-Before starting to solve a problem, step back and ask yourself those **why**, **who**, and **when** questions.
+Before starting to solve a problem, step back and ask yourself those **why**, **who**, and **what** questions.
 
-When you built your personal home page, [we gave you some requirements](https://docs.google.com/document/d/1jYPXv5bmWyFOk4OaNi6vL1ZDVtBo4XGTqKyNOnnVwDU/edit) which took the form "Given [...] when [...] then [...]", e.g. "Given a personal home page, When I read the content, Then I learn something about you". This can be a useful framework for making sure you really understand what you need to be doing.
+We're going to think about a few projects, and try to come up with some requirements for them. This is really important in order to do technical work, but you don't need to have any coding experience, or be thinking about coding, when doing this. Great TODO:engineers think about people, not just code.
 
-Sometimes, when working on more complex projects, it can also be usful to think more about **who** and **why**. One useful way of thinking about these questions is in the form of user stories. These are typically single sentence including **who**, **when**, **what**, and **why**.
+### Exercise: Coursework tracker, part 1 (10 minutes)
 
-Let's take the example of a homework tracker - a website where your mentors can keep track of how you're doing with your homework. Some example user stories could be:
+Let's start with an example close to home. As trainees, you have coursework to do. We can imagine a website which tracks how coursework is going for you all. Some example user stories could be:
 
-* As a mentor, when planning my week, I can see which trainees are struggling with this week's home, so I can offer them extra support.
-* As a mentor, when homework is due, I can see what homework my trainees haven't handed in, so I can check in with them and remind them.
-* As a lead teacher, when I'm getting ready to teach class, I can see what topics trainees struggled with this week, so I know what topics to recap at the start.
-* As a lead teacher, I can see how much homework is getting done, so I know if I'm setting too much or two little.
+* As a trainee, I can ask for help with a topic or task.
+* As a mentor, I can see who needs extra support.
+* As a trainee, I can see what coursework I need to complete and when.
+* As a mentor, I can see what coursework has not been turned in.
 
-These all take a fairly standard form: "As [who], when [when], I can [what], so [why]".
+These each take the form "As [who], I can [what]". They aren't very explicit about the "why". In groups, try to:
+1. Talk about why the "who" is useful. What would we be missing if we didn't think about the "Who"?
+2. Think about the "why" for each of these user stories. Why are they important?
 
-Each of these parts is useful!
+### Exercise: Coursework tracker, part 2 (10 minutes)
 
-**Who** is useful because you may have different kinds of users who will use your project. For instance, when setting and tracking your homework, there may be different user stories for lead teachers, trainees, education buddies, programme managers, and so on. Thinking about different perspectives can help make the differences more clear, and help us focus on the user experience.
+Try to think of as many extra user stories as you can for our coursework tracker.
 
-**When** is useful because context matters when interacting with a website. Why is the user doing what they're doing? It may help to think about questions like: Should the functionality be part of an existing screen, or a new one? Does the user need to be logged in to perform the action?
+Make sure you've thought about the "who", "what", and "why" for each.
 
-**What** is what we're trying to achieve.
+This is meant to be completely open-ended. You can think of new "who"s (e.g. the people who write the coursework questions), and as many "what"s as you want - but make sure you remember the "why". Just think about everything you think could be useful.
 
-**Why** is really important! There may be a lot of different ways we _could_ implement something, and often the "why" is the way we decide between them. For instance, let's we're tracking homework. The same what: "I can see how people are progressing with their homework" may have really different ideal interfaces depending on the "why":
-* If my "why" is "so I know who to remind to hand in their homework", maybe I want a list of names.
-* If my "why" is "so I know what topics people are struggling with, so we can recap them in class", maybe I want a list of themes.
-* If my "why" is "so I know which homework tasks are confusing", maybe I want a break-down of how people did by question.
-If we don't think about the "why", we may build the wrong thing!
+### Coursework tracker: Reflection
+
+Why do you think thinking about user stories may be useful?
+
+What's useful about thinking about the "who" and the "why"? What could go wrong if you don't think about them?
 
 ### Exercise: Groceries App (10 minutes)
 
 Think about an app for ordering groceries. Come up with as many user stories as you can for it. Remember to think about the **who**, **when**, **what**, and **why**, and try to think of stories for at least two different "who"s. Here are a few ideas to get you thinking:
 * There are at least the following roles involved: a customer, someone managing stock in a warehouse, someone picking and packing the groceries, and someone delivering them.
 * Sometimes things don't go according to plan. There are user stories for problems, too! (e.g. when something is out of stock, or a delivery is late).
-
-TODO: Work out how to get people to reflect/compare.
 
 TODO: Discuss edge cases.
 
@@ -90,7 +91,7 @@ Most problems we solve involve different sub-problems.
 
 For instance, let's imagine you want to find the tallest person in the class. One way would be to find out everyone's height, sort the heights, and find the biggest. And even those have sub-problems! To find out someone's height, maybe you would have them take off their shoes, stand against a wall, and measure them with a tape measure.
 
-A big part of being a software engineer is working out how to take a bigger problem, and break it down into things you already know (or can find out) how to do.
+A big part of working in software is working out how to take a bigger problem, and break it down into things you already know (or can find out) how to do.
 
 In particular, computers aren't very smart. They do exactly what you tell them to, but there aren't very many things they know how to do. You can't tell a computer "Here are the class's heights, who's the tallest?", but you _can_ tell a computer "Here are the class's heights, sort them biggest to smallest, and give me the first one".
 
