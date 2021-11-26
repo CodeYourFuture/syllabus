@@ -56,7 +56,7 @@ Sally, Chris, Greg, Daniel
   - (Also has a background idea to integrate code review into slack with auto-completable common suggestions).
 - Greg is scheduling a Node chat with Kerim and Sonia - Greg will be the syllabus point of contact there.
 - JS1 team recruiting: No progress from Daniel, should hand back to someone else.
-- Dom put together a technical assessments proof of concept for Sigma Labs
+- Dom put together a technical assessments proof of concept
   - One repo which has the solution in, tag with with magic comments, and pass it through a build step which removes the solution code and replaces it with a TODO comment.
   - Massive job, could be hassle for Code Your Future, but we could try to do it at some point.
     - We have a bunch of different styles of problem - unclear whether "just comment out some code" is a sophisticated enough model for our exercises.
