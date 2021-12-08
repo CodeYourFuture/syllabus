@@ -4,6 +4,49 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 08/12/21
+
+### Present
+
+Ali, Daniel, Sally, Greg
+
+### Minutes
+
+- Update on Fundamentals
+  - [Matrix spreadsheet](https://docs.google.com/spreadsheets/d/1CXeqfyWLMutJGTn1IkdBjv5I4Zh4a2FNlhTJyAtmbY4/edit#gid=0)
+  - Graduation criteria
+    - Was struggling without knowledge of specifics (e.g. exercises). Hopefully can now make more progress on this
+      - However Ali (and we think Chris) are very busy at the moment
+    - Need to get PD involved
+      - Can mandate "testable" criteria
+  - Blockly
+    - Greg might need some support - since Mitch might not be available
+      - Technical work is getting there
+      - Need to work on exercise progression
+      - Ali may have some time next week
+      - Suggestion: Neill - Greg will ask him
+    - Next steps
+      - Needs some polishing in terms of the UI
+        - What is the done state? Can't be frustrating, but doesn't need to look "professional"
+          - No point in super polishing now, since we'll want to iterate on it after first round of trainees using it
+        - How much work is there left to get there?
+      - Greg wants to get updated exercises ready for next Wednesday
+        - Week after we'll be in a better position to come up with a list of tasks - can prioritise from there
+  - Requirements/Iteration/Delivery
+    - Sally hoping to have a draft ready by next week
+  - We think it's on track 🤞
+- Daniel Grant's JS2 project
+  - Feel free to review
+  - Steer towards to a structure replicable in other modules
+- TDD workshop
+  - Sally has arranged a workshop for Scot5 & NW4
+- Cover letters
+  - Ali has a job opening for CYF grads
+    - Will give honest feedback based on interviews
+  - Need a cover letter
+    - This is a blocker for many trainees, we think because cover letter templates online often don't line up with trainee's experiences
+    - Idea: can we create our own templates - something for PD
+
 ## 24/11/21
 
 ### Present
@@ -81,7 +124,7 @@ Sally, Daniel, Ali, Chris
 - Fundamentals
   - Greg to continue to work on Blockly
   - Syllabus Team Goals: https://docs.google.com/document/d/1fc-c9NZQPtBieftrvTXj3yiwU0HLBZ68bnagHja1NsE/edit
-  - London 8 Results 
+  - London 8 Results
     - Both tests that were run were good successes - [Blockers](https://fundamentals.codeyourfuture.io/lessons/lesson-1#blockers) and Shipping a Website
     - These have been merged into the current syllabus
     - The [instructions](https://fundamentals.codeyourfuture.io/teacher-resources/instructor-notes-1#solving-problems-workshop) were very helpful for Blockers
@@ -93,7 +136,7 @@ Sally, Daniel, Ali, Chris
     - How much time do we need for PD?
     - This should be interleaved as we're planning to do for HTML/CSS
 - HTML/CSS (#LDN8 Plan)
-  - Lucy (#LDN8 Teacher ) to include netlify 
+  - Lucy (#LDN8 Teacher ) to include netlify
   - Attempt for interleaved PD through this module
     - Module extended to four weeks with 90 mins per day for PD
 - Module Gardeners
@@ -103,7 +146,7 @@ Sally, Daniel, Ali, Chris
 
 - Chris: Ticket for KPIs for Fundamentals to be written
 - Chris + Ali: Over the next two weeks, work on the KPIs for Fundamentals
-- Daniel: Work on skeleton for two 90 minute sessions 
+- Daniel: Work on skeleton for two 90 minute sessions
 - Greg: Continue to work on Blockly
 
 ## 13/10/2021
@@ -119,50 +162,55 @@ Mitch is running the “intro to coding thinking” course at Cornerstone starti
 Sally’s going to be out of the country for ~November
 
 Sally hacked together a trainee tracker. Has also promised Candy she’ll hack together a PD tracker.
-* Seeking our input: Put some milestones in the course (clearly communicated up-front) where we explicitly make clear to trainees where we think they are.
-  * Not intended to be blockers, just status check-ins.
-  * Except end of JS3 - if the work hasn’t been done, won’t progress to final projects.
-* Most of the people Sally’s been working with are surprised by their status.
-* One milestone check-in led to a good conversation about someone who'd done lots of work but hadn't shared it. Great outcome!
-* NW folks are way ahead of the milestones being set.
-* Need to make sure we have “here’s how we’re going to enable you to move forwards” paths for folks who are falling behind milestones.
-* ["Next steps" outcomes Sally has collected](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
-  * These conversations should start happening around JS3 to give people time to make change if they need/want.
-* QA: Don’t want to push people too strongly towards it because it can be easy to get pigeonholed in and hard to get out of if that’s not what you want.
-  * Currently have no one wanting to go into QA anyway
-* A few folks did some extra learning before moving on to final projects, and joined another class's final projects - this went really well (both for the folks who took extra time, and for the groups they joined).
+
+- Seeking our input: Put some milestones in the course (clearly communicated up-front) where we explicitly make clear to trainees where we think they are.
+  - Not intended to be blockers, just status check-ins.
+  - Except end of JS3 - if the work hasn’t been done, won’t progress to final projects.
+- Most of the people Sally’s been working with are surprised by their status.
+- One milestone check-in led to a good conversation about someone who'd done lots of work but hadn't shared it. Great outcome!
+- NW folks are way ahead of the milestones being set.
+- Need to make sure we have “here’s how we’re going to enable you to move forwards” paths for folks who are falling behind milestones.
+- ["Next steps" outcomes Sally has collected](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
+  - These conversations should start happening around JS3 to give people time to make change if they need/want.
+- QA: Don’t want to push people too strongly towards it because it can be easy to get pigeonholed in and hard to get out of if that’s not what you want.
+  - Currently have no one wanting to go into QA anyway
+- A few folks did some extra learning before moving on to final projects, and joined another class's final projects - this went really well (both for the folks who took extra time, and for the groups they joined).
 
 PD team update
-* Approached Sally to ask about changing the whole syllabus
-* Want each tech module to be 4 weeks - get rid of PD weeks.
-* Want 90 minutes in every live session to do a PD session.
-* PD volunteered would need to be present for some of every class, and work more closely with tech volunteers.
-* Would want to theme PD work to support the tech focus of the week.
-* Stretching 3x 4 hour sessions into 4x 3 hour sessions sounds fine.
-* Questions around timings and consistency for volunteer engagement.
-  * Probably want the PD session to be start or end of the day to avoid both tech and PD volunteers getting a bunch of extra down-time in their weeks.
+
+- Approached Sally to ask about changing the whole syllabus
+- Want each tech module to be 4 weeks - get rid of PD weeks.
+- Want 90 minutes in every live session to do a PD session.
+- PD volunteered would need to be present for some of every class, and work more closely with tech volunteers.
+- Would want to theme PD work to support the tech focus of the week.
+- Stretching 3x 4 hour sessions into 4x 3 hour sessions sounds fine.
+- Questions around timings and consistency for volunteer engagement.
+  - Probably want the PD session to be start or end of the day to avoid both tech and PD volunteers getting a bunch of extra down-time in their weeks.
 
 Sally: Please review my pull requests!
 
 Teacher Training
-* Mitch volunteered to do some teacher training
-* Aim is to diversify our teachers
-* Was aiming for emphasis to be on React and Node, but interested seemed to be more general
-* Do we have any resources?
-  * Yes! Sally will share Chris’s slides and some other stuff.
-  * https://teachertraining.codeyourfuture.io/roles/lead-teacher/teaching-a-session-at-cyf
-* Mitch will push forwards!
+
+- Mitch volunteered to do some teacher training
+- Aim is to diversify our teachers
+- Was aiming for emphasis to be on React and Node, but interested seemed to be more general
+- Do we have any resources?
+  - Yes! Sally will share Chris’s slides and some other stuff.
+  - https://teachertraining.codeyourfuture.io/roles/lead-teacher/teaching-a-session-at-cyf
+- Mitch will push forwards!
 
 Mitch has opened up a PR for the to do list tests - please take a look!
 
 Signing up to help form module gardening teams
-* [Organising doc](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
-* Goals:
-  * Get feedback (retros after classes)
-  * Act on feedback (file bugs, fix bugs - small changes)
-  * NO REWRITES. Come talk to syllabus team about things in general, and with big ideas. But NO REWRITES.
+
+- [Organising doc](https://docs.google.com/document/d/1tukaHBCMs3dHdy8SXsUPcBzE7qQLwzjqMx4I9mOWvVk/edit)
+- Goals:
+  - Get feedback (retros after classes)
+  - Act on feedback (file bugs, fix bugs - small changes)
+  - NO REWRITES. Come talk to syllabus team about things in general, and with big ideas. But NO REWRITES.
 
 ## 29/09/2021
+
 ### Present
 
 Sally, Chris, Greg, Ali
@@ -206,7 +254,6 @@ Student tracker
 - Rate limiting of github API -> need to authenticate?
 - Could also pipe this into some notifications to buddies?
 - Not clear how we would "devops" this, beyond copy pasting into "prod" (could maybe write an application?)
-
 
 ## 01/09/2021
 
@@ -259,11 +306,11 @@ Guest: Richard Darby in Glasgow - they just finished JS2.
 
 #### Action items from last time
 
-* GitHub Actions
-  * They landed!
-  * Plan is for buddies to only pay attention to coursework if it's late or a trainee reaches out for help.
-  * Coursework Tracker team are sprinting at the moment - goal is to notify buddies if coursework is late.
-* Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
+- GitHub Actions
+  - They landed!
+  - Plan is for buddies to only pay attention to coursework if it's late or a trainee reaches out for help.
+  - Coursework Tracker team are sprinting at the moment - goal is to notify buddies if coursework is late.
+- Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
 
 #### What do we teach and why?
 
@@ -292,9 +339,10 @@ Daniel and Ali to make a few edits, then Sally to publish.
 ### Sally's Big Presentation
 
 Core problems:
-* Some people who make it to the end of the course aren't equipped to become professional developers, which is what we promise them.
-* Making the course shorter for WM.
-* Making it easier to deliver the course in high volume in London and WM (but not assuming high volume for other schools).
+
+- Some people who make it to the end of the course aren't equipped to become professional developers, which is what we promise them.
+- Making the course shorter for WM.
+- Making it easier to deliver the course in high volume in London and WM (but not assuming high volume for other schools).
 
 Objective: Need to be able to track people's aptitudes/progress, in a way that doesn't rely on a volunteer directly assessing them, so that we can communicate progress and options to trainees. Be able to positively reframe "I enjoyed this but struggled with that" as specialisation (e.g. "become a UX designer").
 
@@ -346,23 +394,25 @@ Current course is a bit painfully slide-heavy - was originally designed without 
 
 ##### Our new objectives in this new world
 
-* Know what's missing from employability
- * Notice missing or redundant modules
-* Make sure module exit criteria map to entry criteria
+- Know what's missing from employability
+- Notice missing or redundant modules
+- Make sure module exit criteria map to entry criteria
 
 ##### Suggestion
 
 3 live sessions of Fundamentals, 2 self-paced coursework tracks (which could be done over 3 weeks or a longer period). Technical (could drop), and Applied Digital Skills (PD).
 
 In the session, have one technical project:
-* Take the home page they already made in ITD.
-* Learn what a user story is, and implement one
-* Deploy to GitHub pages so it has a URL.
+
+- Take the home page they already made in ITD.
+- Learn what a user story is, and implement one
+- Deploy to GitHub pages so it has a URL.
 
 At end of Fundamentals, get badges:
-* Have created a CV.
-* Have sent a professional email.
-* Have created a website that you can show off.
+
+- Have created a CV.
+- Have sent a professional email.
+- Have created a website that you can show off.
 
 If you achieve all four badges (+ any other qualification criteria), you're on the course.
 
@@ -371,14 +421,16 @@ Move interviews to after Fundamentals - can only do it after getting your four b
 #### Why do we lose people?
 
 At interviews:
-* Not having time to commit
-* Really lacking language skills
-* Clearly not understanding their code
+
+- Not having time to commit
+- Really lacking language skills
+- Clearly not understanding their code
 
 After Fundamentals or in first few months of course:
-* Medical
-* Life change, e.g. work shifts change
-* People who should realistically have never gotten onto the course but no one had the heart to turn them down
+
+- Medical
+- Life change, e.g. work shifts change
+- People who should realistically have never gotten onto the course but no one had the heart to turn them down
 
 People who are successful in one area tend to be successful in all of them (e.g. turning up to class, doing homework, doing Code Wars, etc). People who miss any tend to miss most.
 
@@ -410,13 +462,13 @@ Their person is going to let Liliana unload all of her thoughts about our interv
 
 ### Action items
 
-* Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
-* Ali: What do we teach and why?: Talk about why we don't teach classes
-* Daniel: What do we teach and why?: Expand "what we don't teach" a bit - pull out of table
-* Daniel: File ticket about pulling state earlier into the course.
-* Schedule a session next week so Greg + Mitch can join, and walk through the assorted artifacts.
-* Sally: To put together a single doc in one place for folks to give feedback.
-* Everyone: Put together feedback on Sally's many produced pieces for next steps for high-level course redesigns, and specifics around badges.
+- Chris to Write a brief for the "Add to Google Classroom" button from the Syllabus - rolling over to next week.
+- Ali: What do we teach and why?: Talk about why we don't teach classes
+- Daniel: What do we teach and why?: Expand "what we don't teach" a bit - pull out of table
+- Daniel: File ticket about pulling state earlier into the course.
+- Schedule a session next week so Greg + Mitch can join, and walk through the assorted artifacts.
+- Sally: To put together a single doc in one place for folks to give feedback.
+- Everyone: Put together feedback on Sally's many produced pieces for next steps for high-level course redesigns, and specifics around badges.
 
 ## 04/08/2021
 
@@ -440,7 +492,7 @@ Sally, Ali, Daniel, Greg, Chris
     - Max was 24 weeks
     - Now the course "officially" starts after JS3
   - Fundamentals convertion to a self-paced course
-    - We'd lose 
+    - We'd lose
       - Students get know each other
       - Students getting to know mentors
       - 121 assessments
@@ -460,11 +512,11 @@ Sally, Ali, Daniel, Greg, Chris
     - nb: functions - we teach twice and some (lots) of students still don't get it
   - Separate pathways (this money comes from the tender)
     - Cyber - requires money and qulaificiations so may be lower priority
-    - Product - currently doing adhoc. 
+    - Product - currently doing adhoc.
 - Github Actions
   - Seem to be working well!
   - Just need more review on it
-  - What happens if we want 
+  - What happens if we want
 - Classroom API
   - Could we integrate it to the syllabus to automate posting
 - Live Code Blocks vs Codesandbox
@@ -570,28 +622,29 @@ Ali, Sally, Mitchell, Chris, Greg
 ## 2021-07-07
 
 ### Present
+
 Sally, Chris, Greg, Ali, Daniel, Philip Fol
 
 ### Actions:
 
-* Everyone: Take a look at Codility, get a feel, form opinions.
-* Chris: Create a Codility test for the end of JS2 Week 1.
-* Think about what are our crucial stages for getting feedback on how trainees are doing.
-* Sally: Work out how to convey (probably to buddies, maybe more broadly too) that we teach somewhat functional programming, and accordingly don't lean much into things like OOP.
-* Sally: Try to re-brand optional coursework exercises. Maybe as "stretch", or maybe just re-designate them as all mandatory.
-  * Sally: Also identify for buddles what the most important concept/exercise is the most important each week.
-* Chris: Arrange a separate testing-focused meeting. Some agenda items:
-  * Module systems.
-  * Do we want tests for React + Node + DBs?
-  * GitHub Actions to run tests.
-* Review [Chris's PR](https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2/pull/75)
-* Take a look at [Daniel's draft tech interview workshop](https://github.com/CodeYourFuture/syllabus/pull/293)
-* Follow up with Codility to see if they can integrate with Google Classroom or similar for sending out assessments to groups.
+- Everyone: Take a look at Codility, get a feel, form opinions.
+- Chris: Create a Codility test for the end of JS2 Week 1.
+- Think about what are our crucial stages for getting feedback on how trainees are doing.
+- Sally: Work out how to convey (probably to buddies, maybe more broadly too) that we teach somewhat functional programming, and accordingly don't lean much into things like OOP.
+- Sally: Try to re-brand optional coursework exercises. Maybe as "stretch", or maybe just re-designate them as all mandatory.
+  - Sally: Also identify for buddles what the most important concept/exercise is the most important each week.
+- Chris: Arrange a separate testing-focused meeting. Some agenda items:
+  - Module systems.
+  - Do we want tests for React + Node + DBs?
+  - GitHub Actions to run tests.
+- Review [Chris's PR](https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2/pull/75)
+- Take a look at [Daniel's draft tech interview workshop](https://github.com/CodeYourFuture/syllabus/pull/293)
+- Follow up with Codility to see if they can integrate with Google Classroom or similar for sending out assessments to groups.
 
 ### Catch-up from last time
 
-* Continue TDD - on-going
-* Think about exit criteria
+- Continue TDD - on-going
+- Think about exit criteria
 
 ### Membership
 
@@ -615,20 +668,20 @@ Copying and pasting is allowed and works fine.
 
 #### Positives
 
-* They have an API
-* They produce stats at scale
-* Can get a good at-a-glance view of how trainees are doing
-* Flexible on the backend, e.g. we could allow re-attempts, give more time, etc.
+- They have an API
+- They produce stats at scale
+- Can get a good at-a-glance view of how trainees are doing
+- Flexible on the backend, e.g. we could allow re-attempts, give more time, etc.
 
 #### Downsides
 
-* Making a test depends on their pre-canned tests (split up by role) and/or libraries to build them up.
-* Most of the pre-canned stuff is probably better targeted at graduates than people during the course.
-* Blunt tool. Need to work out how to make it work for us and how to not just be more work for us.
-* Quality of pre-canned tests - Sally looked at 3 HTML tests - one 5-minute was set as a 40-minute test, one was fine, and one was just incorrect in its expectations.
-* Vendor lock-in.
-* The exercise taker can't write their own tests - can only run the pre-supplied ones.
-* There's no versioning in the tests.
+- Making a test depends on their pre-canned tests (split up by role) and/or libraries to build them up.
+- Most of the pre-canned stuff is probably better targeted at graduates than people during the course.
+- Blunt tool. Need to work out how to make it work for us and how to not just be more work for us.
+- Quality of pre-canned tests - Sally looked at 3 HTML tests - one 5-minute was set as a 40-minute test, one was fine, and one was just incorrect in its expectations.
+- Vendor lock-in.
+- The exercise taker can't write their own tests - can only run the pre-supplied ones.
+- There's no versioning in the tests.
 
 #### How do you invite them to a challenge?
 
@@ -652,9 +705,9 @@ Goal is to de-emphasise time spent marking coursework - push the trainees to own
 
 #### Concerns
 
-* Vendor lock-in (Sally also has an account with https://www.qualified.io/ now)
-* Watch how much time we sink into the proof of concept.
-* How to introduce tests - if we spring them on people it's surprising, if we warn them in advance it's daunting.
+- Vendor lock-in (Sally also has an account with https://www.qualified.io/ now)
+- Watch how much time we sink into the proof of concept.
+- How to introduce tests - if we spring them on people it's surprising, if we warn them in advance it's daunting.
 
 #### How are tests written?
 
@@ -663,15 +716,16 @@ Three styles - kata-style, multiple choice, long-form written answer, and whiteb
 #### Do we want to tell the trainees their results?
 
 Lots of down-sides to doing so:
-* For trainees lacking confidence getting a poor score even though they've done pretty well can knock confidence.
-* For trainees struggling, if they score really highly but it's not representative, that's a very hard conversation.
+
+- For trainees lacking confidence getting a poor score even though they've done pretty well can knock confidence.
+- For trainees struggling, if they score really highly but it's not representative, that's a very hard conversation.
 
 #### Next steps
 
-* Syllabus: Take a look, get a feel, form opinions. Maybe do this with a 15-minute in-class experience to avoid a large lead-time.
-* Work out our crucial stages for getting feedback on how trainees are doing.
+- Syllabus: Take a look, get a feel, form opinions. Maybe do this with a 15-minute in-class experience to avoid a large lead-time.
+- Work out our crucial stages for getting feedback on how trainees are doing.
 
-### Cohorts 
+### Cohorts
 
 Many people have been thinking in different ways about how we deal with the tension between having a cohort which forms a community, and being flexible around how long individuals take to learn things and advance.
 
@@ -696,6 +750,7 @@ We also need to work out how to bring the product people more into the fold of t
 ## 9/6/21
 
 ### Present
+
 Chris, Ben, Mitchell, Sally, Greg
 
 Welcome to Ben
@@ -707,7 +762,7 @@ Welcome to Ben
 - @all create issue to tell them "do codewars" in the syllabus
 - Raise wider discussion of modularisation - how far do we want to take the concept.
 - @Greg bring up teaching unit testing for Glasgow
-- @Chris invite Kerim and Craig 
+- @Chris invite Kerim and Craig
 
 ### Unit testing
 
@@ -720,7 +775,7 @@ Welcome to Ben
 - (side discussion on scope: would like to bring it in early, groundwork can be laid in css)
 - Sally: could have teams that are module focused to "garden" the individual modules
   - syllabus team should figure out how to support people in doing this
-- Greg: As well as dependencies: document reasoning 
+- Greg: As well as dependencies: document reasoning
   - Sally: would also be good to have better communciation/collaboration between modules
 - Ben: at school of code, similar issues - making things reorderable
 - Greg: concern that "Basics of Javascript" makes it a dumping ground for everything that is conceptually "basic", even if we could delay teaching it
@@ -735,12 +790,12 @@ Welcome to Ben
 
 ### Codewars
 
-- Sally has created a cyf collection https://www.codewars.com/users/CodeYourFuture/authored_collections 
+- Sally has created a cyf collection https://www.codewars.com/users/CodeYourFuture/authored_collections
 - Graduates who are struggling have not been doing the suggested work
 - Very little mandatory code katas in the curriculum
 - Sally: by JS3, everyone should have level 6 (means completing 20 entry-level kata)
 - Could we introduce the principle of the a daily standup to be done by a slackbot
- - posting in the void might feel unfun (and seeing that other people don’t do it, so I don’t have to)
+- posting in the void might feel unfun (and seeing that other people don’t do it, so I don’t have to)
 - Would be good to demo that as part of the weekly class
 - Target 300 so that you can make your own kata (careful to not have them reviewed as trivial katas get ripped to shreds)
 - Kata: have some katas to deliberately revisit
@@ -760,12 +815,13 @@ Welcome to Ben
 - more driven by necessity in London
 
 ## 26/05/2021
+
 Attendance: Chris, Daniel, Greg, Mitch, Sally, Ali, Matt
 
 ### Actions from Last Time
 
 - Daniel to put JS1 convert tests - done
-- Mitch write short npm intro 
+- Mitch write short npm intro
 - Sally to teach HTML module - Currently doing, made contact with Lucy in London, had same points as Sally
 - Chris to fix bug - Daniel has fixed bug
 - Promises, greg to explain more in JS3 - Chris has made a thread, no discussions made so far
@@ -773,7 +829,7 @@ Attendance: Chris, Daniel, Greg, Mitch, Sally, Ali, Matt
 ### Agenda Points
 
 - Ali’s syllabus link - Chris has fixed this already, could probably close all the tickets on it
-- Chris, non-mathsy codewars exercises - think that the codewars katas are good, not sure about including them within the syllabus or not, can make collections of katas by modules, collections are tied to an account but we can create a CYF account on codewars for this, need to be careful about adding more marking. Chris to add them in as optional coursework. 
+- Chris, non-mathsy codewars exercises - think that the codewars katas are good, not sure about including them within the syllabus or not, can make collections of katas by modules, collections are tied to an account but we can create a CYF account on codewars for this, need to be careful about adding more marking. Chris to add them in as optional coursework.
 - Hotel App - Could get more peer-review marking involved with optional challenges of react.
 - HTML/CSS Sally - Spent a lot of time defining terms. Could potentially be useful to add a glossary in for terms they are to cover on specific modules. Potential issue that if we create a glossary there is an assumption there that because its written down it doesn’t need to be taught. Flatiron html coursework was good but UI of website horrendous and very confusing for the students. Potential option to teach grid first, made teaching box difficult. Sally has made a set of notes, will feedback after finishing teaching. Potential issues surrounding semantic html, lack of understanding of when to use div tags and when not. Live debugging using dev tools was really good.
 
@@ -793,49 +849,71 @@ Attendance: Chris, Daniel, Greg, Mitch, Sally, Ali, Matt
 - List of github actions - https://github.com/sdras/awesome-actions
 - Action used - https://github.com/JulienKode/team-labeler-action
 
-### Sprint Planning 
+### Sprint Planning
 
 - JS Core 1 Assessment - Matt to look at Chris’s comments
-- JS Core 1 Challenges - Added back into ready for development 
+- JS Core 1 Challenges - Added back into ready for development
 - React Week 2 - Ali still to work on this
 - Add Pre-Work for HTML/CSS - Chris assigned himself
 - Use uuids instead of ids for albumsData - Chris assigned himself
 - Get jest merged this week
-- Everybody to review the PR’s 
+- Everybody to review the PR’s
 
 ## 12/05/2021
+
 Attendance: Chris, Daniel, Greg, Mitch, Sally
+
 ### Agenda
+
 - Tech test
 - TDD first steps
 - HTML/CSS content discussion
 - Trailing slash
 - Promises
 - Report from new Git lesson
+
 ### Important Points raised
+
 - New person is joining team soon, hurray
 - Chris is eating amazingly vile sounding KFC flavoured crisps
+
 #### We reviewed a tech test
+
 - Action: Chris to raise an issue to write up a tech test for our trainees.
+
 #### TDD: Jest
+
 We met with people from tech projects last week and agreed to use Jest.
+
 - Action: Daniel to put Jest in JS-1 and convert tests
 - Action: Mitch to write Jest overview
 - Action: Mitch to write short npm intro for JS-1 and update pre-reqs before NW4 start JS-1
+
 #### HTML/CSS module
+
 Sally links presentation on the DOM for HTML W1. Lots of work being done separately across cities. Can we combine our efforts?
+
 - Action: Sally to teach through module and identify missing pieces
 - Action: Sally to get marking guide/s from Lucy into the repo
+
 #### Trailing slash
+
 Trailing slash bug has been raised as top 10 things to fix. Please can a Javascript person take a look?
+
 - Action: Chris to raise an issue
+
 #### Promises
+
 Greg asks can we find a place in [JS-3] to explain promises. Daniel asks should we teach anything other than async await.
+
 - Action: Chris to raise a discussion point on this
+
 #### New git
+
 Mitch reports from teaching new git material. A success!
 
-## 28/04/2021 
+## 28/04/2021
+
 Missing notes 😢
 
 ## 14/04/2021
