@@ -4,6 +4,70 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 24/11/21
+
+### Present
+
+Sally, Chris, Greg, Daniel
+
+### Minutes
+
+- Previous action items
+  - Chris: Running through [draft Fundamentals Learning Objectives](https://docs.google.com/document/d/1XN53TuLx9uY9mcP-Xfk5JRNqnFHl94UgzZcmsqIPoSs/edit)
+    - Largely removed all the stuff that's unmeasurable, kept the stuff that seemed very important, and added new pieces based on our discussions.
+    - Left some stuff which definitely needs PD input.
+    - Need to think about how we are going to get input from the cities. Probably start sharing now-ish?
+  - Daniel: "Requirements" week content. Currently blocked on: What is the multi-week project going to be?
+    - Project thoughts:
+      - Maybe similar to a personal home page, but with some different content?
+      - Needs to be a website which _does_ something.
+      - Maybe about a product? (Can be real or fake product)
+      - Some kind of online store where you can select a product and add it to a shopping cart (with the help of blockly)?
+        - Just: View product(s), add product to cart. Very light shopping cart (basically: two lists - available products, and added products)
+    - Mostly need to focus on Week 1 (Requirements) and Week 3 (Ship it) - Iteration is basically just "keep going".
+    - Need to give some thought to coursework, too.
+    - End-points of each lesson is "Make sure you've done this week's focus at least once, and keep going"
+      - i.e. End of Ship It class they need to have shipped _something_ to Netlify (because people will need hand-holding), and coursework is likely to be "Do more and make sure it's shipped".
+  - What needs doing?
+    - Filling in a few TODOs in the first session.
+    - Put together an intro to the project session.
+  - People seem to be enjoying Scrimba - maybe we should set more.
+    - Scrimba is roughly: Kahn Academy, but you can pause the video, edit the code they're writing, and run it. Interface is magic, and the trainees really like it.
+    - We may have an in for a creator account - Chris will coordinate with Sally.
+- Greg: Data sturcture abstractions for Blockly
+  - Beginners often struggle with classic `for` loops (need to manage a lot of concepts). `while` loops are easier to get started, and upgrading from `while` to `for` generally makes some sense.
+  - Put together a linked list implementation using `while` loops.
+  - Naming is hard:
+    - Calling it a list is tricky because conflicts with the concept of an HTML list.
+    - Calling it an array is tricky - doesn't do indexes and such, and keeps some state.
+    - `forEach` is maybe doable, and would be compatible with arrays, but most exercises involve previous/next.
+    - Considered a circular data structure (works well for carousels, doesn't work so well with e.g. lists of stories).
+  - Use-cases: Problems on https://laughing-goldberg-6b25f5.netlify.app/
+  - Probably just use a stack (or pair of stacks)? Push/pop make sense and carry forwards to arrays, isEmpty makes sense.
+- Getting stuff done
+  - Sally will at some point just clear her calendar and get a bunch of it done (but can't do it all).
+  - Get a spreadsheet set up for how we're going to time-box each of the topics we've discussed into a syllabus. Split into what just needs writing and what needs brainstorming.
+- Daniel Grant is writing a module project for JS2. Idea is very product-focused.
+  - Introduce the roles of a typical agile team (product owner, scrum master, tech lead, developer, etc) in a lightweight manner (seeding ideas they'll better understand via PD and in final projects).
+  - Via a simulation of a project, with different roles prompting at different times.
+  - First implementation: Notes in the syllabus. Future implementation: a conversational slack-bot.
+    - Suggestion: Write out ~50 markdown files and experiment with them, not a slack bot in an MVP.
+- Dom Vineyard is thinking about a JS1 module project. May also involve a slack bot.
+  - (Also has a background idea to integrate code review into slack with auto-completable common suggestions).
+- Greg is scheduling a Node chat with Kerim and Sonia - Greg will be the syllabus point of contact there.
+- JS1 team recruiting: No progress from Daniel, should hand back to someone else.
+- Dom put together a technical assessments proof of concept
+  - One repo which has the solution in, tag with with magic comments, and pass it through a build step which removes the solution code and replaces it with a TODO comment.
+  - Massive job, could be hassle for Code Your Future, but we could try to do it at some point.
+    - We have a bunch of different styles of problem - unclear whether "just comment out some code" is a sophisticated enough model for our exercises.
+
+### Action items
+
+- Greg: Prepare post to share new Fundamentals Learning Objectives with the cities. Find and tag all the programme managers: @cyf-proms.
+- Sally: Push forwards Requirements sessions
+- Greg + Daniel: Hold brainstorming session for things we need to do.
+- Sally: Facilitate Greg + Chris to give feedback on Daniel Grant's work in progress.
+
 ## 07/10/21
 
 ### Present
