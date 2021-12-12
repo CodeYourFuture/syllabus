@@ -12,7 +12,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="CodeYourFuture's Full Stack Web Development Syllabus"
+      description="CodeYourFuture's Software Development Syllabus"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
@@ -35,12 +35,13 @@ function Home() {
             <p>
               During the course you will learn a technology stack that helps you
               build anything from a simple website to a powerful database-driven
-              web application!
+              web application.
             </p>
             <p>The eight-month course contains:</p>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
+              <li>SQL</li>
               <li>JavaScript</li>
               <li>
                 Back-end development using{" "}
@@ -50,6 +51,8 @@ function Home() {
                 Front-end development using{" "}
                 <a href="https://reactjs.org/">React</a>
               </li>
+              <li>Test Driven Development using {" "}
+                <a href="https://jestjs.io/">Jest</a></li>
             </ul>
             <p>
               We&#39;ll complement the course with workshops on modern software

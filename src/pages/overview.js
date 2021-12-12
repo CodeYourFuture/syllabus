@@ -29,13 +29,13 @@ function Overview() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="CodeYourFuture's Full Stack Web Development Overview"
+      description="CodeYourFuture's Software Web Development Overview"
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Syllabus Overview</h1>
           <p className="hero__subtitle">
-            An overview of our Full Stack Web Development Course
+            An overview of our Software Development Course
           </p>
         </div>
       </header>
@@ -51,7 +51,7 @@ function Overview() {
             <p>This website includes:</p>
             <ul>
               <li>
-                The modules that make up the Full Stack Web Development course
+                The modules that make up the Software Development course
                 (seen right)
               </li>
               <li>One-off workshops that have been run by specialists</li>
@@ -64,7 +64,7 @@ function Overview() {
               If you're reading this then you may be looking to attend or teach
               a class in the future. In each of the module sections of this
               website you will find a suggested lesson plan for your lesson. If
-              you're new to CodeYourFuture this is a great place to to start
+              you're new to CodeYourFuture this is a great place to start
               with our teaching.
             </p>
             <p>
@@ -110,14 +110,14 @@ function Overview() {
               layout={"1-column"}
             >
               {getComponent(
-                "Intro to Coding",
+                "Intro to Digital",
                 "Self Paced",
                 <div>
                   <p>
                     This online, self-paced course gives trainees a basic
-                    understanding of HTML & CSS and guides them to building
+                    understanding of JavaScript, HTML &amp; CSS, unit tests, and guides them to building
                     their first simple website. Completion of this course is
-                    required before continuing onto the full course.
+                    required to access the full course.
                   </p>
                 </div>,
                 <VerticalSplitIcon />,
@@ -125,32 +125,26 @@ function Overview() {
               )}
               {getComponent(
                 "Fundamentals",
-                "4 Weeks",
+                "3 Weeks",
                 <div>
                   <p>
-                    This module aims to give trainees a grounding in algorithmic
-                    thinking, breaking down problems and an introduction to
-                    JavaScript before they continue onto the full course.
+                    This module is a three week immersion into the core principles of digital product development.
                   </p>
                   <p>
-                    Before writing any code, trainees use block-based
-                    programming to solve technical challenges. Trainees are then
-                    exposed to JavaScript for the first time and given projects
-                    using Processing.js to experiment with.
+                    Trainees work through the key stages of development: Requirements, Iteration, and Delivery. Trainees work in teams to discover requirements and express them as user stories. Trainees iterate on their work and then ship their websites to production.
                   </p>
                 </div>,
                 <FormatListNumberedIcon />,
                 "https://fundamentals.codeyourfuture.io/"
               )}
               {getComponent(
-                "Induction and Learning To Learn",
+                "Induction and Git",
                 "1 Week",
                 <div>
                   <p>
-                    This first week of the Full Stack course introduces
-                    CodeYourFuture Trainees to the technical skills they will be
-                    learning over the next 8 months and ways to optimise their
-                    learning process.
+                    This week inducts trainees to the Software Development Course and then introduces trainees to Git and Github
+                    using Github Desktop. This is a key skill for all developers
+                    and is also how we do our coursework at CodeYourFuture.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -159,28 +153,11 @@ function Overview() {
                 "PD"
               )}
               {getComponent(
-                "Git and Github",
-                "1 Week",
-                <div>
-                  <p>
-                    This one week module introduces trainees to Git and Github
-                    using Github Desktop. This is a key skill for all developers
-                    and is also how we submit coursework at CodeYourFuture.
-                  </p>
-                </div>,
-                <FormatListNumberedIcon />,
-                "/git/overview",
-                "Tech"
-              )}
-              {getComponent(
                 "HTML/CSS",
-                "3 Weeks",
+                "4 weeks",
                 <div>
                   <p>
-                    The products of HTML and CSS comprise a two-thirds of what
-                    is called frontend (the final third is client-side
-                    JavaScript, which you will learn about in later modules).
-                    What is frontend? It's another word for the presentational
+                    Introducing Front End. What is frontend? It's another word for the presentational
                     part of a piece of software. In terms of web development
                     we're talking about "what you see" when you go to any
                     website.
@@ -195,13 +172,11 @@ function Overview() {
                 "Tech"
               )}
               {getComponent(
-                "Effective Communication",
-                "1 Week",
+                "Building a team",
+                "Integrated through HTML/CSS",
                 <div>
                   <p>
-                    This Personal Development day takes place after the HTML/CSS
-                    Module. Trainees will focus on communication skills
-                    essential for a developer.
+                    Trainees discover, develop, and deliver a team building project.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -210,7 +185,7 @@ function Overview() {
               )}
               {getComponent(
                 "JavaScript Core 1",
-                "3 Weeks",
+                 "4 weeks",
                 <div>
                   <p>
                     In this module you'll make a start into the wonderful world
@@ -226,12 +201,11 @@ function Overview() {
                 "Tech"
               )}
               {getComponent(
-                "Preparing for the Workplace",
-                "1 Week",
+                "Communicating in the workplace",
+                "Integrated through JS1",
                 <div>
                   <p>
-                    This Personal Development day takes place after the JS 1
-                    Module. Trainees will be introduced to important skills
+                    Trainees will be introduced to important skills
                     needed for the workplace.
                   </p>
                 </div>,
@@ -241,7 +215,7 @@ function Overview() {
               )}
               {getComponent(
                 "JavaScript Core 2",
-                "3 Weeks",
+                "4 weeks",
                 <div>
                   <p>
                     In JavaScript Core 2 you'll learn all about how to use
@@ -262,11 +236,10 @@ function Overview() {
               )}
               {getComponent(
                 "Presentation Skills",
-                "1 Week",
+                "Integrated through JS2",
                 <div>
                   <p>
-                    This Personal Development day takes place after the JS 2
-                    Module. Trainees will explore various tools and techniques
+                    Trainees will explore various tools and techniques
                     to develop their presentation skills.
                   </p>
                 </div>,
@@ -276,10 +249,10 @@ function Overview() {
               )}
               {getComponent(
                 "JavaScript Core 3",
-                "3 Weeks",
+                "4 weeks",
                 <div>
                   <p>
-                    In JavaScript Core 2 you'll learn all about requesting data
+                    In JavaScript Core 3 you'll learn all about requesting data
                     from over the internet to make your websites talk to each
                     other. This is when programming becomes really exciting as
                     you work with real world data to build interesting, complex
@@ -296,8 +269,32 @@ function Overview() {
                 "Tech"
               )}
               {getComponent(
+                "Specialisation",
+                "1 week",
+                <div>
+                  <p>
+                   After JavaScript Core 3 trainees will reflect with mentors and choose a path of specialisation. After this point, trainees will pursue individualised learning plans based on their aptitudes and interests, broadly on these tracks:
+                  </p>
+                  <br/>
+                  <h4>Tracks</h4>
+                  <ul>
+                    
+                    <li>Front End Development</li>
+                    <li>Back End Development</li>
+                    <li>Full Stack Development</li>
+                    <li>Quality Engineering</li>
+                    <li>Cloud Engineering</li>
+                    <li>Product Development</li>
+                  </ul>
+
+                </div>,
+                <EmojiPeopleIcon />,
+                "https://docs.codeyourfuture.io/course-processes/running-the-course/assessment/milestones",
+                "PD"
+              )}
+              {getComponent(
                 "React",
-                "3 Weeks",
+                "4 Weeks",
                 <div>
                   <p>
                     You'll become more familiar with a frontend technology
@@ -322,11 +319,10 @@ function Overview() {
               )}
               {getComponent(
                 "Preparing for the Job Market",
-                "1 Week",
+                "Integrated through React",
                 <div>
                   <p>
-                    This Personal Development day takes place after the React
-                    Module. Trainees will learn about the CYF process of getting
+                    Trainees will learn about the CYF process of getting
                     a job and the tools to support getting into a new career.
                   </p>
                 </div>,
@@ -354,12 +350,10 @@ function Overview() {
               )}
               {getComponent(
                 "Interview Skills",
-                "1 Week",
+                "Integrated through Node",
                 <div>
                   <p>
-                    This Personal Development day takes place after the Node
-                    Module. Trainees will learn about the CYF process of getting
-                    a job and the tools to support getting into a new career.
+                    Mock interviews, writing CVs, and creating a professional profile online.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -368,7 +362,7 @@ function Overview() {
               )}
               {getComponent(
                 "Databases",
-                "3 Weeks",
+                "4 weeks",
                 <div>
                   <p>
                     In this module you'll learn how to store your data in a
@@ -389,11 +383,10 @@ function Overview() {
               )}
               {getComponent(
                 "Working in Teams",
-                "1 Week",
+                "Integrated through DB",
                 <div>
                   <p>
-                    This Personal Development day takes place after the
-                    Database. Trainees will learn about how to work in a team in
+                    Trainees will learn about how to work in a cross functional Agile team in
                     preparation for the Final Projects.
                   </p>
                 </div>,
@@ -423,11 +416,10 @@ function Overview() {
               )}
               {getComponent(
                 "Presentations and Demo Day",
-                "1 Week",
+                "Post project",
                 <div>
                   <p>
-                    This Personal Development day takes place after the Final
-                    Project. The final week of the course focuses on more
+                    The final leg of the course focuses on 
                     Presentation skills and preparing for Demo Day.
                   </p>
                 </div>,
