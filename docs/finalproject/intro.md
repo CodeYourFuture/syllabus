@@ -27,7 +27,7 @@ Communication skills:
 
 ## Objectives
 
-The final projects form the final module of the full-stack web development course, comprising four weeks following the completion of the last teaching-based module (currently the database module). The objectives of this module are to:
+The final projects form the final module of the course, comprising four weeks following the completion of the last teaching-based module (currently the database module). The objectives of this module are to:
 
 - Bring together everything the trainees have learned so far (most projects involve a Node/Express backend with a database and a React frontend);
 - Give an opportunity to demonstrate teamwork and a mix of interpersonal and technical skills that the trainees can talk about when applying for jobs; and Deliver something valuable for CYF or a partner organisation.

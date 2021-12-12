@@ -6,7 +6,7 @@ sidebar_label: Coursework
 
 ## 1) Mid-Course Feedback
 
-We're now over half way through the Full Stack Course!
+We're now over half way through the Software Development Course!
 
 Your feedback is really important to us. We use your feedback to improve the course for all of the hundreds of trainees across CodeYourFuture now and in the future.
 
@@ -30,7 +30,7 @@ https://github.com/CodeYourFuture/TV-Show-DOM-Project-Solution
 
 ## 3) In Class Exercises
 
-If you haven't already, complete the in-class exercises on your `pokedex` app. 
+If you haven't already, complete the in-class exercises on your `pokedex` app.
 
 ## 4) CYF Hotel (7 hours)
 
@@ -87,7 +87,9 @@ Stretch Goals: Some other suitable projects for you to work on right now are:
 You should complete these challenges in the order they are in above.
 
 ## 7) Codewars (1 hour)
+
 Do your usual three kata and then...
+
 1. Find the pinned suggestions thread in the #cyf-codewars
 2. Suggest a kata, or upvote one, to add to the syllabus
 
