@@ -49,156 +49,204 @@ module.exports = {
         {
           to: "Overview",
           label: "Overview",
-          
+          position: "left",
         },
         {
-          to: "Overview",
           label: "Modules",
-          
+          position: "left",
           items: [
             {
               href: "https://introtocoding.codeyourfuture.io",
               label: "Intro To Coding",
-              
+              position: "left",
+              className: "outside-link",
             },
             {
               href: "https://fundamentals.codeyourfuture.io/",
               label: "Fundamentals",
+              position: "left",
+              className: "outside-link",
             },
             {
               href: "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
               label: "Induction",
+              position: "left",
+              className: "outside-link",
             },
             {
               to: "git/overview",
               label: "Git and Github",
+              position: "left",
             },
             {
-              to: "html-css/",
+              to: "html-css/index",
               label: "HTML-CSS",
+              position: "left",
             },
             {
-              to: "js-core-1/",
+              to: "js-core-1/index",
               label: "JavaScript Core 1",
+              position: "left",
             },
             {
-              to: "js-core-2/",
+              to: "js-core-2/index",
               label: "JavaScript Core 2",
+              position: "left",
             },
             {
-              to: "js-core-3/",
+              to: "js-core-3/index",
               label: "JavaScript Core 3",
+              position: "left",
             },
             {
-              to: "react/",
+              to: "react/index",
               label: "React",
+              position: "left",
             },
             {
-              to: "node/",
+              to: "node/index",
               label: "Node",
+              position: "left",
             },
             {
-              to: "db/",
+              to: "db/index",
               label: "SQL",
+              position: "left",
+            },
+            {
+              to: "mongodb/index",
+              label: "MongoDB",
+              position: "left",
             },
             {
               to: "finalproject/intro",
               label: "Final Projects",
+              position: "left",
             },
           ],
         },
         {
           label: "Workshops",
+          position: "left",
           items: [
             {
-              to: "workshops/accessibility/",
+              to: "workshops/accessibility/index",
               label: "Accessibility Workshops",
+              position: "left",
             },
             {
               to: "workshops/aws-dynamodb",
               label: "AWS & DynamoDB Workshop",
+              position: "left",
             },
             {
               to: "workshops/processing-js-workshop",
               label: "Processing.js Workshop",
+              position: "left",
             },
             {
               to: "workshops/js-testing-workshop",
               label: "JavaScript Testing Workshop",
+              position: "left",
             },
             {
-              to: "workshops/deployment/",
+              to: "workshops/deployment/index",
               label: "Deploying Your Code Workshop",
+              position: "left",
             },
             {
-              to: "workshops/interviews/",
+              to: "workshops/interviews/index",
               label: "Interviews",
+              position: "left"
+            },
+            {
+              label: "-----------",
+              position: "left",
             },
             {
               href: "https://github.com/CodeYourFuture/syllabus/issues/new?assignees=&labels=Workshop&template=workshop-request.md&title=%5BWorkshop%5D",
               label: "Want to request a workshop?",
+              position: "left",
             },
           ],
         },
         {
           label: "Guides",
+          position: "left",
           items: [
             {
               to: "guides/paradigm",
               label: "Our Approach",
+              position: "left",
             },
             {
               to: "guides/marking-guide",
               label: "Marking Guide",
+              position: "left",
             },
             {
               to: "guides/code-style-guide",
               label: "Code Style Guide",
+              position: "left",
             },
             {
               to: "guides/coding-101",
               label: "Coding 101",
+              position: "left",
             },
             {
               to: "guides/escalation-policy",
               label: "Escalation Policy",
+              position: "left",
             },
             {
               to: "guides/react-cheatsheet",
               label: "React Cheatsheet",
+              position: "left",
             },
             {
               to: "guides/useful-links",
               label: "Useful Links",
+              position: "left",
             },
             {
               to: "guides/creating-a-react-app",
               label: "Creating a React App",
+              position: "left",
             },
             {
               to: "guides/intro-to-tests",
               label: "Introduction to tests",
+              position: "left",
             },
           ],
         },
         {
           label: "Other",
+          position: "left",
           items: [
             {
               href: "https://teachertraining.codeyourfuture.io",
               label: "Teacher Training",
+              position: "left",
+              className: "outside-link",
             },
             {
               href: "https://docs.codeyourfuture.io",
               label: "Organisation Documentation",
+              position: "left",
+              className: "outside-link",
             },
             {
               href: "https://personaldevelopment.codeyourfuture.io",
               label: "Personal Development",
+              position: "left",
+              className: "outside-link",
             },
           ],
         },
         {
+          position: "right",
           to: "contributing/overview",
           label: "Want to contribute?",
         },
