@@ -120,7 +120,7 @@ In the route definition above, a specific syntax is used to define the URL param
 >
 > 1. Create a new component `PokemonInfo`.
 > 2. In `src/App.js`, create a new route which maps the path `/pokemon/:name` to the previously created component `PokemonInfo` (hint: `<Route path="/pokemon/:name" element={<PokemonInfo />} />`).
-> 3. In the `render` method of `PokemonInfo` component, display the name of the Pokemon which is passed in the URL parameter (hint: use the hook `userParams()` and extract `name` from the object it returns ).
+> 3. In the `render` method of `PokemonInfo` component, display the name of the Pokemon which is passed in the URL parameter (hint: use the hook `useParams()` and extract `name` from the object it returns ).
 > 4. Open the `pokedex` in your browser and try several URLs (such as `http://localhost:3000/pokemon/Pikachu` and see if the Pokemon name is displayed accordingly on your screen.
 > 5. **(STRETCH GOAL)** Instead of passing the name of the Pokemon in the URL parameter, now pass an ID. The ID passed correspond to the ID of the Pokemon in the Poke API. For example, the ID 1 corresponds to the Pokemon Bulbasaur (https://pokeapi.co/api/v2/pokemon-species/1/). In the `PokemonInfo` component, use the Pokemon ID from the URL to load the corresponding Pokemon data from the Poke API and display the following Pokemon information on the screen: name, color.name, shape.name, base_happiness and capture_rate.
 
