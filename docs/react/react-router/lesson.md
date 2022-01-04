@@ -6,7 +6,7 @@ sidebar_label: Lesson
 
 ## Introduction to React-Router
 
-In the past few weeks, you've learned how to build applications with React and the different applications and examples were all built on a single page. However, what if you wanted to have different pages with each page having its own URL (so you can bookmark it for example)? You will need to introduce a router in your application. In JavaScript, a router is the piece of code which is in charge of switching between views of your application and keep each view in sync with a specific URL. For example, you could imagine having a homepage reachable from the root path `/` and a users page with the path `/users`. In React, a popular library to help you achieve this is React-Router.
+In the past few weeks, you've learned how to build applications with React and the different applications and examples were all built on a single page. However, what if you wanted to have different pages with each page having its own URL (so you can bookmark it for example)? You will need to introduce a router in your application. In JavaScript, a router is the piece of code which is in charge of switching between views of your application and keep each view in sync with a specific URL. For example, you could imagine having a homepage reachable from the root path `/` and a users page with the path `/users`. In React, a popular library to help you achieve this is React Router.
 
 Let's look at a first example ([interactive example](https://codesandbox.io/s/react-router-1-forked-hz6po?file=/src/index.js)):
 
@@ -24,7 +24,7 @@ const Users = ({ names }) => {
     <div>
       <h2>Users</h2>
       <ul>
-        {names.map( (name,index) => (
+        {names.map((name, index) => (
           <li key={index}>{name}</li>
         ))}
       </ul>
@@ -50,8 +50,8 @@ const AppRouter = () => {
           </ul>
         </nav>
         <Routes>
-          <Route path="/" exact element={<Index/>} />
-          <Route path="/about/" element={<About/>} />
+          <Route path="/" exact element={<Index />} />
+          <Route path="/about/" element={<About />} />
           <Route path="/users/" element={<Users names={["Raresh", "Nate"]} />}
           />
         </Routes>
@@ -67,7 +67,7 @@ React-Router provides some default React components that you can use to enable r
 > Open the `pokedex` React application. In this exercise, React-Router will be introduced. Instead of displaying all your components in the same page, we will use React-Router to define different pages in the `pokedex` application.
 >
 > 1. In the terminal, install React-Router with `npm install --save react-router-dom`.
-> 2. Open `src/App.js` and import BrowserRouter, Route and Link components from React-Router (hint: `import { BrowserRouter, Routes, Route, Link } from "react-router-dom";`)
+> 2. Open `src/App.js` and import BrowserRouter, Route, Routes and Link components from React Router (hint: `import { BrowserRouter, Routes, Route, Link } from "react-router-dom";`)
 > 3. Wrap all the components in the `render` method in the `<BrowserRouter>` component.
 > 4. In the following, we will have `CaughtPokemon` and `BestPokemon` displayed with different route. But first, let's create some links to navigate to different pages. Still in the `<BrowserRouter>` in the `render` method of `src/App.js`, use the `Link` component to create 2 links: one to navigate to the URL `/best-pokemon` and another one to navigate to `/caught-pokemon` (hint: `<Link to="/best-pokemon">Best Pokemon</Link>`).
 > 5. Open the `pokedex` in your browser and verify that you can see 2 links on the page. When clicking on each of these links, the URL in your browser address bar should change (but nothing will change on the screen yet!).
