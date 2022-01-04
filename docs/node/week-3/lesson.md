@@ -17,7 +17,7 @@ By the end of this lesson trainees should be able to:
 
 ## 1) Presentations
 
-As part of last weeks homework we asked you to prepare a very short presentation on what you learnt last week.
+As part of last week's homework we asked you to prepare a very short presentation on what you learnt last week.
 
 Split into groups of 2-4 people and present what you have learnt. Remember, your whole presentation should be no more than 120 seconds!
 
@@ -34,7 +34,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 ### 2.1) Using Update
 
-This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
+This is a teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
 
 :::note Teacher-Led Live Coding
 
@@ -54,7 +54,7 @@ When you remix the starting project, immediately rename it as your own.
 
 #### 2.2 Workshop: Updating Data
 
-Lets look back at our original objectives.
+Let's look back at our original objectives.
 
 > `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 
