@@ -50,7 +50,7 @@ const AppRouter = () => {
           </ul>
         </nav>
         <Routes>
-          <Route path="/" exact element={<Index />} />
+          <Route path="/" element={<Index />} />
           <Route path="/about/" element={<About />} />
           <Route path="/users/" element={<Users names={["Raresh", "Nate"]} />}
           />
@@ -61,7 +61,7 @@ const AppRouter = () => {
 };
 ```
 
-React-Router provides some default React components that you can use to enable routing in your application. First, notice the top level `<BrowserRouter>` component which wraps everything else. Each route is defined with the `<Route>` component which maps a path (defined with the `path` props) with a React component. In the simplest case, you can specify the React component to map to the path with the `component` props. However, it is assuming you don't need to pass any props to it. If you face a more complex scenarios or if you need to pass props to your React component, you can use the `render` props which takes a function and return exactly what you want to render on this path. Then, the `Link` component can be used to create links to navigate to different routes.
+React-Router provides some default React components that you can use to enable routing in your application. First, notice the top level `<BrowserRouter>` component which wraps everything else. Then, the `<Routes>` component which will choose one `<Route>` based on the current path. Each route is defined with the `<Route>` component which maps a path (defined with the `path` props) to a React component. You can pass an entire component including its properties to the `element={...}` prop. Finally, the `Link` component can be used to create links to navigate to different routes.
 
 > **Exercise A**
 > Open the `pokedex` React application. In this exercise, React-Router will be introduced. Instead of displaying all your components in the same page, we will use React-Router to define different pages in the `pokedex` application.
