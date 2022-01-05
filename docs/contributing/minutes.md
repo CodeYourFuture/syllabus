@@ -4,6 +4,94 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 05/01/21
+
+### Present
+
+Ali, Mitch, Chris, Sally, Greg
+
+### Minutes
+
+- Fundamentals
+  - Sally worked out the timings (incl PD things): https://docs.google.com/spreadsheets/d/1nKm9cwfYzyPGt2W_P9GQPPavmnD5zFEeTTQTdOgpRVg/edit#gid=0
+  - Red is immovable stuff, otherwise divided into planned work
+  - Blockly
+    - Greg's planned schedule
+      - Week 1 - Code.org, intro blockly, intro user stories
+      - Week 2 - ? [missed this, sorry]
+      - Week 3 - homework consolidation, delivery (reduced the amount of time to complete)
+    - Still need to review v4
+      - https://laughing-goldberg-6b25f5.netlify.app/
+    - Code is still on Greg's github - wants to transfer to CYF github
+      - Sally volunteered to make it look nice :)
+    - Greg has worked with Neill to develop the content
+    - Idea from SA
+      - Have a blank block editor - can be done via intro page
+    - Project
+      - Sally brought up idea of a "shopping cart" - scaffolded out by us
+        - This might be constrained/unrealistic - would be dummy buttons
+      - Greg was thinking about the landing pages will all be done
+        - We need to nail down what this actually looks like - SA need to have time to build this out
+      - Brainstorm some ideas for user stories to update a personal homepage
+        - As a visitor to your home page, I want to leave a comment
+    - Estimation exercise idea
+      - Give user story, then make guess at number of blocks (or time?) needed to implement this, then actually implement it
+      - Discuss the disparity between guess and reality
+      - Learning outcome: estimation is hard
+      - Learning outcome: how to "cut your losses" on a particular impl if it becomes complex
+    - Delivery
+      - Introduced early - drag/drop onto Netlify
+      - No need to make it more complicated
+      - Just reduce the amount of time to complete this over the 3 weeks
+    - Greg's Blockly principles:
+      - let students write all their own code -> they feel greater ownership
+      - indexing into arrays (and tracking variables with indexes, and for loops) is a complexity to be avoided at this stage -> everything is with push, pop and forEach
+      - referring to "arrays" (rather than "lists" recommended by blockly), to avoid the confusion of lists vs html lists.
+      - Scaffolding that fades:
+        - pressing run
+        - which specific blocks to use and where to find them
+        - detailed step by step (only for introducing new blocks/concepts)
+      - problem solving. Some exercises deliberately look into iterative coding, rather than coding everything at once
+        - Lists of links
+        - Arrays and html lists
+      - Static html vs creation with blocks - main reasoning is that adding event listeners is cleaner against elements in there from the start (otherwise you get very deep embedding)
+      - Generated code: it's readable and at some point it's worth taking a look at it (and definitely worth revisiting during JS1 or JS2)
+        notes
+      - Some missing functionality is a bit arbitrary
+        - no string concat
+        - the target element inside event listeners isn't directly available
+        - records (could use arrays within arrays rather than multiple arrays)
+      - "At the start" does nothing except act as a container
+  - Next starting class would be South Africa
+    - Maybe: 29th Jan - Sally advised against this, so probably will be pushed back
+- Changes to JS modules
+  - Moving to 4 week modules, but PD is spread out through the modules. Which means that the exercises need to move to a week 4 repo
+  - We need to review the PRs before Sat, so Barath can teach in London
+    - Suggested alternative strategy of moving changes to a fork
+      - So that we can keep syllabus, exercises, solutions, etc in lockstep
+      - Chris to follow up with Barath about doing this
+  - Let's try to focus on just moving the content across repos, we can follow up on updating/adding/removing exercises
+    - We don't really have a lot of capacity to review large changes
+  - If we're happy with the change then we need to make sure we've updated all the appropriate pages for exercises spreading out
+    - Sally can ask Dom about doing this
+- Intro to Digital
+  - Sally read a bunch of trainee's code
+  - One thing that came out of this: "what is frontend"
+    - Discussion of composition of components - there's a piece of the React module which isn't really tied to React directly. Can we move this forward to e.g. HTML/CSS?
+      - But this is out-of-scope for this piece of work
+  - Sally put together: https://github.com/CodeYourFuture/CYF-Sass-In-React to discuss CSS theming/good practice
+- Syllabus is on `master` as default branch
+  - This is the exception - most other CYF repos use `main`
+  - Let's move to `main`
+
+### Actions
+
+- All to develop 4 user stories for a Blockly "project"
+- All to review Blockly v4
+- Tell Nirmeet about changes to JS2 - spreading out of exercises
+- Chris to chase up Barath about changes to JS1
+- Move syllabus repo to `main` default branch
+
 ## 08/12/21
 
 ### Present
