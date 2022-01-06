@@ -4,7 +4,7 @@ title: React Router
 sidebar_label: Lesson
 ---
 
-## Introduction to React-Router
+## Introduction to React Router
 
 In the past few weeks, you've learned how to build applications with React and the different applications and examples were all built on a single page. However, what if you wanted to have different pages with each page having its own URL (so you can bookmark it for example)? You will need to introduce a router in your application. In JavaScript, a router is the piece of code which is in charge of switching between views of your application and keep each view in sync with a specific URL. For example, you could imagine having a homepage reachable from the root path `/` and a users page with the path `/users`. In React, a popular library to help you achieve this is React Router.
 
@@ -61,12 +61,12 @@ const AppRouter = () => {
 };
 ```
 
-React-Router provides some default React components that you can use to enable routing in your application. First, notice the top level `<BrowserRouter>` component which wraps everything else. Then, the `<Routes>` component which will choose one `<Route>` based on the current path. Each route is defined with the `<Route>` component which maps a path (defined with the `path` props) to a React component. You can pass an entire component including its properties to the `element={...}` prop. Finally, the `Link` component can be used to create links to navigate to different routes.
+React Router provides some default React components that you can use to enable routing in your application. First, notice the top level `<BrowserRouter>` component which wraps everything else. Then, the `<Routes>` component which will choose one `<Route>` based on the current path. Each route is defined with the `<Route>` component which maps a path (defined with the `path` props) to a React component. You can pass an entire component including its properties to the `element={...}` prop. Finally, the `Link` component can be used to create links to navigate to different routes.
 
 > **Exercise A**
-> Open the `pokedex` React application. In this exercise, React-Router will be introduced. Instead of displaying all your components in the same page, we will use React-Router to define different pages in the `pokedex` application.
+> Open the `pokedex` React application. In this exercise, React Router will be introduced. Instead of displaying all your components in the same page, we will use React Router to define different pages in the `pokedex` application.
 >
-> 1. In the terminal, install React-Router with `npm install --save react-router-dom`.
+> 1. In the terminal, install React Router with `npm install --save react-router-dom`.
 > 2. Open `src/App.js` and import BrowserRouter, Route, Routes and Link components from React Router (hint: `import { BrowserRouter, Routes, Route, Link } from "react-router-dom";`)
 > 3. Wrap all the components in the `render` method in the `<BrowserRouter>` component.
 > 4. In the following, we will have `CaughtPokemon` and `BestPokemon` displayed with different route. But first, let's create some links to navigate to different pages. Still in the `<BrowserRouter>` in the `render` method of `src/App.js`, use the `Link` component to create 2 links: one to navigate to the URL `/best-pokemon` and another one to navigate to `/caught-pokemon` (hint: `<Link to="/best-pokemon">Best Pokemon</Link>`).
@@ -77,7 +77,7 @@ React-Router provides some default React components that you can use to enable r
 
 ## URL parameters
 
-Sometimes, parameters can be passed from the URL to a React component directly via its props. In this case, different URLs can be mapped to one single React component. For example, in an online shopping application, a React component `Product` may be responsible to display a specific product on the page. By using URL parameters, the name or ID of the requested product can be specific in the URL and React-Router will pass it a props of the `Product` component ([interactive example](https://codesandbox.io/s/react-router-2-forked-8q0rl?file=/src/index.js)):
+Sometimes, parameters can be passed from the URL to a React component directly via its props. In this case, different URLs can be mapped to one single React component. For example, in an online shopping application, a React component `Product` may be responsible to display a specific product on the page. By using URL parameters, the name or ID of the requested product can be specific in the URL and React Router will pass it a props of the `Product` component ([interactive example](https://codesandbox.io/s/react-router-2-forked-8q0rl?file=/src/index.js)):
 
 ```js
 const Product = () => {
@@ -126,4 +126,4 @@ In the route definition above, a specific syntax is used to define the URL param
 
 ## Further Reading
 
-A lot of examples are available on the [official React-Router website](https://reactrouter.com/docs/en/v6/getting-started/overview).
+A lot of examples are available on the [official React Router website](https://reactrouter.com/docs/en/v6/getting-started/overview).
