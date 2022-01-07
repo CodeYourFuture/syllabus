@@ -54,7 +54,7 @@ When you remix the starting project, immediately rename it as your own.
 
 #### 2.2 Workshop: Updating Data
 
-Let's look back at our original objectives using the [cyf-albums-start](https://glitch.com/~cyf-albums-start) project. Try to apply what you learned about PUT routes to this project. Remember to remix and rename the project as your own.
+Let's look back at our original objectives using the albums project from previous lessons. Try to apply what you learned about PUT routes to this project.
 
 > `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 
@@ -71,7 +71,7 @@ app.put("/albums/:albumID", function (req, res) {
 
 Remember, you have got to **update** the album, not add it to the list.
 
-One of the album entries is incorrect. Test that your API works by updating the The Beatles album to "Magical Mystery Tour".
+Test that your API works by updating one of the albums.
 
 ## 3) Heroku
 
