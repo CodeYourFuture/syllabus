@@ -32,7 +32,22 @@ Here's a rough schedule, which you can adapt to suit your cohort. You should als
 
 ## Telephone
 
+Play the default game! You don’t need to explain what to do, people will figure it out. You might try playing it between the mentors before the session. It’s a fun icebreaker. Limit the groups to 5 or else the game takes too long. It takes **10 minutes** to play with **5 people**.
+
+Now come back into the main room and lead a reflection.
+
+:::tip Example reflection:
+
+Was it surprising (and hilarious) to see what other people drew from your words? What about how they described your picture? Did anybody get a series of _similar_ pictures or words?
+:::
+
 ## User Stories
+
+### Sample reflection for mentor
+
+:::tip Example reflection:
+What’s NOT in the user story? (It’s the how.) One reason to write user stories is to establish clearly what we are doing and why. A common mistake in coding is jumping straight into “how” before we understand and agree these things. This wastes a lot of time. If you find yourself jumping straight to “how” or “jumping to conclusions”, check yourself! Remember the telephone game and how absurdly wrong things can go.
+:::
 
 ## MVP
 
