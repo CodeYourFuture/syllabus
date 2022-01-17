@@ -4,6 +4,12 @@ title: Overview
 sidebar_label: Overview
 ---
 
+| Week                          | Content      | Learning Objectives                                    |
+| ----------------------------- | ------------ | ------------------------------------------------------ |
+| [Week 1](./week-1/session.md) | Requirements | [Learning objectives](./week-1/learning-objectives.md) |
+| [Week 2](./week-2/session.md) | Iteration    | [Learning objectives](./week-2/learning-objectives.md) |
+| [Week 3](./week-3/session.md) | Delivery     | [Learning objectives](./week-3/learning-objectives.md) |
+
 # About This Course
 
 To understand this course, we must understand these goals:
@@ -53,9 +59,9 @@ Should we upload the result of our week 1 homework to Netlify? Yes, we should **
 
 3 week repetition of a common pattern, each week with its special focus:
 
-- [Week 1](./week-1/lesson.md): **Requirements**, Iteration, Delivery
-- [Week 2](./week-2/lesson.md): Requirements, **Iteration**, Delivery
-- [Week 3](<(./week-3/lesson.md)>): Requirements, Iteration, **Delivery**
+- [Week 1](./week-1/session.md): **Requirements**, Iteration, Delivery
+- [Week 2](./week-2/session.md): Requirements, **Iteration**, Delivery
+- [Week 3](<(./week-3/session.md)>): Requirements, Iteration, **Delivery**
 
 ### Requirements
 
@@ -77,8 +83,8 @@ In terms of the delivered goals for the three week project,
 - Week 2 will have trainees iterating on that page in response to simple feedback/requirements gathering (modifying the basic HTML/CSS)
 - Week 3 will have trainees iterating on that page a second time and adding a feature implemented through block-based coding
 
-| Weeks                          | Content      | Learning Objectives                                    |
-| ------------------------------ | ------------ | ------------------------------------------------------ |
-| [Lesson 1](./week-1/lesson.md) | Requirements | [Learning objectives](./week-1/learning-objectives.md) |
-| [Lesson 2](./week-2/lesson.md) | Iteration    | [Learning objectives](./week-2/learning-objectives.md) |
-| [Lesson 3](./week-3/lesson.md) | Delivery     | [Learning objectives](./week-3/learning-objectives.md) |
+| Weeks                         | Content      | Learning Objectives                                    |
+| ----------------------------- | ------------ | ------------------------------------------------------ |
+| [Week 1](./week-1/session.md) | Requirements | [Learning objectives](./week-1/learning-objectives.md) |
+| [Week 2](./week-2/session.md) | Iteration    | [Learning objectives](./week-2/learning-objectives.md) |
+| [Week 3](./week-3/session.md) | Delivery     | [Learning objectives](./week-3/learning-objectives.md) |
