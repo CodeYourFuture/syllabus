@@ -14,6 +14,12 @@ Learning objectives for this lesson can be found [here](./learning-objectives.md
 
 ---
 
+## Welcome
+
+Welcome to week two! In week two we will explore iteration. Iteration means to repeat. Developers do many small iterations to build software, each time adding or changing some small thing. This is why your phone is always updating: each new version is an iteration. If developers waited until software was perfectly ‘finished’, it would never be delivered.
+
+---
+
 ## Blockers! (60 minutes)
 
 [Online Version of this game](https://www.dr-mikes-math-games-for-kids.com/online-traffic-jam-game.html)
