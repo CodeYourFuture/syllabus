@@ -93,7 +93,7 @@ In groups of about 5.
 > As a _[who]_, I can _[what]_ so that _[why]_
 
 :::info Exercise (10 minutes)
-Write some user stories for our coursework tracker.
+Write some user stories for our coursework tracker on a [Jamboard](https://jamboard.google.com/).
 
 Think about the "who", "what", and "why" for each.
 
@@ -111,7 +111,40 @@ What's useful about thinking about the "who" and the "why"? What could go wrong 
 
 ## MVP
 
-## CYF Blocks
+:::info Exercise: Favourite App (10 minutes)
+
+Split into groups and think about one of your favourite phone apps. Agree on one you all know. Come up with as many user stories as you can for it. You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/)
+:::
+
+## Prioritisation and the MVP
+
+Come back into the main room, Now we have our long list of user stories, how do we decide what to do first? Where do we start? As always with software development, we start with the simplest thing possible. Let’s define the **MVP**.
+
+### Minimum Viable Product
+
+What's the _minimum_ set of user stories we could implement for this product to be useful? Another way to say this is: **"What is the minimum viable product?**
+
+:::info Exercise: Prioritise! (10m)
+
+1. Swap your [Jamboard](https://jamboard.google.com/) with another group.
+2. Now go back into breakout rooms, with another group’s Jamboard of user stories
+3. Set a timer for 10 minutes
+4. Choose the stories that make up the MVP for that app
+5. Are there any missing? Note them down
+
+:::
+
+Now come back into the main room.
+
+## CYF Blocks (30 minutes)
+
+### Objectives
+
+- [ ] ...
+- [ ] ...
+- [ ] ...
+
+Introduce CYF Blocks and play around with the interface.
 
 ## Ship It
 
@@ -123,7 +156,9 @@ What's useful about thinking about the "who" and the "why"? What could go wrong 
 
 ### Exercise (60 minutes)
 
-In ITD you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website! When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
+The last thing we will do today is ship some code, because you we expect you to ship very often at CYF.
+
+You don’t have your shop project yet, so let’s ship your personal home page. In ITD you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website! When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
 :::info Exercise
 You’ll export your page to a folder on your computer, upload it to Github, and deploy it to Netlify.

@@ -51,6 +51,10 @@ What’s NOT in the user story? (It’s the how.) One reason to write user stori
 
 ## MVP
 
+:::tip Sample introduction
+For our grocery store app, maybe that's just a list of groceries, prices, and a cart. Or maybe we think showing exactly what is in stock really important, and someone couldn't buy groceries without that. Probably showing pictures of the products is useful but not absolutely required. Sharing with other users? Notifications when delivery is scheduled? Different ways of doing notifications (email/SMS/tweet/whatever)? Those sound like a lot of work.
+:::
+
 ## CYF Blocks
 
 ## Ship It
