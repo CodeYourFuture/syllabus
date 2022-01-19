@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 
 ## Contents
 
-<TOCInline toc={toc} />;
+<TOCInline toc={toc} />
 
 ## Learning Objectives
 
@@ -32,7 +32,7 @@ As a group, let's think of everyone that uses the web.
 
 - What kinds of people use the web?
 - How might their experiences be different?
-  :::
+:::
 
 As web developers, we don't build websites for ourselves—we build them for our users.
 Therefore, it is our responsibility to build websites that can be used by all users of the web.
@@ -662,23 +662,15 @@ The following table describes the differences between the two in more detail.
 
 HTML elements are either block or inline elements.
 
-Common block elements are:
-
-- `h1` to `h6`
-- `p`
-- `ul`, `ol` and `li`
-- `form`
-- `table`
-- `article` and `section`
-- `div`
-
-Common inline elements are:
-
-- `a`
-- `img`
-- `button`
-- `input`, `select` and `label`
-- `span`
+| Common block elements   | Common inline elements |
+|-------------------------|------------------------|
+| `h1` to `h6`            | `a`                    |
+| `p`                     | `img`                  |
+| `ul`, `ol` and `li`     | `button`               | 
+| `form`                  | `input` and `select`   |
+| `table`                 | `label`                |
+| `article` and `section` | `strong`               |
+| `div`                   | `span`                 |
 
 To change the type of box, we can use the `display` CSS property like in the following example.
 
