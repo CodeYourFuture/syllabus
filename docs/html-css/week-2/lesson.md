@@ -475,7 +475,7 @@ the browser will send the `q=codeyourfuture` key-value pair to `https://duckduck
 
 :::note Interactive example
 
-<form action="https://duckduckgo.com" method="get">
+<form action="https://duckduckgo.com" method="get" target="_blank" rel="noopener noreferrer">
   <label for="ddg-search">Search</label>
   <input id="ddg-search" type="search" name="q"/>
   <button>Search DuckDuckGo</button>

@@ -10,20 +10,20 @@ import Feedback from "@theme/Feedback";
 
 By the end of this lesson trainees should be able to:
 
-- Process an PUT request using Express and Node to update data in memory
+- Process a PUT request using Express and Node to update data in memory
 - Upload their node app to the internet so it can be accessed anywhere using Heroku
 
 ---
 
 ## 1) Presentations
 
-As part of last weeks homework we asked you to prepare a very short presentation on what you learnt last week.
+As part of last week's homework we asked you to prepare a very short presentation on what you learnt last week.
 
 Split into groups of 2-4 people and present what you have learnt. Remember, your whole presentation should be no more than 120 seconds!
 
 ## 2) CRUD Review
 
-So what will we build? we will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
+So what will we build? We will build a **CRUD** API. CRUD stands for Create, Retrieve, Update, Delete. If you think about it, this is what most applications do:
 
 - Create some "resources"
 - Retrieve them (GET them)
@@ -34,7 +34,7 @@ So what will we build? we will build a **CRUD** API. CRUD stands for Create, Ret
 
 ### 2.1) Using Update
 
-This is an Teacher led exercise which can be used to show how we might retrieve an element by ID using a GET request.
+This is a teacher led exercise which can be used to remind students how to update resources by making a PUT request.
 
 :::note Teacher-Led Live Coding
 
@@ -54,13 +54,13 @@ When you remix the starting project, immediately rename it as your own.
 
 #### 2.2 Workshop: Updating Data
 
-Lets look back at our original objectives.
+Let's look back at our original objectives using the albums project from previous lessons. Try to apply what you learned about PUT routes to this project.
 
 > `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 
 This means that `PUT /albums/2` should update an album with the id `2` and return `200` with JSON `{ success: true }` to the user.
 
-The code will look like this
+The code should look something like this:
 
 ```js
 // notice .put
@@ -69,15 +69,27 @@ app.put("/albums/:albumID", function (req, res) {
 });
 ```
 
-Remember, you have got to **update** the album, not add it to the list
+Remember, you have got to **update** the album, not add it to the list.
+
+Test that your API works by updating one of the albums.
 
 ## 3) Heroku
 
-We use can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
+We can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
 
-This can be a little tricky however the documentation is good.
+This can be a little tricky. However, the documentation is good.
 
 https://devcenter.heroku.com/articles/getting-started-with-nodejs
+
+:::caution
+
+If you're using WSL, Snap may not work immediately. If you see errors using Snap, run the following command in WSL instead. You can ask a TA for help:
+
+```bash
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+```
+
+:::
 
 :::note Exercise
 
@@ -95,10 +107,10 @@ You should complete all of the following sections:
 Now when you use
 
 ```
-git push heroku master
+git push heroku main
 ```
 
-After making a `commit` your updated website with my made available online.
+After making a `commit` your updated website will be made available online.
 
 :::
 
