@@ -10,11 +10,11 @@ Download and install the following software or register for the apps.
 
 Click on the links to go to the registration pages. Keep your login details for all sites/apps consistent and always use your real name.
 
-::: info
+:::info
 CYF recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
 :::
 
-::: tip
+:::tip
 CYF understands you may need to keep your picture off the internet. In this case, generate a robohash picture from your name, and use that for all these accounts. Use your robohash consistently and it will help us recognise each other.  
 :::
 
@@ -68,7 +68,9 @@ Miro is an online whiteboard we use to share ideas. Register an account now.
 
 ### Code.org
 
-Code.org is a website aimed at helping people learn computer science. You will be doing one of their courses. Register an account now. - <input type="checkbox" checked/> I have signed up for code.org.
+Code.org is a website aimed at helping people learn computer science. You will be doing one of their courses. Register an account now.
+
+- <input type="checkbox" checked/> I have signed up for code.org.
 
 ### Kahoot
 

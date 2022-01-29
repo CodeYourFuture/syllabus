@@ -27,3 +27,9 @@ Stretch goal: can you write and save a [markdown document ](https://www.markdown
 ### Prep 3 : Developer Thinking
 
 People in tech work with logic, so how do people improve their logical reasoning? Happily, with games! Practice your developer thinking by playing our brain games.
+
+### Prep 4: HTML/CSS crash course
+
+During Fundamentals, we will be building a website with a block-based programming tool called CYF Blocks. The underlying code uses HTML, CSS, and JavaScript. Prepare yourself now with this free crash course, to refresh and consolidate your learning from Intro to Digital.
+
+**&rarr; [HTML CSS Crash Course](https://scrimba.com/learn/htmlcss)**
