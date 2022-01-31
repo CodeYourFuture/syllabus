@@ -61,7 +61,7 @@ What did people think about this game? Let’s go around and each group share **
 
 ### Recap - user stories
 
-Recall from the previous session, we discussed **user stories**, a useful way of discovering requirements for some application. Can you recall the structure of a typical user story
+Recall from the previous session, we discussed **user stories**, a useful way of discovering requirements for a product we are developing. Can you recall the structure of a typical user story ?
 
 :::info Exercise: Favourite App (10 minutes)
 
