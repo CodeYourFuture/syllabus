@@ -59,6 +59,10 @@ What did people think about this game? Let’s go around and each group share **
 
 ## MVP
 
+### Recap - user stories
+
+Recall from the previous session, we discussed **user stories**, a useful way of discovering requirements for some application. Can you recall the structure of a typical user story
+
 :::info Exercise: Favourite App (10 minutes)
 
 Split into groups and think about one of your favourite phone apps. Agree on one you all know. Come up with as many user stories as you can for it. You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/)
