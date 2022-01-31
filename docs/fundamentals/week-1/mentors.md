@@ -90,9 +90,17 @@ CYF Blocks currently only uses local storage. Make sure trainees know this, and 
 
 ## Ship It
 
+A version of this session has been run many times at CYF so please ask others for help if you're stuck. There's a full workshop called [Deploying Your Code](https://syllabus.codeyourfuture.io/workshops/deployment/index) you can run through beforehand if that's helpful.
+
+We will ask trainees to ship frequently at CYF.
+
+1. We only evaluate what people have shipped. Shipped software is the only completed form of software. And that's what counts.
+2. A shipped piece of software is a tangible product. Real, deployed sites are valuable to trainees beyond this course. They can use them to build their portfolio.
+3. Finishing things is so hard. You must learn how to do it and practice it constantly to be successful.
+
 ## Retro
 
-One or two volunteers should facilitate a retro at the end of the day. You may wish to split the retrospectives into trainee and mentor, or do it all together.
+One or two volunteers will facilitate a retro at the end of the day. You may wish to split the retrospectives into trainee and mentor, or do it all together. It's up to you.
 
 ## Coursework In Perspective
 

@@ -10,7 +10,7 @@ import Feedback from "@theme/Feedback";
 
 ## Learning Objectives
 
-Learning objectives for this lesson can be found [here](./learning-objectives.md)
+Find the Week 1 [learning objectives](./learning-objectives.md) on this separate page.
 
 ---
 
@@ -28,7 +28,7 @@ Welcome to Fundamentals! In this course we will explore the fundamentals of soft
 
 Code.org is a block based programming tool. We will use something similar to build our course project. Let's look at Code.org together now and work through the first two exercises. A mentor will share their screen.
 
-:::note Exercise (15 minutes)
+:::note Exercise (20 minutes)
 Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lessons/2/levels/1)
 
 - Look at the interface together
@@ -45,13 +45,12 @@ Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lesso
 - [ ] break down problems
 - [ ] sequence logical solutions with blocks
 - [ ] navigate the Blocks interface
-- [ ] copy paste Blocks code as JavaScript
 
 For the majority of this course, we will use a custom CYF application called CYF Blocks. It uses the same visual programming editor, [Block.ly](https://developers.google.com/blockly/reference/overview), as Code.org, but you will use it to create JavaScript for real websites you can show others.
 
 Let's all look through the interface together now, and do one exercise as a group.
 
-:::note Exercise (15 minutes)
+:::note Exercise (20 minutes)
 
 - Look at the interface together
 - Everybody open the interface on their own computer as well, please
@@ -102,7 +101,9 @@ We can discover requirements with something called 'User Stories'. The simplest 
 
 > As a [type of user], I can [achieve some goal].
 
-> 🔑 A **user story** is a short sentence stating some goal a user can expect to achieve when using the product we are implementing.
+:::tip 🔑 Key term
+A **user story** is a short sentence stating some goal a user can expect to achieve when using the product we are implementing.
+:::
 
 #### Imagine a coursework tracker
 
@@ -143,16 +144,6 @@ Why do you think thinking about user stories may be useful?
 
 What's useful about thinking about the "who" and the "why"? What could go wrong if you don't think about them?
 :::
-
-## CYF Blocks (30 minutes)
-
-### Objectives
-
-- [ ] ...
-- [ ] ...
-- [ ] ...
-
-Introduce CYF Blocks and play around with the interface.
 
 ## Ship It
 
