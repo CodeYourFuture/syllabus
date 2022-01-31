@@ -4,6 +4,11 @@ title: Accounts and Tools
 sidebar_label: Accounts
 ---
 
+:::tip
+You must prepare for class by completing all the setup on this page.
+**Come to class prepared.**
+:::
+
 ## Professional Accounts (2 hours)
 
 Download and install the following software or register for the apps.
@@ -62,7 +67,13 @@ Google Classroom is where you will find all of your coursework assignments. You 
 
 ### Miro
 
-Miro is an online whiteboard we use to share ideas. Register an account now.
+Miro is an online whiteboard we sometimes use to share ideas. Register an account now.
+
+- <input type="checkbox" checked/> I have signed up for Miro.
+
+### Figma
+
+Figma also has an online whiteboard we use to share ideas. Register an account now.
 
 - <input type="checkbox" checked/> I have signed up for Miro.
 

@@ -4,6 +4,10 @@ title: Preparation
 sidebar_label: Preparation
 ---
 
+:::tip
+You must prepare for class by creating all the accounts on the [accounts and tools](./accounts-and-tools) page. **Come to class prepared.**
+:::
+
 # Before the course begins
 
 You can do so much to improve your chances of success with Code Your Future and you can start right now. Before the course begins, work through these resources to get yourself prepared, powerful, and ready to work. You can do this.
@@ -33,3 +37,7 @@ People in tech work with logic, so how do people improve their logical reasoning
 During Fundamentals, we will be building a website with a block-based programming tool called CYF Blocks. The underlying code uses HTML, CSS, and JavaScript. Prepare yourself now with this free crash course, to refresh and consolidate your learning from Intro to Digital.
 
 **&rarr; [HTML CSS Crash Course](https://scrimba.com/learn/htmlcss)**
+
+:::tip
+You must prepare for class by creating all the accounts on the [accounts and tools](./accounts-and-tools) page. **Come to class prepared.**
+:::
