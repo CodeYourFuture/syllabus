@@ -109,33 +109,6 @@ Why do you think thinking about user stories may be useful?
 What's useful about thinking about the "who" and the "why"? What could go wrong if you don't think about them?
 :::
 
-## MVP
-
-:::info Exercise: Favourite App (10 minutes)
-
-Split into groups and think about one of your favourite phone apps. Agree on one you all know. Come up with as many user stories as you can for it. You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/)
-:::
-
-## Prioritisation and the MVP
-
-Come back into the main room, Now we have our long list of user stories, how do we decide what to do first? Where do we start? As always with software development, we start with the simplest thing possible. Let’s define the **MVP**.
-
-### Minimum Viable Product
-
-What's the _minimum_ set of user stories we could implement for this product to be useful? Another way to say this is: **"What is the minimum viable product?**
-
-:::info Exercise: Prioritise! (10m)
-
-1. Swap your [Jamboard](https://jamboard.google.com/) with another group.
-2. Now go back into breakout rooms, with another group’s Jamboard of user stories
-3. Set a timer for 10 minutes
-4. Choose the stories that make up the MVP for that app
-5. Are there any missing? Note them down
-
-:::
-
-Now come back into the main room.
-
 ## CYF Blocks (30 minutes)
 
 ### Objectives

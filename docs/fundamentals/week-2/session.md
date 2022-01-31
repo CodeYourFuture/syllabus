@@ -59,6 +59,18 @@ What did people think about this game? Let’s go around and each group share **
 
 ## MVP
 
+### Defining the minimum viable product
+
+What's the _minimum_ set of user stories we could implement for this product to be useful? Another way to say this is: **"What is the minimum viable product?**
+
+:::info Exercise: Prioritise! (10m)
+
+1. Swap your [Jamboard](https://jamboard.google.com/) with another group.
+2. Now go back into breakout rooms, with another group’s Jamboard of user stories
+3. Set a timer for 10 minutes
+4. Choose the stories that make up the MVP for that app
+5. Are there any missing? Note them down
+
 ## Capgemini
 
 ## Iterating

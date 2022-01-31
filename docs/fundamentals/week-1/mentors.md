@@ -24,9 +24,9 @@ Here's a rough schedule, which you can adapt to suit your cohort. You should als
 
 ### Afternoon
 
-|   13:00   |    13:30     |    14:00     | 14:30 |   15:00    |  15:30  | 16:00   | 16:30 |
-| :-------: | :----------: | :----------: | :---: | :--------: | :-----: | ------- | ----- |
-| Telephone | User Stories | User Stories |  MVP  | CYF Blocks | Ship It | Ship It | Retro |
+|   13:00   |    13:30     |    14:00     |   14:30    |   15:00    |  15:30  | 16:00   | 16:30 |
+| :-------: | :----------: | :----------: | :--------: | :--------: | :-----: | ------- | ----- |
+| Telephone | User Stories | User Stories | CYF Blocks | CYF Blocks | Ship It | Ship It | Retro |
 
 ## Code.org
 
