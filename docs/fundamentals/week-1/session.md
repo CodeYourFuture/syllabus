@@ -69,6 +69,8 @@ We can discover requirements with something called 'User Stories'. The simplest 
 
 > As a [type of user], I can [achieve some goal].
 
+> 🔑 A **user story** is a short sentence stating some goal a user can expect to achieve when using the product we are implementing.
+
 #### Imagine a coursework tracker
 
 As trainees, you have coursework to do. Imagine a website which tracks how coursework is going for you all. Thinking about that website, some user stories could be:
