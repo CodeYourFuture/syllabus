@@ -26,12 +26,45 @@ Welcome to Fundamentals! In this course we will explore the fundamentals of soft
 
 ## Code.org
 
+Code.org is a block based programming tool. We will use something similar to build our course project. Let's look at Code.org together now and work through the first two exercises. A mentor will share their screen.
+
+:::note Exercise (15 minutes)
+Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lessons/2/levels/1)
+
+- Look at the interface together
+- Everybody open the interface on their own computer as well, please
+- Complete the first exercise
+- Complete the second exercise
+
+:::
+
+## CYF Blocks
+
+### Objectives
+
+- [ ] break down problems
+- [ ] sequence logical solutions with blocks
+- [ ] navigate the Blocks interface
+- [ ] copy paste Blocks code as JavaScript
+
+For the majority of this course, we will use a custom CYF application called CYF Blocks. It uses the same visual programming editor, [Block.ly](https://developers.google.com/blockly/reference/overview), as Code.org, but you will use it to create JavaScript for real websites you can show others.
+
+Let's all look through the interface together now, and do one exercise as a group.
+
+:::note Exercise (15 minutes)
+
+- Look at the interface together
+- Everybody open the interface on their own computer as well, please
+- Complete the first exercise
+
+:::
+
 ## Telephone
 
-:::info Exercise (15 minutes)
+:::note Exercise (15 minutes)
 In groups of no more than 5, we’re going to play a game of telephone.
 
-[Telephone](https://garticphone.com/)
+**&rarr; [Telephone](https://garticphone.com/)**s
 :::
 
 ## Requirements
@@ -63,7 +96,7 @@ We're going to think about a few projects and discover some requirements. This i
 To make great software, we need to think about people, not just code.
 :::
 
-## User Stories 60 minutes
+## User Stories
 
 We can discover requirements with something called 'User Stories'. The simplest user story looks like this:
 
@@ -128,8 +161,6 @@ Introduce CYF Blocks and play around with the interface.
 - [ ] Export your Codepen to zip
 - [ ] Upload your folder to Github
 - [ ] Deploy your folder to Netlify
-
-### Exercise (60 minutes)
 
 The last thing we will do today is ship some code, because you we expect you to ship very often at CYF.
 
