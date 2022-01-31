@@ -8,15 +8,17 @@ sidebar_label: Learning Objectives
 
 ## Code.org
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] navigate the Code.org interface
+- [ ] sequence logical solutions with blocks
+- [ ] control flow with if statements
+
+A full set of learning objectives are available on the [Lesson Plan](https://code.org/curriculum/course3/2/Teacher) on the teacher view for this course on Code.org.
 
 ## CYF Blocks
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] navigate the Blocks interface
+- [ ] break down problems
+- [ ] sequence logical solutions with blocks
 
 ## Requirements
 
