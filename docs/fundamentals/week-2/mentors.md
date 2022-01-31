@@ -86,6 +86,10 @@ It’s a good reflection on blockers and planning.
 
 ## Coursework review
 
+:::tip Vocabulary
+Many of the words we use will either be completely new to trainees or used in a new way. Make space in each day to define terms, and model ways to find out terms (look stuff up together)
+:::
+
 ## Shout Out Questions
 
 It's important to get the students thinking about questions that they had during the week. To avoid getting distracted with answering a question for too long, run a short session where you write down all the questions on a whiteboard.
