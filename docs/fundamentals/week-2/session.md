@@ -59,7 +59,14 @@ What did people think about this game? Let’s go around and each group share **
 
 ## MVP
 
-### Defining the minimum viable product
+:::info Exercise: Favourite App (10 minutes)
+
+Split into groups and think about one of your favourite phone apps. Agree on one you all know. Come up with as many user stories as you can for it. You must come up with at least 10, but try for more. Set a timer for 10 minutes and write them on a new [Jamboard](https://jamboard.google.com/)
+:::
+
+### Defining the Minimum Viable Product
+
+Come back into the main room, now we have a long list of user stories, how do we decide what to do first? Where do we start? As always with software development, we start with the simplest thing possible. Let’s define the **MVP**.
 
 What's the _minimum_ set of user stories we could implement for this product to be useful? Another way to say this is: **"What is the minimum viable product?**
 
@@ -72,6 +79,8 @@ What's the _minimum_ set of user stories we could implement for this product to 
 5. Are there any missing? Note them down
 
 :::
+
+Now come back into the main room.
 
 ## Capgemini
 
