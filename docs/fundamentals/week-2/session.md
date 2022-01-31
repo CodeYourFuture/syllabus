@@ -71,6 +71,8 @@ What's the _minimum_ set of user stories we could implement for this product to 
 4. Choose the stories that make up the MVP for that app
 5. Are there any missing? Note them down
 
+:::
+
 ## Capgemini
 
 ## Iterating
