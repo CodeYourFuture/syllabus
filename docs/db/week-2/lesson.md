@@ -293,7 +293,12 @@ const pool = new Pool({
 
 app.get("/hotels", function(req, res) {
     pool.query('SELECT * FROM hotels', (error, result) => {
-        res.json(result.rows);
+        if (error) {
+            console.error(error);
+            res.status(500).json(error);
+        } else {
+            res.json(result.rows);
+        }
     });
 });
 ```
