@@ -256,20 +256,20 @@ Let's build a brand new NodeJS application with a single GET endpoint to load th
 
 First, create a new NodeJS application that we will call **cyf-hotels-api** (enter `server.js` when asking about the entry point):
 
-```
+```bash
 mkdir cyf-hotels-api && cd cyf-hotels-api && npm init
 ```
 
 As before, we will use the Express library to build our API, and the node-postgres library to connect with our database:
 
-```
+```bash
 npm install --save express
 npm install --save pg
 ```
 
 Create a `server.js` file, import express, initialise the server and start listening for requests:
 
-```
+```js
 const express = require("express");
 const app = express();
 
@@ -280,7 +280,7 @@ app.listen(3000, function() {
 
 Import pg library and create a new GET endpoint to load the list of hotels:
 
-```
+```js
 const { Pool } = require('pg');
 
 const pool = new Pool({
@@ -313,7 +313,7 @@ In the example above the second argument to `pool.query` is a _callback function
 
 There is another way of sending queries using _promises_. This is very similar to how the `fetch` API works in the browser. If we don't specify a second argument to `pool.query`, it will return a promise, and the request handler above will look like:
 
-```
+```js
 app.get("/hotels", function(req, res) {
     pool.query('SELECT * FROM hotels')
         .then((result) => res.json(result.rows))
