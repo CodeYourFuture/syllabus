@@ -309,6 +309,20 @@ In the code above:
 - We create a new pool where we specify the credentials to connect to the cyf_hotels database
 - We then create a new /hotels endpoint where we use the method `query()` to send a SQL query to load all the hotels from the table `hotels` and return the results with `result.rows`. You can write any valid SQL query that you learned in the `query()` method!
 
+In the example above the second argument to `pool.query` is a _callback function_. This callback function is called by `pool.query` as soon as the database server returns the result.
+
+There is another way of sending queries using _promises_. This is very similar to how the `fetch` API works in the browser. If we don't specify a second argument to `pool.query`, it will return a promise, and the request handler above will look like:
+
+```
+app.get("/hotels", function(req, res) {
+    pool.query('SELECT * FROM hotels')
+        .then((result) => res.json(result.rows))
+        .catch((error) => {
+            console.error(error);
+            res.status(500).json(error);
+        });
+```
+
 Start your server with `node server.js` and try to reach the `/hotels` endpoint to see the list of hotels currently available in your `hotels` table of your `cyf_hotels` database. You can try to create/update/delete hotels to verify that your API always returns what is stored in your database.
 
 ## Coursework
