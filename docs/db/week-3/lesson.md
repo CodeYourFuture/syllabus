@@ -293,15 +293,8 @@ app.delete("/customers/:customerId", function (req, res) {
 
   pool
     .query("DELETE FROM bookings WHERE customer_id=$1", [customerId])
-    .then(() => {
-      pool
-        .query("DELETE FROM customers WHERE id=$1", [customerId])
-        .then(() => res.send(`Customer ${customerId} deleted!`))
-        .catch((error) => {
-          console.error(error);
-          res.status(500).json(error);
-        });
-    })
+    .then(() => pool.query("DELETE FROM customers WHERE id=$1", [customerId]))
+    .then(() => res.send(`Customer ${customerId} deleted!`))
     .catch((error) => {
       console.error(error);
       res.status(500).json(error);
