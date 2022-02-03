@@ -4,6 +4,67 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-02-02
+
+### Present
+
+Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth Zeddie Lawal
+
+### Minutes
+
+- Meeting Elizabeth
+  - New Head of PD & WM Lead
+  - Starting in March
+  - Vision
+    - 360 PD
+    - Local PD framework that can be implemented on a global level
+  - 3 month plan outline
+    - PD Content creation/consolidation
+      - Develop bank of resources
+      - Aim to mirror some of the writing style of Edu syllabus
+      - Experiment & verify in WM
+    - Look at PD structure
+      - Content, Employability, Pastoral
+    - Looking at how to showcase employability skills
+      - How can we showcase our trainees
+      - What are employers looking for and how can we embed that into trainees
+      - Can we support employers to changing hiring practices (e.g. with DEI initiatives)
+    - Understanding trainees with data
+  - Wanting to be a fly on the wall - learn from syllabus team
+  - Discussed how we want to work together more
+    - It's hard to split topics across PD/Tech Edu
+    - Tech Edu don't know what the PD syllabus is!
+- Scotland trip
+  - To coincide with GLA demo day: 26th - 27th Feb
+  - Daniel is moving, but happy for us to go ahead without us
+  - Mitch was a yes (I think)
+  - Sally is going anyway
+  - Let's set some goals in the week & get GLA folks involved
+- Fundamentals training for Cape Town
+  - Lana was worried - messaging Greg & Sally
+  - We could talk to them and walk them through it
+    - Give specific guidance & support
+  - Sally thinks they're not starting for a couple of months
+    - Hope to start on 5th March
+  - Sally has proposed metrics for classes
+    - So we don't overstretch ourselves
+    - Sally has talked to some schools about reaching targets before starting new class
+      - But it's ultimately up to the volunteers
+    - Oridinarily Cape Town would start new fundamentals first
+  - Try to capture some notes - that we could use as a basis for committed volunteer notes
+- Supporting schools with employment
+  - Cape Town have access to Barny
+  - Sally gave advice to keep working on projects etc
+  - Ali's direct experience: grads don't have lots of useful stuff on their Github
+    - [Graduate module](https://module-graduates.codeyourfuture.io/) is supposed to help with this
+      - But who's responsibility is this?
+      - Idea for improvement: after working on a group project, make sure they fork it onto their account, so that it shows up in the list of repos
+  - Some grads need further work before they're employable
+- WM update
+  - Have now broken the contract
+  - Not following their "crazy terms"
+  - Accepting ~100 trainees
+
 ## 2022-01-19
 
 ### Present
@@ -109,12 +170,12 @@ Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia 
 
 ### Action items
 
-* Sanyia: Make minor edits to Node week 3 PR and merge.
-* Daniel Wagner-Hall: Follow up with Greg about variables Blockly question.
-* Greg: Triage Blockly issues into must/nice/wishlist, and claim ones that Greg should probably be the person to do.
-* Daniel Grant: Share EdinburghJS link in channel.
-* Daniel Grant: Make sure learning lab stuff gets deployed (via Pedro).
-* Sally: Organise a call for everyone to fill out Fundamentals GitHub repo over the next few weeks.
+- Sanyia: Make minor edits to Node week 3 PR and merge.
+- Daniel Wagner-Hall: Follow up with Greg about variables Blockly question.
+- Greg: Triage Blockly issues into must/nice/wishlist, and claim ones that Greg should probably be the person to do.
+- Daniel Grant: Share EdinburghJS link in channel.
+- Daniel Grant: Make sure learning lab stuff gets deployed (via Pedro).
+- Sally: Organise a call for everyone to fill out Fundamentals GitHub repo over the next few weeks.
 
 ## 05/01/21
 
