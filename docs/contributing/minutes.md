@@ -62,7 +62,7 @@ Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth 
   - Some grads need further work before they're employable
 - WM update
   - Have now broken the contract
-  - Not following their "crazy terms"
+  - 
   - Accepting ~100 trainees
 
 ## 2022-01-19
