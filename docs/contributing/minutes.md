@@ -61,7 +61,7 @@ Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth 
       - Idea for improvement: after working on a group project, make sure they fork it onto their account, so that it shows up in the list of repos
   - Some grads need further work before they're employable
 - WM update
-  - Have now broken the contract
+  - Have now accepted the contract
   - 
   - Accepting ~100 trainees
 
