@@ -194,13 +194,14 @@ Another functionality which could be useful is to filter the hotel with a keywor
 app.get("/hotels", function (req, res) {
   const hotelNameQuery = req.query.name;
   let query = `SELECT * FROM hotels ORDER BY name`;
-
+  let params = [];
   if (hotelNameQuery) {
-    query = `SELECT * FROM hotels WHERE name LIKE '%${hotelNameQuery}%' ORDER BY name`;
+      query = `SELECT * FROM hotels WHERE name LIKE $1 ORDER BY name`;
+      params.push(`%${hotelNameQuery}%`);
   }
-
+  
   pool
-    .query(query)
+    .query(query, params)
     .then((result) => res.json(result.rows))
     .catch((error) => {
       console.error(error);
