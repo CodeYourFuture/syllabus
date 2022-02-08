@@ -74,9 +74,13 @@ _Led by trainees_
 
 Project Management boards are a tool that you can use to help you organise how you work.
 
-Create a copy of this Project Board to manage your work - [Project Board](https://trello.com/b/wkQd3R5r/team-name-backlog)
+Create a copy of this Project Board to manage your work - [Project Board](https://github.com/orgs/CodeYourFuture/projects/13)
 
-After you've copied it have a quick look through and ask questions about anything that's unfamiliar - your PMs and TAs will be able to explain concepts like Backlogs and User Stories
+After you've copied it have a quick look through and ask questions about anything that's unfamiliar - your PMs and TAs will be able to explain concepts like Backlogs and User Stories. 
+
+You will create your User Stories as [Issues on Github](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) and add them to your project board on Github. [Link your repo](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/linking-a-repository-to-a-project-board) to your project board so you can do this easily. 
+
+Your contributions will be evaluated during Final Projects, so it's important you show your work.
 
 ### 2.4. Daily Stand-ups (5 minutes)
 
