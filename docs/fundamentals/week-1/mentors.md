@@ -50,7 +50,7 @@ Of course everyone misses some things, but we know from experience that people w
 
 ## Telephone
 
-Play the default game! You don’t need to explain what to do, people will figure it out. You might try playing it between the mentors before the session. It’s a fun icebreaker. Limit the groups to 5 or else the game takes too long. It takes **10 minutes** to play with **5 people**.
+Play the default game! You don’t need to explain what to do, people will figure it out. You might try playing it between the mentors in your planning calls It’s a fun icebreaker. Limit the groups to 5 or else the game takes too long. It takes **10 minutes** to play with **5 people**.
 
 Now come back into the main room and lead a reflection.
 
@@ -85,7 +85,7 @@ On top of that, in CYF Blocks we learn to
 Trainees will work on CYF Blocks themselves through the week, so to start just get everyone introduced to the interface. There is no signup required.
 
 :::danger Warning
-CYF Blocks currently only uses local storage. Make sure trainees know this, and explain that if they open it in a new browser or on a new computer, their work will not be there.
+CYF Blocks currently (12/02/22) only uses local storage. Make sure trainees know this, and explain that if they open it in a new browser or on a new computer, their work will not be there. They should use the share button to save out states.
 :::
 
 ## Ship It
@@ -94,7 +94,7 @@ A version of this session has been run many times at CYF so please ask others fo
 
 We will ask trainees to ship frequently at CYF.
 
-1. We only evaluate what people have shipped. Shipped software is the only completed form of software. And that's what counts.
+1. We only evaluate what people have shipped. Shipped software is the only completed form of software. _And that's what counts._
 2. A shipped piece of software is a tangible product. Real, deployed sites are valuable to trainees beyond this course. They can use them to build their portfolio.
 3. Finishing things is so hard. You must learn how to do it and practice it constantly to be successful.
 

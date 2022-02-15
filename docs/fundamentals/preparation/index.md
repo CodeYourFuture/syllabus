@@ -16,11 +16,11 @@ You can do so much to improve your chances of success with Code Your Future and 
 
 You may have done Fundamentals 1 on Grasshopper, but what other courses can you unlock? The _Using a Code Editor_ course \_\_could be handy for Prep 2.
 
-**[Work through Grasshopper](https://learn.grasshopper.app/)** - this will make it easier to grasp the fundamentals.
+**[Work through Grasshopper](https://learn.grasshopper.app/)** for about fifteen minutes, three times a week. This will make it easier to grasp the fundamentals.
 
 ### Prep 2 : Developer Tools
 
-Download [VSCode](https://code.visualstudio.com/download) and practice using a real developer environment. You don't need to write any code in your new IDE. Just find out where the buttons are and what some of them do.
+Download [VSCode](https://code.visualstudio.com/download) and practice using a real developer environment. You don't need to write any code in your new IDE. Just find out where the buttons are and what some of them do. This [tutorial from Codeacademy](https://www.codecademy.com/article/visual-studio-code) will help you.
 
 :::note Exercise
 Stretch goal: can you write and save a [markdown document ](https://www.markdowntutorial.com/)in VSCode?
