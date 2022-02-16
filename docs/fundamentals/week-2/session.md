@@ -90,6 +90,22 @@ Now come back into the main room.
 
 ## Iterating
 
+### Pairing
+
+Two volunteers will spend 10 minutes demonstrating pair programming, so please agree a CYF Blocks exercise to demo with and both have the page ready. Say not much more than:
+
+> "We are going to pair programme. I will drive, which means I will type the code, and NAME will navigate, which means they will tell me what to do."
+
+Nominate a trainee to set a timer for five minutes. Driver, share your screen. Navigator, talk clearly and simply through one improvement. Go much more slowly than feels reasonable. Only make one change. Then switch and make one more change.
+
+This is very likely to be the first time they have ever paired on a programming problem. Here are some tips on running a good pairing session:
+
+- Assign a volunteer to call out to switch navigator and driver roles every 10 minutes loosely
+- Make sure the students actually switch!
+- Monitor closely to check that one side isn't dominating
+- Don't run the session too long - it is stressful for some
+- Switch partners at least once
+
 ## CYF Blocks
 
 ## Ship It
