@@ -80,18 +80,19 @@ It’s a good reflection on blockers and planning.
 
 ### Pairing
 
-It's good to code with a friend. You learn SO much. Programmers call this pair programming and many professional teams program in pairs for a part of each day. Mentors will demonstrate pairing now!
+Two volunteers will spend 10 minutes demonstrating pair programming, so please agree a CYF Blocks exercise to demo with and both have the page ready. Say not much more than:
 
-:::tip exercise Pairing
+> "We are going to pair programme. I will drive, which means I will type the code, and NAME will navigate, which means they will tell me what to do."
 
-In pairs, iteratively develop a solution to the CYF Blocks problem you are given.
+Nominate a trainee to set a timer for five minutes. Driver, share your screen. Navigator, talk clearly and simply through one improvement. Go much more slowly than feels reasonable. Only make one change. Then switch and make one more change.
 
-- Switch between driver and navigator roles every 10 minutes
-- The "driver" is the person typing on the keyboard, just thinking about what needs to be written
-- The "navigator" reviews what the driver is doing and is thinking about to write next
-- Don't dominate - this is teamwork
+This is very likely to be the first time they have ever paired on a programming problem. Here are some tips on running a good pairing session:
 
-:::
+- Assign a volunteer to call out to switch navigator and driver roles every 10 minutes loosely
+- Make sure the students actually switch!
+- Monitor closely to check that one side isn't dominating
+- Don't run the session too long - it is stressful for some
+- Switch partners at least once
 
 ## CYF Blocks
 
