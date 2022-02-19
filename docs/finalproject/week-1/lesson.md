@@ -162,7 +162,7 @@ Go stretch your legs or grab a snack!
 
 _Facilitated by Product Managers_
 
-In this project we will be working in `Sprints`. You can plan your first sprint using the your copy of the [Project Board](https://trello.com/b/wkQd3R5r/team-name-project-board)
+In this project we will be working in `Sprints`. You can plan your first sprint using the your copy of the [Project Board](https://github.com/orgs/CodeYourFuture/projects/13)
 
 A Sprint is a unit of time (normally a week or two weeks) where teams believe they can deliver by the end of the time given to them. For Final Projects you will be mostly working in one week Sprints.
 
