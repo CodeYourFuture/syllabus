@@ -4,6 +4,29 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-02-16
+
+Attendees: Ali, Greg, Sally, Daniel
+
+- Fundamentals
+  - What is left to do
+    - Guidance
+    - Copy across pair programming exercise from original fundamentals
+      - [Link](https://fundamentals.codeyourfuture.io/lessons/lesson-2#paired-programming)
+      - Where to fit it? Week 2
+      - ACTION: Greg to figure out what needs to get done in blockly
+  - Blockly
+    - Now hosted [here](https://blocks.codeyourfuture.io/)
+    - Needs a quick intro in the syllabus
+    - React-ifying
+      - Ali made a start on a Blockly-React integration
+      - But the next bit of work is probably to work on tabs etc
+  - Looks like first fundamentals will be in April (probably)
+- What are we doing in Edinburgh?
+  - Fill in missing gaps for fundamentals
+  - Hackathon on Blockly
+  - Priorities for Syllabus
+
 ## 2022-02-02
 
 ### Present
@@ -62,7 +85,7 @@ Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth 
   - Some grads need further work before they're employable
 - WM update
   - Have now accepted the contract
-  - 
+  -
   - Accepting ~100 trainees
 
 ## 2022-01-19
