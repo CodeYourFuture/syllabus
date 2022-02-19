@@ -166,9 +166,9 @@ In this project we will be working in `Sprints`. You can plan your first sprint 
 
 A Sprint is a unit of time (normally a week or two weeks) where teams believe they can deliver by the end of the time given to them. For Final Projects you will be mostly working in one week Sprints.
 
-```txt
+:::tip
 Work with your product manager to begin to split the work into tasks that each person in the team can work on. These tasks should be as small as possible.
-```
+:::
 
 After you've completed the task you should decide what you’re each going to be doing during the following week and what you want to have completed.
 
