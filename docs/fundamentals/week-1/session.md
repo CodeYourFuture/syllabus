@@ -107,7 +107,7 @@ As trainees, you have coursework to do. Imagine a website which tracks how cours
 
 These each take the form "As _[who]_, I can _[what]_". They don't say _why_ yet.
 
-:::info Exercise (10 minutes)
+:::note Exercise (10 minutes)
 In groups of about 5.
 
 1. Talk about why the "who" is useful. What would we be missing if we didn't think about the "Who"?
@@ -119,7 +119,7 @@ In groups of about 5.
 
 > As a _[who]_, I can _[what]_ so that _[why]_
 
-:::info Exercise (10 minutes)
+:::note Exercise (10 minutes)
 Write some user stories for our coursework tracker on a [Jamboard](https://jamboard.google.com/).
 
 Think about the "who", "what", and "why" for each.
@@ -129,7 +129,7 @@ You can think of new "who"s (e.g. the people who write the coursework questions)
 
 ### Reflecting
 
-:::info Reflection (10 mins)
+:::note Exercise: Reflection (10 mins)
 
 Why do you think thinking about user stories may be useful?
 
@@ -142,8 +142,8 @@ The last thing we will do today is ship some code, because we expect you to ship
 
 You don’t have your shop project yet, so let’s ship your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
-:::info Exercise
-You’ll export your page to a folder on your computer, upload it to Github, and deploy it to Netlify.
+:::tip
+It's important that software _works_ and that we can _use_ it!
 :::
 
 #### You will need:
@@ -151,6 +151,10 @@ You’ll export your page to a folder on your computer, upload it to Github, and
 - Your personal home page on Codepen
 - An account with Github and to be logged in
 - An account with Netlify, so [sign up now](https://app.netlify.com/signup) using the “Sign up with Github” option
+
+:::note Exercise
+You’ll export your page to a folder on your computer, upload it to Github, and deploy it to Netlify.
+:::
 
 ### Step by step
 
