@@ -24,6 +24,8 @@ Welcome to Fundamentals! In this course we will explore the fundamentals of soft
 
 **Delivery** - in week three we will explore delivery. Delivery is the catch-all term for shipping your code, or putting it in online, in a public place where real people can use it. This ability is key to being a successful professional developer.
 
+---
+
 ## Code.org
 
 Code.org is a block based programming tool. We will use something similar to build our course project. Let's look at Code.org together now and work through the first two exercises. A mentor will share their screen.
@@ -31,20 +33,14 @@ Code.org is a block based programming tool. We will use something similar to bui
 :::note Exercise (20 minutes)
 Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lessons/2/levels/1)
 
-- Look at the interface together
-- Everybody open the interface on their own computer as well, please
-- Complete the first exercise
-- Complete the second exercise
+1. Look at the interface together
+2. Everybody open the interface on their own computer as well, please
+3. Complete the first exercise
+4. Complete the second exercise
 
 :::
 
-## CYF Blocks
-
-### Objectives
-
-- [ ] break down problems
-- [ ] sequence logical solutions with blocks
-- [ ] navigate the Blocks interface
+## Iteration: CYF Blocks
 
 For the majority of this course, we will use a custom CYF application called CYF Blocks. It uses the same visual programming editor, [Block.ly](https://developers.google.com/blockly/reference/overview), as Code.org, but you will use it to create JavaScript for real websites you can show others.
 
@@ -58,28 +54,23 @@ Let's all look through the interface together now, and do one exercise as a grou
 
 :::
 
+---
+
+# Requirements
+
 ## Telephone
 
 :::note Exercise (15 minutes)
 In groups of no more than 5, we’re going to play a game of telephone.
 
-**&rarr; [Telephone](https://garticphone.com/)**s
+**&rarr; [Telephone](https://garticphone.com/)**
 :::
 
-## Requirements
+**Communication is hard.** Today, let’s explore some ways we communicate with each other in software development. It’s not enough to draw a picture of a website and assume the other person will build what you imagine. It’s never a good idea to assume shared context or shared interpretations.
 
-Communication is hard! Today, let’s explore some ways we communicate with each other in software development. It’s not enough to draw a picture of a website and assume the other person will build what you imagine. It’s never a good idea to assume shared context or shared interpretations.
-
-So how do we understand what to do? By understanding requirements.
+So how do we understand what to do? By understanding _requirements_.
 
 ## Formalising Requirements
-
-### Learning objectives
-
-- [ ] Take a description of a problem and identify described requirements.
-- [ ] Identify extra requirements from your own experience.
-- [ ] Resolve trade-offs in conflicting requirements.
-- [ ] Translate requirements into high-level design outlines.
 
 Today we're going to think about requirements. We're going to ask these questions:
 
@@ -147,15 +138,9 @@ What's useful about thinking about the "who" and the "why"? What could go wrong 
 
 ## Ship It
 
-### Objectives
+The last thing we will do today is ship some code, because we expect you to ship very often at CYF.
 
-- [ ] Export your Codepen to zip
-- [ ] Upload your folder to Github
-- [ ] Deploy your folder to Netlify
-
-The last thing we will do today is ship some code, because you we expect you to ship very often at CYF.
-
-You don’t have your shop project yet, so let’s ship your personal home page. In ITD you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website! When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
+You don’t have your shop project yet, so let’s ship your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
 :::info Exercise
 You’ll export your page to a folder on your computer, upload it to Github, and deploy it to Netlify.
@@ -194,6 +179,8 @@ Follow the instructions in the workshop to change the site name to YOUR_GITHUB_N
 :::
 
 ## Retro
+
+A mentor will briefly explain what a retro is and then we will do a short retro together using Figma. Set a timer for 15 minutes.
 
 ## Coursework
 
