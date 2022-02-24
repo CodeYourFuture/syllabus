@@ -59,7 +59,7 @@ Evolve the game each time you play to guide the players to insights:
 
 ### Leader example reflection:
 
-::: info
+:::info Example reflection
 This game interests me because to be successful you have to identify the blockers, which is something we all need to get better at. In this game, the blocker is often not the immediately obvious car ‘in the way’. To find it you might have to trace backwards around the board, thinking: to move this one I need to move that one, to move that one, I need to move this next one… And then you need to explain that to your team!
 
 It’s a good reflection on blockers and planning.
@@ -71,12 +71,6 @@ It’s a good reflection on blockers and planning.
 - Physical version of this game: https://www.thinkfun.com/products/rush-hour/
 
 ---
-
-## MVP
-
-## Capgemini
-
-## Iterating
 
 ### Pairing
 
@@ -94,21 +88,19 @@ This is very likely to be the first time they have ever paired on a programming 
 - Don't run the session too long - it is stressful for some
 - Switch partners at least once
 
-## CYF Blocks
-
-## Ship It
-
-## Retro
-
 ## Coursework review
 
 :::tip Vocabulary
 Many of the words we use will either be completely new to trainees or used in a new way. Make space in each day to define terms, and model ways to find out terms (look stuff up together)
 :::
 
-## Shout Out Questions
+## Blockers/Coursework Review
 
-It's important to get the students thinking about questions that they had during the week. To avoid getting distracted with answering a question for too long, run a short session where you write down all the questions on a whiteboard.
+We open every session at CYF with a coursework review, where trainees identify their blockers and ask for help getting unstuck.
+
+It's important for trainees to think about questions that they had during the week. To avoid getting distracted with answering a question for too long, run a short session where you write down all the questions on a whiteboard. You can do this on a Jam board or on a white board.
+
+Make sure trainees just write one short thing on each sticky note.
 
 You can then prioritise answering the questions on your own time, or split into groups to answer several questions at once.
 

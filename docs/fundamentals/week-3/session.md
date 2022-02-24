@@ -1,24 +1,14 @@
 ---
 id: session
-title: Fundamentals 3
+title: Delivery
 sidebar_label: Session
 ---
 
 import Feedback from "@theme/Feedback";
 
----
+Welcome to week three. In week three we will explore delivery. Delivery is the catch-all term for shipping your code, or putting it in online, in a public place where real people can use it. This ability is key to being a successful professional developer.
 
-## Learning Objectives
-
-Learning objectives for this lesson can be found [here](./learning-objectives.md)
-
----
-
-## Welcome!
-
-Welcome to week three! In week three we will explore delivery. Delivery is the catch-all term for shipping your code, or putting it in online, in a public place where real people can use it. This ability is key to being a successful professional developer.
-
----
+#### &rarr; [Learning objectives](./learning-objectives.md)
 
 ## Telephone
 
@@ -39,7 +29,9 @@ Now let's talk through our blockers and live code together.
 
 ## Shipping it
 
-Why is shipping code important?
+:::tip
+It's important that software works and that people can _use_ it
+:::
 
 Today we will spend most of our time working together on our projects in timed bursts of 25 minutes. This is called the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), and it will help you manage your self study. On the 5 minute break, get up from your computer and move your body: stretch! This is hard work. We will develop and then ship our code repeatedly throughout the day.
 
@@ -66,7 +58,9 @@ Mentors will now lead a reflection and then we will do our last retro!
 
 ## Retro
 
-15 minute retro.
+:::note Retro 15m
+This retro will be led by the trainees
+:::
 
 ## Coursework
 

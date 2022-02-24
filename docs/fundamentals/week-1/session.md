@@ -1,20 +1,10 @@
 ---
 id: session
-title: Fundamentals 1
+title: Requirements
 sidebar_label: Session
 ---
 
 import Feedback from "@theme/Feedback";
-
----
-
-## Learning Objectives
-
-Find the Week 1 [learning objectives](./learning-objectives.md) on this separate page.
-
----
-
-## Welcome
 
 Welcome to Fundamentals! In this course we will explore the fundamentals of software development by going through this cycle: Requirements, Iteration, Delivery. Each day we will go through each stage and each week we will explore a stage in depth.
 
@@ -24,7 +14,21 @@ Welcome to Fundamentals! In this course we will explore the fundamentals of soft
 
 **Delivery** - in week three we will explore delivery. Delivery is the catch-all term for shipping your code, or putting it in online, in a public place where real people can use it. This ability is key to being a successful professional developer.
 
+#### &rarr; [Learning objectives](./learning-objectives.md) | &rarr; [Course Goals](../index.md)
+
 ---
+
+## Welcome
+
+### Trainee Agreement, Code of Conduct & House Rules
+
+While you're at Code Your Future, we expect you to follow some rules. This is so that everyone has a fun, productive and enjoyable experience.
+
+You have read through the [Trainee Agreement](https://docs.codeyourfuture.io/organisation/agreements-and-rules/student-agreement), [Code of Conduct](https://codeyourfuture.github.io/syllabus-master/CODE_OF_CONDUCT.html) and [House Rules](https://codeyourfuture.github.io/syllabus-master/others/house-rules.html) before coming to class.
+
+---
+
+#### &rarr; [Learning objectives](./learning-objectives.md)
 
 ## Code.org
 

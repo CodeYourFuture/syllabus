@@ -1,24 +1,14 @@
 ---
 id: session
-title: Fundamentals 2
+title: Iteration
 sidebar_label: Session
 ---
 
 import Feedback from "@theme/Feedback";
 
----
-
-## Learning Objectives
-
-Learning objectives for this lesson can be found [here](./learning-objectives.md)
-
----
-
-## Welcome
-
 Welcome to week two! In week two we will explore iteration. Iteration means to repeat. Developers do many small iterations to build software, each time adding or changing some small thing. This is why your phone is always updating: each new version is an iteration. If developers waited until software was perfectly ‘finished’, it would never be delivered.
 
----
+#### &rarr; [Learning objectives](./learning-objectives.md)
 
 ## Blockers! (60 minutes)
 
