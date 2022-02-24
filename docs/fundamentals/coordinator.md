@@ -14,7 +14,7 @@ The Coordinator owns the schedule of the Fundamentals Course and leads a mid wee
 
 1. Each mentor notes page has an example schedule for the week, which you can adapt to suit your cohort.
 2. You should also schedule at least one short break in the afternoon for prayers, breastfeeding, and other obligations.
-3. Parcel out the sessions between volunteers in the planning call.
+3. Parcel out the sessions between volunteers in the planning call. At CYF we teach in teams and no one person dominates the day.
 4. Once you've planned, make sure you share the schedule with all trainees and volunteers _at least 24 hours beforehand_, so they can make any necessary travel, childcare, religious, and other logistical arrangements.
 
 ## Coursework

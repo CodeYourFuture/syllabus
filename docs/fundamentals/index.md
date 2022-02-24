@@ -15,8 +15,8 @@ sidebar_label: Overview
 To understand this course, we must understand these goals:
 
 - I am part of a cohort :man_and_woman_holding_hands::skin-tone-4:
-- Start as we mean to go on :toolbox:
-- Break down problems :jigsaw:
+- Start as we mean to go on 🧰
+- Break down problems 🧩
 - Ship it! :boat:
 
 ## Goals
@@ -25,7 +25,7 @@ To understand this course, we must understand these goals:
 
 The key outcome of Fundamentals is that trainees and mentors start getting to know each other and build the sense of togetherness and mutual support that will carry us through the programme.
 
-### Start as we mean to go on :toolbox:
+### Start as we mean to go on 🧰
 
 Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no slides**, **no lectures**, **no missing coursework**, **100% attendance**.
 
@@ -33,7 +33,7 @@ This is our opportunity to coach trainees and ourselves into the "right" behavio
 
 > "Practice doesn't make perfect, practice makes permanent"
 
-### Break down problems :jigsaw:
+### Break down problems 🧩
 
 > "Prolific programmers do not write a lot of code, instead they solve a lot of problems"
 
@@ -51,7 +51,7 @@ CYF is not a great fit for everyone, and not everyone who graduates Fundamentals
 
 Each week has suggested schedules, team exercises, and challenges, but understanding these goals liberates mentors to experiment and innovate with their cohort.
 
-:man_and_woman_holding_hands::skin-tone-4::toolbox: :jigsaw::boat: talk to each other and have proven to be useful mantras for understanding what this course should be:
+:man_and_woman_holding_hands::skin-tone-4: 🧰: 🧩 :boat: talk to each other and have proven to be useful mantras for understanding what this course should be:
 
 Should we upload the result of our week 1 homework to Netlify? Yes, we should **ship it**. Yes, we should **start as we mean to go on**. Should we ask trainees to figure out how to improve on each other's week 1 homework as part of a 3 week project? Yes, because **I am part of a cohort**. Yes because we should practice **breaking down problems**. Yes because we should **start as we mean to go on**.
 

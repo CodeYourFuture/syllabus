@@ -57,6 +57,13 @@ Back in the main room.
 What did people think about this game? Let’s go around and each group share **one thing** they noticed about it.
 :::
 
+## Blockers (45 minutes)
+
+:::note Exercise: 5 mins
+
+Join the Jam board and add your blockers. Make sure to add only _one_ blocker per note.
+:::
+
 ## MVP
 
 ### Recap - user stories

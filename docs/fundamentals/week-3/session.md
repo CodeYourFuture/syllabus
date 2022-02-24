@@ -28,9 +28,14 @@ In groups of no more than 5, we’re going to play a game of telephone again.
 **&rarr; [Telephone](https://garticphone.com/)**
 :::
 
-## Coursework review (45 minutes)
+## Blockers (45 minutes)
 
-We always begin our day with live coding and group debugging using trainees' work as material. This session is an opportunity to work through common problems with coursework and also to demonstrate productive code review and debugging strategies. Use Devtools where possible and live code.
+:::note Exercise: 5 mins
+
+Join the Jam board and add your blockers. Make sure to add only _one_ blocker per note.
+:::
+
+Now let's talk through our blockers and live code together.
 
 ## Shipping it
 
@@ -42,9 +47,9 @@ How will you work together? Using the collaborative tools you have learned durin
 
 ## You are part of a cohort
 
-- together: identify your blockers
-- in small groups: define your goals as user stories
-- in pairs: iteratively improve your products
+- **together**: identify your blockers
+- **in small groups**: define your goals as user stories
+- **in pairs**: iteratively improve your products
 
 ## Wrap up
 
@@ -52,7 +57,7 @@ How will you work together? Using the collaborative tools you have learned durin
 
 We have worked together over these weeks exploring some of what it means to be a software developer. If you have [met the criteria](./graduation/criteria) you will now be invited to join the Software Development Course. Let's think together about what software developers really do.
 
-:::info Exercise: 5 mins
+:::note Exercise: 5 mins
 
 Join the Jam board and add your ideas. Make sure to add only _one_ idea per note.
 :::

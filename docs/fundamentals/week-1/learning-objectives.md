@@ -31,7 +31,7 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 
 - [ ] Participate in first retrospective
 
-## Delivery
+## Delivery/ Ship It
 
 - [ ] Export your Codepen to zip
 - [ ] Upload your folder to Github
