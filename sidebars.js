@@ -15,7 +15,7 @@ module.exports = {
   },
   Fundamentals: {
     Overview: ["fundamentals/index", "fundamentals/coordinator"],
-    "Preparation": [
+    Preparation: [
       "fundamentals/preparation/index",
       "fundamentals/preparation/accounts-and-tools",
       "fundamentals/preparation/agreements",
@@ -39,11 +39,9 @@ module.exports = {
       "fundamentals/week-3/mentors",
     ],
     Graduation: [
-      {
-        type: "link",
-        label: "Graduating Fundamentals",
-        href: "https://github.com/CodeYourFuture/HTML-CSS-Assessment",
-      },
+      "fundamentals/graduation/criteria",
+      "fundamentals/graduation/application",
+      "fundamentals/graduation/next-steps",
     ],
   },
   Git: {

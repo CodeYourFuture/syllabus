@@ -8,6 +8,14 @@ sidebar_label: Module Coordinator
 
 To participate in Fundamentals, trainees must have completed [Intro To Digital](https://codeyourfuture.io/itc/). There are no exceptions.
 
+## Cohort size
+
+A Fundamentals cohort should be no more than 40 people. If you have more than this, you need to split into more cohorts. Consider staggering your cohorts.
+
+## Setting up
+
+Trainees must complete the preparation outlined in the [Prep](../preparation) and come to class prepared. People will probably have some questions and hit some roadbumps, so being present in a class ITD Slack channel to unblock people, but don't do it for them.
+
 ## Schedule
 
 The Coordinator owns the schedule of the Fundamentals Course and leads a mid week planning call before each session.
@@ -24,3 +32,7 @@ A mentor needs to run the Google Classroom and make sure coursework is posted ac
 Each week of the course has a coursework page. Copy the pieces from there into Google Classroom and schedule them with publish and due dates.
 
 ## Graduation
+
+Graduation will happen the week after, as trainees have work to complete after the last session in order to graduate.
+
+Everyone who meets the graduation criteria may be invited to the Software Development Course. You are not obliged to invite everyone.
