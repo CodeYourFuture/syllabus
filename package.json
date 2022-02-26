@@ -38,5 +38,9 @@
   },
   "devDependencies": {
     "file-loader": "^6.0.0"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14"
   }
 }
