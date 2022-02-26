@@ -52,7 +52,7 @@ Today is all about developing and shipping code and practising working together 
 
 ## Wrap up
 
-We ask trainees to think together about what software developers really do. Share a Jamboard or FigJam and ask them to fill it with their ideas. You can put a couple of starter notes on the board yourself.
+We ask trainees to think together about what software developers really do. Share a Jamboard or FigJam and ask them to fill it with their ideas. Put a couple of starter notes on the board yourself.
 
 :::tip
 It's really common for trainees to write millions of different things on one sticky note. Keep picking them up on this and ask them to put just ONE thing on each note.

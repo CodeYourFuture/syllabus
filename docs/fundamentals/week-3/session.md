@@ -33,7 +33,9 @@ Now let's talk through our blockers and live code together.
 It's important that software works and that people can _use_ it
 :::
 
-Today we will spend most of our time working together on our projects in timed bursts of 25 minutes. This is called the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), and it will help you manage your self study. On the 5 minute break, get up from your computer and move your body: stretch! This is hard work. We will develop and then ship our code repeatedly throughout the day.
+Today we will spend most of our time working together on our projects in timed bursts of 25 minutes. This is called the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), and it will help you manage your self study. On the 5 minute break, get up from your computer and move your body: stretch! This is hard work. We will develop and then ship our code repeatedly throughout the day. Each time we ship, we will ship something that works.
+
+![A skateboard to a bike to a car](https://images.ctfassets.net/gw5wr8vzz44g/29ExmDybOIAqEuGMMAcs0w/a1d28f10aa9bbc18279eb7466f47acd4/ustwo_Thinks_crop.gif?w=1400 "Every iteration is an improvement on a working MVP")
 
 How will you work together? Using the collaborative tools you have learned during this course:
 

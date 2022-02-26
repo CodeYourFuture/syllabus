@@ -27,9 +27,9 @@ The key outcome of Fundamentals is that trainees and mentors start getting to kn
 
 ### Start as we mean to go on 🧰
 
-Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no slides**, **no lectures**, **no missing coursework**, **100% attendance**.
+Fundamentals sets the tone for the rest of CYF. That means we set our expectations of CYF sessions clearly: **no slides**, **no lectures**, **no missing coursework**, **100% attendance**. This applies to everybody and we should all hold each other to these standards.
 
-This is our opportunity to coach trainees and ourselves into the "right" behaviours from the start.
+This is our opportunity to coach ourselves into the "right" behaviours from the start.
 
 > "Practice doesn't make perfect, practice makes permanent"
 
@@ -43,17 +43,17 @@ Fundamentals is the right place to begin (start as we mean to go on).
 
 ### Ship it! :boat:
 
-The major satisfaction of software development is to bring an idea to reality. Trainees should experience that satisfaction and develop that habit - by shipping early, we can share with our peers and can iterate and improve.
+The major satisfaction of software development is to bring an idea to reality. We should experience that satisfaction and develop that habit. By shipping early, we can share with our peers and can iterate and improve.
 
 CYF is not a great fit for everyone, and not everyone who graduates Fundamentals will join our Software Development Course. But everyone who participates in Fundamentals should come out with a tangible product: a real website deployed online.
 
 ## How Goals Help
 
-Each week has suggested schedules, team exercises, and challenges, but understanding these goals liberates mentors to experiment and innovate with their cohort.
+Each week has suggested schedules, team exercises, and challenges, but understanding these goals liberates mentors and trainees to experiment and innovate with their cohort.
 
 :man_and_woman_holding_hands::skin-tone-4: 🧰: 🧩 :boat: talk to each other and have proven to be useful mantras for understanding what this course should be:
 
-Should we upload the result of our week 1 homework to Netlify? Yes, we should **ship it**. Yes, we should **start as we mean to go on**. Should we ask trainees to figure out how to improve on each other's week 1 homework as part of a 3 week project? Yes, because **I am part of a cohort**. Yes because we should practice **breaking down problems**. Yes because we should **start as we mean to go on**.
+Should we upload the result of our week 1 homework to Netlify? Yes, we should **ship it**. Yes, we should **start as we mean to go on**. Should we ask trainees to figure out how to improve on each other's week 1 homework as part of a three week project? Yes, because **I am part of a cohort**. Yes because we should practice **breaking down problems**. Yes because we should **start as we mean to go on**.
 
 ## Structure
 
@@ -65,7 +65,7 @@ Should we upload the result of our week 1 homework to Netlify? Yes, we should **
 
 ### Requirements
 
-**Requirements** covers requirements gathering, discussing assumptions, breaking down problems into solvable pieces. In practice, we will play some games involving communication and problem solving, discuss how software teams gather requirements, identify and resolve conflicting requirements, write user stories, etc. and come up with some first requirements for our first project (that will span the 3 weeks).
+**Requirements** covers requirements gathering, discussing assumptions, breaking down problems into solvable pieces. In practice, we will play some games involving communication and problem solving, discuss how software teams gather requirements, identify and resolve conflicting requirements, write user stories, etc. and come up with some first requirements for our first project (that will span the three weeks).
 
 ### Iteration
 
