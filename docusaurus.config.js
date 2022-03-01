@@ -18,6 +18,10 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
+        googleAnalytics: {
+          trackingID: "UA-159979458-2",
+          anonymizeIP: true,
+        },
       },
     ],
   ],
@@ -30,10 +34,6 @@ module.exports = {
     },
   ],
   themeConfig: {
-    googleAnalytics: {
-      trackingID: "UA-159979458-2",
-      anonymizeIP: true,
-    },
     algolia: {
       appId: "4CNHVT1TSF",
       apiKey: "a7559fa1da1a033cfb3d7c7f108173ae",
@@ -158,7 +158,7 @@ module.exports = {
             {
               to: "workshops/interviews/index",
               label: "Interviews",
-              position: "left"
+              position: "left",
             },
             {
               label: "-----------",
