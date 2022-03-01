@@ -61,7 +61,7 @@ Should we upload the result of our week 1 homework to Netlify? Yes, we should **
 
 - [Week 1](./week-1/session.md): **Requirements**, Iteration, Delivery
 - [Week 2](./week-2/session.md): Requirements, **Iteration**, Delivery
-- [Week 3](<(./week-3/session.md)>): Requirements, Iteration, **Delivery**
+- [Week 3](./week-3/session.md): Requirements, Iteration, **Delivery**
 
 ### Requirements
 

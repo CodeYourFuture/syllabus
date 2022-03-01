@@ -534,7 +534,7 @@ Here are some useful resources to help you understand this material
 
 For the rest of the day we'll be working together on our group projects
 
-You can find the project [here](/js-core-3/tv-show-dom-project/readme)
+The project is called [TV Show](../tv-show-dom-project/readme.md)
 
 Trainees should group into teams based on the Level that they are working on currently.
 

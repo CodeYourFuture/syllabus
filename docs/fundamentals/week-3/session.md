@@ -49,7 +49,7 @@ How will you work together? Using the collaborative tools you have learned durin
 
 ### Reflection on Fundamentals
 
-We have worked together over these weeks exploring some of what it means to be a software developer. If you have [met the criteria](./graduation/criteria) you will now be invited to join the Software Development Course. Let's think together about what software developers really do.
+We have worked together over these weeks exploring some of what it means to be a software developer. If you have [met the criteria](../graduation/criteria.md) you will now be invited to join the Software Development Course. Let's think together about what software developers really do.
 
 :::note Exercise: 5 mins
 
