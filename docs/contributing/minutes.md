@@ -4,6 +4,290 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-02-16
+
+Attendees: Ali, Greg, Sally, Daniel
+
+- Fundamentals
+  - What is left to do
+    - Guidance
+    - Copy across pair programming exercise from original fundamentals
+      - [Link](https://fundamentals.codeyourfuture.io/lessons/lesson-2#paired-programming)
+      - Where to fit it? Week 2
+      - ACTION: Greg to figure out what needs to get done in blockly
+  - Blockly
+    - Now hosted [here](https://blocks.codeyourfuture.io/)
+    - Needs a quick intro in the syllabus
+    - React-ifying
+      - Ali made a start on a Blockly-React integration
+      - But the next bit of work is probably to work on tabs etc
+  - Looks like first fundamentals will be in April (probably)
+- What are we doing in Edinburgh?
+  - Fill in missing gaps for fundamentals
+  - Hackathon on Blockly
+  - Priorities for Syllabus
+
+## 2022-02-02
+
+### Present
+
+Sally McGrath, Mitch Lloyd, Daniel Wagner-Hall, Greg Dyke, Ali Smith, Elizabeth Zeddie Lawal
+
+### Minutes
+
+- Meeting Elizabeth
+  - New Head of PD & WM Lead
+  - Starting in March
+  - Vision
+    - 360 PD
+    - Local PD framework that can be implemented on a global level
+  - 3 month plan outline
+    - PD Content creation/consolidation
+      - Develop bank of resources
+      - Aim to mirror some of the writing style of Edu syllabus
+      - Experiment & verify in WM
+    - Look at PD structure
+      - Content, Employability, Pastoral
+    - Looking at how to showcase employability skills
+      - How can we showcase our trainees
+      - What are employers looking for and how can we embed that into trainees
+      - Can we support employers to changing hiring practices (e.g. with DEI initiatives)
+    - Understanding trainees with data
+  - Wanting to be a fly on the wall - learn from syllabus team
+  - Discussed how we want to work together more
+    - It's hard to split topics across PD/Tech Edu
+    - Tech Edu don't know what the PD syllabus is!
+- Scotland trip
+  - To coincide with GLA demo day: 26th - 27th Feb
+  - Daniel is moving, but happy for us to go ahead without us
+  - Mitch was a yes (I think)
+  - Sally is going anyway
+  - Let's set some goals in the week & get GLA folks involved
+- Fundamentals training for Cape Town
+  - Lana was worried - messaging Greg & Sally
+  - We could talk to them and walk them through it
+    - Give specific guidance & support
+  - Sally thinks they're not starting for a couple of months
+    - Hope to start on 5th March
+  - Sally has proposed metrics for classes
+    - So we don't overstretch ourselves
+    - Sally has talked to some schools about reaching targets before starting new class
+      - But it's ultimately up to the volunteers
+    - Oridinarily Cape Town would start new fundamentals first
+  - Try to capture some notes - that we could use as a basis for committed volunteer notes
+- Supporting schools with employment
+  - Cape Town have access to Barny
+  - Sally gave advice to keep working on projects etc
+  - Ali's direct experience: grads don't have lots of useful stuff on their Github
+    - [Graduate module](https://module-graduates.codeyourfuture.io/) is supposed to help with this
+      - But who's responsibility is this?
+      - Idea for improvement: after working on a group project, make sure they fork it onto their account, so that it shows up in the list of repos
+  - Some grads need further work before they're employable
+- WM update
+  - Have now accepted the contract
+  -
+  - Accepting ~100 trainees
+
+## 2022-01-19
+
+### Present
+
+Greg Dyke, Sally McGrath, Ali Smith, Mitchell Lloyd, Daniel Wagner-Hall, Sanyia Saidova
+
+### Minutes
+
+- **Fundamentals syllabus outline** is up - holes to fill
+  - Blockly is currently just TODOs - up to Greg what that should look like.
+  - Ship it - needs filling in
+    - The first one we should do in class (because they'll get stuck and need help), after that can be more flexible about shipping happening as coursework
+  - Prayers
+    - Main problem is prayers in the afternoon
+    - The times can change - so we can't specify breaks globally
+    - It's important for someone running classes to distribute a schedule (to trainees & volunteers) for the day beforehand so that any issues can be addressed
+  - Sally has told coordinators this [I think]
+  - Not sure who's going to be the first class to do new fundamentals - South Africa and West Midlands are contenders, but unsure exactly when either will start their next course.
+    - SA are doing their next course pure online.
+    - We should probably be on-hand to help out with the first run or two (particularly for the Blockly stuff). Would be good to at least show up to a planning session before someone runs it.
+- **Node syllabus**: Sanyia has [a PR](https://github.com/CodeYourFuture/syllabus/pull/363) open - tl;dr is to have trainees who haven't got the pre-work to use the Heroku Walkthrough from a video, we should merge this PR in the short term while we consider bigger long-term changes.
+  - Not sure if it's over-fitting to the West Midlands session. Do others see the same issues? Some trainees didn't have pre-work set up (e.g. glitch albums, heroku projects), and didn't have Heroku context/background.
+    - Scotland just didn't bother teaching Heroku because it's so fiddly and would be confusing.
+    - Not sure Glitch is a great fit for CYF - it's yet another surface, it avoids IDEs and CLIs and so on.
+    - Long-term, we want a unified frontend / backend platform for "ship it" theme - rationalise onto consistent platforms trainees build up experience with.
+    - Short-term: Sanyia has found a good video that introduces Heroku, which may help get people started.
+      - Maybe in groups have TA share video and students code along.
+      - Maybe this could be prep coursework, but that would take away ~60 minutes of content we'd need to replace in-class.
+  - Scotland found trainees didn't know what HTTP was (e.g. request types, paths, etc), so ended up filling a lot of content with that.
+    - Also had trainees write a React app and then write an API to back it - ended up doing a pretty big rewrite, but covered most of the syllabus minus Heroku. Filled the time pretty well.
+    - West Midlands class seemed to have a decent understanding of HTTP.
+      - Not sure where they got this knowledge - probably just someone teaching well, as it's not really good enough anywhere in the syllabus.
+    - Scotland did a fairly big rewrite on the fly - may be worth folding a lot of it in.
+  - A lot of time was spent teaching things like how to maintain a git repository - branches, etc.
+  - Alternative could be to set up a repo that they all use which we maintain - would keep everyone doing the same, but may take away some of the understanding of how things fit together and what the stages are.
+    - Is the Node module the right place to be following Heroku guides, or can we move this somewhere else?
+    - One of the really nice things about the current set-up is that it gives rise to a lots of opportunities for discussion.
+  - Thoughts on the City Guide / Paired Progamming piece (one person writes frontend, one writes backend, fit them together)
+    - Probably the wrong time for it - the person doing React will probably not take as much from it (and may not remember React very well - we should also put in some work to make sure they _don't_ forget React at the end of the module).
+      - In the long term, we should probably have them working on frontend and backend in concert to keep them practiced at it (e.g. quote generator, to do list, etc).
+      - They'd also forgotten create-react-app, and also didn't know how to integrate a frontend and a backend in one repo.
+        - Greg has a starter repo we should look at and clean up.
+    - Separating who implements each side isn't a great iterative development experience - more likely to lead to significant integration issues.
+    - Maybe we should enforce "swarm on both".
+  - We got past feedback from the SQL module leads that people weren't particularly comfortable with Express.
+    - This WM class don't seem to have have this same issue.
+    - Enough strong students in each breakout group meant people could work things out decently.
+      - Unclear whether the weaker students could do it by themselves.
+- **[Learning Lab](https://github.com/CodeYourFuture/learning-lab)**
+  - Brief: Create a module project for JS2, introduce concepts of working in an agile team.
+    - Introduce some of the key roles, some of the dialogues these roles may have.
+    - Could maybe extend to have slackbots playing some of these roles.
+    - Content is fairly simple, but questions around how we roll it out.
+  - [Live demo]
+    - Have set up a "Start a project" platform as a GitHub app.
+    - UI similar to GitHub Learning Lab, but GitHub's is a set of very step-by-step recipes - this is much more high-level "do a task, you work it out how".
+    - Step 1: Install Malachi Bot. Automatically files an issue introducing Malachi as the Product Owner.
+  - When's this for?
+    - Slotting in around the content of JS2, probably mostly as an additional homework track.
+  - If we end up reordering JS1/JS2 content, how much of an issue will that cause?
+    - Let's treat this like a prototype and see how it goes.
+    - Split between two "tracks" - project managementy stuff, and "the actual code in the project being managed" stuff - the "actual code" part is customisable to changes, but the framework is really generic.
+  - London start JS2 on Saturday - have two days to get something production ready.
+  - Long-term, can hopefully introduce consistent concepts across the entire course (e.g. seem bots in same roles).
+  - A lot of this content feels very PD-ish (though definitely with an Edu leaning), how are we engaging them?
+    - The 4-week shift will hopefully make PD and Edu around each other more, and make it easier to pick up this kind of collaboration.
+  - JS2 maybe should be solo, but how will we be turning these kind of things into group projects in the future?
+    - We'll iterate to work it out.
+  - Tracking trainee progress
+    - Currently entirely stateless, but we should start tracking more analytics.
+  - Informally presenting at EdinburghJS tomorrow - Daniel will share link to talk.
+- **Blockly**
+  - Have gathered feedback - most just needs actioning, some needs more discussion.
+  - ID vs CSS selectors: Let's just use IDs.
+    - Had been thinking CSS selectors because it's useful spaced repetition.
+    - Exercises and projects don't actually use CSS selectors in any interesting ways. Do we want to use them anyway?
+    - CSS is probably overkill. Let's just use IDs.
+    - Some people also push the idea that you should only use IDs for interacting with elements from JS.
+    - Also, people can build more on Blockly in the future if we need - don't need to try to solve all problems in the first iteration of one module.
+  - Generated code - how close should we keep to the styles we teach (e.g. arrow functions vs "function" functions)?
+    - Using the function keyword may be useful because it's self-documenting? Let's do it.
+  - Variables
+    - Originally tried minimising use of variables.
+    - Actually motivating variables well is kind of hard.
+    - When doing a to do list, can't do multiple DOM-context things manipulating values (e.g. an "at start" and "on click") without variables.
+    - Daniel to follow up with Greg offline about the second variables
+    - How many of the projects actually need variables? If not many, maybe we can just strip them all the way back.
+      - Will check.
+      - A loop variable is something more than that - more the language storing something for you rather than you storing something.
+  - What are the final exercises actually going to be, and do they really need to be as complex (particularly with arrays) as they currently are?
+    - Greg willl look and consider.
+  - What about duplication between Code.org and blockly?
+    - Code.org does control flow stuff pretty well, but there's a small subset we actually need.
+    - Probably focus as much in Blockly rather than Code.org because Code.org is much nicer and we don't want them getting frustrated.
+      - Also want them to have as much TA support when starting off.
+      - Can we upstream this stuff to Code.org in the long-term? Would be great to get more people using it, more people maintaining it, and get the Code.org polish on it.
+        - Code.org seems very fixated on things like moving sprites around on screen, not sure why there isn't much like what we're currently doing.
+  - Maintenance plan?
+    - Move custom JS to a React app
+    - Blockly is also a bit niche.
+  - Tasks to do?
+    - Greg to triage into must/nice/wishlist, and what's best for Greg vs someone else to do.
+
+### Action items
+
+- Sanyia: Make minor edits to Node week 3 PR and merge.
+- Daniel Wagner-Hall: Follow up with Greg about variables Blockly question.
+- Greg: Triage Blockly issues into must/nice/wishlist, and claim ones that Greg should probably be the person to do.
+- Daniel Grant: Share EdinburghJS link in channel.
+- Daniel Grant: Make sure learning lab stuff gets deployed (via Pedro).
+- Sally: Organise a call for everyone to fill out Fundamentals GitHub repo over the next few weeks.
+
+## 05/01/21
+
+### Present
+
+Ali, Mitch, Chris, Sally, Greg
+
+### Minutes
+
+- Fundamentals
+  - Sally worked out the timings (incl PD things): https://docs.google.com/spreadsheets/d/1nKm9cwfYzyPGt2W_P9GQPPavmnD5zFEeTTQTdOgpRVg/edit#gid=0
+  - Red is immovable stuff, otherwise divided into planned work
+  - Blockly
+    - Greg's planned schedule
+      - Week 1 - Code.org, intro blockly, intro user stories
+      - Week 2 - ? [missed this, sorry]
+      - Week 3 - homework consolidation, delivery (reduced the amount of time to complete)
+    - Still need to review v4
+      - https://laughing-goldberg-6b25f5.netlify.app/
+    - Code is still on Greg's github - wants to transfer to CYF github
+      - Sally volunteered to make it look nice :)
+    - Greg has worked with Neill to develop the content
+    - Idea from SA
+      - Have a blank block editor - can be done via intro page
+    - Project
+      - Sally brought up idea of a "shopping cart" - scaffolded out by us
+        - This might be constrained/unrealistic - would be dummy buttons
+      - Greg was thinking about the landing pages will all be done
+        - We need to nail down what this actually looks like - SA need to have time to build this out
+      - Brainstorm some ideas for user stories to update a personal homepage
+        - As a visitor to your home page, I want to leave a comment
+    - Estimation exercise idea
+      - Give user story, then make guess at number of blocks (or time?) needed to implement this, then actually implement it
+      - Discuss the disparity between guess and reality
+      - Learning outcome: estimation is hard
+      - Learning outcome: how to "cut your losses" on a particular impl if it becomes complex
+    - Delivery
+      - Introduced early - drag/drop onto Netlify
+      - No need to make it more complicated
+      - Just reduce the amount of time to complete this over the 3 weeks
+    - Greg's Blockly principles:
+      - let students write all their own code -> they feel greater ownership
+      - indexing into arrays (and tracking variables with indexes, and for loops) is a complexity to be avoided at this stage -> everything is with push, pop and forEach
+      - referring to "arrays" (rather than "lists" recommended by blockly), to avoid the confusion of lists vs html lists.
+      - Scaffolding that fades:
+        - pressing run
+        - which specific blocks to use and where to find them
+        - detailed step by step (only for introducing new blocks/concepts)
+      - problem solving. Some exercises deliberately look into iterative coding, rather than coding everything at once
+        - Lists of links
+        - Arrays and html lists
+      - Static html vs creation with blocks - main reasoning is that adding event listeners is cleaner against elements in there from the start (otherwise you get very deep embedding)
+      - Generated code: it's readable and at some point it's worth taking a look at it (and definitely worth revisiting during JS1 or JS2)
+        notes
+      - Some missing functionality is a bit arbitrary
+        - no string concat
+        - the target element inside event listeners isn't directly available
+        - records (could use arrays within arrays rather than multiple arrays)
+      - "At the start" does nothing except act as a container
+  - Next starting class would be South Africa
+    - Maybe: 29th Jan - Sally advised against this, so probably will be pushed back
+- Changes to JS modules
+  - Moving to 4 week modules, but PD is spread out through the modules. Which means that the exercises need to move to a week 4 repo
+  - We need to review the PRs before Sat, so Barath can teach in London
+    - Suggested alternative strategy of moving changes to a fork
+      - So that we can keep syllabus, exercises, solutions, etc in lockstep
+      - Chris to follow up with Barath about doing this
+  - Let's try to focus on just moving the content across repos, we can follow up on updating/adding/removing exercises
+    - We don't really have a lot of capacity to review large changes
+  - If we're happy with the change then we need to make sure we've updated all the appropriate pages for exercises spreading out
+    - Sally can ask Dom about doing this
+- Intro to Digital
+  - Sally read a bunch of trainee's code
+  - One thing that came out of this: "what is frontend"
+    - Discussion of composition of components - there's a piece of the React module which isn't really tied to React directly. Can we move this forward to e.g. HTML/CSS?
+      - But this is out-of-scope for this piece of work
+  - Sally put together: https://github.com/CodeYourFuture/CYF-Sass-In-React to discuss CSS theming/good practice
+- Syllabus is on `master` as default branch
+  - This is the exception - most other CYF repos use `main`
+  - Let's move to `main`
+
+### Actions
+
+- All to develop 4 user stories for a Blockly "project"
+- All to review Blockly v4
+- Tell Nirmeet about changes to JS2 - spreading out of exercises
+- Chris to chase up Barath about changes to JS1
+- Move syllabus repo to `main` default branch
+
 ## 08/12/21
 
 ### Present

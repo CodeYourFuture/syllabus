@@ -56,6 +56,12 @@ When you remix the starting project, immediately rename it as your own.
 
 Let's look back at our original objectives using the albums project from previous lessons. Try to apply what you learned about PUT routes to this project.
 
+:::note Glitch Albums Project
+
+If you don't have your albums project in available, you can practice creating a PUT route using the [cyf-albums-start](https://glitch.com/~cyf-albums-start) project.
+
+:::
+
 > `PUT /albums/:albumId` should update the album (that matches the passed albumId)
 
 This means that `PUT /albums/2` should update an album with the id `2` and return `200` with JSON `{ success: true }` to the user.
@@ -73,13 +79,19 @@ Remember, you have got to **update** the album, not add it to the list.
 
 Test that your API works by updating one of the albums.
 
+:::note Extra Challenges
+
+To challenge yourself even further, try to complete these challenges:
+
+* CHALLENGE 1: return the old version of the object you updated as well as the new value in the response
+* CHALLENGE 2: validate the request body to make sure the ID can't be updated and that users can't add additional fields
+* CHALLENGE 3: persist your changes to file so that you are able to return your updated values even after you make code changes in Glitch
+
+:::
+
 ## 3) Heroku
 
-We can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past).
-
-This can be a little tricky. However, the documentation is good.
-
-https://devcenter.heroku.com/articles/getting-started-with-nodejs
+We can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past). This can be a little tricky.
 
 :::caution
 
@@ -93,7 +105,10 @@ curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 :::note Exercise
 
-Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online.
+Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online by following [this Heroku walkthrough](https://youtu.be/MxfxiR8TVNU).
+
+
+If you don't have your albums project available, you can follow [Heroku's guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs) and deploy one of their provide apps.
 
 You should complete all of the following sections:
 
@@ -106,11 +121,20 @@ You should complete all of the following sections:
 
 Now when you use
 
-```
+```bash
+# This is an interesting command - Heroku deploys your app by requiring that you push your code to their remote git repository. If you're using the Heroku docs, this remote repo will already be set up, but you will need to add Heroku's git remote repository if you want to use this method on your own private codebase.
 git push heroku main
 ```
 
-After making a `commit` your updated website will be made available online.
+your updated website will be made available online!
+
+Note that `heroku ps:scale web=1` may look like a confusing command, but it's actually broken down as follows:
+
+```bash
+heroku    # the Heroku client you installed through the guide/video
+ps:scale  # telling Heroku that you want to perform a scale operation on a process
+web=1     # in your procfile, you defined a process called web - you're just telling Heroku to scale this process to 1 here
+```
 
 :::
 
@@ -118,19 +142,17 @@ After making a `commit` your updated website will be made available online.
 
 :::note Exercise
 
-For this exercises you should split into groups of two or three people.
+For this exercises you should split into groups of two or three people. Focus on just completing level 100 if you can! This exercise is designed to test your pair programming skills and to get you thinking about how to design a full stack application! :) You're not expected to get everything completed.
 
-This challenge should be completed in a Pair Programming style.
+You're encouraged to collaborate on either React or Node at any one time (i.e. both of you working on React or Node at one time - recommendation is to start on the side that at least one of you are not comfortable with!) - one of you should "drive" (i.e. code) while the other "navigates" (i.e. provide suggestions). Make sure to switch roles every so often to share the experience!
 
 You can find the [challenge](https://github.com/CodeYourFuture/cyf-node-challenges/tree/master/challenge-london-mini-guide) here.
 
-#### Rules
+Remember to use `create-react-app`!
 
-1. One of you will be leading on building the React (Client) application
-2. One of you will be leading on building the Node.js (Node) Application
-3. It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
-   - e.g. Both of you have to finish Level 100 before continuing onto Level 200.
-   - If one of you gets stuck - help each other!
+It is **very important** that you do not move onto the next level of the challenge until **both** of you have completed the level.
+  * e.g. Both of you have to finish Level 100 before continuing onto Level 200.
+  * If one of you gets stuck - help each other!
 
 :::
 

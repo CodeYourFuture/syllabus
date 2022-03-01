@@ -256,20 +256,20 @@ Let's build a brand new NodeJS application with a single GET endpoint to load th
 
 First, create a new NodeJS application that we will call **cyf-hotels-api** (enter `server.js` when asking about the entry point):
 
-```
+```bash
 mkdir cyf-hotels-api && cd cyf-hotels-api && npm init
 ```
 
 As before, we will use the Express library to build our API, and the node-postgres library to connect with our database:
 
-```
+```bash
 npm install --save express
 npm install --save pg
 ```
 
 Create a `server.js` file, import express, initialise the server and start listening for requests:
 
-```
+```js
 const express = require("express");
 const app = express();
 
@@ -280,7 +280,7 @@ app.listen(3000, function() {
 
 Import pg library and create a new GET endpoint to load the list of hotels:
 
-```
+```js
 const { Pool } = require('pg');
 
 const pool = new Pool({
@@ -292,9 +292,12 @@ const pool = new Pool({
 });
 
 app.get("/hotels", function(req, res) {
-    pool.query('SELECT * FROM hotels', (error, result) => {
-        res.json(result.rows);
-    });
+    pool.query('SELECT * FROM hotels')
+        .then((result) => res.json(result.rows))
+        .catch((error) => {
+            console.error(error);
+            res.status(500).json(error);
+        });
 });
 ```
 
@@ -303,6 +306,7 @@ In the code above:
 - We first import the `Pool` class from the pg library, which is used to connect to a database
 - We create a new pool where we specify the credentials to connect to the cyf_hotels database
 - We then create a new /hotels endpoint where we use the method `query()` to send a SQL query to load all the hotels from the table `hotels` and return the results with `result.rows`. You can write any valid SQL query that you learned in the `query()` method!
+- The `query()` method returns a _promise_. It is very similar to how the `fetch` API works in the browser.
 
 Start your server with `node server.js` and try to reach the `/hotels` endpoint to see the list of hotels currently available in your `hotels` table of your `cyf_hotels` database. You can try to create/update/delete hotels to verify that your API always returns what is stored in your database.
 

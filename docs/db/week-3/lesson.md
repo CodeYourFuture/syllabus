@@ -55,7 +55,10 @@ app.get("/hotels", function (req, res) {
   pool
     .query("SELECT * FROM hotels")
     .then((result) => res.json(result.rows))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 
 app.listen(3000, function () {
@@ -100,7 +103,10 @@ app.post("/hotels", function (req, res) {
   pool
     .query(query, [newHotelName, newHotelRooms, newHotelPostcode])
     .then(() => res.send("Hotel created!"))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -147,7 +153,10 @@ app.post("/hotels", function (req, res) {
         pool
           .query(query, [newHotelName, newHotelRooms, newHotelPostcode])
           .then(() => res.send("Hotel created!"))
-          .catch((e) => console.error(e));
+          .catch((error) => {
+            console.error(error);
+            res.status(500).json(error);
+          });
       }
     });
 });
@@ -172,7 +181,10 @@ app.get("/hotels", function (req, res) {
   pool
     .query("SELECT * FROM hotels ORDER BY name")
     .then((result) => res.json(result.rows))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -182,15 +194,19 @@ Another functionality which could be useful is to filter the hotel with a keywor
 app.get("/hotels", function (req, res) {
   const hotelNameQuery = req.query.name;
   let query = `SELECT * FROM hotels ORDER BY name`;
-
+  let params = [];
   if (hotelNameQuery) {
-    query = `SELECT * FROM hotels WHERE name LIKE '%${hotelNameQuery}%' ORDER BY name`;
+      query = `SELECT * FROM hotels WHERE name LIKE $1 ORDER BY name`;
+      params.push(`%${hotelNameQuery}%`);
   }
-
+  
   pool
-    .query(query)
+    .query(query, params)
     .then((result) => res.json(result.rows))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -203,7 +219,10 @@ app.get("/hotels/:hotelId", function (req, res) {
   pool
     .query("SELECT * FROM hotels WHERE id=$1", [hotelId])
     .then((result) => res.json(result.rows))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -230,7 +249,10 @@ app.put("/customers/:customerId", function (req, res) {
   pool
     .query("UPDATE customers SET email=$1 WHERE id=$2", [newEmail, customerId])
     .then(() => res.send(`Customer ${customerId} updated!`))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -257,7 +279,10 @@ app.delete("/customers/:customerId", function (req, res) {
   pool
     .query("DELETE FROM customers WHERE id=$1", [customerId])
     .then(() => res.send(`Customer ${customerId} deleted!`))
-    .catch((e) => console.error(e));
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
@@ -269,13 +294,12 @@ app.delete("/customers/:customerId", function (req, res) {
 
   pool
     .query("DELETE FROM bookings WHERE customer_id=$1", [customerId])
-    .then(() => {
-      pool
-        .query("DELETE FROM customers WHERE id=$1", [customerId])
-        .then(() => res.send(`Customer ${customerId} deleted!`))
-        .catch((e) => console.error(e));
-    })
-    .catch((e) => console.error(e));
+    .then(() => pool.query("DELETE FROM customers WHERE id=$1", [customerId]))
+    .then(() => res.send(`Customer ${customerId} deleted!`))
+    .catch((error) => {
+      console.error(error);
+      res.status(500).json(error);
+    });
 });
 ```
 
