@@ -62,7 +62,7 @@ module.exports = {
               label: "Intro To Coding",
             },
             {
-              href: "fundamentals/index",
+              href: "fundamentals",
               label: "Fundamentals",
             },
             {
