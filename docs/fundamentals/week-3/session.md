@@ -30,7 +30,7 @@ Now let's talk through our blockers and live code together.
 ## Shipping it
 
 :::tip
-It's important that software works and that people can _use_ it
+It's important that software works and that other people can _use_ it
 :::
 
 Today we will spend most of our time working together on our projects in timed bursts of 25 minutes. This is called the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), and it will help you manage your self study. On the 5 minute break, get up from your computer and move your body: stretch! This is hard work. We will develop and then ship our code repeatedly throughout the day. Each time we ship, we will ship something that works.
