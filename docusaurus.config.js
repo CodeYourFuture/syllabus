@@ -35,6 +35,7 @@ module.exports = {
     //   anonymizeIP: true,
     // },
     algolia: {
+      appId: "4CNHVT1TSF",
       apiKey: "a7559fa1da1a033cfb3d7c7f108173ae",
       indexName: "codeyourfuture_syllabus",
       searchParameters: {}, // Optional (if provided by Algolia)
