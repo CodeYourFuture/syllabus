@@ -13,6 +13,37 @@ module.exports = {
       "contributing/example/instructors-template",
     ],
   },
+  Fundamentals: {
+    Overview: ["fundamentals/index", "fundamentals/coordinator"],
+    Preparation: [
+      "fundamentals/preparation/index",
+      "fundamentals/preparation/accounts-and-tools",
+      "fundamentals/preparation/agreements",
+    ],
+    "1 - Requirements": [
+      "fundamentals/week-1/learning-objectives",
+      "fundamentals/week-1/session",
+      "fundamentals/week-1/coursework",
+      "fundamentals/week-1/mentors",
+    ],
+    "2 - Iteration": [
+      "fundamentals/week-2/learning-objectives",
+      "fundamentals/week-2/session",
+      "fundamentals/week-2/coursework",
+      "fundamentals/week-2/mentors",
+    ],
+    "3 - Delivery": [
+      "fundamentals/week-3/learning-objectives",
+      "fundamentals/week-3/session",
+      "fundamentals/week-3/coursework",
+      "fundamentals/week-3/mentors",
+    ],
+    Graduation: [
+      "fundamentals/graduation/criteria",
+      "fundamentals/graduation/application",
+      "fundamentals/graduation/next-steps",
+    ],
+  },
   Git: {
     Overview: ["git/overview", "git/preparation", "git/coordinator"],
     Resources: ["git/desktop/cheatsheet", "git/desktop/cheatsheet-cli"],

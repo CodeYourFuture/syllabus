@@ -6,7 +6,7 @@ sidebar_label: Coursework
 
 ## 1) Read the Lesson Page Content (2 Hours)
 
-Before starting this coursework, read through [the lesson](./branches) and complete the exercies.
+Before starting this coursework, read through [the lesson](branches.md) and complete the exercies.
 
 ## 2) Make and review pull requests with a partner (15 minutes)
 

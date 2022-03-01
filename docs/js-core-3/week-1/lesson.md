@@ -424,7 +424,7 @@ The project work should take between 60 and 90 minutes to give an overview and g
 
 Over the next three weeks we're going to be building a website that will consolidate all of your knowledge so far in the course.
 
-You can find the project [here](/js-core-3/tv-show-dom-project/readme)
+The project is called [TV Show](../tv-show-dom-project/readme.md)
 
 ### Getting Setup
 
