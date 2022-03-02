@@ -8,24 +8,24 @@ sidebar_label: Learning Objectives
 
 ## Code.org
 
-- [ ] navigate the Code.org interface
-- [ ] sequence logical solutions with blocks
-- [ ] control flow with if statements
+- [ ] Navigate the Code.org interface
+- [ ] Sequence logical solutions with blocks
+- [ ] Control flow with if statements
 
 A full set of learning objectives are available on the [Lesson Plan](https://code.org/curriculum/course3/2/Teacher) on the teacher view for this course on Code.org.
 
 ## CYF Blocks
 
-- [ ] navigate the Blocks interface
-- [ ] break down problems
-- [ ] sequence logical solutions with blocks
+- [ ] Navigate the Blocks interface
+- [ ] Break down problems
+- [ ] Sequence logical solutions with Blocks
 
 ## Requirements
 
-- [ ] Take a description of a problem and identify described requirements.
-- [ ] Identify extra requirements from your own experience.
-- [ ] Resolve trade-offs in conflicting requirements.
-- [ ] Translate requirements into high-level design outlines.
+- [ ] Identify described requirements
+- [ ] Identify extra requirements from your own experience
+- [ ] Resolve trade-offs in conflicting requirements
+- [ ] Translate requirements into high-level design outlines
 
 ## Iteration
 

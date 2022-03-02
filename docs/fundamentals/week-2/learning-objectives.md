@@ -12,13 +12,15 @@ sidebar_label: Learning Objectives
 - [ ] ...
 - [ ] ...
 
-## Requirements
-
-- [] Break down a problem based off its described requirements.
-- [] Given some well defined software product, we can define and priorities an set of user stories for the product.
-- [] Given an existing
-
 ## Agile Software Development
 
+- [ ] Share your screen
+- [ ] Identify the blocker
+- [ ] Use driver and navigator pattern
+- [ ] Break down a problem into steps
+- [ ] Negotiate a strategy with your team
+- [ ] Follow directions
+- [ ] Prioritise a list of user stories
 - [ ] Iterate on requirements
+- [ ] Pair programme
 - [ ] Contribute to retrospective
