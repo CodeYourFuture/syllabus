@@ -5,6 +5,8 @@ sidebar_label: Project Briefings
 ---
 
 New projects:
+- [A Set](https://docs.google.com/document/d/1_aYRVzw1DJE1K5EadBzZqqh00ZlA4uaXw7izzLJkAIo/edit?usp=sharing)
+- [Deskeando](https://docs.google.com/document/d/1GTIKg7UyItzZs-Xq4Kd0yY0WQLHM0L98Hoyr5BoktOg/edit?usp=sharing)
 - [We are here](https://docs.google.com/document/d/1BQd_AA4qz-N1fv83yeyh72QdhSnAzdn6GtwjC6tMwDQ/edit?usp=sharing)
 - [STAR](https://docs.google.com/document/d/1SCKLPC---H4iypwROLISaJd_mPcPIwggHB-Uzvcww64/edit?usp=sharing)
 - [Logistical Lunch](https://docs.google.com/document/d/1dq76R8s91NLm_Pe2ujdn40LkaiR4K-dOfNjiwuBsZCU)
