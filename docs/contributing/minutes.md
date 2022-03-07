@@ -39,7 +39,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 - Work needed to ensure that module teams are meeting regularly
 - Getting alums to attend syllabus meetings - really valued input as they've just done the courses
 - Make teams more accountable on Slack - have bots that remind about meetings in public channels ?
-- Someone could join JS2 to suppor them with getting through some tasks
+- Someone could join JS2 to support them with getting through some tasks
 - Do we need syllabus team folks to join the module teams to get them going ( time limited )
 
 ### Welcoming Sanyia
