@@ -61,7 +61,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 
 ### S Africa mentor training
 
-- Greg to lead with support from Mitch
+- Greg to lead with support from Mitch 12 March
 - Mention pedagogic techniques in remot environment: no slides, cold calling, screen sharing, live code demos etc ...
 
 ### ❗**Actions**
