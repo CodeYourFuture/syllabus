@@ -4,6 +4,73 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 03-02-2022
+
+Attendees: Ali, Greg, Sally, Daniel, Mitch
+
+### Agenda
+
+- Celebrating fundamentals
+- Welcoming Sanyia
+- Sprint planning
+- Plan for 2022
+
+### Celebrating fundamentals
+
+- Woop! 🎉 Go Fundamentals - now published!
+- Fundamentals training starting on 12th Match for S African volunteers
+- Fundamentals starts in April with South Africa Class 2
+
+### Plan 2022
+
+- Improve student tracking
+- Further empowerment of module teams
+- Cross module threads: code review, TDD, problem solving
+- Problem solving
+- Integration with PD
+- Working on students with code reviews
+- Module contracts - Well defined prequisites and outcomes for any module on the course
+-
+- Iterate on module template for Code Your Future
+- Succession planning: learning how to hand things over in a sustainable way 🤔
+
+## Module teams & expectations
+
+- Work needed to ensure that module teams are meeting regularly
+- Getting alums to attend syllabus meetings - really valued input as they've just done the courses
+- Make teams more accountable on Slack - have bots that remind about meetings in public channels ?
+- Someone could join JS2 to support them with getting through some tasks
+- Do we need syllabus team folks to join the module teams to get them going ( time limited )
+
+### Welcoming Sanyia
+
+- We welcome Sanyia to the Syllabus Team
+- Software Engineer at Deliveroo Started at CYF 2 years ago
+- Some node module changes proposals ( Barath / Sanyia ) - Use of wordle in Lesson 3 of the Node module
+
+#### Re the proposed Node module changes
+
+- Build a CLI tool in Node - fun standalone activity written in Node ( independent of `http` and network requests ) ?
+- Possibly add the activity to the 1st lesson in Node
+
+### Sprint planning
+
+- [Syllabus project board](https://github.com/CodeYourFuture/syllabus/projects/1) to undergo a lot of trimming down and breaking out into module boards
+- Create a wordle exercise for Node ( Sanyia )
+- [Blockly project board](https://github.com/CodeYourFuture/fundamentals-blockly/projects/1) updated with new tasks
+
+### S Africa mentor training
+
+- Greg to lead with support from Mitch 12 March
+- Mention pedagogic techniques in remote environment: no slides, cold calling, screen sharing, live code demos etc ...
+
+### ❗**Actions**
+
+- ~~(Daniel) Create a private channel for more private discussions~~ See #cyf-syllabus-tech-private
+- (Daniel) Move 90% of tickets off the syllabus planning board
+- (Ali) Create module contract document
+- (Greg) Work out objectives for more TDD content in the future
+
 ## 2022-02-16
 
 Attendees: Ali, Greg, Sally, Daniel
