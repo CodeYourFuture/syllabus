@@ -44,7 +44,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 
 ### Welcoming Sanyia
 
-- We welcome to Sanyia to the Syllabus Team
+- We welcome Sanyia to the Syllabus Team
 - Software Engineer at Deliveroo Started at CYF 2 years ago
 - Some node module changes proposals ( Barath / Sanyia ) - Use of wordle in Lesson 3 of the Node module
 
