@@ -24,7 +24,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 ### Plan 2022
 
 - Improve student tracking
-- Further delegation to module teams
+- Further empowerment of module teams
 - Cross module stuff
 - Problem solving
 - Integration with PD
