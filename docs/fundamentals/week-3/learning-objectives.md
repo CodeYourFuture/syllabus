@@ -14,5 +14,9 @@ sidebar_label: Learning Objectives
 
 ## Agile Software Development
 
-- [ ] ...
-- [ ] ...
+- [ ] Identify blockers
+- [ ] Define a user story
+- [ ] Implement a feature from a user story
+- [ ] Iterate on feature
+- [ ] Ship working code
+- [ ] Facilitate a retrospective with other trainees
