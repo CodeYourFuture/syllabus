@@ -25,7 +25,7 @@ Attendees: Ali, Greg, Sally, Daniel, Mitch
 
 - Improve student tracking
 - Further empowerment of module teams
-- Cross module stuff
+- Cross module threads: code review, TDD, problem solving
 - Problem solving
 - Integration with PD
 - Working on students with code reviews
