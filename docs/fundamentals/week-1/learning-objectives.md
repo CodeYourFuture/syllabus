@@ -11,14 +11,17 @@ sidebar_label: Learning Objectives
 - [ ] Navigate the Code.org interface
 - [ ] Sequence logical solutions with blocks
 - [ ] Control flow with if statements
+- [ ] Control flow with while statements
 
 A full set of learning objectives are available on the [Lesson Plan](https://code.org/curriculum/course3/2/Teacher) on the teacher view for this course on Code.org.
 
 ## CYF Blocks
 
 - [ ] Navigate the Blocks interface
-- [ ] Break down problems
-- [ ] Sequence logical solutions with Blocks
+- [ ] Sequence logical solutions with blocks
+- [ ] Modify existing html (DOM) dynamically
+- [ ] Insert new html (DOM) dynamically
+- [ ] Respond to user actions (text input and clicks)
 
 ## Requirements
 
