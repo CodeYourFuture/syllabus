@@ -21,7 +21,7 @@ We've hosted some Servers on Glitch but they're not quite working properly. Coul
 - [ ] Check that it is working by making a request to `/`
 - [ ] Fix the code on your version of the server
 
-## 2) Chat Server API Project (12 Hours+)
+## 2) Chat Server API Project (12 Hours+) 🔑
 
 Take a look at this repository:
 
