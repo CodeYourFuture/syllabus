@@ -18,7 +18,7 @@ In this project you will find several tasks for you to complete
 
 https://github.com/CodeYourFuture/SQL-Coursework-Week1
 
-## 3) Full Stack Project - Week 1 (8 hours)
+## 3) Full Stack Project - Week 1 (8 hours) 🔑
 
 Over the next three weeks, you'll be bringing everything you've learnt together into a Full Stack project.
 
