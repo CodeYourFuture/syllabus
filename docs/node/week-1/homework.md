@@ -58,7 +58,7 @@ Share your answers with the other trainees in your Buddy Group or on your Slack 
 
 Did you get different answers to other people? Ask them how they worked them out!
 
-## 4) Quote Server API Project (10 hours)
+## 4) Quote Server API Project (10 hours) 🔑
 
 Take a look at this repository:
 
