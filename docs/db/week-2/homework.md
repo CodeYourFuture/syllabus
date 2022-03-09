@@ -20,7 +20,7 @@ You should complete all of the instructions inside the "Exercises" folder.
 
 https://github.com/CodeYourFuture/SQL-Coursework-Week2
 
-## 3) SQL Projects (5 Hours)
+## 3) SQL Projects (5 Hours) 🔑
 
 In this project you will find several tasks for you to complete
 
@@ -28,7 +28,7 @@ You should complete all of the instructions inside the "Project" folder.
 
 https://github.com/CodeYourFuture/SQL-Coursework-Week2
 
-## 4) Full Stack Project - Week 2 (5 hours)
+## 4) Full Stack Project - Week 2 (5 hours) 🔑
 
 Continuing on your project from last week, this week you'll be building the Backend of your Full Stack website.
 
