@@ -12,7 +12,7 @@ Now that we've reached Week 3 it's a great time to consolidate everything we've 
 
 https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express/
 
-## 2) Hotel Server (12 Hours+)
+## 2) Hotel Server (12 Hours+) 🔑
 
 Remember your Hotel project from React? Let's build an API to make that work!
 
