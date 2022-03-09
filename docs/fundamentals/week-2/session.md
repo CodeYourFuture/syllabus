@@ -130,13 +130,14 @@ You all built a personal home page in Intro to Digital, and last week you shippe
 In pairs, define some user stories for your own websites, to improve it. These should be:
 
 - a small change
+- that is achievable with the CYF Blocks seen in the course so far
 - but a complete feature
 - try for at least one feature that updates or changes the page when an action is taken
 
 :::
 
 :::note Exercise: Click! (25m)
-In the same pairs, try to implement one user story.
+In the same pairs, try to implement one user story. While implementing, try to break down into steps where you can visually check that your code runs as expected.
 :::
 
 ## Ship It

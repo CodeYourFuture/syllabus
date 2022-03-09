@@ -38,6 +38,35 @@ Take a look at Code.org before class and complete one or two levels.
 
 The most useful thing you can do together in class is to share your screen and get everyone up and going with the interface. Unblocking people who get stuck on some minor setup issue at first, by getting everyone coding together, sharing screens, and trying things, is really worth spending time on.
 
+## CYF Blocks
+
+We will use CYF Blocks to build our projects for Fundamentals. CYF Blocks builds on the knowledge learned in Code.org and concretises those lessons as real code that builds real web pages.
+
+From Code.org we build on these learning objectives:
+
+- programme sequentially
+- control flow
+
+On top of that, in CYF Blocks we learn to
+
+- interact with the DOM
+- change the content on a web page
+- click buttons and make them change things
+
+Trainees will work on CYF Blocks themselves through the week, so to start just get everyone introduced to the interface. There is no signup required.
+
+Take some time to familiarise yourself with CYF Blocks by doing at least the first 3 exercises. Be prepared to point out to the students the following areas/features of the screen:
+
+- static html (this will usually be automatically filled and students will almost never be asked to modify anything here)
+- the blocks area and the elements in the toolbox (hopefully self explanatory)
+- the instructions, which should probably be read through once before doing anything
+- the run button, used to execute the code generated from the blocks
+- the test checkboxes that appear when run is pressed: they should turn green when the exercise is done
+
+:::danger Warning
+CYF Blocks currently (12/02/22) only uses local storage. Make sure trainees know this, and explain that if they open it in a new browser or on a new computer, their work will not be there. They should use the share button to save out states.
+:::
+
 #### Readiness for the SDC
 
 Some people will _not_ have signed up, though it's made clear that they are expected to sign up before coming to class. You can use this to help evaluate trainee readiness for the full course.
@@ -65,27 +94,6 @@ Was it surprising (and hilarious) to see what other people drew from your words?
 
 :::tip Example reflection:
 What’s NOT in the user story? (It’s the how.) One reason to write user stories is to establish clearly what we are doing and why. A common mistake in coding is jumping straight into “how” before we understand and agree these things. This wastes a lot of time. If you find yourself jumping straight to “how” or “jumping to conclusions”, check yourself! Remember the telephone game and how absurdly wrong things can go.
-:::
-
-## CYF Blocks
-
-We will use CYF Blocks to build our projects for Fundamentals. CYF Blocks builds on the knowledge learned in Code.org and concretises those lessons as real code that builds real web pages.
-
-From Code.org we build on these learning objectives:
-
-- programme sequentially
-- control flow
-
-On top of that, in CYF Blocks we learn to
-
-- interact with the DOM
-- change the content on a web page
-- click buttons and make them change things
-
-Trainees will work on CYF Blocks themselves through the week, so to start just get everyone introduced to the interface. There is no signup required.
-
-:::danger Warning
-CYF Blocks currently (12/02/22) only uses local storage. Make sure trainees know this, and explain that if they open it in a new browser or on a new computer, their work will not be there. They should use the share button to save out states.
 :::
 
 ## Ship It

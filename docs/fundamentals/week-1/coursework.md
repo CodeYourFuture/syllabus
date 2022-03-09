@@ -10,12 +10,12 @@ During Fundamentals, we will be building a website with a block-based programmin
 
 **&rarr; [HTML CSS Crash Course](https://scrimba.com/learn/htmlcss)**
 
-## Code.org
+## Code.org (4 hours)
 
 Code.org is a website which teaches beginners how to code and gives them lots of practice.
 It uses block-based coding. Don't be put off by the simplicity - top universities teach block-based coding (e.g. Berkeley & Harvard).
 
-Over the next few weeks, we will be completing the course called "Course 3", but this week you only need to do up to Lesson 12, _Farmer: While Loops_. It's important to spend some time with these ideas to prepare yourself for CYF Blocks.
+As we will be doing most of our coding in CYF blocks, you only need to do up to Lesson 12, _Farmer: While Loops_. It's important to spend some time with these ideas to prepare yourself for CYF Blocks.
 
 To get set up:
 
@@ -37,10 +37,14 @@ Read the instructions carefully and complete all stages of these lessons:
 
 Once you're finished, press submit in Google Classroom, and please add a comment mentioning your Code.org username.
 
-## CYF Blocks
+## CYF Blocks (6 hours)
 
-In this course, you will use block-based programming to create JavaScript that changes the HTML on a web page. Work through the exercises in order and do as many as you feel able.
+In this course, you will use block-based programming ([CYF Blocks](https://blocks.codeyourfuture.io/)) to create JavaScript that changes the HTML on a web page. Work through the exercises in order up to [Buttons, inputs and clicks: a todo list](https://blocks.codeyourfuture.io/#exercise_todo_list).
 
-**You must complete at least the first two exercises before we next meet.** Come to the session with your questions and we will all discuss them together.
+**You must at least attempt all those exercises before we meet.**. If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
+
+Once you're finished, share your solution to [List of links](https://blocks.codeyourfuture.io/#exercise_list_links) in google classroom.
+
+If you have extra time, complete one of the exercises in [Buttons and Clicks: consolidation](https://blocks.codeyourfuture.io/#exercise_button_consolidation) (or create something entirely new) and share it with your cohort in the Slack channel.
 
 Write down some questions to bring up next week.
