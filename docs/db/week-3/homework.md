@@ -18,7 +18,7 @@ You should complete all of the instructions inside the "Project" folder.
 
 https://github.com/CodeYourFuture/SQL-Coursework-Week3
 
-## 3) Full Stack Project - Week 3 (5 hours)
+## 3) Full Stack Project - Week 3 (5 hours) 🔑
 
 Continuing on your project from the past two weeks, this week you'll be adding a database and connecting it to your Back End.
 
