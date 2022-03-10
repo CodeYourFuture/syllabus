@@ -8,9 +8,11 @@ sidebar_label: Learning Objectives
 
 ## CYF Blocks
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Break down solving problems into testable steps
+- [ ] Use variables to track state
+- [ ] Initialise and iterate over arrays
+- [ ] Remove/add elements at the beginning/end of an array
+- [ ] Solve problems using variables and arrays
 
 ## Agile Software Development
 
