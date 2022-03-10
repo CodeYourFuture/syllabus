@@ -43,7 +43,7 @@ In this course, you will use block-based programming ([CYF Blocks](https://block
 
 **You must at least attempt all those exercises before we meet.**. If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
 
-Once you're finished, share your solution to [List of links](https://blocks.codeyourfuture.io/#exercise_list_links) in google classroom.
+Once you're finished, share your solution to [List of links](https://blocks.codeyourfuture.io/#exercise_list_links) in Google Classroom.
 
 If you have extra time, complete one of the exercises in [Buttons and Clicks: consolidation](https://blocks.codeyourfuture.io/#exercise_button_consolidation) (or create something entirely new) and share it with your cohort in the Slack channel.
 
