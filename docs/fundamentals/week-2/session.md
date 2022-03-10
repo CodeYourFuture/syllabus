@@ -164,7 +164,8 @@ Export your page to a folder on your computer, edit it in your IDE, upload the f
 - Open VSCode
 - In VSCode, choose **File > Open Folder** and choose your unzipped folder
 - Now your IDE shows your code just like Codepen did. Your work is in the /src folder. Take a look. You can also view the rendered view right in your browser. Take a look!
-- Copy and paste your code from CYF Blocks to your existing project in VSCode.
+- Copy and paste the static html from CYF Blocks to your existing project in VSCode. Paste the html into the index.html file.
+- Copy and paste the generated JavaScript from CYF Blocks to the script.js file in your VSCode project.
 - Test the results in your browser. Try adding Live Server to speed up your workflow.
 - Ship it to Netlify. See last week's Ship It for how to do this.
 
