@@ -88,6 +88,12 @@ This is very likely to be the first time they have ever paired on a programming 
 - Don't run the session too long - it is stressful for some
 - Switch partners at least once
 
+## Ship It
+
+Share your screen and do a live run through this workflow (5 minutes) as a group beforehand. Don't take questions after your demo: get the trainees to _try_ first. Float around answering questions and help unblock people as they ship their work.
+
+If the Codepen files are a blocker for trainees, there's a clean boilerplate [Ship It](https://github.com/CodeYourFuture/Ship-It) available, but keep the focus on iteration and refactoring.
+
 ## Coursework review
 
 :::tip Vocabulary
