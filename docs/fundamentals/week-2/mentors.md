@@ -72,11 +72,20 @@ It’s a good reflection on blockers and planning.
 
 ---
 
+### Iteratively solving coding problems
+
+The CYF Blocks syllabus gradually introduces the idea of solving problems "in reverse", or "inside out", making sure to start with something simple that can be visually verified and gradually adding complexity, continuing to verify at each step. The following exercises are good for demoing this (bear in mind which concepts students have/have not yet seen when picking one of these):
+
+- [Inputs and clicks](https://blocks.codeyourfuture.io/#exercise_button_input)
+- [Todo list](https://blocks.codeyourfuture.io/#exercise_todo_list)
+- [Counting clicks](https://blocks.codeyourfuture.io/#exercise_button_variables_state)
+- [Counting sheep](https://blocks.codeyourfuture.io/#exercise_button_variables_consolidation)
+
 ### Pairing
 
-Two volunteers will spend 10 minutes demonstrating pair programming, so please agree a CYF Blocks exercise to demo with and both have the page ready. Say not much more than:
+Two volunteers will spend 10 minutes demonstrating pair programming, so please agree a CYF Blocks exercise (one of the exercises in https://blocks.codeyourfuture.io/#exercise_button_consolidation would be a good start) to demo with and both have the page ready. Say not much more than:
 
-> "We are going to pair programme. I will drive, which means I will type the code, and NAME will navigate, which means they will tell me what to do."
+> "We are going to pair programme. I will drive, which means I will type the code (modify the blocks), and NAME will navigate, which means they will tell me what to do."
 
 Nominate a trainee to set a timer for five minutes. Driver, share your screen. Navigator, talk clearly and simply through one improvement. Go much more slowly than feels reasonable. Only make one change. Then switch and make one more change.
 

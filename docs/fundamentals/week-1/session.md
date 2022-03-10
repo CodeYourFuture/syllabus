@@ -38,7 +38,7 @@ Code.org is a block based programming tool. We will use something similar to bui
 Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lessons/2/levels/1)
 
 1. Look at the interface together
-2. Everybody open the interface on their own computer as well, please
+2. Everybody open the interface on their own computer as well
 3. Complete the first exercise
 4. Complete the second exercise
 
@@ -46,15 +46,15 @@ Go to [Course Three, Lesson 2: The Maze](https://studio.code.org/s/course3/lesso
 
 ## Iteration: CYF Blocks
 
-For the majority of this course, we will use a custom CYF application called CYF Blocks. It uses the same visual programming editor, [Block.ly](https://developers.google.com/blockly/reference/overview), as Code.org, but you will use it to create JavaScript for real websites you can show others.
+For the majority of this course, we will use a custom CYF application called [CYF Blocks](https://blocks.codeyourfuture.io/). It uses the same visual programming editor, [Block.ly](https://developers.google.com/blockly/reference/overview), as Code.org, but you will use it to create JavaScript for real websites you can show others.
 
 Let's all look through the interface together now, and do one exercise as a group.
 
 :::note Exercise (20 minutes)
 
 - Look at the interface together
-- Everybody open the interface on their own computer as well, please
-- Complete the first exercise
+- Everybody open the interface on their own computer as well
+- Complete all steps of the first exercise
 
 :::
 
@@ -196,6 +196,6 @@ Find the coursework for this week on the [coursework](./coursework) page.
 
 ## Feedback
 
-Please spend two minutes reviewing this session to help us improve it for the future. This feedback will be shared with volunteers.
+Spend two minutes reviewing this session to help us improve it for the future. This feedback will be shared with volunteers.
 
-<Feedback module="Fundamentals" week="Week 1" />
+<Feedback module="Fundamentals" week="Week 2" />

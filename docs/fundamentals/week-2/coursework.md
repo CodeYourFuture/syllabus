@@ -14,4 +14,8 @@ We will use an IDE to write our code during Fundamentals, just like professional
 
 Read this lesson on file paths and folders: [Using paths & folders](https://learn-the-web.algonquindesign.ca/topics/paths-folders/) and save the [cheatsheet](https://learn-the-web.algonquindesign.ca/topics/naming-paths-cheat-sheet/) to help you.
 
-## CYF Blocks
+## CYF Blocks (8h)
+
+Complete the [CYF Blocks](https://blocks.codeyourfuture.io) Syllabus, including at least 6 "projects". Write down any questions you have to ask when we next meet.
+
+Share at least two of your completed projects in google classrooms. Share your favourite project (or something completely new) in the Slack channel for your cohort.
