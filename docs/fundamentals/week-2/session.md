@@ -141,12 +141,33 @@ In the same pairs, try to implement one user story.
 
 ## Ship It
 
-It's important to ship your work, so let's ship the new version of our websites. You know what to do!
+It's important to ship your work, so let's ship the new version of our websites. In ITD, you wrote code in [Codepen](https://codepen.io/), an online Integrated Development Environment (IDE). Now you will use [Visual Studio Code](https://code.visualstudio.com/) (VSCode), a professional IDE you will use at work.
+
+You’ll export your page to a folder on your computer, edit it in your IDE, upload the folder to Github, and deploy it to Netlify.
+
+### You will need
+
+- Your landing page on Codepen
+- The VSCode IDE
+- An account with Github and to be logged in
+- An account with Netlify, and to be logged in
 
 :::note Exercise
 
-Ship it!
+Export your page to a folder on your computer, edit it in your IDE, upload the folder to Github, and deploy it to Netlify. There is a step by step to help you if you need it.
 :::
+
+### Step by step
+
+- Find your landing page on Codepen and click **Export > Export as zip**
+- Find your zip on your hard drive and unzip it
+- Open VSCode
+- In VSCode, choose **File > Open Folder** and choose your unzipped folder
+- Now your IDE shows your code just like Codepen did. Your work is in the /src folder. Take a look. You can also view the rendered view right in your browser. Take a look!
+- Copy and paste the static html from CYF Blocks to your existing project in VSCode. Paste the html into the index.html file.
+- Copy and paste the generated JavaScript from CYF Blocks to the script.js file in your VSCode project.
+- Test the results in your browser. Try adding Live Server to speed up your workflow.
+- Ship it to Netlify. See last week's Ship It for how to do this.
 
 ## Retro
 
