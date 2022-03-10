@@ -74,6 +74,6 @@ Find the coursework for this week on the [coursework](./coursework) page.
 
 ## Feedback
 
-Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+Spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="Fundamentals" week="Week 3" />
