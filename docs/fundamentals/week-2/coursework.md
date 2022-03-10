@@ -16,6 +16,6 @@ Read this lesson on file paths and folders: [Using paths & folders](https://lear
 
 ## CYF Blocks (8h)
 
-Complete the [CYF Blocks](https://blocks.codeyourfuture.io/#introduction) Syllabus, including at least 6 "projects". Write down any questions you have to ask when we next meet.
+Complete the [CYF Blocks](https://blocks.codeyourfuture.io) Syllabus, including at least 6 "projects". Write down any questions you have to ask when we next meet.
 
 Share at least two of your completed projects in google classrooms. Share your favourite project (or something completely new) in the Slack channel for your cohort.
