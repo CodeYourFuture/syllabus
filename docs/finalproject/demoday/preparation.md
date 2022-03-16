@@ -39,3 +39,15 @@ As well as the actual outputs of your project you should be thinking about:
 - How happy are you with where you got to? What did the users think? What part of the product would you build next, if you had more time?
 
 Try to show the _journey_, not just the destination - if you have pictures of early sketches or screenshots from previous builds of app, for example, you can use those to tell a story about how you approached the project and the progress you’ve made behind the scenes. This isn’t always obvious to less technical members of the audience, so it’s important to be able to illustrate the work you’ve put in.
+
+## Prep your codebase 
+
+- Finally, make sure your README is filled out and presents your project clearly.
+- Make sure your repo is linked on your deployed site and your deployed site is linked on your repo.
+- Fork your group project to your personal Github and pin it to your profile.
+- Generally imagine that employers are now looking at your work: you are launching into the world!
+
+There is more guidance on the [Graduate Module](https://module-graduates.codeyourfuture.io/exercise-types/cv-and-job-prep/github)
+
+
+
