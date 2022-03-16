@@ -80,7 +80,14 @@ Two volunteers will spend 10 minutes demonstrating pair programming, so please a
 
 Nominate a trainee to set a timer for five minutes. Driver, share your screen. Navigator, talk clearly and simply through one improvement. Go much more slowly than feels reasonable. Only make one change. Then switch and make one more change.
 
-This is very likely to be the first time they have ever paired on a programming problem. Here are some tips on running a good pairing session:
+:::tip Discover out loud
+When live coding with CYF Blocks, make sure to notice "out loud" extra features of the interface:
+
+- oh look, I can copy and paste blocks
+- Hmm, what happens when I click "share"
+  :::
+
+When you ask trainees to pair later on, remember that this is very likely to be the first time they have ever paired on a programming problem. Here are some tips on running a good pairing session:
 
 - Assign a volunteer to call out to switch navigator and driver roles every 10 minutes loosely
 - Make sure the students actually switch!
@@ -94,9 +101,7 @@ This is very likely to be the first time they have ever paired on a programming 
 Many of the words we use will either be completely new to trainees or used in a new way. Make space in each day to define terms, and model ways to find out terms (look stuff up together)
 :::
 
-## Blockers/Coursework Review
-
-We open every session at CYF with a coursework review, where trainees identify their blockers and ask for help getting unstuck.
+We make space in every session at CYF for a coursework review, where trainees identify their blockers and ask for help _getting unstuck_.
 
 It's important for trainees to think about questions that they had during the week. To avoid getting distracted with answering a question for too long, run a short session where you write down all the questions on a whiteboard. You can do this on a Jam board or on a white board.
 
