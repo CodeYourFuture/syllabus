@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "jcholyhead",
+      "name": "jcholyhead",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92216197?v=4",
+      "profile": "https://github.com/jcholyhead",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
