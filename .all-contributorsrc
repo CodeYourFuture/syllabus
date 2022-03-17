@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "mcrav",
+      "name": "Matthew Craven",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26581932?v=4",
+      "profile": "https://github.com/mcrav",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
