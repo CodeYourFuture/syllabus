@@ -89,6 +89,18 @@
       ]
     },
     {
+      "login": "Dedekind561",
+      "name": "MitchLloyd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25401570?v=4",
+      "profile": "https://github.com/Dedekind561",
+      "contributions": [
+        "review",
+        "test",
+        "content",
+        "code"
+      ]
+    },
+    {
       "login": "gregdyke",
       "name": "gregdyke",
       "avatar_url": "https://avatars.githubusercontent.com/u/148489?v=4",
@@ -107,7 +119,19 @@
       "profile": "https://github.com/sansaid",
       "contributions": [
         "content",
-        "code"
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "ochthenoodle",
+      "name": "Jo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91696526?v=4",
+      "profile": "https://github.com/ochthenoodle",
+      "contributions": [
+        "content",
+        "code",
+        "review"
       ]
     }
   ],
