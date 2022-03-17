@@ -53,6 +53,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Dedekind561"><img src="https://avatars.githubusercontent.com/u/25401570?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MitchLloyd</b></sub></a><br /><a href="https://github.com/CodeYourFuture/syllabus/pulls?q=is%3Apr+reviewed-by%3ADedekind561" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=Dedekind561" title="Tests">⚠️</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=Dedekind561" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gregdyke"><img src="https://avatars.githubusercontent.com/u/148489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gregdyke</b></sub></a><br /><a href="#infra-gregdyke" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=gregdyke" title="Tests">⚠️</a> <a href="#content-gregdyke" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=gregdyke" title="Code">💻</a></td>
 
+    <td align="center"><a href="http://sammart.in"><img src="https://avatars.githubusercontent.com/u/803607?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sam Martin</b></sub></a><br /><a href="#content-Sam-Martin" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=Sam-Martin" title="Code">💻</a></td>
+
+
     <td align="center"><a href="https://github.com/jcholyhead"><img src="https://avatars.githubusercontent.com/u/92216197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jcholyhead</b></sub></a><br /><a href="#content-jcholyhead" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=jcholyhead" title="Code">💻</a></td>
 
     <td align="center"><a href="https://github.com/MarkFarmiloe"><img src="https://avatars.githubusercontent.com/u/240964?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Farmiloe</b></sub></a><br /><a href="#content-MarkFarmiloe" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=MarkFarmiloe" title="Code">💻</a></td>
@@ -73,6 +76,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.jackfranklin.co.uk"><img src="https://avatars.githubusercontent.com/u/193238?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jack Franklin</b></sub></a><br /><a href="https://github.com/CodeYourFuture/syllabus/issues?q=author%3Ajackfranklin" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/sansaid"><img src="https://avatars.githubusercontent.com/u/47756528?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sanyia Saidova</b></sub></a><br /><a href="#content-sansaid" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=sansaid" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ochthenoodle"><img src="https://avatars.githubusercontent.com/u/91696526?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jo</b></sub></a><br /><a href="#content-ochthenoodle" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=ochthenoodle" title="Code">💻</a></td>
+
   </tr>
 </table>
 
