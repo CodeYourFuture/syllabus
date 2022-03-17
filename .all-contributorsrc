@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "ClaireBickley",
+      "name": "Claire Bickley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58375712?v=4",
+      "profile": "https://github.com/ClaireBickley",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
