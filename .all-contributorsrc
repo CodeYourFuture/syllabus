@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "szemate",
+      "name": "Máté Szendrő",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3908828?v=4",
+      "profile": "https://github.com/szemate",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
