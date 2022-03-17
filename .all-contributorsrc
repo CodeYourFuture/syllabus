@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "g1st",
+      "name": "Gintaras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16963832?v=4",
+      "profile": "https://github.com/g1st",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
