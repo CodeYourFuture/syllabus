@@ -117,6 +117,13 @@
       "name": "Lana-Franks-Code",
       "avatar_url": "https://avatars.githubusercontent.com/u/64899248?v=4",
       "profile": "https://github.com/Lana-Franks-Code",
+]
+    },
+    {
+      "login": "g1st",
+      "name": "Gintaras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16963832?v=4",
+      "profile": "https://github.com/g1st",
       "contributions": [
         "bug"
 ]
@@ -178,7 +185,6 @@
         "content",
         "code",
         "review"
-
       ]
     }
   ],
