@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "MarkFarmiloe",
+      "name": "Mark Farmiloe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/240964?v=4",
+      "profile": "https://github.com/MarkFarmiloe",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
