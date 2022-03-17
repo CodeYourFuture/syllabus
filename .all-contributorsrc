@@ -87,6 +87,18 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "gregdyke",
+      "name": "gregdyke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148489?v=4",
+      "profile": "https://github.com/gregdyke",
+      "contributions": [
+        "infra",
+        "test",
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
