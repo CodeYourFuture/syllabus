@@ -1,7 +1,7 @@
 # [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is the syllabus and course material for
@@ -51,6 +51,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/nholdsworth94"><img src="https://avatars1.githubusercontent.com/u/69724935?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nick Holdsworth</b></sub></a><br /><a href="#content-nholdsworth94" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/timhamrouge"><img src="https://avatars1.githubusercontent.com/u/34589526?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Hamrouge</b></sub></a><br /><a href="#content-timhamrouge" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/gregdyke"><img src="https://avatars.githubusercontent.com/u/148489?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gregdyke</b></sub></a><br /><a href="#infra-gregdyke" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=gregdyke" title="Tests">⚠️</a> <a href="#content-gregdyke" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=gregdyke" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ochthenoodle"><img src="https://avatars.githubusercontent.com/u/91696526?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jo</b></sub></a><br /><a href="#content-ochthenoodle" title="Content">🖋</a> <a href="https://github.com/CodeYourFuture/syllabus/commits?author=ochthenoodle" title="Code">💻</a></td>
   </tr>
 </table>
 
