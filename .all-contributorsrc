@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "sansaid",
+      "name": "Sanyia Saidova",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47756528?v=4",
+      "profile": "https://github.com/sansaid",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
