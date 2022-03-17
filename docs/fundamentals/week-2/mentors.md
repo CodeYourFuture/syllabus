@@ -101,6 +101,8 @@ When you ask trainees to pair later on, remember that this is very likely to be 
 Many of the words we use will either be completely new to trainees or used in a new way. Make space in each day to define terms, and model ways to find out terms (look stuff up together)
 :::
 
+## Blockers/Coursework Review
+
 We make space in every session at CYF for a coursework review, where trainees identify their blockers and ask for help _getting unstuck_.
 
 It's important for trainees to think about questions that they had during the week. To avoid getting distracted with answering a question for too long, run a short session where you write down all the questions on a whiteboard. You can do this on a Jam board or on a white board.
