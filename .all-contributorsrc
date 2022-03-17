@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "jackfranklin",
+      "name": "Jack Franklin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193238?v=4",
+      "profile": "http://www.jackfranklin.co.uk",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
