@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "rickscode",
+      "name": "rickscode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71875733?v=4",
+      "profile": "https://github.com/rickscode",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
