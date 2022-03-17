@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "ochthenoodle",
+      "name": "Jo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91696526?v=4",
+      "profile": "https://github.com/ochthenoodle",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
