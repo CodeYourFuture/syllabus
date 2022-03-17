@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "Lana-Franks-Code",
+      "name": "Lana-Franks-Code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64899248?v=4",
+      "profile": "https://github.com/Lana-Franks-Code",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
