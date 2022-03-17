@@ -113,6 +113,15 @@
       ]
     },
     {
+      "login": "rickscode",
+      "name": "rickscode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71875733?v=4",
+      "profile": "https://github.com/rickscode",
+      "contributions": [
+        "bug"
+]
+    },
+    {
 
       "login": "ClaireBickley",
       "name": "Claire Bickley",
@@ -160,6 +169,7 @@
         "content",
         "code",
         "review"
+
       ]
     }
   ],
