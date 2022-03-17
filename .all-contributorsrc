@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "bonboh",
+      "name": "Coung",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6434329?v=4",
+      "profile": "https://github.com/bonboh",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
