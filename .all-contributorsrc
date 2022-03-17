@@ -113,6 +113,15 @@
       ]
     },
     {
+      "login": "g1st",
+      "name": "Gintaras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16963832?v=4",
+      "profile": "https://github.com/g1st",
+      "contributions": [
+        "bug"
+]
+    },
+    {
       "login": "rickscode",
       "name": "rickscode",
       "avatar_url": "https://avatars.githubusercontent.com/u/71875733?v=4",
@@ -169,7 +178,6 @@
         "content",
         "code",
         "review"
-
       ]
     }
   ],
