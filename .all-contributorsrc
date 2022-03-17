@@ -99,6 +99,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "Sam-Martin",
+      "name": "Sam Martin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/803607?v=4",
+      "profile": "http://sammart.in",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
