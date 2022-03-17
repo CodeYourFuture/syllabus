@@ -99,6 +99,17 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "LucyMac",
+      "name": "Lucy Zidour",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8991119?v=4",
+      "profile": "http://lucymac.github.io/",
+      "contributions": [
+        "content",
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
