@@ -99,6 +99,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "carterd888",
+      "name": "Daniel Carter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62474051?v=4",
+      "profile": "https://github.com/carterd888",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
