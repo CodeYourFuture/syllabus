@@ -113,13 +113,25 @@
       ]
     },
     {
+      "login": "sansaid",
+      "name": "Sanyia Saidova",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47756528?v=4",
+      "profile": "https://github.com/sansaid",
+      "contributions": [
+        "content",
+        "code",
+        "review"
+      ]
+    },
+    {
       "login": "ochthenoodle",
       "name": "Jo",
       "avatar_url": "https://avatars.githubusercontent.com/u/91696526?v=4",
       "profile": "https://github.com/ochthenoodle",
       "contributions": [
         "content",
-        "code"
+        "code",
+        "review"
       ]
     }
   ],
