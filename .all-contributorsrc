@@ -122,6 +122,27 @@
 ]
     },
     {
+      "login": "bonboh",
+      "name": "Coung",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6434329?v=4",
+      "profile": "https://github.com/bonboh",
+      "contributions": [
+        "content",
+        "code"
+]
+    },
+    {
+      "login": "Lana-Franks-Code",
+      "name": "Lana-Franks-Code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64899248?v=4",
+      "profile": "https://github.com/Lana-Franks-Code",
+      "contributions": [
+        "bug"
+]
+    },
+]
+    },
+    {
       "login": "g1st",
       "name": "Gintaras",
       "avatar_url": "https://avatars.githubusercontent.com/u/16963832?v=4",
@@ -187,6 +208,7 @@
         "content",
         "code",
         "review"
+
       ]
     }
   ],
