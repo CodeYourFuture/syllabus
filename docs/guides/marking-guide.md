@@ -1,14 +1,14 @@
 ---
 id: marking-guide
 title: Marking Guide
-sidebar_label: Marking Guide
+sidebar_label: Reviewing Guide
 ---
 
-This Rubric should be used to guide your assessment of Trainees Coursework at CodeYourFuture
+This Rubric should be used to guide your assessment of coursework at CodeYourFuture. You can use it to assess your own work and other people's work.
 
-## How To Mark Coursework
+## How To Evaluate Coursework
 
-Details on **how** to mark coursework can be found on the documentation website
+Details on how we give feedback in code review are on the docs site:
 
 [Coursework Feedback Docs](https://docs.codeyourfuture.io/teams/education/homework-feedback)
 
@@ -16,35 +16,35 @@ Details on **how** to mark coursework can be found on the documentation website
 
 ### Completeness
 
-- The code achieves all of the tasks in the coursework [[read more]](#complete-all-tasks)
-- The code achieves the task in an intended way and solves the "general" problem [[read more]](#achieves-task-in-intended-way)
-- The code covers all edge cases [[read more]](#edge-cases)
+- The code achieves all of the tasks in the coursework [[read more about completeness]](#complete-all-tasks)
+- The code achieves the task in an intended way and solves the "general" problem [[read more about intention]](#achieves-task-in-intended-way)
+- The code covers all edge cases [[read more about edge cases]](#edge-cases)
 - The code does not contain any obvious bugs
-- The code handles error responses as well as success responses [[read more]](#error-responses)
+- The code handles error responses as well as success responses [[read more about errors]](#error-responses)
 
 ### Code Style
 
 - The code follows a consistent style
-- The code follows CodeYourFuture's coding standards [[read more]](#coding-standards)
-- The code is well indented [[read more]](#well-indented-code)
-- The code uses good variable names [[read more]](#good-variable-names)
-- The code uses good function names [[read more]](#good-function-names)
-- The code uses code which is easy to read and understand [[read more]](#more-readable-code)
-- The code should not use hard coded values [[read more]](#hard-coded-values)
+- The code follows CodeYourFuture's coding standards: [[read more about coding standards]](#coding-standards)
+- The code is well indented: [[read more about indentation]](#well-indented-code)
+- The code uses good variable names: [[read more about naming variables]](#good-variable-names)
+- The code uses good function names: [[read more about naming functions]](#good-function-names)
+- The code uses code which is easy to read and understand: [[read more about readability]](#more-readable-code)
+- The code should not use hard coded values: [[read more about hard coded values]](#hard-coded-values)
 
 ### Clarity
 
-- The code is divided into functions of a good size. [[read more]](#small-functions)
-- Code is not repeated in several locations of the coursework. [[read more]](#non-duplicated-code)
-- The coursework does not have commented out code. [[read more]](#commented-out-code)
-- There is no dead code in the coursework [[read more]](#dead-code)
-- There is no extra or debug logging [[read more]](#debug-logging)
+- The code is broken up into small reusable functions: [[read more about small functions]](#small-functions)
+- Code is not repeated in several locations of the coursework: [[read more about DRY]](#non-duplicated-code)
+- The coursework does not have commented out code: [[read more about commented out code]](#commented-out-code)
+- There is no dead code in the coursework: [[read more about unreachable code]](#dead-code)
+- There is no extra or debug logging: [[read more about debug logging]](#debug-logging)
 
 ## Explanations
 
 ### Complete All Tasks
 
-Completion of all of the tasks is an essential part of the homework.
+Completion of all of the tasks is essential.
 
 If there are tests that you have to make pass, you should **not** edit them to make your code work. Doing so will mean you get marked zero for this section.
 
@@ -132,7 +132,7 @@ Not just the error messages, every response that is returned by the server must 
 
 ### Non-duplicated Code
 
-Duplicated code should be moved into functions so they can be reference from multiple places.
+Duplicated code should be moved into functions so they can be referenced from multiple places.
 
 Having lots of duplicated code in your coursework means that it is harder to change or update your code.
 
