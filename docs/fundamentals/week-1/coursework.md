@@ -20,7 +20,7 @@ As we will be doing most of our coding in CYF blocks, you only need to do up to 
 To get set up:
 
 - Use the account you made during your class preparation.
-- Start by clicking on item 1 from lesson "2. Maze". (Yes, you should skip lesson 1). Let the instructors know if you get stuck - it is easiest for us to help you during class.
+- Start by clicking on item 1 from lesson "2. Maze". (Yes, you should skip lesson 1). Let the instructors know if you get stuck - it is easiest for us to help you during class. // TODO: This reads as if it should be started in class? If so, should it be in the session page? If not, maybe we should rephrase?
 
 Read the instructions carefully and complete all stages of these lessons:
 
@@ -39,9 +39,9 @@ Once you're finished, press submit in Google Classroom, and please add a comment
 
 ## CYF Blocks (6 hours)
 
-In this course, you will use block-based programming ([CYF Blocks](https://blocks.codeyourfuture.io/)) to create JavaScript that changes the HTML on a web page. Work through the exercises in order up to [Buttons, inputs and clicks: a todo list](https://blocks.codeyourfuture.io/#exercise_todo_list).
+In this course, you will use block-based programming ([CYF Blocks](https://blocks.codeyourfuture.io/)) to create JavaScript that changes the HTML on a web page. Work through the exercises in order up to [Buttons, inputs and clicks: a todo list](https://blocks.codeyourfuture.io/#exercise_todo_list). // And including? Or not?
 
-**You must at least attempt all those exercises before we meet.**. If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
+**You must at least attempt all those exercises before we meet.** If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
 
 Once you're finished, share your solution to [List of links](https://blocks.codeyourfuture.io/#exercise_list_links) in Google Classroom.
 
