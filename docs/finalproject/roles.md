@@ -40,3 +40,15 @@ UI/UX'ers will provide their expertise in supporting the UI/UX trainees in each 
 - Developing simple UI for the applications
 - Providing support on answering UX issues
 - Giving advice on how to better design an application to our teams
+
+
+## Trainee Roles
+
+Trainees join Final Projects in their graduation role and stay with one team. These are updated in [Graduation Roles](https://docs.google.com/document/d/1HHjftKmMqAT8zaxQubj5ixBrJqVcwLLNrAFLXGcn4N4/edit?usp=sharing) but usually include:
+
+- Full Stack Developer
+- Front End Developer
+- Cloud / DevOps Engineer 
+- Quality Engineer
+- Product Manager
+- UX/UI Designer
