@@ -49,3 +49,19 @@ Once you're finished, share your solution to [List of links](https://blocks.code
 If you have extra time, complete one of the exercises in [Buttons and Clicks: consolidation](https://blocks.codeyourfuture.io/#exercise_button_consolidation) (or create something entirely new) and share it with your cohort in the Slack channel.
 
 Write down some questions to bring up next week.
+
+## What is an algorithm?
+
+Programming is all about algorithms. But what is an algorithm?
+
+1. Read [Introduction to Algorithms](https://github.com/thejsway/thejsway/blob/master/manuscript/intro02.md#introduction-to-algorithms) in the book <cite>the JS Way</cite>
+2. Watch [The Exact Instructions Challenge😄](https://www.youtube.com/watch?v=cDA3_5982h8)
+
+These show "algorithm recipes", and the video shows that you have to think carefully when building them.
+How does CYF Blocks help you build algorithms? Discuss this together in a Slack thread.
+
+## Reading in preparation
+
+Next week in class we will talk about Iteration and Blockers. Look over the syllabus and prepare by reading:
+
+- [Overcoming Blockers](https://www.linkedin.com/pulse/how-overcome-coding-blockers-kingsley-ibe/)

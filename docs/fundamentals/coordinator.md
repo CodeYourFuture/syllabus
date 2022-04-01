@@ -31,6 +31,8 @@ A mentor needs to run the Google Classroom and make sure coursework is posted ac
 
 Each week of the course has a coursework page. Copy the pieces from there into Google Classroom and schedule them with publish and due dates.
 
+You can set all the coursework up before the coursework starts, but do check you have the latest versions.
+
 ## Graduation
 
 Graduation will happen the week after, as trainees have work to complete after the last session in order to graduate.

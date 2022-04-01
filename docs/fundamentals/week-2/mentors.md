@@ -94,7 +94,8 @@ When live coding with CYF Blocks, make sure to notice "out loud" extra features 
 
 - oh look, I can copy and paste blocks
 - Hmm, what happens when I click "share"
-  :::
+
+:::
 
 When you ask trainees to pair later on, remember that this is very likely to be the first time they have ever paired on a programming problem. Here are some tips on running a good pairing session:
 
@@ -135,3 +136,5 @@ It is a good idea to spend some time in the class working through the interfaces
 ## Assigning Coursework
 
 At the end of the day, check in with trainees on their goals for the week. Make sure you have published the coursework for this week through Google Classroom. You can schedule this to happen automatically.
+
+For this week, you also need to assign Study Group teams. Use the [random list team generator](https://www.randomlists.com/team-generator) and post the list in Google Classroom.
