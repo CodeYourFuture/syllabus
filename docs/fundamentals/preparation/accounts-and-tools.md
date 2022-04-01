@@ -73,21 +73,15 @@ Miro is an online whiteboard we sometimes use to share ideas. Register an accoun
 
 ### Figma
 
-Figma also has an online whiteboard we use to share ideas. Register an account now.
+Figma also has an online jamboard we use to share ideas. Register an account now.
 
-- <input type="checkbox" checked/> I have signed up for Miro.
+- <input type="checkbox" checked/> I have signed up for Figma.
 
 ### Code.org
 
 Code.org is a website aimed at helping people learn computer science. You will be doing one of their courses. Register an account now.
 
 - <input type="checkbox" checked/> I have signed up for code.org.
-
-### Kahoot
-
-We use the Kahoot! App to play games and do quizzes. It works on Android and iOS. Register an account now.
-
-- <input type="checkbox" checked/> I have downloaded and installed Kahoot.
 
 ### Github
 
