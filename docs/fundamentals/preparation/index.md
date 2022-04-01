@@ -14,7 +14,7 @@ You can do so much to improve your chances of success with Code Your Future and 
 
 ### Prep 1 : Grasshopper
 
-You may have done Fundamentals 1 on Grasshopper, but what other courses can you unlock? The _Using a Code Editor_ course \_\_could be handy for Prep 2.
+You may have done Fundamentals 1 on Grasshopper, but what other courses can you unlock? The _Using a Code Editor_ course could be handy for Prep 2.
 
 **[Work through Grasshopper](https://learn.grasshopper.app/)** for about fifteen minutes, three times a week. This will make it easier to grasp the fundamentals.
 
@@ -31,6 +31,8 @@ Stretch goal: can you write and save a [markdown document ](https://www.markdown
 ### Prep 3 : Developer Thinking
 
 People in tech work with logic, so how do people improve their logical reasoning? Happily, with games! Practice your developer thinking by playing our brain games.
+
+TODO: Should there be some links here or something?
 
 ### Prep 4: HTML/CSS crash course
 

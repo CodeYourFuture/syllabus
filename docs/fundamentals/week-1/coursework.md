@@ -13,14 +13,15 @@ During Fundamentals, we will be building a website with a block-based programmin
 ## Code.org (4 hours)
 
 Code.org is a website which teaches beginners how to code and gives them lots of practice.
-It uses block-based coding. Don't be put off by the simplicity - top universities teach block-based coding (e.g. Berkeley & Harvard).
+It uses block-based coding. Don't be put off by the simplicity: Harvard University teaches block-based coding.
 
 As we will be doing most of our coding in CYF blocks, you only need to do up to Lesson 12, _Farmer: While Loops_. It's important to spend some time with these ideas to prepare yourself for CYF Blocks.
 
 To get set up:
 
 - Use the account you made during your class preparation.
-- Start by clicking on item 1 from lesson "2. Maze". (Yes, you should skip lesson 1). Let the instructors know if you get stuck - it is easiest for us to help you during class.
+- Start by clicking on item 1 from lesson "2. Maze". (Yes, you should skip lesson 1)
+- If you get stuck, _come and talk in the class channel in Slack_. Hitting blockers is _normal_ in coding and [talking through the problem](https://en.wikipedia.org/wiki/Rubber_duck_debugging) is a good strategy.
 
 Read the instructions carefully and complete all stages of these lessons:
 
@@ -39,9 +40,9 @@ Once you're finished, press submit in Google Classroom, and please add a comment
 
 ## CYF Blocks (6 hours)
 
-In this course, you will use block-based programming ([CYF Blocks](https://blocks.codeyourfuture.io/)) to create JavaScript that changes the HTML on a web page. Work through the exercises in order up to [Buttons, inputs and clicks: a todo list](https://blocks.codeyourfuture.io/#exercise_todo_list).
+In this course, you will use block-based programming ([CYF Blocks](https://blocks.codeyourfuture.io/)) to create JavaScript that changes the HTML on a web page. Work through the exercises in order, up to and including [Buttons, inputs and clicks: a todo list](https://blocks.codeyourfuture.io/#exercise_todo_list).
 
-**You must at least attempt all those exercises before we meet.**. If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
+**You must at least attempt all those exercises before we meet.** If you get stuck, don't worry. Come to the session with your questions and we will all discuss them together.
 
 Once you're finished, share your solution to [List of links](https://blocks.codeyourfuture.io/#exercise_list_links) in Google Classroom.
 

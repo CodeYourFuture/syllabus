@@ -37,7 +37,7 @@ This is our opportunity to coach ourselves into the "right" behaviours from the 
 
 > "Prolific programmers do not write a lot of code, instead they solve a lot of problems"
 
-We frame the fundamental skill and day-to-day activity of software developers, which is problem solving. It is not _following_ step by step instructions, but _formulating_ those instructions.
+We frame the fundamental skill and day-to-day activity of software developers, which is problem solving. It is not _following_ step by step instructions, but _creating_ those instructions.
 
 Fundamentals is the right place to begin (start as we mean to go on).
 
@@ -69,18 +69,18 @@ Should we upload the result of our week 1 homework to Netlify? Yes, we should **
 
 ### Iteration
 
-**Iteration** covers coming up with solutions, and then iterating on those solutions (as opposed to solving everything in a single step), along with some introduction into computational thinking - what a software solution looks like. In practice, we will play some more games, provide feedback and iterate on the state of our project so far in order to come up with new requirements, prioritising so as to pick the most important new features first. We will also do some simple CSS and block-based programming to allow us to provide software solutions to some of the feedback we have received.
+**Iteration** covers coming up with solutions, and then iterating on those solutions (as opposed to solving everything in a single step), along with some introduction into computational thinking - what a software solution looks like. In practice, we will play some more games, provide feedback and iterate on the state of our project so far in order to come up with new requirements, prioritising so as to pick the most important new features first. We will also do some CSS and block-based programming to allow us to provide software solutions to some of the feedback we have received.
 
 ### Delivery
 
-**Delivery** covers implementing a concrete solution and putting it somewhere visible where it can be examined and iterated upon. In practice we will deliver multiple iterations to Netlify and will finish week 3 having coded some simple DOM modifying code using a block-based editor (e.g. displaying a list of products with an "add to cart" button and display the resulting shopping cart), and copy-paste the resulting code into our project.
+**Delivery** covers implementing a concrete solution and putting it somewhere visible where it can be examined and iterated upon. In practice we will deliver multiple iterations to Netlify and will finish week 3 having coded some DOM modifying code using a block-based editor (e.g. displaying a list of products with an "add to cart" button and display the resulting shopping cart), and copy-paste the resulting code into our project.
 
 ## Course Project
 
-In terms of the delivered goals for the three week project,
+In terms of the delivered goals for the three week project:
 
-- Week 1 will have trainees delivering a simple HTML page (like the page written during the application process) to Netlify
-- Week 2 will have trainees iterating on that page in response to simple feedback/requirements gathering (modifying the basic HTML/CSS)
+- Week 1 will have trainees delivering an HTML page (like the page written during the application process) to Netlify
+- Week 2 will have trainees iterating on that page in response to feedback/requirements gathering (modifying the HTML/CSS)
 - Week 3 will have trainees iterating on that page a second time and adding a feature implemented through block-based coding
 
 | Weeks                         | Content      | Learning Objectives                                    |

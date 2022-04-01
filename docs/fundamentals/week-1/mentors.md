@@ -36,7 +36,7 @@ Code.org uses the same Block.ly visual editor as CYF Blocks, and has some good r
 Take a look at Code.org before class and complete one or two levels.
 :::
 
-The most useful thing you can do together in class is to share your screen and get everyone up and going with the interface. Unblocking people who get stuck on some minor setup issue at first, by getting everyone coding together, sharing screens, and trying things, is really worth spending time on.
+The most useful thing you can do together in class is to share your screen and get everyone up and going with the interface. This will help unblock people who get stuck on some minor setup issue at first. Moreover, getting everyone coding together, sharing screens, and trying things, is really worth spending time on to set the tone for the course.
 
 ## CYF Blocks
 
@@ -67,9 +67,9 @@ Take some time to familiarise yourself with CYF Blocks by doing at least the fir
 CYF Blocks currently (12/02/22) only uses local storage. Make sure trainees know this, and explain that if they open it in a new browser or on a new computer, their work will not be there. They should use the share button to save out states.
 :::
 
-#### Readiness for the SDC
+#### Readiness for the full Software Development Course
 
-Some people will _not_ have signed up, though it's made clear that they are expected to sign up before coming to class. You can use this to help evaluate trainee readiness for the full course.
+To ship their code, trainees need a Github account. Some people will _not_ have signed up to the accounts or installed the things they were asked to, though it's made clear that they are expected to do so before coming to class. You can use this to help evaluate trainee readiness for the full course.
 
 :::tip Dealing with unprepared trainees in class
 Don't hold up the rest of the class -- place the unprepared in a breakout room with a volunteer to get them sorted, and record their names. Do this each time there's a paperwork/admin/prep issue like this. Re-iterate that preparing for class is _crucial_ for success on the course.
@@ -79,7 +79,7 @@ Of course everyone misses some things, but we know from experience that people w
 
 ## Telephone
 
-Play the default game! You don’t need to explain what to do, people will figure it out. You might try playing it between the mentors in your planning calls It’s a fun icebreaker. Limit the groups to 5 or else the game takes too long. It takes **10 minutes** to play with **5 people**.
+Play the default game! You don’t need to explain what to do, people will figure it out. You might try playing it between the mentors in your planning calls - it’s a fun icebreaker. Limit the groups to 5 or else the game takes too long. It takes **10 minutes** to play with **5 people**.
 
 Now come back into the main room and lead a reflection.
 
@@ -98,7 +98,7 @@ What’s NOT in the user story? (It’s the how.) One reason to write user stori
 
 ## Ship It
 
-A version of this session has been run many times at CYF so please ask others for help if you're stuck. There's a full workshop called [Deploying Your Code](https://syllabus.codeyourfuture.io/workshops/deployment/index) you can run through beforehand if that's helpful.
+A version of this session has been run many times at CYF so please ask others for help if you're stuck. There's a full workshop called [Deploying Your Code](https://syllabus.codeyourfuture.io/workshops/deployment/) you can run through beforehand if that's helpful.
 
 We will ask trainees to ship frequently at CYF.
 

@@ -8,7 +8,7 @@ import Feedback from "@theme/Feedback";
 
 Welcome to Fundamentals! In this course we will explore the fundamentals of software development by going through this cycle: Requirements, Iteration, Delivery. Each day we will go through each stage and each week we will explore a stage in depth.
 
-**Requirements** - in week one we will explore requirements. What are requirements, and how do we use the idea of requirements to help us develop complex systems in small, simple steps? We’ll find out today.
+**Requirements** - in week one we will explore requirements. What are requirements, and how do we use the idea of requirements to help us develop complex systems in small, approachable steps? We’ll find out today.
 
 **Iteration** - in week two we will explore iteration. Iteration means to repeat. Developers do many small iterations to build software, each time adding or changing some small thing. This is why your phone is always updating: each new version is an iteration. If developers waited until software was perfectly ‘finished’, it would never be delivered.
 
@@ -144,7 +144,7 @@ What's useful about thinking about the "who" and the "why"? What could go wrong 
 
 The last thing we will do today is ship some code, because we expect you to ship very often at CYF.
 
-You don’t have your shop project yet, so let’s ship your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
+You're going to be working on and developing your own projects over the Fundamentals course, so let's begin with your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
 :::tip
 It's important that software _works_ and that we can _use_ it!

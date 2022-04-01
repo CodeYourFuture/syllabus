@@ -14,7 +14,7 @@ A Fundamentals cohort should be no more than 40 people. If you have more than th
 
 ## Setting up
 
-Trainees must complete the preparation outlined in the [Prep](./preparation/index.md) and come to class prepared. People will probably have some questions and hit some roadbumps, so being present in a class ITD Slack channel to unblock people, but don't do it for them.
+Trainees must complete the preparation outlined in the [Prep](./preparation/index.md) and come to class prepared. People will probably have some questions and hit some roadbumps, so it can be useful to be present in a class ITD Slack channel to unblock people, but don't do it for them.
 
 ## Schedule
 
