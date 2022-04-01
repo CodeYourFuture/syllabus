@@ -111,6 +111,10 @@ Share your screen and do a live run through this workflow (5 minutes) as a group
 
 If the Codepen files are a blocker for trainees, there's a clean boilerplate [Ship It](https://github.com/CodeYourFuture/Ship-It) available, but keep the focus on iteration and refactoring.
 
+:::warning Scope
+Make sure the feature they build, or change they make, is very small.
+:::
+
 ## Coursework review
 
 :::tip Vocabulary
