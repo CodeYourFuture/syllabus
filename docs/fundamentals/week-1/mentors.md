@@ -69,7 +69,7 @@ CYF Blocks currently (12/02/22) only uses local storage. Make sure trainees know
 
 #### Readiness for the full Software Development Course
 
-Some people will _not_ have signed up, though it's made clear that they are expected to sign up before coming to class. You can use this to help evaluate trainee readiness for the full course.
+To ship their code, trainees need a Github account. Some people will _not_ have signed up to the accounts or installed the things they were asked to, though it's made clear that they are expected to do so before coming to class. You can use this to help evaluate trainee readiness for the full course.
 
 :::tip Dealing with unprepared trainees in class
 Don't hold up the rest of the class -- place the unprepared in a breakout room with a volunteer to get them sorted, and record their names. Do this each time there's a paperwork/admin/prep issue like this. Re-iterate that preparing for class is _crucial_ for success on the course.

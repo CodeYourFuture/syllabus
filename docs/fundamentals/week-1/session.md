@@ -144,7 +144,7 @@ What's useful about thinking about the "who" and the "why"? What could go wrong 
 
 The last thing we will do today is ship some code, because we expect you to ship very often at CYF.
 
-You're going to be working on a shop project over the Fundamentals course, but you don’t have that yet, so let’s ship your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
+You're going to be working on and developing your own projects over the Fundamentals course, so let's begin with your personal home page. In Intro to Digital (ITD) you built a Personal Home Page to complete the course. Now we’ll ship it to become a “real” website. When developers talk about shipping or deployment they mean turning the version that they’re developing into something that users can access.
 
 :::tip
 It's important that software _works_ and that we can _use_ it!
