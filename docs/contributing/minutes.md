@@ -15,19 +15,20 @@ Agenda Items
 ### Sanity check Fundamentals
 
 What is the project?
-Week 1: ship personal home page (from intro to digital)
-Week 1: imaginary user stories for imaginary project
-Week 2: defining user stories for own website
-Week 2: choose a user story 
-Week 3: do some more of it
+
+- Week 1: ship personal home page (from intro to digital)
+- Week 1: imaginary user stories for imaginary project
+- Week 2: defining user stories for own website
+- Week 2: choose a user story 
+- Week 3: do some more of it
 
 We floated the idea of a "shop" page
 
 Step 1) make what we have make sense, let’s start with 
 
-@Greg: Make a ticket for making a project
-@Daniel: we can make a shop -> make a ticket for it
-@Sally: consolidate current version to make sense, based on improving the personal home page
+- @Greg: Make a ticket for making a project
+- @Daniel: we can make a shop -> make a ticket for it
+- @Sally: consolidate current version to make sense, based on improving the personal home page
 
 ### Coordinate with ZA on what feedback we would like
 
