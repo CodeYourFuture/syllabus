@@ -47,7 +47,9 @@ Back in the main room.
 What did people think about this game? Let’s go around and each group share **one thing** they noticed about it.
 :::
 
-## Blockers (45 minutes)
+## Sharing Our Blockers (45 minutes)
+
+We call problems that stop our progress "blockers". We talk through our blockers regularly and help each other get "unblocked" or "unstuck".
 
 :::note Exercise: 5 mins
 
@@ -88,10 +90,10 @@ What's the _minimum_ set of user stories we could implement for this product to 
 
 Now come back into the main room.
 
-## Capgemini
+## Partners
 
 :::info Meet Capgemini (60m)
-Our partners, Capgemini, will drop in and spend an hour with you.
+In regions with a partnership, our partners will drop in and spend an hour with you.
 :::
 
 ---
@@ -136,8 +138,13 @@ In pairs, define some user stories for your own websites, to improve it. These s
 
 :::
 
+:::tip Read ahead
+Read ahead to Ship It to see where to paste your code.
+:::
+
 :::note Exercise: Click! (25m)
 In the same pairs, try to implement one user story. While implementing, try to break down into steps where you can visually check that your code runs as expected.
+
 :::
 
 ## Ship It
@@ -155,7 +162,9 @@ You’ll export your page to a folder on your computer, edit it in your IDE, upl
 
 :::note Exercise
 
-Export your page to a folder on your computer, edit it in your IDE, upload the folder to Github, and deploy it to Netlify. There is a step by step to help you if you need it.
+Export your page to a folder on your computer, edit it in your IDE, upload the folder to Github, and deploy it to Netlify.
+
+There is a step by step to help you if you need it.
 :::
 
 ### Step by step
