@@ -4,6 +4,104 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 30-03-2022
+
+### Present
+
+Sally, Greg, Daniel, Mitch
+
+Agenda Items
+
+### Sanity check Fundamentals
+
+What is the project?
+
+- Week 1: ship personal home page (from intro to digital)
+- Week 1: imaginary user stories for imaginary project
+- Week 2: defining user stories for own website
+- Week 2: choose a user story 
+- Week 3: do some more of it
+
+We floated the idea of a "shop" page
+
+Step 1) make what we have make sense, let’s start with 
+
+- @Greg: Make a ticket for making a project
+- @Daniel: we can make a shop -> make a ticket for it
+- @Sally: consolidate current version to make sense, based on improving the personal home page
+
+### Coordinate with ZA on what feedback we would like
+
+— how long homework takes
+— do they want some padding out of homework
+
+@Greg will look into coordinating that w/ Lana
+
+### Blocks
+
+@Mitch will be raising some PRs for blockly
+@Sally will create a ticket to add a piece about mentioning devtools
+(bigger idea for console: good exception messages based on the available ideas)
+
+### Teacher training
+
+Mitch trying out things in Manchester
+Tried to build on "imagine you were teaching fundamentals", what concepts would you teach? How would you teach them? (analogy, example, etc?)
+Attendance: grads + experienced teachers
+
+Sally has a contact with someone from "Coders who teach"
+
+### Code review
+
+Sally wants to do some sessions on code review
+Grading is cancelled, but code review is really valuable
+How do we make it low effort for mentors? (so there isn’t a spread between super detailed and not done)
+Buddies doing code review? 
+
+- it’s high effort for the first review (grok what the exercise is about)
+- it then gets mostly ignored
+
+Students doing code review?
+- sometimes poorly informed
+
+Ideas for getting code review to happen, how to make it valuable and useful
+- students should have to modify based on review
+- ship it (confirmation that it’s good)
+- review is the precursor for working together
+
+@Daniel and @Sally will work on Code Review module project for JS1
+Bigger ideas can come later.
+
+### Entry and exit criteria
+
+Final projects already has an entry criteria (be ready to contribute to a final project)
+And it needs to have an exit criteria that is clear so that people are not surprised when they are told to they need to do their own final project e.g. https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit#heading=h.8bipiccmzk3c
+
+For other modules
+- module projects -> DECIDED
+- maybe a small set of "if you don’t have skill X, that’s definitely not ok"
+
+What will we do with our entry/exit criteria? -> something to think about
+
+### 4 week restructure
+
+Still need to make progress on it
+@Sally pay someone to do it
+
+### TDD
+
+Greg learnt some stuff
+
+- the rules of engagement of TDD need practice (what am I allowed to modify when?)
+- Creating exercises that incrementally build a piece of functionality would be useful (then taking that scaffolding away)
+- Solving an exercise with TDD takes a really long time at first (1h+ for 4-5 tests)
+- Setup can be tricky (esp for react) - or more specifically, troubleshooting if something in the setup is wrong or you tried to do it by hand
+
+### Greg no longer available on Wednesdays
+
+@Daniel will do a doodle
+
+
 ## 03-02-2022
 
 Attendees: Ali, Greg, Sally, Daniel, Mitch
