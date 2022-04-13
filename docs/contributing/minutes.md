@@ -4,6 +4,71 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-04-13
+
+Attendees: Sally, Greg, Daniel, Ali, Sanyia
+
+### Actions from last time
+
+- Sally: Sanity check fundamentals - done
+- Daniel: Ticket for shop idea - still outstanding
+- Greg: Ticket for project - still outstanding
+- Greg: Coordinate with ZA on feedback - done
+- Sally: Ticket about devtools - done
+- Mitch: PRs for blockly - done
+
+### Agenda points
+
+- New meeting time
+  - Thurs is the new day!
+  - 7:30pm
+- ZA doing Fundamentals module
+  - General positive feedback
+  - Asked interesting questions
+  - Found a bug, got fixed
+  - Issue - Teacher might miss the wider picture/general goal
+    - Suggestion: cheatsheet of goals for each exercise
+    - Also can we integrate this in such a way that involves trainees - so they don't get distracted with the wrong goal
+    - Did the mentor notes not get read?
+      - Greg would have to ask them
+- JS1 module project
+  - https://github.com/CodeYourFuture/syllabus/issues/421
+  - ...Sorry, missed a bit - had to get the door...
+  - Goals
+    - Get reviewer to think about how they express themselves - nudge towards answer
+    - Get trainees thinking about how there are different perspectives on code
+  - Why is just telling the answer a problem?
+    - The suggested exercise is structured so that the reviewer would know the correct code. I.e. there's no code problem solving for the reviewer. Instead the goal is to write a response without "giving away the answer"
+  - Sally showed the idea to her brother (who does lots of code review)
+    - His criticism was that restricting what can be written in the response is artificial
+    - He suggested that we give "canned messages"/"cards" that trainees could pick from
+      - Some discussion of how these cards are structured
+  - Peer review has been a struggle in the past
+    - Trainees just give "pointlessly" positive feedback - no actionable feedback
+  - We could experiment with a small group of trainees to see how it goes
+  - Next steps
+    - Daniel to write up a PoC exercise and trying it out with some trainees
+- OpenClass
+  - Course-making interface
+    - Ala Google Classroom
+  - Structured around mastery concept - have to demonstrate mastery of a concept before moving on
+  - Can have a free, whitelabel environment
+  - Courses are remix-able, so could have a core course that could be tweaked
+  - Next steps: think about it
+- Greg's presentation at Blockly summit
+  - Are there some intro to CYF slides? Sally to share with Greg
+  - Anyone available to review? Sally should have some time. Ali potentially too
+- Shout to Mitch for making easy-to-review PRs for Blockly!
+
+### Actions
+
+- Sally: move meeting invite to Thurs
+- Greg: set up a debrief with ZA
+- Sally: share intro to CYF slides with Greg
+- Ali: set up a Blockly Reactification call
+- Greg: create a ticket for cypress tesing in blockly
+- Daniel: progress JS1 module project
+
 ## 30-03-2022
 
 ### Present
@@ -19,12 +84,12 @@ What is the project?
 - Week 1: ship personal home page (from intro to digital)
 - Week 1: imaginary user stories for imaginary project
 - Week 2: defining user stories for own website
-- Week 2: choose a user story 
+- Week 2: choose a user story
 - Week 3: do some more of it
 
 We floated the idea of a "shop" page
 
-Step 1) make what we have make sense, let’s start with 
+Step 1) make what we have make sense, let’s start with
 
 - @Greg: Make a ticket for making a project
 - @Daniel: we can make a shop -> make a ticket for it
@@ -56,15 +121,17 @@ Sally has a contact with someone from "Coders who teach"
 Sally wants to do some sessions on code review
 Grading is cancelled, but code review is really valuable
 How do we make it low effort for mentors? (so there isn’t a spread between super detailed and not done)
-Buddies doing code review? 
+Buddies doing code review?
 
 - it’s high effort for the first review (grok what the exercise is about)
 - it then gets mostly ignored
 
 Students doing code review?
+
 - sometimes poorly informed
 
 Ideas for getting code review to happen, how to make it valuable and useful
+
 - students should have to modify based on review
 - ship it (confirmation that it’s good)
 - review is the precursor for working together
@@ -78,6 +145,7 @@ Final projects already has an entry criteria (be ready to contribute to a final 
 And it needs to have an exit criteria that is clear so that people are not surprised when they are told to they need to do their own final project e.g. https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit#heading=h.8bipiccmzk3c
 
 For other modules
+
 - module projects -> DECIDED
 - maybe a small set of "if you don’t have skill X, that’s definitely not ok"
 
@@ -100,7 +168,6 @@ Greg learnt some stuff
 ### Greg no longer available on Wednesdays
 
 @Daniel will do a doodle
-
 
 ## 03-02-2022
 
