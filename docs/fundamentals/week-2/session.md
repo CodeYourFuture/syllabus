@@ -145,7 +145,41 @@ Read ahead to Ship It to see where to paste your code.
 :::note Exercise: Click! (25m)
 In the same pairs, try to implement one user story. While implementing, try to break down into steps where you can visually check that your code runs as expected.
 
-:::
+---
+
+## Professional development
+
+::: Transparency is the key to success! 
+
+A key part of being a successful developer is the ability to give and receive feedback, in order to start that process you must be able to showcase your work in progress. Now that you have had a chance to try some coding, it’s time to be transparent and talk about it. 
+
+Find a partner! 
+
+**20 minutes: **
+
+In pairs take turns to ask the questions below:  
+When it comes to showing your work in progress, what are your three biggest fears?
+When it comes to showing your work in progress, how will you overcome your three biggest fears? 
+When it comes to showing your work in progress, what’s the absolute worst thing that can happen? 
+When it comes to showing your work in progress, what is the best thing that can happen? 
+When it comes to the working world, how will you support your team mates?
+When it comes to the working world, what do you need from your team mates? 
+What’s a better outcome, making a mistake and learning something new or never making mistakes and never learning at all? 
+
+**Task:**
+Talk through your fears, get feedback, and work together to  find solutions to some of the challenges you face. 
+
+After 20 Minutes, it’s time to swap. 
+
+If you’re feeling brave, share your challenges to the group and ask for feedback. 
+
+
+**10 minutes**
+
+Task for class: 
+Each person has to give one piece of advice to support their fellow team members. 
+
+
 
 ## Ship It
 
