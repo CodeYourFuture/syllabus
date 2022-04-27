@@ -167,7 +167,7 @@ When it comes to the working world, what do you need from your team mates?
 What’s a better outcome, making a mistake and learning something new or never making mistakes and never learning at all? 
 
 **Task:**
-Talk through your fears, get feedback, and work together to  find solutions to some of the challenges you face. 
+Talk through your fears, get feedback, and work together to find solutions to some of the challenges you face. 
 
 After 20 Minutes, it’s time to swap. 
 
