@@ -51,8 +51,8 @@ function Overview() {
             <p>This website includes:</p>
             <ul>
               <li>
-                The modules that make up the Software Development course
-                (seen right)
+                The modules that make up the Software Development course (seen
+                right)
               </li>
               <li>One-off workshops that have been run by specialists</li>
               <li>Useful guides for our trainees</li>
@@ -64,8 +64,8 @@ function Overview() {
               If you're reading this then you may be looking to attend or teach
               a class in the future. In each of the module sections of this
               website you will find a suggested lesson plan for your lesson. If
-              you're new to CodeYourFuture this is a great place to start
-              with our teaching.
+              you're new to CodeYourFuture this is a great place to start with
+              our teaching.
             </p>
             <p>
               However,{" "}
@@ -115,9 +115,10 @@ function Overview() {
                 <div>
                   <p>
                     This online, self-paced course gives trainees a basic
-                    understanding of JavaScript, HTML &amp; CSS, unit tests, and guides them to building
-                    their first simple website. Completion of this course is
-                    required to access the full course.
+                    understanding of JavaScript, HTML &amp; CSS, unit tests, and
+                    guides them to building their first simple website.
+                    Completion of this course is required to access the full
+                    course.
                   </p>
                 </div>,
                 <VerticalSplitIcon />,
@@ -128,10 +129,15 @@ function Overview() {
                 "3 Weeks",
                 <div>
                   <p>
-                    This module is a three week immersion into the core principles of digital product development.
+                    This module is a three week immersion into the core
+                    principles of digital product development.
                   </p>
                   <p>
-                    Trainees work through the key stages of development: Requirements, Iteration, and Delivery. Trainees work in teams to discover requirements and express them as user stories. Trainees iterate on their work and then ship their websites to production.
+                    Trainees work through the key stages of development:
+                    Requirements, Iteration, and Delivery. Trainees work in
+                    teams to discover requirements and express them as user
+                    stories. Trainees iterate on their work and then ship their
+                    websites to production.
                   </p>
                 </div>,
                 <FormatListNumberedIcon />,
@@ -142,9 +148,10 @@ function Overview() {
                 "1 Week",
                 <div>
                   <p>
-                    This week inducts trainees to the Software Development Course and then introduces trainees to Git and Github
-                    using Github Desktop. This is a key skill for all developers
-                    and is also how we do our coursework at CodeYourFuture.
+                    This week inducts trainees to the Software Development
+                    Course and then introduces trainees to Git and Github using
+                    Github Desktop. This is a key skill for all developers and
+                    is also how we do our coursework at CodeYourFuture.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -157,10 +164,10 @@ function Overview() {
                 "4 weeks",
                 <div>
                   <p>
-                    Introducing Front End. What is frontend? It's another word for the presentational
-                    part of a piece of software. In terms of web development
-                    we're talking about "what you see" when you go to any
-                    website.
+                    Introducing Front End. What is frontend? It's another word
+                    for the presentational part of a piece of software. In terms
+                    of web development we're talking about "what you see" when
+                    you go to any website.
                   </p>
                   <p>
                     Think of it like this: if a webpage were a person, the HTML
@@ -168,7 +175,7 @@ function Overview() {
                   </p>
                 </div>,
                 <ViewQuilt />,
-                "/html-css/index",
+                "/html-css",
                 "Tech"
               )}
               {getComponent(
@@ -176,7 +183,8 @@ function Overview() {
                 "Integrated through HTML/CSS",
                 <div>
                   <p>
-                    Trainees discover, develop, and deliver a team building project.
+                    Trainees discover, develop, and deliver a team building
+                    project.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -185,7 +193,7 @@ function Overview() {
               )}
               {getComponent(
                 "JavaScript Core 1",
-                 "4 weeks",
+                "4 weeks",
                 <div>
                   <p>
                     In this module you'll make a start into the wonderful world
@@ -197,7 +205,7 @@ function Overview() {
                   </p>
                 </div>,
                 <Code />,
-                "/js-core-1/index",
+                "/js-core-1",
                 "Tech"
               )}
               {getComponent(
@@ -205,8 +213,8 @@ function Overview() {
                 "Integrated through JS1",
                 <div>
                   <p>
-                    Trainees will be introduced to important skills
-                    needed for the workplace.
+                    Trainees will be introduced to important skills needed for
+                    the workplace.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -231,7 +239,7 @@ function Overview() {
                   </p>
                 </div>,
                 <Web />,
-                "/js-core-2/index",
+                "/js-core-2",
                 "Tech"
               )}
               {getComponent(
@@ -239,8 +247,8 @@ function Overview() {
                 "Integrated through JS2",
                 <div>
                   <p>
-                    Trainees will explore various tools and techniques
-                    to develop their presentation skills.
+                    Trainees will explore various tools and techniques to
+                    develop their presentation skills.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -265,7 +273,7 @@ function Overview() {
                   </p>
                 </div>,
                 <Language />,
-                "/js-core-3/index",
+                "/js-core-3",
                 "Tech"
               )}
               {getComponent(
@@ -273,12 +281,14 @@ function Overview() {
                 "1 week",
                 <div>
                   <p>
-                   After JavaScript Core 3 trainees will reflect with mentors and choose a path of specialisation. After this point, trainees will pursue individualised learning plans based on their aptitudes and interests, broadly on these tracks:
+                    After JavaScript Core 3 trainees will reflect with mentors
+                    and choose a path of specialisation. After this point,
+                    trainees will pursue individualised learning plans based on
+                    their aptitudes and interests, broadly on these tracks:
                   </p>
-                  <br/>
+                  <br />
                   <h4>Tracks</h4>
                   <ul>
-                    
                     <li>Front End Development</li>
                     <li>Back End Development</li>
                     <li>Full Stack Development</li>
@@ -286,7 +296,6 @@ function Overview() {
                     <li>Cloud Engineering</li>
                     <li>Product Development</li>
                   </ul>
-
                 </div>,
                 <EmojiPeopleIcon />,
                 "https://docs.codeyourfuture.io/course-processes/running-the-course/assessment/milestones",
@@ -314,7 +323,7 @@ function Overview() {
                   </p>
                 </div>,
                 <AddToQueue />,
-                "/react/index",
+                "/react",
                 "Tech"
               )}
               {getComponent(
@@ -322,8 +331,8 @@ function Overview() {
                 "Integrated through React",
                 <div>
                   <p>
-                    Trainees will learn about the CYF process of getting
-                    a job and the tools to support getting into a new career.
+                    Trainees will learn about the CYF process of getting a job
+                    and the tools to support getting into a new career.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -345,7 +354,7 @@ function Overview() {
                   </p>
                 </div>,
                 <DNS />,
-                "/node/index",
+                "/node",
                 "Tech"
               )}
               {getComponent(
@@ -353,7 +362,8 @@ function Overview() {
                 "Integrated through Node",
                 <div>
                   <p>
-                    Mock interviews, writing CVs, and creating a professional profile online.
+                    Mock interviews, writing CVs, and creating a professional
+                    profile online.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -370,15 +380,9 @@ function Overview() {
                     You'll learn how to structure and group data so your apps
                     know where to find and store the correct data.
                   </p>
-                  <p>
-                    Depending on the city that you attend you'll either learn
-                    about MongoDB or PostgreSQL. We make sure to teach you the
-                    technology that is most important for your local jobs
-                    market.
-                  </p>
                 </div>,
                 <Storage />,
-                "/mongodb/index",
+                "/db",
                 "Tech"
               )}
               {getComponent(
@@ -386,8 +390,8 @@ function Overview() {
                 "Integrated through DB",
                 <div>
                   <p>
-                    Trainees will learn about how to work in a cross functional Agile team in
-                    preparation for the Final Projects.
+                    Trainees will learn about how to work in a cross functional
+                    Agile team in preparation for the Final Projects.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
@@ -419,8 +423,8 @@ function Overview() {
                 "Post project",
                 <div>
                   <p>
-                    The final leg of the course focuses on 
-                    Presentation skills and preparing for Demo Day.
+                    The final leg of the course focuses on Presentation skills
+                    and preparing for Demo Day.
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
