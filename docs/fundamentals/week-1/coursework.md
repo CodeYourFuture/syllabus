@@ -4,6 +4,10 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+## Tips for Success
+
+Read the [Tips for Success](../preparation/tips.md) and join a thread in your class Slack channel to discuss how you will apply them.
+
 ## HTML-CSS refresh (4 hours)
 
 During Fundamentals, we will be building a website with a block-based programming tool called CYF Blocks. The underlying code uses HTML, CSS, and JavaScript. If you have not done so already, prepare yourself now with this free crash course, to refresh and consolidate your learning from Intro to Digital.
