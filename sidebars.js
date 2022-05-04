@@ -18,6 +18,8 @@ module.exports = {
     Preparation: [
       "fundamentals/preparation/index",
       "fundamentals/preparation/accounts-and-tools",
+      "fundamentals/preparation/tips",
+      "fundamentals/preparation/brain-games",
       "fundamentals/preparation/agreements",
     ],
     "1 - Requirements": [
