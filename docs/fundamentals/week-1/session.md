@@ -30,13 +30,22 @@ You have read through the [Trainee Agreement](https://docs.codeyourfuture.io/org
 
 #### &rarr; [Learning objectives](./learning-objectives.md)
 
+## Slack (15mn)
+
+You should have installed Slack on your computer and phone during your class preparation.
+
+Post 5 interesting things about yourself in a thread.
+
+---
+
 ## Professional Development starts here
+
 Today is the very beginning of your career journey, and it starts by thinking about your professional development journey.
 
 :::note Exercise (15 minutes)
 In groups of five.
 
-Introduce yourself. Why did you apply to CYF? What is one goal you have achieved? What is your career goal? 
+Introduce yourself. Why did you apply to CYF? What is one goal you have achieved? What is your career goal?
 
 :::
 
@@ -46,7 +55,6 @@ In groups of five.
 Discuss why you want a job in tech and name three actions you will take as a commitment to your journey into your career. Will you keep up to date with job opportunities by researching roles? Will you build side projects to make yourself stand out? Will you commit to CYF?
 
 :::
-
 
 ## Code.org
 
