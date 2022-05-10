@@ -35,7 +35,6 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - Some display problems for some machines
 - A few other issues occurring for some trainees
 - Denver and others to document all the issues that arose from this iteration of Fundamentals
-
 - Clarity needed about how objectives are related to the lessons at the moment
 - Trainees usage of Zoom - use of "Raise hands", Slack chaos at the moment - need a session on effective use of Slack
 - Non-audible learners - discrepencacy between use of Slides and non-use of Slides
@@ -43,7 +42,6 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - Shaun and Denver solve Slack chaos - create a solved and issues thread to order some of the messages
 - Add slack exercise on week 1 - we can add previous exercise from earlier Fundamentals version
 - Slackbot encouraging students to post on Slack ?
-
 - 4 high level goals of fundamentals- how are they doing ?
 
 1. I'm part of a cohort
@@ -73,21 +71,15 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - Greg to check and merge these PRs
 - Wait for other PRs to get merged before tackling "Greater than 11"
 
-### TAs for West Midlands
-
--
-
 ### Teacher training thus far
 
 - 5 people attended last Saturday
 - Material still in development
 - Live streaming + recording coming soon
--
 
 ### Module teams
 
 - Recruitment doc for React module peeps
--
 
 ### Blockly toolbox parser
 
@@ -100,6 +92,8 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 - Check how solid the module teams are at the moment - Sanyia
 - Talk about new Fundamentals with WM - Greg
 - Arrange another call for markdown parser - Ali/Sanyia
+
+---
 
 ## 2022-04-13
 
