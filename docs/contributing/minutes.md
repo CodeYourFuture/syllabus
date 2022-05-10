@@ -4,6 +4,103 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-04-28
+
+Attendees: Shaun, Sally, Denver, Greg, Mitch,
+
+### Actions from last time
+
+- [x] Sally: move meeting invite to Thurs
+- [ ] Greg: set up a debrief with ZA (pending) - action!
+- [x] Sally: share intro to CYF slides with Greg
+- [ ] Ali: set up a Blockly Reactification call - action!
+- [ ] Greg: create a ticket for cypress tesing in blockly - action!
+- [x] Daniel: progress JS1 module project
+
+### WMCA deal
+
+- A lot of work to adapt the course to the requirements of the WMCA
+- Not signing the deal - too much work to contort the course
+
+### ZA Fundamentals (Denver)
+
+- Well received thus far after 2 weeks
+- Liked/learned/loved retro - mostly liked :)
+- CYF blocks was well received
+- Lack of JS syntax in this section
+- Students expressing desire for physical class
+
+#### Blocks
+
+- Some display problems for some machines
+- A few other issues occurring for some trainees
+- Denver and others to document all the issues that arose from this iteration of Fundamentals
+
+- Clarity needed about how objectives are related to the lessons at the moment
+- Trainees usage of Zoom - use of "Raise hands", Slack chaos at the moment - need a session on effective use of Slack
+- Non-audible learners - discrepencacy between use of Slides and non-use of Slides
+- Insufficient number of mentors at the moment, half a cohort in a single breakout room
+- Shaun and Denver solve Slack chaos - create a solved and issues thread to order some of the messages
+- Add slack exercise on week 1 - we can add previous exercise from earlier Fundamentals version
+- Slackbot encouraging students to post on Slack ?
+
+- 4 high level goals of fundamentals- how are they doing ?
+
+1. I'm part of a cohort
+
+- Super chatty, too chatty ?? 😛. Meeting up independently
+
+2. Start as we mean to go on
+
+- Some students not completed homework but most handed in
+- Split trainees ( 4 per mentor ) for mangeable workload
+- Not deep marking, more "Is this work complete?" - deep marking not scalable
+
+3. Breaking down problems
+
+- Enjoying the games used in Fundamentals so far
+
+4. Shipping it
+
+- Everyone successfully shipped by week 2!
+
+### Training for TAs/teachers
+
+- Arrange CFY teacher training
+
+### Reamining Blockly PRS
+
+- Greg to check and merge these PRs
+- Wait for other PRs to get merged before tackling "Greater than 11"
+
+### TAs for West Midlands
+
+-
+
+### Teacher training thus far
+
+- 5 people attended last Saturday
+- Material still in development
+- Live streaming + recording coming soon
+-
+
+### Module teams
+
+- Recruitment doc for React module peeps
+-
+
+### Blockly toolbox parser
+
+- Sanyia to go through the toolbox parser PR and the current approach
+
+### ❗Actions
+
+- Open issue for slack exercise in Week 1 - ?
+- Recruit people for React module team - Ali
+- Check how solid the module teams are at the moment - Sanyia
+- Talk about new Fundamentals with WM - Greg
+- Arrange another call for markdown parser - Ali/Sanyia
+
 ## 2022-04-13
 
 Attendees: Sally, Greg, Daniel, Ali, Sanyia
