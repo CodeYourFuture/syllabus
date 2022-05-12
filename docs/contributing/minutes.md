@@ -3,6 +3,91 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+## 2022-05-12
+
+Attendees: Shaun, Sally, Denver, Greg, Mitch,
+
+### Actions from last time
+
+- [ ] Greg: set up a debrief with ZA (pending) - action!
+- [ ] Greg: create a ticket for cypress testing in blockly - action!
+- [x] Ali: set up a Blockly Reactification call - action!
+- [x] Open issue for slack exercise in Week 1 - Sally
+- [x] Recruit people for React module team - Ali
+- [ ] Check how solid the module teams are at the moment - Sanyia
+- [x] Talk about new Fundamentals with WM - Greg
+- [x] Arrange another call for markdown parser - Ali/Sanyia
+
+### Report from Hack your Future summit
+
+CYF was an early spinoff of HYF. Different in following ways
+  - Denmark, Netherlands, Belgium, Denmark
+  - Operating on a franchise model (with own leadership and staff)
+  - Different outcomes because e.g. Netherlands has an apprenticeship model in the hiring companies
+  - Don't graduate people until they are ready (part of how they've improved their outcomes)
+  - Not as much volunteer engagement/ownership
+  - Completely different curriculums in each franchise (w/ legal agreement that if outcomes are not met, franchise is revoked)
+  - In Denmark, companies pay to go into HYF to run a master class.
+
+HYF Belgium super interested in LearnLab. They would like to share/collaborate on curriculum
+
+Many projects we might like to fork and use + early JS modules.
+
+StudyLens tool might be interesting/useful https://github.com/CodeYourFuture/study-lenses
+
+Should potentially interact with HYF syllabus people in general.
+
+### React Module Team
+
+- Advertise for it 
+- Come up with commitments required of team 
+  - time
+  - regular meeting (chair, minute taker)
+  - visibility (minutes)
+  - syllabus team member to come in for some amount of time to help bootstrapping)
+  - review PRs, including to coursework
+  - talking to teachers/gathering feedback
+- 3-5 members is the sweet spot
+- Need to ensure they take ownership: so far, no "here's some ideas, here's where we'd like to take the module"
+- Need to discover what the contract that gives power, responsibility and ownership looks like
+- If we wanted module teams to come to us with "major changes", would have to define what "major change" means.
+- How would the module team interact with syllabus team?
+  - Maybe 2-4 x per year retro will all? 
+
+### Fundamentals
+
+- ZA are going to do some interviews following fundamentals
+
+### Miro
+
+- Mitch: is there a CYF MIRO board account?
+- Greg: maybe can manage with free account?
+- Sally: we have Figma for ed
+
+### Unconfuse Greg
+
+- PD portion will be in the fundamentals syllabus
+- Sally's code review sessions are for Buddies: how much code review to do, good strategies for working with buddy groups, making sure that people know how to use github, etc.
+
+### CYF online?
+
+In order to happen would need to solve
+
+- People are often isolated - doing CYF online does not help much with that
+- Meetup in person has much better outcomes for English
+- Meetup in person has better well being and employment outcomes
+- City based meetup means volunteers are embedded in the local tech scene, where the jobs are 
+
+### Misc
+
+- Have had applications to 4-week-ify the syllabus
+- Classwork is setup in google classrooms (ready to be cloned an can be set in advance)
+
+### ❗Actions
+
+ - [ ] All: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
+ - [ ] Ali: Recruit React Module Team and set up kickoff call
+ - [ ] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
 
 ## 2022-04-28
 
@@ -87,11 +172,11 @@ Attendees: Shaun, Sally, Denver, Greg, Mitch,
 
 ### ❗Actions
 
-- Open issue for slack exercise in Week 1 - ?
-- Recruit people for React module team - Ali
-- Check how solid the module teams are at the moment - Sanyia
-- Talk about new Fundamentals with WM - Greg
-- Arrange another call for markdown parser - Ali/Sanyia
+- [x] Open issue for slack exercise in Week 1 - ?
+- [x] Recruit people for React module team - Ali
+- [ ] Check how solid the module teams are at the moment - Sanyia
+- [x] Talk about new Fundamentals with WM - Greg
+- [x] Arrange another call for markdown parser - Ali/Sanyia
 
 ---
 
