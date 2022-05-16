@@ -61,9 +61,11 @@ Significant contributions are accepted strictly through approved pull requests, 
 
 ### Slack
 
-Syllabus wide discussion happens in `cyf-syllabus`
+Syllabus wide discussion happens in `cyf-syllabus-tech`
 
-Module or workshop specific discussion happens in `cyf-module-`. For example, the React module discussion can be found in `cyf-module-react`.
+Module or workshop specific discussion happens in `cyf-module-$subject`. For example, the React module discussion can be found in `cyf-module-react`.
+
+Track specific discussion happens in `cyf-$subject-track`
 
 ## Lesson Template
 
@@ -79,7 +81,7 @@ A lesson must have
   - Each topic must have appropriate exercises
 - A link to the homework
 
-Focus on exercises in the class rather than presentations or long explanations
+Focus on exercises in the class rather than presentations or long explanations. 
 
 ### Coursework
 
