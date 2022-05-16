@@ -16,7 +16,7 @@ This module is different to others at CodeYourFuture because some it taught in c
 
 These lessons will be assigned at the following times:
 
-- Lesson 1 - Delivered on the second week of the Software Development course
+- Lesson 1 - Delivered on the first week of the Software Development course
 - Lesson 2 - Assigned as Coursework after JavaScript Core 1 Week 3
 - Lesson 3 - Assigned as Coursework after JavaScript Core 2 Week 1
 - Lesson 4 - Assigned as Coursework after JavaScript Core 2 Week 3
