@@ -177,7 +177,7 @@ If you’re feeling brave, share your challenges to the group and ask for feedba
 **10 minutes**
 
 Task for class: 
-Each person has to give one piece of advice to support their fellow team members. 
+In small groups each person has to give one piece of advice to support their fellow team members. 
 
 
 
