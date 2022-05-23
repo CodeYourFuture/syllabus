@@ -162,8 +162,8 @@ When it comes to showing your work in progress, what are your three biggest fear
 When it comes to showing your work in progress, how will you overcome your three biggest fears? 
 When it comes to showing your work in progress, what’s the absolute worst thing that can happen? 
 When it comes to showing your work in progress, what is the best thing that can happen? 
-When it comes to the working world, how will you support your team mates?
 When it comes to the working world, what do you need from your team mates? 
+When it comes to the working world, how will you support your team mates?
 What’s a better outcome, making a mistake and learning something new or never making mistakes and never learning at all? 
 
 **Task:**
