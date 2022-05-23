@@ -144,6 +144,7 @@ Read ahead to Ship It to see where to paste your code.
 
 :::note Exercise: Click! (25m)
 In the same pairs, try to implement one user story. While implementing, try to break down into steps where you can visually check that your code runs as expected.
+:::
 
 ---
 
