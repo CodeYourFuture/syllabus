@@ -14,5 +14,5 @@ This is the graduation criteria for Fundamentals.
 6.  You have completed all coursework assignments.
 7.  You want a good job in tech.
 8.  You are actively working to improve your technical English reading, writing, speaking and listening skills, and you have shown this by completing the coursework.
-9.  You have completed the Fundamentals Applied Digital Skills course.
+9.  You have completed the English skills audit.
 10. You have met all your commitments including the [Trainee Agreement](../preparation/agreements.md).
