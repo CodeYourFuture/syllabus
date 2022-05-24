@@ -49,6 +49,39 @@ How will you work together? Using the collaborative tools you have learned durin
 - **in small groups**: define your goals as user stories
 - **in pairs**: iteratively improve your products
 
+
+## Personal development - 90 minutes 
+
+You have now developed several products. It’s time to deliver like a professional. 
+
+As a developer, you will
+develop an MVP
+test your product
+be transparent about the challenges you have faced
+discuss the next iteration of your product
+
+Developers are always iterating their products, which is why you might experience software updates on your devices at home. Each iteration is shared in public. It’s time to showcase your work.
+
+## Collaboration is key
+**20 minutes** 
+
+Once you have shipped your website you will need to work in small groups and deliver a 3-minute presentation. (You can only use up to two slide slides, and you must show your product.
+
+Each person in your group must cover at least one of the points below
+
+Your presentation you must cover the following: 
+The CYF Blocks project you developed
+Why  you chose it
+What your goals were 
+What your challenges were
+What you learned 
+What you would do differently if you had another opportunity
+
+
+** It's time to deliver:(70 minutes)**
+Each group has up to three minutes to present a summary of their product to the class 
+
+
 ## Wrap up
 
 ### Reflection on Fundamentals
