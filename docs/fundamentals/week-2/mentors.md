@@ -26,7 +26,7 @@ Here's a rough schedule, which you can adapt to suit your cohort. You should als
 
 |   13:00   |   13:30   |   14:00   |   14:30    |   15:00   |  15:30  | 16:00   | 16:30 |
 | :-------: | :-------: | :-------: | :--------: | :-------: | :-----: | ------- | ----- |
-| Capgemini | Capgemini | Iterating | CYF Blocks | Iterating | Ship It | Ship It | Retro |
+| Capgemini / Personal Development  | Capgemini / Personal Developement | Iterating | CYF Blocks | Iterating | Ship It | Ship It | Retro |
 
 ## Blockers!
 
