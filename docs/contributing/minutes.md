@@ -5,7 +5,59 @@ sidebar_label: Team Minutes
 ---
 ## 2022-05-12
 
-Attendees: Shaun, Sally, Denver, Greg, Mitch,
+Attendees: Daniel, Sanyia, Sally, Ali, Greg
+
+### Actions from last time
+
+- [ ] Greg: set up a debrief with ZA (pending) - action!
+- [ ] Greg: create a ticket for cypress testing in blockly - action!
+- [ ] Check how solid the module teams are at the moment - Sanyia
+- [ ] Ali?: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
+- [ ] Ali: Recruit React Module Team (done-ish) and set up kickoff call
+- [x] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
+
+### ❗Actions
+
+- [ ] Sally: send list of some more people for React module team
+- [ ] Ali: chat with Lily about more people for React module team
+- [ ] Ali: coordinate with applicants so far for React module team
+- [ ] Sally: follow up with ZA at some point about why they needed to conduct interviews
+
+### React module team
+
+- Only 4 people have responded so far
+- Possibly not enough critical mass/skill so far?
+- Maybe need clearer info about what applicants should tell us?
+
+### Windows machines
+
+- What are the options for students starting on Windows?
+- Windows is "banned", WSL(2) is just not effective - the issue is the amount of support + create-react-app takes forever
+- Can't get anyone to build a boot drive for Linux (even after offering money)
+- Enforce after the Fundamentals
+- If machine not powerful enough to dual boot Linux/Windows -> get them a laptop
+- Mac is ok (ish).
+
+### Github teams
+
+- Why is Ali getting pinged about adding people to github?
+
+### Upcoming work
+
+- Sanyia - reactification of blocks
+- Daniel - involved in creating an accelerator program to get students ready for high performing jobs (e.g. slack)
+- Greg - cypress + contributing to blockly
+- Ali - group projects
+
+### Many people in Fundamentals in NW
+
+- Multiple cohorts?
+- Don't need fundamentals to be selective
+- But not good to try to run a cohort with not enough volunteers
+
+## 2022-05-12
+
+Attendees: Sanyia, Ali, Sally, ??
 
 ### Actions from last time
 
