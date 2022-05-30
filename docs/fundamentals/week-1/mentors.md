@@ -20,7 +20,7 @@ Here's a rough schedule, which you can adapt to suit your cohort. You should als
 
 | 10:00 AM |  10:30 AM  | 11:00 AM |  11:30 AM  | 1200:00 AM | 12:30 AM |
 | :------: | :--------: | :------: | :--------: | :--------: | :------: |
-| Welcome  | Agreements | Code.org | CYF Blocks |   Lunch    |  Lunch   |
+| Welcome / Agreements  | Personal Development | Personal Development | Code.org  |   Lunch    |  Lunch   |
 
 ### Afternoon
 
