@@ -29,7 +29,11 @@ Set up your LinkedIn profile. Let employers know that you have built your first 
 
 Task 2: 
 
-It’s time to do your research, it’s time to get familiar with the industry that you want to work in. Go on google and search for roles, look at the **person specifications** that companies are hiring for, please fill out the form below with the **three soft skills** employers are currently looking for, you will be able find roles on CW Jobs, Linkedin, Indeed and any jobs board: 
+It’s time to do your research. It’s time to get familiar with the industry that you want to work in. Search for roles on Google: look at the **person specifications** that companies are hiring for.
+
+Fill out the form below with the **three soft skills** employers are currently looking for. 
+
+You will find roles on [CW Jobs](https://www.cwjobs.co.uk/), [Linkedin](https://www.linkedin.com/),[ Indeed](https://uk.indeed.com/),  and any jobs board.
 
 
 Employers are looking for Full stack developers that are: 
