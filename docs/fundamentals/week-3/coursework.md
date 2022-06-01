@@ -45,7 +45,7 @@ Employers are looking for Full Stack developers that can:
 
 Employers are looking for Front End developers that are:
 
-1.Abile to effectively present information and respond to questions from management, business and users.
+1. Effectively present information and respond to questions from management, business, and users.
 2.
 3.
 
