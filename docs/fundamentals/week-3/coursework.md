@@ -36,7 +36,7 @@ Fill out the form below with the **three soft skills** employers are currently l
 You will find roles on [CW Jobs](https://www.cwjobs.co.uk/), [Linkedin](https://www.linkedin.com/),[ Indeed](https://uk.indeed.com/),  and any jobs board.
 
 
-Employers are looking for Full stack developers that are: 
+Employers are looking for Full Stack developers that can: 
 
 1. Able to build rapport with a diverse range of people
 2.
