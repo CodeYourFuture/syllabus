@@ -25,7 +25,7 @@ Share your deployed website in your cohort's Slack channel.
 
 Task 1: 
 
-Set up your LinkedIn profile and let employers know that you have started your journey into the tech industry and have  built your first product! 
+Set up your LinkedIn profile. Let employers know that you have built your first product and started your journey into the tech industry.
 
 Task 2: 
 
