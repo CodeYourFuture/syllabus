@@ -237,6 +237,30 @@ After you've merged a pull request, you can delete your branch, because you don'
 
 On the internet, you may see people referring to `git checkout` and `git checkout -b` as ways to switch, or create, branches. These are old versions of the commands `git switch` and `git switch --create`. They work the same, but because their names are less good (and sometimes they can also do extra things, which may be surprising), they have been replaced with `git switch`. You should use `git switch`, but don't be scared if you see someone talking about `git checkout` - it's the same thing!
 
+ ## 8) Professional development - Train the trainer  task (Git)
+
+9) Professional development - Train the trainer (60 mins)
+Communication
+
+Explain why communication is important as a developer and why different roles need to understand what developers are working on(5mins)
+
+1)Explain why Git is a useful tool and how developers might use Git in their roles? 
+2)Explain how to commit, fork a repository, and push changes 
+3)Explain why branches can be useful when using Git.
+4)Define the differences between a Terminal and a GUI and describe the benefits of both
+5)Explain why files change over time.
+
+
+In small groups trainees must pick an audience:
+
+1)A group of 10 year olds 
+2)Your boss
+3)a peer group at a similar level to you.
+
+You have a maximum of three minutes to present back to the wider group. (40 minutes)
+
+All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+
 ## Coursework
 
 You can find this weeks coursework [here](./homework).
