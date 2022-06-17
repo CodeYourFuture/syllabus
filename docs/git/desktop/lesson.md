@@ -325,9 +325,61 @@ Try to use this format when making your own commits. GitHub Desktop tries to enc
 
 Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
+
+## Personal Development - Introspection 
+
+**Goals , Expectations  & Contributions (10 - 15 mins) **
+
+To identify trainees goal(s) for being on the Full Stack CYF course
+To highlight the expectations CodeYourFuture has for it's trainees
+What do you contribute to the community?
+**
+What do Developers do?  (20 mins)**
+In this section we'll explore how a professional behaves and thus how we expect trainees to behave.
+
+**
+Exercise (Why Git is useful) **
+In groups of 5, Brainstorm together in small or large groups imagine all the day-to-day activities and behaviours of a professional software developer. Think about how Git is a useful tool and how it might help developers in their role.
+You might want to use a Miro Board
+
+Once we have we have a large list, invite them to think about whether they do all those things already
+Discuss how to change things so they begin to do more and more of those things highlighting that practice is the way to develop
+
+All trainees are to complete a SDOT analysis (20 mins) 
+
+https://docs.google.com/document/d/1MCujCtdSUmfrVGr5Vd9nstoNz0nXMUY1nZ002KMl1rk/edit#
+
+
+
+
+
 ## Coursework going forwards
 
 For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
+
+Personal Development Coursework
+1) Holding yourself accountable and setting goals 
+
+Now that you have envisioned the person you want to become and have a clear insight into your SWOT, it’s time to set some clear goals that will help you stay accountable and work towards achieving your personal and professional career ambitions. 
+
+Set SMART goals: 
+
+Specific  - Be explicit about what you want to achieve.
+Measurable - Make sure you can measure your progress. 
+Achievable - Make sure that it’s realistic and attainable. 
+Relevant - Don’t get a goal that is out of context to your career journey! 
+Time bound - Give yourself a clear deadline. 
+
+2) - Professional Development and industry readiness preparation.
+
+Professional communication is critical when it comes to landing a role employers are looking for passionate candidates and use platforms like Linkedin to source future employees. 
+
+Stretch goal: 
+Set up your linkedin profile and let employers know that you have started your journey into the tech industry. Communicate one of your smart goals, but make sure that it’s relevant to landing a role as a developer
+
+
+3) Trainee - English Skills audit 
+https://docs.google.com/forms/d/e/1FAIpQLSevkdGlnEipFThi4CTGc5pxs-GjwREQ2CgBC-Sv7yKOcOMwYA/viewform
 
 ## Glossary
 
