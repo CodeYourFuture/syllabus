@@ -104,6 +104,16 @@ The words make a layout template - a little map of where things will be placed o
 Unlike the semantic HTML elements we discussed, where different tags are parsed in different ways by the browser, you could use any string of characters as a name in CSS Grid. But should you? What is the value and purpose of naming things clearly? Discuss your ideas in small groups.
 :::
 
+## Professional Development - Collaboration and communication (60 minutes)
+In small groups it's time to share your learnings and deliver back to the class your presentation must cover the following:
+
+
+1) Why is it important to build accessible websites, you must cover who browse the web, and the different types of users?
+2)what form controls can we use when we want the user to choose multiple options from a list?
+3) The difference between the DOM API and the Accessibility API
+3) Why it's important to be transparent as a developer and why developers use pull requests?
+4) Why it's important to do a retro?
+
 ## Coursework
 
 Click [here](./homework) to view the coursework for this lesson.
