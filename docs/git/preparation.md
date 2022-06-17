@@ -109,3 +109,29 @@ https://www.youtube.com/watch?v=S320N3sxinE
 If you have not done so already, create a CYF folder on your hard drive in your home directory or top level directory.
 
 Clone all your repos and _always do all your work in this folder_. Create subfolders inside the CYF directory for your modules. Don't have files all over your computer in a giant mess. Be professional from day one, and you will run into fewer problems as the course continues.
+
+
+## 9) Professional development - Train the trainer   (60 mins)
+
+Communication 
+
+Explain why communication is important as a developer and why different roles need to understand what developers are working on(5mins)
+
+
+Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
+It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
+
+1)Explain why Git is a useful tool and how developers might use Git in their roles? 
+2)Explain how to commit, fork a repository, and push changes
+3)Explain why files change over time. 
+
+In small groups trainees must pick an audience:
+
+1) A group of 10 year olds
+2)Your boss
+3) a peer group at a similar level to you.
+
+You have a maximum of three minutes to present back to the wider group. (40 minutes)
+
+All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+
