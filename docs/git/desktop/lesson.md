@@ -341,6 +341,33 @@ We introduced a few new things in this class, and it can be a bit confusing to k
 
 You can find this weeks homework [here](./homework)
 
+
+## 9) Professional development - Train the trainer   (60 mins)
+
+Communication 
+
+Explain why communication is important as a developer and why different roles need to understand what developers are working on(5mins)
+
+
+Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
+It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
+
+1)Explain why Git is a useful tool and how developers might use Git in their roles? 
+2)Explain how to commit, fork a repository, and push changes
+3)Explain why files change over time. 
+
+In small groups trainees must pick an audience:
+
+1) A group of 10 year olds
+2)Your boss
+3) a peer group at a similar level to you.
+
+You have a maximum of three minutes to present back to the wider group. (40 minutes)
+
+All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+
+
+
 ## Feedback
 
 It's really helpful if you give us feedback for this lesson. This helps us improve it for future trainees!
