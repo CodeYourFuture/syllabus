@@ -325,33 +325,22 @@ Try to use this format when making your own commits. GitHub Desktop tries to enc
 
 Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
+Using technical language as a developer
+In this section we'll explore how a professional uses technical language to communicate to their team.
 
-## Personal Development - Introspection 
+Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
+It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
 
-**Goals , Expectations  & Contributions (10 - 15 mins) **
+1) Why Git is a useful tool?
+2) How to  commit, fork a repository, and push changes?
 
-To identify trainees goal(s) for being on the Full Stack CYF course
-To highlight the expectations CodeYourFuture has for it's trainees
-What do you contribute to the community?
-**
-What do Developers do?  (20 mins)**
-In this section we'll explore how a professional behaves and thus how we expect trainees to behave.
+In small groups you must pick an audience:
 
-**
-Exercise (Why Git is useful) **
-In groups of 5, Brainstorm together in small or large groups imagine all the day-to-day activities and behaviours of a professional software developer. Think about how Git is a useful tool and how it might help developers in their role.
-You might want to use a Miro Board
+1) A group of 10 year olds
+2)Your boss
+3) a peer group at a similar level to you.
 
-Once we have we have a large list, invite them to think about whether they do all those things already
-Discuss how to change things so they begin to do more and more of those things highlighting that practice is the way to develop
-
-All trainees are to complete a SDOT analysis (20 mins) 
-
-https://docs.google.com/document/d/1MCujCtdSUmfrVGr5Vd9nstoNz0nXMUY1nZ002KMl1rk/edit#
-
-
-
-
+You have a maximum of three minutes to present back to the wider group. (40 minutes)
 
 ## Coursework going forwards
 
