@@ -900,7 +900,7 @@ See if you can use these pseudo classes to give the left box a grey background (
 :::
 
 
-** Professional Development - Developer communication **
+## Professional Development - Developer communication 
 
 Using technical language as a developer (10 mins)
 In this section we'll explore how a professional uses technical language to communicate to their team.
