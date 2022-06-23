@@ -3,7 +3,45 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
-## 2022-05-12
+## 2022-06-23
+
+Attendees: Sanyia, Sally, Ali
+
+### Actions from last time
+
+- [ ] Sally: send list of some more people for React module team
+- [x] Ali: chat with Lily about more people for React module team
+- [x] Ali: coordinate with applicants so far for React module team
+- [ ] Sally: follow up with ZA at some point about why they needed to conduct interviews
+- [ ] Greg: set up a debrief with ZA (pending) - action!
+- [ ] Greg: create a ticket for cypress testing in blockly - action!
+- [ ] Ali?: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
+- [ ] Ali: Recruit React Module Team (done-ish) and set up kickoff call
+
+### ❗Actions
+
+- [ ] Sanyia: to speak to potential Deliveroo candidate for global syllabus team
+- [ ] Sanyia: start onboarding for Tom Daly for React module team
+- [ ] Sanyia: speak to Carmen from Deliveroo for React module team
+
+### React module team
+
+- Sanyia has 1 definite joiner from Deliveroo, and 1 maybe joiner from Deliveroo
+- Only 4 people have responded so far
+
+### Global syllabus team
+
+- Daniel leaving - looking for a syllabus team backfill (Sanyia may have someone in mind from Deliveroo) 
+
+### Upcoming work
+
+- Sanyia - reactification of blocks
+- Daniel - involved in creating an accelerator program to get students ready for high performing jobs (e.g. slack)
+- Greg - cypress + contributing to blockly
+- Ali - group projects
+
+
+## 2022-05-26
 
 Attendees: Daniel, Sanyia, Sally, Ali, Greg
 
