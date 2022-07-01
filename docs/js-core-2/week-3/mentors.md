@@ -16,47 +16,40 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
-## Quiz
-
-- [End of Module Quiz - [Google Form] - 04/06/2020](https://docs.google.com/forms/d/e/1FAIpQLSeF4F3b9ogAWdgabCcrHfBlDx-59xQ3w-tIG-ojdEqnJng5Pg/viewform)
-  - Created by London and Antigoni Makri
-- [End of Module Quiz - [Google Form] - 28/05/2020](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform)
-  - Created by Chris Owen
-
 ## Presentations
+
+- [Week 3 - JS Core 2 [Google Slides] - 2022](https://docs.google.com/presentation/d/1VufuWc5_EWuhEvK9NUcIQy5-Gj1f5G-HI8h1GOfYDWQ/edit?usp=sharing) Created by Ellie Wintram
 
 ## Notes
 
-### Exercise - Synchronous vs Asynchronous
+### Build a static mockup first
 
-The aim of this exercise is to enable trainees to define the difference between synchronous and asynchronous code.This should be run in small groups and TAs should make sure that there's a dicussion about the order of the expected results.
+- I'll normally have the trainees first make a prototype static html version of the expected output, based on their interpretation of the homework's written task
+- Do they agree? Give them time to discuss it and convince each other. If they all agree on the same wrong question interpretation, I'll be tempted to aim for that rather than correct them - knowing the learning objectives is important here.
+- Normally I'll have them do this mockup on codepen, or somewhere quite distinct from their programmatically-constructed work so they don't mix them up.
 
-The main messages to be delivered here are:
+### Give trainees the intended HTML
 
-1. In _synchronous_ programmes, if you have two lines of code (L1 followed by L2), then L2 cannot begin running until L1 has finished executing. You can imagine this as if you are in a line of people waiting to buy train tickets. You can't begin to buy a train ticket until all the people in front of you have finished buying theirs. Similarly, the people behind you can't start buying their tickets until you have bought yours.
+- I'd much prefer the exercise provided these mock-ups up-front, so the trainee can focus on the programming task. They waste a lot of time trying to interpret ambiguous task statements, and I'm sure volunteers also waste a lot of time trying to write them clearly, too. Picture is worth a 1000 words.
 
-2. In _asynchronous_ programmes, you can have two lines of code (L1 followed by L2), where L1 schedules some task to be run in the future, but L2 runs before L1's task completes. Picture eating at a sit-down restaurant. Other people order their food. You can also order your food. You don't have to wait for them to receive their food and finish eating before you order. Similarly, other people don't have to wait for you to get your food and finish eating before they can order. Everybody will get their food as soon as it is finished cooking.
+### DOM Tree diagram
 
-### The Network Tab
+- I'll have (or I'll help) the trainees draw the _intended_ DOM tree based on their static HTML prototype. By hand is best (https://autodraw.com is quick and simple).
+- I'll have the trainees draw the starting DOM diagram (often the exercise has a starting div element into which the trainees will append created elements)
+- I'll show the trainees how I think of createElement and appendElement working - the former creating an element that is imagined but not yet attached to the tree
+- I'll stress that only those elements attached somehow to the tree will be shown.
 
-The most important part of the Network Tab to explain is the relationship between the HTML file and the requests that are subsequently made.
+### Element view in dev tools
 
-That is to say that when a HTML is parsed that GET requests are made to the resources that are required to view the page. This can be shown by
+- This will come in particularly useful when the trainees are debugging the addition of elements which are invisible due to missing text content.
 
-- Showing how a JavaScript file is referenced in a `<script>` tag and is then loaded in the Network Tab
-- Showing how an `<img>` tag referenced a `src` attribute and the image is loaded in the Network Tab
+### Decomposition
 
-### Exercise - GET Requests
+- Guide the trainees in breaking down the task into smaller steps, including learning experiments not directly contributing to the final wanted HTML.
+- With each subtask, prepare starting and target versions of HTML prototype codepen, and the starting version of the DOM tree diagram.
 
-The aim of this exercises to let the trainees explore the network tab and spending some time reading code.
+### Use ALL of the representations
 
-When the class has submitted their lists open the network tab and see exactly what was requested by the website. Have a discussion around each of the GET requests. You can find the website in the exercise [here](https://codeyourfuture.github.io/Network-Tab-Example/).
-
-For trainees that go very quickly through the exercise send them to a complicated website and continue to let them explore through the exercises. Some ideas:
-
-- https://codeyourfuture.io/meet-the-team/ - Good because it has lots of images
-- https://www.bbc.co.uk/news - Lots of icons and images
-
-### Exercise - POST Requests
-
-Again, the aim of this exercises is to let the trainees see how requests can be triggered by a button click and forces them to see the difference between a GET and POST request.
+- Get trainees to work through making the changes to the static HTML prototype (codepen) and then their DOM tree diagram, talking through the operations they need (creating an element, appending an element (where?)).
+- get commitment to predictions at each point.
+- Be wary of overwhelming the trainees with too many representations, but if they've met all of these individually with the exception of the DOM tree diagram, I have only seen struggling trainees embrace these different views and benefit from them. Certainly let them choose the ones that work best for them. Whatever helps them to reason about the task, their code, and the changes they need to make to it.

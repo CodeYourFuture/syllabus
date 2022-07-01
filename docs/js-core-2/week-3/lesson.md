@@ -8,16 +8,18 @@ import Feedback from "@theme/Feedback";
 
 ## Contents
 
-- [Synchronous and Asynchronous programming](#synchronous-and-asynchronous-programming)
-  - [A real life example](#a-real-life-example)
-  - [A Javascript example](#a-javascript-example)
-  - [The Callstack](#the-callstack)
-  - [Callbacks](#callbacks)
+- [JS in the Browser](#js-in-the-browser)
+  - [The DOM](#the-dom)
+  - [Access DOM elements](#access-dom-elements)
+    - [Preparation for exercises](#preparation-for-exercises)
     - [Exercise (1)](#exercise-1)
-- [How does the web work?](#how-does-the-web-work)
-  - [Client/Server architecture](#clientserver-architecture)
-  - [HTTP Requests](#http-requests)
+  - [Attach events to DOM elements](#attach-events-to-dom-elements)
     - [Exercise (2)](#exercise-2)
+    - [Exercise (3)](#exercise-3)
+  - [Create DOM elements](#create-dom-elements)
+    - [Exercise (4)](#exercise-4)
+  - [Manipulate DOM elements](#manipulate-dom-elements)
+    - [Exercise (5)](#exercise-5)
 
 ---
 
@@ -25,179 +27,125 @@ import Feedback from "@theme/Feedback";
 
 By the end of this lesson trainees should be able to:
 
-- Define the difference between synchronous and asynchronous code
-- Describe why writing asynchronous code is important when working with the internet
-- Write code that is able to pass a function to another function as a parameter and run it
-- Use callbacks to run code at some point in the future
-- Define a client's and server's role in the client/server architecture
-- Describe the difference between a GET and POST request
-- Explain how resources are loaded on the internet using GET and POST
-- List the steps that a browser does when loading a website from the internet
+- Define what the DOM is and what it does
+- Use query selectors to retrieve elements from the DOM
+- Use event listeners to respond to events that happen on the DOM
+- Create DOM elements using JavaScript and add them to the DOM
+- Manipulate DOM elements using JavaScript to change their properties
 
 ---
 
-## Synchronous and Asynchronous programming
+## JS in the Browser
 
-In a synchronous programming model, tasks run one at a time. When a long running action starts, the program waits for it to finish and return the result before it moves to the next action.
+Up until now we've been using `console.log` to see the results of our code running, because it allows us to focus on writing code and seeing the results instantly. But JavaScript was not meant to be run in `console.log`: it was meant to make web pages dynamic.
 
-Asynchronous programming allows multiple actions to happen at the same time. When a long running action starts, the program can continue to run. When the action finishes the program will get notified and get access to the result returned.
+Lots of websites are powered by JavaScript today, and some (like Facebook) cannot function at all without it: it's become that important to the look and feel of the website.
 
-<img src={require('!file-loader!./assets/sync-vs-async.jpg').default} />
+## The DOM
 
-### A real life example
+Your webpages are made up of a bunch of HTML elements, nested within each other (parents and children). But JavaScript doesn't know about any of that.
 
-An example of this in real life, are phone calls and text messages.
+Thankfully, in JavaScript we have access to this "DOM" object (Document Object Model) which is actually a representation of our webpage that JavaScript can work with.
 
-- Phone calls are `synchronous` because you can't (really) do anything while the
-  other person is speaking. You are always waiting for your turn to respond
-- Text messages are `asynchronous`. When you send a text, you can go away and do
-  something else, until the other person responds.
+Here are two examples, HTML and then JavaScript, of how the DOM might look like:
 
-### A Javascript example
-
-```js
-//synchronous
-console.log("First action");
-console.log("Second action");
-console.log("Third action");
+```html
+<html>
+  <body>
+    <h1>Welcome!</h1>
+    <p>Hello world!</p>
+  </body>
+</html>
 ```
 
 ```js
-//asynchronous
-console.log("First action");
-setTimeout(function () {
-  console.log("Second action");
-}, 1000);
-console.log("Third action");
+let document = {
+  body: {
+    h1: "Welcome",
+    p: "Hello world!",
+  },
+};
 ```
+
+This is how we would represent the document hierarchy above as a tree of nodes:
+
+<img src={require('!file-loader!./tree.png').default}/>
+
+## Access DOM elements
+
+The DOM offers a lot of useful functions we can use to find elements on the page. Here are some we'll be using today:
+
+```js
+document.querySelector("#mainHeader");
+document.querySelectorAll("p");
+```
+
+Both `.querySelector` and `querySelectorAll` accept a CSS selector as an input.
+`.querySelector` selects only the first element it finds, `querySelectorAll` selects all elements (it returns a `NodeList`, which you can think of as being similar to an array; it is an ordered sequence of DOM elements which you can loop through like with an array. The difference is that many common array methods like `.map` or `.concat` can't be used on a `NodeList`. To turn a `NodeList` into an array, you can use `Array.from`, e.g. `let elementArray = Array.from(document.querySelectorAll("div"));`).
+
+### Preparation for exercises
+
+:::note Exercise
+
+Let's work on the code provided here:
+https://github.com/CodeYourFuture/js-exercises/tree/master/week-5/InClass/A-dom-manipulation
+
+1. Open "A-dom-manipulation" project in VS code
+2. View your changes by
+   - using [vscode-live-server](https://github.com/ritwickdey/vscode-live-server) plugin to get live updates of your changes.
+     - Install the plugin
+     - Right click on `index.html` and select "Open with Live Server"
+   - or just open the `index.html` on your browser and refresh every time you change your code
+
+:::
 
 ### Exercise (1)
 
-Before running the code in your browser, discuss the expected order of each loop
-
-1. Synchronous - Write code that loops through the array of greek gods and print the index numbers and values to the console, e.g. '1. Ares'
-
-2. Asynchronous - Same as before but the index and the value of the god at position 2 in array should be printed after 2 seconds. Use: setTimeout()
-
 :::note Exercise
 
-```js
-const greekGods = [
-  "Aphrodite",
-  "Ares",
-  "Artemis",
-  "Athena",
-  "Poseidon",
-  "Zeus",
-];
-```
+Write JavaScript below that logs:
+
+1. all the "p" element nodes of the document,
+   --> should log a list of nodes with a length of 6
+
+2. the first div element node
+   --> should log the ".site-header" node
+
+3. the element with id "jumbotron-text"
+   --> should log the "#jumbotron-text" node
+
+4. all the "p" elements contained inside the .primary-content element node
+   --> should log a list of nodes with a length of 3
 
 :::
 
-## The Callstack
+## Attach events to DOM elements
 
-How does JavaScript 'know' what order its code should be run in?
-
-JavaScript is a single-threaded language, which means that normally it can handle one task at a time or a piece of code at a time. It orders what it needs to do using something called the `call stack`.
-
-The call stack is a data structure that works by the "Last in, First out" principle (LIFO) to store and run functions. Whenever you call a function, it gets pushed onto the stack, and when the function returns, it is popped off of the call stack.
-
-This is why when you get an error in Javascript, you may see multiple lines with line numbers in the error, like:
-
-```sh
-$ node my.js
-/home/dwh/my.js:2
-    console.log(message);
-                ^
-
-ReferenceError: message is not defined
-    at logSomething (/home/dwh/my.js:2:17)
-    at computeSomething (/home/dwh/my.js:6:5)
-    at Object.<anonymous(/home/dwh/my.js:9:1)
-    at Module._compile (internal/modules/cjs/loader.js:689:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
-    at Module.load (internal/modules/cjs/loader.js:599:32)
-    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
-    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
-    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
-    at startup (internal/bootstrap/node.js:266:19)
-```
-
-This error happened because of a problem in the `logSomething` function on line 2, which was called by the `computeSomething` function on line 6, and so on. Each line represents one entry on the call stack.
-
-Since there is only one call stack in Javascript, function execution is done one at a time from top to bottom. This means that the last function that gets pushed into the call stack is always the one to be executed when the call stack is popped. Think of it like pushing to, and popping from, an array; it's always the last item of the array that is affected.
-
-:::note Exercise
-
-[Let's use this tool to see how the Callstack works!](http://latentflip.com/loupe/)
-
-So, how to the `call stack` and `asynchronous` work together? Asynchronous programming essentially helps us to make JavaScript act like a multi-threaded language -- although JavaScript only has a single call stack managing function execution, coding our JavaScript asynchronously means that we can have several functions executing at the same time.
-
-:::
-
-## Callbacks
-
-We have already seen callback functions - in the Array methods `forEach`, `map`, `filter` etc. They are functions that are passed as parameter to another function.
-
-In order to achieve asynchronicity, callbacks can be passed on functions that perform a slow action. By doing so, the callback function can be called with the result.
-This allows you to run some other code while you're waiting for something to finish.
+Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
 
 ```js
-function finished() {
-  console.log("The task has finished");
+let myButton = document.querySelector("#myButton");
+myButton.addEventListener("click", alertSomething);
+
+function alertSomething() {
+  alert("Something");
 }
-
-function thingThatTakesALongTime(callbackFunction) {
-  //... Task that takes a long time to complete
-
-  callbackFunction(); // This is where the 'console.log' happens
-}
-
-// Pass the function to 'thingThatTakesALongTime' just like a normal variable
-thingThatTakesALongTime(finished);
 ```
 
-A simple example of an asynchronous function is `setTimeout`. This allows you to run a function after a given time period. The first argument is the function you want to run, the second argument is the `delay` (in milliseconds)
-
-```js
-// Separate function definition
-function myCallbackFunction() {
-  console.log("Hello world!");
-}
-setTimeout(myCallbackFunction, 1000);
-
-// Inline function
-setTimeout(function () {
-  console.log("Hello world!");
-}, 500);
-```
-
-Now let's use a timeout and a callback function together:
-
-```js
-function mainFunction(callback) {
-  console.log("Starting!");
-  setTimeout(function () {
-    callback();
-  }, 1000);
-  console.log("Continuing!");
-}
-function myCallbackFunction() {
-  console.log("Finished!");
-}
-mainFunction(myCallbackFunction);
-```
+You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
 
 ### Exercise (2)
 
 :::note Exercise
 
-- Using setTimeout, change the background colour of the page after 5 seconds (5000 milliseconds).
-- Update your code to make the colour change _every_ 5 seconds to something different. Hint: try searching for `setInterval`.
+When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
 
-![Exercise example](http://g.recordit.co/g2EqBccNzh.gif)
+The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
 
-Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?editors=1011)
+```js
+let myElement = document.querySelector("#myElement");
+myElement.style.backgroundColor = "red";
+```
 
 :::
 
@@ -205,132 +153,84 @@ Complete the exercises in this [CodePen](https://codepen.io/makanti/pen/abOreLg?
 
 :::note Exercise
 
-Complete the exercises in this [CodePen](https://codepen.io/textbook/pen/MWwMgmW?editors)
-
-- You are given a list of movie objects to work with<br/
-- Use setTimeout to imitate that some actions take time
-- Remember that setTimeout behaves asynchronously
-
-All set, go! Work on the tasks given. Your result html will look like this:
-
-<img alt="preview-exercise-2-result" src="https://i.imgur.com/wbrtLNL.png" width="500" />
+Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
 :::
 
-## How does the web work?
+## Create DOM elements
 
-### Client/Server architecture
+Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
 
-<img class="onDarkMode_whiteBg" src={require('!file-loader!./assets/client-server.png').default} />
+```js
+let paragraph = document.createElement("p"); // here we're just creating it, element is not visible yet
+myElement.appendChild(paragraph); // now the element is added to our view, but it's empty
+```
 
-A **Client** is the typical web user's internet-connected devices and apps. This can be a web browser, a Slack app, your phone, etc.
+`document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
 
-A **Server** is a computer or program that manages access to resources such as webpages, sites, or apps.
-
-There are database servers, mail servers, game servers, etc. The vast majority of these servers are accessed over the internet. They can take the form of industrial server farms that provide a service to millions of users (used by Facebook, Google, etc.), to personal servers for storing your files.
-
-The **server** communicates with **clients**.
-
-Client–server systems use the **request–response** model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result or acknowledgement.
-
-<img src={require('!file-loader!./assets/request-response-architecture.png').default} />
-
-### HTTP Requests
-
-A server stores the data, and the client (other programs or computers) requests data or sends some of its own. But how do they talk to each other?
-
-**For the client and the server to communicate they need an established language (a protocol)**. Which is what HTTP (Hypertext Transfer Protocol) is for. It defines the methods you can use to communicate with a server and indicate your desired actions on the resources of the server.
-
-There are two main types of requests: **GET** and **POST**.
-
-| Request type |                      Description                       |
-| ------------ | :----------------------------------------------------: |
-| GET          | Ask for a specified resource (e.g. show me that photo) |
-| POST         |     Send content to the server (e.g. post a photo)     |
-
-HTTP is the language of the internet. In our case we're using Javascript, but you can send HTTP requests with other languages as well.
-
-### The Network Tab
-
-The network tab is a useful tool that helps us understand how content is loaded on a website.
-
-You can view it by `Right Click` `Inspect` `Network`.
-
-Take some time to look at the network tab when we open [this lesson](/js-core-2/week-3/lesson).
-
-The important parts of the the Network Tab are:
-
-- [Network Log](https://developers.google.com/web/tools/chrome-devtools/network#load)
-- Timeline View
-- [Resource Details](https://developers.google.com/web/tools/chrome-devtools/network#details)
-
-#### Exercise - GET Requests
+### Exercise (4)
 
 :::note Exercise
 
-Let's take a look at GET requests in the Browser.
-
-Look at this repository here:
-
-- https://github.com/CodeYourFuture/Network-Tab-Example
-
-In your groups, you should try to work out what you expect to see in the Network tab when we look at it. You should create a list of the requests that will be made in this format.
-
-**Note:** You are not allowed to open the website in a browser
-
-e.g.
-
-1. GET index.html
-2. GET format.de
-3. GET otherfile.se
-4. ...
-
-When you have completed the list you should share it on Slack
-
-You can see the website online here
-
-- https://codeyourfuture.github.io/Network-Tab-Example/
+When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 :::
 
-:::note Exercise Extra
+## Manipulate DOM elements
 
-Go to your favorite website and take a look at the Network tab. Can you work out what each (or any) of the requests are doing?
+You can then change the text displayed inside elements using the `innerText` property:
 
-Warning! There will be **a lot** of requests made on complicated websites.
+```js
+paragraph.innerText = "How are you?"; // now we can see the text displaying on the screen
+```
 
-:::
+We've been using `document.querySelector` to retrieve a single element.
+To retrieve a list of multiple elements (that match a specific class name for example, or a specific tag) we use `document.querySelectorAll`.
 
-#### Exercise - POST Requests
+```js
+//change the background of all the paragraph items on our page
+let paragraphs = document.querySelectorAll("p");
+for (let i = 0; i < paragraphs.length; i++) {
+  paragraphs[i].style.backgroundColor = "blue";
+}
+```
+
+We've learned that `style` and `innerText` are properties of DOM elements. Image tags can also have `width` and `height`.
+
+While it's really easy to change styles directly on elements using the `style` property, it is not usually a good idea to mix JavaScript and CSS (see separation of concerns in the first lesson). To solve this, we can use the `className` property to set the class for an element instead of changing its styles directly:
+
+```js
+//before: <div id="myContainer"></div>
+let container = document.querySelector("#myContainer");
+container.className = "largeBlock";
+//after: <div id="myContainer" class="largeBlock"></div>
+```
+
+To get the text from an Input field:
+
+```js
+let updateTitleBtn = document.querySelector("#updateTitleBtn");
+
+updateTitleBtn.addEventListener("click", function () {
+  let inputBox = document.querySelector("#titleInput");
+  let title = inputBox.value;
+
+  let titleElement = document.querySelector("#lessonTitle");
+  titleElement.innerText = title;
+  inputBox.value = title;
+});
+```
+
+The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable).
+To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
+
+### Exercise (5)
 
 :::note Exercise
 
-Let's take a look at POST requests in the Browser.
-
-You can see the website online here
-
-- https://codeyourfuture.github.io/Network-Tab-Example/
-  At the bottom of the page you will see a series of buttons. When you click a button on the website it will send a POST request to a server.
-
-1. **Using only the Network tab** work out which button is sending a post request.
-2. What is in the `body` of the post request?
+When the "Larger links!" button is clicked, the text of all links on the page should increase.
 
 :::
-
-:::note Exercise Extra
-
-1. Did the `POST` request succeed?
-2. Using the Details Panel, can you work out why?
-
-:::
-
-## Coursework
-
-Click [here](./homework) to view the coursework for this lesson.
-
-## JavaScript 2 Quiz
-
-An optional quiz can be found [here](https://docs.google.com/forms/d/e/1FAIpQLSfMCZZkEWexs_7PbuRMpUPXqjjyXv814mhl3OikBv39QsqKSg/viewform) which can be used to test trainees understanding. This can be done in class or set as homework.
 
 ## Feedback
 
