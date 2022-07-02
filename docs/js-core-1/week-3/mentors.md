@@ -16,6 +16,19 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Notes on truthy, falsy, null, and undefined
+
+This session is only to establish some initial habits of thought, especially around debugging. This is such a tricky idea to grasp and so helpful to understand, so talk a little bit about different errors produced by these states.
+
+Don't get too deep into the technicalities as trainees have not yet covered enough JS to grasp the implications (eg scope, state and initialisation). Instead, try to produce some common [Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) errors and [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError) errors, particularly:
+
+`Uncaught TypeError: Cannot read property of undefined`
+`Uncaught TypeError: undefined is not a function`
+
+and discuss them together. If you have time, connect this back to user input validation in HTML Forms. What happens when you write code that assumes a variable has a length, but the user doesn't set a name?
+
+There's a small [Codewars collection](https://www.codewars.com/collections/cyf-handling-falsy) and you could work through a kata in class as a group.
+
 ## Presentations (Out of date, for reference only)
 
 - [Week 3 - JS Core 1 [Google Slides] - 01/05/2020](https://drive.google.com/open?id=1q98KUoX5QQoFEDUl52hLxOnWkoCi2vGrehHjBBEnfdI)
