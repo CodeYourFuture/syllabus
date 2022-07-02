@@ -12,14 +12,14 @@ You can find the preparation work [here](./preparation)
 
 ## 2) Assessment
 
-After the final week of this module there are assessment that should be completed by all trainees.
+All trainees will take an automated assessment on their entry to JS2. This module also has a personal 121 assessment available, which mentors can assign if it's useful to do so.
 
-🔒  https://github.com/CodeYourFuture/JavaScript-Core-1-Assessment
+🔒 https://github.com/CodeYourFuture/JavaScript-Core-1-Assessment
 
-These assessments should be conducted one-on-one with a volunteer (possibly the trainee's buddy). Each of the assessments has a rubric that should be followed. After completion, the trainees score should be shared with the City Coordinator
+These assessments should be conducted one-on-one with a mentor (possibly the trainee's buddy). Each of the assessments has a rubric to help you evaluate the code. After completion, the trainee's score should be shared with the Tech Ed team.
 
-The aim of these assessments is to
+The aim of these assessments is:
 
-- Work out how well each trainee is doing in the class
+- Work out how a trainee is doing 121
 - Highlight trainees who are falling behind and require help
 - Get oversight of any common misconceptions in the class
