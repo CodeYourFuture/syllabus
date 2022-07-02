@@ -13,21 +13,18 @@ import Feedback from "@theme/Feedback";
 - [Conditionals](#conditionals)
 - [Logical Operators](#logical-operators)
 - [Loops](#loops)
-- [Arrays](#arrays)
 - [Extra exercises](#extra-exercises)
 
 ## Learning Objectives
 
 By the end of this class, you should be able to:
 
-- Define what was a conditional is
+- Define what a conditional
 - Define what `for` and `while` loops are and define the difference
 - Write an if statement using a conditional
 - Define comparator operators and list the different types
 - Use comparator operators in an `if` statement
-- Define what a logical operator is and give examples
-- Write functionality that uses the `assert` module
-- Describe what an array is and write code that interacts with them
+- Define a logical operator and give examples
 
 ---
 
@@ -330,7 +327,7 @@ In pairs, write a function that checks a username is of an acceptable format for
 
 ## Loops
 
-When we're writing programs, we often find that we want to repeat a bit of code over and over, or repeat it but change something about it each time. To save ourselves from writing all that code, we can use a **loop**. JavaScript has two kinds of loops, a `while` loop and a `for` loop.
+When we're writing programs, we often find that we want to repeat a bit of code over and over, or repeat it but change something about it each time. To save ourselves from writing all that code, we use a **loop**. JavaScript has two main kinds of loops, a `while` loop and a `for` loop.
 
 ### while loop
 
@@ -344,9 +341,13 @@ while (i < 20) {
 }
 ```
 
+It's a convention to use `i` in loops. You could use any valid string as your variable name: loops don't have special rules. Programmers use `i` to remind ourselves this is an _iterator_.
+
 Notice the line **i++** - this is the same as saying **i = i + 1** It does exactly the same thing but it is just more convenient to write.
 
-It's important that the condition inside the parenthesis becomes false at some point - otherwise, we'll have what's known as an infinite loop!
+:::warning Infinite loop ∞
+It's important that the condition inside the parenthesis becomes false at some point - otherwise, we'll have what's known as an infinite loop.
+:::
 
 ### Exercise (10 minutes)
 
@@ -363,6 +364,34 @@ Write a function that:
 ### for loop
 
 The `for` loop is similar to a while loop, but with a more specialized syntax. Programmers invented the for loop when they realized they were always doing the same three things: creating loop counter variables (like `i` above), incrementing them by some amount, and checking that they're less than a value.
+
+The `for` loop syntax has special places for each of those three things. Here's the first while loop above, now written as a for loop:
+
+![For loop](https://user-images.githubusercontent.com/31692/75388870-9213a880-58dd-11ea-90e6-4e67eabf390b.png)
+
+```js
+for (let i = 0; i < 20; i++) {
+  someFunction(i);
+}
+```
+
+### Exercise (10 minutes)
+
+:::note Exercise
+
+Write a function, similar to the last exercise, that:
+
+- Takes one number `n` as a parameter
+- Adds all numbers from `0` to `n`. For example, if the input is `3`, the output should be `0 + 1 + 2 + 3`
+- You should use a for loop
+
+:::
+
+### for of loop
+
+[mdn &rarr;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+
+The `for of` loop The for...of statement creates a loop iterating over iterable objects, including: built-in String, Array, array-like objects (e.g., arguments or NodeList), TypedArray, Map, Set, and user-defined iterables. It invokes a custom iteration hook with statements to be executed for the value of each distinct property of the object.
 
 The `for` loop syntax has special places for each of those three things. Here's the same loop as the first while loop above, as a for loop:
 
@@ -382,253 +411,7 @@ Write a function, similar to the last exercise, that:
 
 - Takes one number `n` as a parameter
 - Adds all numbers from `0` to `n`. For example, if the input is `3`, the output should be `0 + 1 + 2 + 3`
-- You should use an for loop
-
-:::
-
-## Arrays
-
-If you ever find yourself writing code like this...
-
-```js
-const mentor1 = "Daniel";
-const mentor2 = "Irina";
-const mentor3 = "Rares";
-```
-
-...then it's probably time to use an **array**!
-
-Arrays are data structures that hold a list of values. We call these values the **elements** of the array.
-
-```js
-const mentors = ["Daniel", "Irina", "Rares"];
-```
-
-Arrays can hold any type of value (although almost always you only have one data type per array).
-
-```js
-const testScores = [16, 49, 85];
-const grades = ["F", "D", "A"];
-const greetings = ["Hello, how are you?", "Hi! Nice to meet you!"];
-```
-
-You can access elements in an array using the **index** of an element with **bracket notation**
-
-**🔔 Remember:** All arrays start at position 0! To access the first element in an array, you need to access index `0`, the second element at `1`, the fifth at `4` and so forth. This is called zero-based indexed arrays. There are some [very intense reasons for this](http://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html), but most people just accept it and move on.
-
-```js
-const trainees = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
-
-trainees[0]; // "Ahmed"
-trainees[3]; // "Nahidul"
-```
-
-You can also _assign_ new values to parts of an array:
-
-```js
-const trainees = ["Ahmed", "Maria", "Atanas", "Nahidul", "Jack"];
-
-trainees[2] = "Bianca";
-
-console.log(trainees); // ["Ahmed", "Maria", "Bianca", "Nahidul", "Jack"]
-```
-
-### Exercise (5 mins)
-
-:::note Exercise
-
-In Node, enter the following array:
-
-```sh
-> const fruits = ['banana', 'apple', 'strawberry', 'kiwi', 'fig', 'orange'];
-```
-
-Now, using the correct indexes, get the following values from the array:
-
-- strawberry
-- kiwi
-- orange
-- banana
-
-Then, replace 'apple' with 'raspberry', and replace 'fig' with 'pineapple'.
-
-:::
-
-### Exercise (5 mins)
-
-:::note Exercise
-
-Complete this function so that, if the second element in the array contains the name "Amy", it returns `"Second element matched!"`
-
-```js
-function secondMatchesAmy(array) {
-  if ( ) {
-    return "Second element matched!";
-  }
-  return "Second element not matched";
-}
-```
-
-:::
-
-### Using for loops with arrays
-
-We can use the power of loops to run some code for each element in our array.
-
-When we do this say we **iterate** over an array.
-
-```js
-const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
-
-for (let i = 0; i < daysOfWeek.length; i++) {
-  const dayMessage = "day is: " + daysOfWeek[i];
-  const indexMessage = "index is: " + i;
-  console.log(indexMessage, dayMessage);
-}
-```
-
-### Exercise (10 mins)
-
-:::note Exercise
-
-Write a function which takes your **trainees** array as an input. In the function, use a for loop to **iterate** over the array and print the name of each trainee to the console.
-
-:::
-
-### Exercise - extra credit (20 mins)
-
-:::note Exercise
-
-In pairs, write a function which squares all numbers in an array and returns the array of squared numbers.
-
-Write a second function which takes an input of arrays and only returns an array of even numbers.
-
-How can you combine the two functions to return an array of even and squared numbers?
-
-:::
-
-## Extra exercises
-
-:::note Exercise
-
-### Playing computer I
-
-1. Working in pairs or groups, you have to predict the output of this program without executing it.
-2. What is printed to the console?
-3. Have you learned anything new during this exercise?
-
-```js
-const daysOfWeek = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
-
-function workingDay(day) {
-  return day + " is a working day";
-}
-
-function weekendDay(day) {
-  return day + " is at the weekend!";
-}
-
-for (let i = 0; i < daysOfWeek.length; i++) {
-  if (i < 5) {
-    let day = workingDay(daysOfWeek[i]);
-    console.log(day);
-  } else {
-    let day = weekendDay(daysOfWeek[i]);
-    console.log(day);
-  }
-}
-```
-
-:::
-
-:::note Exercise
-
-### Playing computer II
-
-1. Working in pairs or groups, you have to predict the output of this program without executing it.
-2. What is printed to the console?
-3. Have you learned anything new during this exercise?
-
-```js
-const a = 4;
-const b = 8;
-
-const multiplyNumbers = function (a, b) {
-  return a * b;
-};
-
-const addNumbers = function (a, b, c) {
-  return a + b + c;
-};
-
-for (let i = 0; i < 5; ++i) {
-  if (i < 3) {
-    const day = addNumbers(i, 2, a);
-    console.log(day);
-  } else {
-    const day = multiplyNumbers(i, 4);
-    console.log(day);
-  }
-}
-```
-
-:::
-
-:::note Exercise
-
-### Playing computer III
-
-1. Again, working in pairs or groups, you have to predict the output of this program without executing it.
-2. What is printed to the console?
-3. What was difficult about this exercise?
-4. Have you learned anything new?
-
-```js
-let x = 2;
-let y = 4;
-let a = 2;
-let b = 20;
-
-const f1 = function (a, b) {
-  return a * b;
-};
-
-const f2 = function (a, b, c) {
-  return a + b + c;
-};
-
-console.log(x);
-x = 3;
-y = f1(x, 2);
-console.log(y);
-
-for (let i = 0; i < 10; ++i) {
-  a = a + 1;
-  if (i % 2 === 0) {
-    const d = f2(i, y, a);
-    console.log(d);
-  } else {
-    const e = f1(i, 2);
-    console.log(e);
-  }
-}
-```
+- You should use a for loop
 
 :::
 

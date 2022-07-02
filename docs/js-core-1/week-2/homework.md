@@ -4,17 +4,17 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) Review Solutions for Last Weeks Coursework
+## 1) Review Solutions for Last Week's Coursework (45 minutes)
 
-Before starting this week, be sure to review the solutions for last weeks coursework
+You should do this every week. We will stop reminding you soon as you get used to it.
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1-Solution
+Once a week, someone with Maintainer access in your region will release the solutions to last week's coursework by giving repo access to your class team.
 
-Make sure you work out what you don't understand and spend some time considering how the code works.
+Your class team is a child of Students and lives here: https://github.com/orgs/CodeYourFuture/teams/students/teams
 
-In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
+Once you have access to the solutions repo, review your work compared to the example solutions. There is a marking guide that talks through common mistakes. Which ones have you made? How will this help you identify what you need to practice more, and where you feel strong?
 
-**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
+Write down your target areas and take them to your buddy group. What does your mentor think? Do they agree with your assessment?
 
 ## 2) FreeCodeCamp (3 hours)
 
@@ -66,19 +66,20 @@ and
 - Assignment with a Returned Value
 - Stand in Line
 
+We will focus on loops in the next class, so come prepared with good questions!
+[https://javascript.info/while-for]
+
 ## 3) JavaScript Exercises (4 hours)
 
-Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
-
-For this step, open the "Exercises" folder and complete all of the challenges.
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
+These exercises will help solidify your knowledge of JavaScript. Open the "Exercises" folder and complete all of the challenges.
 
 Before you start, **make sure you fork the repository** to your Github account.
 
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
+
 ## 4) JavaScript Challenges (6 hours) 🔑
 
-Next, in the same repository complete all of the exercises in the "Mandatory" folder.
+Next, in the same repository, complete all of the exercises in the "Mandatory" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
@@ -93,37 +94,28 @@ To challenge yourself even further, you can get ahead for next week's class by r
 - [ ] What are algorithms: https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
 - [ ] Bubble sort: https://humanwhocodes.com/blog/2009/05/26/computer-science-in-javascript-bubble-sort/
 
-## 6) Give feedback on your colleague's coursework (1 hour)
+## 6) Codewars (1 hour)
 
-This is the same as last week - getting experience in this vital skill will help you a lot as you move through the course.
-
-You should
-
-1. View the open Pull Requests here
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2/pulls
-
-2. Find **two** pull requests from people in your class that have no, or few, comments on them
-3. Leave comments on the **two** pull requests with improvements or suggestions
-4. Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
-
-Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
-
-Remember, you should use the Code Style Guide to help you
-
-https://syllabus.codeyourfuture.io/guides/code-style-guide
-
-## 7) Codewars (1 hour)
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
 
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
 
 Find the collection for JS-1 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
+## 7) Module Project
+
+Continue the [module project](../module-project/).
+
+## 8) Learn About the Terminal part 1 (4 hours)
+
+Most developers spend a lot of time using something called the terminal. This week, you are going to begin a course to learn about the terminal - it has [its own homework page here](/git/terminal/homework) for you to work from.
+
+Do half this week and half next week.
+
 ## 8) (Stretch) Extra JavaScript Challenges
 
-Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
+Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities.
 
-**Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+**Alert:** Some of these challenges include concepts that we haven't taught you yet. This is a common experience as a professional developer, so start learning how to handle it today. Use Google, talk to your network, share your blockers, and work the problem.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
