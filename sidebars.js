@@ -118,6 +118,11 @@ module.exports = {
       "js-core-1/week-3/homework",
       "js-core-1/week-3/instructors",
     ],
+    "Lesson 4": [
+      "js-core-1/week-4/lesson",
+      "js-core-1/week-4/homework",
+      "js-core-1/week-4/instructors",
+    ],
     Challenges: [
       {
         type: "link",
