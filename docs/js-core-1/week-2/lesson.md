@@ -389,47 +389,49 @@ Write a function, similar to the last exercise, that:
 
 ### for of loop
 
-[mdn &rarr;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+> The `for of` loop The for...of statement creates a loop iterating over iterable objects...[~MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 
-The `for of` loop The for...of statement creates a loop iterating over iterable objects, including: built-in String, Array, array-like objects (e.g., arguments or NodeList), TypedArray, Map, Set, and user-defined iterables. It invokes a custom iteration hook with statements to be executed for the value of each distinct property of the object.
-
-The `for` loop syntax has special places for each of those three things. Here's the same loop as the first while loop above, as a for loop:
-
-![For loop](https://user-images.githubusercontent.com/31692/75388870-9213a880-58dd-11ea-90e6-4e67eabf390b.png)
+An iterable object is something that can be counted. A basket of seventeen apples is an iterable object. You might write a rule that says "check each apple in this basket and if it's green, yell BARNY". Let's try this out with strings, an iterable object in JS.
 
 ```js
-for (let i = 0; i < 20; i++) {
-  someFunction(i);
+const myName = "Sally";
+
+for (const letter of myName) {
+  console.log(letter);
 }
 ```
 
-### Exercise (10 minutes)
+To JavaScript, your name is a string of characters. It has a length, and you can access each characters with bracket notation, like this:
 
-:::note Exercise
+```js
+let myName = "Sally";
+myName.length; //5
+myName[1]; //a
+```
 
-Write a function, similar to the last exercise, that:
+It's an iterable object. Let's work through this "offline". We don't need to write any code. We can play computer ourselves just by understanding the rules of JavaScript.
 
-- Takes one number `n` as a parameter
-- Adds all numbers from `0` to `n`. For example, if the input is `3`, the output should be `0 + 1 + 2 + 3`
-- You should use a for loop
+:::note Exercise, in pairs, (10 mins)
+
+1. Each person write down their first name. Write it out like this S A L L Y and number the letters with a zero-indexed count like this 0 1 2 3 4.
+2. Now pick a letter of the alphabet, any letter, and make up a rule for your partner to say, do, or act out. You could make them meow like a cat, or draw a picture, or anything (fun and nice).
+3. The first player, speak your rule - say "**For** each letter **of** your name, if that letter is $letterYouChose, do $ruleYouInvented."
+4. The second player, hold up your name and act out the `for of` loop.
+5. Now swap!
 
 :::
 
-## Glossary
+So to sum up, `for of` loops are pretty similar to `for` loops, but:
 
-- Assert: to determine whether something is `true` or not `true`, more precisely `false`
-- Duplicate: exact copies of something (e.g. two or more files, numbers, directory can be exactly the same)
-- Index: numbers that let you know an item's position inside an array
-- Element: another name for an item in an array
-- Iterate: to repeat some code multiple times, as we do when we use a loop
-- REPL: (Read-Eval-Print-Loop) an interactive way to execute code you write inside the console
-- Zero-based Index: an `array` starting at `0` and not at `1`
+- they only work on iterable objects
+- the iterator is the value, directly, so you don't need to access the value using bracket notation
+- you don't need to set an end case as the loop will always go through every value in the iterable object and then end
 
-For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
+Next week, we will think more about the most common iterable object in JavaScript: [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 ## Coursework
 
-Click [here](./homework) to view the homework for this lesson.
+[View the homework](./homework) for this lesson.
 
 ## Feedback
 
