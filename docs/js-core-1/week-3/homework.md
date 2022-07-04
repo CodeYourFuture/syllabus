@@ -33,7 +33,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 Code review is a valuable skill for a developer, and is a good way to practice talking about code with confidence. Let's level up our code review now.
 
-1. Read Google's [engineering guide on code review](https://google.github.io/eng-practices/review/reviewer/comments.html#:~:text=Be%20kind.,explaining%20the%20complexity%20to%20you.).
+1. Review Google's [engineering guide on code review](https://google.github.io/eng-practices/review/reviewer/comments.html).
 2. In your Buddy group, code review each of your colleague's nominated pull reqs.
 3. Stretch: Try [suggesting line changes](https://docs.github.com/en/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request#applying-suggested-changes), and accepting them yourself:
 
