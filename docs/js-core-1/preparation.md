@@ -4,21 +4,17 @@ title: Preparation
 sidebar_label: Preparation
 ---
 
-## 1) Install "Windows Subsystem for Linux" (60 minutes)
+## 1) Install a UNIX based operating system
 
-**For trainees with Windows 10 only (if you have been assigned this and you don't have Windows 10, please submit as resolved and comment your OS).**
+:::warning
+Code Your Future does not support Windows
+:::
 
-WSL stands for "Windows Subsystem for Linux" and allows Windows 10 users to run Linux instructions (more commonly called "commands") without running Linux as an operating system. If you are a Mac user, you do not need WSL because Mac runs like Linux and most commands that you can run on Linux can be run on a Mac. You will need to run Linux commands throughout your course, especially if you want to run JavaScript or a web application on your machine.
+If you have a Mac or Linux machine already, you already have a UNIX based operating system. All CYF-supplied laptops run Mac OS or Linux. If you have your own machine and it runs **Windows**, you should already have set up a Linux partition after Fundamentals.
 
-WSL is only available for Windows 10 users, so if you have an older version of Windows than Windows 10, you will be required to install Ubuntu alongside or instead of your Windows installation (please reach out to a volunteer if you have an older version of Windows than Windows 10).
+If you have still not done this, you must do it now. We cannot support trainees using Windows. It takes too much time from everybody else. If you need help doing this, post in #cyf-ask-tech-stuff, or bring your laptop to a CYF co-working space to get support. It's normal to need help with this process.
 
-PLEASE NOTE: IF YOU DO NOT COMPLETE THIS HOMEWORK, YOU WILL NOT BE EQUIPPED TO START JAVASCRIPT CORE 1.
-
-If any of the above or below instructions are unclear, please post in your city channel on Slack.
-
-To install WSL as a Windows 10 user, click on this link and follow the instructions (NOTE: At the section "Install your Linux Distribution of Choice", select Ubuntu 20.04 LTS):
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+[**&rarr; Dual Boot on Windows**](https://help.ubuntu.com/community/WindowsDualBoot)
 
 ## 2) Install Node.js (30 minutes)
 
@@ -44,18 +40,23 @@ If you get stuck on any of the below or above instructions, please post in your 
 4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
    - `npm -v`
 
-### On Windows
+### 3) Refresh on JS (3 hours)
 
-1. Open Ubuntu WSL (click Windows button then type "Ubuntu")
-2. Follow the instructions from the "On Ubuntu" section starting from step 2
+Explore the basics of JavaScript and refresh the concepts you learned in Intro to Digital.
 
-## 3) KhanAcademy Review (4 hours)
+- [Learn basic JavaScript](https://scrimba.com/learn/basicjavascript)
 
-We are going to review the essentials of the Khan Academy course that we learned during the Fundamentals course.
+### 3.1) Project (2 hours)
 
-### 3.1) Reading
+Now do Module 1 of this course: Build a passenger counter app
 
-Please read the following materials
+- [Learn JavaScript](https://scrimba.com/learn/learnjavascript)
+
+**Stretch** : Module 1, "Build a passenger counter app", of this course is mandatory, but we encourage you to continue through the other modules if you have time.
+
+### Supplementary to 3) Reading
+
+In addition, or if you run into issues with the interactive videos, please read the following materials:
 
 - Variables (Review): https://www.khanacademy.org/computing/computer-programming/programming/variables/a/review-variables
 - Functions (Review): https://www.khanacademy.org/computing/computer-programming/programming/functions/a/review-functions
@@ -63,24 +64,11 @@ Please read the following materials
 - Looping (Review): https://www.khanacademy.org/computing/computer-programming/programming/looping/a/review-looping
 - Arrays (Review): https://www.khanacademy.org/computing/computer-programming/programming/arrays/a/review-arrays
 
-If you think you need more time to re-assimilate these concepts you can go over the video tutorials again.
-
-### 3.2) Project
-
-Create a spin-off of the following project
-
-https://www.khanacademy.org/computer-programming/bubbles/6227974791118848
-
-You'll see there's a fish and a bubble.
-
-- Add more bubbles of different sizes in random positions.
-- BONUS: Animate the bubbles.
-- BONUS: Animate the fish.
-- BONUS: Make the fish turn back after hitting the edge of the tank.
-
-Try to use in your solution the constructions you just reviewed: variables, functions, if statements, loops or arrays. You can adapt and reuse any code from your previous projects.
-
 ## 4) Visual Studio Code
+
+:::tip
+You use VSCode and Prettier to complete and format your coursework.
+:::
 
 ### 4.1) Install VSCode and Extensions
 
@@ -88,7 +76,9 @@ Instructions for how to do this can be found here
 
 https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#extensions
 
-To make your programming life a lot easier, you should install Prettier on VS Code (which will automatically make your code look more "neat" and readable) and enable autosaving on VS Code (so that you don't forget to save your file before you run your script).
+Install Prettier on VS Code (which will automatically make your code look more "neat" and readable).
+
+Turn on autosaving on VS Code (so that you don't forget to save your file before you run your script).
 
 ### 4.2) Enable "Autosave" & "Format On Save"
 
