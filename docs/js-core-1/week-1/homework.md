@@ -44,7 +44,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
 ## 5) Read Google "How to write code review comments"
 
-[https://google.github.io/eng-practices/review/reviewer/comments.html#:~:text=Be%20kind.,explaining%20the%20complexity%20to%20you.](How to write code review comments)
+[How to write code review comments](https://google.github.io/eng-practices/review/reviewer/comments.html)
 
 ## 6) Codewars (1 hour) 🔑
 
