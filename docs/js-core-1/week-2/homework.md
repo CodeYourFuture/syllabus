@@ -66,8 +66,7 @@ and
 - Assignment with a Returned Value
 - Stand in Line
 
-We will focus on loops in the next class, so come prepared with good questions!
-[https://javascript.info/while-for]
+We will focus on arrays in the next class, so come prepared with good questions!
 
 ## 3) JavaScript Exercises (4 hours)
 
@@ -83,7 +82,7 @@ Next, in the same repository, complete all of the exercises in the "Mandatory" f
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
-## 5) Prepare for next week (2 hours)
+## 5) Consolidate and Prepare for next week (2 hours)
 
 To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
 
@@ -102,11 +101,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the collection for JS-1 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) Module Project
-
-Continue the [module project](../module-project/).
-
-## 8) Learn About the Terminal part 1 (4 hours)
+## 7) Learn About the Terminal part 1 (4 hours)
 
 Most developers spend a lot of time using something called the terminal. This week, you are going to begin a course to learn about the terminal - it has [its own homework page here](/git/terminal/homework) for you to work from.
 

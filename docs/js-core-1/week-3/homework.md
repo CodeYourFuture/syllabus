@@ -53,14 +53,10 @@ Most developers spend a lot of time using something called the terminal. This we
 
 You should have started this course last week. Complete it now.
 
-## 8) Module Project
+## 8) (Stretch) Extra JavaScript Challenges
 
-Continue the [module project](../module-project/).
+Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities.
 
-## 9) (Stretch) Extra JavaScript Challenges
-
-Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
-
-**Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
+**Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should expect to frequently encounter concepts you haven't been taught in class yet or at all. Learning how to tackle this is a crucial skill we are supporting you to develop. How will you handle this? Will you create a study group? Find a mentor? Ask for a session in class? It's your professional development, so take control of it.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3

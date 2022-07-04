@@ -57,11 +57,7 @@ Find the collection for JS-1 Week 1 on the CodeYourFuture account: https://www.c
 
 Codewars is one of your [milestones](https://docs.codeyourfuture.io/Leaders/running-the-course/assessment/milestones).
 
-## 7) Module Project
-
-Start the [module project](../module-project/)
-
-## 4) Prepare for next week (2 hours)
+## 7) Prepare for next week (2 hours)
 
 To challenge yourself even further, get ahead for next week's class by reading some of the below documentation:
 
@@ -79,7 +75,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 8) (Stretch) Even more JavaScript Challenges
+## 9) (Stretch) Even more JavaScript Challenges
 
 Completed all of the addition challenges in the coursework? We have more challenges that you can find here:
 
