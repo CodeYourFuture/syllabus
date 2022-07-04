@@ -19,7 +19,7 @@ import Feedback from "@theme/Feedback";
 
 By the end of this class, you should be able to:
 
-- Define what a conditional
+- Define what a conditional is
 - Define what `for` and `while` loops are and define the difference
 - Write an if statement using a conditional
 - Define comparator operators and list the different types
