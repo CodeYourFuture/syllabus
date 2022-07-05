@@ -16,8 +16,8 @@ It is **essential** you complete all of the steps before you attend this module.
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [Week 1](./week-1/lesson) | **Hello world** (of jS): variables, strings, types, numbers, statements, expressions, functions.                   |
 | [Week 2](./week-2/lesson) | **Logic and Loops:** booleans, conditionals, comparisons, operators. Introducing loops: for, for/of, do, do/while. |
-| [Week 2](./week-2/lesson) | **Logic and Arrays:** Truthy, falsy, null, and undefined. Arrays and looping over arrays.                          |
-| [Week 3](./week-3/lesson) | **Array methods** and higher order functions                                                                       |
+| [Week 3](./week-3/lesson) | **Logic and Arrays:** Truthy, falsy, null, and undefined. Arrays and looping over arrays.                          |
+| [Week 4](./week-4/lesson) | **Array methods** and higher order functions                                                                       |
 
 Week 1
 
