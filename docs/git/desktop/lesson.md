@@ -325,50 +325,35 @@ Try to use this format when making your own commits. GitHub Desktop tries to enc
 
 Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
-Using technical language as a developer
-In this section we'll explore how a professional uses technical language to communicate to their team.
 
-Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
+## Using technical language as a developer
+
+In this section we'll explore how a professional uses technical language to communicate and deliver a tutorial based on what you have learned so far to three different audiences. 
+
+:::note Exercise (20 minutes)
+
 It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
 
 1) Why Git is a useful tool?
 2) How to  commit, fork a repository, and push changes?
 
-In small groups you must pick an audience:
+In small groups you must pick an audience from this list:
 
 1) A group of 10 year olds
-2)Your boss
-3) a peer group at a similar level to you.
+2) Your boss
+3) a peer group at a similar level to you
 
-You have a maximum of three minutes to present back to the wider group. (40 minutes)
+:::
+
+:::note Exercise (40 minutes) 
+
+You have a maximum of three minutes to present back to the wider group.
+
+::: 
 
 ## Coursework going forwards
 
 For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
-
-Personal Development Coursework
-1) Holding yourself accountable and setting goals 
-
-Now that you have envisioned the person you want to become and have a clear insight into your SWOT, it’s time to set some clear goals that will help you stay accountable and work towards achieving your personal and professional career ambitions. 
-
-Set SMART goals: 
-
-Specific  - Be explicit about what you want to achieve.
-Measurable - Make sure you can measure your progress. 
-Achievable - Make sure that it’s realistic and attainable. 
-Relevant - Don’t get a goal that is out of context to your career journey! 
-Time bound - Give yourself a clear deadline. 
-
-2) - Professional Development and industry readiness preparation.
-
-Professional communication is critical when it comes to landing a role employers are looking for passionate candidates and use platforms like Linkedin to source future employees. 
-
-Stretch goal: 
-Set up your linkedin profile and let employers know that you have started your journey into the tech industry. Communicate one of your smart goals, but make sure that it’s relevant to landing a role as a developer
-
-
-3) Trainee - English Skills audit 
-https://docs.google.com/forms/d/e/1FAIpQLSevkdGlnEipFThi4CTGc5pxs-GjwREQ2CgBC-Sv7yKOcOMwYA/viewform
 
 ## Glossary
 
