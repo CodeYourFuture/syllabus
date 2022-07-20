@@ -18,7 +18,7 @@ Learning objectives for this lesson can be found [here](./learning-objectives.md
 
 ---
 
-## Coursework review (60 minutes)
+## Coursework review (90 minutes)
 
 We open our class with live coding and group debugging using trainees' work as material. This session is an opportunity to work through common problems with coursework and also to demonstrate productive code review and debugging strategies. Use Devtools and live code.
 
@@ -34,19 +34,20 @@ We will also use Devtools to run tests (Lighthouse Audit) on our websites and ex
 
 https://syllabus.codeyourfuture.io/workshops/deployment/workshop/workshop
 
+:::
 
 ## Professional development (60 minutes) 
 
-In small groups it's time to share your learnings and deliver back to the class.
+In small groups it's time to reflect on what you have learned and share it with each other.
 
 Your presentation must cover the following:
 
-
-1) Why is it important to build accessible websites, you must cover who browse the web, and the different types of users?
-2) what form controls can we use when we want the user to choose multiple options from a list 
+1) Why it is important to build accessible websites (You must cover who browse the web, and the different types of users.)
+2) What form controls we use when we want the user to choose multiple options from a list
 3) The difference between the DOM API and the Accessibility API
-3) Why it's important to be transparent as a developer and why developers use pull requests?
-4) Why it's important to do a retro
+3) Why it's important to be transparent as a developer
+4) Why developers use pull requests
+5) Why we do a retro
 
 
 ## Retrospective (30 minutes)
