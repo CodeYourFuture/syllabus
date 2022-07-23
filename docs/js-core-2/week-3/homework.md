@@ -9,7 +9,7 @@ sidebar_label: Coursework
 
 Before starting this week, be sure to review the solutions for last weeks coursework
 
-https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2-Solution
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week1-Solution
 
 Make sure you work out what you don't understand and spend some time considering how the code works.
 
@@ -19,53 +19,51 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 -->
 
-## 1) Classwork
+## 1) Complete this online course (4 hours)
 
-Firstly, complete any exercises you did not complete during class. They are essential practice for the rest of the homework tasks.
+You should complete the following sections from this online tutorial:
 
-If you get stuck, reach out to your classmates on Slack for help!
+- Get ready to make your webpages interactive
+- JS and the DOM
+- DOM access methods
+- DOM modification
+- DOM events
 
-## 2) Watch these videos (1 hours)
+https://www.khanacademy.org/computing/computer-programming/html-css-js
 
-There are some really amazing videos online that explain some of the harder topics that we learnt this week.
+## 2) Study these DOM materials (1 hour)
 
-I'd like you to search online around these topics
+### Readings
 
-- Asynchronous vs Synchronous
-- What is a JavaScript callback?
-- Client-Server Architecture
+- MDN - Introduction to the DOM
+  - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+- Eloquent JavaScript - The Document Object Model
+  - https://eloquentjavascript.net/14_dom.html
 
-Here are some to get started:
-_Synchronous and Asynchronous Transmission_
-https://www.youtube.com/watch?v=SLjjgjp2bAA
+### Watch
 
-_The Client Server Model | Clients and Servers_
-https://www.youtube.com/watch?v=L5BlpPU_muY
+- Coding Train - HTML/CSS/DOM
+  - https://thecodingtrain.com/Tutorials/8-html-css-dom/
 
-_How the Internet Works in 5 Minutes_
-https://www.youtube.com/watch?v=7_LPdttKXPc
-
-Be sure to share what you find in your class channel!
-
-## 3) JavaScript Challenges (14 hours) 🔑
+## 3) JavaScript Challenges (3 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
-For this step, you have three challenges to complete.
-
-- Alarm Clock
-- Quote Generator
-- Slideshow
-
-Each of these challenges could take you some time to complete
-
-You can find them all in this repository
+For this step, open the "Exercises" folder and complete all of the challenges.
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) Give feedback on your colleague's coursework (1 hour)
+## 4) JavaScript Projects (8 hours)
+
+Next, in the same repository complete all of the exercises in the "Project" folder.
+
+https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
+
+If you finish all of those, spend some time
+
+## 5) Give feedback on your colleague's coursework (1 hour)
 
 Use what you learned in this lesson to give feedback to other trainees who have submitted their coursework.
 
@@ -81,44 +79,24 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3/pulls
     Leave comments on the two pull requests with improvements or suggestions
     Leave a comment saying that you have reviewed it and a nice comment about something you liked (always remember to be nice!)
 
-Make sure you mark at least two other pull requests. It's important that you see a variety of different answers!
+Make sure you review at least two other pull requests. It's important that you see a variety of different answers.
 
 Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 5) CodeWars (1 hour)
+## 6) CodeWars (1 hour)
+
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
 
-Find the Collection for JS-2 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
+Find the Collection for JS-2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 6) Learn About Git Branches (5 hours)
+## 7) (Stretch) Extra Challenges
 
-Continuing your background learning about Git, this week you're going to learn about something called branches. [You'll find the lesson to follow here](/git/branches/homework).
+Have you completed all of the above homework?
 
-## 7) (Stretch) Add extra features to your Challenges (5 hours)
+Pick one of the challenges in this repository and complete it.
 
-In the "Extra" folder of this repository you will find extra tasks for you to complete.
-
-https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
-
-## 8) (Stretch) Codeacademy Course
-
-The end of this module is a really good opportunity to cover everything we've done over the last six weeks.
-
-Codecademy has a really good course that covers a lot of what we've done.
-
-https://www.codecademy.com/learn/introduction-to-javascript
-
-You should complete as many or as few of these modules as you'd like from this list
-
-1. Introduction
-2. Conditionals
-3. Functions
-4. Scope
-5. Arrays
-6. Loops
-7. Iterators
-8. Objects
+https://github.com/CodeYourFuture/JavaScript-Core-2-Challenges
