@@ -3,6 +3,36 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+
+## 2022-07-07
+
+Attendees: Greg, Sanyia, Ali
+
+### Actions from last time
+
+- [x] Sanyia: to speak to potential Deliveroo candidate for global syllabus team
+- [x] Sanyia: start onboarding for Tom Daly for React module team
+- [ ] Sanyia: speak to Carmen from Deliveroo for React module team
+
+### React module syllabus team
+
+- We have a team of 4 (including 1 grad) forming
+- Ali is arranging a kick off call with them, likely next week
+- Sanyia has a third Deliveroo person interested in volunteering
+	- Since we have a team forming, we think it's best to hold them in reserve for now
+	- They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+- Ali to write down some ideas for what the team could work on in the first few months
+
+### Blocky
+
+- Greg still owes some review to Mitch
+
+## Missed agenda items
+
+- Sally had other meetings running over, but had some agenda items which we can cover next time
+	- 4 week revision update
+	- Cyf+ update
+
 ## 2022-06-23
 
 Attendees: Sanyia, Sally, Ali
