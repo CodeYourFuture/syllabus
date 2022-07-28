@@ -513,24 +513,23 @@ In software, we follow the rule that we **never** trust user input.
 Learning about web security is outside the scope of this module,
 but if you want an introduction to web security, visit the [MDN website security page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security).
 
-### Professional Development (60 minutes)
+## Professional Development (60 minutes)
 
 Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
 It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
 
-1) What are HTML forms used for?
-2) How do form control labels benefit users?
-3) Why are forms useful for different types of users? 
-4) 
+1. What are HTML forms used for?
+2. How do form control labels benefit users?
+3. Why are forms useful for different types of users? 
+
 In small groups you must pick an audience:
 
-1) A group of 10 year olds
-2) People who are new internet users 
-3) Your boss
-4) A team of new developers 
+1. A group of 10 year olds
+2. People who are new internet users 
+3. Your boss
+4. A team of new developers 
 
 You have a maximum of three minutes to present back to the wider group. (40 minutes)
-
 
 All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
 
