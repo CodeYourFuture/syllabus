@@ -4,7 +4,6 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-<<<<<<< HEAD
 ## 2022-07-21
 
 Attendees: Sally, Apoorva, Greg, Mitch
@@ -63,8 +62,8 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
 - For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
 
-=======
->>>>>>> 4e97aaab2fdff815c75ee8ff8dff55999b5cd8c2
+---
+
 ## 2022-07-07
 
 Attendees: Greg, Sanyia, Ali
@@ -80,13 +79,10 @@ Attendees: Greg, Sanyia, Ali
 - We have a team of 4 (including 1 grad) forming
 - Ali is arranging a kick off call with them, likely next week
 - Sanyia has a third Deliveroo person interested in volunteering
-<<<<<<< HEAD
+
   - Since we have a team forming, we think it's best to hold them in reserve for now
-  - They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
-=======
-	- Since we have a team forming, we think it's best to hold them in reserve for now
-	- They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
->>>>>>> 4e97aaab2fdff815c75ee8ff8dff55999b5cd8c2
+  - # They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+
 - Ali to write down some ideas for what the team could work on in the first few months
 
 ### Blocky
@@ -96,13 +92,8 @@ Attendees: Greg, Sanyia, Ali
 ## Missed agenda items
 
 - Sally had other meetings running over, but had some agenda items which we can cover next time
-<<<<<<< HEAD
   - 4 week revision update
   - Cyf+ update
-=======
-	- 4 week revision update
-	- Cyf+ update
->>>>>>> 4e97aaab2fdff815c75ee8ff8dff55999b5cd8c2
 
 ## 2022-06-23
 
