@@ -57,10 +57,10 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - End of the course, Mitch is going to deliver the 20/25 mins of teaching that was planned and deliver it to the trainees on a Saturday class. Then volunteers will get the opportunity to observe what was successful and what can be improved next time
 - Emphasis on planning and teaching as an iterative process
 
-### Action
+### ❗Actions
 
-- For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
-- For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+- [ ] For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [ ] For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
 
 ---
 
