@@ -16,10 +16,20 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## TDD Kata
+
+Choose a very simple kata, level 7 at max. Go much slower than you feel is reasonable.
+
+If you don't have a mentor who can demonstrate TDD style kata, ask in the #cyf-codewars channel for someone to dial in for 20 minutes. But don't worry - it doesn't have to be perfect! Just sharing these strategies with trainees is the goal here. Keep it simple, keep it short. Keep your mistakes in so trainees understand that mistakes are normal.
+
 ## Presentations
 
-- [Week 2 - JS Core 2 [Google Slides] - 26/05/2020](https://drive.google.com/open?id=1JsT6CMbzpMXmN-icr7YNzMJ_mmrYnyBCJiu971DNscs)
-  - [Resources](https://github.com/Abdoulrazack95/dom-html)
-  - Created by Manchester and Abdoulrazack
+- [Resources](https://github.com/Abdoulrazack95/Object-Lesson)
+- Created by Manchester and Abdoulrazack
+- [Arrays of Objects [Google Slides] - 04/06/2020](https://docs.google.com/presentation/d/1lM7ob_J99zr307zVXjNRqtuPDtby_rw6FS8QuQBPwjY/edit)
+  - Created by Scotland Volunteers
 
-## Notes
+## Videos
+
+- [Cooking with JavaScript Objects - 04/06/2020](https://www.youtube.com/watch?v=9mqdXm7ojYU)
+  - Created by Scotland Volunteers & Rares Matei
