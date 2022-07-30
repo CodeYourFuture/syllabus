@@ -3,6 +3,61 @@ id: minutes
 title: Team Minutes
 sidebar_label: Team Minutes
 ---
+
+## 2022-07-21
+
+Attendees: Sally, Apoorva, Greg, Mitch
+
+### ❗Actions from last time
+
+- [ ] Sally: send list of some more people for React module team
+- [ ] Ali: chat with Lily about more people for React module team
+- [ ] Ali: coordinate with applicants so far for React module team
+- [ ] Sally: follow up with ZA at some point about why they needed to conduct interviews
+
+### Fundamentals feedback
+
+- Feels like we need a lot of TA support for Fundamentals
+- Add something to the module coordinator notes to think about the number of TAs required for a Fundamentals session
+- TAs not assigned to a room in Scotland - so they all jump around
+- They need experienced people to guide them when they gooff posted
+- LDN9 is a completely new group of volunteers - so good test of our unspoken assumptions
+- Covering a lot of blocks in the Fundamentals course
+- A lot of pushback from trainees, why are we using Blocks - like kids stuff
+- Found the Blockly fundamentals homework overwhelming
+- Greg: The split up of the homework was arbitrary - so we can rearrange it so we can add some more homework to Week 1 if required, for example
+- A section on MVP in Week 2 - not realistic for it to be completed in 10 mins - more like 20 & 20 or 15 & 15
+- Students said stuff "user stories" wasn't important
+- Fundamentals will give students a better though far from complete impression of what being a software engineer involves
+- Come up with a concrete outcome for the coursework - as trainees struggle to follow more abstract instructions
+- Trainees are very wary of people in institutions - experience of being lied to etc
+- Some things like create a discussion in a slack thread aren't happening
+- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ peple
+- Rainbird and interview selection figures are very similar - vindication for Rainbird!
+- Assumption that Fundamentals is different because Fun is a lot bigger than the rest of the course. Fun was supposed to be capped to 40 and come down to 30 for the main course
+- Want to get a reduction in the early course dropout rate - target for next year
+- 60+ for fundamentals is too big!
+- Need to keep encouraging trainees to ask questions in main channels and _not_ DM TAs
+- Asking questions, handling conflict are all essentials skills we need to keep developing in trainees as they progress through the course
+
+### Immersive program
+
+- Far more selective and demanding than the main course
+- See link for more detail -> https://docs.google.com/document/d/1hNolfVFbwb3mYML3OaNw1zStACZbw5np-Obpx6eLtJ4/edit
+- Course structure here -> https://docs.google.com/document/d/1V6HEu_OcJ3MHH-aHzUfANf06VJa1rPcGHcpBwql7QLA/edit#heading=h.dgaqq1am7dqu
+- Invitation has been sent out to trainees
+- Program is designed around x5 10 day sprints
+- Hardly anyone has applied for the course so far - despite there being no consequences for applying
+
+###
+
+---
+
+### Action
+
+- For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+
 ## 2022-06-23
 
 Attendees: Sanyia, Sally, Ali
@@ -31,7 +86,7 @@ Attendees: Sanyia, Sally, Ali
 
 ### Global syllabus team
 
-- Daniel leaving - looking for a syllabus team backfill (Sanyia may have someone in mind from Deliveroo) 
+- Daniel leaving - looking for a syllabus team backfill (Sanyia may have someone in mind from Deliveroo)
 
 ### Upcoming work
 
@@ -39,7 +94,6 @@ Attendees: Sanyia, Sally, Ali
 - Daniel - involved in creating an accelerator program to get students ready for high performing jobs (e.g. slack)
 - Greg - cypress + contributing to blockly
 - Ali - group projects
-
 
 ## 2022-05-26
 
@@ -111,13 +165,14 @@ Attendees: Sanyia, Ali, Sally, ??
 ### Report from Hack your Future summit
 
 CYF was an early spinoff of HYF. Different in following ways
-  - Denmark, Netherlands, Belgium, Denmark
-  - Operating on a franchise model (with own leadership and staff)
-  - Different outcomes because e.g. Netherlands has an apprenticeship model in the hiring companies
-  - Don't graduate people until they are ready (part of how they've improved their outcomes)
-  - Not as much volunteer engagement/ownership
-  - Completely different curriculums in each franchise (w/ legal agreement that if outcomes are not met, franchise is revoked)
-  - In Denmark, companies pay to go into HYF to run a master class.
+
+- Denmark, Netherlands, Belgium, Denmark
+- Operating on a franchise model (with own leadership and staff)
+- Different outcomes because e.g. Netherlands has an apprenticeship model in the hiring companies
+- Don't graduate people until they are ready (part of how they've improved their outcomes)
+- Not as much volunteer engagement/ownership
+- Completely different curriculums in each franchise (w/ legal agreement that if outcomes are not met, franchise is revoked)
+- In Denmark, companies pay to go into HYF to run a master class.
 
 HYF Belgium super interested in LearnLab. They would like to share/collaborate on curriculum
 
@@ -129,8 +184,8 @@ Should potentially interact with HYF syllabus people in general.
 
 ### React Module Team
 
-- Advertise for it 
-- Come up with commitments required of team 
+- Advertise for it
+- Come up with commitments required of team
   - time
   - regular meeting (chair, minute taker)
   - visibility (minutes)
@@ -142,7 +197,7 @@ Should potentially interact with HYF syllabus people in general.
 - Need to discover what the contract that gives power, responsibility and ownership looks like
 - If we wanted module teams to come to us with "major changes", would have to define what "major change" means.
 - How would the module team interact with syllabus team?
-  - Maybe 2-4 x per year retro will all? 
+  - Maybe 2-4 x per year retro will all?
 
 ### Fundamentals
 
@@ -166,7 +221,7 @@ In order to happen would need to solve
 - People are often isolated - doing CYF online does not help much with that
 - Meetup in person has much better outcomes for English
 - Meetup in person has better well being and employment outcomes
-- City based meetup means volunteers are embedded in the local tech scene, where the jobs are 
+- City based meetup means volunteers are embedded in the local tech scene, where the jobs are
 
 ### Misc
 
@@ -175,9 +230,9 @@ In order to happen would need to solve
 
 ### ❗Actions
 
- - [ ] All: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
- - [ ] Ali: Recruit React Module Team and set up kickoff call
- - [ ] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
+- [ ] All: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
+- [ ] Ali: Recruit React Module Team and set up kickoff call
+- [ ] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
 
 ## 2022-04-28
 
