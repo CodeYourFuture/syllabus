@@ -4,7 +4,6 @@ title: Team Minutes
 sidebar_label: Team Minutes
 ---
 
-<<<<<<< HEAD
 ## 2022-07-21
 
 Attendees: Sally, Apoorva, Greg, Mitch
@@ -50,15 +49,19 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - Program is designed around x5 10 day sprints
 - Hardly anyone has applied for the course so far - despite there being no consequences for applying
 
-###
+### Teacher training
 
----
+- Currently running 2 iterations of the teacher training course in West Midlands and North West. West Midlands -> completely remote, North West -> Hybridg.
+- Current format involves 4/5 x 2 hour sworkshops ( with plenty .of attendee participation and engagement). Using Miro to collect ideas - working well thus far.
+- Course structure so far: take a section from a Saturday session and over the course of the workshops discuss and plan a short 20 - 25 mins lesson. The idea being that attendees ultimately feel more confident and empowered in taking on and delivering a section of the course.
+- End of the course, Mitch is going to deliver the 20/25 mins of teaching that was planned and deliver it to the trainees on a Saturday class. Then volunteers will get the opportunity to observe what was successful and what can be improved next time
+- Emphasis on planning and teaching as an iterative process
 
 ### Action
 
 - For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
 - For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
-=======
+
 ## 2022-07-07
 
 Attendees: Greg, Sanyia, Ali
@@ -74,8 +77,8 @@ Attendees: Greg, Sanyia, Ali
 - We have a team of 4 (including 1 grad) forming
 - Ali is arranging a kick off call with them, likely next week
 - Sanyia has a third Deliveroo person interested in volunteering
-	- Since we have a team forming, we think it's best to hold them in reserve for now
-	- They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+  - Since we have a team forming, we think it's best to hold them in reserve for now
+  - They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
 - Ali to write down some ideas for what the team could work on in the first few months
 
 ### Blocky
@@ -85,9 +88,8 @@ Attendees: Greg, Sanyia, Ali
 ## Missed agenda items
 
 - Sally had other meetings running over, but had some agenda items which we can cover next time
-	- 4 week revision update
-	- Cyf+ update
->>>>>>> 4e97aaab2fdff815c75ee8ff8dff55999b5cd8c2
+  - 4 week revision update
+  - Cyf+ update
 
 ## 2022-06-23
 
