@@ -6,7 +6,8 @@ module.exports = {
       "contributing/editing",
       "contributing/training",
     ],
-    "Syllabus Team": ["contributing/team", "contributing/minutes"],
+    "Global Syllabus Team": ["contributing/team", "contributing/minutes"],
+    "React Module Syllabus Team": ["contributing/react/minutes"],
     "Template Lesson": [
       "contributing/example/lesson-template",
       "contributing/example/homework-template",
