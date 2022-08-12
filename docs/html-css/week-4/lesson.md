@@ -42,12 +42,12 @@ In small groups it's time to reflect on what you have learned and share it with 
 
 Your presentation must cover the following:
 
-1) Why it is important to build accessible websites (You must cover who browse the web, and the different types of users.)
-2) What form controls we use when we want the user to choose multiple options from a list
-3) The difference between the DOM API and the Accessibility API
-3) Why it's important to be transparent as a developer
-4) Why developers use pull requests
-5) Why we do a retro
+1. Why it is important to build accessible websites (You must cover who browse the web, and the different types of users.)
+2. What form controls we use when we want the user to choose multiple options from a list
+3. The difference between the DOM API and the Accessibility API
+3. Why it's important to be transparent as a developer
+4. Why developers use pull requests
+5. Why we do a retro
 
 
 ## Retrospective (30 minutes)
