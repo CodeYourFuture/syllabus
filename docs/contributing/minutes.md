@@ -1,6 +1,6 @@
 ---
 id: minutes
-title: Team Minutes
+title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
