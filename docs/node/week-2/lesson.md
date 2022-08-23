@@ -164,10 +164,10 @@ It is a bit annoying that we have to _kill_ and _restart_ our server every time 
 Make sure the package is added to your _package.json_, add this line to the script:
 
 ```js
-scripts: {
-  start: "node server.js",
-  dev: 'nodemon server.js'
-}
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
 ```
 
 now from your terminal, use the command `npm run dev` and that will run the _server_ with `nodemon` which is a package that makes the server listen to code changes and automatically restart.
