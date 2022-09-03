@@ -59,7 +59,7 @@ Try to show the _journey_, not just the destination - if you have pictures of ea
 - Use tabs to pre-fill forms - we don't need to see you type out stuff, especially if you don't explain it
 - Use Incognito mode to prevent logging into/out. With incognito mode, you can be logged into multiple accounts at once
 - Consider recording a video of the demo - what if there's no internet? Or the app goes down?
-- Get someone to hold the mic if you're typing/demoing - then you have 2 hands!
+- Get someone to hold the mic if you're typing/demoing - then you have two hands!
 - Make the font size bigger so people can see it at the back of the room (`Ctrl-+` on Windows/Linux or `Cmd-+` on Mac)
 
 ### Common questions after the demo
