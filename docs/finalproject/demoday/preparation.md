@@ -58,7 +58,7 @@ Try to show the _journey_, not just the destination - if you have pictures of ea
 - Practice switching between demo and slides so that you don't waste too much time on it
 - Use tabs to pre-fill forms - we don't need to see you type out stuff, especially if you don't explain it
 - Use Incognito mode to prevent logging into/out. With incognito mode, you can be logged into multiple accounts at once
-- Consider recording a video of the demo - what if there's no internet? Or the app goes down?
+- Consider recording a (silent) video of the demo - what if there's no internet? Or the app goes down? But remember that this is your best chance to _make a personal impression_; never stand there silently while a video talks!
 - Get someone to hold the mic if you're typing/demoing - then you have two hands!
 - Make the font size bigger so people can see it at the back of the room. (`Ctrl-+` on Windows/Linux or `Cmd-+` on Mac)
 
