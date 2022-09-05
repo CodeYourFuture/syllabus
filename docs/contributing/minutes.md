@@ -32,7 +32,7 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - Come up with a concrete outcome for the coursework - as trainees struggle to follow more abstract instructions
 - Trainees are very wary of people in institutions - experience of being lied to etc
 - Some things like create a discussion in a slack thread aren't happening
-- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ peple
+- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ people
 - Rainbird and interview selection figures are very similar - vindication for Rainbird!
 - Assumption that Fundamentals is different because Fun is a lot bigger than the rest of the course. Fun was supposed to be capped to 40 and come down to 30 for the main course
 - Want to get a reduction in the early course dropout rate - target for next year
@@ -51,8 +51,8 @@ Attendees: Sally, Apoorva, Greg, Mitch
 
 ### Teacher training
 
-- Currently running 2 iterations of the teacher training course in West Midlands and North West. West Midlands -> completely remote, North West -> Hybridg.
-- Current format involves 4/5 x 2 hour sworkshops ( with plenty .of attendee participation and engagement). Using Miro to collect ideas - working well thus far.
+- Currently running 2 iterations of the teacher training course in West Midlands and North West. West Midlands -> completely remote, North West -> Hybrid.
+- Current format involves 4/5 x 2 hour workshops ( with plenty .of attendee participation and engagement). Using Miro to collect ideas - working well thus far.
 - Course structure so far: take a section from a Saturday session and over the course of the workshops discuss and plan a short 20 - 25 mins lesson. The idea being that attendees ultimately feel more confident and empowered in taking on and delivering a section of the course.
 - End of the course, Mitch is going to deliver the 20/25 mins of teaching that was planned and deliver it to the trainees on a Saturday class. Then volunteers will get the opportunity to observe what was successful and what can be improved next time
 - Emphasis on planning and teaching as an iterative process
