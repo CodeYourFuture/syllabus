@@ -10,9 +10,9 @@ Attendees: Sally, Apoorva, Greg, Mitch
 
 ### ❗Actions from last time
 
-- [ ] Sally: send list of some more people for React module team
-- [ ] Ali: chat with Lily about more people for React module team
-- [ ] Ali: coordinate with applicants so far for React module team
+- [x] Sally: send list of some more people for React module team
+- [x] Ali: chat with Lily about more people for React module team
+- [x] Ali: coordinate with applicants so far for React module team
 - [ ] Sally: follow up with ZA at some point about why they needed to conduct interviews
 
 ### Fundamentals feedback
@@ -20,7 +20,7 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - Feels like we need a lot of TA support for Fundamentals
 - Add something to the module coordinator notes to think about the number of TAs required for a Fundamentals session
 - TAs not assigned to a room in Scotland - so they all jump around
-- They need experienced people to guide them when they gooff posted
+- They need experienced people to guide them when they go off piste
 - LDN9 is a completely new group of volunteers - so good test of our unspoken assumptions
 - Covering a lot of blocks in the Fundamentals course
 - A lot of pushback from trainees, why are we using Blocks - like kids stuff
