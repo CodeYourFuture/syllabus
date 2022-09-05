@@ -32,7 +32,7 @@ Attendees: Sally, Apoorva, Greg, Mitch
 - Come up with a concrete outcome for the coursework - as trainees struggle to follow more abstract instructions
 - Trainees are very wary of people in institutions - experience of being lied to etc
 - Some things like create a discussion in a slack thread aren't happening
-- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ peple
+- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ people
 - Rainbird and interview selection figures are very similar - vindication for Rainbird!
 - Assumption that Fundamentals is different because Fun is a lot bigger than the rest of the course. Fun was supposed to be capped to 40 and come down to 30 for the main course
 - Want to get a reduction in the early course dropout rate - target for next year
