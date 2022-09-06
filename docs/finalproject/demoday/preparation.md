@@ -40,7 +40,39 @@ As well as the actual outputs of your project you should be thinking about:
 
 Try to show the _journey_, not just the destination - if you have pictures of early sketches or screenshots from previous builds of app, for example, you can use those to tell a story about how you approached the project and the progress you’ve made behind the scenes. This isn’t always obvious to less technical members of the audience, so it’s important to be able to illustrate the work you’ve put in.
 
-## Prep your codebase 
+### Presentation Tips
+
+#### Introduction
+
+- **Don't** spend time talking about the volunteers that helped with your project - the demo day is about you! Employers don't care about volunteers! (It's fine, the volunteers already know that you appreciate it!)
+- It's a good idea to say what type of job that you're interested in - so if you'd like to be a backend dev, say so!
+
+#### Presentation
+
+- When you talk about challenges, make sure you say how you solved it. If you didn't manage to solve it, then talk about what you tried to solve it
+- Talk about how you communicated and collaborated with each other (Github, Slack, calls, etc). Remember that this is a big part of a developer's day so it's a good idea to show that you have experience of this
+
+#### Demo
+
+- Have a script for the demo and practice it! You should be able to talk without thinking too much about it
+- Practice switching between demo and slides so that you don't waste too much time on it
+- Use tabs to pre-fill forms - we don't need to see you type out stuff, especially if you don't explain it
+- Use Incognito mode to prevent logging into/out. With incognito mode, you can be logged into multiple accounts at once
+- Consider recording a (silent) video of the demo - what if there's no internet? Or the app goes down? But remember that this is your best chance to _make a personal impression_; Never stand there silently while a video talks!
+- Get someone to hold the mic if you're typing/demoing - then you have two hands!
+- Make the font size bigger so people can see it at the back of the room. (`Ctrl-+` on Windows/Linux or `Cmd-+` on Mac)
+
+### Common questions after the demo
+
+It's a good idea to prepare answers for these questions:
+
+- What was your biggest challenge?
+- If you were starting from scratch would you change anything?
+- How did you test your app?
+- How does your app work on mobile devices?
+- Did you think about accessibility?
+
+## Prep your codebase
 
 - Finally, make sure your README is filled out and presents your project clearly.
 - Make sure your repo is linked on your deployed site and your deployed site is linked on your repo.
@@ -48,6 +80,3 @@ Try to show the _journey_, not just the destination - if you have pictures of ea
 - Generally imagine that employers are now looking at your work: you are launching into the world!
 
 There is more guidance on the [Graduate Module](https://module-graduates.codeyourfuture.io/exercise-types/cv-and-job-prep/github)
-
-
-
