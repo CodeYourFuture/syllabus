@@ -94,6 +94,64 @@ _(Raised by Ali)_
 - [] Form a module team for Fundamentals
 - [] Organise a discussion around TDD incorporation
 
+## 2022-07-21
+
+Attendees: Sally, Apoorva, Greg, Mitch
+
+### ❗Actions from last time
+
+- [x] Sally: send list of some more people for React module team
+- [x] Ali: chat with Lily about more people for React module team
+- [x] Ali: coordinate with applicants so far for React module team
+- [ ] Sally: follow up with ZA at some point about why they needed to conduct interviews
+
+### Fundamentals feedback
+
+- Feels like we need a lot of TA support for Fundamentals
+- Add something to the module coordinator notes to think about the number of TAs required for a Fundamentals session
+- TAs not assigned to a room in Scotland - so they all jump around
+- They need experienced people to guide them when they go off piste
+- LDN9 is a completely new group of volunteers - so good test of our unspoken assumptions
+- Covering a lot of blocks in the Fundamentals course
+- A lot of pushback from trainees, why are we using Blocks - like kids stuff
+- Found the Blockly fundamentals homework overwhelming
+- Greg: The split up of the homework was arbitrary - so we can rearrange it so we can add some more homework to Week 1 if required, for example
+- A section on MVP in Week 2 - not realistic for it to be completed in 10 mins - more like 20 & 20 or 15 & 15
+- Students said stuff "user stories" wasn't important
+- Fundamentals will give students a better though far from complete impression of what being a software engineer involves
+- Come up with a concrete outcome for the coursework - as trainees struggle to follow more abstract instructions
+- Trainees are very wary of people in institutions - experience of being lied to etc
+- Some things like create a discussion in a slack thread aren't happening
+- Smaller spaces with games and retreat spaces good for breaking up large classes with 50+ people
+- Rainbird and interview selection figures are very similar - vindication for Rainbird!
+- Assumption that Fundamentals is different because Fun is a lot bigger than the rest of the course. Fun was supposed to be capped to 40 and come down to 30 for the main course
+- Want to get a reduction in the early course dropout rate - target for next year
+- 60+ for fundamentals is too big!
+- Need to keep encouraging trainees to ask questions in main channels and _not_ DM TAs
+- Asking questions, handling conflict are all essentials skills we need to keep developing in trainees as they progress through the course
+
+### Immersive program
+
+- Far more selective and demanding than the main course
+- See link for more detail -> https://docs.google.com/document/d/1hNolfVFbwb3mYML3OaNw1zStACZbw5np-Obpx6eLtJ4/edit
+- Course structure here -> https://docs.google.com/document/d/1V6HEu_OcJ3MHH-aHzUfANf06VJa1rPcGHcpBwql7QLA/edit#heading=h.dgaqq1am7dqu
+- Invitation has been sent out to trainees
+- Program is designed around x5 10 day sprints
+- Hardly anyone has applied for the course so far - despite there being no consequences for applying
+
+### Teacher training
+
+- Currently running 2 iterations of the teacher training course in West Midlands and North West. West Midlands -> completely remote, North West -> Hybrid.
+- Current format involves 4/5 x 2 hour workshops ( with plenty .of attendee participation and engagement). Using Miro to collect ideas - working well thus far.
+- Course structure so far: take a section from a Saturday session and over the course of the workshops discuss and plan a short 20 - 25 mins lesson. The idea being that attendees ultimately feel more confident and empowered in taking on and delivering a section of the course.
+- End of the course, Mitch is going to deliver the 20/25 mins of teaching that was planned and deliver it to the trainees on a Saturday class. Then volunteers will get the opportunity to observe what was successful and what can be improved next time
+- Emphasis on planning and teaching as an iterative process
+
+### ❗Actions
+
+- [ ] For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [ ] For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+
 ---
 
 ## 2022-07-07
@@ -111,8 +169,13 @@ Attendees: Greg, Sanyia, Ali
 - We have a team of 4 (including 1 grad) forming
 - Ali is arranging a kick off call with them, likely next week
 - Sanyia has a third Deliveroo person interested in volunteering
+
   - Since we have a team forming, we think it's best to hold them in reserve for now
-  - They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+  - # They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+
+  - Since we have a team forming, we think it's best to hold them in reserve for now
+  - # They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+
 - Ali to write down some ideas for what the team could work on in the first few months
 
 ### Blocky
