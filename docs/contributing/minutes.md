@@ -4,6 +4,98 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## {DATE HERE}
+
+Attendees:
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+### ❗Actions
+
+---
+
+## 2022-09-15
+
+Attendees: Barath, Lorenzo, Ali, Sally, Mitch
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### Barath's marvellous machine 🤖
+
+_(Raised by Sally)_
+
+- Barath started explaining certain concepts in JS like how array methods work
+- Starting with an mental image and forming words to explain the particular concept - difficult with non-native speakers
+- Barath wanted to devise a more visual way of explaining some of the concepts
+- Built an awesome UI to visualise how some of the JS array methods work
+- Enables you to change the input array elements, the iteratee and the array method you want to visualise
+- The app can be found [here](https://unique-selkie-38a362.netlify.app/)
+- Will really help with difficult concepts like the difference between `map` and `forEach`
+- Great to extend this kind of visualisation app to other things like async code and HTTP requests
+- Great to think about how we can use tooling to really get the most out of our trainees
+
+- Next steps... 👣
+  - Barath will continue using with LDN9
+  - Try it with a running cohort
+  - Get feedback and survey the trainees
+  - Possibly create a smaller version and make other methods discoverable ❓
+
+#### CYF cloud track 🌧️
+
+_(Raised by Sally)_
+
+- This is a Postgrad module
+- Pedro originally ran an informal version of this course - people would go away and study something and then come back to discuss it
+- Tension between teaching something interesting vs teach something step by step that is useful to a company
+- Trainees can use free tier AWS accounts - but will be billed if you make mistakes
+- [Plan has been created here](https://docs.google.com/document/d/1qsvH-C1vXvevcKflYb2o8Ny2mmY2W2foP_yNssvIkZE/edit) for the CYF cloud track
+- Possible dates: Saturday 17th / 24th September
+- Course is going to be more like a discussion with Q&A
+- Focus of module: have some sort of application that you need to deploy
+- Want to support unbanked students as part of digital inclusion so they can access platforms like AWS
+- Need to get the balance right between videos and resources and indepednent learning and too many passive videos
+- Sometimes trainees can get lost if the steps aren't clear and they're given too much independence - then have to introduce more structure
+- This ties in with some of the emerging issues re peer-2-peer learning
+
+#### Sprint planning / ticket taking 🎫
+
+_(Raised by Sally)_
+
+Autumn winter goals ⚾
+
+**Greg:** Syllabus work for JS1 / JS2 with Richard, Transition materials for Blockly
+**Ali:** Teacher training pair up, Develop teaching community in London,
+**Mitch:** MVP Teacher training write up,
+**Everyone**: Continuing to incorporate TDD into syllabus, Organise a meetup to discuss JS1/2/3 and our goals
+
+#### TDD 🧪
+
+_(Raised by Ali)_
+
+- Confusion around Enzyme raised by someone in Slack
+- TDD asked for more and more by trainees
+- Useful way to teach new stuff
+- Don't really teach how to write tests at the moment
+- Don't actually run the tests either too
+- Having tests that run in the browser
+- Tasks broken down with writing a test for each requirement:
+  - 1 a) Write a test that asserts some func returns `[]`
+  - 1 b) Write a test that asserts some other requirement ...
+- Scaffolding for how to write tests properly with red-green-refactor etc
+- Need to keep modelling good TDD practices over multiple weeks
+
+### ❗Actions
+
+- [] Schedule a separate session for Fundamentals
+- [] Form a module team for Fundamentals
+- [] Organise a discussion around TDD incorporation
+
+---
+
 ## 2022-07-07
 
 Attendees: Greg, Sanyia, Ali
@@ -19,8 +111,8 @@ Attendees: Greg, Sanyia, Ali
 - We have a team of 4 (including 1 grad) forming
 - Ali is arranging a kick off call with them, likely next week
 - Sanyia has a third Deliveroo person interested in volunteering
-	- Since we have a team forming, we think it's best to hold them in reserve for now
-	- They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
+  - Since we have a team forming, we think it's best to hold them in reserve for now
+  - They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
 - Ali to write down some ideas for what the team could work on in the first few months
 
 ### Blocky
@@ -30,8 +122,8 @@ Attendees: Greg, Sanyia, Ali
 ## Missed agenda items
 
 - Sally had other meetings running over, but had some agenda items which we can cover next time
-	- 4 week revision update
-	- Cyf+ update
+  - 4 week revision update
+  - Cyf+ update
 
 ## 2022-06-23
 
@@ -61,7 +153,7 @@ Attendees: Sanyia, Sally, Ali
 
 ### Global syllabus team
 
-- Daniel leaving - looking for a syllabus team backfill (Sanyia may have someone in mind from Deliveroo) 
+- Daniel leaving - looking for a syllabus team backfill (Sanyia may have someone in mind from Deliveroo)
 
 ### Upcoming work
 
@@ -69,7 +161,6 @@ Attendees: Sanyia, Sally, Ali
 - Daniel - involved in creating an accelerator program to get students ready for high performing jobs (e.g. slack)
 - Greg - cypress + contributing to blockly
 - Ali - group projects
-
 
 ## 2022-05-26
 
@@ -141,13 +232,14 @@ Attendees: Sanyia, Ali, Sally, ??
 ### Report from Hack your Future summit
 
 CYF was an early spinoff of HYF. Different in following ways
-  - Denmark, Netherlands, Belgium, Denmark
-  - Operating on a franchise model (with own leadership and staff)
-  - Different outcomes because e.g. Netherlands has an apprenticeship model in the hiring companies
-  - Don't graduate people until they are ready (part of how they've improved their outcomes)
-  - Not as much volunteer engagement/ownership
-  - Completely different curriculums in each franchise (w/ legal agreement that if outcomes are not met, franchise is revoked)
-  - In Denmark, companies pay to go into HYF to run a master class.
+
+- Denmark, Netherlands, Belgium, Denmark
+- Operating on a franchise model (with own leadership and staff)
+- Different outcomes because e.g. Netherlands has an apprenticeship model in the hiring companies
+- Don't graduate people until they are ready (part of how they've improved their outcomes)
+- Not as much volunteer engagement/ownership
+- Completely different curriculums in each franchise (w/ legal agreement that if outcomes are not met, franchise is revoked)
+- In Denmark, companies pay to go into HYF to run a master class.
 
 HYF Belgium super interested in LearnLab. They would like to share/collaborate on curriculum
 
@@ -159,8 +251,8 @@ Should potentially interact with HYF syllabus people in general.
 
 ### React Module Team
 
-- Advertise for it 
-- Come up with commitments required of team 
+- Advertise for it
+- Come up with commitments required of team
   - time
   - regular meeting (chair, minute taker)
   - visibility (minutes)
@@ -172,7 +264,7 @@ Should potentially interact with HYF syllabus people in general.
 - Need to discover what the contract that gives power, responsibility and ownership looks like
 - If we wanted module teams to come to us with "major changes", would have to define what "major change" means.
 - How would the module team interact with syllabus team?
-  - Maybe 2-4 x per year retro will all? 
+  - Maybe 2-4 x per year retro will all?
 
 ### Fundamentals
 
@@ -196,7 +288,7 @@ In order to happen would need to solve
 - People are often isolated - doing CYF online does not help much with that
 - Meetup in person has much better outcomes for English
 - Meetup in person has better well being and employment outcomes
-- City based meetup means volunteers are embedded in the local tech scene, where the jobs are 
+- City based meetup means volunteers are embedded in the local tech scene, where the jobs are
 
 ### Misc
 
@@ -205,9 +297,9 @@ In order to happen would need to solve
 
 ### ❗Actions
 
- - [ ] All: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
- - [ ] Ali: Recruit React Module Team and set up kickoff call
- - [ ] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
+- [ ] All: take some time to review/give love to the group projects repo: https://github.com/CodeYourFuture/group-projects
+- [ ] Ali: Recruit React Module Team and set up kickoff call
+- [ ] Ali: Call with Elizabeth working on getting the PD changes merged into the fundamentals syllabus
 
 ## 2022-04-28
 
