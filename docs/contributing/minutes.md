@@ -81,7 +81,7 @@ _(Raised by Ali)_
 - Useful way to teach new stuff
 - Don't really teach how to write tests at the moment
 - Don't actually run the tests either too
-- Having tests that run in the browser
+- Having tests that run in the browser is a potential goal
 - Tasks broken down with writing a test for each requirement:
   - 1 a) Write a test that asserts some func returns `[]`
   - 1 b) Write a test that asserts some other requirement ...
