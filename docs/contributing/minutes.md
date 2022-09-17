@@ -57,7 +57,7 @@ _(Raised by Sally)_
 - Course is going to be more like a discussion with Q&A
 - Focus of module: have some sort of application that you need to deploy
 - Want to support unbanked students as part of digital inclusion so they can access platforms like AWS
-- Need to get the balance right between videos and resources and indepednent learning and too many passive videos
+- Need to get the balance right between videos and resources and independent learning and too many passive videos
 - Sometimes trainees can get lost if the steps aren't clear and they're given too much independence - then have to introduce more structure
 - This ties in with some of the emerging issues re peer-2-peer learning
 
