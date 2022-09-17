@@ -77,7 +77,7 @@ Autumn winter goals ⚾
 _(Raised by Ali)_
 
 - Confusion around Enzyme raised by someone in Slack
-- TDD asked for more and more by trainees
+- TDD asked for more and more by trainees and employers
 - Useful way to teach new stuff
 - Don't really teach how to write tests at the moment
 - Don't actually run the tests either too
