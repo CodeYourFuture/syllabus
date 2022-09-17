@@ -18,7 +18,7 @@ Attendees:
 
 ## 2022-09-15
 
-Attendees: Barath, Lorenzo, Ali, Sally, Mitch
+Attendees: Barath, Lorenzo, Ali, Sally, Mitch, Greg
 
 ### ❗Actions from last time
 
