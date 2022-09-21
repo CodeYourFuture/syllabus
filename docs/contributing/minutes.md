@@ -4,6 +4,99 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## {DATE HERE}
+
+Attendees:
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+### ❗Actions
+
+---
+
+## 2022-09-15
+
+Attendees: Barath, Lorenzo, Ali, Sally, Mitch, Greg
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### Barath's marvellous machine 🤖
+
+_(Raised by Sally)_
+
+- Barath started explaining certain concepts in JS like how array methods work
+- Starting with an mental image and forming words to explain the particular concept - difficult with non-native speakers
+- Barath wanted to devise a more visual way of explaining some of the concepts
+- Built an awesome UI to visualise how some of the JS array methods work
+- Enables you to change the input array elements, the iteratee and the array method you want to visualise
+- The app can be found [here](https://unique-selkie-38a362.netlify.app/)
+- Will really help with difficult concepts like the difference between `map` and `forEach`
+- Great to extend this kind of visualisation app to other things like async code and HTTP requests
+- Great to think about how we can use tooling to really get the most out of our trainees
+
+- Next steps... 👣
+  - Barath will continue using with LDN9
+  - Try it with a running cohort
+  - Get feedback and survey the trainees
+  - Possibly create a smaller version and make other methods discoverable ❓
+
+#### CYF cloud track 🌧️
+
+_(Raised by Sally)_
+
+- This is a Postgrad module
+- Pedro originally ran an informal version of this course - people would go away and study something and then come back to discuss it
+- Tension between teaching something interesting vs teach something step by step that is useful to a company
+- Trainees can use free tier AWS accounts - but will be billed if you make mistakes
+- [Plan has been created here](https://docs.google.com/document/d/1qsvH-C1vXvevcKflYb2o8Ny2mmY2W2foP_yNssvIkZE/edit) for the CYF cloud track
+- Possible dates: Saturday 17th / 24th September
+- Course is going to be more like a discussion with Q&A
+- Focus of module: have some sort of application that you need to deploy
+- Want to support unbanked students as part of digital inclusion so they can access platforms like AWS
+- Need to get the balance right between videos and resources and independent learning and too many passive videos
+- Sometimes trainees can get lost if the steps aren't clear and they're given too much independence - then have to introduce more structure
+- This ties in with some of the emerging issues re peer-2-peer learning
+
+#### Sprint planning / ticket taking 🎫
+
+_(Raised by Sally)_
+
+Autumn winter goals ⚾
+
+**Greg:** Syllabus work for JS1 / JS2 with Richard, Transition materials for Blockly
+**Ali:** Teacher training pair up, Develop teaching community in London,
+**Mitch:** MVP Teacher training write up,
+**Everyone**: Continuing to incorporate TDD into syllabus, Organise a meetup to discuss JS1/2/3 and our goals
+
+#### TDD 🧪
+
+_(Raised by Ali)_
+
+- Confusion around Enzyme raised by someone in Slack
+- TDD asked for more and more by trainees and employers
+- Useful way to teach new stuff
+- Don't really teach how to write tests at the moment
+- Don't actually run the tests either too
+- Having tests that run in the browser is a potential goal
+- Tasks broken down with writing a test for each requirement:
+  - 1 a) Write a test that asserts some func returns `[]`
+  - 1 b) Write a test that asserts some other requirement ...
+- Scaffolding for how to write tests properly with red-green-refactor etc
+- Need to keep modelling good TDD practices over multiple weeks
+
+### ❗Actions
+
+- [] For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [] For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+- [] Form a module team for Fundamentals
+- [] Organise a discussion around TDD incorporation
+
+---
+
 ## 2022-07-21
 
 Attendees: Sally, Apoorva, Greg, Mitch
@@ -79,6 +172,9 @@ Attendees: Greg, Sanyia, Ali
 - We have a team of 4 (including 1 grad) forming
 - Ali is arranging a kick off call with them, likely next week
 - Sanyia has a third Deliveroo person interested in volunteering
+
+  - Since we have a team forming, we think it's best to hold them in reserve for now
+  - # They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
 
   - Since we have a team forming, we think it's best to hold them in reserve for now
   - # They are interested in hands-on teaching in London, so possible a syllabus team wouldn't be well suited for them - suggested connecting with London organisers since London 8 are currently doing final projects and they nearly always use React
