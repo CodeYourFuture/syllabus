@@ -90,9 +90,12 @@ _(Raised by Ali)_
 
 ### ❗Actions
 
-- [] Schedule a separate session for Fundamentals
+- [] For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [] For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
 - [] Form a module team for Fundamentals
 - [] Organise a discussion around TDD incorporation
+
+---
 
 ## 2022-07-21
 
