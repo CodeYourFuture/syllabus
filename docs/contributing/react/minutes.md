@@ -4,6 +4,43 @@ title: React Module Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-09-12
+
+Present: Ali, Alex, Tom, Sharlu
+
+### Syllabus corrections
+
+- Create a PR for any small typos/invalid link corrections, no need to create a ticket
+- If links are invalid due to permission issues, reach out to Global Syllabus team for help
+- For more 'controversial' tickets (e.g. #345), no need to wait to discuss in a meeting, create a PR and discuss async in comments
+
+### Style Guides
+
+- The syllabus contains some strong opinions around styling, would a specific style guide help to be clear around style?
+  - A 'CYF [style guide](https://github.com/CodeYourFuture/syllabus/blob/master/docs/guides/code-style-guide.md) exists but is not React specific
+  - Sticking to a strict style guide can be confusing; trainees will find 'unstyled' code online which can be confusing
+  - Using Prettier in JS projects in a good standard
+
+### Meeting the Global Syllabus team
+
+- Ali suggested to meet the global syllabus team during one of the bi-weekly Thursday meetings to find out what they do and how they work
+
+### Updating React module syllabus team meeting
+
+- Time changed to 19:30 (GMT+1)
+
+### Actions
+
+- All: complete reading syllabus and coursework
+- Tom: create PR to correct typos/dead links
+- Sharlu: create ticket to add optional testing module (done: #478)
+- Ali: ask Global Syllabus team about adding testing to other modules
+- Ali: update meeting invite to new time (19:30)
+- Alex: convert lessons into a single .md file to find 'splitting points'
+- All: discuss sync/async suitable 'splitting points' in the 3 week course for updating to a 4 week course (#468)
+
+
+
 ## 2022-08-01
 
 Present: Ali, Alex, Tom, Sharlu, Zach
