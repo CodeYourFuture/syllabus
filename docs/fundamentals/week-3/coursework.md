@@ -38,33 +38,33 @@ You will find roles on [CW Jobs](https://www.cwjobs.co.uk/), [Linkedin](https://
 
 Employers are looking for Full Stack developers that can: 
 
-1. Able to build rapport with a diverse range of people
+1. Build rapport with a diverse range of people
 2.
 3.
 
 
-Employers are looking for Front End developers that are:
+Employers are looking for Front End developers that can:
 
 1. Effectively present information and respond to questions from management, business, and users.
 2.
 3.
 
 
-Employers are looking for UX designers that are:
+Employers are looking for UX designers that can:
 
 1.
 2.
 3.
 
 
-Employers are looking for QA testers that are:
+Employers are looking for QA testers that can;
 
 1.
 2.
 3
 
 
-Employers are looking for product managers that are:
+Employers are looking for product managers that can:
 
 1.
 2.
