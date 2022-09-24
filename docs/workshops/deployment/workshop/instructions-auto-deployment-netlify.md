@@ -53,7 +53,9 @@ Using GitHub and Netlify we can set up **automatic** deployment, so that every t
 ![Choosing the branch to create your site from](../assets/09-choose-branch.png)
 
 12. Click the "Deploy site" button
-13. Your site is now deploying!
+13. It make take a few minutes before the deploy is complete. Try refreshing your browser, when a `.netlify.app` URL appears then the site is live
+
+![The site is live](../assets/10-site-is-live.png)
 
 ## Changing your site name
 
