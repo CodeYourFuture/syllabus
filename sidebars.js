@@ -386,4 +386,9 @@ module.exports = {
       "workshops/interviews/technical/sample-questions",
     ],
   },
+  DeploymentGuide: [
+    "guides/deployment/deployment-guide",
+    "guides/deployment/site-naming-conventions",
+    "guides/deployment/common-problems",
+  ],
 };
