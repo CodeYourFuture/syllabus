@@ -127,10 +127,6 @@ module.exports = {
               label: "JavaScript Testing Workshop",
             },
             {
-              to: "workshops/deployment/",
-              label: "Deploying Your Code Workshop",
-            },
-            {
               to: "workshops/interviews/",
               label: "Interviews",
             },
