@@ -156,7 +156,7 @@ module.exports = {
               label: "Code Style Guide",
             },
             {
-              to: "guides/deployment/deployment-guide",
+              to: "guides/deployment/",
               label: "Deploying to Netlify",
             },
             {
