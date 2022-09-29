@@ -353,7 +353,16 @@ You have a maximum of three minutes to present back to the wider group.
 
 ## Coursework going forwards
 
-For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
+For the next four modules, most weeks your homework is going to be to fork a CYF repo to your own Github, clone that fork from GitHub to your local machine, write some code, and make a pull request with the changes.
+
+:::tip Recap
+
+1. **Fork** from CYF to your own Github account
+2. **Clone** from your Github to your local machine
+3. Make and **commit** your changes, **pushing** each small commit
+4. Open a **pull request** back to CYF with all your commits
+
+:::
 
 ## Glossary
 
