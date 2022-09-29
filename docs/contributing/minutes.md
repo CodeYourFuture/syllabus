@@ -16,6 +16,43 @@ Attendees:
 
 ---
 
+## 2022-09-29
+
+Attendees: Mitch, Greg, Sally
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+Forming a module team needs more work that being an "action point"
+
+  - Write a ticket 
+  - https://docs.google.com/document/d/1DbES2Ttw99AOT9Ib2Qe8HbAcFgIvxarv8iASFfFCWSA/edit?usp=sharing
+  - Have someone from PD part of the fundamentals module team -> ask Elizabeth
+
+P2P learning
+
+  - should read and comment document
+  - should trial it (smaller city sounds easier than London)
+  - trial would have to have people (i.e. Mitch) be involved very directly to build up the culture
+  - having coursework on wednesday sounds really good
+
+Employer feedback
+
+  - incompetence with git (commits that are too big, merge conflicts, poor commit messages and PR titles)
+
+Sally video for trainees
+  - what CYF is and isn't
+
+
+### ❗Actions
+- [] Greg: For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [] Sally: For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+- [] Greg: Write a ticket forming a module team for Fundamentals (possibly with some steps that can be checked off)
+- [] Sally: Organise a discussion around TDD incorporation
+
+---
+
 ## 2022-09-15
 
 Attendees: Barath, Lorenzo, Ali, Sally, Mitch, Greg
