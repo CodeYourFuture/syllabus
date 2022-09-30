@@ -34,7 +34,7 @@ Before you arrive at class you **must** have completed the following setup work.
 
 [Git Preparation](../preparation)
 
-_If you are a teacher reading this, please check the [Instructor Notes](./instructors)_
+_If you are a mentor reading this, please check the [Instructor Notes](./instructors)_
 
 ## What problem does Git solve?
 
@@ -72,23 +72,23 @@ You probably found it hard to see all of the differences (some were really small
 
 ## How does Git help?
 
-Imagine your teacher wanted everyone in the class to answer three questions and to send back the answers. What capabilities would we need in order to be able to do that?
+Imagine your mentor wanted everyone in the class to answer three questions and to send back the answers. What capabilities would we need in order to be able to do that?
 
-**First**, the teacher needs to be able to write the questions, and **store** them somewhere.
+**First**, the mentor needs to be able to write the questions, and **store** them somewhere.
 
 When we're using Git, we write things down in files in a folder (these could be text files, Word documents, images, or really any kind of file). When we save these files, we say we're _committing_ them, and we call the folder where we're saving them a _repository_ (or _repo_ for short).
 
 ![Teacher commits files locally](assets/lesson1diagram1.png)
 
-**Next**, the teacher needs to put the repository somewhere where the learners can get it. We call this _pushing_ the repository. The teacher won't send a copy to each learner, but will put one copy somewhere on the Internet, and tell the learners where it is. The place the teachers on this course will be pushing to is a website called [GitHub](https://github.com), but there are other websites they could push to if they wanted to. This is the difference between Git and GitHub - Git is a way of storing and sharing files, and GitHub is one website where you can use Git.
+**Next**, the mentor needs to put the repository somewhere where the learners can get it. We call this _pushing_ the repository. The mentor won't send a copy to each learner, but will put one copy somewhere on the Internet, and tell the learners where it is. The place the mentors on this course will be pushing to is a website called [GitHub](https://github.com), but there are other websites they could push to if they wanted to. This is the difference between Git and GitHub - Git is a way of storing and sharing files, and GitHub is one website where you can use Git.
 
 ![Teacher pushes files to GitHub](assets/lesson1diagram2.png)
 
-**Then**, now that the teacher has pushed the questions, each learner needs to be able to **get the questions onto their computer**.
+**Then**, now that the mentor has pushed the questions, each learner needs to be able to **get the questions onto their computer**.
 
-When we're using Git, we call this _cloning_ the teacher's repository (because we're making our own copy). After we've cloned the repository, we will have the same folder on our computer as the teacher created, committed, and pushed.
+When we're using Git, we call this _cloning_ the mentor's repository (because we're making our own copy). After we've cloned the repository, we will have the same folder on our computer as the mentor created, committed, and pushed.
 
-![A learners can clone an exact copy of what the teacher pushed](assets/lesson1diagram3.png)
+![A learners can clone an exact copy of what the mentor pushed](assets/lesson1diagram3.png)
 
 ## The Git Cheatsheet
 
@@ -108,11 +108,11 @@ When you've finished the exercise, you should have `file.txt` open in VS Code.
 
 ## What did we just do?
 
-![All of the learners can clone an exact copy of what the teacher pushed](assets/lesson1diagram4.png)
+![All of the learners can clone an exact copy of what the mentor pushed](assets/lesson1diagram4.png)
 
 Each of you just cloned a repository which CodeYourFuture created onto your computer, and opened up your copy of one of the files. This is the process you're going to follow to get your homework every week.
 
-## Let's do some homework (teacher-led demo)
+## Let's do some homework (mentor-led demo)
 
 The file you opened, `file.txt`, has a question in it. We're going to answer the question, and submit it as if it was our homework.
 
@@ -138,11 +138,15 @@ This doesn't copy our change to any other computer - it won't go on GitHub - com
 
 ### Exercise 3 (10 minutes)
 
-Try doing what your teacher just did:
+:::note Spot the diff
+
+Try doing what your mentor just did:
 
 1. Answer the question in `file.txt` in VS Code and save your changes.
 2. Look at the diff in GitHub desktop - does it look as you expect?
 3. Make a commit in your local repository.
+
+:::
 
 ### Teacher-led demo continues...
 
@@ -180,7 +184,7 @@ Then GitHub asks us whether we want to fork "To contribute to the parent project
 
 Now if we press "Push origin", it will copy our changes to our fork on GitHub.
 
-![Four repos - a teacher's on their laptop, a teacher's on GitHub, a learner on GitHub, a learner on their laptop](assets/lesson1-four-repo-diagram.png)
+![Four repos - a mentor's on their laptop, a mentor's on GitHub, a learner on GitHub, a learner on their laptop](assets/lesson1-four-repo-diagram.png)
 
 If you forget this, it's in the [cheatsheet](./cheatsheet)! Check out the "I want to send my code to volunteers (Pushing)" section.
 
@@ -204,15 +208,19 @@ Now there's a pull request that volunteers can look at! They can see who made th
 
 ### Exercise 4 (15 minutes)
 
+:::note Push and pull
 Make yourself a pull request with your change!
 
 1. Try to push your changes, make a fork, and then actually push your changes.
 2. Make your first pull request!
 
+:::
+
 If you get stuck, check out the [cheatsheet](./cheatsheet) :)
 
 ### Exercise 5 (5 minutes)
 
+:::note Permission
 There's another file in the repository you've cloned, `other-file.txt`.
 
 1. Open it
@@ -220,6 +228,7 @@ There's another file in the repository you've cloned, `other-file.txt`.
 3. Commit
 4. and Push
 
+:::
 Notice a couple of things are different this time!
 
 It didn't ask you to fork the repository - that's because you already have a fork you're allowed to push to.
@@ -267,7 +276,7 @@ You can always see an old version of a file by looking in the Git history, and i
 
 ### When to commit, push, and make a pull request
 
-You should commit often! Every time you think you've done something you may want to look at again, you should make a commit.
+**You should commit often**. Every time you think you've done something you may want to look at again, you should make a commit.
 
 Let's say you've made a website, and it generally looks about right, but you were thinking of adding some colour, or an animation. Before you do that, make a commit, because then if you break some of the CSS by trying to add an animation, you can always undo it.
 
@@ -285,7 +294,9 @@ Similarly, you don't need to have finished everything before you push - in fact,
 
 You also don't need to have finished all of your homework in order to make a pull request! If you've been struggling with one question, you can make a pull request and ask for help (you can even link to it on Slack! It will help the volunteers to help you, because they will be able to see exactly the code you're struggling with). Or if you've done most of the homework, but are struggling with a few questions, a volunteer can look at what you've done and help you out - but only if they can see your code!
 
-Commit often, push often, and make pull requests early!
+:::tip
+Commit often, push often, and make pull requests early.
+:::
 
 You may notice that your commits all have messages like "Update file.txt", whereas the ones before you started editing have different messages.
 
@@ -293,16 +304,23 @@ Commit messages can be really useful to understand what a change did without hav
 
 ### Exercise 6 (10 minutes)
 
+:::note Troubleshooting
+
 1. Clone https://github.com/CodeYourFuture/git-log-example (if you forgot how, check the [cheatsheet](./cheatsheet)
 2. Have a read of the file called `README.md`. See if you can find a problem in the file.
 3. Look through the history in GitHub Desktop. See if you can work out when and why the problem was introduced.
 4. Make a pull request fixing the problem.
 
+:::
+
 ### Exercise 7 (5 minutes)
+
+:::note Spot the difference
 
 Remember earlier we looked at three blog posts? They're actually in a repository on GitHub! https://github.com/CodeYourFuture/git-draft-blog-post-example
 
 Clone the repository and take a look. Can you find all of the differences between them now? Can you tell which was the finished version? How much easier/harder is this than it was without Git?
+:::
 
 ## Commit messages
 
@@ -325,35 +343,43 @@ Try to use this format when making your own commits. GitHub Desktop tries to enc
 
 Explaining _why_ we're making the change can help people in the future to understand why things look the way they do, and what's important not to change.
 
-
 ## Using technical language as a developer
 
-In this section we'll explore how a professional uses technical language to communicate and deliver a tutorial based on what you have learned so far to three different audiences. 
+In this section we'll explore how a professional uses technical language to communicate and deliver a tutorial based on what you have learned so far to three different audiences.
 
 :::note Exercise (20 minutes)
 
 It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
 
-1) Why Git is a useful tool?
-2) How to  commit, fork a repository, and push changes?
+1. Why Git is a useful tool?
+2. How to commit, fork a repository, and push changes?
 
 In small groups you must pick an audience from this list:
 
-1) A group of 10 year olds
-2) Your boss
-3) a peer group at a similar level to you
+1. A group of 10 year olds
+2. Your boss
+3. a peer group at a similar level to you
 
 :::
 
-:::note Exercise (40 minutes) 
+:::note Exercise (40 minutes)
 
 You have a maximum of three minutes to present back to the wider group.
 
-::: 
+:::
 
 ## Coursework going forwards
 
-For the next four modules, most weeks your homework is going to be to clone a repository from GitHub, write some code, and make a Pull Request with the code.
+For the next four modules, most weeks your homework is going to be to fork a CYF repo to your own Github, clone that fork from GitHub to your local machine, write some code, and make a pull request with the changes.
+
+:::tip Recap
+
+1. **Fork** from CYF to your own Github account
+2. **Clone** from your Github to your local machine
+3. Make and **commit** your changes, **pushing** each small commit
+4. Open a **pull request** back to CYF with all your commits
+
+:::
 
 ## Glossary
 
