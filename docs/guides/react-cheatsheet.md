@@ -64,7 +64,7 @@ The full Netlify cheat sheet can be found [**here**](/workshops/deployment/index
 ### Error when launching app with npm start
 
 - Are you in the right directory? Run `ls`, you should see a "package.json" listed
-- If you see an error with a message saying "module not found", try to npm install the missing package
+- If you see the error message "module not found", run `npm install module_name` to install the missing package.
 - If this fails, delete your node_modules folder and package-lock.json and re-run `npm install`
 
 ### Stop Create React App development server
