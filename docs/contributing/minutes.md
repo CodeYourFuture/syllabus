@@ -2320,7 +2320,7 @@ Present: Chris, Bukola, Mitch, Ali, Daniel, Greg, Lucy
 
 ### Personal Development Syllabus
 
-- https://personaldevelopment.codeyourfuture.io/
+- https://personal-development.codeyourfuture.io/
 - Technical Interview might be missing
   - Can this be rolled into the PD Syllabus?
 - Could we add more time CV Workshops
