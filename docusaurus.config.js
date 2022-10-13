@@ -66,7 +66,7 @@ module.exports = {
               label: "Fundamentals",
             },
             {
-              href: "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
+              href: "https://personal-development.codeyourfuture.io/em-modules/induction-week",
               label: "Induction",
             },
             {
@@ -193,7 +193,7 @@ module.exports = {
               label: "Organisation Documentation",
             },
             {
-              href: "https://personaldevelopment.codeyourfuture.io",
+              href: "https://personal-development.codeyourfuture.io",
               label: "Personal Development",
             },
           ],
