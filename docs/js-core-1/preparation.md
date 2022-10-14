@@ -26,18 +26,18 @@ If you get stuck on any of the below or above instructions, please post in your 
 2. Install Homebrew, which is a package manager for MacOS. Copy and paste the following command into your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 3. Ensure that you have succesfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "`Homebrew <version number>`"
 4. Install NodeJS and npm by typing `brew install node`
-5. Check that you have successfully installed NodeJS by ensuring that the following command returns a version number e.g. "v13.8.0"
+5. Check that you have successfully installed NodeJS by ensuring that the following command returns a version number e.g. "v16.17.0"
    - `node -v`
-6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
+6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.15.0"
    - `npm -v`
 
 ### On Ubuntu
 
 1. Type ctrl + alt + T to open up the terminal
 2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs`
-3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g. "v13.8.0"
+3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g. "v16.17.0"
    - `node -v`
-4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "6.13.6"
+4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.15.0"
    - `npm -v`
 
 ### 3) Refresh on JS (3 hours)
