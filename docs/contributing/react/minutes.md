@@ -4,6 +4,61 @@ title: React Module Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2022-10-17 - React Syllabus
+
+Attendees:
+- Ali
+- Alex
+- Zach
+- Tom
+-
+### 3 => 4 Week
+- Alex introduced the concept  of separating course into 4
+- Presentational components -> state -> syncronosity ->  forms
+- Old syllabus kind of covered this slightly better
+- Forms were always 'tacked on' to cover for final projects as it always comes up with students.
+- Data fetching used to be a lot simpler, edge cases are now a lot harder. Dependency array adds a lot of complexity.
+- Ali has always had a bias to skip some of this complexity if it comes up, just focus on the empty dependency array.
+- Beneficial to change it to a real API - Glitch app in the coursework that's a basic express server. Microserver somewhere on free infrastructure.
+- Possible free access to some kind of server at some point, check with ops team.
+- [React Assessment](https://github.com/CodeYourFuture/react-assessment) also available - Codewars not brilliant for React. (success is usually tied to engagement rather than the code quality on Codewars). Has a netlify functions app.
+- South Africa has already gone through the three weeks, recapping the material is probably best for now.
+- Ali needs to let Sally know we're slightly further ahead in SA than previously thought.
+- Aim for a London release, so that Ali / Tom / Alex can be present and see how it's going.
+
+###  Action Items
+- Alex to set up a  drop in to start the work on coding the final form.
+- Zach to grab feedback on the React module itself from SA students.
+- Ali to figure out the next actual React cohort
+- Have a gander through repos to ensure that they are using latest CRA.
+- Ali to raise migrating away from CRA with the syllabus team.
+- Keep meeting for regular time.
+
+### Other business
+-  Should we add subtasks to the 3 => 4 weeks ?
+- We should think more about coursework, does it flow properly with the new week format?
+- Look through additional material, should we write some more?
+	- How can we help other teachers teach?
+	- What questions are the students currently asking? Can we provide them with more information on this sort of thing? Maybe this would be more useful after the course and we don't need to worry too much.
+		- Redux  good example of this, deliberately we have chosen to keep it as outside of the scope of the syllabus.
+		- Can we use more React documentation as additional material as the quality increases over time?
+- Can we get rid of `import React from "react";`?
+	- Probably yes!
+	- We may need to update the code sandboxes and  the coursework repo.
+- Can we link out to a post on what bundling is? Probably not a priority for the lesson itself, might be useful to have.
+	- Go to dev tools and see minified JavaScript and generated HTML?
+	- Used to be on the course, but added a lot of complexity. Possibly beyond the 'minimum viable lesson'. Shorten the loop.
+- Syllabus team looking into Front End specific course, job market implications though.
+
+### Action Items from Last Time
+- All to complete reading the syllabus and coursework
+	- Tom has looked over it and has corrected typos
+	- Alex to still look at the coursework
+- Sharlu added ticket for testing ticket
+- Internal push for more testing - open call for TDD
+	-	Alex to join call on 1st of November
+
+
 ## 2022-09-12
 
 Present: Ali, Alex, Tom, Sharlu
