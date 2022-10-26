@@ -43,5 +43,7 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 ## Personal Development / Introspection
 
 - [ ] Explain the purpose of Personal Development sessions
-- [ ] Identify an area of personal development
+- [ ] Believe in own capabilities/ability to be successful
+- [ ] Understand own strengths
+- [ ] Identify areas of development 
 
