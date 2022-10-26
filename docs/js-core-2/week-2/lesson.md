@@ -12,16 +12,6 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import ExerciseSolutions from "@theme/ExerciseSolutions";
 
-## Contents
-
-- [Methods review](#tdd-and-methods)
-- [Arrays of Objects](#arrays-of-objects)
-- [Object built-in methods](#object-built-in-methods)
-- [Loop through an object](#loop-through-an-object)
-- [Pairing Kata](#pairing-kata)
-
----
-
 ## Learning Objectives
 
 By the end of this lesson trainees should be able to:
