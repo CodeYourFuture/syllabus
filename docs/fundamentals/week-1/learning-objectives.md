@@ -39,3 +39,9 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 - [ ] Export your Codepen to zip
 - [ ] Upload your folder to Github
 - [ ] Deploy your folder to Netlify
+
+## Personal Development / Introspection
+
+- [ ] Explain the purpose of Personal Development sessions
+- [ ] Identify an area of personal development
+
