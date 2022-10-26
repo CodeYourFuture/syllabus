@@ -66,7 +66,9 @@ Remember the Steps: _Red, Green, Refactor_
 
 TDD is a popular method for writing code among professional programmers. Why do you think this is?
 
-In small groups, discuss what you think the benefits of TDD might be? Then report your findings back to the group.
+In small groups, take 5 minutes to discuss what you think the benefits of TDD might be?
+
+Then report your findings back to the group. There isn't really a "correct" answer here, it's a good idea to discuss with other trainees and volunteers.
 
 :::
 
