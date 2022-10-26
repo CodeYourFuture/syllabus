@@ -62,6 +62,14 @@ Remember the Steps: _Red, Green, Refactor_
 
 :::
 
+:::note Exercise: Reflect on TDD
+
+TDD is a popular method for writing code among professional programmers. Why do you think this is?
+
+In small groups, discuss what you think the benefits of TDD might be? Then report your findings back to the group.
+
+:::
+
 ## Arrays of objects
 
 In the past weeks, you've learned about using arrays of numbers, arrays of string etc... In the following, we will learn how to use arrays of objects.
