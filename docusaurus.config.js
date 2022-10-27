@@ -127,10 +127,6 @@ module.exports = {
               label: "JavaScript Testing Workshop",
             },
             {
-              to: "workshops/deployment/",
-              label: "Deploying Your Code Workshop",
-            },
-            {
               to: "workshops/interviews/",
               label: "Interviews",
             },
@@ -154,6 +150,10 @@ module.exports = {
             {
               to: "guides/code-style-guide",
               label: "Code Style Guide",
+            },
+            {
+              to: "guides/deployment/",
+              label: "Deploying to Netlify",
             },
             {
               to: "guides/coding-101",
