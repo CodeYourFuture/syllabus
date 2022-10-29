@@ -144,6 +144,10 @@ module.exports = {
               label: "Our Approach",
             },
             {
+              to: "guides/asking-questions",
+              label: "Asking Questions",
+            },
+            {
               to: "guides/marking-guide",
               label: "Marking Guide",
             },
