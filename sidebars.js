@@ -360,16 +360,15 @@ module.exports = {
     ],
   },
   Deployment: {
-    Overview: [
-      "workshops/deployment/index",
-      "workshops/deployment/site-naming-conventions",
-      "workshops/deployment/mentors",
+    Guides: [
+      "guides/deployment/overview",
+      "guides/deployment/first-site",
+      "guides/deployment/another-site",
+      "guides/deployment/renaming-site",
     ],
-    Workshop: [
-      "workshops/deployment/workshop/instructions",
-      "workshops/deployment/workshop/workshop",
-      "workshops/deployment/workshop/workshop-1-mentors",
-      "workshops/deployment/workshop/cheatsheet",
+    Resources: [
+      "guides/deployment/site-naming-conventions",
+      "guides/deployment/common-problems",
     ],
   },
   Accessibility: {

@@ -155,7 +155,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/induction-week",
+                "https://personal-development.codeyourfuture.io/em-modules/induction-week",
                 "rgb(176,98,137)",
                 "PD"
               )}
@@ -188,7 +188,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-2",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-2",
                 "PD"
               )}
               {getComponent(
@@ -218,7 +218,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-3",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-3",
                 "PD"
               )}
               {getComponent(
@@ -252,7 +252,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-4",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-4",
                 "PD"
               )}
               {getComponent(
@@ -336,7 +336,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-5",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-5",
                 "PD"
               )}
               {getComponent(
@@ -367,7 +367,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-6",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-6",
                 "PD"
               )}
               {getComponent(
@@ -395,7 +395,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-7",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-7",
                 "PD"
               )}
               {getComponent(
@@ -428,7 +428,7 @@ function Overview() {
                   </p>
                 </div>,
                 <EmojiPeopleIcon />,
-                "https://personaldevelopment.codeyourfuture.io/em-modules/pd-session-8",
+                "https://personal-development.codeyourfuture.io/em-modules/pd-session-8",
                 "PD"
               )}
               <VerticalTimelineElement

@@ -24,19 +24,22 @@ We open our class with live coding and group debugging using trainees' work as m
 
 ## Ship It (90 minutes)
 
-We are going to build a site and deploy it to the internet, or 'Ship It'. You did this in Fundamentals but now we're going to use a more complicated pipeline closer to the way professionals do it.
+We are going to build a site and deploy it to the internet, or 'Ship It', just like we did in Fundamentals.
 
 Many developers struggle with perfectionism. At CYF we challenge you to ship your code quickly and often, as this is the best way to improve your [quality and your quantity](https://betterprogramming.pub/why-perfectionism-is-killing-your-progress-as-a-coder-42a842d5e7c0).
 
 We will also use Devtools to run tests (Lighthouse Audit) on our websites and examine our code critically. Developers must test their work.
 
-:::note Deploy to Netlify Workshop 1
+:::note Exercise
 
-https://syllabus.codeyourfuture.io/workshops/deployment/workshop/workshop
+Using the [Deploying to Netlify Guide](../../../guides/deployment), deploy your:
+
+1. [Bikes For Refugees](https://github.com/CodeYourFuture/bikes-for-refugees) project
+2. [Karma clone](https://github.com/CodeYourFuture/HTML-CSS-Module-Project) project
 
 :::
 
-## Professional development (60 minutes) 
+## Professional development (60 minutes)
 
 In small groups it's time to reflect on what you have learned and share it with each other.
 
@@ -45,10 +48,9 @@ Your presentation must cover the following:
 1. Why it is important to build accessible websites (You must cover who browse the web, and the different types of users.)
 2. What form controls we use when we want the user to choose multiple options from a list
 3. The difference between the DOM API and the Accessibility API
-3. Why it's important to be transparent as a developer
-4. Why developers use pull requests
-5. Why we do a retro
-
+4. Why it's important to be transparent as a developer
+5. Why developers use pull requests
+6. Why we do a retro
 
 ## Retrospective (30 minutes)
 

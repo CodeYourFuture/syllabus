@@ -12,16 +12,6 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import ExerciseSolutions from "@theme/ExerciseSolutions";
 
-## Contents
-
-- [Methods review](#tdd-and-methods)
-- [Arrays of Objects](#arrays-of-objects)
-- [Object built-in methods](#object-built-in-methods)
-- [Loop through an object](#loop-through-an-object)
-- [Pairing Kata](#pairing-kata)
-
----
-
 ## Learning Objectives
 
 By the end of this lesson trainees should be able to:
@@ -69,6 +59,16 @@ Remember the Steps: _Red, Green, Refactor_
 - Red: Write a failing test
 - Green: Write the minimum code to make your test pass
 - Refactor
+
+:::
+
+:::note Exercise: Reflect on TDD
+
+TDD is a popular method for writing code among professional programmers. Why do you think this is?
+
+In small groups, take 5 minutes to discuss what you think the benefits of TDD might be?
+
+Then report your findings back to the group. There isn't really a "correct" answer here, it's a good idea to discuss with other trainees and volunteers.
 
 :::
 
