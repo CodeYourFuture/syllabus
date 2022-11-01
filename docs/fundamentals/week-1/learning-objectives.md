@@ -40,4 +40,9 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 - [ ] Upload your folder to Github
 - [ ] Deploy your folder to Netlify
 
-xxxxxx
+## PD
+
+- [ ] Explain the purpose of Personal Development
+- [ ] Believe in own capabilities and ability to be successful
+- [ ] Understand own strengths
+- [ ] Identify areas of development
