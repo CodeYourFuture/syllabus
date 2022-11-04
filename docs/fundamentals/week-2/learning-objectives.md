@@ -26,3 +26,10 @@ sidebar_label: Learning Objectives
 - [ ] Iterate on requirements
 - [ ] Pair programme
 - [ ] Contribute to retrospective
+
+## PD
+
+- [ ] Communicate challenges and barriers in public
+- [ ] Begin to recognise and address fears of transparency  
+- [ ] Take active initiative to overcome barriers to success
+- [ ] Give and receive constructive feedback
