@@ -78,7 +78,6 @@ Still copying forward the tasks from last time.
   - Do we need to go through it and add in some time for flipped classroom? Yes probably
 - Naming
   - "Flipped classroom" may have something of a bad rap, maybe we should call it something different
-    - We plan to
 
 #### The Bandit
 
