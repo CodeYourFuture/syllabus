@@ -16,6 +16,99 @@ Attendees:
 
 ---
 
+## 2022-10-27
+
+Attendees: Sally, Ali, Greg & Mitch
+
+### ❗Actions from last time
+
+(3 tasks put back in actions for next time)
+
+### 📝 Agenda points
+
+#### Check github actions for unit tests for coursework repos
+
+- need a ticket for this
+- unclear in how many places it is/isn't running
+- @Ali is writing a ticket
+
+#### Ali is moving
+
+#### Problem solving workshop in WM
+
+- basics to help trainees with their problem solving skills
+- e.g. how do the start solving codewars: (understanding the problem, inputs, outputs)
+- biggest problem is "how to get started"
+- other problem is TV show: "giant function nightmare"
+- TV show project could be better scaffolded
+- Suggestions:
+  - Maybe TDD could help
+  - Starting earlier with complexity
+  - Adding katas
+  - Scaffolding for how to solve the problem (how much scaffolding is too much? too little?)
+- TDD intersecting with scaffolding (pre-writing tests)
+- Write some broken implementations
+  - Need to make a change
+  - Easier with an existing test suite -> helps
+  - Need for a new test
+- We don't expose students to (good or bad) code 
+- What are we taking out of the course/coursework to make room for more problem solving?
+  - And the job market
+  - And the TDD
+  - etc.
+- We could make a lot less coursework mandatory
+- Need a doc with some requirements
+  - probably starting with TV Show is the wrong place
+  - break down the requirements -> and then figure out how we can distribute them
+
+#### Goals for TDD discussion next week
+
+- Sally will make a post where we can post agenda points
+- Greg has started working on a document 
+
+### ❗Actions
+
+- [] Sally: Post the fundamentals job ad
+- [] Greg: For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [] Greg: Write a ticket forming a module team for Fundamentals (possibly with some steps that can be checked off)
+
+---
+
+## 2022-10-13
+
+Attendees: Sally, Ali, Greg & Mitch
+
+### ❗Actions from last time
+
+- [x] Sally: For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
+- [x] Sally: Organise a discussion around TDD incorporation
+
+### 📝 Agenda points
+
+#### Syllabus team recruitment
+
+- Keep on the lookout for new members of the Syllabus Team
+
+#### 4 week React
+
+- React module is being converted to 4 weeks ( along with all other modules )
+- Potentially split week 1 - too densely packed at the moment
+- S Africa very good at trialling new stuff - good place to trial new 4 weeks React
+
+#### Netlify deployment PR
+
+- Polishing PR ▶️ https://github.com/CodeYourFuture/syllabus/pull/481
+- Scope for more drastic changes to the Netlify deployment workshop
+- Proposal: take instruction pieces and turn into a guide, remove workshop and move content into HTML module
+
+### ❗Actions
+
+- [] Sally: Post the fundamentals job ad
+- [] Greg: For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
+- [] Greg: Write a ticket forming a module team for Fundamentals (possibly with some steps that can be checked off)
+
+---
+
 ## 2022-09-29
 
 Attendees: Mitch, Greg, Sally
@@ -26,26 +119,27 @@ Attendees: Mitch, Greg, Sally
 
 Forming a module team needs more work that being an "action point"
 
-  - Write a ticket 
-  - https://docs.google.com/document/d/1DbES2Ttw99AOT9Ib2Qe8HbAcFgIvxarv8iASFfFCWSA/edit?usp=sharing
-  - Have someone from PD part of the fundamentals module team -> ask Elizabeth
+- Write a ticket
+- https://docs.google.com/document/d/1DbES2Ttw99AOT9Ib2Qe8HbAcFgIvxarv8iASFfFCWSA/edit?usp=sharing
+- Have someone from PD part of the fundamentals module team -> ask Elizabeth
 
 P2P learning
 
-  - should read and comment document
-  - should trial it (smaller city sounds easier than London)
-  - trial would have to have people (i.e. Mitch) be involved very directly to build up the culture
-  - having coursework on wednesday sounds really good
+- should read and comment document
+- should trial it (smaller city sounds easier than London)
+- trial would have to have people (i.e. Mitch) be involved very directly to build up the culture
+- having coursework on wednesday sounds really good
 
 Employer feedback
 
-  - incompetence with git (commits that are too big, merge conflicts, poor commit messages and PR titles)
+- incompetence with git (commits that are too big, merge conflicts, poor commit messages and PR titles)
 
 Sally video for trainees
-  - what CYF is and isn't
 
+- what CYF is and isn't
 
 ### ❗Actions
+
 - [] Greg: For js2, create at ticket to create an exercise that can be done with both Blockly and Javascript
 - [] Sally: For HTML Karma-clone, create a ticket for a "build a hamburger" exercise that can be done with Blockly
 - [] Greg: Write a ticket forming a module team for Fundamentals (possibly with some steps that can be checked off)
