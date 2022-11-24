@@ -16,6 +16,82 @@ Attendees:
 
 ---
 
+## 2022-11-10
+
+### ❗ Actions from last time
+
+Still copying forward the tasks from last time.
+
+### 📝 Agenda points
+
+#### React module team
+
+- Ali has been leading/encouraging progress but is going to be busy with moving soon
+- Ideas for getting increasing engagement
+  - Could we invite them to the Summit in Jan?
+  - Run an ideas meeting, encourage ownership/long-term vision
+    - Sally has lots of ideas that they could try, potentially could join
+
+#### Coursework Reduction
+
+- Sally created a bunch of tickets to reduce the amount of _mandatory_ coursework
+- Do we know how long it takes trainees to work through the coursework
+  - We've had a trainee who took 2 - 4 hours per week
+  - But we've also had trainees take much longer
+- Idea: reorder the coursework
+  - So trainees are doing the most important work first
+  - Could potentially do up to the 20 hour deadline
+- Consistency
+  - Can we make coursework clearer through consistency, so they're more likely to do it?
+  - Top priorities have a CodeWars exercise & PR to main coursework repo
+  - Next is to review the solutions
+    - A lot of trainees skip this, which may be a problem --- don't know which way the causality is around
+- Boilerplate classroom
+  - Has a break down of coursework by week
+  - Global syllabus should have access to this
+  - It's used to set up new classes --- so editing this will affect all subsequent classes
+    - There is a mechanism for updating existing classes, but it's on the cities to do it
+- Goal of tickets: have a look through the tickets and see what can be removed
+  - Some of the coursework might go, some might not
+  - Just need to assess it
+
+#### Flipped Classroom
+
+- Is the syllabus ready for this?
+  - Has ZA made progress/notes on how well this has worked?
+- Sally moved coursework ahead 1 week
+  - So trainees should be working ahead, seeing new concepts
+  - And coming with questions to the next class
+- Have coursework items to prepare for the next class
+  - Encouraged to come with questions
+- Mitch is planning to introduce flipped classroom model to NW soon
+- Concerns that flipped classroom model will heighten the "I don't know what I'm doing so I won't say anything" issue
+  - Need to encourage a culture of sharing blockers/vulnerability
+- Think that just giving notes to trainees ahead of time isn't enough
+  - Mitch plans to work with experienced teachers to prepare recordings alongside grads
+- Training for software engineers to "get out of the way"
+  - This was a suggestion that Ali had out of Mitch's teacher training session: we need a session on "practicing", basically solving exercises, pairing with trainees, etc
+- Will trainees come to class having written some code?
+  - Some but not lots
+  - Goal: they have an introduction and have started thinking about questions when they arrive at class
+- Syllabus tries to guide teachers on what they should cover in class
+  - Do we need to go through it and add in some time for flipped classroom? Yes probably
+- Naming
+  - "Flipped classroom" may have something of a bad rap, maybe we should call it something different
+
+#### The Bandit
+
+- https://overthewire.org/wargames/bandit/bandit0.html
+  - Levels 1 - 10
+  - Challenges to SSH onto a box, and move around to find files, using various CLI tools
+- Was added to CYF+ syllabus
+  - Sally did it, and thought it was good
+- We should add it to the main syllabus, as an stretch goal for terminal lessons
+
+### ❗ Actions
+
+- Open a ticket to add the Bandit to the terminal lesson
+
 ## 2022-10-27
 
 Attendees: Sally, Ali, Greg & Mitch
@@ -51,7 +127,7 @@ Attendees: Sally, Ali, Greg & Mitch
   - Need to make a change
   - Easier with an existing test suite -> helps
   - Need for a new test
-- We don't expose students to (good or bad) code 
+- We don't expose students to (good or bad) code
 - What are we taking out of the course/coursework to make room for more problem solving?
   - And the job market
   - And the TDD
@@ -64,7 +140,7 @@ Attendees: Sally, Ali, Greg & Mitch
 #### Goals for TDD discussion next week
 
 - Sally will make a post where we can post agenda points
-- Greg has started working on a document 
+- Greg has started working on a document
 
 ### ❗Actions
 
