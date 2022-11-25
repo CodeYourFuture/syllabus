@@ -28,12 +28,9 @@ All trainees should make sure that they are comfortable with their roles and wha
 
 ## Starter Projects
 
-Here is a starter project that trainees can fork to get started:
+Here is a [starter project for Postgres/Express/React/Node](https://github.com/CodeYourFuture/cyf-final-project-starter-kit/).
 
-- Starter project for [Mongo/Express/React/Node](https://github.com/CodeYourFuture/cyf-final-project-starter-kit)
-- Starter project for [Postgres/Express/React/Node](https://github.com/CodeYourFuture/cyf-final-project-starter-kit/tree/postgres) (this is a branch of the above project)
-
-Documentation can be found [here](https://github.com/textbook/starter-kit/wiki) for both of the above projects
+Documentation can be found [here](https://github.com/textbook/starter-kit/wiki).
 
 If you need help for any of these projects, you can find help in this Slack channel: [`#cyf-full-stack-starter-kit`](https://codeyourfuture.slack.com/archives/C021ATWS9A5)
 
