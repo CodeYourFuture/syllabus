@@ -9,7 +9,7 @@ Getting the Final Projects ready is not a task that can be done a week before th
 
 **When you are on the React Module**
 - [ ] Must review the trainee’s performance and make [readiness for Final Projects decision](https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit?usp=sharing)
-- [ ] Identify trainees that will be filling in roles such as UI/UX Designer, Tester or Product Delivery
+- [ ] If you haven't yet, make sure you dentify trainees that will be filling in roles such as UI/UX Designer, Tester or Product Delivery
 - [ ] Ask internally and externally for possible ideas of charities that could be part of Final Projects. The form used should be [this](https://forms.gle/Gn85Kdna6QB2Qfcp9). 
 - [ ] Start recruiting Tech Lead, Product Managers and UI/UX Designer for Final Projects. See the role descriptions [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles). 
 
@@ -23,10 +23,10 @@ Getting the Final Projects ready is not a task that can be done a week before th
 - [ ] Let volunteers choose which project they would like to be on
 
 **When you are on SQL Module**
-- [ ] Trainees must have finalised the Full Stack assessment 
+- [ ] Trainees' must have completed up to Level 300 of the Full Stack assessment by week 3 of the module before Final Projects and finalised 
 - [ ] Must review the trainee’s performance and identify the ones going to Final Projects
 - [ ] Identify trainees that are close in performance and allocate them to the same project. We encourage trainees to work with different people, so try to mix the teams up. Don’t forget to update the spreadsheet.
-- [ ] Have a meeting with all volunteers to go through the details of the final project (presentation to be created with expectation, escalation process, type of support, overview of the trainees per team, etc)
+- [ ] Have a meeting with all volunteers and trainees to go through the details of the final project (presentation to be created with expectation, escalation process, type of support, overview of the trainees per team, etc). Don't forget to record it and share the recording with all the participants.
 - [ ] Introduce all teams and people in it and create all Slack groups
 - [ ] A day before the first Saturday of Final Projects, send the project briefing to the team
 
@@ -48,9 +48,9 @@ All code should be done _in public on the trainees' Githubs_, unless there is a 
 
 Before class starts volunteer and trainee teams should have been assigned.
 
-You can find a template for organising the teams [here](https://docs.google.com/spreadsheets/d/13WGRmeUZoCZfPV3joO4q69GLIaAiYFnrh9WmZ51FrE8/edit#gid=0)
+You can find a template for organising the teams[here](https://docs.google.com/spreadsheets/d/16vSSJgzCZJKF-2pwuBTkKjJJJ9i1CGRqMbYB-HEO5mo/edit?usp=sharing). 
 **Repos must be logged on this spreadsheet so everyone can see what is happening during the module.**
-All trainees should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](./roles)
+All trainees should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](https://app.gitbook.com/o/-LcSabThbCRVBSHYbXg4/s/-MLT3gO-UutAs-bJiUtk/volunteers/teams-1/cyf-products-final-projects/roles)
 
 ## Starter Projects
 
