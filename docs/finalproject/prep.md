@@ -50,7 +50,7 @@ Before class starts volunteer and trainee teams should have been assigned.
 
 You can find a template for organising the teams[here](https://docs.google.com/spreadsheets/d/16vSSJgzCZJKF-2pwuBTkKjJJJ9i1CGRqMbYB-HEO5mo/edit?usp=sharing). 
 **Repos must be logged on this spreadsheet so everyone can see what is happening during the module.**
-All trainees should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](https://app.gitbook.com/o/-LcSabThbCRVBSHYbXg4/s/-MLT3gO-UutAs-bJiUtk/volunteers/teams-1/cyf-products-final-projects/roles)
+All trainees should make sure that they are comfortable with their roles and what they will be required to do. More information about roles can be found [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles)
 
 ## Starter Projects
 
