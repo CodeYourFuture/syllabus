@@ -37,7 +37,7 @@ The final projects form the final module of the course, comprising four weeks fo
 
 Ideally, the project team would consist of the following:
 
-- Four CYF trainees;
+- Three or four CYF trainees;
 - Two volunteer mentors ([Tech Lead](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/tech-lead) and [Product Manager](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-manager), forming a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU); and
 - A [product owner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner).
 
