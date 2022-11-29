@@ -43,7 +43,7 @@ Ideally, the project team would consist of the following:
 
 The mentor group would include an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer), designer (responsible for user research and UI/UX) and product manager (responsible for prioritisation and alignment with the product owner’s goals). This gives an opportunity to bring in volunteers from the broader tech community, and exposes the trainees to the roles they could be collaborating with in employment.
 
-For more information on roles [click here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles)
+[More information on volunteer roles](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles)
 
 The product owner would either be a representative from the partner organisation or someone at CYF, depending on the project. It’s important that they are able to engage at least twice a week with the team, and have the authority to make decisions that let the team keep moving.
 
