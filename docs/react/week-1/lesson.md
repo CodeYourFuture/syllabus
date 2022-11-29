@@ -388,7 +388,9 @@ function MentorsList() {
 }
 ```
 
-Here we have added a `key` prop to the `li` element. The `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which. A documentation page explaining in more depth is in the further reading section.
+Here we have added a `key` prop to the `li` element. The `key` prop has a special meaning in React. React uses `key` to keep track of each element in the list. 
+
+The [React documentation](https://reactjs.org/docs/lists-and-keys.html)  and [React learning book](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) explain this in more depth.
 
 ## Importing/Exporting Components
 
