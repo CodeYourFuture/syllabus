@@ -100,13 +100,7 @@ A good next step to getting started with defining your project is to complete th
 
 It is important that you answer all of these questions in **as much** details as possible. Even irrelevant details will help us understand what you are trying to achieve.
 
-### 2) Visual Form
-
-On the next step we're asking you to be more visual in answering the questions. We'd advise you to use images or diagrams to answer the questions in these slides.
-
-[CodeYourFuture - Visual Specification Form](https://docs.google.com/presentation/d/1-rj0NAncIhIZuay6TXEyUeuXFFUnE7vmN12223rHZOI/edit#slide=id.g3579738be0_0_0)
-
-### 3) Design Mock-Ups
+### 2) Design Mock-Ups
 
 Finally, you should work with us to create some simple designs of your product, which will give us a great insight into what exactly you want built. These will not be the final designs of what you be building - they're just a tool to help us work out what you want built.
 
