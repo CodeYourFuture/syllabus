@@ -4,9 +4,9 @@ title: Final Project - Week 3
 sidebar_label: Lesson
 ---
 
-See [Week 2](../week-2/lesson) for instructions for this week
+See [Week 2](../week-2/lesson) for instructions for this week. You are working as a team to deliver a product, so will continue using that format through the Final Projects
 
-### Check In
+### Check In: how is the contribuitions of all team members so far?
 
 It's important to evaluate our contributions to the group. Here's what we expect:
 
