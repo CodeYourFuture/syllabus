@@ -16,6 +16,58 @@ Attendees:
 
 ---
 
+## 2022-11-24
+
+Attendees:
+
+### ❗Actions from last time
+
+- Open a ticket to add the Bandit to the terminal lesson (Sally) []
+-
+
+### 📝 Agenda points
+
+#### Feedback from flipped classroom Q & A
+
+- [Here's a link to the notes from the Q&A session](https://docs.google.com/document/d/122t689Qpe_UbrrhW1xvpN88arM_I8ZGcoIAE9hd7ESs/edit) with Shaun and Zachee re flipped classroom in S Africa
+- Much more official doing work ahead of time
+- Here's what we're doing in class
+- Recap Q & A session
+- Better thought of as really well thought out prep work to make the NW
+
+#### Brief talk through Saturday flipped classroom presentation
+
+- Ask trainees how long they've spent on the prep work in a given week
+- Say you're with someone who's slightly more advanced in a grup - empower someone
+- Alternatively leave it vague who is strong - difference of ability
+  if 1 person is useEffect and 1 person is struggling the whole of React
+  -> if both people are tyring to learn the same thing then it makes sense for the `useEffect` people
+- but with less you know specifically -> more mixed ability
+- frustrated at different levels
+- Careful people aren't doing the minimal amount of work
+- If we assume people are learnign different things then groups don't matter massively
+- normalise the differentiation
+
+peer 2 peer - providing verbal explanations
+
+- explain how React works
+- how and what the code is doing
+- less advanced trainee is getting a better explanation
+
+#### Video recording volunteers
+
+- Lo-fi recordings done with volunteers
+- Greg, very interested - at some point in the future making some videos when he gains capacity
+- Will, observe something beforehand to see how it works
+
+#### Say hi to Will
+
+- Will mentor in 2nd LDN class in 2018
+
+### ❗Actions
+
+---
+
 ## 2022-11-10
 
 ### ❗ Actions from last time
