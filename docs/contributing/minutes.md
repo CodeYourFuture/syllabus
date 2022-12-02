@@ -28,25 +28,23 @@ Attendees:
 
 #### Feedback from flipped classroom Q & A
 
-- [Here's a link to the notes from the Q&A session](https://docs.google.com/document/d/122t689Qpe_UbrrhW1xvpN88arM_I8ZGcoIAE9hd7ESs/edit) with Shaun and Zachee re flipped classroom in S Africa
-- Greg likes to think of flipped classroom more as really well thought out prep work that makes the Saturday class run more smoothly
+- [Here's a link to the notes from the Q&A session](https://docs.google.com/document/d/122t689Qpe_UbrrhW1xvpN88arM_I8ZGcoIAE9hd7ESs/edit) with Shaun and Zacheé re flipped classroom in S Africa
+- Greg likes to think of flipped classroom more as having really well thought out prep work that makes the Saturday class run more smoothly
 
 #### Brief talk through Saturday flipped classroom presentation
 
 - Some discussion around the grouping of trainees on a Saturday:
 
   - Ask trainees how long they've spent on the prep work in a given week
-  - Said you're going to be with someone who's slightly more advanced in a group
-  - Could alternatively leave it vague who is strong: difference of ability
-    if 1 person is struggling with `useEffect` and 1 person is struggling the whole of React
-    -> if both people are trying to learn the same thing then it makes sense for the `useEffect` people
-  - but with less you know specifically -> more mixed ability
+  - May need to say in advance that someone in their group is going to be slightly/considerably more advanced than them
+  - Very important to normalise the differentiation
+  - Alternatively leave it vague who is strong/weak before grouping up trainees
+  - If 2 people are trying to learn the same thing, say `useEffect`, then it makes sense for the `useEffect` people to work together
+  - In general, the less they know specifically -> more mixed ability becomes possible
   - Could potentially get more frustration with people working at different levels
-  - Careful people aren't doing the minimal amount of work
   - If we assume people are learning different things then groups don't matter massively
-  - normalise the differentiation
 
-- peer-2-peer collaboration will work better if trainees provide verbal explanations of how their ode works
+- Peer-2-peer collaboration will work better if trainees provide verbal explanations of how their code works
 
 #### Video recording volunteers
 
@@ -56,6 +54,7 @@ Attendees:
 
 #### Welcome to Will
 
+- Welcome to Will who's joining on syllabus! 🎉
 - Will was previously a mentor in 2nd LDN class in 2018
 
 ### ❗Actions
