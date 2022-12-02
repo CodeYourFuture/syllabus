@@ -16,6 +16,53 @@ Attendees:
 
 ---
 
+## 2022-11-24
+
+Attendees:
+
+### ❗Actions from last time
+
+- Open a ticket to add the Bandit to the terminal lesson (Sally) []
+
+### 📝 Agenda points
+
+#### Feedback from flipped classroom Q & A
+
+- [Here's a link to the notes from the Q&A session](https://docs.google.com/document/d/122t689Qpe_UbrrhW1xvpN88arM_I8ZGcoIAE9hd7ESs/edit) with Shaun and Zacheé re flipped classroom in S Africa
+- Greg likes to think of flipped classroom more as having really well thought out prep work that makes the Saturday class run more smoothly
+
+#### Brief talk through Saturday flipped classroom presentation
+
+- Some discussion around the grouping of trainees on a Saturday:
+
+  - Ask trainees how long they've spent on the prep work in a given week
+  - May need to say in advance that someone in their group is going to be slightly/considerably more advanced than them
+  - Very important to normalise the differentiation
+  - Alternatively leave it vague who is strong/weak before grouping up trainees
+  - If 2 people are trying to learn the same thing, say `useEffect`, then it makes sense for the `useEffect` people to work together
+  - In general, the less they know specifically -> more mixed ability becomes possible
+  - Could potentially get more frustration with people working at different levels
+  - If we assume people are learning different things then groups don't matter massively
+
+- Peer-2-peer collaboration will work better if trainees provide verbal explanations of how their code works
+
+#### Video recording volunteers
+
+- Lo-fi recordings done with volunteers
+- Greg, very interested in helping with recordings - at some point in the future making some videos when he gains capacity
+- Will to observe something beforehand to see how it works
+
+#### Welcome to Will
+
+- Welcome to Will who's joining on syllabus! 🎉
+- Will was previously a mentor in 2nd LDN class in 2018
+
+### ❗Actions
+
+- [] Mitch and Will to catch up on a module PR later this week
+
+---
+
 ## 2022-11-10
 
 ### ❗ Actions from last time
