@@ -23,7 +23,6 @@ Attendees:
 ### ❗Actions from last time
 
 - Open a ticket to add the Bandit to the terminal lesson (Sally) []
--
 
 ### 📝 Agenda points
 
