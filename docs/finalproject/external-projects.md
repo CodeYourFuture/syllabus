@@ -14,7 +14,7 @@ Here is an example of a web app we built with an NGO as a Final Project:
 
 - [Over The Line with The Compass Collective](https://over-the-line.uk/)
 
-You can also find more example project briefs on the [Project Brief page](./projects).
+You can find example project briefs on the [Project Brief page](./projects).
 
 ## Goals
 
