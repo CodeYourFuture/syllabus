@@ -11,7 +11,7 @@ Getting the Final Projects ready is not a task that can be done a week before th
 - [ ] Must review the trainee’s performance and make [readiness for Final Projects decision](https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit?usp=sharing)
 - [ ] If you haven't yet, make sure you identify trainees that will be filling in roles such as UI/UX Designer, Tester or Product Delivery
 - [ ] Ask internally and externally for possible ideas of charities that could be part of Final Projects. The form used should be the [Final Project Proposals form](https://forms.gle/Gn85Kdna6QB2Qfcp9). 
-- [ ] Start recruiting Tech Lead, Product Managers and UI/UX Designer for Final Projects. See the role descriptions [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles). 
+- [ ] Start recruiting Tech Lead, Product Managers and UI/UX Designer for Final Projects. See the [role descriptions](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles). 
 
 **When you are on the NodeJS Module**
 - [ ] Review the project ideas with Tech Leads and Product Managers defining technical feasibility and scope size. You might have to have volunteers clarify some information with the charities
