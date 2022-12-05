@@ -10,7 +10,7 @@ If you are one of these charities, or know one we could work with, you can find 
 
 ## Past Projects
 
-Here is an example of the projects that we've worked on in the past
+Here is an example of a web app we built with an NGO as a Final Project:
 
 - [Over The Line with The Compass Collective](https://over-the-line.uk/)
 
