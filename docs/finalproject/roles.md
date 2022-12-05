@@ -19,7 +19,7 @@ Your main role is to coordinate the team and make sure everyone knows what they 
 - Introducing and enforcing Agile practices (e.g. sprint planning, retros)
 
 ### Technical Lead
-Full role description and commitment is [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/tech-lead)
+Full [role description for Tech Lead](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/tech-lead) (TL)
 
 The TL provide technical support to the trainees as they are developing their projects. They can provide support in:
 - Architecture of the application
