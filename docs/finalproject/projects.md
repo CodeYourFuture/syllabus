@@ -4,9 +4,9 @@ title: Project Briefings
 sidebar_label: Project Briefings
 ---
 
-These are some examples of projects that could we chosen for your team or projects that have been done previously.
+Here are some examples of previous final projects.
 
-New projects:
+Project briefings:
 - [A Set](https://docs.google.com/document/d/1_aYRVzw1DJE1K5EadBzZqqh00ZlA4uaXw7izzLJkAIo/edit?usp=sharing)
 - [Deskeando](https://docs.google.com/document/d/1GTIKg7UyItzZs-Xq4Kd0yY0WQLHM0L98Hoyr5BoktOg/edit?usp=sharing)
 - [We are here](https://docs.google.com/document/d/1BQd_AA4qz-N1fv83yeyh72QdhSnAzdn6GtwjC6tMwDQ/edit?usp=sharing)
