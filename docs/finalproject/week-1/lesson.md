@@ -88,7 +88,7 @@ _Facilitated by Tech Assistants_
 
 Every day you should post a message in the team's Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you.
 
-Don't forget to also read your team mates updates. This way you can understand what is happening in the team and support anyone that needs it.
+Don't forget to also read your teammates updates. This way you can understand what is happening in the team and support each other.
 
 Set a time for this and stick to it.
 
