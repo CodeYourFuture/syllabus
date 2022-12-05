@@ -10,7 +10,7 @@ These roles should in total create a [balanced team](https://www.youtube.com/wat
 
 ## Volunteer Roles
 
-### Product Manager // Scrum Master
+### Product Manager / Scrum Master
 Full role description is [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-manager)
 
 Your main role is to coordinate the team and make sure everyone knows what they are working on. They can provide support in:
