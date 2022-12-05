@@ -31,7 +31,7 @@ The TL provides technical support to the trainees as they are developing their p
 _UI/UX Designers are spread across multiple teams_
 Full [role description for UI/UX designer](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/ui-ux-designer).
 
-UI/UX'ers will provide their expertise in supporting the UI/UX trainees in each team. For example:
+UI/UXers will provide their expertise in supporting the UI/UX trainees in each team. For example:
 - Developing simple UI for the applications
 - Providing support on answering UX issues
 - Giving advice on how to better design an application to our teams
