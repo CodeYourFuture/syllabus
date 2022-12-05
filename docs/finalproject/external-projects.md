@@ -106,7 +106,7 @@ It is important that you answer all of these questions in **as much** details as
 
 ### 2) Design Mock-Ups
 
-Finally, you should work with us to create some simple designs of your product, which will give us a great insight into what exactly you want built. These will not be the final designs of what you be building - they're just a tool to help us work out what you want built.
+Finally, you should work with us to create some simple designs of your product. This will give us insight into exactly what you want. These will not be the final designs of what we will be building; they're just a tool to help us work out what you want built.
 
 You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step. If you want to use a digital tool we recommend [Excalidraw](https://excalidraw.com/).
 
