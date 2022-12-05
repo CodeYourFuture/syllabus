@@ -37,7 +37,7 @@ Having an active Product Owner leads to faster delivery with better solutions.
 
 Historically, one of the most common blockers to a successful project has been slow communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels, or go off on a tangent if they have a burning question and can't get it answered.
 
-In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our trainees. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
+In an ideal world, you are able to answer trainee questions within one working day. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
 
 The Product Owner role and commitment is described in detail [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner)
 
