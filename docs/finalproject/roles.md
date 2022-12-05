@@ -21,7 +21,7 @@ Your main role is to coordinate the team and make sure everyone knows what they 
 ### Technical Lead
 Full [role description for Tech Lead](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/tech-lead) (TL)
 
-The TL provide technical support to the trainees as they are developing their projects. They can provide support in:
+The TL provides technical support to the trainees as they are developing their projects. They can provide support in:
 - Architecture of the application
 - Helping to solve specific implementation problems
 - Helping to solve specific bugs or errors
