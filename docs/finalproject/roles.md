@@ -27,7 +27,7 @@ The TL provides technical support to the trainees as they are developing their p
 - Helping to solve specific bugs or errors
 - Providing overview of the entire project
 
-### UI/UX Designer
+### User Interface/ User Experience (UI/UX) Designer
 _UI/UX Designers are spread across multiple teams_
 Full role description is [here](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/ui-ux-designer).
 
