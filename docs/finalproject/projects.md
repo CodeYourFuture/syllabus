@@ -4,7 +4,7 @@ title: Project Briefings
 sidebar_label: Project Briefings
 ---
 
-You can find here some examples of projects that you could chose to do or that have been done previously, to give you and your team inspiration.
+These are some examples of projects that could we chosen for your team or projects that have been done previously.
 
 New projects:
 - [A Set](https://docs.google.com/document/d/1_aYRVzw1DJE1K5EadBzZqqh00ZlA4uaXw7izzLJkAIo/edit?usp=sharing)
