@@ -81,7 +81,7 @@ We use the following technologies at CodeYourFuture
 
 An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our trainees to use all of the skills that they have learnt in our course.
 
-If your tech stech is outside of the above core frameworks, send you project anyway and we will access it case-by-case.
+If your tech stack is far outside of the above core frameworks, send your project anyway and we will assess it case-by-case. 
 
 ### Limitations
 
