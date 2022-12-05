@@ -33,7 +33,9 @@ More details can be found on the [Intro](./intro) and [Preparation](./prep) page
 
 ## We will need a Product Owner from your organisation on the team
 
-Having an active Product Owner ensures the delivery is done faster and with the best solutions. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
+Having an active Product Owner leads to faster delivery with better solutions. 
+
+Historically, one of the most common blockers to a successful project has been slow communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels, or go off on a tangent if they have a burning question and can't get it answered.
 
 In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our trainees. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
 
