@@ -23,7 +23,7 @@ Getting the Final Projects ready is not a task that can be done a week before th
 - [ ] Let volunteers choose which project they would like to be on
 
 **When you are on SQL Module**
-- [ ] Trainees' must have completed up to Level 300 of the Full Stack assessment by week 3 of the module before Final Projects and finalised 
+- [ ] Trainees must have completed up to Level 300 of the [Full Stack Assessment](https://github.com/CodeYourFuture/Table-of-Contents) by week 3 of the module before Final Projects.
 - [ ] Must review the trainee’s performance and identify the ones going to Final Projects
 - [ ] Identify trainees that are close in performance and allocate them to the same project. We encourage trainees to work with different people, so try to mix the teams up. Don’t forget to update the spreadsheet.
 - [ ] Have a meeting with all volunteers and trainees to go through the details of the final project (presentation to be created with expectation, escalation process, type of support, overview of the trainees per team, etc). Don't forget to record it and share the recording with all the participants.
