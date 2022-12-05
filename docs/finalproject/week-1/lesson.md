@@ -90,7 +90,7 @@ Every day you should post a message in the team's Slack channel to let the rest 
 
 Don't forget to also read your teammates updates. This way you can understand what is happening in the team and support each other.
 
-Set a time for this and stick to it.
+Set a time for this and stick to it. Put it in your calendar.
 
 Afterwards, post a team summary in the main class channel.
 
