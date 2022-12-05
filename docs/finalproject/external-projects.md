@@ -31,7 +31,7 @@ and to give our partners:
 
 More details can be found on the [Intro](./intro) and [Preparation](./prep) pages.
 
-## We will need a Product Owner of your organisation on the team?
+## We will need a Product Owner from your organisation on the team
 
 Having an active Product Owner ensures the delivery is done faster and with the best solutions. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
 
