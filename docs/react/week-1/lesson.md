@@ -507,6 +507,41 @@ In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtP
 11. In the `BestPokemon.js` file replace the existing usage of `abilities` with the `abilities` **prop**. You should still see the Pokemon ability names in your web browser.
 12. **(STRETCH GOAL)** Repeat the process with the `date` variable in the `CaughtPokemon.js` file.
 
+##  Professional Development
+
+**Session: User stories and sprints**
+
+React module will recap Agile methodology through classroom discussions and group projects.
+
+https://docs.google.com/presentation/u/0/?tgif=d
+
+
+**
+Task** 
+Client Brief:
+
+A small hotel owner, after many years in business, has decided to go to the next level, perform renovations and then go online. An important part of this journey will be to build an online hotel booking app.
+
+The hotel owner has provided some information:
+
+The hotel owner would like to have a welcome page where people can find all the information they need about the hotel and from there, app users can go to the booking section.
+
+At the very beginning, they were planning to allow only hotel employees to use the app to complete bookings on behalf of customers over the phone.
+Since the hotel is currently under heavy renovation, there are no hotel or room pictures ready yet and they will only be ready at the very end of the project.
+
+Exercise (20 min)
+
+In small groups. Plan the app project and create user stories/scenarios.
+
+Resources required: Use Gitprojects to plan your project. 
+
+Exercise (40 min)
+
+In small groups. Plan the sprints, identify their objective and decide which stories should be included on each of them to ensure the customer can see meaningful demos of progress and be able to provide feedback.
+
+Resources required: Gitprojects.
+
+
 :::
 
 ### Credits
