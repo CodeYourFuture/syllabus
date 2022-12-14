@@ -432,35 +432,8 @@ In your groups, think carefully about the following things:
 Call `formatPenceToPounds` a few times with different inputs and `console.log` the outputs in order to check your function. 🙂
 :::
 
-:::note Exercise 2
-
-Create a function called `increaseByHalf` that should
-
-- take a number as an input
-- return this input number **increased by a half**
-
-E.g. `increaseByHalf(50)` should **evaluate** to `75`
-
-E.g. `increaseByHalf(100)` should **evaluate** to `150`
-
-In your groups, think carefully about the following things:
-
-- what the parameter name should be
-- creating good names for any variables you use
-- don't use `console.log` inside the body of the function
-
-Call `increaseByHalf` a few times with different inputs and `console.log` the outputs in order to check your function is working properly.
-
-Now declare a variable called `pocketMoney` and assign to it a value of `413`.
-
-Someone's been generous and decided to increase your `pocketMoney` by 50% 😎
-
-Using the functions `increaseByHalf` and `formatPenceToPounds` only, find the new amount of pocket money as a string in pounds with a `£` symbol at the front.
-
-Then use `console.log` the output in order to check your function.
-
 :::
-:::note Exercise 3
+:::note Exercise 2
 
 Check out the code below:
 
