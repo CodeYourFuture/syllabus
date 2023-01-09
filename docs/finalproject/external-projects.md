@@ -35,7 +35,7 @@ More details can be found on the [Intro](./intro) and [Preparation](./prep) page
 
 ## What does a Product Owner have to do?
 
-To be a good Stakeholder/Product Owner you should
+To be a good Stakeholder/[Product Owner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) you should
 
 - Be able to attend a weekly/bi-weekly meeting with our teams
 - Be in a position to advise the development of the project
@@ -46,6 +46,7 @@ To be a good Stakeholder/Product Owner you should
 In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our trainees more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
 
 In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our trainees. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
+
 
 ## What is a Good Project?
 
@@ -105,7 +106,7 @@ As Junior Developers, our trainees do have some limits on what they can produce
 
 A good next step to getting started with defining your project is to complete this form.
 
-[CodeYourFuture - Projects Specification Form](https://docs.google.com/forms/u/1/d/1u2zImwEjD5PDWJuMyDeCuQ3AP5xhWr683pGy9HlmC14/edit)
+[CodeYourFuture - Projects Specification Form](https://docs.google.com/forms/d/11ZU0TqiRCSk5FRb9BMTKhc6wCs6GhPMlUFKxwgfSLa4/edit?usp=drive_web)
 
 It is important that you answer all of these questions in **as much** details as possible. Even irrelevant details will help us understand what you are trying to achieve.
 
