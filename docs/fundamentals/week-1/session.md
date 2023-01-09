@@ -38,21 +38,28 @@ Post 5 interesting things about yourself in a thread.
 
 ---
 
-## Professional Development starts here
+## Personal Development (introspection)
 
-Today is the very beginning of your career journey, and it starts by thinking about your professional development journey.
+Today is the very beginning of your career journey, and it starts by thinking about your personal and professional development.
 
-:::note Exercise (15 minutes)
-In groups of five.
+:::note Exercise (30 minutes)
+In small groups. Introduce yourself. Identify a speaker for your group. Answer the following questions in turns:
+- Why did you apply to CYF?
+- What is one goal you have achieved in your life?
+- What is your career goal?
 
-Introduce yourself. Why did you apply to CYF? What is one goal you have achieved? What is your career goal?
+The speaker presents the group's ideas to the class.
 
 :::
 
-:::note Exercise (15 minutes)
-In groups of five.
+:::note Exercise (30 minutes)
+In small groups. Identify a speaker for your group. Discuss why you want a job in tech and name three actions you will take as a commitment to your journey into your new career. Consider following questions:
 
-Discuss why you want a job in tech and name three actions you will take as a commitment to your journey into your career. Will you keep up to date with job opportunities by researching roles? Will you build side projects to make yourself stand out? Will you commit to CYF?
+- Will you keep up to date with job opportunities by researching roles
+- Will you build side projects to make yourself stand out?
+- Will you commit to CYF?
+
+The speaker presents the group's three specific actions to the class.
 
 :::
 
