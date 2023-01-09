@@ -29,7 +29,12 @@ sidebar_label: Learning Objectives
 
 ## PD
 
+- [ ] Explain the purpose of Personal Development
+- [ ] Believe in own capabilities and ability to be successful
+- [ ] Understand own strengths
+- [ ] Identify areas of development
 - [ ] Communicate challenges and barriers in public
-- [ ] Begin to recognise and address fears of transparency  
+- [ ] Recognise and address fears of transparency
 - [ ] Take active initiative to overcome barriers to success
 - [ ] Give and receive constructive feedback
+- [ ] Begin developing presentation skills
