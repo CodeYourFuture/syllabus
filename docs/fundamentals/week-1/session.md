@@ -38,7 +38,7 @@ Post 5 interesting things about yourself in a thread.
 
 ---
 
-## Personal Development (introspection)
+## PD (introspection)
 
 Today is the very beginning of your career journey, and it starts by thinking about your personal and professional development.
 
