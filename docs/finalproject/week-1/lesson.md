@@ -72,7 +72,7 @@ _A note for PMs_ - don't forget to create your own copy of the presentation and 
 
 _Led by trainees_
 
-Project Management boards are a tool that you can use to help you organise how you work. There are many tools in the market, but we use Github Projects.
+Project Management boards are a tool that you can use to help you organise how you work.
 
 Create a copy of this Project Board to manage your work - [Project Board](https://github.com/orgs/CodeYourFuture/projects/13)
 
@@ -88,9 +88,7 @@ _Facilitated by Tech Assistants_
 
 Every day you should post a message in the team's Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you.
 
-Don't forget to also read your teammates updates. This way you can understand what is happening in the team and support each other.
-
-Set a time for this and stick to it. Put it in your calendar.
+Set a time for this and stick to it.
 
 Afterwards, post a team summary in the main class channel.
 

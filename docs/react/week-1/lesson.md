@@ -160,15 +160,14 @@ In this exercise we replace the placeholder React app with our own. It should lo
 
 Complete the following steps:
 
-1. First off, head to the root of your `pokedex` repo and start the app using `npm start`.
-2. In the `pokedex` React app that you just created, open the `src/App.js` file.
-3. Delete everything in the file except the line containing `export default App`. You should see an error in your terminal and in your web browser - don't panic! We're going to remake the `App` component ourselves.
-4. Import the React variable from the React package.
-5. Create a function named `App`, which will be our component.
-6. Within the `App` function, return a `<h1>` element with the text "Welcome to the Pokedex". What do you see in your web browser?
-7. Create a `<div>` element that _wraps around_ the `<h1>` you just created.
-8. Below the `<h1>` element (but within the `<div>`), create an `<img>` element. Then make its `src` attribute equal to `https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png`. What do you expect to see in your web browser?
-9. Now create a `<header>` element to wrap both the `<h1>` element **and** the `<img>` element.
+1. In the `pokedex` React app that you just created, open the `src/App.js` file.
+2. Delete everything in the file except the line containing `export default App`. You should see an error in your terminal and in your web browser - don't panic! We're going to remake the `App` component ourselves.
+3. Import the React variable from the React package.
+4. Create a function named `App`, which will be our component.
+5. Within the `App` function, return a `<h1>` element with the text "Welcome to the Pokedex". What do you see in your web browser?
+6. Create a `<div>` element that _wraps around_ the `<h1>` you just created.
+7. Below the `<h1>` element (but within the `<div>`), create an `<img>` element. Then make its `src` attribute equal to `https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png`. What do you expect to see in your web browser?
+8. Now create a `<header>` element to wrap both the `<h1>` element **and** the `<img>` element.
 
 :::
 
@@ -388,9 +387,7 @@ function MentorsList() {
 }
 ```
 
-Here we have added a `key` prop to the `li` element. The `key` prop has a special meaning in React. React uses `key` to keep track of each element in the list. 
-
-The [React documentation](https://reactjs.org/docs/lists-and-keys.html)  and [React learning book](https://beta.reactjs.org/learn/rendering-lists#keeping-list-items-in-order-with-key) explain this in more depth.
+Here we have added a `key` prop to the `li` element.  The `key` prop has a special meaning in React because it is used internally to keep track of which element in the list is which. A documentation page explaining in more depth is in the further reading section.
 
 ## Importing/Exporting Components
 

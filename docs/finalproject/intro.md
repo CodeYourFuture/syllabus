@@ -37,13 +37,13 @@ The final projects form the final module of the course, comprising four weeks fo
 
 Ideally, the project team would consist of the following:
 
-- Three or four CYF trainees;
-- Two volunteer mentors ([Tech Lead](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/tech-lead) and [Product Manager](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-manager), forming a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU); and
-- A [product owner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner).
+- Four CYF trainees;
+- Three volunteer mentors, forming a [balanced team](https://www.youtube.com/watch?v=Z_Q4Q8rCVpU); and
+- A product owner.
 
 The mentor group would include an engineer (responsible for unblocking technical/architectural issues, _not_ an extra developer), designer (responsible for user research and UI/UX) and product manager (responsible for prioritisation and alignment with the product owner’s goals). This gives an opportunity to bring in volunteers from the broader tech community, and exposes the trainees to the roles they could be collaborating with in employment.
 
-[More information on volunteer roles](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles)
+For more information on roles [click here](./roles.md)
 
 The product owner would either be a representative from the partner organisation or someone at CYF, depending on the project. It’s important that they are able to engage at least twice a week with the team, and have the authority to make decisions that let the team keep moving.
 
@@ -51,7 +51,7 @@ The product owner would either be a representative from the partner organisation
 
 We’re going to run the final projects in weekly “sprints”, planning out what we’re going to do as teams and as individuals. Each week will therefore look something like:
 
-- **Daily standup**: post a daily message in the team Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you. Set a time for this and stick to it. Don't forget to also read your team members updates and try to help them when they are blocked. Afterwards, post a team summary in the main class channel. 
+- **Daily standup**: post a daily message in the team Slack channel to let the rest of the team know what you’re working on, what progress you’ve made (even, and perhaps _especially_, if it’s none so far) and share anything that’s blocking you. Set a time for this and stick to it. Afterwards, post a team summary in the main class channel.
 
 - **Mid-week check-in**: you should have at least one Slack call with the whole team and a mentor during the week to sync on progress, escalate any blockers and make sure that you’re still heading in the right direction.
 - **Classes**: we’ll continue to meet on class days where we will be spending time on:

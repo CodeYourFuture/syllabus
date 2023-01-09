@@ -4,35 +4,6 @@ title: React Module Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
-## 2022-11-07
-
-Present: Ali, Tom
-
-## Agenda Items
-- Ali leaving the React module team (@Ali)
-  - Ali is planning to leave the React module syllabus team (as he originally planned), though will still be around in CYF to help
-	- His role was to set up the team and get the ball rolling, which has been successful
-	- All of the team are free to join the Global Syllabus team meeting
-- Team time/task progress - something's not working (@Tom)
-  - Not everyone in attendance at regular meetings, and often rescheduled
-	- Few agenda points and not much work in progress on the board
-	- This not a problem with the individuals in the team! It is a symptom of the team's setup
-	- The Global Syllabus team generally has enough work on so that everyone has a task assigned, meaning there are always agenda point for the regular meeting
-	- The React module is generally complete and only needs a few improvements, with no specific deadlines, so tickets are not always in progress
-	- No specific feedback from module coordinators to update the module - does this mean the module is good, or is there just no feedback?
-	- Even if there was enough work (i.e. feedback to re-write the whole module, which is unlikely), would it take 4 people more than 1 month?
-	- Maybe the team needs restructuring & re-focussing. Current 'TODO' work could be completed in less than 1 month, will the team have no purpose after this?
-- How can we get feedback for the module?
-	- Cape Town towards end of module instruction, Birmingham and Manchester starting in November, London in March
-  - A good opportunity to get feedback from module coordinators
-
-### Action Items
-- Ali: reach out/refer us to city coordinators who can tell us who the most recent module instructor was, to get feedback
-- Ali: discuss with Global Syllabus team re above agenda items
-- Tom: create ticket to update module coordinator page to 'keep notes on questions & feedback and submit tickets at end of teaching'
-
----
-
 ## 2022-10-17 - React Syllabus
 
 Attendees:
@@ -40,7 +11,7 @@ Attendees:
 - Alex
 - Zach
 - Tom
-
+-
 ### 3 => 4 Week
 - Alex introduced the concept  of separating course into 4
 - Presentational components -> state -> syncronosity ->  forms
@@ -87,7 +58,6 @@ Attendees:
 - Internal push for more testing - open call for TDD
 	-	Alex to join call on 1st of November
 
----
 
 ## 2022-09-12
 
@@ -124,7 +94,7 @@ Present: Ali, Alex, Tom, Sharlu
 - Alex: convert lessons into a single .md file to find 'splitting points'
 - All: discuss sync/async suitable 'splitting points' in the 3 week course for updating to a 4 week course (#468)
 
----
+
 
 ## 2022-08-01
 
