@@ -148,39 +148,30 @@ In the same pairs, try to implement one user story. While implementing, try to b
 
 ---
 
-## Professional development
+## PD (feedback)
 
-::: Transparency is the key to success! 
+::: Giving and receiving feedback 
 
-A key part of being a successful developer is the ability to give and receive feedback, in order to start that process you must be able to showcase your work in progress. Now that you have had a chance to try some coding, it’s time to be transparent and talk about it. 
+Transparency is the key to success! A important  part of being a successful developer is the ability to give and receive feedback. In order to start that process, you must be able to showcase your work in progress. Now that you have had a chance to try some coding, it’s time to be transparent and talk about it. 
 
-Find a partner! 
+**Exercise 1 (20 minutes per person)**
 
-**20 minutes: **
+Find a partner. In pairs take turns to discuss the questions below. Talk through your fears, get feedback, and work together to find solutions to some of the challenges you face. Each person has to give one piece of advice to support their fellow team member:
 
-In pairs take turns to ask the questions below:  
-When it comes to showing your work in progress, what are your three biggest fears?
-When it comes to showing your work in progress, how will you overcome your three biggest fears? 
-When it comes to showing your work in progress, what’s the absolute worst thing that can happen? 
-When it comes to showing your work in progress, what is the best thing that can happen? 
-When it comes to the working world, what do you need from your team mates? 
-When it comes to the working world, how will you support your team mates?
-What’s a better outcome, making a mistake and learning something new or never making mistakes and never learning at all? 
+- When it comes to showing your work in progress, what are your three biggest fears?
+- How will you overcome these fears?
+- When it comes to showing your work in progress, what’s the absolute worst thing that can happen?
+- What is the best thing that can happen?
+- When it comes to the working world, what do you need from your teammates?
+- How will you support your teammates?
+- What’s a better outcome, making a mistake and learning something new or never making mistakes and never learning at all?
 
-**Task:**
-Talk through your fears, get feedback, and work together to find solutions to some of the challenges you face. 
-
-After 20 Minutes, it’s time to swap. 
-
-If you’re feeling brave, share your challenges to the group and ask for feedback. 
+After 20 min, it’s time to swap.
 
 
-**10 minutes**
+**Exercise 2 (10 minutes)**
 
-Task for class: 
-In small groups each person has to give one piece of advice to support their fellow team members. 
-
-
+Volunteer to share your challenges to the class and ask for feedback. 
 
 ## Ship It
 
