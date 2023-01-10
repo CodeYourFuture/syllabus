@@ -389,6 +389,36 @@ We introduced a few new things in this class, and it can be a bit confusing to k
 - **GitHub** is a website which will store a copy of your Git repository, and allow you to clone it, and push changes to it. There are also other websites which can do this, but GitHub is the most popular one.
 - **GitHub Desktop** is a program made by GitHub to allow you to use Git easily from your computer. Later in the course, we will use other programs to use Git, too.
 
+## PD (Welcome and Induction)
+The Induction module introduces the expectations from Code Your Future trainees, the technical and soft skills to be developed and the support available during the course.
+
+Celebration!!!
+Make an effort to mark the achievements up to this point. You completed ITD and Fundamentals. Some of you never wrote a line of code before that!
+
+**Session 1: Goals and Expectations**
+The presentation below aims to identify your goal(s) for being on the CYF software development course; to highlight the expectations CodeYourFuture has for its trainees; to introduce the concept of progressing from the Intro to Digital, Fundamentals courses to the software development course.
+
+[Goals and Expectations](https://docs.google.com/presentation/d/11vimrefwpHfFByUfgPL-jwhZ2KrE0Li80M_O_z2U95I/edit)
+
+Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+
+**Session 2: What do developers do?**
+In this section we'll explore how a professional developer behaves and thus how you should behave.
+
+**Exercise (20 min)**
+In small groups. Imagine all the day-to-day activities and behaviours of a professional software developer. Use an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
+
+**Session 3: SDOT analysis**
+It's time to do an SDOT (Strengths, Weaknesses, Opportunities, and Threats) analysis.
+
+**Exercise (20 min)**
+Think about the key areas that you want to improve on by some introspective work and writing your own personal SDOT analysis:
+
+- Strengths: What are you great at? What makes you personally stand out from other people? What positive comments do people say about your strengths? What are your greatest achievements?
+- Developments: What skills do I need to work on? Where do you need to improve? What holds you back? What key habits do you want to overcome? What do others say about your development areas?
+- Opportunities: If I invest my time in my technical skills, I will land a good job. Who can help me achieve my goals? What can I do differently to other people that makes me more employable? How can I go the extra mile? How can I make opportunities happen for myself?
+- Threats: What could stop me from achieving my career goals? What do I need to stop doing now? What's out of my control that I can’t change?
+
 ## Coursework
 
 You can find this weeks homework [here](./homework)
