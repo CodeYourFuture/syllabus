@@ -12,7 +12,7 @@ Your feedback is really important to us. We use your feedback to improve the cou
 
 This feedback is anonymous meaning we won't have an idea who you are after you submit.
 
-We really appreaciate you being honest since this allows us to improve faster.
+We really appreciate you being honest since this allows us to improve faster.
 
 https://docs.google.com/forms/d/e/1FAIpQLSfrAtvR5HonJZiqlPXocAz7d1l-Kn57X5xp3oH_NmVUL9xTQQ/viewform
 
@@ -90,7 +90,7 @@ You should complete these challenges in the order they are in above.
 
 Do your usual three kata and then...
 
-1. Find the pinned suggestions thread in the #cyf-codewars
+1. Find the pinned suggestions thread in the #cyf-codewars Slack channel
 2. Suggest a kata, or upvote one, to add to the syllabus
 
 ## 8) IronHack Labs Practice (Stretch)

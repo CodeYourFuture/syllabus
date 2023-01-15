@@ -16,14 +16,22 @@ sidebar_label: React Cheatsheet
 | Conditional rendering with JSX                            | [https://codesandbox.io/s/conditional-rendering-with-jsx-b2ryk?file=/src/App.js](https://codesandbox.io/s/conditional-rendering-with-jsx-b2ryk?file=/src/App.js)                     |
 | Quick React setup                                         | [https://codesandbox.io/s/affectionate-dream-fmg69?file=/src/App.js](https://codesandbox.io/s/affectionate-dream-fmg69?file=/src/App.js)                                             |
 
-### Using a 3rd-party library in your React app Example: "lodash"
+### Using a 3rd-party library in your React app (example: "lodash")
 
-- In your terminal, run the following command:
-  npm install \&lt;package-name\&gt;E.g. npm install lodash
-- Go to the file where you want to use the package and import it with require('package-name')E.g. const lodash = require('lodash')
-- You should now be able to use the package in that file.E.g. let num = lodash.random(0, 10);
+- In your terminal, run the following command:<br />
+```
+npm install lodash
+```
+- Go to the file where you want to use the package and import it with `require('package-name')`:<br />
+```
+const lodash = require('lodash')
+```
+- You should now be able to use the package in that file: <br />
+```
+let num = lodash.random(0, 10);
+```
 - If there is an error, try to restart your development server
-  - Demo:[https://codesandbox.io/s/installing-and-using-an-npm-module-5ukh8](https://codesandbox.io/s/installing-and-using-an-npm-module-5ukh8)
+  - Demo: [https://codesandbox.io/s/installing-and-using-an-npm-module-5ukh8](https://codesandbox.io/s/installing-and-using-an-npm-module-5ukh8)
 
 ## Links
 
@@ -42,12 +50,12 @@ As before! You can set up automatic Netlify deployment from GitHub in the same w
 
 Netlify should automatically set the following important build settings:
 
-| **Important netlify build settings** | **Value**     |
-| ------------------------------------ | ------------- |
-| &quot;publish directory&quot;        | build/        |
-| &quot;build command&quot;            | npm run build |
+| **Important Netlify build settings** | **Value**       |
+| ------------------------------------ | --------------- |
+| "publish directory"                  | `build/`        |
+| "build command"                      | `npm run build` |
 
-Note that deployment will be a bit slower than with simpler projects as it has to &quot;build&quot; your React project.
+Note that your deployment doesn't happen instantly. Netlify needs some time to "build" your React project. The build process turns your beautiful human-readable React Components into optimised machine-readable code that can run in a web browser. 
 
 The full Netlify cheat sheet can be found [**here**](./deployment/index.md)
 
@@ -55,15 +63,14 @@ The full Netlify cheat sheet can be found [**here**](./deployment/index.md)
 
 ### Error when launching app with npm start
 
-- Are you in the right directory?
-  Or, this could be a problem with node modules
-- For example, you may see an error with a message saying &quot;module not found&quot;
-- Try to npm install the missing package
-- If this fails, delete your node_modules folder and package-lock.json and re-run npm install|
+- Are you in the right directory? Run `ls`, you should see a "package.json" listed
+- If you see the error message "module not found", run `npm install module_name` to install the missing package.
+- If this fails, delete your node_modules folder and package-lock.json and re-run `npm install`
 
 ### Stop Create React App development server
 
-- In your terminal, you can press CTRL+C on your keyboard to stop create-react-app. ( **DON&#39;T** just close the terminal!)
+- In your terminal, you can press `Ctrl+C` on your keyboard to stop create-react-app
+  - (**DON'T** just close the terminal! It will not stop the server)
 
 ## Definitions
 
