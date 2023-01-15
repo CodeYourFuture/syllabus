@@ -38,11 +38,11 @@ You can check this by starting a node console in your terminal.
 
 ```sh
 $ node
-> let arr = [1, 2, 3];
+> let arrayOfNumbers = [1, 2, 3];
 undefined
-> arr
+> arrayOfNumbers
 [1, 2, 3]
-> arr.length
+> arrayOfNumbers.length
 3
 ```
 
@@ -150,11 +150,11 @@ _Adds (or concatenates) another value or array to the array._
 
 ```sh
 $ node
-> let arr = [1, 2, 3];
+> let arrayOfNumbers = [1, 2, 3];
 undefined
-> arr.concat(4)
+> arrayOfNumbers.concat(4)
 [1, 2, 3, 4]
-> arr
+> arrayOfNumbers
 [1, 2, 3]
 ```
 
@@ -163,10 +163,10 @@ Did you notice how calling the concat method did not change `arr`? This is becau
 If you want to use the array returned by calling `.concat()` you should store it in a new variable.
 
 ```js
-const temp = [1, 2, 3];
-const newTemp = temp.concat(4);
+const arrayOfNumbers = [1, 2, 3];
+const newReturnedArray = arrayOfNumbers.concat(4);
 
-console.log(newTemp); // logs [1, 2, 3, 4]
+console.log(newReturnedArray); // logs [1, 2, 3, 4]
 ```
 
 ### `.slice()`
@@ -177,9 +177,9 @@ You can tell `.slice()` where you want the slice to begin and end by passing it 
 
 ```sh
 $ node
-> let arr = [0, 1, 2, 3, 4]
+> let arrayForSlice = [0, 1, 2, 3, 4]
 undefined
-> arr.slice(0, 2)
+> arrayForSlice.slice(0, 2)
 [0, 1]
 > ["a", "b", "c", "d"].slice(1, 2)
 ['b']
