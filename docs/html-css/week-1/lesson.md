@@ -174,7 +174,7 @@ When creating a web page, we should always think about how to structure the cont
 
 ### Sectioning Content
 
-We can group elements with 'sectioning' tags.
+We can apply structure to a web page using 'sectioning' elements.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
 alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
@@ -182,11 +182,11 @@ alt="Wireframe of a web page with <header> at the top, <main> at the middle, <fo
 The image above shows a common layout of a web page.
 We can use specific HTML elements for each of these sections.
 
-- We can use a `<header>` tag for the header content
-- We can use a `<footer>` tag for the footer content
-- We can use a `<main>` tag for the main content of the page
-- Sidebar content can go in an `<aside>` tag
-- If there is a list of links, such as in the `<header>`, they can go in a `<nav>` tag
+- We can use a `<header>` element for the header content
+- We can use a `<footer>` element for the footer content
+- We can use a `<main>` element for the main content of the page
+- Sidebar content can go inside an `<aside>` element
+- If there is a list of links, for example within the `<header>` of a page, they can go inside a `<nav>` element
 
 Additionally, we can use `<article>` and `<section>` to divide these sections into more sections.
 
