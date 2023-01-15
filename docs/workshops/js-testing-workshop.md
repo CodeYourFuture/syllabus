@@ -51,7 +51,7 @@ _Unit testing_ though is always the responsibility of the Developer, and it is a
 > Discussion: What is testable code?
 
 ```js
-var result;
+let result;
 
 function getMentorInfo(mentors, name) {
   var greeting = "Hello ";
