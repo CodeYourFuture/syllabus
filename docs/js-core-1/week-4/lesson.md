@@ -38,11 +38,11 @@ You can check this by starting a node console in your terminal.
 
 ```sh
 $ node
-> let arrayOfNumbers = [1, 2, 3];
+> let getArrayLength = [1, 2, 3];
 undefined
-> arrayOfNumbers
+> getArrayLength
 [1, 2, 3]
-> arrayOfNumbers.length
+> getArrayLength.length
 3
 ```
 
