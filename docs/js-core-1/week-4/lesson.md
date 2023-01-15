@@ -163,10 +163,10 @@ Did you notice how calling the concat method did not change `arr`? This is becau
 If you want to use the array returned by calling `.concat()` you should store it in a new variable.
 
 ```js
-const array = [1, 2, 3];
-const newArray = array.concat(4);
+const temp = [1, 2, 3];
+const newTemp = temp.concat(4);
 
-console.log(newArray); // logs [1, 2, 3, 4]
+console.log(newTemp); // logs [1, 2, 3, 4]
 ```
 
 ### `.slice()`
