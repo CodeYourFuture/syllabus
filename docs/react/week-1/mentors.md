@@ -10,7 +10,7 @@ If you are teaching this class in the coming weeks you **must** instruct your tr
 
 [React Preparation](../prep)
 
-If you trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
+If your trainees do not arrive with these steps completed then you will lose a lot of time on your first lesson. You should consider running short mid-week sessions the week before to help trainees get set up.
 
 ## Questions and Help
 
