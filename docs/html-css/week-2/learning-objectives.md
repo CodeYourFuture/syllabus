@@ -46,3 +46,15 @@ sidebar_label: Learning Objectives
 ### Developer thinking
 
 - [ ] Can participate in live coding
+
+## PD (communication)
+
+- [ ] Clearly express ideas verbally
+- [ ] Clearly express ideas in writing
+- [ ] Listen effectively
+- [ ] Ask questions when stuck
+- [ ] Act upon information and instructions
+- [ ] Respond in a timely manner to messages by Slack, email, phone, text
+- [ ] Give constructive feedback
+- [ ] Receive honest feedback
+- [ ] Listen other’s concerns

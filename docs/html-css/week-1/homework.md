@@ -46,3 +46,31 @@ Complete the [Flexbox Froggy game](https://flexboxfroggy.com) to practise using 
 ### 2) CSS Diner game
 
 Complete the [CSS Diner game](https://flukeout.github.io) to practise using advanced CSS selectors.
+
+### Create a study schedule (PD - 1.5 hr)
+
+Over the next months you will have lots of coursework to complete! How will you manage it all? 
+
+Create a study schedule. 
+
+This activity will give you practice using Google sheets to create and maintain a schedule. 
+
+Go to the link below and do the course. Completed the quiz at the end of the course. We will be able to see your responses.
+[Create a goal setting worksheet] (https://applieddigitalskills.withgoogle.com/c/middle-and-high-school/en/create-a-study-schedule-to-meet-your-goals/overview.html)
+
+**Extensions (optional):**
+Choose one or more of the extensions to further enhance your study schedule.
+
+### Learn how to use Google Doc and Slides (PD - 1 hr)
+
+The goal is for you to be comfortable using Google Doc and Google Slides, which you will use a lot in your professional life.
+
+1. Go to g.co/AppliedDigitalSkills
+2. Click "Sign in" in the top right
+3. Sign in with your Google account, or create a new one
+4. Click "I am a student"
+5. Click "Join a class" and enter class code: qchyyg
+6. Start the Communicate Effectively at Work course
+7. Do lessons "4 - Communicate Ideas in a Proposal" and "5. Present Information About Your Job"
+8. Share the links to the exercises of both lessons
+Use this applied digital skills course to help you with your communication skills.
