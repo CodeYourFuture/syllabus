@@ -174,7 +174,7 @@ When creating a web page, we should always think about how to structure the cont
 
 ### Sectioning Content
 
-We can apply structure to a web page using 'sectioning' elements.
+We can put groups of content that make up areas of a web page inside 'sectioning' elements. These split the page up into named sections that help to organise the page's structure.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
 alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
