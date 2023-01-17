@@ -429,6 +429,53 @@ So to sum up, `for of` loops are pretty similar to `for` loops, but:
 
 Next week, we will think more about the most common iterable object in JavaScript: [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
+## PD (Dealing with conflict in teams)
+
+Adapted from [Tectonica Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md).
+
+Whenever people spend more than a little time together, there might be conflict. You will learn ways to work through these situations while staying respectful and honest.
+
+In this session you will talk about
+- what conflict is and the common ways we address it
+- how can we add to our conflict resolution toolkits and become better at solving conflict effectively
+- what effective body language is
+- what effective choice of words is
+- how to build trust among teams
+
+[Conflict resolution slides](https://docs.google.com/presentation/d/1-3Dwx9iImzwWvhfX2Qd_zoGb5Q1jP1_bgf7gZ-ZzzjE/edit#slide=id.g1b73cb08c45_0_6)
+
+Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+
+**Exercise 1 (15 minutes)**
+
+We are going to read through the scenario and practice with some role play.
+
+In groups of 3 – one person will play the role of Missy, one person will play her manager, and the third person will be the observer.
+
+Missy’s:  It’s after the meeting you are going to talk with your manager about what happened.  You want to practice doing this the right way – click back to previous slide for advice.  
+
+Managers: You will play the role you think the manager might play – you can respond well, or poorly to Missy – the choice is yours.
+
+Observers: you will be experiencing this practice session as an invisible observer.  If you see Missy struggling or stumbling, you are the only person who can call a time out and provide her with some coaching/advice.
+
+You get 3 minutes to prepare.
+
+**Exercise 2 (5 minutes)**
+
+Stand and face another trainee. First, display to each other an example of closed body language.
+- How do you feel about the communication?
+
+Now display an example of open body language and eye contact.
+- How do you feel about that communication?
+
+**Exercise 3 (5 minutes)**
+
+Try reading "I can't wait to go to work today" out loud like you are excited. Now try nervous, and angry.
+
+Say the sentence out loud emphasizing the word “I”. Next try emphasizing “work”, and “today”. 
+
+How does the sentence means different things when you emphasize different words?
+
 ## Coursework
 
 [View the homework](./homework) for this lesson.

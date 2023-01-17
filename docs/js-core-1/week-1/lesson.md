@@ -528,6 +528,18 @@ Using what you've just read in the Style Guide.
 - Script: a file that contains a program
 - Terminal: another word for "console"
 
+## PD (Agile development)
+
+In this session you will talk about:
+- What project management is and what we “used” to do
+- What Agile is and (briefly) is not
+- Where you’ll see Agile in the real world (i.e. job ads, day-to-day life etc.)
+- Overview of Agile in practice
+
+[Agile development slides](https://docs.google.com/presentation/d/1SN_NIXeKi4-WWWVA_ffxKyc4ZIe5Tem2zcfoYA4RtB4/edit#slide=id.g1adb8e69ab9_0_5)
+
+Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+
 ## Coursework
 
 Click [here](./homework) to view the homework for this lesson.
