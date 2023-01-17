@@ -54,13 +54,13 @@ _Unit testing_ though is always the responsibility of the Developer, and it is a
 let result;
 
 function getMentorInfo(mentors, name) {
-  var greeting = "Hello ";
+  let greeting = "Hello ";
 
   result = mentors.find(function (person) {
     return person.name === name;
   });
 
-  var mentorTitle = "Junior Developer";
+  let mentorTitle = "Junior Developer";
 
   if (result.yearsOfExp > 10) {
     mentorTitle = "Senior Developer";
@@ -75,7 +75,7 @@ function getMentorInfo(mentors, name) {
 }
 
 /*
-  var mentors = [
+  let mentors = [
       {
           name: 'Irina',
           title: 'Dr.',
@@ -91,7 +91,7 @@ function getMentorInfo(mentors, name) {
       }
   ];
   
-  var result = getMentorInfo(mentors, 'Etza')
+  let result = getMentorInfo(mentors, 'Etza')
   Trace the value of "result"
 */
 ```
@@ -310,7 +310,7 @@ and this is done using a function called `require()`.
 > which is natively supported by Node, is called **CommonJS**.
 
 ```js
-var printName = require("./printName.js");
+let printName = require("./printName.js");
 ```
 
 > The string passed to the `require()` function is a _path_ to the file you are
@@ -326,7 +326,7 @@ We can then continue to use the `printName` function as if it we defined it in
 our own program!
 
 ```
-var printName = require('./printName.js');
+let printName = require('./printName.js');
 
 printName();
 ```
