@@ -56,7 +56,7 @@ Create a study schedule.
 This activity will give you practice using Google sheets to create and maintain a schedule. 
 
 Go to the link below and do the course. Completed the quiz at the end of the course. We will be able to see your responses.
-[Create a goal setting worksheet] (https://applieddigitalskills.withgoogle.com/c/middle-and-high-school/en/create-a-study-schedule-to-meet-your-goals/overview.html)
+[Create a goal setting worksheet](https://applieddigitalskills.withgoogle.com/c/middle-and-high-school/en/create-a-study-schedule-to-meet-your-goals/overview.html)
 
 **Extensions (optional):**
 Choose one or more of the extensions to further enhance your study schedule.
