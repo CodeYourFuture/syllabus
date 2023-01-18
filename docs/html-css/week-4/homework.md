@@ -61,7 +61,7 @@ Make notes on what you learn.
 
 Companies are very interested in the data provided by Apply Magic Sauce. Automated language analysis is already being used in the hiring of personnel. Click on the link below for the source of this information.
 
-[Apply Magic Sauce] (https://applymagicsauce.com/demo) is an alternative machine interpretation of one’s personality based on the analysis of how a person writes a sentence in an email or the types of content they like on social media. This is great when it gets the personality traits 99% accurate. But what if it goes horribly wrong and ruins lives?
+[Apply Magic Sauce](https://applymagicsauce.com/demo) is an alternative machine interpretation of one’s personality based on the analysis of how a person writes a sentence in an email or the types of content they like on social media. This is great when it gets the personality traits 99% accurate. But what if it goes horribly wrong and ruins lives?
 
 Choose one thing that Apply Magic Sauce can do that you don't like (or like the least). Describe what it is and say why you don't like it (250 words). Below are three scenarios for you to contemplate:
 
@@ -69,4 +69,4 @@ Choose one thing that Apply Magic Sauce can do that you don't like (or like the 
 2. Are humans unable to think for themselves and do they have to rely on machines to form a non-holistic opinion?
 3. Are civilians expected to be on guard at all times and be careful of what they say and how they comment a post or tweet in a censored cyber world where everything is traceable and nothing is ever really erased?
 
-[Additional article] (https://www.scientificamerican.com/article/the-internet-knows-you-better-than-your-spouse-does/)
+[Additional article](https://www.scientificamerican.com/article/the-internet-knows-you-better-than-your-spouse-does/)
