@@ -415,30 +415,35 @@ The following table contains some of the most commonly used CSS units.
   <thead>
     <tr>
       <th>Unit</th>
+      <th>Name</th>
       <th>Relative or absolute</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><code>px</code></td>
+      <td>pixel</td>
+      <td>Absolute</td>
+      <td>This used to refer to real physical pixels on screens, but on modern devices with high resolution displays one CSS pixel is usually rendered using a whole multiple of real pixels. For rendering on screens, a CSS “reference pixel” is defined as the visual angle of one pixel on a device with a pixel density of 96 pixels per inch at a distance of an arm’s length from the reader.</td>
+    </tr>
+    <tr>
       <td><code>rem</code></td>
+      <td>rem</td>
       <td>Relative</td>
       <td>1rem is equal to the font size of the root element. If the root font size is 16px, then 1rem = 16px and 0.5rem = 8px</td>
     </tr>
     <tr>
       <td><code>em</code></td>
+      <td>em</td>
       <td>Relative</td>
       <td>1em is equal to the font size of the parent element. If the parent font size is 16px, then 1em = 16px and 0.5em = 8px</td>
     </tr>
     <tr>
       <td><code>%</code></td>
+      <td>percent</td>
       <td>Relative</td>
       <td>100% is equal to the full width or height of the parent element</td>
-    </tr>
-    <tr>
-      <td><code>px</code></td>
-      <td>Absolute</td>
-      <td>1px is 1/96th of 1 inch</td>
     </tr>
   </tbody>
 </table>
