@@ -22,7 +22,7 @@ Find your website that you made on CodePen and follow the instructions here
 
 https://blog.codepen.io/documentation/exporting-pens/
 
-When you've completed this step you should a `zip` file downloaded somewhere on your computer.
+When you've completed this step you should have a `zip` file downloaded somewhere on your computer.
 
 ### 2. Unzip File
 
