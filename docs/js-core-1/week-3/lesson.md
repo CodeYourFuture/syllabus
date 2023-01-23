@@ -366,3 +366,5 @@ For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScrip
 Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
 <Feedback module="JavaScript Core 1" week="Week 3" />
+
+## PD (Developer thinking)

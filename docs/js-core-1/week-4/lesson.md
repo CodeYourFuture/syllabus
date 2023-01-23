@@ -559,6 +559,8 @@ If you're using the above example, you should expect to return an array with 2x 
 
 :::
 
+## PD (Asking good questions)
+
 ## Coursework
 
 Click [here](./homework) to view the coursework for this lesson.
