@@ -561,6 +561,18 @@ If you're using the above example, you should expect to return an array with 2x 
 
 ## PD (Asking good questions)
 
+(Adapted from Tectonica workshop)[https://github.com/Techtonica/curriculum/blob/main/onboarding/asking-good-questions.md]
+
+(Asking Good Questions slides)[https://docs.google.com/presentation/d/19QbXNYHj8v-xSg9PT3MDORxpEiNh2UGt1eIuYYgvCVY/edit#slide=id.gaa71b86f5e_0_0]
+
+Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+
+**Exercise (15 min)**
+
+In small groups. Pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it. Role play for asking questions with a partner, use the the template sample script:
+
+"I could use some help. I’m using this tech stack: __. I want to __ to accomplish __. I searched for __and I read __ and tried __. I’m getting this error/result: __. I think the problem could be __. Here’s a link to my code: __. Do you have any suggestions for me?"
+
 ## Coursework
 
 Click [here](./homework) to view the coursework for this lesson.
