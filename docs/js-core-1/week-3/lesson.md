@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 - [truthy and falsy](#truthy-and-falsy)
 - [undefined and null](#undefined)
 - [arrays](#arrays)
-
+- [PD - Developer thinking](#pd-developer-thinking)
 ## Learning Objectives
 
 By the end of this class, you should be able to:
@@ -361,15 +361,9 @@ for (let i = 0; i < 10; ++i) {
 
 For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
 
-## Feedback
-
-Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
-
-<Feedback module="JavaScript Core 1" week="Week 3" />
-
 ## PD (Developer thinking)
 
-(Developer thinking slides)[https://docs.google.com/presentation/d/1Cd-QCjZXCgrC70fkzfHWiAnVZ3PfpSLtdjbSI3IX5Tg/edit#slide=id.g1fbc3b09af8_0_1]
+[Developer thinking slides](https://docs.google.com/presentation/d/1Cd-QCjZXCgrC70fkzfHWiAnVZ3PfpSLtdjbSI3IX5Tg/edit#slide=id.g1fbc3b09af8_0_1)
 
 Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
 
@@ -386,3 +380,9 @@ Why is it important to use critical thinking skills when developing products for
 **Exercise (10 min)**
 
 Volunteer to share to the wider group one important reason to use critical thinking.
+
+## Feedback
+
+Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
+
+<Feedback module="JavaScript Core 1" week="Week 3" />

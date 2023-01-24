@@ -14,6 +14,7 @@ import Feedback from "@theme/Feedback";
 - [Logical Operators](#logical-operators)
 - [Loops](#loops)
 - [Extra exercises](#extra-exercises)
+- [PD - Dealing with conflict in teams](#pd-dealing-with-conflict-in-teams)
 
 ## Learning Objectives
 

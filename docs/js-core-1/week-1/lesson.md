@@ -16,6 +16,7 @@ import TabItem from '@theme/TabItem';
 - [Numbers](#numbers)
 - [Statements & expressions](#statements-and-expressions)
 - [Functions](#functions)
+- [PD - Agile development](#pd-agile-development)
 
 ## Learning Objectives
 
