@@ -82,13 +82,3 @@ Completed all of the addition challenges in the coursework? We have more challen
 https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges
 
 Share what you're working on in Slack to find others working on the same problems. Try paired programming to solve these challenges.
-
-## Course Checklist (PD - 15 min)
-
-Previous CYF trainees built the following course checklist to self-assess their understanding. 
-
-1. Reflect on your understanding so far 
-2. Fill in the course checklist for HTML/CSS
-3. Take the PDF to your study group and work on the areas you have identified
-
-You can use [this checklist](https://cyf-course-checklist.netlify.app/) throughout the course.
