@@ -900,31 +900,30 @@ See if you can use these pseudo classes to give the left box a grey background (
 :::
 
 
-## Professional Development - Developer communication 
+## PD (Developer communication) 
 
-Using technical language as a developer (10 mins)
-In this section we'll explore how a professional uses technical language to communicate to their team.
+In this section we'll explore how a professional developer uses technical language to communicate to their team.
 
+**Exercise (20 min)**
 
-Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
-It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
+In small groups. Prepare a 3 min tutorial based on what you have learned so far. Address one of the three different audiences:
+1. A group of 10 year olds
+2. Your boss
+3. A peer group at a similar level to you
 
-1) Why is it important to build accessible websites?
-2) What is an HTML tag?
-3) What is semantic HTML?
-4) What is the CSS box model?
+The tutorial should explain the following:
+1. Why is it important to build accessible websites?
+2. What is an HTML tag?
+3. What is semantic HTML?
+4. What is the CSS box model?
 
+**Exercise (30 min)**
 
-In small groups you must pick an audience:
+Volunteer to present back to the class.
 
-1) A group of 10 year olds
-2)Your boss
-3) a peer group at a similar level to you.
+**Exercise (10 min)**
 
-You have a maximum of three minutes to present back to the wider group. (40 minutes)
-
-
-All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+Reflect on what you found challenging and share one positive feedback to the wider group.
 
 ## Coursework
 

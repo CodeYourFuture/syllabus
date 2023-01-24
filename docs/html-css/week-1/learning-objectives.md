@@ -72,3 +72,15 @@ _The learning objectives under a given topic may be achieved over the multiple w
 - [ ] Can answer: What is inheritance?
 - [ ] Can answer: What is cascade?
 - [ ] Can answer: What is specificity?
+
+## PD (communication)
+
+- [ ] Clearly express ideas verbally
+- [ ] Clearly express ideas in writing
+- [ ] Listen effectively
+- [ ] Ask questions when stuck
+- [ ] Act upon information and instructions
+- [ ] Respond in a timely manner to messages by Slack, email, phone, text
+- [ ] Give constructive feedback
+- [ ] Receive honest feedback
+- [ ] Listen other’s concerns

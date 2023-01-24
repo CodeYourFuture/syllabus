@@ -22,3 +22,15 @@ sidebar_label: Learning Objectives
 - [ ] Can answer: When would you use flexbox?
 - [ ] Can answer: What are the different ways to arrange elements using flexbox?
 - [ ] Can answer: In what ways can you position individual items using flexbox?
+
+## PD (communication)
+
+- [ ] Clearly express ideas verbally
+- [ ] Clearly express ideas in writing
+- [ ] Listen effectively
+- [ ] Ask questions when stuck
+- [ ] Act upon information and instructions
+- [ ] Respond in a timely manner to messages by Slack, email, phone, text
+- [ ] Give constructive feedback
+- [ ] Receive honest feedback
+- [ ] Listen other’s concerns

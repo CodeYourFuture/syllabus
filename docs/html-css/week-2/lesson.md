@@ -513,25 +513,30 @@ In software, we follow the rule that we **never** trust user input.
 Learning about web security is outside the scope of this module,
 but if you want an introduction to web security, visit the [MDN website security page](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Website_security).
 
-## Professional Development (60 minutes)
+## PD (Active listening)
 
-Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
-It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
+**Exercise (10 min)**
+1. Group splits into two (A & B)
+2. Bs leave the room and wait outside
+3. Instruction for As: Whilst listening to their partner, As will put their hand up for five seconds everytime their partner says something that evokes their 'inner voice' (e.g. they want to ask a question, makes them think about something etc.). They do this for the entire conversation. They are not allowed to interact with Bs, ask questions, affirm understanding, etc. They just raise their hand every time their inner voice kicks in. They can not only raise their hand but also lose focus.
+4. Instruction for Bs: Bs will speak to As about something of interest: an experience, last holiday, anything positive that has happened in the last six months. They have three minutes to talk.
+5. Bs come back into the room, pairs up with As, then talks for three minutes to their partner.
+6. At the end of the three minutes, Bs will discuss how they felt whilst talking to A, what emotions were evoked, etc.
+7. Switch groups.
 
-1. What are HTML forms used for?
-2. How do form control labels benefit users?
-3. Why are forms useful for different types of users? 
+[Active listening slides](https://docs.google.com/presentation/d/1dA4UdHGaCE1PPoAFE4m9wl-O-CAbWPM7_LQIOxfSkZk/edit#slide=id.ga9333c68a9_0_33)
 
-In small groups you must pick an audience:
+Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
 
-1. A group of 10 year olds
-2. People who are new internet users 
-3. Your boss
-4. A team of new developers 
+**Exercise (15 min)**
+Step 1: Write down in bullet points how you can build trust within a team
 
-You have a maximum of three minutes to present back to the wider group. (40 minutes)
+Step 2: Write down in bullet points how you will show empathy and concern for others
 
-All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+Step 3: Write down how you will seek clarity if someone in your group is not clear, and clarify when someone has misunderstood what you are trying to say
+
+Step 4: Write down three open-ended questions which will help you to de-escalate a conflict in your group
+
 
 ## Coursework
 

@@ -38,3 +38,27 @@ Work through Level 3 and make your Karma clone responsive.
 You need to prepare for every class.
 
 The syllabus is a sample lesson, so you might do something different in class, but the broad learning objectives will be similar. Read the learning objectives. What other reading can you do to prepare for class? Is there any code to checkout from github?
+
+### Developing a growth mindset as a developer (PD - 1 hr)
+
+Task 1:
+
+Write your reflections on on why it is important to have a growth mindset as a developer and how a growth mindset will positively impact you in your career in the long term.
+
+ Video 1: https://www.youtube.com/watch?v=_X0mgOOSpLU 
+
+Task 2: Introspection
+
+Learn more about neuroplasticity (Watch, Hear, See). How can you change your brain? Is neuroplasticity, the biological foundation for growth mindset?
+
+1. Watch this Sentis Brain Animation Series video - https://youtu.be/ELpfYCZa87g 
+
+2. Based on the information in the video reflect on these questions:
+
+- When did I have a closed mindset this week, and why?
+- When did I have an open mindset this week, and why? 
+- What have I learnt about myself, as a result? 
+- What will I do differently next time? 
+
+Task 3: 
+Reflect on what your barriers are when it comes to participating in live coding, hold yourself accountable and write in the Slack channel about what actions you will take in order to overcome your barriers to participating in live coding and write a supportive message to your peers who have shared their barriers in the channel.
