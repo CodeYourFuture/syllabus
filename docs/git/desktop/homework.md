@@ -95,4 +95,8 @@ Join our Applied Digital Skills class communication course.
 2. Click "Sign in" in the top right
 3. Sign in with your Google account, or create a new one
 4. Click "I am a student"
-5. Click "Join a class" and enter class code provided
+5. Click "Join a class" and enter class code: qchyyg
+6. Start the Communicate Effectively at Work course
+7. Do lessons "1 - Communicate Effectively at Work Introduction" and "2. Facilitate a Team Meeting" 
+8. Share the links of the exercises of both lessons
+Use this applied digital skills course to help you with your communication skills.
