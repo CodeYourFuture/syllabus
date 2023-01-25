@@ -25,6 +25,7 @@ By the end of this class, you should be able to:
   - (To use GitHub's _pull request_ workflows, and _push_ further changes).
 - Explore how a file has changed over time.
   - (To use Git's _history log_).
+- Learn about the expectations from Code Your Future Trainees, the technical and soft skills to be developed and the support available during the course.
 
 ---
 
@@ -405,19 +406,23 @@ Notes for the facilitator: Remember to adapt/update the content in line with you
 **Session 2: What do developers do?**
 In this section we'll explore how a professional developer behaves and thus how you should behave.
 
-**Exercise (20 min)**
+:::note Exercise (20 min)
 In small groups. Imagine all the day-to-day activities and behaviours of a professional software developer. Use an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
+
+:::
 
 **Session 3: SDOT analysis**
 It's time to do an SDOT (Strengths, Weaknesses, Opportunities, and Threats) analysis.
 
-**Exercise (20 min)**
+:::note Exercise (20 min)
 Think about the key areas that you want to improve on by some introspective work and writing your own personal SDOT analysis:
 
 - Strengths: What are you great at? What makes you personally stand out from other people? What positive comments do people say about your strengths? What are your greatest achievements?
 - Developments: What skills do I need to work on? Where do you need to improve? What holds you back? What key habits do you want to overcome? What do others say about your development areas?
 - Opportunities: If I invest my time in my technical skills, I will land a good job. Who can help me achieve my goals? What can I do differently to other people that makes me more employable? How can I go the extra mile? How can I make opportunities happen for myself?
 - Threats: What could stop me from achieving my career goals? What do I need to stop doing now? What's out of my control that I can’t change?
+
+:::
 
 ## Coursework
 
