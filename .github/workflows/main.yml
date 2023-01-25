@@ -11,17 +11,11 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
-            cyf-syllabus-
+          cache: "npm"
       - name: Test Build
         run: |
           npm ci
@@ -30,17 +24,11 @@ jobs:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
-      - uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            cyf-syllabus-${{ hashFiles('**/package-lock.json') }}
-            cyf-syllabus-
+          cache: "npm"
       - name: Add key to allow access to repository
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
