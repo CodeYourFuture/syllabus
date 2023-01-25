@@ -9,6 +9,7 @@ import Feedback from "@theme/Feedback";
 ## What will we learn today?
 
 - Putting it all together
+- [PD - Presentations](#pd-presentations)
 
 ---
 
@@ -43,7 +44,7 @@ Using the [Deploying to Netlify Guide](../../../guides/deployment), deploy your:
 
 It's time to reflect on what you have learned and share it with each other.
 
-**Exercise (20 min)**
+:::note Exercise (20 min)
 
 In small groups. Prepare a 3-min presentation. Your presentation must cover the following points:
 
@@ -54,11 +55,15 @@ In small groups. Prepare a 3-min presentation. Your presentation must cover the 
 - Why developers use pull requests
 - Why we do a retro
 
-**Exercise (30 min)**
+:::
+
+:::note Exercise (30 min)
 
 Volunteer to present back to the class.
 
-**Exercise (10 min)**
+:::
+
+:::note Exercise (10 min)
 
 Let's spend some time on a class retrospective for the this module. Discuss the following points:
 - What we covered over the past weeks
@@ -66,6 +71,8 @@ Let's spend some time on a class retrospective for the this module. Discuss the 
 - What we will do differently in the next module
 - What tips and tricks we can share with each other
 - What advice we would give to the next class 
+
+:::
 
 ## Coursework
 

@@ -45,7 +45,7 @@ The syllabus is a sample lesson, so you might do something different in class, b
 
 ### Active listening techniques (PD - 1 hr)
 
-Read the active listening techniques on the link below and reflect. Write a 250-word essay on your own listening habits, challenges and improvement goals.
+Read the active listening techniques on the link below and reflect. Write a 250 word essay on your own listening habits, challenges and improvement goals.
 
 [Active listening doc](https://docs.google.com/document/d/1UnYMDsrN60PIDKOep6QO780pAZzGuXjPCuB-6m_aheI/edit)
 

@@ -904,7 +904,7 @@ See if you can use these pseudo classes to give the left box a grey background (
 
 In this section we'll explore how a professional developer uses technical language to communicate to their team.
 
-**Exercise (20 min)**
+:::note Exercise (20 min)
 
 In small groups. Prepare a 3 min tutorial based on what you have learned so far. Address one of the three different audiences:
 1. A group of 10 year olds
@@ -917,13 +917,19 @@ The tutorial should explain the following:
 3. What is semantic HTML?
 4. What is the CSS box model?
 
-**Exercise (30 min)**
+:::
+
+:::note Exercise (30 min)
 
 Volunteer to present back to the class.
 
-**Exercise (10 min)**
+:::
+
+:::note Exercise (10 min)
 
 Reflect on what you found challenging and share one positive feedback to the wider group.
+
+:::
 
 ## Coursework
 

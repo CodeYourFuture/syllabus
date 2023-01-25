@@ -41,7 +41,7 @@ The syllabus is a sample lesson, so you might do something different in class, b
 
 ### Developing a growth mindset as a developer (PD - 1 hr)
 
-Task 1:
+Task 1: Reflection
 
 Write your reflections on on why it is important to have a growth mindset as a developer and how a growth mindset will positively impact you in your career in the long term.
 
@@ -60,5 +60,6 @@ Learn more about neuroplasticity (Watch, Hear, See). How can you change your bra
 - What have I learnt about myself, as a result? 
 - What will I do differently next time? 
 
-Task 3: 
+Task 3: Interaction
+
 Reflect on what your barriers are when it comes to participating in live coding, hold yourself accountable and write in the Slack channel about what actions you will take in order to overcome your barriers to participating in live coding and write a supportive message to your peers who have shared their barriers in the channel.
