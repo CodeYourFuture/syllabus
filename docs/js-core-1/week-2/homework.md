@@ -114,3 +114,19 @@ Have some extra time before our next class? Fill it with these harder challenges
 **Alert:** Some of these challenges include concepts that we haven't taught you yet. This is a common experience as a professional developer, so start learning how to handle it today. Use Google, talk to your network, share your blockers, and work the problem.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
+
+## Resolving conflicts (PD - 7 min)
+
+Watch [this 7-minute video](https://www.youtube.com/watch?v=qDfSYz0PX9g) on Resolving Workplace Conflicts.
+
+## Writing an email for an internship (PD - 1 hr)
+
+Draft an email to apply for an internship at a fictional company called Vonda. Make sure to include the five things below:
+
+1. Why you want to become a software developer
+2. Your background and your past
+3. What you are doing at the moment
+4. Where you see yourself in the future
+5. Why Vonda should give you the opportunity to do an internship
+
+The email should be formatted in a way that is ready to be sent. Make sure you include a subject title and pay attention to the formatting (font type and size, alignment etc).
