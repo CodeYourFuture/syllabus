@@ -42,9 +42,11 @@ Using the [Deploying to Netlify Guide](../../../guides/deployment), deploy your:
 
 ## PD (Presentations)
 
-It's time to reflect on what you have learned and share it with each other.
+**Session objective:** It's time to reflect on what you have learned and share it with each other.
 
 :::note Exercise (20 min)
+
+**Exercise objective:** To work on a task as a team
 
 In small groups. Prepare a 3-min presentation. Your presentation must cover the following points:
 
@@ -59,11 +61,15 @@ In small groups. Prepare a 3-min presentation. Your presentation must cover the 
 
 :::note Exercise (30 min)
 
+**Exercise objective:** To practice public speaking skills
+
 Volunteer to present back to the class.
 
 :::
 
 :::note Exercise (10 min)
+
+**Exercise objective:** To reflect on learnings and processes, to come up with suggestions
 
 Let's spend some time on a class retrospective for the this module. Discuss the following points:
 - What we covered over the past weeks

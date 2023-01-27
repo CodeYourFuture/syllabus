@@ -902,9 +902,11 @@ See if you can use these pseudo classes to give the left box a grey background (
 
 ## PD (Developer communication) 
 
-In this section we'll explore how a professional developer uses technical language to communicate to their team.
+**Session objective:** In this section we'll explore how a professional developer uses technical language to communicate to different audiences.
 
 :::note Exercise (20 min)
+
+**Exercise objective:** To explain concepts to different audiences
 
 In small groups. Prepare a 3 min tutorial based on what you have learned so far. Address one of the three different audiences:
 1. A group of 10 year olds
@@ -921,11 +923,15 @@ The tutorial should explain the following:
 
 :::note Exercise (30 min)
 
+**Exercise objective:** To practice public speaking skills
+
 Volunteer to present back to the class.
 
 :::
 
 :::note Exercise (10 min)
+
+**Exercise objective:** To reflect on tasks and identify strengths
 
 Reflect on what you found challenging and share one positive feedback to the wider group.
 

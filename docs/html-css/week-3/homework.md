@@ -39,7 +39,7 @@ You need to prepare for every class.
 
 The syllabus is a sample lesson, so you might do something different in class, but the broad learning objectives will be similar. Read the learning objectives. What other reading can you do to prepare for class? Is there any code to checkout from github?
 
-### Developing a growth mindset as a developer (PD - 1 hr)
+### 5) Developing a growth mindset as a developer (PD - 1 hr)
 
 Task 1: Reflection
 

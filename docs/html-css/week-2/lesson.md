@@ -516,14 +516,19 @@ but if you want an introduction to web security, visit the [MDN website security
 
 ## PD (Active listening)
 
+**Session objective:** This section explores active listening techniques, good listenings habits and offers tips for better listening skills.
+
 :::note Exercise (10 min)
+
+**Exercise objective:** Identify feelings resulting from passive listening
+
 1. Group splits into two (A & B)
 2. Bs leave the room and wait outside
-3. Instruction for As: Whilst listening to their partner, As will put their hand up for five seconds everytime their partner says something that evokes their 'inner voice' (e.g. they want to ask a question, makes them think about something etc.). They do this for the entire conversation. They are not allowed to interact with Bs, ask questions, affirm understanding, etc. They just raise their hand every time their inner voice kicks in. They can not only raise their hand but also lose focus.
+3. Instruction for As: Whilst listening to their partner, As will put their hand up for five seconds everytime their partner says something that evokes As 'inner voice' (e.g. they want to ask a question, makes them think about something etc.). They do this for the entire conversation. They are not allowed to interact with Bs, ask questions, affirm understanding, etc. They just raise their hand every time their inner voice kicks in.
 4. Instruction for Bs: Bs will speak to As about something of interest: an experience, last holiday, anything positive that has happened in the last six months. They have three minutes to talk.
 5. Bs come back into the room, pairs up with As, then talks for three minutes to their partner.
-6. At the end of the three minutes, Bs will discuss how they felt whilst talking to A, what emotions were evoked, etc.
-7. Switch groups.
+6. At the end of the three minutes, Bs will discuss how they felt whilst talking to As, what emotions were evoked.
+7. Groups switch, and they repeat the exercise.
 
 :::
 
@@ -533,6 +538,8 @@ Notes for the facilitator: Remember to adapt/update the content in line with you
 
 :::note Exercise (15 min)
 
+**Exercise objective:** To reflect on learning and come up with practical ideas for communication challenges
+
 Step 1: Write down in bullet points how you can build trust within a team
 
 Step 2: Write down in bullet points how you will show empathy and concern for others
@@ -540,6 +547,8 @@ Step 2: Write down in bullet points how you will show empathy and concern for ot
 Step 3: Write down how you will seek clarity if someone in your group is not clear, and clarify when someone has misunderstood what you are trying to say
 
 Step 4: Write down three open-ended questions which will help you to de-escalate a conflict in your group
+
+When completed, volunteer to present your ideas to the class.
 
 :::
 
