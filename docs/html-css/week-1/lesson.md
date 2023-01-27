@@ -546,7 +546,7 @@ Test that it works by hovering over all buttons with your mouse, and by using th
 
 In CSS, everything is a **box**. An image is a box. A link is a box. The following diagram shows what the box model looks like.
 
-![Box Model. Source: MDN](https://mdn.mozillademos.org/files/13647/box-model-standard-small.png)
+![Box Model. Source: MDN]([https://mdn.mozillademos.org/files/13647/box-model-standard-small.png](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png))
 
 The **content** is the text or image and it has a **border**.
 Inside the border there is space called **padding**, and outside the border there is space called **margin**.
