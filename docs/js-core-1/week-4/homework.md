@@ -81,4 +81,4 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
 In the following scenario imagine you are a recruit for a company and your team leader asks you to write an email requesting a meeting with the Head of Customer Services (HCS). Remember to include the subject line and use appropriate formatting.
 
-"HCS has complained about the customer services application to the software team leader. He has found some frustrating problems with the user interface. The team leader told you to go and see the HCS, find out what is wrong and then come back with improvements. The HCS is very busy. You should email requesting a meeting and outline clearly what you needs the meeting for."
+"HCS has complained about the customer services application to the software team leader. He has found some frustrating problems with the user interface. The team leader told you to go and see the HCS, find out what is wrong and then come back with improvements. The HCS is very busy. You should email requesting a meeting and outline clearly what you need the meeting for."
