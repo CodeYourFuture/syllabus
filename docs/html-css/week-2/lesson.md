@@ -524,11 +524,12 @@ but if you want an introduction to web security, visit the [MDN website security
 
 1. Group splits into two (A & B)
 2. Bs leave the room and wait outside
-3. Instruction for As: Whilst listening to their partner, As will put their hand up for five seconds everytime their partner says something that evokes As 'inner voice' (e.g. they want to ask a question, makes them think about something etc.). They do this for the entire conversation. They are not allowed to interact with Bs, ask questions, affirm understanding, etc. They just raise their hand every time their inner voice kicks in.
-4. Instruction for Bs: Bs will speak to As about something of interest: an experience, last holiday, anything positive that has happened in the last six months. They have three minutes to talk.
-5. Bs come back into the room, pairs up with As, then talks for three minutes to their partner.
-6. At the end of the three minutes, Bs will discuss how they felt whilst talking to As, what emotions were evoked.
-7. Groups switch, and they repeat the exercise.
+3. Instruction for As: Whilst listening to their partner, As will put their hand up for five seconds everytime their partner says something that evokes As 'inner voice' (e.g. they want to ask a question, makes them think about something etc.). They do this for the entire conversation. They are not allowed to interact with Bs; ask questions, affirm understanding, etc. They just raise their hand every time their inner voice kicks in.
+4. Instruction for Bs: Bs will speak to As about something of interest to themselves; an experience, last holiday, anything positive that has happened in the last six months. They have three minutes to talk.
+5. Bs come back into the room, each trainee from group B pairs up with another trainee from group As.
+6. Bs talk for three minutes to their pairs.
+7. At the end of the three minutes groups switch, and they repeat the exercise the other way around.
+8. At the end of the second three minutes, trainees discuss how they felt while talking or listening to their pairs, and what emotions were evoked.
 
 :::
 
