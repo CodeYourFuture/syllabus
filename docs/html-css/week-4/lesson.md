@@ -39,22 +39,33 @@ Using the [Deploying to Netlify Guide](../../../guides/deployment), deploy your:
 
 :::
 
-## Professional development (60 minutes)
+## PD (Presentations)
 
-In small groups it's time to reflect on what you have learned and share it with each other.
+It's time to reflect on what you have learned and share it with each other.
 
-Your presentation must cover the following:
+**Exercise (20 min)**
 
-1. Why it is important to build accessible websites (You must cover who browse the web, and the different types of users.)
-2. What form controls we use when we want the user to choose multiple options from a list
-3. The difference between the DOM API and the Accessibility API
-4. Why it's important to be transparent as a developer
-5. Why developers use pull requests
-6. Why we do a retro
+In small groups. Prepare a 3-min presentation. Your presentation must cover the following points:
 
-## Retrospective (30 minutes)
+- Why it is important to build accessible websites? You must cover who browses the web, and the different types of users
+- What form controls we use when we want the user to choose multiple options from a list
+- The difference between the DOM API and the Accessibility API
+- Why it's important to be transparent as a developer
+- Why developers use pull requests
+- Why we do a retro
 
-What have we covered over the past weeks? What parts did we enjoy? What will we do differently in the next module? What tips and tricks can we share with each other? What advice would you give to the next class? Let's spend some time on a class retrospective for the whole module.
+**Exercise (30 min)**
+
+Volunteer to present back to the class.
+
+**Exercise (10 min)**
+
+Let's spend some time on a class retrospective for the this module. Discuss the following points:
+- What we covered over the past weeks
+- What parts we enjoyed
+- What we will do differently in the next module
+- What tips and tricks we can share with each other
+- What advice we would give to the next class 
 
 ## Coursework
 

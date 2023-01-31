@@ -18,7 +18,8 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ## Presentations
 
-- [Week 3 - JS Core 2 [Google Slides] - 2022](https://docs.google.com/presentation/d/1VufuWc5_EWuhEvK9NUcIQy5-Gj1f5G-HI8h1GOfYDWQ/edit?usp=sharing) Created by Ellie Wintram
+- [JS 2 Week 3 - 2023 - London](https://docs.google.com/presentation/d/1SmA3dXyxhRUHRLpKBhbptYF04V6xIoYXbKtfnU0WEEg/edit?usp=sharing)
+  - Created by London Volunteers
 
 ## Notes
 

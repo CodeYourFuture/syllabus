@@ -174,7 +174,7 @@ When creating a web page, we should always think about how to structure the cont
 
 ### Sectioning Content
 
-We can group elements with 'sectioning' tags.
+We can put groups of content that make up areas of a web page inside 'sectioning' elements. These split the page up into named sections that help to organise the page's structure.
 
 <img src={require('!file-loader!../assets/webpage-structure.png').default}
 alt="Wireframe of a web page with <header> at the top, <main> at the middle, <footer> at the bottom, and <aside> at the right"/>
@@ -182,11 +182,11 @@ alt="Wireframe of a web page with <header> at the top, <main> at the middle, <fo
 The image above shows a common layout of a web page.
 We can use specific HTML elements for each of these sections.
 
-- We can use a `<header>` tag for the header content
-- We can use a `<footer>` tag for the footer content
-- We can use a `<main>` tag for the main content of the page
-- Sidebar content can go in an `<aside>` tag
-- If there is a list of links, such as in the `<header>`, they can go in a `<nav>` tag
+- We can use a `<header>` element for the header content
+- We can use a `<footer>` element for the footer content
+- We can use a `<main>` element for the main content of the page
+- Sidebar content can go inside an `<aside>` element
+- If there is a list of links, for example within the `<header>` of a page, they can go inside a `<nav>` element
 
 Additionally, we can use `<article>` and `<section>` to divide these sections into more sections.
 
@@ -900,31 +900,30 @@ See if you can use these pseudo classes to give the left box a grey background (
 :::
 
 
-## Professional Development - Developer communication 
+## PD (Developer communication) 
 
-Using technical language as a developer (10 mins)
-In this section we'll explore how a professional uses technical language to communicate to their team.
+In this section we'll explore how a professional developer uses technical language to communicate to their team.
 
+**Exercise (20 min)**
 
-Exercise (Deliver a tutorial based on what you have learned so far to three different audiences ) (20 minutes)
-It's time to train the trainer and practice your communication skills, your task is to pick an audience and deliver a short tutorial on:
+In small groups. Prepare a 3 min tutorial based on what you have learned so far. Address one of the three different audiences:
+1. A group of 10 year olds
+2. Your boss
+3. A peer group at a similar level to you
 
-1) Why is it important to build accessible websites?
-2) What is an HTML tag?
-3) What is semantic HTML?
-4) What is the CSS box model?
+The tutorial should explain the following:
+1. Why is it important to build accessible websites?
+2. What is an HTML tag?
+3. What is semantic HTML?
+4. What is the CSS box model?
 
+**Exercise (30 min)**
 
-In small groups you must pick an audience:
+Volunteer to present back to the class.
 
-1) A group of 10 year olds
-2)Your boss
-3) a peer group at a similar level to you.
+**Exercise (10 min)**
 
-You have a maximum of three minutes to present back to the wider group. (40 minutes)
-
-
-All trainees are to reflect on what they found challenging and share one positive feedback to the group (10 minutes)
+Reflect on what you found challenging and share one positive feedback to the wider group.
 
 ## Coursework
 

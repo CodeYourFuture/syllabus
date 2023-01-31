@@ -24,6 +24,8 @@ If you don't have a mentor who can demonstrate TDD style kata, ask in the #cyf-c
 
 ## Presentations
 
+- [JS 2 Week 2 - 2023 - London](https://docs.google.com/presentation/d/10nxax7Fs_Mu42C164rCddkMRx4tGFBxShYTYJllYdLw/edit?usp=sharing)
+  - Created by London Volunteers
 - [Resources](https://github.com/Abdoulrazack95/Object-Lesson)
 - Created by Manchester and Abdoulrazack
 - [Arrays of Objects [Google Slides] - 04/06/2020](https://docs.google.com/presentation/d/1lM7ob_J99zr307zVXjNRqtuPDtby_rw6FS8QuQBPwjY/edit)

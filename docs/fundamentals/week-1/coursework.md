@@ -4,9 +4,9 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## Tips for Success
+## Tips for Success (PD)
 
-Read the [Tips for Success](../preparation/tips.md) and join a thread in your class Slack channel to discuss how you will apply them.
+Read the [Tips for Success](../preparation/tips.md) and join a thread in your class Slack channel to discuss how you will apply them. Create the thread if nobody else has already done so.
 
 ## HTML-CSS refresh (4 hours)
 

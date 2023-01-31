@@ -40,27 +40,26 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 5) Sign Up (20 minutes)
+## 5) CodeCademy Objects tutorials
 
-Heroku and Netlify are hosting sites.
+CodeCademy has a good JavaScript course, and the main parts of it are available for free.
 
-Both do different type of hosting:
+- Complete the "Objects" section of the free JavaScript course - https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/intro
 
-- Netlify: static sites (front end)
-- Heroku: full deployment (backend & front end)
+- Complete the "Advanced Objects" section of the free JavaScript course - https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro
 
-### 5.1) Sign up to Heroku
+You may have to sign up for an account with CodeCademy to do so if you haven't already.
 
-Sign up for a free account only. Select `NodeJS` as language to work with
+You do not need to pay to access these sections of the course!
 
-https://signup.heroku.com/
+## 6) Sign Up to Netlify (20 minutes)
 
-### 5.2) Sign up to Netlify
+Netlify is a hosting site for static sites (front end).
 
 Sign up for a free account only. Choose the option you want, gmail, github, email etc. If you already have a Netlify account, you can skip this step.
 
 https://app.netlify.com/signup
 
-## 6) Module Project
+## 7) Module Project
 
 Begin your [module project](../module-project), if you have not done so already.

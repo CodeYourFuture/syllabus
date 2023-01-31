@@ -104,17 +104,29 @@ The words make a layout template - a little map of where things will be placed o
 Unlike the semantic HTML elements we discussed, where different tags are parsed in different ways by the browser, you could use any string of characters as a name in CSS Grid. But should you? What is the value and purpose of naming things clearly? Discuss your ideas in small groups.
 :::
 =======
-## Professional Development - Developer Thinking
-Critical thinking presentation  (40 mins):
+## PD (Delivering tutorials)
 
-Exploring how and why developers need to develop critical thinking skills
+**Exercise (20 min)**
 
-https://docs.google.com/presentation/d/1ZhFoHiV7dfMH9vr7-3RrsH3rbsn1wI69zyJoBHAi8KY/edit#slide=id.g74de9a2b3b_0_20
+In small groups. Prepare a 3 min tutorial based on what you have learned so far to one of the four different audiences:
+1. A group of 10 year olds
+2. People who are new internet users
+3. Your boss
+4. A team of new developers
 
-All trainees are to work in small groups and discuss: (20 minutes) 
+The tutorial should explain the following:
 
-1) How they will use critical thinking skills as a developer 
-2) Why it's important to use critical thinking skills when developing products for diverse audiences 
+1. What are HTML forms used for?
+2. How do form control labels benefit users?
+3. Why are forms useful for different types of users?
+
+**Exercise (30 min)**
+
+Volunteer to present back to the class.
+
+**Exercise (10 min)**
+
+Reflect on what you found challenging and share one positive feedback to the wider group. 
 
 ## Coursework
 

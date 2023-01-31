@@ -22,7 +22,7 @@ Find your website that you made on CodePen and follow the instructions here
 
 https://blog.codepen.io/documentation/exporting-pens/
 
-When you've completed this step you should a `zip` file downloaded somewhere on your computer.
+When you've completed this step you should have a `zip` file downloaded somewhere on your computer.
 
 ### 2. Unzip File
 
@@ -88,27 +88,15 @@ You should do this for _at least_ two pull requests.
 
 Not sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
 
-# Personal Development Coursework
+## Communication course (PD)
 
-## 1) Holding yourself accountable and setting goals 
-
-Now that you have envisioned the person you want to become and have a clear insight into your SWOT, it’s time to set some clear goals that will help you stay accountable and work towards achieving your personal and professional career ambitions. 
-
-Set SMART goals: 
-
-Specific  - Be explicit about what you want to achieve.
-Measurable - Make sure you can measure your progress. 
-Achievable - Make sure that it’s realistic and attainable. 
-Relevant - Don’t get a goal that is out of context to your career journey! 
-Time bound - Give yourself a clear deadline. 
-
-## 2) - Professional Development and industry readiness preparation.
-
-Professional communication is critical when it comes to landing a role employers are looking for passionate candidates and use platforms like Linkedin to source future employees. 
-
-#### Stretch goal: 
-Set up your linkedin profile and let employers know that you have started your journey into the tech industry. Communicate one of your smart goals, but make sure that it’s relevant to landing a role as a developer
-
-
-### 3) Trainee - English Skills audit 
-https://docs.google.com/forms/d/e/1FAIpQLSevkdGlnEipFThi4CTGc5pxs-GjwREQ2CgBC-Sv7yKOcOMwYA/viewform
+Join our Applied Digital Skills class communication course.
+1. Go to g.co/AppliedDigitalSkills
+2. Click "Sign in" in the top right
+3. Sign in with your Google account, or create a new one
+4. Click "I am a student"
+5. Click "Join a class" and enter class code: qchyyg
+6. Start the Communicate Effectively at Work course
+7. Do lessons "1 - Communicate Effectively at Work Introduction" and "2. Facilitate a Team Meeting" 
+8. Share the links of the exercises of both lessons
+Use this applied digital skills course to help you with your communication skills.
