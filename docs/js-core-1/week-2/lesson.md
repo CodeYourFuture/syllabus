@@ -26,6 +26,10 @@ By the end of this class, you should be able to:
 - Define comparator operators and list the different types
 - Use comparator operators in an `if` statement
 - Define a logical operator and give examples
+- Recognise and relate to different perspectives 
+- Recognise when conflict may arise 
+- Mitigate conflict in a productive manner
+- Resolve conflicts/disagreements 
 
 ---
 
@@ -434,20 +438,15 @@ Next week, we will think more about the most common iterable object in JavaScrip
 
 Adapted from [Tectonica Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md).
 
-Whenever people spend more than a little time together, there might be conflict. You will learn ways to work through these situations while staying respectful and honest.
-
-In this session you will talk about
-- what conflict is and the common ways we address it
-- how can we add to our conflict resolution toolkits and become better at solving conflict effectively
-- what effective body language is
-- what effective choice of words is
-- how to build trust among teams
+**Session objective:** This session explores what conflict is and the common ways we address it; how can we add to our conflict resolution toolkits and become better at solving conflict effectively; what effective body language is; what effective choice of words is; and how to build trust among teams.
 
 [Conflict resolution slides](https://docs.google.com/presentation/d/1-3Dwx9iImzwWvhfX2Qd_zoGb5Q1jP1_bgf7gZ-ZzzjE/edit#slide=id.g1b73cb08c45_0_6)
 
 Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
 
 :::note Exercise 1 (15 minutes)
+
+**Exercise objective:** To role-play a workplace conflict scenario.
 
 We are going to read through the scenario and practice with some role play.
 
@@ -466,6 +465,8 @@ You get 3 minutes to prepare.
 
 :::note Exercise 2 (5 minutes)
 
+**Exercise objective:** To identify feelings evoked through different body languages.
+
 Stand and face another trainee. First, display to each other an example of closed body language.
 - How do you feel about the communication?
 
@@ -475,6 +476,8 @@ Now display an example of open body language and eye contact.
 :::
 
 :::note Exercise 3 (5 minutes)
+
+**Exercise objective:** To identify the impact of emphasis and intonation during verbal communication.
 
 Try reading "I can't wait to go to work today" out loud like you are excited. Now try nervous, and angry.
 

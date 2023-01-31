@@ -115,11 +115,11 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
-## Resolving conflicts (PD - 7 min)
+## 9) Resolving conflicts (PD - 7 min)
 
 Watch [this 7-minute video](https://www.youtube.com/watch?v=qDfSYz0PX9g) on Resolving Workplace Conflicts.
 
-## Writing an email for an internship (PD - 1 hr)
+## 10) Writing an email for an internship (PD - 1 hr)
 
 Draft an email to apply for an internship at a fictional company called Vonda. Make sure to include the five things below:
 
