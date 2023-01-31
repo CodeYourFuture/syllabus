@@ -22,23 +22,28 @@ Firstly, complete any exercises you did not complete during class. They are esse
 
 If you get stuck, reach out to your classmates on Slack for help!
 
-## 3) Read & Watch (1 hour)
+## 3) Read: JavaScript Objects and Arrays
 
 ### Reading
 
-1. 'You Don't Know JS: this & Object Prototypes' - Chapter 3, 'Objects'
-   - https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch3.md
-2. Eloquent JavaScript Chapter 4 - 'Data Structures: Objects and Arrays'
+1. Eloquent JavaScript Chapter 4 - 'Data Structures: Objects and Arrays'
    - https://eloquentjavascript.net/04_data.html
-3. Eloquent JavaScript Chapter 6 - 'The Secret Life of Objects'
+2. Eloquent JavaScript Chapter 6 - 'The Secret Life of Objects'
    - https://eloquentjavascript.net/06_object.html
 
-### Viewing
 
-1. Methods and 'this' keyword in JavaScript
-   - https://www.youtube.com/watch?v=0wN-L9CG3y0
-2. Modern JavaScript Tutorial #5 - Objects
-   - https://www.youtube.com/watch?v=X0ipw1k7ygU
+## 4) Read and Watch: Introduction to Test Driven Development
+
+### Reading
+
+1. Introduction to TDD 
+  - https://northcoders.com/company/blog/what-is-test-driven-development
+
+### Watching
+
+1. Red Green Refactor
+  - https://www.youtube.com/watch?v=SbKPgaRZsxA
+
 
 ## 4) CodeWars (1 hour)
 
