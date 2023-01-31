@@ -61,7 +61,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
-## Giving constructive feedback (PD - 1 hr)
+## 9) Giving constructive feedback (PD - 1 hr)
 
 Imagine yourself in one of the following scenarios. How would you prepare to give constructive feedback in that situation?
 
@@ -74,7 +74,7 @@ Scenarios:
 - Your colleague keeps interrupting you and others in meetings
 - Your flat-mate left dirty cups in the sink for several days
 
-## Working with your team (PD - 2 hr)
+## 10) Working with your team (PD - 2 hr)
 
 Every week you will be requesting feedback from two people to help you get more insight into how you are progressing.
 
