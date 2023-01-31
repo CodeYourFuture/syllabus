@@ -4,7 +4,7 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## Tips for Success (PD)
+## Tips for Success (PD - 1 hr)
 
 Read the [Tips for Success](../preparation/tips.md) and join a thread in your class Slack channel to discuss how you will apply them. Create the thread if nobody else has already done so.
 
