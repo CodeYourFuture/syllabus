@@ -83,7 +83,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges
 
 Share what you're working on in Slack to find others working on the same problems. Try paired programming to solve these challenges.
 
-## Course Checklist (PD - 15 min)
+## 10) Course Checklist (PD - 15 min)
 
 Previous CYF trainees built the following course checklist to self-assess their understanding. 
 
