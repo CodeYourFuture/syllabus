@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcodeyourfuture_syllabus=self.webpackChunkcodeyourfuture_syllabus||[]).push([[5599],{7085:function(u){u.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
