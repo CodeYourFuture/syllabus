@@ -77,7 +77,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 
-## Writing a meeting request email (PD - 30 min)
+## 9) Writing a meeting request email (PD - 30 min)
 
 In the following scenario imagine you are a recruit for a company and your team leader asks you to write an email requesting a meeting with the Head of Customer Services (HCS). Remember to include the subject line and use appropriate formatting.
 

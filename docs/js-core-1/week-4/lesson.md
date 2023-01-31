@@ -28,6 +28,7 @@ By the end of this class, you should be able to:
 - Write code that uses a callback to run code
 - Define an anonymous function
 - Write code that uses an anonymous function as a callback
+- Ask questions using a structured format
 
 ---
 
@@ -564,11 +565,15 @@ If you're using the above example, you should expect to return an array with 2x 
 
 [Adapted from Tectonica workshop](https://github.com/Techtonica/curriculum/blob/main/onboarding/asking-good-questions.md)
 
+**Session objective:** This session focuses on learning on the job by being proactive and asking for help in a structured way. 
+
 [Asking Good Questions slides](https://docs.google.com/presentation/d/19QbXNYHj8v-xSg9PT3MDORxpEiNh2UGt1eIuYYgvCVY/edit#slide=id.gaa71b86f5e_0_0)
 
 Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
 
 :::note Exercise (15 min)
+
+**Exercise objective:** To practice asking questions following the format provided.
 
 In small groups, pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it. Role play for asking questions with a partner, use the the template sample script:
 
