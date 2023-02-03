@@ -442,7 +442,6 @@ Adapted from [Tectonica Interpersonal Conflict Resolution](https://github.com/Te
 
 [Conflict resolution slides](https://docs.google.com/presentation/d/1-3Dwx9iImzwWvhfX2Qd_zoGb5Q1jP1_bgf7gZ-ZzzjE/edit#slide=id.g1b73cb08c45_0_6)
 
-Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
 
 :::note Exercise 1 (15 minutes)
 
