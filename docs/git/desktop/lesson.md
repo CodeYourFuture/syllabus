@@ -417,7 +417,7 @@ Notes for the facilitator: Remember to adapt/update the content in line with you
 
 **Exercise objective:** To brainstorm and think about future responsibilities.
 
-In small groups, imagine all the day-to-day activities and behaviours of a professional software developer. Use an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
+In small groups, imagine all the day-to-day activities and behaviours of a professional software developer. Use a whiteboard, sticky notes, or an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
 
 :::
 
