@@ -29,7 +29,7 @@ By the end of this class, you should be able to:
 - Locate the technical and professional skills overview on the syllabus
 - Identify three support roles at Code Your Future
 - Understand own strengths
-- Identify areas of development
+- Identify three areas of professional development
 - Take active initiative to overcome barriers to success
 
 ---
