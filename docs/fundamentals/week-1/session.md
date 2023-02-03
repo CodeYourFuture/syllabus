@@ -60,7 +60,7 @@ The speaker presents the group's ideas to the class.
 
 **Exercise objective:** To discuss specific actions and commitments.
 
-In small groups, identify a speaker for your group. Discuss why you want a job in tech and name three actions you will take as a commitment to your journey into your new career. Consider following questions:
+In small groups, identify a speaker for your group. Discuss why you want a job in tech; Name three actions you will take to commit to your journey into your new career. Consider following questions:
 
 - Will you keep up to date with job opportunities by researching roles
 - Will you build side projects to make yourself stand out?
