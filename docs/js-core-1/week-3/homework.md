@@ -66,7 +66,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
 Imagine yourself in one of the following scenarios. How would you prepare to give constructive feedback in that situation?
 
 - Write a short paragraph explaining what you would do
-- or write a dialogue between you and the person you are giving feedback
+- Or write a dialogue between you and the person you are giving feedback to
 
 Scenarios:
 
