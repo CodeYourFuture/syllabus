@@ -129,4 +129,4 @@ Draft an email to apply for an internship at a fictional company called Vonda. M
 4. Where you see yourself in the future
 5. Why Vonda should give you the opportunity to do an internship
 
-The email should be formatted in a way that is ready to be sent. Make sure you include a subject title and pay attention to the formatting (font type and size, alignment etc).
+Format the email so it is completely ready to send. Make sure you include a subject. Pay attention to the formatting: font type and size, alignment, and colours.
