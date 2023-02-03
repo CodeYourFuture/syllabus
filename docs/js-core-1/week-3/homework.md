@@ -76,7 +76,11 @@ Scenarios:
 
 ## 10) Working with your team (PD - 2 hr)
 
-Every week you will be requesting feedback from two people to help you get more insight into how you are progressing.
+Feedback from colleagues gives you insight into your career progress. Every week you will be requesting feedback from two people. This will give you insight into your progress on this course.
+
+This week, invite a classmate for a call. Choose someone you have worked with in a small group. Invite your PD or Education Buddy too. Exchange feedback. Try to be helpful, candid, and kind.
+
+Write a 250 word essay reflecting on your strengths and development areas. Use the feedback to help you write this essay.
 
 This week, invite one person from the class you have worked with this week (someone you have not already asked for feedback) for a call, and invite your PD or Education Buddy. Ask for their feedback.
 
