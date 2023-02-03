@@ -124,7 +124,7 @@ Watch [this 7-minute video](https://www.youtube.com/watch?v=qDfSYz0PX9g) on Reso
 Draft an email to apply for an internship at a fictional company called Vonda. Make sure to include the five things below:
 
 1. Why you want to become a software developer
-2. Your background and your past
+2. Your background and your past (as much as you are comfortable sharing)
 3. What you are doing at the moment
 4. Where you see yourself in the future
 5. Why Vonda should give you the opportunity to do an internship
