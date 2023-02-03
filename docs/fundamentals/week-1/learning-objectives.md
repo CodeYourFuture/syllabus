@@ -43,5 +43,5 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 ## PD (introspection)
 
 - [ ] Explain the purpose of Professional Development
-- [ ] Believe in own capabilities and ability to be successful
+- [ ] List three personal capabilities you possess
 - [ ] Identify areas of development
