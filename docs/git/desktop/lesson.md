@@ -25,7 +25,9 @@ By the end of this class, you should be able to:
   - (To use GitHub's _pull request_ workflows, and _push_ further changes).
 - Explore how a file has changed over time.
   - (To use Git's _history log_).
-- Learn about the expectations from Code Your Future Trainees, the technical and soft skills to be developed and the support available during the course. 
+- List three key behaviours expected from Code Your Future trainees
+- Locate the technical and professional skills overview on the syllabus
+- Identify three support roles at Code Your Future
 - Understand own strengths
 - Identify areas of development
 - Take active initiative to overcome barriers to success
