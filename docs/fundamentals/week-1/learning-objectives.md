@@ -44,4 +44,4 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 
 - [ ] Explain the purpose of Professional Development
 - [ ] List three personal capabilities you possess
-- [ ] Identify areas of development
+- [ ] Identify three areas of professional development
