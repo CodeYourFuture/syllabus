@@ -532,7 +532,7 @@ Using what you've just read in the Style Guide.
 
 ## PD (Agile development)
 
-**Session objective:** This session provides an overview of the agile software development methodology.
+**Session objective:** This session provides an overview of the Agile software development methodology.
 
 [Agile development slides](https://docs.google.com/presentation/d/1SN_NIXeKi4-WWWVA_ffxKyc4ZIe5Tem2zcfoYA4RtB4/edit#slide=id.g1adb8e69ab9_0_5)
 
