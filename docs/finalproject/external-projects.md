@@ -14,7 +14,6 @@ Here are examples of web apps we built as a Final Project:
 
 - [Over The Line with The Compass Collective](https://over-the-line.uk/)
 - [Chatterbox Talents](https://ldn8-horizon-chatterbox-talent.netlify.app/)
-- [Hujreh](https://hujreh.netlify.app/)
 - [The Breteau Foundation](https://bugsquashers-edu.netlify.app/)
 - [Pratibha Nakshtra](https://pratibha-nakshtra-teamhapi.netlify.app/)
 - [Akwaaba](https://akwaaba.netlify.app/)
