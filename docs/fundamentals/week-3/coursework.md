@@ -54,7 +54,7 @@ Employers are looking for UX designers that can:
 Employers are looking for QA testers that can;
 1.
 2.
-3
+3.
 
 Employers are looking for product managers that can:
 1.

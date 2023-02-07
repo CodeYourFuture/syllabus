@@ -6,6 +6,7 @@ module.exports = {
   organizationName: "codeyourfuture",
   projectName: "Syllabus",
   onBrokenLinks: "throw",
+  plugins: [require.resolve("docusaurus-lunr-search")],
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -34,13 +35,6 @@ module.exports = {
     },
   ],
   themeConfig: {
-    algolia: {
-      appId: "4CNHVT1TSF",
-      apiKey: "a7559fa1da1a033cfb3d7c7f108173ae",
-      indexName: "codeyourfuture_syllabus",
-      searchParameters: {}, // Optional (if provided by Algolia)
-    },
-
     navbar: {
       hideOnScroll: true,
       logo: {
@@ -62,7 +56,7 @@ module.exports = {
               label: "Intro To Coding",
             },
             {
-              href: "fundamentals",
+              to: "fundamentals",
               label: "Fundamentals",
             },
             {

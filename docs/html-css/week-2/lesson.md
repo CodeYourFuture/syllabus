@@ -334,7 +334,7 @@ This provides a larger clickable area to select the form control, and can be ben
 
 :::tip
 It is quite common to add placeholders to text inputs.
-Adding only placeholders is bad practise, because it is not guaranteed to be read out by screen readers.
+Adding only placeholders is bad practice, because it is not guaranteed to be read out by screen readers.
 Default styles for placeholders can also have poor colour contrast, which means visually-impaired users might not be able to read it.
 
 <input style={{width:'100%', marginBottom:'1rem'}} type="text" placeholder="I am a placeholder. Placeholders are not labels so do not use me as a label."/>
