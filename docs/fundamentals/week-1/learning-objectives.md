@@ -39,9 +39,3 @@ A full set of learning objectives are available on the [Lesson Plan](https://cod
 - [ ] Export your Codepen to zip
 - [ ] Upload your folder to Github
 - [ ] Deploy your folder to Netlify
-
-## PD (introspection)
-
-- [ ] Explain the purpose of Professional Development
-- [ ] List three personal capabilities you possess
-- [ ] Identify three areas of professional development
