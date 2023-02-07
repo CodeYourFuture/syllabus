@@ -533,9 +533,7 @@ but if you want an introduction to web security, visit the [MDN website security
 
 :::
 
-[Active listening slides](https://docs.google.com/presentation/d/1dA4UdHGaCE1PPoAFE4m9wl-O-CAbWPM7_LQIOxfSkZk/edit#slide=id.ga9333c68a9_0_33)
-
-Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+[Active listening slides](https://docs.google.com/presentation/d/1EurgtwzUey-gTsQb_4PAo-W-sxMQ02AZJdHe0Uwc11c/edit#slide=id.ga9333c68a9_0_33)
 
 :::note Exercise (15 min)
 
