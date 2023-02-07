@@ -21,8 +21,3 @@ sidebar_label: Learning Objectives
 - [ ] Iterate on feature
 - [ ] Ship working code
 - [ ] Facilitate a retrospective with other trainees
-
-## PD (introspection)
-
-- [ ] Begin developing presentation skills
-- [ ] Give and receive constructive feedback
