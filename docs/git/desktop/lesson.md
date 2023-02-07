@@ -25,12 +25,6 @@ By the end of this class, you should be able to:
   - (To use GitHub's _pull request_ workflows, and _push_ further changes).
 - Explore how a file has changed over time.
   - (To use Git's _history log_).
-- List three key behaviours expected from Code Your Future trainees
-- Locate the technical and professional skills overview on the syllabus
-- Identify three support roles at Code Your Future
-- List three personal strengths
-- Identify three areas of professional development
-- Take active initiative to overcome barriers to success
 
 ---
 
@@ -405,9 +399,7 @@ Make an effort to mark the achievements up to this point. You completed ITD and 
 
 **Session objective:** The presentation below aims to identify your goal(s) for being on the CYF software development course; to highlight the expectations CodeYourFuture has for its trainees; and to introduce the concept of progressing from the Intro to Digital, Fundamentals courses to the software development course.
 
-[Goals and Expectations](https://docs.google.com/presentation/d/11vimrefwpHfFByUfgPL-jwhZ2KrE0Li80M_O_z2U95I/edit)
-
-Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+[Goals and Expectations](https://docs.google.com/presentation/d/154zub_LucLpwO_qThkbymArqDIfCfrMu40IDUvguq-I/edit#slide=id.gaa71b86f5e_0_0)
 
 **Session 2: What do developers do?**
 
