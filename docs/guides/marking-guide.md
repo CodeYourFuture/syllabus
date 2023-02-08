@@ -1,10 +1,8 @@
 ---
 id: marking-guide
-title: Marking Guide
+title: Reviewing 
 sidebar_label: Reviewing Guide
 ---
-
-This Rubric should be used to guide your assessment of coursework at CodeYourFuture. You can use it to assess your own work and other people's work.
 
 ## How To Evaluate Coursework
 
@@ -46,11 +44,13 @@ Details on how we give feedback in code review are on the docs site:
 
 Completion of all of the tasks is essential.
 
-If there are tests that you have to make pass, you should **not** edit them to make your code work. Doing so will mean you get marked zero for this section.
+### Pass the tests
+
+Do not rewrite the tests to 'pass' your code. Rewrite your code to pass the tests. Pay attention to the real goal here.
+
+Tests are your friend and your guide. Let tests help you. When you work for an employer, will they find it a good solution if you "fix" their payments system by making any input a valid credit card number? If not, why not? 
 
 ### Achieves task in intended way
-
-As well as completing all of the tasks, you should be sure to complete the task in a way that we are expecting and that covers all cases.
 
 You should also always try to solve the problem in the "general" rather than in the "specific".
 
@@ -86,13 +86,15 @@ Edge cases are when code does something you're not expecting and you didn't acco
 
 Some edge cases are valid data, and some are not.
 
-Some examples of valid edge case are that some names contain punctuation, or some people may only have a single name, which your code needs to be able to handle. An example of an invalid edge case is if someone doesn't enter a name at all, which your code should reject - if your code doesn't notice the problem where the user provides their name, other code you wrote may make assumptions which are incorrect.
+Some names contain punctuation; some people may only have a single name; your code must handle these edge cases. If someone doesn't enter a name at all, your code should reject this edge case and throw an error.
+
+If your code doesn't notice unexpected inputs, you might rely on data that doesn't exist or are malformed. As your code gets more complicated, these problems get more difficult to resolve.
 
 See [Falsehoods Programmers Believe About Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) for some interesting examples.
 
 Good code should handle all of these cases so that they can't happen - and if they do - they don't make your program crash or stop working.
 
-Validations are used wherever necessary. The code never breaks under any circumstances. Especially under invalid inputs that come from the user end. Regardless of it being a negative, over-sized, invalid format, etc., every input passed should be processed, sanitized before taking it further. Every object is checked for its actual data existence before accessing its properties.
+Validations are used wherever necessary. The code never breaks under any circumstances. User input is never trusted. Regardless of it being a negative, over-sized, invalid format, etc., every input passed should be processed, sanitized before taking it further. Every object is checked for its existence before accessing its properties.
 
 #### More Reading
 
@@ -203,7 +205,7 @@ function doWork() {}
 A good function name might be
 
 ```js
-function removeCaptialLetters(){)
+function removeCapitalLetters(){)
 ```
 
 Sometimes if you can't come up with a good function name it's an indication that the function doesn't have a nice, crisp focus and needs to be refactored.
