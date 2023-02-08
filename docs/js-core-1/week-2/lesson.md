@@ -26,10 +26,6 @@ By the end of this class, you should be able to:
 - Define comparator operators and list the different types
 - Use comparator operators in an `if` statement
 - Define a logical operator and give examples
-- Recognise and relate to different perspectives 
-- Recognise when conflict may arise 
-- Mitigate conflict in a productive manner
-- Resolve conflicts/disagreements 
 
 ---
 
@@ -438,9 +434,9 @@ Next week, we will think more about the most common iterable object in JavaScrip
 
 Adapted from [Tectonica Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md).
 
-**Session objective:** This session explores what conflict is and the common ways we address it; how can we add to our conflict resolution toolkits and become better at solving conflict effectively; what effective body language is; what effective choice of words is; and how to build trust among teams.
+**Session objective:** This session explores what conflict is and the common ways we address it. We will explore conflict resolution toolkits and how we can become better at managing conflict effectively. We will talk about what effective body language is; what effective choice of words is; and how to build trust among teams.
 
-[Conflict resolution slides](https://docs.google.com/presentation/d/1-3Dwx9iImzwWvhfX2Qd_zoGb5Q1jP1_bgf7gZ-ZzzjE/edit#slide=id.g1b73cb08c45_0_6)
+[Conflict resolution slides](https://docs.google.com/presentation/d/1hTBEMDXrYBC2QTXWaRJkWI378DTVF-s8t_Uxi8mT7bQ/edit#slide=id.g1b73cb08c45_0_0)
 
 
 :::note Exercise 1 (15 minutes)
@@ -472,6 +468,10 @@ Stand and face another trainee. First, display to each other an example of close
 Now display an example of open body language and eye contact.
 - How do you feel about that communication?
 
+You can do this exercise while sitting if you cannot stand. You will be placed in separate breakout rooms if the session is online.
+
+Facilitators will adapt the exercise to the diverse needs of trainees, or skip the exercise when the adaptation is not possible.
+
 :::
 
 :::note Exercise 3 (5 minutes)
@@ -483,6 +483,8 @@ Try reading "I can't wait to go to work today" out loud like you are excited. No
 Say the sentence out loud emphasizing the word “I”. Next try emphasizing “work”, and “today”. 
 
 How does the sentence means different things when you emphasize different words?
+
+Facilitators will adapt the exercise to the diverse needs of trainees, or skip the exercise when the adaptation is not possible.
 
 :::
 
