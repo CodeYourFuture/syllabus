@@ -397,7 +397,11 @@ Make an effort to mark the achievements up to this point. You completed ITD and 
 
 **Session 1: Goals and Expectations**
 
-**Session objective:** The presentation below aims to identify your goal(s) for being on the CYF software development course; to highlight the expectations CodeYourFuture has for its trainees; and to introduce the concept of progressing from the Intro to Digital, Fundamentals courses to the software development course.
+**Session objective:** The presentation below aims:
+
+- to identify your goal(s) for being on the CYF software development course
+- to highlight the expectations CodeYourFuture has for its trainees
+- to explain the progress from Intro to Digital to Fundamentals course, and then to the Software Development course.
 
 [Goals and Expectations](https://docs.google.com/presentation/d/154zub_LucLpwO_qThkbymArqDIfCfrMu40IDUvguq-I/edit#slide=id.gaa71b86f5e_0_0)
 
@@ -415,7 +419,7 @@ In small groups, imagine all the day-to-day activities and behaviours of a profe
 
 **Session 3: SDOT analysis**
 
-**Session objective:** In this session, each participant will do a SDOT (Strengths, Weaknesses, Opportunities, and Threats) analysis.
+**Session objective:** In this session, each participant will do a SDOT (Strengths, Developments, Opportunities, and Threats) analysis.
 
 :::note Exercise (20 min)
 
