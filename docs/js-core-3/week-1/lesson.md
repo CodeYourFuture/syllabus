@@ -19,6 +19,7 @@ The purpose of this class is to introduce to the trainee:
 
 1. Debugging your code
 2. Consolidate learning for the project work
+3. PD (Agile: Gathering requirements)
 
 ## 1. Debugging
 
