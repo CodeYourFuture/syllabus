@@ -26,6 +26,7 @@ The purpose of this class is to introduce to the trainee:
 2. How the web works
 3. What are `APIs` and how to interact with them
 4. How to use the `fetch` API to do AJAX calls
+5. PD (Agile: Planning and preparation)
 
 ## 1. Debugging Quiz
 
@@ -397,6 +398,41 @@ fetch(_____)
 2. Post the image you retrieved on Slack
 
 :::
+
+## PD (Agile: Planning and preparation)
+
+**Session objective:** In this session we will talk about refining user story backlog, planning the sprint and estimating effort.
+
+:::note Warm-up (10 minutes)
+
+Write a mission statement for the TV show project:
+
+- What's the purpose of the project?
+- What would be the mission of the sprints?
+
+:::
+
+[Agile: Planning and preparation](…)
+
+:::note Exercise (30 minutes)
+
+**Exercise objective:** To practice estimating effort for user stories
+
+In small groups. For this sizing example, you have 5 stories. The first one is already t-shirt sized as a Medium. To size story #2, the team must compare it against story #1 - just as you’d compare t-shirts to find their size - Is it bigger or smaller?
+
+As a team, you ask yourselves “is story #2 bigger or smaller than #1?” If you decide it takes less effort, then you decide how much smaller it is. Enough to be a S, or much smaller to be a XS?
+
+You do the same for each of the following stories. "Is story #3 bigger or smaller than story #1?” If it’s bigger, by how much? Is it double the size? (XL) or just slightly bigger? (L).
+
+Continue this estimation activity, refer to the user stories you created last week and follow the following steps:
+
+- Decide the size of the first story. The first size won’t be accurate, since there is nothing to compare with.
+- Go through every other user story you created last week, and compare it against the first one, asking yourselves “is this bigger or smaller?” to decide the size.
+
+Share your reflections with the rest of the class.
+
+:::
+
 
 ## Coursework
 
