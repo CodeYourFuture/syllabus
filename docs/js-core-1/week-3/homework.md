@@ -72,7 +72,7 @@ Scenarios:
 
 - Your colleague took your lunch from the office fridge
 - Your colleague keeps interrupting you and others in meetings
-- Your flat-mate left dirty cups in the sink for several days
+- Your flatmate left dirty cups in the sink for several days
 
 ## 10) Working with your team (PD - 2 hr)
 
@@ -81,7 +81,3 @@ Feedback from colleagues gives you insight into your career progress. Every week
 This week, invite a classmate for a call. Choose someone you have worked with in a small group. Invite your PD or Education Buddy too. Exchange feedback. Try to be helpful, candid, and kind.
 
 Write a 250 word essay reflecting on your strengths and development areas. Use the feedback to help you write this essay.
-
-This week, invite one person from the class you have worked with this week (someone you have not already asked for feedback) for a call, and invite your PD or Education Buddy. Ask for their feedback.
-
-Write a 250 word essay reflecting on your strengths and development areas as a result of their feedback.
