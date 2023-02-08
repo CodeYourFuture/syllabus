@@ -447,7 +447,7 @@ We are going to read through the scenario and practice with some role play.
 
 In groups of 3 – one person will play the role of Missy, one person will play her manager, and the third person will be the observer.
 
-Missy’s:  It’s after the meeting you are going to talk with your manager about what happened.  You want to practice doing this the right way – click back to previous slide for advice.  
+Missy’s:  It’s after the meeting and you are going to talk with your manager about what happened.  You want to practice doing this the right way – click back to previous slide for advice.  
 
 Managers: You will play the role you think the manager might play – you can respond well, or poorly to Missy – the choice is yours.
 
