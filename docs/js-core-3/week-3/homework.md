@@ -92,3 +92,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
+## 7) TV Show Project Presentation (PD - 1 hr)
+
+Prepare a 3-min presentation about your TV Show Project. Remember to mention the challenges, tips and tricks and results you came across.
+
