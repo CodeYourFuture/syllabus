@@ -4,7 +4,9 @@ title: Project Briefings
 sidebar_label: Project Briefings
 ---
 
-New projects:
+Here are some examples of previous final projects.
+
+Project briefings:
 - [A Set](https://docs.google.com/document/d/1_aYRVzw1DJE1K5EadBzZqqh00ZlA4uaXw7izzLJkAIo/edit?usp=sharing)
 - [Deskeando](https://docs.google.com/document/d/1GTIKg7UyItzZs-Xq4Kd0yY0WQLHM0L98Hoyr5BoktOg/edit?usp=sharing)
 - [We are here](https://docs.google.com/document/d/1BQd_AA4qz-N1fv83yeyh72QdhSnAzdn6GtwjC6tMwDQ/edit?usp=sharing)
@@ -15,7 +17,6 @@ New projects:
 - [Goal!](https://docs.google.com/document/d/1gCuGokin3DGWJ8EfjmlxnKFJi0CT3pKsMVhn_H3RPTk/edit?usp=sharing)
 
 Here are some ideas for projects from previous years:
-
 - [Glossary](https://docs.google.com/document/d/1MxlmMCq2ddsLjghlNumG-kMKruglYomirifBfuU_XHU/edit?usp=sharing)
 - [Class Behaviour Register](https://docs.google.com/document/d/1JWjDJ8c5v06rFFwXBYHT5QoNg8T6gQpyI3mxOgb3JJ0/edit?usp=sharing)
 - [Feedback Tracker](https://docs.google.com/document/d/1WLsBsTW4MSrsyip1dTUAJHuURuAwer_FXuU7S_vUGlo/edit?usp=sharing)
@@ -28,5 +29,4 @@ Here are some ideas for projects from previous years:
 - [Language Exchange Website](https://docs.google.com/document/d/15mBw5bQBIj0y-tXNmEpSkMfNxdXs9YcVBIvczAYvMSs/edit?usp=sharing)
 
 Additional ideas for projects can be found here
-
 - [Group Projects](https://github.com/CodeYourFuture/group-projects)

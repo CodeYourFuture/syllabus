@@ -4,19 +4,17 @@ title: External Projects
 sidebar_label: External Projects
 ---
 
-At CodeYourFuture we try to find interesting, tech-for-good projects for that stretch the abilities of our trainees whilst helping an NGO or Charity solve a business problem they are facing.
+At CodeYourFuture we try to find interesting, tech-for-good projects that stretch the abilities of our trainees whilst helping an NGO or Charity solve a business problem they are facing. 
+
+If you are one of these charities, or know one we could work with, you can find more information below. 
 
 ## Past Projects
 
-Here are some of the projects that we've worked on in the past
+Here is an example of a web app we built with an NGO as a Final Project:
 
 - [Over The Line with The Compass Collective](https://over-the-line.uk/)
 
-Additionally, here are some examples of internal projects we've completed
-
-- [Class Planner](https://cyf-class-planner.herokuapp.com/)
-
-You can also find more example project briefs on the Project Brief
+You can find example project briefs on the [Project Brief page](./projects).
 
 ## Goals
 
@@ -33,20 +31,16 @@ and to give our partners:
 
 More details can be found on the [Intro](./intro) and [Preparation](./prep) pages.
 
-## What does a Product Owner have to do?
+## We will need a Product Owner from your organisation on the team
 
-To be a good Stakeholder/[Product Owner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) you should
+Having an active Product Owner leads to faster delivery with better solutions. 
 
-- Be able to attend a weekly/bi-weekly meeting with our teams
-- Be in a position to advise the development of the project
-  - e.g. Should we prioritise Feature A or Feature B?
-  - e.g. We should remove Feature B because it's no longer needed.
-- Have realistic expectations of what our trainees can build in the time given to them
 
-In addition to this, it is very helpful if you can join our internal instant messaging tool (Slack) to speak to our trainees more regularly. Historically, one of the most common blockers to a successful project has been the quick communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels or go off on a tangent if they have a burning question and can't get it answered.
+Historically, one of the most common blockers to a successful project has been slow communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels, or go off on a tangent if they have a burning question and can't get it answered.
 
-In the ideal world, you would be able to answer questions within a 0.5-1 working days of the questions being asked by our trainees. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
+In an ideal world, you are able to answer trainee questions within one working day. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
 
+The [Product Owner role](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) and commitment is described in detail on our docs.
 
 ## What is a Good Project?
 
@@ -89,7 +83,7 @@ We use the following technologies at CodeYourFuture
 
 An external Final Project should use all of these technologies into a single Full Stack package. This is important as we want our trainees to use all of the skills that they have learnt in our course.
 
-We prohibit using other core frameworks as they will fall outside our trainees areas of competency due to the time constraints that we have.
+If your tech stack is far outside of the above core frameworks, send your project anyway and we will assess it case-by-case. 
 
 ### Limitations
 
@@ -106,24 +100,16 @@ As Junior Developers, our trainees do have some limits on what they can produce
 
 A good next step to getting started with defining your project is to complete this form.
 
-[CodeYourFuture - Projects Specification Form](https://docs.google.com/forms/d/11ZU0TqiRCSk5FRb9BMTKhc6wCs6GhPMlUFKxwgfSLa4/edit?usp=drive_web)
+[CodeYourFuture - Projects Specification Form](https://forms.gle/Gn85Kdna6QB2Qfcp9)
 
 It is important that you answer all of these questions in **as much** details as possible. Even irrelevant details will help us understand what you are trying to achieve.
 
-### 2) Visual Form
+### 2) Design Mock-Ups
 
-On the next step we're asking you to be more visual in answering the questions. We'd advise you to use images or diagrams to answer the questions in these slides.
-
-[CodeYourFuture - Visual Specification Form](https://docs.google.com/presentation/d/1-rj0NAncIhIZuay6TXEyUeuXFFUnE7vmN12223rHZOI/edit#slide=id.g3579738be0_0_0)
-
-### 3) Design Mock-Ups
-
-Finally, you should work with us to create some simple designs of your product. These will not be the final designs of what you be building - they're just a tool to help us work out what you want built.
-
-Very quick designs of the tool/website you are trying to build will give us a great insight into what exactly you want built.
+Finally, you should work with us to create some simple designs of your product. This will give us insight into exactly what you want. These will not be the final designs of what we will be building; they're just a tool to help us work out what you want built.
 
 You needn't use any specialised tools to design this. Paint or Pen & Paper will do for this step. If you want to use a digital tool we recommend [Excalidraw](https://excalidraw.com/).
 
 Try to think about how each individual page will look. Will the user need to create an account? Think of the form they will need to fill in. Does the user view content on a page? What content should be included?
 
-Get in contact with your local City Coordinator to arrange this.
+Get in contact with your local Programme Manager to arrange this.
