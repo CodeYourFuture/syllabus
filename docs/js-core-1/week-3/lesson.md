@@ -22,7 +22,6 @@ By the end of this class, you should be able to:
 - Define an array
 - Write code that interacts with an array
 - Loop over an array
-- Develop arguments through critical thinking
 
 ---
 
@@ -367,9 +366,7 @@ For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScrip
 
 **Session objective:** This session highlights the importance of critical thinking for developers, and provides methods to form good arguments.
 
-[Developer thinking slides](https://docs.google.com/presentation/d/1Cd-QCjZXCgrC70fkzfHWiAnVZ3PfpSLtdjbSI3IX5Tg/edit#slide=id.g1fbc3b09af8_0_1)
-
-Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+[Developer thinking slides](https://docs.google.com/presentation/d/1sVBqkY_6EldPf3q7jcp6NJbD3Hn53xHCgxtDx2iOO8M/edit#slide=id.g1fbc3b09af8_0_1)
 
 :::note Exercise (10 min)
 
@@ -384,8 +381,9 @@ Put the statements in the slides in the right order.
 **Exercise objective:** To brainstorm as a group about critical thinking skills
 
 In small groups, explore how and why developers need to develop critical thinking skills.
-How will you use critical thinking skills as a developer?
-Why is it important to use critical thinking skills when developing products for diverse audiences?
+
+- How will you use critical thinking skills as a developer?
+- Why is it important to use critical thinking skills when developing products for diverse audiences?
 
 :::
 
