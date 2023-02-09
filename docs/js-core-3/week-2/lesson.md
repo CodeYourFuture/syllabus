@@ -412,7 +412,7 @@ Write a mission statement for the TV show project:
 
 :::
 
-[Agile: Planning and preparation](…)
+[Agile: Planning and preparation](https://docs.google.com/presentation/d/1TJNjPOha2P5cWW6IO9jAc9GTvsosqVGkkG5pAbbvfg4/edit#slide=id.g1b740a9f8c6_0_336)
 
 :::note Exercise (30 minutes)
 
