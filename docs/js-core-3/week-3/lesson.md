@@ -561,7 +561,7 @@ Remember, each card should have some detail about the task and what you need to 
 
 :::
 
-[Agile: Scrum planning](…)
+[Agile: Scrum planning](https://docs.google.com/presentation/d/1bLZRmA3fwlBnDDukVdxUVtfGBNGHxDkEbZplOvVf-gA/edit#slide=id.g1b740a9f8c6_0_341)
 
 :::note Exercise (30 minutes)
 
