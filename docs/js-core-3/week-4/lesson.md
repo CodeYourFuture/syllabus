@@ -13,9 +13,7 @@ import Feedback from "@theme/Feedback";
 
 ## Agenda
 
-The purpose of this class is to introduce to the trainee:
-
-1. PD (presentation)
+1. PD (presentations)
 
 ## PD (Presentations)
 
@@ -47,4 +45,4 @@ Click [here](./homework) to view the homework for this lesson.
 
 Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
 
-<Feedback module="JavaScript Core 3" week="Week 3" />
+<Feedback module="JavaScript Core 4" week="Week 4" />

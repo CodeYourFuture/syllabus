@@ -26,5 +26,6 @@ Create 2 or 3 goals for yourself to improve your PD competencies. Refer to your 
 You can use the attached template to identify your goals. When ready, submit your goals here and share them with your PD buddies.
 
 [PD competencies list](https://docs.google.com/document/d/1Mx5yY9zA5v0KpkIbc0CRfjC4iyqKy-nZs3Yre-APVEw/edit)
+
 [SMART Goals Template](https://docs.google.com/spreadsheets/d/1HsZvWFjV68L7QZv2Bs_HAd5rr7adb5Jp-7xdv2LNkTo/edit#gid=0)
 
