@@ -437,7 +437,7 @@ During JS3 tech education, you will make a TV Show app. The PD module will focus
 
 **Session objective:** This session explains how to understand the job ahead, and the processes to identify requirements.
 
-[Agile: Gathering requirements ](…)
+[Agile: Gathering requirements ](https://docs.google.com/presentation/d/142XFjEtIp7MwWj5FsHeQdKISF8Hsxugaf-d2wTMGhqg/edit#slide=id.g1b740a9f8c6_0_331)
 
 :::note Exercise (10 minutes)
 
