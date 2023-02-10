@@ -573,7 +573,7 @@ Step 1: Click on the projects tab in your repository and select create a project
 
 Step 2: Name your project TV-Show-Project-Planning
 
-Step 3: Work together and review all of the tasks you need to do to complete your individual projects (please note that you might be at different stages of completion). Organise your tasks in four categories (Backlogged, To do, In progress, Done).
+Step 3: Work together and review all of the tasks you need to do to complete your individual projects (please note that you might be at different stages of completion). Organise your tasks in four categories (Backlog, To do, In progress, Done).
 
 Step 4: It’s time to have your first stand up. In your groups discuss your progress and your blockers.
 
