@@ -16,7 +16,6 @@ Here are examples of web apps we built as a Final Project:
 - [Chatterbox Talents](https://ldn8-horizon-chatterbox-talent.netlify.app/)
 - [The Breteau Foundation](https://bugsquashers-edu.netlify.app/)
 - [Akwaaba](https://akwaaba.netlify.app/)
-- [Bike for Refugees](https://linktr.ee/callbackcats)
 
 You can find example project briefs on the [Project Brief page](./projects).
 
