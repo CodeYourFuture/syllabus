@@ -17,7 +17,7 @@ Project briefings:
 - [Goal!](https://docs.google.com/document/d/1gCuGokin3DGWJ8EfjmlxnKFJi0CT3pKsMVhn_H3RPTk/edit?usp=sharing)
 - [Study Buddies](https://docs.google.com/document/d/1JzcbKOkOdFuZ6it6xX2dVyQ8fTmnfbkaL91YLT6w8mc/edit?usp=sharing)
 - [Jobs From The Boards](https://docs.google.com/document/d/1ZEPqCyfjZw3Bclf-9xeSu0EvoJmxOEj69os927Un5FQ/edit?usp=sharing)
-- [Hub Planner](https://docs.google.com/document/d/1REEEAMYZhsLGeqKGKn0c4R7gBmqRx3sdvn_c1Jb3hiw/edit?usp=sharing)- 
+- [Hub Planner](https://docs.google.com/document/d/1REEEAMYZhsLGeqKGKn0c4R7gBmqRx3sdvn_c1Jb3hiw/edit?usp=sharing)
 
 Here are some ideas for projects from previous years:
 - [Glossary](https://docs.google.com/document/d/1MxlmMCq2ddsLjghlNumG-kMKruglYomirifBfuU_XHU/edit?usp=sharing)
