@@ -6,6 +6,15 @@ sidebar_label: Lesson
 
 import Feedback from "@theme/Feedback";
 
+## Overview
+
+- Demo
+- Retrospective
+- User research
+- Sprint Planning
+- Technical Support
+
+
 ## Demo (60 minutes)
 
 _Led by Trainees, presented back to the class_
