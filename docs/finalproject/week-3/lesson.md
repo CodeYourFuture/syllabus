@@ -9,7 +9,7 @@ See [Week 2](../week-2/lesson) for instructions for this week. You are working a
 ## Overview
 
 - Check In
-- Colling period
+- Cooling period
 
 
 ### Check In: how are the contributions of all team members so far?
