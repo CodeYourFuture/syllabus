@@ -23,7 +23,7 @@ It's important to evaluate our contributions to the group. Here's what we expect
 For graduation, we evaluate each role against the Skills for the Information Age skills descriptions, which you should check for more details.
 
 
-### Cooling periods during final projects 
+### Cooling periods during final projects (30 min)
 
 Cooling periods are for teams that are struggling to collaborate, communicate or work together in an agile way. This is an indication that the team may not be on track to graduate due to concerns about their professional skills. 
 
