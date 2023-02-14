@@ -18,6 +18,36 @@ Be sure to assign all of the tasks to your trainees several days before you aim 
 
 ## Delivery Notes
 
+### Context
+
+This module takes us out of the browser for a few weeks and is trainees first exposure to actual javascript code, both of which might be challenging. It's worth spending time helping trainees to not feel too lost.
+
+### Flipped classroom recap/Q&A
+
+The flipped classroom practice should have trainees
+
+  - Write and run (using node/the terminal inside of VS Code) their first single-line console.log program
+  - Write and run multi-line console.log program
+  - Use the REPL to evaluate expressions (and define variables)
+    - strings
+    - let variable + assign
+    - template strings (preferred to using `+`)
+    - simple arithmetic operations
+    - call functions that are part of standard javascript (e.g. Math)
+    - define functions and call them
+  - Write and call their own functions
+  - Maybe run `npm install` and `npm test` (or this happens while doing coursework)
+
+  Some questions/prompts that may be useful
+  - What does this program do? (show programs of varying degrees of complexity using console.log, strings, template strings, variables, function definitions and function calls)
+  - What does this expression evaluate to?
+  - What is the difference between an expression and a statement? (don't need to get too technical beyond "does something" vs "evaluates to a value")
+  - What kinds of data types have we seen so far? (without getting too technical, "string", "number", maybe "undefined")
+  - What is the difference between defining and calling a function?
+  - How do arguments in function calls and parameters in function definitions match up?
+  - Why/when do we use variables and functions?
+  - Discuss solutions to practice exercises (particularly 3.1 - don't get too bogged down in scope + global variables for now)
+
 ### Giving Feedback to Each Other
 
 For this exercise, you should open the Pull Request and share you screen. Elicit answers from the trainees based on what they've just read.
