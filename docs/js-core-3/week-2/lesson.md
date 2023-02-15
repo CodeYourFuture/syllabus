@@ -418,7 +418,7 @@ Write a mission statement for the TV show project:
 
 **Exercise objective:** To practice estimating effort for user stories
 
-In small groups. For this sizing example, you have 5 stories. The first one is already t-shirt sized as a Medium. To size story #2, the team must compare it against story #1 - just as you’d compare t-shirts to find their size - Is it bigger or smaller?
+Work in small groups. For this sizing example, you have 5 stories. The first one is already t-shirt sized as a Medium. To size story #2, the team must compare it against story #1 - just as you’d compare t-shirts to find their size - Is it bigger or smaller?
 
 As a team, you ask yourselves “is story #2 bigger or smaller than #1?” If you decide it takes less effort, then you decide how much smaller it is. Enough to be a S, or much smaller to be a XS?
 
