@@ -15,6 +15,7 @@ import Feedback from "@theme/Feedback";
 - [Array forEach](#array-foreach)
 - [Array filter](#array-find)
 - [Array find](#array-find)
+- [PD - Asking good questions](#pd-asking-good-questions)
 
 ## Learning Objectives
 
@@ -556,6 +557,24 @@ This function should:
 - Change the strings to upper case, and add an exclamation mark to the end
 
 If you're using the above example, you should expect to return an array with 2x `ELAMIN!`, 1x `SANYIA!`, 2x `ISMAEL!` and 1x `JAMES!`.
+
+:::
+
+## PD (Asking good questions)
+
+[Adapted from Tectonica workshop](https://github.com/Techtonica/curriculum/blob/main/onboarding/asking-good-questions.md)
+
+**Session objective:** This session focuses on learning on the job by being proactive and asking for help in a structured way. 
+
+[Asking Good Questions slides](https://docs.google.com/presentation/d/1KonA8nQ5efYVMxtw70R3Xh9nHpiOSD595kV_OT2XxzQ/edit#slide=id.gaa71b86f5e_0_0)
+
+:::note Exercise (15 min)
+
+**Exercise objective:** To practice asking questions following the format provided.
+
+In small groups, pick a programming concept that you have difficulty with or are trying to learn. Use StackOverflow to see if you can get some good information about it. Role play for asking questions with a partner, use the the template sample script:
+
+"I could use some help. I’m using this tech stack: __. I want to __ to accomplish __. I searched for __and I read __ and tried __. I’m getting this error/result: __. I think the problem could be __. Here’s a link to my code: __. Do you have any suggestions for me?"
 
 :::
 
