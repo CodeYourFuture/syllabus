@@ -4,49 +4,92 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 1) Review Solutions for Last Weeks Coursework (1h)
+## 0) Flipped Classroom Practice (3h)
 
-You should do this every week from now on. We will stop reminding you soon.
+The video playlist contains 5 "content" videos and 3 "practice" videos.
 
-Once a week, someone with Github maintainer access in your city will release the solutions repo to last week's coursework to your class team.
-Your class team is a child of Students and lives here: https://github.com/orgs/CodeYourFuture/teams/students/teams
+Here is an overview of the practice exercises:
 
-Once you have access to the solutions repo, review your work compared to the example solutions. There is a marking guide that talks through common mistakes. Which ones have you made? How will this help you identify what you need to practice more, and where you feel strong?
+1.1 Write a program that prints out to the console:
 
-Write down your target areas and take them to your buddy group. What does your mentor think? Do they agree with your assessment?
+```
+Hello Code Your Future
+```
 
-## 1) FreeCodeCamp (1 hour)
+1.2 Write a program that prints out to the console:
 
-If you haven't already, you should complete all of these lessons on FreeCodeCamp. This is the same as the [Scrimba course](https://scrimba.com/learn/basicjavascript) you did as prep, so you should already have completed these lessons. This coursework is to help you practice and remember those lessons.
+```
+Hello Maha
+Hello Megumi
+Hello Mohammad
+```
 
-https://www.freecodecamp.org/learn
+2.0 Evaluate some expressions in the node REPL:
 
-Make sure you have completed the following lessons from the Basic JavaScript course: All the lessons starting at _Comment Your JavaScript Code_ **up to and including** _Assignment with a Returned Value_
+  - The sum of any two numbers
+  - Your age this year (based on the difference between the current year and your year of birth)
+  - A string containing your name
+  - A variable called `name` with your name assigned to it
+  - A template string using the name variable and a greeting in your language 
 
-## 2) Read Intro to Tests
+2.1 Write a program that prints out to the console
 
-Make sure you read all of this guide. It will help you complete your coursework.
+```
+Hello Maha your place in the waiting list is 1
+Hello Megumi your place in the waiting list is 2
+Hello Mohammad your place in the waiting list is 3
+```
+
+Can you think how you could use variables to represent the greeting (`hello`) and the position in the waiting list (`1`, `2`, `3`)?
+
+2.2 Maha has been taken off the waiting list. Modify your program so that it prints out to the console:
+
+```
+Congratulations Megumi your place in the waiting list is 1
+Congratulations Mohammad your place in the waiting list is 2
+```
+
+Did using variables make it easy or hard to make this change?
+
+3.0 Write a program that contains a function called `getAgeAtEndOf2023`. The function should take a year of birth as an argument and return a person's age in 2023. Call this function multiple times to print out to the console:
+
+```
+Greg will be 39
+Mirabela will be 36
+```
+
+3.1 Modify the program you wrote in 2.1 so that it prints out the same result but uses a function called `getWaitingListMessage`
+
+3.2 Modify the program you wrote in 3.1 so that it prints out to the console 
+
+```
+Hello Maha your place in the waiting list is 1
+Hello Megumi your place in the waiting list is 2
+Hello Mohammad your place in the waiting list is 3
+Hello Margaret your place in the waiting list is 4
+Hello Mohand your place in the waiting list is 5
+Hello Mohib your place in the waiting list is 6
+Hello Michael your place in the waiting list is 7
+```
+
+Did using a function make it easy or hard to make this change?
+
+## 1) Read Intro to Tests
+
+Make sure you read all of this guide by the end of this week (if you have not done so already). It will help you complete your coursework.
 [**Intro to Tests**](../../guides/intro-to-tests.md)
 
-## 2) JavaScript Exercises (4 hours)
-
-These exercises will help solidify your knowledge of JavaScript. Open the "Exercises" folder and complete all of the challenges.
-
-Before you start, **make sure you fork the repository** to your Github account.
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
-
-## 3) JavaScript Challenges (6 hours) 🔑
+## 2) JavaScript Challenges (4 hours) 🔑
 
 Next, in the same repository, complete all of the exercises in the "Mandatory" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 5) Read Google "How to write code review comments"
+## 3) Read Google "How to write code review comments"
 
 [How to write code review comments](https://google.github.io/eng-practices/review/reviewer/comments.html)
 
-## 6) Codewars (1 hour) 🔑
+## 4) Codewars (1 hour) 🔑
 
 1. Join Codewars: www.codewars.com/r/3xvPTg
 2. Read through this tutorial, to help you understand how to use Codewars: https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
@@ -57,17 +100,7 @@ Find the collection for JS-1 Week 1 on the CodeYourFuture account: https://www.c
 
 Codewars is one of your [milestones](https://docs.codeyourfuture.io/Leaders/running-the-course/assessment/milestones).
 
-## 7) Prepare for next week (2 hours)
-
-To challenge yourself even further, get ahead for next week's class by reading some of the below documentation:
-
-- [ ] Loops in JS: https://javascript.info/while-for
-- [ ] Switch statements: https://javascript.info/switch
-- [ ] Comparisons in JS: https://javascript.info/comparison
-- [ ] Logical operators in JS: https://javascript.info/logical-operators
-- [ ] More on operators: https://javascript.info/operators
-
-## 8) (Stretch) Extra JavaScript Challenges
+## 5) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
@@ -75,7 +108,7 @@ Have some extra time before our next class? Fill it with these harder challenges
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
 
-## 9) (Stretch) Even more JavaScript Challenges
+## 6) (Stretch) Even more JavaScript Challenges
 
 Completed all of the addition challenges in the coursework? We have more challenges that you can find here:
 
@@ -83,7 +116,15 @@ https://github.com/CodeYourFuture/JavaScript-Core-1-Challenges
 
 Share what you're working on in Slack to find others working on the same problems. Try paired programming to solve these challenges.
 
-## 10) Course Checklist (PD - 15 min)
+## 7) (Stretch) FreeCodeCamp (1 hour)
+
+Complete all of these lessons on FreeCodeCamp. This will help you get a deeper understanding of what we have covered so far.
+
+https://www.freecodecamp.org/learn
+
+Make sure you have completed the following lessons from the Basic JavaScript course: All the lessons starting at _Comment Your JavaScript Code_ **up to and including** _Find the length of a string_
+
+## 8) Course Checklist (PD - 15 min)
 
 Previous CYF trainees built the following course checklist to self-assess their understanding. 
 
