@@ -11,6 +11,7 @@ import Feedback from "@theme/Feedback";
 - [truthy and falsy](#truthy-and-falsy)
 - [undefined and null](#undefined)
 - [arrays](#arrays)
+- [PD - Developer thinking](#pd-developer-thinking)
 
 ## Learning Objectives
 
@@ -360,6 +361,39 @@ for (let i = 0; i < 10; ++i) {
 - Zero-based Index: an `array` starting at `0` and not at `1`
 
 For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
+
+## PD (Developer thinking)
+
+**Session objective:** This session highlights the importance of critical thinking for developers, and provides methods to form good arguments.
+
+[Developer thinking slides](https://docs.google.com/presentation/d/1sVBqkY_6EldPf3q7jcp6NJbD3Hn53xHCgxtDx2iOO8M/edit#slide=id.g1fbc3b09af8_0_1)
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To identify arguments formed through critical thinking
+
+Put the statements in the slides in the right order.
+
+:::
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To brainstorm as a group about critical thinking skills
+
+In small groups, explore how and why developers need to develop critical thinking skills.
+
+- How will you use critical thinking skills as a developer?
+- Why is it important to use critical thinking skills when developing products for diverse audiences?
+
+:::
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To practice public speaking skills
+
+Volunteer to share to the wider group one important reason to use critical thinking.
+
+:::
 
 ## Feedback
 
