@@ -401,7 +401,7 @@ fetch(_____)
 
 ## PD (Agile: Planning and preparation)
 
-**Session objective:** In this session we will talk about refining user story backlog, planning the sprint and estimating effort.
+**Session objective:** In this session we will talk about refining a user story backlog, planning the sprint and estimating effort.
 
 :::note Warm-up (10 minutes)
 
