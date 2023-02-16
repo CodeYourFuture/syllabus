@@ -103,3 +103,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 Find the Collection for JS-3 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
 **Upcoming milestone:** Check your levels. Before you are accepted on to a Final Project on the developer track, you need to complete the Final Projects collection and reach a Level 5 kyu in Codewars. Are you on track to reach this standard? Have you run a study group to work on kata? Have you reached out on the #cyf-codewars channel? What is your plan to meet this goal?
+
+## 8) Talk about your time management  (PD - 30 min)
+
+Book a 121 session with your PD buddy about how you are managing your time; what is working and not working; what your time-management barriers are in your personal and professional life.
