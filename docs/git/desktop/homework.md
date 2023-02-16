@@ -88,7 +88,7 @@ You should do this for _at least_ two pull requests.
 
 Not sure on the answers? See here: https://github.com/CodeYourFuture/GitHomeworkFixErrors/pull/1
 
-## Communication course (PD)
+## 5) Communication course (PD - 1 hr)
 
 Join our Applied Digital Skills class communication course.
 1. Go to g.co/AppliedDigitalSkills

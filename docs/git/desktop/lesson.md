@@ -396,28 +396,43 @@ Celebration!!!
 Make an effort to mark the achievements up to this point. You completed ITD and Fundamentals. Some of you never wrote a line of code before that!
 
 **Session 1: Goals and Expectations**
-The presentation below aims to identify your goal(s) for being on the CYF software development course; to highlight the expectations CodeYourFuture has for its trainees; to introduce the concept of progressing from the Intro to Digital, Fundamentals courses to the software development course.
 
-[Goals and Expectations](https://docs.google.com/presentation/d/11vimrefwpHfFByUfgPL-jwhZ2KrE0Li80M_O_z2U95I/edit)
+**Session objective:** The presentation below aims:
 
-Notes for the facilitator: Remember to adapt/update the content in line with your cohort’s needs and arrange timings as needed.
+- to identify your goal(s) for being on the CYF software development course
+- to highlight the expectations CodeYourFuture has for its trainees
+- to explain the progress from Intro to Digital to Fundamentals course, and then to the Software Development course.
+
+[Goals and Expectations](https://docs.google.com/presentation/d/154zub_LucLpwO_qThkbymArqDIfCfrMu40IDUvguq-I/edit#slide=id.gaa71b86f5e_0_0)
 
 **Session 2: What do developers do?**
-In this section we'll explore how a professional developer behaves and thus how you should behave.
 
-**Exercise (20 min)**
-In small groups. Imagine all the day-to-day activities and behaviours of a professional software developer. Use an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
+**Session objective:** In this section we'll explore how a professional developer behaves and thus how you should behave.
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To brainstorm and think about future responsibilities.
+
+In small groups, imagine all the day-to-day activities and behaviours of a professional software developer. Use a whiteboard, sticky notes, or an online board (Miro, Google Jamboard, etc.). Think about whether you do all those things already. Discuss how to change things so you begin to do more and more of those things. Highlight that practice is the way to develop.
+
+:::
 
 **Session 3: SDOT analysis**
-It's time to do an SDOT (Strengths, Weaknesses, Opportunities, and Threats) analysis.
 
-**Exercise (20 min)**
+**Session objective:** In this session, each participant will do a SDOT (Strengths, Developments, Opportunities, and Threats) analysis.
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To conduct a personal SDOT analysis
+
 Think about the key areas that you want to improve on by some introspective work and writing your own personal SDOT analysis:
 
 - Strengths: What are you great at? What makes you personally stand out from other people? What positive comments do people say about your strengths? What are your greatest achievements?
 - Developments: What skills do I need to work on? Where do you need to improve? What holds you back? What key habits do you want to overcome? What do others say about your development areas?
 - Opportunities: If I invest my time in my technical skills, I will land a good job. Who can help me achieve my goals? What can I do differently to other people that makes me more employable? How can I go the extra mile? How can I make opportunities happen for myself?
 - Threats: What could stop me from achieving my career goals? What do I need to stop doing now? What's out of my control that I can’t change?
+
+:::
 
 ## Coursework
 
