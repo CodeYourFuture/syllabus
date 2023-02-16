@@ -16,6 +16,96 @@ Attendees:
 
 ---
 
+## 2023-02-16
+
+Attendees: Ali, Sally, Mitch, Greg, Daniel, Karen
+
+### ❗Actions from last time
+
+N/A - apparently we haven't made minutes for a while
+
+### 📝 Agenda points
+
+#### JS1 Week changes
+
+- What is the larger refactoring referenced in ticket? The complete redo of all JS modules
+- Want to make the smallest possible change
+- Any further questions should be recorded so we can discuss them in more depth
+  - We're interested in getting together to discuss goals - like we did with the fundamentals
+  - Daniel: propose an experimental JS in the browser to see if it actually works
+    - Put together a 1 day workshop and test with some trainees
+- JS in the browser
+  - Greg: Would like to try this
+    - Can we figure out a migration path to this in the current work
+- Flipped classroom shows that we have too much content in JS1W1
+- Mitch: only audited Week 1
+  - Changing this will have a ripple effect for following weeks
+  - Suggestion: create new files in which to make the changes - prevent scope creeping out into the main discussion
+- Greg: loops
+  - Let's not teach all of the types of loops together - keep it restricted in the syllabus
+  - But keep a "glossary" of materials on other types of loops
+- Ali: Concept mapping
+  - Can we try to map out the mapping of all the concepts we cover in JS
+  - Decision: it shouldn't block this round of work
+  - There's interest in syllabus development workshops
+    - Mitch has a rough version of this, is happy
+
+#### PD Syllabus
+
+- Karen from PD syllabus team
+- Currently mapping the syllabus
+  - Compare tech vs PD syllabus
+  - Trying to align soft skills that cross over between tech and PD
+- Ultimate goal is to reduce friction in final projects
+  - But intermediate goal is to try find module splits for syllabus
+- Also keen for PD & Tech syllabus teams to work together
+- Sally: consider that we may be moving parts of tech syllabus around (particularly in JS)
+  - Problem: the syllabus is inflexible
+  - Tech syllabus is working towards making pieces more independent, so we can move around
+  - Broadly we want to stay within a module format
+- Greg: we're in favour of integrating with PD
+  - Trainees have historically not looked at PD as "real content"
+  - Separating the content into separate sites was not helpful
+  - So have been working to move the content into the "main" syllabus
+- Greg: will PD modules map onto Tech modules e.g. feedback module would be taught alongside JS1?
+  - Code review is similar to feedback
+  - Tech picks up code review in JS1 - so makes sense to links these together
+  - Greg: encouragement to revisit concept multiple times across
+- Daniel: super short term - Esma has lots of PRs open & how will we handle them
+  - Karen has reviewed them
+    - There's some feedback from Sally - try to avoid things that are inaccessible
+  - Reviewing the learning objectives are out-of-scope
+  - Main immediate objective is to get into the syllabus
+    - And then iterate from there
+  - Should tech syllabus be involved at all? We don't know
+    - Daniel thinks that we can get through them
+  - Sally: to make things easier, we could use labels for topics
+    - Can filter PRs?
+- Ali: should we communicate the current/near future state of PD content, and that we want to iterate on it
+  - Sounded like the consensus was no
+  - Already put a message in the PD channels
+- Ali: is the split of PD & Tech artificial?
+  - General agreement that it's somewhat artificial
+  - Having small teams is a benefit
+  - We'd like to have more joint meetings
+
+#### Codespaces
+
+- Sally: have created lots of small tickets
+- Want to encourage small contributions - Codespaces make this easy
+
+#### New database module
+
+- Sally: a new database module has apparently appeared
+- We still like the database module that Keith Bremer wrote
+
+### ❗Actions
+
+- [ ] Mitch: Invite Keith Bremer to a syllabus meeting
+- [ ] Mitch: Raise an issue with acceptance criteria
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] Ali & Mitch: share concept maps
+
 ## 2022-11-24
 
 Attendees:
