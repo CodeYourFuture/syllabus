@@ -21,17 +21,17 @@ Share one of your projects in Google Classroom, not forgetting to include:
 
 Share your deployed website in your cohort's Slack channel.
 
-## It's time to do your research (PD)
+## Linkedin profile (PD - 1 hr)
 
-**Task 1**
 Professional communication is critical when it comes to landing a role. Employers are looking for passionate candidates and use platforms like Linkedin to source future employees.
 
 Set up your LinkedIn profile. Let employers know that you have built your first product and started your journey into the tech industry.
 
-**Task 2**
+## Soft skills research (PD - 1 hr)
+
 It’s time to do your research. It’s time to get familiar with the industry that you want to work in. Search for roles on Google: look at the person specifications that companies are hiring for.
 
-You will find roles on [CW Jobs](https://www.cwjobs.co.uk/), [Linkedin](https://www.linkedin.com/),[ Indeed](https://uk.indeed.com/),  and any jobs board.
+Fill out the form below with the three soft skills employers are currently looking for. You will find roles on [CW Jobs](https://www.cwjobs.co.uk/), [Linkedin](https://www.linkedin.com/),[ Indeed](https://uk.indeed.com/),  and any jobs board.
 
 Employers are looking for Full Stack developers that can: 
 
@@ -50,8 +50,7 @@ Employers are looking for UX designers that can:
 2.
 3.
 
-
-Employers are looking for QA testers that can;
+Employers are looking for QA testers that can:
 1.
 2.
 3.
