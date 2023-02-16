@@ -20,7 +20,7 @@ Complete the [CYF Blocks](https://blocks.codeyourfuture.io) Syllabus, including 
 
 Share at least two of your completed projects in google classrooms. Share your favourite project (or something completely new) in the Slack channel for your cohort.
 
-## Organise a study session (PD)
+## Organise a study session (PD - 2 hr)
 
 Working together is the best way for you to learn. Teaching someone else helps to strengthen your knowledge. And getting help from your fellow students saves you time and keeps you from becoming a passive learner.
 

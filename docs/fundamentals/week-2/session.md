@@ -152,9 +152,13 @@ In the same pairs, try to implement one user story. While implementing, try to b
 
 ::: Giving and receiving feedback 
 
-Transparency is the key to success! A important  part of being a successful developer is the ability to give and receive feedback. In order to start that process, you must be able to showcase your work in progress. Now that you have had a chance to try some coding, it’s time to be transparent and talk about it. 
+**Session objective:** Transparency is the key to success. An important  part of being a successful developer is the ability to give and receive feedback. In order to start that process, you must be able to showcase your work in progress. Now that you have had a chance to try some coding, it’s time to be transparent and talk about it.
 
-**Exercise 1 (20 minutes per person)**
+:::note
+
+Exercise (20 minutes per person)
+
+**Exercise objective:** To talk about challenges, ask and give feedback.
 
 Find a partner. In pairs take turns to discuss the questions below. Talk through your fears, get feedback, and work together to find solutions to some of the challenges you face. Each person has to give one piece of advice to support their fellow team member:
 
@@ -168,10 +172,17 @@ Find a partner. In pairs take turns to discuss the questions below. Talk through
 
 After 20 min, it’s time to swap.
 
+:::
 
-**Exercise 2 (10 minutes)**
+::: note
 
-Volunteer to share your challenges to the class and ask for feedback. 
+Exercise (10 minutes)
+
+**Exercise objective:** To practice public speaking skills
+
+Volunteer to share your challenges to the class and ask for feedback.
+
+:::
 
 ## Ship It
 
