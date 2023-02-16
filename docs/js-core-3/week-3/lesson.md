@@ -27,6 +27,7 @@ The purpose of this class is to introduce to the trainee:
    - Block
 2. Array Destructuring
 3. Project Work
+4. PD (Agile: Scrum planning)
 
 ## 1. Variable Scope
 
@@ -537,6 +538,47 @@ For the rest of the day we'll be working together on our group projects
 The project is called [TV Show](../tv-show-dom-project/readme.md)
 
 Trainees should group into teams based on the Level that they are working on currently.
+
+## PD (Agile: Scrum planning)
+
+**Session objective:** This session introduces roles, processes and ceremonies in a scrum team. 
+
+:::note Exercise (10 minutes)
+
+**Exercise objective:** To use Gitprojects for planning
+
+Use the Gitprojects board to plan your homework.
+
+Step 1: Click on the projects tab in your repository and select create a project.
+
+Step 2: Name your project CYF Homework-Your name
+
+Step 3: Choose from any of the templates that breaks task down into three separate stages. (To do, in progress, done)
+
+Step 4: Review your Tech Edu and PD homework, create a new card for each piece of homework and organise them into the three different categories (To do, in progress, done) 
+
+Remember, each card should have some detail about the task and what you need to do to complete your homework.
+
+:::
+
+[Agile: Scrum planning](https://docs.google.com/presentation/d/1bLZRmA3fwlBnDDukVdxUVtfGBNGHxDkEbZplOvVf-gA/edit#slide=id.g1b740a9f8c6_0_341)
+
+:::note Exercise (30 minutes)
+
+**Exercise objective:** To use Gitprojects for planning
+
+In small groups, plan your TV show project.
+
+Step 1: Click on the projects tab in your repository and select create a project.
+
+Step 2: Name your project TV-Show-Project-Planning
+
+Step 3: Work together and review all of the tasks you need to do to complete your individual projects (please note that you might be at different stages of completion). Organise your tasks in four categories (Backlog, To do, In progress, Done).
+
+Step 4: It’s time to have your first stand up. In your groups discuss your progress and your blockers.
+
+:::
+
 
 ## Coursework
 
