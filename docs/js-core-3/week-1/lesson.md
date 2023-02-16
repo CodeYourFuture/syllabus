@@ -19,6 +19,7 @@ The purpose of this class is to introduce to the trainee:
 
 1. Debugging your code
 2. Consolidate learning for the project work
+3. PD (Agile: Gathering requirements)
 
 ## 1. Debugging
 
@@ -429,6 +430,33 @@ The project is called [TV Show](../tv-show-dom-project/readme.md)
 ### Getting Setup
 
 In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
+
+## PD (Agile: Gathering requirements)
+
+During JS3 tech education, you will make a TV Show app. The PD module will focus on Agile methodology through classroom discussions and exercises directly related to this TV Show Project.
+
+**Session objective:** This session explains how to understand the job ahead, and the processes to identify requirements.
+
+[Agile: Gathering requirements ](https://docs.google.com/presentation/d/142XFjEtIp7MwWj5FsHeQdKISF8Hsxugaf-d2wTMGhqg/edit#slide=id.g1b740a9f8c6_0_331)
+
+:::note Exercise (10 minutes)
+
+**Exercise objective:** To draft user stories describing the task in general terms
+
+Review Level 100 in your TV Show Project and make as many user stories as you can. Do not work on any of the details for these stories, we will do that later.
+
+Remember to follow this format: "As a [stakeholder] I want to [achieve something] so I can [desired result]". Once finished, we will share some of those stories as a group.
+
+:::
+
+:::note Exercise (10 minutes)
+
+**Exercise objective:** To develop user story drafts with detail and tasks
+
+Review the stories you have created for Level 100 in your TV Show Project but this time put some details on those stories and break that work down into tasks. Once finished, we will share some of those stories and their tasks as a group.
+
+:::
+
 
 ## Coursework
 

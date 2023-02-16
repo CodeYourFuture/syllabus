@@ -37,7 +37,7 @@ The syllabus is a sample/guide lesson, so you might do something different in cl
 
 CYF trainees must always come to class **with questions**.
 
-### Create a study schedule (PD - 1.5 hr)
+### 5) Create a study schedule (PD - 1.5 hr)
 
 Over the next months you will have lots of coursework to complete! How will you manage it all? 
 
@@ -51,7 +51,7 @@ Go to the link below and do the course. Completed the quiz at the end of the cou
 **Extensions (optional):**
 Choose one or more of the extensions to further enhance your study schedule.
 
-### Learn how to use Google Doc and Slides (PD - 1 hr)
+### 6) Learn how to use Google Doc and Slides (PD - 1 hr)
 
 The goal is for you to be comfortable using Google Doc and Google Slides, which you will use a lot in your professional life.
 

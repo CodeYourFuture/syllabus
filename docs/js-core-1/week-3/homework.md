@@ -60,3 +60,24 @@ Have some extra time before our next class? Fill it with these harder challenges
 **Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should expect to frequently encounter concepts you haven't been taught in class yet or at all. Learning how to tackle this is a crucial skill we are supporting you to develop. How will you handle this? Will you create a study group? Find a mentor? Ask for a session in class? It's your professional development, so take control of it.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
+
+## 9) Giving constructive feedback (PD - 1 hr)
+
+Imagine yourself in one of the following scenarios. How would you prepare to give constructive feedback in that situation?
+
+- Write a short paragraph explaining what you would do
+- Or write a dialogue between you and the person you are giving feedback to
+
+Scenarios:
+
+- Your colleague took your lunch from the office fridge
+- Your colleague keeps interrupting you and others in meetings
+- Your flatmate left dirty cups in the sink for several days
+
+## 10) Working with your team (PD - 2 hr)
+
+Feedback from colleagues gives you insight into your career progress. Every week you will be requesting feedback from two people. This will give you insight into your progress on this course.
+
+This week, invite a classmate for a call. Choose someone you have worked with in a small group. Invite your PD or Education Buddy too. Exchange feedback. Try to be helpful, candid, and kind.
+
+Write a 250 word essay reflecting on your strengths and development areas. Use the feedback to help you write this essay.

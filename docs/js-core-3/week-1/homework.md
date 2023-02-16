@@ -116,3 +116,7 @@ Find the Collection for JS-3 Week 1 on the CodeYourFuture account: https://www.c
 #### 6a) Start mentoring others in the #cyf-codewars channel.
 
 Remember to follow the channel rules. We don't give solutions in Codewars.
+
+## 7) Plan the TV Show Project (PD - 1 hr)
+
+Come together with your buddy group and draft an initial project plan for the TV Show Project referring to the user stories produced during the class.

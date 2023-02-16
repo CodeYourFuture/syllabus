@@ -11,6 +11,7 @@ import Feedback from "@theme/Feedback";
 - [Responsive Web Design](#responsive-web-design)
 - [Media Queries](#media-queries)
 - [Grid](#grid)
+- [PD - Delivering tutorials](#pd-delivering-tutorials)
 
 ---
 
@@ -106,7 +107,11 @@ Unlike the semantic HTML elements we discussed, where different tags are parsed 
 =======
 ## PD (Delivering tutorials)
 
-**Exercise (20 min)**
+**Session objective:** In this section we'll continue exploring how to use the technical language to communicate to different audiences.
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To explain concepts to different audiences
 
 In small groups. Prepare a 3 min tutorial based on what you have learned so far to one of the four different audiences:
 1. A group of 10 year olds
@@ -120,13 +125,23 @@ The tutorial should explain the following:
 2. How do form control labels benefit users?
 3. Why are forms useful for different types of users?
 
-**Exercise (30 min)**
+:::
+
+:::note Exercise (30 min)
+
+**Exercise objective:** To practice public speaking skills
 
 Volunteer to present back to the class.
 
-**Exercise (10 min)**
+:::
 
-Reflect on what you found challenging and share one positive feedback to the wider group. 
+:::note Exercise (10 min)
+
+**Exercise objective:** To reflect on tasks and identify strengths
+
+Reflect on what you found challenging and share one positive feedback to the wider group.
+
+:::
 
 ## Coursework
 
