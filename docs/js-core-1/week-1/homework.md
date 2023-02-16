@@ -123,3 +123,13 @@ Complete all of these lessons on FreeCodeCamp. This will help you get a deeper u
 https://www.freecodecamp.org/learn
 
 Make sure you have completed the following lessons from the Basic JavaScript course: All the lessons starting at _Comment Your JavaScript Code_ **up to and including** _Find the length of a string_
+
+## 8) Course Checklist (PD - 15 min)
+
+Previous CYF trainees built the following course checklist to self-assess their understanding. 
+
+1. Reflect on your understanding so far 
+2. Fill in the course checklist for HTML/CSS
+3. Take the PDF to your study group and work on the areas you have identified
+
+You can use [this checklist](https://cyf-course-checklist.netlify.app/) throughout the course.
