@@ -16,6 +16,7 @@ import TabItem from '@theme/TabItem';
 - [Numbers](#numbers)
 - [Statements & expressions](#statements-and-expressions)
 - [Functions](#functions)
+- [PD - Agile development](#pd-agile-development)
 
 ## Learning Objectives
 
@@ -527,6 +528,13 @@ Using what you've just read in the Style Guide.
 - Primitive type: a built-in type in JavaScript (e.g. strings and numbers are primitive types in JavaScript)
 - Script: a file that contains a program
 - Terminal: another word for "console"
+
+## PD (Agile development)
+
+**Session objective:** This session provides an overview of the Agile software development methodology.
+
+[Agile development slides](https://docs.google.com/presentation/d/1de1tECO6SlWP5pMmxF9Jt2tN9lODeXFgDBcnXfDQ1YU/edit)
+
 
 ## Coursework
 

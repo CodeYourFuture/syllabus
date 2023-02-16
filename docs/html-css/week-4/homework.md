@@ -49,7 +49,7 @@ You will complete at least three kata a week, every week, for the rest of the co
 
 By the _end_ of JS1, you will have completed at least nine kata. Codewars is not just to practice JavaScript, it's to practice time management and study skills, so don't put this off.
 
-### 4) Read Intro To Tests
+### 5) Read Intro To Tests
 
 https://syllabus.codeyourfuture.io/guides/intro-to-tests
 
@@ -57,7 +57,7 @@ Make sure you read all of this guide - it will be very helpful in getting you to
 
 Make notes on what you learn.
 
-### Using critical thinking to remain inclusive as a developer (PD - 1.5 hr)
+### 6) Using critical thinking to remain inclusive as a developer (PD - 1.5 hr)
 
 Companies are very interested in the data provided by Apply Magic Sauce. Automated language analysis is already being used in the hiring of personnel. Click on the link below for the source of this information.
 

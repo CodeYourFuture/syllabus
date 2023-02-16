@@ -10,9 +10,12 @@ If you are one of these charities, or know one we could work with, you can find 
 
 ## Past Projects
 
-Here is an example of a web app we built with an NGO as a Final Project:
+Here are examples of web apps we built as a Final Project:
 
 - [Over The Line with The Compass Collective](https://over-the-line.uk/)
+- [Chatterbox Talents](https://ldn8-horizon-chatterbox-talent.netlify.app/)
+- [The Breteau Foundation](https://bugsquashers-edu.netlify.app/)
+- [Akwaaba](https://akwaaba.netlify.app/)
 
 You can find example project briefs on the [Project Brief page](./projects).
 

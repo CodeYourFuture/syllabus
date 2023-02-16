@@ -43,9 +43,9 @@ You need to prepare for every class.
 
 The syllabus is a sample lesson, so you might do something different in class, but the broad learning objectives will be similar. Read the learning objectives. What other reading can you do to prepare for class? Is there any code to checkout from github?
 
-### Active listening techniques (PD - 1 hr)
+### 6) Active listening techniques (PD - 1 hr)
 
-Read the active listening techniques on the link below and reflect. Write a 250-word essay on your own listening habits, challenges and improvement goals.
+Read the active listening techniques on the link below and reflect. Write a 250 word essay on your own listening habits, challenges and improvement goals.
 
 [Active listening doc](https://docs.google.com/document/d/1UnYMDsrN60PIDKOep6QO780pAZzGuXjPCuB-6m_aheI/edit)
 

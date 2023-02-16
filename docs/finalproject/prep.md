@@ -19,6 +19,7 @@ Getting the Final Projects ready is not a task that can be done a week before th
 	Send feedback to all charities if they have been chosen or not. 
 	For the chosen ones, clarify the [role](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) and who will be the Product Owner from their Charity. 
 - [ ] Onboard the volunteers with the standard process
+- [ ] Create a volunteer channel, so it's easier to contact them and they can support you with tasks, such as reviewing briefings
 - [ ] Use [this template](https://docs.google.com/spreadsheets/d/16vSSJgzCZJKF-2pwuBTkKjJJJ9i1CGRqMbYB-HEO5mo/edit?usp=sharing) to identify the projects that will be used and who will be on which team
 - [ ] Let volunteers choose which project they would like to be on
 
