@@ -380,6 +380,7 @@ module.exports = {
     Guides: [
       "guides/deployment-render/overview",
       "guides/deployment-render/connecting-github",
+      "guides/deployment-render/deploying-server",
     ],
   },
   Accessibility: {
