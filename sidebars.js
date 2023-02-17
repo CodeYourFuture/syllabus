@@ -361,14 +361,14 @@ module.exports = {
   },
   Deployment: {
     Guides: [
-      "guides/deployment/overview",
-      "guides/deployment/first-site",
-      "guides/deployment/another-site",
-      "guides/deployment/renaming-site",
+      "guides/deployment-netlify/overview",
+      "guides/deployment-netlify/first-site",
+      "guides/deployment-netlify/another-site",
+      "guides/deployment-netlify/renaming-site",
     ],
     Resources: [
-      "guides/deployment/site-naming-conventions",
-      "guides/deployment/common-problems",
+      "guides/deployment-netlify/site-naming-conventions",
+      "guides/deployment-netlify/common-problems",
     ],
   },
   Accessibility: {
