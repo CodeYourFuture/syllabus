@@ -218,7 +218,7 @@ Find your landing page on Codepen and click **Export > Export as zip**
 
 #### Step Three: Netlify
 
-1. Log in to Netlify and follow this workshop to deploy your site. [https://syllabus.codeyourfuture.io/workshops/deployment/workshop/instructions](https://syllabus.codeyourfuture.io/workshops/deployment/workshop/instructions)
+1. Log in to Netlify and follow [this workshop to deploy your site](../../guides/deployment-netlify/index.md).
 
 2. 🎉 Congratulations! You shipped it!
 

@@ -61,7 +61,7 @@ You're done! You don't have to read more - you can now develop React apps on you
 
 ### Deployment with Netlify
 
-If you have already learned to [deploy your apps from github using Netlify](./deployment/index.md), you can use the same process to deploy any React apps you created initially with create-react-app.
+If you have already learned to [deploy your apps from github using Netlify](./deployment-netlify/index.md), you can use the same process to deploy any React apps you created initially with create-react-app.
 
 You may notice that Netlify automatically sets the following two config settings:
 

@@ -44,13 +44,9 @@ Make sure that you read the installation instructions carefully.
 
 Once you have set up your React Hotel application, you should deploy it to Netlify.
 
-Follow the deployment instructions here:
+Follow the [deployment instructions](../../guides/deployment-netlify/index.md).
 
-https://syllabus.codeyourfuture.io/guides/creating-a-react-app#deployment-with-netlify
-
-Once it is deployed, follow these instructions to change your new site's name to `cyf-USERNAME-hotel-react`.netlify.app (where `USERNAME` is YOUR Github username):
-
-https://syllabus.codeyourfuture.io/workshops/deployment/workshop/cheatsheet#rename-your-site
+Once it is deployed, follow [these instructions](../../guides/deployment-netlify/renaming-site.md) to change your new site's name to `cyf-USERNAME-hotel-react`.netlify.app (where `USERNAME` is YOUR Github username)
 
 Check that your site is visible at: https://cyf-[[your-github-username]]-hotel-react.netlify.app/. **Please also include this URL in your pull request**.
 

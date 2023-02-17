@@ -32,7 +32,7 @@ We will also use Devtools to run tests (Lighthouse Audit) on our websites and ex
 
 :::note Exercise
 
-Using the [Deploying to Netlify Guide](../../../guides/deployment), deploy your:
+Using the [Deploying to Netlify Guide](../../guides/deployment-netlify/index.md), deploy your:
 
 1. [Bikes For Refugees](https://github.com/CodeYourFuture/bikes-for-refugees) project
 2. [Karma clone](https://github.com/CodeYourFuture/HTML-CSS-Module-Project) project
