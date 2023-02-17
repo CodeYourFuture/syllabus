@@ -4,7 +4,7 @@ title: Deploying to Render
 sidebar_label: Overview
 ---
 
-In this guide, we'll learn how to set up automatic website _deployment_ to [Render](https://render.com/).
+In this guide, we'll learn how to set up automatic website deployment to [Render](https://render.com/).
 
 :::tip
 
