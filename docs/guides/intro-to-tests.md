@@ -40,8 +40,8 @@ const result = countWords(input);
 ```
 
 In example 1, `input` stores a string `"hello"` which we pass as an argument to `countWords`.
-We then store the return value of `countWords` in a variable called `output`.
-In this case, we would expect the `output` to be 1.
+We then store the return value of `countWords` in a variable called `result`.
+In this case, we would expect the `result` to be 1.
 
 ### Case 2 💼
 
@@ -51,14 +51,14 @@ const result = countWords(input);
 ```
 
 In example 2, `input` stores a string `"I think therefore I am"`, which we pass as an argument to `countWords`.
-We then store the return value of `countWords` in a variable called `output`.
-In this case, we would expect the `output` to be 5.
+We then store the return value of `countWords` in a variable called `result`.
+In this case, we would expect the `result` to be 5.
 
 ### Exercise 🖊️
 
-Write another example with a different `input` variable. What do you expect the `output` to be in this case ?
+Write another example with a different `input` variable. What do you expect the `result` to be in this case ?
 
-We could keep trying out different versions of `input` and check the `output` but real software will often have thousands (or even millions!) of these cases. We can't keep checking all of these ourselves.
+We could keep trying out different versions of `input` and check the `result` but real software will often have thousands (or even millions!) of these cases. We can't keep checking all of these ourselves.
 
 This is where automated testing comes in: we could write some more code that checks whether the cases are working as we expect. Let's look at what an automated test looks like.
 
