@@ -12,8 +12,9 @@ This guide is intended for trainees completing the Node, Databases or Final Proj
 
 :::
 
-| Guide                                                                     | Content                                       |
-| ------------------------------------------------------------------------- | --------------------------------------------- |
-| [How to connect your GitHub account to Render](./connecting-github)       | How to connect your GitHub account to Render  |
-| [How to deploy a server on Render](./deploying-server)                    | How to deploy a server on Render              |
-| [How to create a PostgreSQL Database on Render](./creating-a-postgres-db) | How to create a PostgreSQL Database on Render |
+| Guide                                                                                  | Content                                                         |
+| -------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [How to connect your GitHub account to Render](./connecting-github)                    | How to connect your GitHub account to Render                    |
+| [How to deploy a server on Render](./deploying-server)                                 | How to deploy a server on Render                                |
+| [How to create a PostgreSQL Database on Render](./creating-a-postgres-db)              | How to create a PostgreSQL Database on Render                   |
+| [Connecting a database management system to a database on Render](./connecting-a-dbms) | Connecting a database management system to a database on Render |
