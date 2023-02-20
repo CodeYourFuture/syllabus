@@ -462,7 +462,9 @@ You get 3 minutes to prepare.
 
 **Exercise objective:** To identify feelings evoked through different body languages.
 
-Stand and face another trainee. First, display to each other an example of closed body language.
+Stand (if able) and face another trainee. (If you're online, you'll be placed in separate breakout rooms).
+
+First, display to each other an example of closed body language.
 - How do you feel about the communication?
 
 Now display an example of open body language and eye contact.
