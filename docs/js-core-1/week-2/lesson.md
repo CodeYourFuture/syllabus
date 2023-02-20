@@ -470,8 +470,6 @@ First, display to each other an example of closed body language.
 Now display an example of open body language and eye contact.
 - How do you feel about that communication?
 
-You can do this exercise while sitting if you cannot stand. You will be placed in separate breakout rooms if the session is online.
-
 Facilitators will adapt the exercise to the diverse needs of trainees, or skip the exercise when the adaptation is not possible.
 
 :::
