@@ -15,9 +15,9 @@ Getting the Final Projects ready is not a task that can be done a week before th
 
 **When you are on the NodeJS Module**
 - [ ] Review the project ideas with Tech Leads and Product Managers defining technical feasibility and scope size. You might have to have volunteers clarify some information with the charities
-- [ ] Identify which of the Ideas will be used as a final project.  
+- [ ] Identify which of the ideas will be used as a final project.  
 	- [ ] Send feedback to all charities if they have been chosen or not.  
-	- [ ] For the charities/organisations that will work with us, use [this template](https://docs.google.com/document/d/1BTC6LNxdBlGIH8QJYqB1tat0MTqIPuYHVUR3omLNu0w/edit?usp=sharing) to introduce the volunteers and ensure they understand what will be    happening, as well as their [Product Ownner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) responsability
+	- [ ] For the charities/organisations that will work with us, use [this template](https://docs.google.com/document/d/1BTC6LNxdBlGIH8QJYqB1tat0MTqIPuYHVUR3omLNu0w/edit?usp=sharing) to introduce the volunteers and ensure they understand what will be    happening, as well as their [Product Owner](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) responsability
 - [ ] Onboard the volunteers with the standard process
 - [ ] Create a volunteer channel, so it's easier to contact them and they can support you with tasks, such as reviewing briefings
 - [ ] Use [this template](https://docs.google.com/spreadsheets/d/16vSSJgzCZJKF-2pwuBTkKjJJJ9i1CGRqMbYB-HEO5mo/edit?usp=sharing) to identify the projects that will be used and who will be on which team
