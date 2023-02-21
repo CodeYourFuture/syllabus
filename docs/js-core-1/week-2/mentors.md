@@ -34,8 +34,6 @@ The flipped classroom practice should have trainees
   - terminal commands (cd, pwd, )
   - `else if`
 
-Some questions
-
 Some questions/prompts that may be useful
 
 - What does this program do? (show programs of varying degrees of complexity using boolean expressions, conditionals and iteration to regulate summing and console.logging)
