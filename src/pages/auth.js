@@ -1,8 +1,7 @@
 import React from "react";
 import { useLocation } from "@docusaurus/router";
 import Layout from "@theme/Layout";
-
-const API_URL = "http://localhost:3001";
+import { API_URL } from "../constants";
 
 const Auth = () => {
   const location = useLocation();

@@ -1,9 +1,6 @@
 import React from "react";
 import { useLocation } from "@docusaurus/router";
-
-const API_URL = "http://localhost:3001";
-const BASE_URL = "https://codeyourfuture.io";
-const CLIENT_ID = "Iv1.b36544e8ddc4efc6";
+import { API_URL, BASE_URL, CLIENT_ID } from "../constants";
 
 const CloneIssuesButton = ({ repo, issue = null }) => {
   if (!repo) {
