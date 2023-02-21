@@ -4,6 +4,197 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+## 0) Flipped Classroom Practice (3h)
+
+The video playlist contains 4 "content" videos and one "practice" video for each content video.
+
+Here is an overview of the practice exercises:
+
+1.1 Predict, evaluate and explain the following expressions in the node REPL
+
+```js
+true
+false
+true === false
+5 == 2 + 4
+4 * 5 == "20"
+4 * 5 === "20"
+3 * 2 === 6
+4 = 4
+let mhairiName = "Mhairi"
+let mhairiAge = 28
+let isMhairOldEnoughToDrive = true
+"hello Mhairi" === `hello ${Mhairi}`
+`Mhairi is 28` === `mhairi is ${mhairiAge}`
+"${mhairiName} is 28" === `Mhairi is ${mhairiAge}`
+isMhairOldEnoughToDrive
+isMhairOldEnoughToDrive === true
+mhairiAge >= 18
+mhairiAge >= 28
+29 <= mhairiAge
+
+typeof true
+typeof false
+typeof (5 === 2 + 3)
+typeof 7
+typeof 7.234
+typeof "7"
+typeof "hello CYF"
+```
+
+2.1 Write a program that defines a variable `let eleniAge = `
+
+If Eleni is less than 18, the program should print out nothing to the console.
+
+If Eleni is 18 years old or older, the program should print out:
+
+```
+Eleni is old enough to drive
+```
+
+2.2 Modify the program above so that if Eleni is less than 18 the program prints out:
+
+```
+Eleni is not old enough to drive
+```
+
+3.1 Predict, evaluate and explain the following expressions in the node REPL
+
+```js
+false || false;
+true && true;
+let cats = 2;
+let maximumCats = 5;
+let minimumCats = 3;
+cats < maximumCats && cats > minimumCats;
+cats >= maximumCats || cats <= minimumCats;
+let hasEnoughCats = 3 >= minimumCats;
+let hasDogs = true;
+hasEnoughCats && hasDogs;
+```
+
+3.2 Write a program that prints out to the console whether Sharde can come into a bar. Sharde can come into the bar if she is 18, or if she is accompanied by an adult.
+
+How many different cases do you need to test to make sure your program is correct?
+
+4.0 Write a program that prints out to the console the numbers from 3 to 7 (including both 3 and 7). Use a while loop. If you accidentally write a program that doesn't stop, press `ctrl-c`
+
+```
+3
+4
+5
+6
+7
+```
+
+4.1 Modify the program to also print out the sum of the numbers from 3 to 7 at the end
+
+```
+3
+4
+5
+6
+7
+total: 25
+```
+
+4.2 Modify the program to only sum the multiples of 3 of the numbers from 3 to 7
+
+Note that the expression to find out if a number is a multiple of 3 is `n % 3 === 0`.
+
+```
+3
+4
+5
+6
+7
+total of multiples of 3: 9
+```
+
+5.1 (This is stretch practice - only do it if you have time) Write a program that prints out to the console the numbers from 1 to 10 (including both 1 and 10).
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+5.2 Modify your program so that multiples of 3 are replaced by the word "Fizz"
+
+```
+1
+2
+Fizz
+4
+5
+Fizz
+7
+8
+Fizz
+10
+```
+
+5.2 Modify your program so that multiples of 5 are replaced by the word "Buzz"
+
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+```
+
+Note that you can add multiple if clauses with `else if`:
+
+```js
+if (condition1) {
+  //...
+} else if (condition2) {
+  //...
+} else {
+  //...
+}
+```
+
+5.3 Modify your program so that numbers that are both multiples of 3 _and_ 5 are replaced by the word FizzBuzz. Also modify it so that it goes up to 20 instead of 10.
+
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+```
+
+Pay special attention to the rows from 14 to 16. If you were successful, congratulations! This exercise has often been used to interview programmers to find out if they can actually code. (Historically, some students who come out of university with a Computer Science degree have not actually coded much. Others try to write the most efficient version immediately, instead of starting by writing code that works).
+
 ## 1) Review Solutions for Last Week's Coursework (45 minutes)
 
 You should do this every week. We will stop reminding you soon as you get used to it.
@@ -16,84 +207,13 @@ Once you have access to the solutions repo, review your work compared to the exa
 
 Write down your target areas and take them to your buddy group. What does your mentor think? Do they agree with your assessment?
 
-## 2) FreeCodeCamp (3 hours)
+## 2) JavaScript Challenges (6 hours) 🔑
 
-If you haven't already, you should complete all of these lessons on FreeCodeCamp - https://www.freecodecamp.org/learn
-
-- Understanding Boolean Values
-- Use Conditional Logic with If Statements
-- Comparison with the Equality Operator
-- Comparison with the Strict Equality Operator
-- Practice comparing different values
-- Comparison with the Inequality Operator
-- Comparison with the Strict Inequality Operator
-- Comparison with the Greater Than Operator
-- Comparison with the Greater Than Or Equal To Operator
-- Comparison with the Less Than Operator
-- Comparison with the Less Than Or Equal To Operator
-- Comparisons with the Logical And Operator
-- Comparisons with the Logical Or Operator
-- Introducing Else Statements
-- Introducing Else If Statements
-- Logical Order in If Else Statements
-- Chaining If Else Statements
-
-and
-
-- Use Bracket Notation to Find the First Character in a String
-- Understand String Immutability
-- Use Bracket Notation to Find the Nth Character in a String
-- Use Bracket Notation to Find the Last Character in a String
-- Use Bracket Notation to Find the Nth-to-Last Character in a String
-- Word Blanks
-- Store Multiple Values in one Variable using JavaScript Arrays
-- Nest one Array within Another Array
-- Access Array Data with Indexes
-- Modify Array Data With Indexes
-- Access Multi-Dimensional Arrays With Indexes
-- Manipulate Arrays With push()
-- Manipulate Arrays With pop()
-- Manipulate Arrays With shift()
-- Manipulate Arrays With unshift()
-- Shopping List
-- Write Reusable JavaScript with Functions
-- Passing Values to Functions with Arguments
-- Global Scope and Functions
-- Local Scope and Functions
-- Global vs. Local Scope in Functions
-- Return a Value from a Function with Return
-- Understanding Undefined Value returned from a Function
-- Assignment with a Returned Value
-- Stand in Line
-
-We will focus on arrays in the next class, so come prepared with good questions!
-
-## 3) JavaScript Exercises (4 hours)
-
-These exercises will help solidify your knowledge of JavaScript. Open the "Exercises" folder and complete all of the challenges.
-
-Before you start, **make sure you fork the repository** to your Github account.
+These exercises will help solidify your knowledge of JavaScript. Open the "Mandatory" folder and complete all of the challenges.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
 
-## 4) JavaScript Challenges (6 hours) 🔑
-
-Next, in the same repository, complete all of the exercises in the "Mandatory" folder.
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week2
-
-## 5) Consolidate and Prepare for next week (2 hours)
-
-To challenge yourself even further, you can get ahead for next week's class by reading some of the below documentation:
-
-- [ ] More on the node REPL: https://hackernoon.com/know-node-repl-better-dbd15bca0af6
-- [ ] `while` loops: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
-- [ ] `for` loops: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
-- [ ] Arrays: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-- [ ] What are algorithms: https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
-- [ ] Bubble sort: https://humanwhocodes.com/blog/2009/05/26/computer-science-in-javascript-bubble-sort/
-
-## 6) Codewars (1 hour)
+## 3) Codewars (1 hour)
 
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
 
@@ -101,13 +221,13 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the collection for JS-1 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) Learn About the Terminal part 1 (4 hours)
+## 4) Learn About the Terminal part 1 (4 hours)
 
 Most developers spend a lot of time using something called the terminal. This week, you are going to begin a course to learn about the terminal - it has [its own homework page here](/git/terminal/homework) for you to work from.
 
 Do half this week and half next week.
 
-## 8) (Stretch) Extra JavaScript Challenges
+## 5) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities.
 
