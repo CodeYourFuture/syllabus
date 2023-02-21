@@ -18,6 +18,7 @@ import Feedback from "@theme/Feedback";
   - Mid-week Check-ins
 - What are we going to build?
 - Sprint Planning
+- Exit criteria and tracking the trainees work
 
 ## Welcome
 
@@ -176,7 +177,14 @@ After you've completed the task you should decide what you’re each going to be
 
 Make sure that you assigned everybody tasks on your Project Management board.
 
-## 5. Prepare for next week
+# 5. Exit criteria and tracking the trainees work
+It is important for the trainees and volunteers to have clarity about the [exit criteria for Final Projects](https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit#heading=h.8bipiccmzk3c).
+
+One important metric highlighted on our Intro page is about the [trainee tracker](https://docs.google.com/spreadsheets/d/16vSSJgzCZJKF-2pwuBTkKjJJJ9i1CGRqMbYB-HEO5mo/edit?usp=sharing). A file for your cohort will be created, so ask the Programma Manager to share this with you. Make sure this has been updated correctly (read notes on the titles that will guide you to fill it in correctly).
+
+We also ask trainees to send [this form](https://forms.gle/62tdzNE81FXp2jKc7) weekly so we can track what has been done. Every week a different trainee should submit this form with the correct information.
+
+## 6. Prepare for next week
 
 Next week you will be presenting what you've done this week to the whole class. This means you need to prepare a presentation - it is the responsibility of the team to get this done but your product manager may be able to help co-ordinate.
 
