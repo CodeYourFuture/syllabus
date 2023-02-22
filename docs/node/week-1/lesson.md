@@ -453,6 +453,33 @@ This should return value of 20
 
 :::
 
+## PD (Professionalism)
+
+[Adapted from Tectonica workshop](https://github.com/Techtonica/curriculum/blob/main/onboarding/professionalism.md)
+
+**Session objective:** This session explores the professional conduct, behaviour and attitude required in the work place. We will talk about the accepted standards of professionalism and the myths about behaving professionally.
+
+[Professionalism slides](https://docs.google.com/presentation/d/16C8msrq6NSfuCHydHr1nzf1iSy784fC5yscwLUxAngo/edit#slide=id.gaa71b86f5e_0_0)
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To communicate with colleagues with a professional attitude
+
+1. On your own write a Slack message to a team member saying you're running late to a meeting. Volunteer to share your message with the class.
+2. On your own write an email to a manager notifying them that you'll be out of the office on some future date. Volunteer to share your message with the class.
+
+:::
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To role-play a conversation between a team member and manager about project deadline
+
+Pair with another trainee. Take turns role-playing the following scenario:
+
+One of you is a team member and you need to tell your manager in person that your project is likely not going to be finished by the agreed deadline. The other person is the manager and should express unhappiness about this, but also work together to come up with a new, reasonable deadline or some other alternative (e.g. reduce the scope of the project or get help from a team member). Be sure to switch roles.
+
+:::
+
 ## Feedback
 
 Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.

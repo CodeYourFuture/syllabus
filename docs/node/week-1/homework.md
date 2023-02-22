@@ -95,4 +95,9 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 
 https://github.com/CodeYourFuture/cyf-node-challenges
 
+## 8) Brag Diary (PD - 30 min)
+
+Write your first entry for your Brag Diary. This will be the record of your achievements, the moments you feel proud about yourself. Think positively, you might find more to write than you think.
+
+Take turns to present your diary entries in your group meetings with your PD buddy.
 
