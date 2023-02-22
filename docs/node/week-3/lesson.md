@@ -156,6 +156,24 @@ It is **very important** that you do not move onto the next level of the challen
 
 :::
 
+## PD (5 Whys Problem Solving)
+
+**Session objective:** In this session we will talk about how the 5 Whys technique is a proven and effective problem-solving technique.
+
+[5 whys problem solving slides](https://docs.google.com/presentation/d/1K-k4AHUl4WgyPrVQbddDZmo7iNBWX-wKFPS0iGVJfMQ/edit#slide=id.ga9333c68a9_0_33)
+
+:::note Exercise (30 min)
+
+**Exercise objective:** To practice 5 Whys problem solving technique
+
+Pair with another trainee that has a different work style to yours. Talk to each other in turns about a recent problem you faced, what action you have taken so far and what help you still need.
+
+Use active listening skills and apply the 5 Whys technique to discover the root cause of the problem.
+Repeat this exercise in 3 different pairs.
+
+:::
+
+
 ## Feedback
 
 Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
