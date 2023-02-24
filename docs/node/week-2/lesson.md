@@ -318,7 +318,7 @@ Can you work out how to remove an album using this code?
 
 :::note Exercise (10 min)
 
-**Exercise objective:** To idenfity feelings associated with being included in and excluded from a group
+**Exercise objective:** To identify feelings associated with being included in and excluded from a group
 
 Think about a time when you have experienced:
 - Being part of a group 
