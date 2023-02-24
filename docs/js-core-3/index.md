@@ -23,6 +23,7 @@ sidebar_label: Overview
 | [Week 1](./week-1/lesson.md)  | Debugging         |
 | [Week 2](./week-2/lesson.md)  | Fetch, AJAX, APIS |
 | [Week 3](./week-3/lesson.md)  | Scope & `this`    |
+| [Week 4](./week-4/lesson.md)  |                   |
 
 ## Coordination
 
