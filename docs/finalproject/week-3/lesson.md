@@ -21,6 +21,6 @@ For graduation, we evaluate each role against the Skills for the Information Age
 
 ## Reminder about the tracker and exit criteria
 
-Review the https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit#heading=h.8bipiccmzk3c with your team, if you or them have any queries. 
+Review [the Entry and Exit Criteria](https://docs.google.com/document/d/1jMxqI0L7IKFENCQ8Lw-D1lhnj3c3RZI_WK808wG4YJM/edit#heading=h.8bipiccmzk3c9) with your team, if you or them have any queries. 
 
 Also make sure the trainee tracker is being updated correctly, so you evaluate if the team is working evenly in building the product.
