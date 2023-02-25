@@ -57,3 +57,12 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 ## 5) Challenges (Stretch)
 
 https://github.com/CodeYourFuture/cyf-node-challenges
+
+## 6) Reflect about your own biases (PD - 1 hr)
+
+Think of when you are stressed, feeling tired, rushed, as these situations tend to activate our biases. How may these feelings influence your behavior when working with a group? Reflect in a 250 word essay.
+
+## 7) Challenge yourself (PD - 15 min)
+
+Take an Implicit Association Test (IAT) [here](https://implicit.harvard.edu/implicit/takeatest.html) to identify what your unconscious biases are. There are multiple topics to choose from: Age, Gender, Sexuality, Skin-tone, Ethnicity, etc.
+Remember: Awareness is the first step to combatting bias.

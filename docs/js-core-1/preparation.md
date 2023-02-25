@@ -8,6 +8,8 @@ sidebar_label: Preparation
 
 You probably already have this if you have done Fundamentals and Html/CSS.
 
+You probably already have this if you have done Fundamentals and Html/CSS.
+
 :::warning
 Code Your Future does not support Windows
 :::
@@ -26,19 +28,19 @@ If you get stuck on any of the below or above instructions, please post in your 
 
 1. Type ctrl + alt + T to open up the terminal
 2. Check whether you already have NodeJS installed by runnning `node -v`, which should return a version number. If it does, you can skip the next steps.
-2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs`
-3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g. "v16.17.0"
+2. Install NodeJS and npm by copying and pasting the following into the terminal: `sudo apt-get install -y curl && curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install -y nodejs`
+3. Check that you have successfully installed NodeJS by ensuring that the following command returns returns a version number e.g. "v18.12.1"
    - `node -v`
-4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.15.0"
+4. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.19.2"
    - `npm -v`
 
 ### On Mac
 
 1. Click cmd + spacebar and type "Terminal" to open up the terminal
 2. Install Homebrew, which is a package manager for MacOS. Copy and paste the following command into your terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-3. Ensure that you have succesfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "`Homebrew <version number>`"
-4. Install NodeJS and npm by typing `brew install node`
-5. Check that you have successfully installed NodeJS by ensuring that the following command returns a version number e.g. "v16.17.0"
+3. Ensure that you have successfully installed Homebrew by typing `brew -v` in your terminal - you should get an output that says something like "`Homebrew <version number>`"
+4. Install NodeJS and npm by typing `brew install node@18`
+5. Check that you have successfully installed NodeJS by ensuring that the following command returns a version number e.g. "v18.12.1"
    - `node -v`
-6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.15.0"
+6. Check that you have successfully installed npm by ensuring that the following command returns a version number e.g. "8.19.2"
    - `npm -v`

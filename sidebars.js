@@ -196,6 +196,11 @@ module.exports = {
       "js-core-3/week-3/homework",
       "js-core-3/week-3/instructors",
     ],
+    "Lesson 4": [
+      "js-core-3/week-4/lesson",
+      "js-core-3/week-4/homework",
+      "js-core-3/week-4/instructors",
+    ],
     "TV Show Project": [
       "js-core-3/tv-show-dom-project/readme",
       "js-core-3/tv-show-dom-project/getting-started",

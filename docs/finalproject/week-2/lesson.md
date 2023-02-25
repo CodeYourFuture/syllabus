@@ -13,6 +13,7 @@ import Feedback from "@theme/Feedback";
 - User research
 - Sprint Planning
 - Technical Support
+- Cooling periods
 
 
 ## Demo (60 minutes)
@@ -69,6 +70,23 @@ Decide what you’re each going to be doing during the following week and where 
 _Facilitated by TAs_
 
 Mentors will be on hand to help you get unstuck from any blocking technical issues.
+
+
+## Cooling periods during final projects (30 min)
+
+Cooling periods are for teams that are struggling to collaborate, communicate or work together in an agile way. This is an indication that the team may not be on track to graduate due to concerns about their professional skills. 
+
+If a team needs a cooling period they will need to: 
+1. Stop working and take a 5 minute break
+1. Reflect on what's working well and what is not working and their preferred ways to communicate. 
+1. Re-establish how they work together as a team.
+1. Create a 5 step action plan about how they will resolve further challenges. 
+
+The team must give feedback to the volunteers and discuss their strengths and weaknesses, reflections, how they will work together as a team and their action plan to resolve further challenges. 
+
+Once they have communicated with their volunteer team, they will be allowed to proceed on their technical assignments. 
+
+The cooling period should last no longer than 30 minutes.
 
 
 ## Feedback

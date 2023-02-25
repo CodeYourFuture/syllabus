@@ -310,6 +310,35 @@ app.delete("/albums/:albumID", function (req, res) {
 
 Can you work out how to remove an album using this code?
 
+## PD (Diversity and inclusion)
+
+**Session objective:** How to recognise systemic problems and to contribute to a more diverse and inclusive community
+
+[Diversity and inclusion slides](https://docs.google.com/presentation/d/11PpNt-Rsw44FhYMe4JAKg666eRiQHONADQgImN5NW9M/edit#slide=id.gaa71b86f5e_0_0)
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To identify feelings associated with being included in and excluded from a group
+
+Think about a time when you have experienced:
+- Being part of a group 
+- Being excluded by a group
+
+Discuss as a class how it feels to be included and excluded.
+
+:::
+
+:::note Exercise (15 min)
+
+**Exercise objective:** To think about the existing privileges and discrimination experiences
+
+Discuss as a class:
+
+- Some ways you have privilege
+- Some ways you have faced oppression or discrimination
+
+:::
+
 ## Feedback
 
 Please spend two minutes reviewing this lesson to help us improve it for the future. This feedback will be shared with volunteers.
