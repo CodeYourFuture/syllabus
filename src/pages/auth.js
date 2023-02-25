@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "@docusaurus/router";
+import { useLocation, Redirect } from "@docusaurus/router";
 import Layout from "@theme/Layout";
 import { API_URL } from "../constants";
 
@@ -7,21 +7,22 @@ const Auth = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
   const [count, setCount] = React.useState(3);
-
-  let redirectURL = "/";
+  const [loading, setLoading] = React.useState(true);
 
   const stateString = params.get("state");
 
+  const redirect = (url) => <Redirect to={url} />;
+
+  let redirectURL = "/";
+
   if (stateString) {
     const state = JSON.parse(stateString);
-    redirectURL = state.prevURL;
+    redirectURL = state.prevPath;
   }
 
   // if no code is present, redirect to home page in 3 seconds
   if (!params.get("code")) {
-    setTimeout(() => {
-      window.location.href = redirectURL;
-    }, 3000);
+    setTimeout(() => {}, 3000);
 
     React.useEffect(() => {
       const interval = setInterval(() => {
@@ -37,6 +38,7 @@ const Auth = () => {
     return (
       <h4 style={{ textAlign: "center", padding: "20px" }}>
         Something went wrong... Redirecting in {count} seconds
+        {count === 0 ? redirect(redirectURL) : null}
       </h4>
     );
   }
@@ -49,15 +51,18 @@ const Auth = () => {
     .then((res) => res.json())
     .then((data) => {
       localStorage.setItem("gh-token", data.token);
-
-      // redirect to previous page
-      window.location.href = redirectURL;
+      setLoading(false);
     })
     .catch((err) => {
+      setLoading(false);
       console.log(err);
     });
 
-  return null;
+  return loading ? (
+    <h4 style={{ textAlign: "center", padding: "20px" }}>Authenticating...</h4>
+  ) : (
+    redirect(redirectURL)
+  );
 };
 
 const AuthWithLayout = () => (

@@ -3,12 +3,15 @@ id: homework
 title: Coursework
 sidebar_label: Coursework
 ---
+<!-- import CloneIssuesButton from '@site/src/components/CloneIssuesButton'; -->
 
 ## Coursework Source of Truth...
 
 Is your Google Classroom, not here! Teachers and trainees, make sure you check your Google Classroom for latest updates.
 
 ## Mandatory coursework
+
+<!-- <CloneIssuesButton repo="HTML-CSS-Coursework-TEST" /> -->
 
 ### 1) 🔑 Create your own webpage (4 hours)
 
