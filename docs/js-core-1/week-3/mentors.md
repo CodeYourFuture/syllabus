@@ -16,6 +16,33 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Flipped classroom recap/Q&A
+
+The flipped classroom practice should have trainees
+
+- Get a basic understanding of truthiness and falsiness (see notes below)
+  - In particular, using an `if (argumentToFunction)` for functions with optional arguments
+  - `let foo = val || "default value"` and `if (val && val.foo === 3)` are not yet covered
+- Write and run programs using basic array functionality
+  - initialise an array: `const names = ["Biruk", "Ali", "Mitch"];`
+  - access a zero-indexed element: `let ali = names[1];`
+  - modify a zero-indexed element: `names[2] = "Jyoti"`
+  - get the length of an array: `let countNames = names.length`
+  - add elements to an array: `names.push("Zsolt")`
+- Iterate through an array using `for (const name of names) {console.log(name);}`
+- Iterate through an array using `for (let i=0; i<names.length; i++) {console.log(i, names[i])}`
+  - it is not important at this stage for all trainees to understand this (it's included only for completeness as trainees will find these loops through stackoverflow/google)
+  - equivalence between c-style for and while loop is not yet clarified
+- Note: array methods are not covered, particularly 2nd order functions: `.filter()`, `.map()`, `.forEach()`
+
+Some questions/prompts that may be useful
+
+- What does this program do? (show programs of varying degrees of complexity using arrays)
+- What does this expression evaluate to, using array expressions?
+- What kinds of data types have we seen so far? (without getting too technical, "string", "number", "boolean", "undefined"). What values are falsy/truthy?
+- What are some ways to iterate over an array? Why would we use one over the other?
+- Discuss solutions to practice exercises
+
 ## Notes on truthy, falsy, null, and undefined
 
 This session is only to establish some initial habits of thought, especially around debugging. This is such a tricky idea to grasp and so helpful to understand, so talk a little bit about different errors produced by these states.
