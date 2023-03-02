@@ -1,12 +1,12 @@
 ---
-id: connecting-a-dbms
-title: Connecting a database management system to a database on Render
-sidebar_label: Connecting a database management system to a database on Render
+id: connecting-to-a-client
+title: Connecting a client to a database on Render
+sidebar_label: Connecting a client to a database on Render
 ---
 
 :::tip
 
-This guide uses a database management system (DBMS) called [DBeaver](https://dbeaver.io/), but the ideas still apply if you are using another DBMS. If you are using another piece of software, try looking for similarly named controls.
+This guide uses a database client called [DBeaver](https://dbeaver.io/), but the ideas still apply if you are using another client. If you are using another client, try looking for similarly named controls.
 
 :::
 

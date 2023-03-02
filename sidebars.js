@@ -382,7 +382,7 @@ module.exports = {
       "guides/deployment-render/connecting-github",
       "guides/deployment-render/deploying-server",
       "guides/deployment-render/creating-a-postgres-db",
-      "guides/deployment-render/connecting-a-dbms",
+      "guides/deployment-render/connecting-to-a-client",
     ],
   },
   Accessibility: {
