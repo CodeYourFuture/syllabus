@@ -66,4 +66,4 @@ If you need help for any of these projects, you can find help in this Slack chan
 
 This presentations gives an overview of the day to day running, the roles and the aims of the Final Project
 
-<iframe src="https://docs.google.com/presentation/d/14XsK1njP2BteVE9G8y5Iy6kLReuw_RatUMOzUNoG8ms/edit?usp=sharing/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/14XsK1njP2BteVE9G8y5Iy6kLReuw_RatUMOzUNoG8ms/edit?usp=sharing" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
