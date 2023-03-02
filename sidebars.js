@@ -376,6 +376,15 @@ module.exports = {
       "guides/deployment-netlify/common-problems",
     ],
   },
+  DeploymentRender: {
+    Guides: [
+      "guides/deployment-render/overview",
+      "guides/deployment-render/connecting-github",
+      "guides/deployment-render/deploying-server",
+      "guides/deployment-render/creating-a-postgres-db",
+      "guides/deployment-render/connecting-to-a-client",
+    ],
+  },
   Accessibility: {
     Overview: ["workshops/accessibility/index"],
     Workshops: [
