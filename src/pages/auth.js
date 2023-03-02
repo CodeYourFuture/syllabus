@@ -1,18 +1,13 @@
 import React from "react";
-import { useLocation, Redirect } from "@docusaurus/router";
+import { useLocation } from "@docusaurus/router";
 import Layout from "@theme/Layout";
-import { API_URL } from "../constants";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import RedirectWithTimeout from "../components/RedirectWithTimeout";
 
 const Auth = () => {
   const location = useLocation();
   const params = new URLSearchParams(location.search);
-  const [count, setCount] = React.useState(3);
-  const [loading, setLoading] = React.useState(true);
-
   const stateString = params.get("state");
-
-  const redirect = (url) => <Redirect to={url} />;
-
   let redirectURL = "/";
 
   if (stateString) {
@@ -22,46 +17,62 @@ const Auth = () => {
 
   // if no code is present, redirect to home page in 3 seconds
   if (!params.get("code")) {
-    setTimeout(() => {}, 3000);
+    return (
+      <RedirectWithTimeout url={redirectURL} timeoutSeconds={3}>
+        <h4 style={{ textAlign: "center", padding: "20px" }}>
+          Authentication failed. Redirecting...
+        </h4>
+      </RedirectWithTimeout>
+    );
+  }
 
-    React.useEffect(() => {
-      const interval = setInterval(() => {
-        if (count <= 0) {
-          clearInterval(interval);
-          return;
-        }
-        setCount((count) => count - 1);
-      }, 1000);
-      return () => clearInterval(interval);
-    }, []);
+  return <Authenticate code={params.get("code")} redirectURL={redirectURL} />;
+};
 
+const Authenticate = ({ code, redirectURL }) => {
+  const [loading, setLoading] = React.useState(true);
+  const [error, setError] = React.useState(null);
+  const { siteConfig } = useDocusaurusContext();
+
+  React.useEffect(() => {
+    fetch(`${siteConfig.customFields.API_URL}/auth?code=${code}`, {
+      method: "POST",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        localStorage.setItem("gh-token", data.token);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setLoading(false);
+        setError(err);
+        localStorage.removeItem("gh-token");
+        console.log(err);
+      });
+  }, [code]);
+
+  if (error) {
     return (
       <h4 style={{ textAlign: "center", padding: "20px" }}>
-        Something went wrong... Redirecting in {count} seconds
-        {count === 0 ? redirect(redirectURL) : null}
+        Something went wrong. See console for details.
       </h4>
     );
   }
 
-  // get token and store it in local storage
+  if (loading) {
+    return (
+      <h4 style={{ textAlign: "center", padding: "20px" }}>
+        Authenticating...
+      </h4>
+    );
+  }
 
-  fetch(`${API_URL}/auth?code=${params.get("code")}`, {
-    method: "POST",
-  })
-    .then((res) => res.json())
-    .then((data) => {
-      localStorage.setItem("gh-token", data.token);
-      setLoading(false);
-    })
-    .catch((err) => {
-      setLoading(false);
-      console.log(err);
-    });
-
-  return loading ? (
-    <h4 style={{ textAlign: "center", padding: "20px" }}>Authenticating...</h4>
-  ) : (
-    redirect(redirectURL)
+  return (
+    <RedirectWithTimeout url={redirectURL} timeoutSeconds={2}>
+      <h4 style={{ textAlign: "center", padding: "20px" }}>
+        Authentication successful. Redirecting...
+      </h4>
+    </RedirectWithTimeout>
   );
 };
 

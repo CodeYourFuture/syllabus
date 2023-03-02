@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "file-loader": "^6.0.0"
   },
   "engines": {

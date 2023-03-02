@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 module.exports = {
   title: "CodeYourFuture Syllabus",
   url: "https://syllabus.codeyourfuture.io/",
@@ -7,6 +9,10 @@ module.exports = {
   projectName: "Syllabus",
   onBrokenLinks: "throw",
   plugins: [require.resolve("docusaurus-lunr-search")],
+  customFields: {
+    API_URL: process.env.API_URL,
+    CLIENT_ID: process.env.CLIENT_ID,
+  },
   presets: [
     [
       "@docusaurus/preset-classic",
