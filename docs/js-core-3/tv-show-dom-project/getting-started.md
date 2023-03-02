@@ -25,7 +25,7 @@ Important: unlike previous CYF coursework projects, you should **NOT** fork the 
 1. Add and commit and your change
 1. Push to github
 1. Confirm the changes show up on github **in your `master` branch**
-1. Configure your site for automatic deployment to Netlify [Instructions here](../../guides/deployment/index.md)
+1. Configure your site for automatic deployment to Netlify [Instructions here](../../guides/deployment-netlify/index.md)
 1. Ensure the netlify site name is exactly `cyf-USERNAME-tv`.netlify.app where USERNAME is YOUR github username.
 1. Visit your deployed site
 1. Set your new repo's website link on github to be your netlify URL, under manage topics

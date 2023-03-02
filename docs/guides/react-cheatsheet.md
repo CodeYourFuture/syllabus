@@ -55,9 +55,9 @@ Netlify should automatically set the following important build settings:
 | "publish directory"                  | `build/`        |
 | "build command"                      | `npm run build` |
 
-Note that your deployment doesn't happen instantly. Netlify needs some time to "build" your React project. The build process turns your beautiful human-readable React Components into optimised machine-readable code that can run in a web browser. 
+Note that your deployment doesn't happen instantly. Netlify needs some time to "build" your React project. The build process turns your beautiful human-readable React Components into optimised machine-readable code that can run in a web browser.
 
-The full Netlify cheat sheet can be found [**here**](./deployment/index.md)
+The full Netlify cheat sheet can be found [**here**](./deployment-netlify/index.md)
 
 ## Error scenarios
 
