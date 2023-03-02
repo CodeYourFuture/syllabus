@@ -16,15 +16,87 @@ Attendees:
 
 ---
 
+## {2023-03-02}
+
+Attendees: Sally, Keith, Ali, Greg
+
+### ❗Actions from last time
+
+- [x] Mitch: Invite Keith Bremer to a syllabus meeting
+- [ ] Mitch: Raise an issue with acceptance criteria (for restructuring JS1?)
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] Ali & Mitch: share concept maps
+  - Ali thought he had one for JS but can't find it
+  - We have the syllabus from Fatemeh -> Mitch or Greg should share
+
+### 📝 Agenda points
+
+#### SQL
+
+- Keith: has a background as a trainer for Oracle + long-term involvement in CYF
+- When you teach it: clear that there is not enough time to properly teach SQL
+  - Locking
+  - Transactions
+  - Aggregate functions
+- Greg: worried that with a medium SQL module we are both failing advanced trainees who are not learning enough, and struggling trainees who need to practice writing small full stack apps
+- Greg: Wish that the last module was a "full stack apps" module with absolute bare minimum of SQL
+- Greg: Maybe we could have both?
+- Ali: Let's gather existing modules that exists
+- Ali: ideally every module would be longer
+- Sally: maybe we should put databases earlier, so that trainees who like this could branch into it (maybe just before React?)
+- Sally: then have a bigger SQL module for them
+- Ali: the "frontend path" is not really frontend
+- Ali: might there be difficulty in recruiting volunteers for SQL?
+- Keith: could we have a beginning of SQL before node/react and then gradually build as we make our full stack apps more complex?
+- Maybe we should have a "taster module" with different parts of a full stack app (but how would we make it nicely decoupled)
+  - Pitch workshops (so that you can just drop into them), maybe tied to job titles (a day in the life of...)
+  - e.g. Data Engineering
+  - How do we help trainees understand how things fit into the rest of the universe?
+  - Has to be very hands on - exercises in various technologies?
+- Fits into the bigger picture of how to make practical projects that they work on every module
+- Structure of syllabus is pointlessly constraining
+- Let's make projects / small increments as if we were already in the future where it all makes sense
+
+#### 1000 paper cranes
+
+- Could be for trainees near graduation to understand that a tool is just a tool and there are some underlying
+
+#### ChatGPT
+
+How can we support trainees in learning using it?
+
+- Great at variable naming
+- Given tests it can write pretty good code
+- It is not good at even slightly unusual requirements
+- It can't admit mistakes / confidently doubles down or spouts nonsense
+
+#### Someone wanted to join the syllabus team? Invite them?
+
+- yes!
+
+### ❗Actions
+
+- [ ] Keith (with support), get Keith's SQL material into the syllabus
+- [ ] Sally -> reach out to person who would like to join syllabus team
+- [ ] Mitch: Raise an issue for fixing JS1 in short term with acceptance criteria
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] Ali & Mitch: share concept maps
+- [ ] Greg: tag Ali in on tidying up js1 coursework
+- [ ] Greg: put a meeting in for Sally to teach her how to write a block for CYF Blocks
+
+---
+
 ## 2023-02-16
 
 Attendees: Ali, Sally, Mitch, Greg, Daniel, Karen
 
-### ❗Actions from last time
-
 N/A - apparently we haven't made minutes for a while
 
-### 📝 Agenda points
+### ❗Actions
+
+- [ ] Mitch: Raise an issue with acceptance criteria (for restructuring JS1?)
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] Ali & Mitch: share concept maps
 
 #### JS1 Week changes
 
