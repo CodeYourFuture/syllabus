@@ -135,6 +135,21 @@ app.get("/customers/by_city/:city", (req, res) => {
   );
 });
 ```
+### Use Placeholders to Avoid SQL Injection
+#### What is SQL Injection
+If an end user can enter unrestricted text into a data field on a form there is the possibility that they could put a nasty SQL command inside the data.  For example, if the field is used to enter the customer name the user could type:
+    `J Doe';delete from customers;select 'x' from customers`
+as the name value. It looks a bit unlikely but any user with a little bit of SQL knowledge could eventually work out the format needed.
+
+If the code used string concatenation to for the final SQL command it could be something like:
+```js
+    const myQuery = "UPDATE customers SET name = '" + inputName + "' WHERE id = " + myId;
+```
+Then `myQuery` would become:
+    `UPDATE customers SET name = 'J Doe';delete from customers;select 'x' from customers WHERE id = 123`
+(Note that semicolon **can** be used between SQL commands in this context)
+
+By using placeholders instead of string concatenation we can prevent this kind of attack.  This is VERY important in web-facing apps that use SQL.
 
 ### Exercise 1
 1.  Make sure you have defined the endpoints for:
