@@ -442,10 +442,23 @@ app.delete("/customers/:customerId", function (req, res) {
 });
 ```
 
-### Exercise 7
+### Exercise 7
+
 
 1.  Add an endpoint to delete from the reservations table using the value of the id to choose the row to be removed. Only allow deletion of reservations with future checkin dates otherwise return an error.
 2.  Check the endpoint works correctly using Postman (use psql to verify the row has been deleted).
+
+---
+
+### Warning! Update & Delete are not Safe
+
+This approach we've used to update and delete rows is not safe in a typical multi-user environment. If more than one user at a time is able to perform updates and deletes there could be unintended data loss using this approach.
+
+The solution is known as "optimistic locking" but we just don't have time in this course to cover it. So long as you are aware of the problem you can use the approach but add plenty of comments to make clear that the code is not yet safe.
+
+Note also that optimistic locking requires changes not only to the code of your Node endpoints but also to the behaviour of the web pages that use and modify the data.
+
+---
 
 ## Homework
 
