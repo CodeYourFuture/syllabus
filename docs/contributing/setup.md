@@ -44,4 +44,4 @@ This command generates static content into the `build` directory and can be serv
 
 ### To Production
 
-All commits are deployed automatically when they are merged into `master`.
+All commits are deployed automatically when they are merged into `main`.
