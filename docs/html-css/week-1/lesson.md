@@ -404,9 +404,9 @@ CSS also uses measurement units like these.
 
 There are two types of units: absolute and relative units.
 
-- Absolute units are always the same size, even when the user zooms in on the browser.
-- Relative units are based on the size of something else, such as the font size or viewport size.
-  When the user zooms in the browser, elements using relative units will increase in size too.
+- Absolute units represent the same size regardless of the size of parent HTML elements or of the viewport
+(i.e. the visible area of the browser).
+- Relative units are based on the size of something else, such as of parent HTML elements or of the viewport.
 
 The following table contains some of the most commonly used CSS units.
 
@@ -425,7 +425,7 @@ The following table contains some of the most commonly used CSS units.
       <td><code>px</code></td>
       <td>pixel</td>
       <td>Absolute</td>
-      <td>This used to refer to real physical pixels on screens, but on modern devices with high resolution displays one CSS pixel is usually rendered using a whole multiple of real pixels. For rendering on screens, a CSS “reference pixel” is defined as the visual angle of one pixel on a device with a pixel density of 96 pixels per inch at a distance of an arm’s length from the reader.</td>
+      <td>This used to refer to real physical pixels on screens, but on modern devices with high resolution displays one CSS pixel is usually rendered using a whole multiple of real pixels.</td>
     </tr>
     <tr>
       <td><code>rem</code></td>
