@@ -297,6 +297,12 @@ module.exports = {
       "node/week-3/homework",
       "node/week-3/instructors",
     ],
+    "Lesson 4": [
+      "node/week-4/lesson",
+      "node/week-4/homework",
+      "node/week-4/instructors",
+    ],
+
     Workshops: ["node/workshops/workshop", "node/workshops/cyf-hotel"],
     Challenges: [
       {
