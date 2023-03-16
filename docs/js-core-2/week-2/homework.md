@@ -63,3 +63,25 @@ https://app.netlify.com/signup
 ## 7) Module Project
 
 Begin your [module project](../module-project), if you have not done so already.
+
+## 8) Teamwork Project - Gathering requirements (PD - 3 hr)
+
+Thinking back to your Agile Development class on JavaScript 1, Week 1, your group should:
+
+- Define what would be the minimum viable product (MVP)
+- Define which features are need for the MVP
+- Create some user stories that reflect these features
+
+Stretch target: define the acceptance criteria of the user stories so that you can ensure that developer and tester have all the necessary information
+
+## 9) Teamwork Project - Resolving conflicts (PD - 1 hr)
+
+If you need to remember [this video](https://www.youtube.com/watch?v=qDfSYz0PX9g) on Resolving Workplace Conflict, watch it again. It's 7 minutes long.
+Make a plan about how to resolve conflicts in your group.
+
+## 10) Agile reading (PD - 1 hr)
+
+Read the following material and share your 3 key takeaways:
+
+- [Scrum](https://www.agilealliance.org/glossary/scrum/#q=~%28infinite~false~filters~%28postType~%28~%27page~%27post~%27aa_book~%27aa_event_session~%27aa_experience_report~%27aa_glossary~%27aa_research_paper~%27aa_video%29~tags~%28~%27scrum%29%29~searchTerm~%27~sort~false~sortDirection~%27asc~page~1%29)
+- [Github for project management](https://www.jobsity.com/blog/a-quick-guide-to-using-github-for-project-management)
