@@ -20,7 +20,7 @@ import Feedback from "@theme/Feedback";
     - [Exercise (4)](#exercise-4)
   - [Manipulate DOM elements](#manipulate-dom-elements)
     - [Exercise (5)](#exercise-5)
-
+  - [PD - Delivery](#pd-delivery)
 ---
 
 ## Learning Objectives
@@ -231,6 +231,76 @@ To get the entered text from it, we use the `value` property: `let title = input
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 
 :::
+
+## PD (Delivery)
+
+**Session objective**: This session will explore how to create features, user stories and tasks for a product.
+
+:::note  
+Exercise (5 minutes)
+
+**Exercise objective**: To understand the requirements of building a library website.
+
+Let’s assume we have been asked to build a library website, one that would allow you to borrow books. Let’s discuss briefly as a class what would be the questions we would ask in order to have a better understanding of what we have been tasked to build.
+
+:::
+
+:::note
+Exercise (15 minutes)
+
+**Exercise objective**: To understand the process of breaking down a product into features.
+
+Let’s assume that we got answers to all our questions about the product. Overall, the goal is to build a website that would have a catalogue of books that can be borrowed by users of the system. In small groups, identify what would be **the main features** you would expect to see in this website? You can refer to the slide #11 from JS1 - Week1 to remind yourselves about the features and user stories.
+
+Discuss in small groups. Group representatives share thoughts with the class.
+
+:::
+
+:::note
+Exercise (20 minutes)
+
+**Exercise objective**: To understand the process of breaking down features into user stories.
+
+Now that we have all the features, we need to break them down into user stories. A user story is an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer. In small groups, pick one of the features and break it down into at least **3 user stories**.
+
+Discuss in small groups. Group representatives share thoughts with the class.
+
+:::
+
+:::note
+Exercise (20 minutes)
+
+**Exercise objective**: To understand the process of breaking down user stories into tasks and distribute those tasks among team members.
+
+Now that we have user stories, it is time to break them down into tasks. Tasks are used to break down user stories into smaller components that can then be assigned to individual team members. Let’s take a user story and in small groups, complete the following:
+
+- Identify all the tasks that need to be completed in order to deliver value to the user, providing the outcome described in the user story.
+- Identify relationships and dependencies between tasks. How does a change in Task A affect other tasks? - Does Task A need to be completed before we can work on Task B?
+- Size those tasks taking into account complexity and dependencies.
+- Answer this question: when it is time to assign tasks to team members, what would be the criteria you would follow when assigning tasks?
+
+Discuss in small groups. Group representatives share thoughts with the class.
+
+***Answer Key***
+
+This key offers some examples and is not exhaustive.
+
+*Exercise 1*
+
+In this example features could be: a shopping cart, book search, user personalisation, library events banner, etc.
+
+*Exercise 2*
+
+For example, for the shopping cart feature the user stories could be:
+
+As a library user I want to be able to manage items I have included in my shopping cart so by the time I checkout only the books remaining are the ones I want to borrow.
+As a library user I want to be able to check out books in my shopping cart so they can be delivered to me.
+
+*Exercise 3*
+
+Examples of tasks for a user story describing the book search functionality could be: Search Box, Text Autocomplete, Database creation and setup.
+
+An example of a dependency between tasks could be not being able to work on Autofill functionality without having the search box and the underlying database ready.
 
 ## Feedback
 
