@@ -123,3 +123,16 @@ You should complete as many or as few of these modules as you'd like from this l
 6. Loops
 7. Iterators
 8. Objects
+
+## 9) How to conduct yourself professionally (PD - 1 hr)
+
+Watch ['How to conduct yourself professionally'](https://www.youtube.com/watch?v=QphclWBVzGQ) 
+
+- Reflect in what behaviours you learned in the video were new to you
+- Write what behaviours you need to stop to appear more professional
+- Write what behaviours you need to start doing or doing more so you can appear more professional
+- Write what behaviours you need to change or adapt for an online/ remote work environment like CodeYourFuture
+
+## 10) Watch this short video about body language (PD - 20 min)
+
+Watch [this video](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are) about public speaking skills.
