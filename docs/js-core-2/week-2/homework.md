@@ -4,6 +4,36 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+## 0) Flipped Classroom Practice (3h)
+
+1.1 Given the following array of objects
+
+```js
+let people = [
+  { name: "Bob", age: 30 },
+  { name: "Hamed", age: 15 },
+  { name: "John", age: 20 },
+  { name: "Elise", age: 35 },
+  { name: "Nasir", age: 24 },
+];
+```
+
+Use the appropriate array method(s) to
+
+- Log to the console an array containing the people older than 25
+- Log to the console an array containing the names of the people
+
+```
+[ { name: 'Bob', age: 30 }, { name: 'Elise', age: 35 } ]
+[ 'Bob', 'Hamed', 'John', 'Elise', 'Nasir']
+```
+
+2.1 TDD practice
+
+Fork and clone https://github.com/CodeYourFuture/tdd-practice. Begin solving the exercise by answering the questions about the first few steps.
+
+2.2 Finish solving the exercise, continuing to write tests step by step.
+
 ## 1) Review Solutions for Last Weeks Coursework
 
 Before starting this week, be sure to review the solutions for last weeks coursework
@@ -16,13 +46,7 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 **Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
 
-## 2) Classwork
-
-Firstly, complete any exercises you did not complete during class. They are essential practice for the rest of the homework tasks.
-
-If you get stuck, reach out to your classmates on Slack for help!
-
-## 3) CodeWars (1 hour)
+## 2) CodeWars (1 hour)
 
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
@@ -30,7 +54,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 4) JavaScript Challenges (3 hours) 🔑
+## 3) JavaScript Challenges (3 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -40,26 +64,13 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week2
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 5) CodeCademy Objects tutorials
+## 4) Sign Up to Render (20 minutes)
 
-CodeCademy has a good JavaScript course, and the main parts of it are available for free.
+Render is a hosting site for static sites (front end).
 
-- Complete the "Objects" section of the free JavaScript course - https://www.codecademy.com/courses/introduction-to-javascript/lessons/objects/exercises/intro
+Sign up for a free account only. Sign in with github.
+https://render.com/
 
-- Complete the "Advanced Objects" section of the free JavaScript course - https://www.codecademy.com/courses/introduction-to-javascript/lessons/advanced-objects/exercises/adv-intro
-
-You may have to sign up for an account with CodeCademy to do so if you haven't already.
-
-You do not need to pay to access these sections of the course!
-
-## 6) Sign Up to Netlify (20 minutes)
-
-Netlify is a hosting site for static sites (front end).
-
-Sign up for a free account only. Choose the option you want, gmail, github, email etc. If you already have a Netlify account, you can skip this step.
-
-https://app.netlify.com/signup
-
-## 7) Module Project
+## 5) Module Project
 
 Begin your [module project](../module-project), if you have not done so already.
