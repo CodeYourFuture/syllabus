@@ -4,7 +4,7 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-## 0)
+## 0) Flipped Classroom Practice (3h)
 
 1.1 Given the following array of objects
 
