@@ -16,6 +16,28 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Flipped classroom recap/Q&A
+
+The flipped classroom practice should have trainees
+
+- Revisit arrays of objects in greater detail
+- Practice TDD
+  - Red->Green->Refactor
+  - Given/When/Then
+  - Write/run Jest tests
+
+Some questions/prompts that may be useful
+
+- Why is it useful for arrays of objects to contain objects that "look the same"
+- What does it mean for 2 objects to "look the same"?
+- Ask trainees to write/understand a filter function against an array of objects
+- Ask trainees to write/understand a map function against an array of objects
+- Show a test from a previous week and ask what the test is doing (trainees have all the pieces of notation at this point
+- Why do we test? (probably still unclear at this point)
+- What is the red-green-refactor cycle
+- What is the structure we use to write tests? (Given/When/Then)
+- Can you translate some user requirements into Given/When/Then?
+
 ## TDD Kata
 
 Choose a very simple kata, level 7 at max. Go much slower than you feel is reasonable.
