@@ -25,6 +25,9 @@ The flipped classroom practice should have trainees
   - Red->Green->Refactor
   - Given/When/Then
   - Write/run Jest tests
+- Bonus material (i.e. trainees should come back to this when they are ready/when they need it)
+  - Using objects as maps (dictionaries, and other names)
+  - for .. in loop
 
 Some questions/prompts that may be useful
 
