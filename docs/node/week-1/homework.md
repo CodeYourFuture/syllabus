@@ -10,27 +10,28 @@ sidebar_label: Coursework
 
 Think carefully and try to answer the following questions:
 
-⏰ Don't spend longer than 30 minutes on this exercise\
+⏰ Don't spend longer than 30 minutes on this exercise  
 📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
 
 a) **Define** an interface? (Think about the answer in multiple contexts, including programming )
 
 b) **Explain** why do we need to use an interface in programming? (Advanced)
 
-c)\
-i) **List** 3 things that are part of the NodeJS API\
-ii) **List** 3 things that are part of the Jest API\
-iii) **List** 3 things that are part of the Spotify API\
-iv) **Explain** why Jest is _not_ a web-based API and why Spotify is a web-based API.
+c)
 
-Submit your responses by responding on the Google Classroom "Prepare for Saturday's class" assignment. Verify your answers using discussions on Slack if you're struggling to answer these questions.
+i) **List** 3 things that are part of the NodeJS API  
+ ii) **List** 3 things that are part of the Jest API  
+ iii) **List** 3 things that are part of the Spotify API  
+ iv) **Explain** why Jest is _not_ a web-based API and why Spotify is a web-based API.
+
+Submit your responses by responding on the Google Classroom assignment entitled "Prepare for Saturday's class". Verify your answers using discussions on Slack if you're struggling to answer these questions.
 
 ### Exercise 1.2
 
-Pick a couple of the APIS below and experiment with them, modify the requests, report your findings.
-
-⏰ Don't spend longer than 20 minutes on this exercise\
+⏰ Don't spend longer than 20 minutes on this exercise  
 📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
+
+Pick a couple of the APIs below and experiment with them, modify the requests, report your findings.
 
 - http://www.tvmaze.com/api
   - e.g. http://api.tvmaze.com/shows/82/episodes
@@ -50,16 +51,19 @@ Pick a couple of the APIS below and experiment with them, modify the requests, r
 
 ### Exercise 2.1
 
-a) Complete steps 3.1, 3.2 and 3.3 from the 3) Make a Node API section of the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
+⏰ Aim to spend around 1 hour on this exercise  
+📝 Remember to get support/guidance on Slack if you're blocked with this activity
+
+a) Complete steps 3.1, 3.2 and 3.3 from the **3) Make a Node API** section of the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
 
 b) Once you've set up your server in part a), then complete read and complete the steps in section 3.4 from the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
-
-⏰ Don't spend longer than 30 minutes on this exercise\
-📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
 
 :::
 
 ### Exercise 3.1
+
+⏰ Aim to spend around 1 hour on this exercise  
+📝 Remember to get support/guidance on Slack if you're blocked with this activity
 
 Read and complete sections 3.4) and 3.5) from the syllabus notes 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
 
