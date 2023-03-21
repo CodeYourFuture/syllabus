@@ -50,6 +50,19 @@ Pick a couple of the APIS below and experiment with them, modify the requests, r
 
 ### Exercise 2.1
 
+a) Complete steps 3.1, 3.2 and 3.3 from the 3) Make a Node API section of the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
+
+b) Once you've set up your server in part a), then complete read and complete the steps in section 3.4 from the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
+
+⏰ Don't spend longer than 30 minutes on this exercise\
+📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
+
+:::
+
+### Exercise 3.1
+
+Read and complete sections 3.4) and 3.5) from the syllabus notes 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
+
 ## 1) Reading (2 Hours)
 
 ### Read about HTTP messages
@@ -70,20 +83,7 @@ If you want some more reading
 - Routing
   - https://expressjs.com/en/guide/routing.html
 
-## 2) Watch Express JS Crash Course (1 Hour)
-
-This Express JS Crash Course is a fantastic resources to help consolidate what we learned in class.
-
-https://www.youtube.com/watch?v=L72fhGm1tfE
-
-Note: When he uses Postman, you can simply use your browser.
-
-There are some parts that you can safely ignore:
-
-- 16:50-21:10 Ignore this bit about serving static files
-- 25:10-31:10 Ignore this bit about creating a middleware function.
-
-## 3) Chrome Dev Tools (2 Hours)
+## 2) Chrome Dev Tools (2 Hours)
 
 Look at a request in Chrome Dev Tools
 
@@ -104,7 +104,7 @@ Share your answers with the other trainees in your Buddy Group or on your Slack 
 
 Did you get different answers to other people? Ask them how they worked them out!
 
-## 4) Quote Server API Project (10 hours) 🔑
+## 3) Quote Server API Project (10 hours) 🔑
 
 Take a look at this repository:
 
@@ -118,7 +118,7 @@ To complete the coursework you should:
 2. Complete the tasks
 3. Create a pull request back to the original repository
 
-## 5) Prepare a Presentation (1 hour)
+## 4) Prepare a Presentation (1 hour)
 
 Prepare a VERY simple recap of what we did and what we learned in today's class in Node Week 1.
 
@@ -130,7 +130,7 @@ Next class we will be presenting a few of them in small groups to each other to 
 
 NOTE: Slides (or presenting from computer) are NOT allowed.
 
-## 6) CodeWars (1 hour)
+## 5) CodeWars (1 hour)
 
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
@@ -138,11 +138,11 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the collection on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) Challenges (Stretch)
+## 6) Challenges (Stretch)
 
 https://github.com/CodeYourFuture/cyf-node-challenges
 
-## 8) Brag Diary (PD - 30 min)
+## 7) Brag Diary (PD - 30 min)
 
 Write your first entry for your Brag Diary. This will be the record of your achievements, the moments you feel proud about yourself. Think positively, you might find more to write than you think.
 
