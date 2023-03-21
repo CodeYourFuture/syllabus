@@ -4,6 +4,52 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+## 0) Flipped Classroom Practice (3h)
+
+### Exercise 1.1
+
+Think carefully and try to answer the following questions:
+
+⏰ Don't spend longer than 30 minutes on this exercise\
+📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
+
+a) **Define** an interface? (Think about the answer in multiple contexts, including programming )
+
+b) **Explain** why do we need to use an interface in programming? (Advanced)
+
+c)\
+i) **List** 3 things that are part of the NodeJS API\
+ii) **List** 3 things that are part of the Jest API\
+iii) **List** 3 things that are part of the Spotify API\
+iv) **Explain** why Jest is _not_ a web-based API and why Spotify is a web-based API.
+
+Submit your responses by responding on the Google Classroom "Prepare for Saturday's class" assignment. Verify your answers using discussions on Slack if you're struggling to answer these questions.
+
+### Exercise 1.2
+
+Pick a couple of the APIS below and experiment with them, modify the requests, report your findings.
+
+⏰ Don't spend longer than 20 minutes on this exercise\
+📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
+
+- http://www.tvmaze.com/api
+  - e.g. http://api.tvmaze.com/shows/82/episodes
+- Sunrise/Sunset times: https://sunrise-sunset.org/api
+  - e.g. Sunset in Bethnal Green: https://api.sunrise-sunset.org/json?lat=51.5311&lng=0.0481
+- Google Books API: https://www.googleapis.com/books/v1/volumes?q=isbn:0747532699
+- Star Wars API: https://swapi.co/
+  - e.g.https://swapi.co/api/people/1/
+- UK Police Data. https://data.police.uk/docs/
+  - e.g. street-level crimes, Old Street, London: https://data.police.uk/api/crimes-street/all-crime?lat=51.5268&lng=0.0866
+- iTunes Search API: https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/
+  - e.g. All Beyonce's music videos: https://itunes.apple.com/search?term=beyonce&entity=musicVideo
+- CYF resource-library https://resource-library.codeyourfuture.io/api/resources
+- (Difficult) Wikipedia API: https://en.wikipedia.org/w/api.php?
+
+:::
+
+### Exercise 2.1
+
 ## 1) Reading (2 Hours)
 
 ### Read about HTTP messages
@@ -85,6 +131,7 @@ Next class we will be presenting a few of them in small groups to each other to 
 NOTE: Slides (or presenting from computer) are NOT allowed.
 
 ## 6) CodeWars (1 hour)
+
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
 Every week you need to complete at least three kata. Spend at least 20 minutes, three times a week, on your kata workout.
@@ -100,4 +147,3 @@ https://github.com/CodeYourFuture/cyf-node-challenges
 Write your first entry for your Brag Diary. This will be the record of your achievements, the moments you feel proud about yourself. Think positively, you might find more to write than you think.
 
 Take turns to present your diary entries in your group meetings with your PD buddy.
-
