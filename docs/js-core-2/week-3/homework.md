@@ -100,3 +100,28 @@ Have you completed all of the above homework?
 Pick one of the challenges in this repository and complete it.
 
 https://github.com/CodeYourFuture/JavaScript-Core-2-Challenges
+
+## 8) Teamwork Project - How is your group working? (PD - 1 hr)
+
+By now you have had a chance to work with your team for some time. Some teams are working very well together and some teams are not. But do you know why your team is performing like it is? 
+
+1. Read the introduction article ["Belbin's Team Roles"](https://www.mindtools.com/pages/article/newLDR_83.htm) from MindTools and watch the video
+2. Think about your team and how it has been working together. 
+3. What role(s) have you taken as part of your team? You can refer to the ["Belbin Team Roles summary sheet"](https://drive.google.com/file/d/1GBSHVjba9_frlEYmvxOPILsyYT4BVvVw/view?usp=drive_web&authuser=0).
+4. What role(s) are your other team members taking? 
+5. Is there something you can do now to change in order to help your group perform better? 
+6. Write your reflections and to your student area
+
+Extra material: ["Team roles in a nutshell"](https://drive.google.com/file/d/188asjInD3_UW3wAj4EDCSuC70lz3gYvK/view?usp=drive_web&authuser=0)
+
+## 9) Teamwork Project - Presentations (PD - 3 hr)
+
+In the next session, you will present your learning and work during the Teamwork Project.
+
+Presentation format: 
+
+- You must present your project's brief, how you will work together, what your current barriers are to doing the work and how you will overcome them, how you will manage conflicts within your group
+- Everyone in your team should get a chance to speak; some of you may speak longer and some shorter, have a team decision
+- You will have 5 minutes to present
+
+Post your presentation slide deck to your student area.
