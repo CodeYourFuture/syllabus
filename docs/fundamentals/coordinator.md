@@ -10,7 +10,9 @@ To participate in Fundamentals, trainees must have completed [Intro To Digital](
 
 ## Cohort size
 
-A Fundamentals cohort should be no more than 40 people. If you have more than this, you need to split into more cohorts. Consider staggering your cohorts.
+A Fundamentals cohort has a maximum size of 40 people. If you have more than 40 candidates, you need to split into more cohorts. For example: if you have 43 candidates, split the group into two cohorts of 22 and 21 respectively.
+
+Launch the second cohort a minimum of 4 weeks later.
 
 ## Setting up
 
@@ -35,6 +37,6 @@ You can set all the coursework up before the coursework starts, but do check you
 
 ## Graduation
 
-Graduation will happen the week after, as trainees have work to complete after the last session in order to graduate.
+Graduation will happen the week after, as trainees have work to complete after the last session in order to graduate. You will track this work on the Fundamentals Tracker. There is a template in our Drive.
 
 Everyone who meets the graduation criteria may be invited to the Software Development Course. You are not obliged to invite everyone.
