@@ -29,7 +29,7 @@ The Coordinator owns the schedule of the Fundamentals Course and leads a mid wee
 
 ## Coursework
 
-A mentor needs to run the Google Classroom and make sure coursework is posted according to the schedule. This can be the Coordinator or another volunteer. Each week of the course has a coursework page and suggested courseowrk is listed there.
+A mentor needs to run the Google Classroom and make sure coursework is posted according to the schedule. This can be the Coordinator or another volunteer. Each week of the course has a coursework page and suggested coursework is listed there.
 
 There is a Boilerplate Classroom you should clone in our shared Google Workspace with a draft version of each piece of work. Clone the boilerplate and then  schedule your coursework with publish and due dates.
 
