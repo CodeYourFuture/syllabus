@@ -1337,7 +1337,7 @@ Discuss as a class:
 Exercise (5 minutes)
 
 **Exercise objective:** To get familiar with different processes in the software development cycle
-Match the process to the stage in the software development cycle (SDC) as a class. Don’t go too much into detail, you can do some research later if you would like to learn more. These processes vary from company to company, and determine what steps need to happen before code is shipped to production. They aim to reduce the risk of mistakes going to production. For example during the deployment process, code is reviewed by at least one person, deployed to a testing environment (server), successfully tested by a QA, and the release is scheduled to a time approved by the end customer.
+Match the process to the stage in the software development lifecycle (SDLC) as a class. Don’t go too much into detail, you can do some research later if you would like to learn more. These processes vary from company to company, and determine what steps need to happen before code is shipped to production. They aim to reduce the risk of mistakes going to production. For example during the deployment process, code is reviewed by at least one person, deployed to a testing environment (server), successfully tested by a QA, and the release is scheduled to a time approved by the end customer.
 
 Process:
 
