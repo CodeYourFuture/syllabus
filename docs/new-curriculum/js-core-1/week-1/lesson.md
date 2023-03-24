@@ -136,7 +136,11 @@ After we've hit enter to evaluate, we then get the following:
 
 ![round-img](./assets/math.round-evaluated.png)
 
-So in this case, the REPL is telling us that Math.round is a set of instructions we can use for rounding numbers. But we need to actually get Node to read those instructions and execute the instructions. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
+So in this case, the REPL is telling us that Math.round is a set of instructions we can use for rounding numbers.
+
+### Calling a function
+
+Once we have the name for the function, we need to actually get Node to read the function's instructions and execute them. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
 
 `Math.round(10.3)`
 This expression is a call expression: it can be thought of as saying apply the set of instructions for Math.round to the number 10.3.
@@ -176,14 +180,31 @@ This command is an instruction to execute the program written inside index.js. O
 `10 / 3;` the machine will evaluate this expression
 
 Once the machine has evaluated these values the execution of the program is finished.
-However, we’re left with a problem. With the REPL, an expression is inputted by the user and the computer evaluates this and then immediately prints the result. It then loops back and prompts the user for another input. However, in the new example, the computer will go through and execute each line sequentially till it's finished. So this presents a new problem:
+However, we’re left with a problem. With the REPL, an expression is inputted by the user and the computer evaluates this and then immediately prints the result. It then loops back and prompts the user for another input. However, in the new example, the computer will go through and execute each line sequentially till it's finished.
+
+:::problem
+So this presents a new problem:
 “how can we inspect the state of our program during runtime?”
 
-In other words, how can I print values to the terminal when my program is being executed. In order to do this, we can use another function.
+In other words: "how can I print values to the terminal when my program is being executed?"
+
+:::
+
+In order to do this, we can use another function.
 
 ### Printing to the terminal
 
-In order to print an expression’s result to the terminal we can make use of a function called `console.log` . `console.log` will allow us to print values and expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
+In order to print an expression’s result to the terminal we can make use of a function called `console.log`.  
+`console.log` will allow us to print values and expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
+Let's see how to use `console.log`
+
+In the file, we can write name of the function `console.log`
+
+```repl
+console.log;
+```
+
+However, if we run this file with Node, we won't be able to see anything in the terminal. As with the previosy example
 
 ### Saving expressions for reference
 
