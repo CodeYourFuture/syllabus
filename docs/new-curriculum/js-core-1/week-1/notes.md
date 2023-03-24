@@ -139,7 +139,7 @@ Definition: A function is a reusable set of instructions.
 
 In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So for this purpose, we could make use of a function called `Math.round`. A function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. As well, functions often take inputs and then apply the set of instructions to the input in order to produce an output.
 
-Let’s see how we can use Math.round in the Node REPL.
+Let’s see how we can use `Math.round` in the Node REPL.
 
 So we can write `Math.round` in the Node REPL:
 
@@ -149,16 +149,16 @@ After we've hit enter to evaluate, we then get the following:
 
 ![round-img](./assets/math.round-evaluated.png)
 
-So in this case, the REPL is telling us that Math.round is a set of instructions we can use for rounding numbers.
+So in this case, the REPL is telling us that `Math.round` is a set of instructions we can use for rounding numbers.
 
 ### Calling a function
 
 Once we have the name for a function, we need to actually get Node to read the function's instructions and execute them. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
 
 `Math.round(10.3)`
-This expression is a call expression: it can be thought of as saying apply the set of instructions for Math.round to the number 10.3.
+This expression is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number 10.3.
 
-If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that Math.round(10.3) evaluates to 10.
+If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that `Math.round(10.3)` evaluates to 10.
 
 :::note
 Important to note that `Math.round` is **implementation opaque**. **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
