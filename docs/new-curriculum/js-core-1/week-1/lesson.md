@@ -182,7 +182,7 @@ We can write node sums.js
 This command is an instruction to execute the program written inside index.js. Our program consists of 3 lines, each line an expression. So the machine will start:
 
 `10 + 3;` the machine will evaluate this expression  
-`10 \* 3;` the machine will evaluate this expression  
+`10 * 3;` the machine will evaluate this expression  
 `10 / 3;` the machine will evaluate this expression
 
 Once the machine has evaluated these values the execution of the program is finished.
