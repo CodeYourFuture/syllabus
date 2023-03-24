@@ -88,7 +88,7 @@ Loop
 
 :::
 
-The Node REPL allows us to write expressions and then use Node to evaluate them.
+The Node REPL allows us to write expressions and evaluate them.
 Let’s try this out:
 
 ```REPL
@@ -103,10 +103,11 @@ Let’s try this out:
 3 ** 4
 ```
 
-So with this in mind, we can evaluate expressions using Node. In addition to this, we can use operators.
-
-So in these questions, we have two numbers, 10 and 32, and some sort of operation in each case sum, product and remainder. Instead of writing sum of 10 and 32, we can write 10 + 32.
-10 + 32, consists of the number 10, the symbol + and the number 32. So this group of symbols represents the sum of 10 and 32. We also say that 10 + 32 is an expression.
+We can evaluate expressions using Node. In addition to this, we can use operators.
+So in these questions, we have two numbers, 10 and 32, and some sort of operation in each case sum, product and remainder.  
+Instead of writing "sum of 10 and 32", we can write `10 + 32`.
+The symbols `10 + 32`, consists of the number `10`, the symbol `+` and the number `32`. So this _group of symbols represents the sum of 10 and 32_.
+In JavaScript, we say that 10 + 32 is an **expression**.
 
 An expression is a combination of values and operators that will evaluate to a single value. So we say that 10 + 32 evaluates to 42.
 
@@ -114,20 +115,22 @@ Let’s consider an example to make this more clear
 
 ### Saving expressions
 
-Often in programming we want to store an expression for further use. Let’s consider the following expression:
+Often in programming we want to store an expression for further use. Let’s consider the following string:
 
 ```js
-const message = “Hello there”
+"Hello there";
 ```
 
-The variable message now stores a string “hello there”.
+We may have a situation where we want to reuse a particular expression in our program.
+
+The variable message now stores a string “hello there”. We can
 
 ### Reusing instructions
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
 
-> 🤔 "What is the nearest whole number to `10.3`?”
+> 🤔 "What is the nearest whole number to `10.3`?"
 
 The process of finding the nearest whole number to 10.3 is called **rounding**. So we could rephrase the previous question to be:
 
@@ -168,7 +171,6 @@ If we type `Math.round(10.3)` then again we get the result 10. So once more we c
 Important to note that `Math.round` is **implementation opaque**. **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
 :::
 
-Let a = 10.3;
 We can round this number to the nearest whole number.
 However, this task is something we may want to do again and again. It feels reasonable to assume that we’ll need to round a number again in the future. For this purpose we can make use of a function.
 
@@ -184,7 +186,7 @@ Let’s suppose we have a file `index.js` like this:
 
 ```js title="index.js"
 10 + 3;
-10 \* 3;
+10 * 3;
 10 / 3;
 ```
 
@@ -192,17 +194,17 @@ We can write node sums.js
 
 This command is an instruction to execute the program written inside index.js. Our program consists of 3 lines, each line an expression. So the machine will start:
 
-`10 + 3;` the machine will evaluate this expression  
-`10 * 3;` the machine will evaluate this expression  
-`10 / 3;` the machine will evaluate this expression
+`10 + 3;` the computer will evaluate this expression  
+`10 * 3;` the computer will evaluate this expression  
+`10 / 3;` the computer will evaluate this expression
 
-Once the machine has evaluated these values the execution of the program is finished.
+Once the computer has evaluated these values the execution of the program is finished.  
 However, we’re left with a problem. With the REPL, an expression is inputted by the user and the computer evaluates this and then immediately prints the result. It then loops back and prompts the user for another input. However, in the new example, the computer will go through and execute each line sequentially till it's finished.
 
-:::problem
-So this presents a new problem:
-“how can we inspect the state of our program during runtime?”
+So this new problem can be expressed as a question:
 
+:::problem
+"how can we inspect the state of our program during runtime?"
 In other words: "how can I print values to the terminal when my program is being executed?"
 
 :::
@@ -221,7 +223,7 @@ In the file, we can write name of the function `console.log`
 console.log;
 ```
 
-However, if we run this file with Node, we won't be able to see anything in the terminal. As with the previosy example
+However, if we run this file with Node, we won't be able to see anything in the terminal.
 
 ### Saving function output
 
@@ -234,14 +236,22 @@ Let’s consider the following file, `arithmetic.js`;
 const result = Math.round(10.3);
 ```
 
-When this program is executed, it creates a variable called result and assign to the output of the function.
+When this program is executed, it creates a variable called result and assigns to it **the output of the function**, in this case the rounded number.
+So `result` will evaluate to `10`.
+
 Let’s consider what happens with the following file, `log.js`:
 
-```js title="arithmetic.js"
+```js title="log.js"
 const result = console.log("hello world");
 ```
 
-When this program is executed, the result will evaluate to be undefined. We could add another log to our program in order to verify this claim. Essentially, console.log’s output will always be undefined.
+When this program is executed, the variable `result` will evaluate to `undefined`.
+
+:::info
+`undefined` is a data type in JavaScript often used to represent the absence of a specific value
+:::
+
+We could add another log to our program in order to verify this claim. Essentially, console.log’s output will always be undefined.
 
 :::note
 Key fact: `console.log` is used to print its inputs to the terminal. It doesn’t produce an output in the running program.
