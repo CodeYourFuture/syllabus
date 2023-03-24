@@ -35,7 +35,9 @@ What is a computer program? A computer program is a set of instructions that can
 
 In computer programming, we use different programming languages - a particular set of rules for writing computer programs. Any programming language will have different forms of data that we call data types.
 
-A data type is a grouping of data, which has some particular properties.
+:::note
+A **data type** is a grouping of data, which has some particular properties.
+:::
 
 In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have a number data type. Any whole number or decimal number is part of the number data type.
 
@@ -57,7 +59,11 @@ The actual combination of symbols 10 + 32 we say is an expression. An expression
 
 ### Evaluating expressions with Node
 
-We can look at an expression like this 36 _ 45 and ask what this expression evaluates to? If we understand what the _ operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression. However, firstly we can use a computer runtime to evaluate some basic expressions. For this purpose we can use the Node REPL.
+We can look at an expression like this `36 * 45` and ask what this expression evaluates to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
+However, we can use a computer program to evaluate some basic expressions.
+NodeJS is a JavaScript runtime program - it is a computer program that enables us to run JavaScript programs.
+
+For this purpose we can use the Node REPL.
 
 :::note
 
@@ -109,7 +115,7 @@ const message = “Hello there”
 
 The variable message now stores a string “hello there”.
 
-Reusing instructions
+### Reusing instructions
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
@@ -138,9 +144,9 @@ After we've hit enter to evaluate, we then get the following:
 
 So in this case, the REPL is telling us that Math.round is a set of instructions we can use for rounding numbers.
 
-### Calling a function
+### Calling a function
 
-Once we have the name for the function, we need to actually get Node to read the function's instructions and execute them. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
+Once we have the name for a function, we need to actually get Node to read the function's instructions and execute them. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
 
 `Math.round(10.3)`
 This expression is a call expression: it can be thought of as saying apply the set of instructions for Math.round to the number 10.3.
