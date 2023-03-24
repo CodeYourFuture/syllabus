@@ -17,9 +17,9 @@
 - Explain how we use operators
 - Evaluate basic JS expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
-- Identify the key features of a call site: identifier; parentheses, argument
+- Identify the key features of a function call expression: identifier; parentheses, argument
 - Execute a JavaScript file using NodeJS
-- Print certain JS expressions to the terminal with
+- Log JavaScript expressions to the terminal
 - Predict the console output when a basic JS program is executed using Node
 
 ## Key vocabulary
@@ -54,8 +54,15 @@ a) What is the sum of 10 and 32?
 b) What is the product of 10 and 32?  
 c) What is the remainder when 32 is divided by 10?
 
-From question a), instead of saying “the sum of 10 and 32” we can rewrite this description using numbers and a symbol. So “the sum of 10 + 32” can be written as “10 + 32”. In this example, + is an operator: an operator is a symbol that is used to represent some kind of action or process. In this example, + is used to represent the action “add the 2 numbers together”.
-The actual combination of symbols 10 + 32 we say is an expression. An expression is a value or any combination of values and operators that results in a single value. We say that expressions evaluate to a single value. So we say that 10 + 32 evaluates to the value 42.
+From question a), instead of saying “the sum of 10 and 32” we can rewrite this description using numbers and a symbol. So “the sum of 10 + 32” can be written as “10 + 32” in a symbolic form.
+
+In this example, `+` is an operator: an **operator** is a symbol that is used to represent some kind of action or process. In this example, `+` is used to represent the action “add the 2 numbers together”.
+
+The actual combination of symbols `10 + 32` we say is an **expression**.
+
+:::info
+An **expression** is a value or any combination of values and operators that results in a single value. We say that expressions evaluate to a single value. So we say that `10 + 32` evaluates to the value `42`.
+:::
 
 ### Evaluating expressions with Node
 
@@ -171,7 +178,7 @@ So we can write `node <name-of-file>`
 
 Let’s suppose we have a file `index.js` like this:
 
-```jsx title="index.js"
+```js title="index.js"
 10 + 3;
 10 \* 3;
 10 / 3;
@@ -212,25 +219,26 @@ console.log;
 
 However, if we run this file with Node, we won't be able to see anything in the terminal. As with the previosy example
 
-### Saving expressions for reference
+### Saving function output
 
-Often in programs we may want to refer to a particular expression over and over again. Let’s consider the following example.
+Often in programs we may want to refer to a particular expression over and over again.
 
-With our knowledge of functions and variables, we can use variables to store the output from a function. Let’s write the following;
+With our knowledge of functions and variables, we can use variables to store the output from a function.
+Let’s consider the following file, `arithmetic.js`;
 
-```js
+```js title="arithmetic.js"
 const result = Math.round(10.3);
 ```
 
-When this program is executed, it creates a variable called result and assign to it a value of
+When this program is executed, it creates a variable called result and assign to the output of the function.
+Let’s consider what happens with the following file, `log.js`:
 
-Checking console.log output
-Let’s consider what happens with the following piece of code:
-
-```js
-const result = console.log(‘hello world’);
+```js title="arithmetic.js"
+const result = console.log("hello world");
 ```
 
 When this program is executed, the result will evaluate to be undefined. We could add another log to our program in order to verify this claim. Essentially, console.log’s output will always be undefined.
 
-Key fact: console.log is used to print its inputs to the terminal. It doesn’t produce an output in the running program.
+:::note
+Key fact: `console.log` is used to print its inputs to the terminal. It doesn’t produce an output in the running program.
+:::
