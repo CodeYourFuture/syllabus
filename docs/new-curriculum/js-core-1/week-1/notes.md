@@ -15,7 +15,7 @@
 - Define an expression
 - Define the term “implementation opaque”
 - Explain how we use operators
-- Evaluate basic JS expressions using the Node REPL
+- Evaluate basic JavaScript expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
 - Identify the key features of a function call expression: identifier; parentheses, argument
 - Execute a JavaScript file using NodeJS
@@ -126,18 +126,22 @@ The variable message now stores a string “hello there”.
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
-“What is the nearest whole number to 10.3?” The process of finding the nearest whole number to 10.3 is called rounding. So we could rephrase the question to be:
-“What does the number 10.3 round to?”
 
-Again we can use NODE REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no operator for rounding the number 10.3. Instead this time we can use a function.
+> 🤔 "What is the nearest whole number to `10.3`?”
+
+The process of finding the nearest whole number to 10.3 is called **rounding**. So we could rephrase the previous question to be:
+
+> 🤔 "What does the number `10.3` round to?”
+
+Again we can use NODE REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no operator for rounding the number 10.3. Instead this time we must use a **function**.
+
+In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So for this purpose, we can make use of a function called `Math.round`. A function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. Functions will often take **inputs** and then **apply the set of instructions to the input** in order to produce an **output**.
 
 :::note
 
 Definition: A function is a reusable set of instructions.
 
 :::
-
-In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So for this purpose, we could make use of a function called `Math.round`. A function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. As well, functions often take inputs and then apply the set of instructions to the input in order to produce an output.
 
 Let’s see how we can use `Math.round` in the Node REPL.
 
