@@ -25,7 +25,7 @@ We've hosted some Servers on Glitch but they're not quite working properly. Coul
 
 Take a look at this repository:
 
-https://github.com/CodeYourFuture/node-challenge-chat-server
+[Chat Server](https://github.com/CodeYourFuture/Node-Coursework-Week2)
 
 In that repository you will find a task to create a Chat Server.
 
