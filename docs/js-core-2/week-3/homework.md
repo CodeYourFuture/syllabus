@@ -4,48 +4,13 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
-<!--
-## 1) Review Solutions for Last Weeks Coursework
+## 0) Flipped Classroom Practice (3h)
 
-Before starting this week, be sure to review the solutions for last weeks coursework
+1. Fork and clone https://github.com/CodeYourFuture/JavaScript-Core-2-Classwork-Week3 and complete the tasks in 1-exercises/exercise.js (the videos in the playlist will help you break down into steps)
 
-https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week1-Solution
+2. Revisit your [CYF Blocks](https://blocks.codeyourfuture.io) exercises and projects. Examine the generated code and compare with what you have just learned. Bring any questions to class.
 
-Make sure you work out what you don't understand and spend some time considering how the code works.
-
-In each of the folders you'll find a `solutions.md` file that will explain more of the solution to you. You should read each of them.
-
-**Note**: This is a private repository. Please speak to your Teacher, Buddy or Class Coordinator to get access. You should ask them to invite your whole class.
-
--->
-
-## 1) Complete this online course (4 hours)
-
-You should complete the following sections from this online tutorial:
-
-- Get ready to make your webpages interactive
-- JS and the DOM
-- DOM access methods
-- DOM modification
-- DOM events
-
-https://www.khanacademy.org/computing/computer-programming/html-css-js
-
-## 2) Study these DOM materials (1 hour)
-
-### Readings
-
-- MDN - Introduction to the DOM
-  - https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-- Eloquent JavaScript - The Document Object Model
-  - https://eloquentjavascript.net/14_dom.html
-
-### Watch
-
-- Coding Train - HTML/CSS/DOM
-  - https://thecodingtrain.com/Tutorials/8-html-css-dom/
-
-## 3) JavaScript Challenges (3 hours) 🔑
+## 1) JavaScript Challenges (3 hours) 🔑
 
 Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
 
@@ -55,7 +20,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
 Before you start, **make sure you fork the repository** to your Github account.
 
-## 4) JavaScript Projects (8 hours)
+## 2) JavaScript Projects (8 hours)
 
 Next, in the same repository complete all of the exercises in the "Project" folder.
 
@@ -63,7 +28,7 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Coursework-Week3
 
 If you finish all of those, spend some time
 
-## 5) Give feedback on your colleague's coursework (1 hour)
+## 3) Give feedback on your colleague's coursework (1 hour)
 
 Use what you learned in this lesson to give feedback to other trainees who have submitted their coursework.
 
@@ -85,7 +50,7 @@ Remember, you should use the Code Style Guide to help you
 
 https://syllabus.codeyourfuture.io/guides/code-style-guide
 
-## 6) CodeWars (1 hour)
+## 4) CodeWars (1 hour)
 
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars#codeyourfuture-collections
 
@@ -93,7 +58,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-2 Week 2 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) (Stretch) Extra Challenges
+## 5) (Stretch) Extra Challenges
 
 Have you completed all of the above homework?
 
