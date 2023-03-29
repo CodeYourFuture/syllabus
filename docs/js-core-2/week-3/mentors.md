@@ -46,6 +46,7 @@ Some questions/prompts that may be useful
 - What is an event?
 - What is an event listener/handler?
 - How are the callback functions in array methods/event listeners similar/different?
+- What is different/similar when coding directly in JavaScript vs CYF Blocks? (The concepts and problem-solving approach are the same, only the details of JavaScript syntax are different. Additionally, the DOM is handled with more embedding in CYF Blocks)
 
 ## Presentations
 
