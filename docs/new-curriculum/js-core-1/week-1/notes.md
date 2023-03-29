@@ -83,8 +83,8 @@ So we say that `10 + 32` **evaluates** to the value `42`.
 
 ### Evaluating expressions
 
-So we can look at an expression like this `36 * 45` and ask: what does this expression evaluate to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
-However, we can use a computer program to evaluate expressions. For this purpose, we can make use of NodeJS,
+So we can look at an expression like `36 * 45` and ask: what does this expression evaluate to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
+However, we can use computers to evaluate expressions. For this purpose, we can make use of NodeJS,
 which is a JavaScript runtime - it is an application that enables us to run JavaScript programs.
 
 Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
@@ -182,15 +182,16 @@ The process of finding the nearest whole number to 10.3 is called **rounding**. 
 
 > 🤔 "What does the number `10.3` round to?”
 
-Again we can use NODE REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no operator for rounding the number 10.3. Instead this time we must use a **function**.
-
-In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So for this purpose, we can make use of a function called `Math.round`. A function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. Functions will often take **inputs** and then **apply the set of instructions to the input** in order to produce an **output**.
+Again we can use Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number 10.3 in JavaScript.
+In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So in this case we can use a **function**.
 
 :::note
 
 Definition: A function is a reusable set of instructions.
 
 :::
+
+In particular, we can make use of a function called `Math.round`. Recalling the definition, a function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. Functions will often take **inputs** and then **apply their set of instructions to the inputs** in order to produce an **output**.
 
 Let’s see how we can use `Math.round` in the Node REPL.
 
@@ -210,7 +211,7 @@ Once we have the name for a function, we need to get Node to read the function's
 
 ![round-img](./assets/math.round-number-10.3.png)
 
-Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function.
+Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parantheses is the **input** we're passing to the function.
 
 :::note
 
@@ -253,7 +254,7 @@ However, we’re left with a problem. With the REPL, an expression is inputted b
 
 So this new problem can be expressed as a question:
 
-> #### ❓Problem
+> #### ❓ Problem
 >
 > "How can we inspect the state of our program during runtime?"
 > In other words: "how can I print values to the terminal when my program is being executed?"
