@@ -28,21 +28,29 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ### Elements of a computer program
 
-What is a computer program? A computer program is a set of instructions that can be executed by a computer. However, we could also view a computer program as something that consists of data and operations. In other words, a computer program is a set of instructions that defines data and operations on the data.
-
-ℹ️ Data consists of information in different forms: for example, numbers and text could be different forms of data.  
-ℹ️ Operations are anything that take data and modify existing data or create new data from the current data in the program.
-
-In computer programming, we use different programming languages - a particular set of rules for writing computer programs. Any programming language will have different forms of data that we call data types.
+What is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent.
+A running computer will store data in memory and this data will be updated during the execution of the program. So we could think of a computer program as defining data ( memory in the computer ) and operations ( things that update the data ). In other words, any computer program will specify what data we've got and how it will be changed.
 
 :::note
-A **data type** is a grouping of data, which has some particular properties.
+**Data** consists of information in different forms: for example, numbers and text could be different forms of data.
 :::
 
-In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have a number data type. Any whole number or decimal number is part of the number data type.
+:::note
+**Operations** are anything that take data and modify existing data or create new data from the current data in the program.
+:::
 
-For example, 10 is part of the number data type.
-3.14 is part of the number data type.
+### Classifying data
+
+In computer programming, we use different programming languages - a particular set of rules for writing computer programs. Any programming language will have different forms of data that we call **data types**.
+
+:::note
+A **data type** is a grouping of data with some particular properties.
+:::
+
+In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have a number of different data types. Any whole number or decimal number is part of the number data type.
+
+For example, `10` is part of the number data type.  
+`3.14` is also part of the number data type, as we include both whole numbers ( integers ) and non-whole numbers ( non-integers ) within the JavaScript data type.
 
 We also have the string data type in JavaScript. A string is a sequence of characters. In JavaScript a string is denoted using opening quotation marks and closing quotation marks.
 
@@ -50,80 +58,118 @@ We also have the string data type in JavaScript. A string is a sequence of chara
 
 Let's consider the numbers 10 and 32. Given these 2 numbers, we might want to ask several questions about these numbers:
 
-a) What is the sum of 10 and 32?  
-b) What is the product of 10 and 32?  
-c) What is the remainder when 32 is divided by 10?
+a) What is the **sum** of 10 and 32?  
+b) What is the **product** of 10 and 32?  
+c) What is the **remainder** when 32 is divided by 10?
 
-From question a), instead of saying “the sum of 10 and 32” we can rewrite this description using numbers and a symbol. So “the sum of 10 + 32” can be written as “10 + 32” in a symbolic form.
+From question a), instead of saying "the sum of 10 and 32" we can rewrite this description using numbers and a symbol. So “the sum of 10 and 32” can be written as `10 + 32` in symbolic form.
 
-In this example, `+` is an operator: an **operator** is a symbol that is used to represent some kind of action or process. In this example, `+` is used to represent the action “add the 2 numbers together”.
+```raw title="written form"
+the sum of 10 and 32
+```
 
+```raw title="symbolic form"
+10 + 32
+```
+
+In symbolic form, `+` is an operator: an **operator** is a symbol that is used to represent some kind of operation. In this example, `+` is used to represent the add operation “add the 2 numbers together”.  
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
 :::info
-An **expression** is a value or any combination of values and operators that results in a single value. We say that expressions evaluate to a single value. So we say that `10 + 32` evaluates to the value `42`.
+An **expression** is a value or any combination of values and operators that results in a single value.  
+We say that expressions **evaluate** to a single value.  
+So we say that `10 + 32` **evaluates** to the value `42`.
 :::
 
-### Evaluating expressions with Node
+### Evaluating expressions
 
-We can look at an expression like this `36 * 45` and ask what this expression evaluates to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
-However, we can use a computer program to evaluate some basic expressions.
-NodeJS is a JavaScript runtime program - it is a computer program that enables us to run JavaScript programs.
+So we can look at an expression like this `36 * 45` and ask: what does this expression evaluate to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
+However, we can use a computer program to evaluate expressions. For this purpose, we can make use of NodeJS,
+which is a JavaScript runtime - it is an application that enables us to run JavaScript programs.
 
-For this purpose we can use the Node REPL.
+Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
 
 :::note
 
-ℹ️ Definition: Node is a computer program that enables us to execute JavaScript programs.
-
-:::
-
-:::note
-
-ℹ️ Definition: REPL is a special type of program that stands for
-Read
-Evaluate
-Print
-Loop
+ℹ️ Definition: REPL is a special type of program that stands for  
+**Read**  
+**Evaluate**  
+**Print**  
+**Loop**
 
 :::
 
 The Node REPL allows us to write expressions and evaluate them.
-Let’s try this out:
+We can type each of the following expressions into the REPL and then press enter to check the result.
 
-```REPL
+```bash
 10 + 32
 ```
 
-```REPL
+```bash
 32 / 10
 ```
 
-```REPL
+```bash
 3 ** 4
 ```
 
-We can evaluate expressions using Node. In addition to this, we can use operators.
-So in these questions, we have two numbers, 10 and 32, and some sort of operation in each case sum, product and remainder.  
-Instead of writing "sum of 10 and 32", we can write `10 + 32`.
-The symbols `10 + 32`, consists of the number `10`, the symbol `+` and the number `32`. So this _group of symbols represents the sum of 10 and 32_.
-In JavaScript, we say that 10 + 32 is an **expression**.
-
-An expression is a combination of values and operators that will evaluate to a single value. So we say that 10 + 32 evaluates to 42.
-
-Let’s consider an example to make this more clear
-
 ### Saving expressions
 
-Often in programming we want to store an expression for further use. Let’s consider the following string:
+Often in programming we may have a situation where we want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
 
 ```js
 "Hello there";
 ```
 
-We may have a situation where we want to reuse a particular expression in our program.
+Suppose we want to reuse this greeting in several different parts of a our program. For example, we may want to create different greetings for different users, like:
 
-The variable message now stores a string “hello there”. We can
+```bash
+"Hello there Alicia";
+```
+
+```bash
+"Hello there Barny"
+```
+
+We can use a **variable** to store this string value so it can be referenced again in our program.
+
+:::info
+
+A **variable** is a label for a piece of data in our program. We can assign a piece of data to a particular label and then refer back to this label in our program.
+
+:::
+
+We can create a variable in our program by writing a **variable declaration**, in the following way:
+
+```js title="variable declaration"
+const greeting = "Hello there";
+```
+
+We can break down the different syntactic elements of this variable declaration:
+
+- `const` is a keyword standing for constant. It is a special word used to indicate that we're creating a variable
+- `greeting` is the variable name - like the name of the label for our piece of data.
+- `=` this is the assignment operator. It means assign to the label `greeting` the expression on the right hand side.
+- `"Hello there"` - this is the value we're assigning to the label `greeting`.
+
+We can type this variable declaration into the REPL:
+
+![greeting-variable-declaration](./assets/greeting-variable-declaration.png)
+
+Now we can refer to the label `greeting` again in the REPL:
+
+![reference-greeting](./assets/reference-greeting.png)
+
+Now we have the `greeting` variable stored in memory we can reuse it to build more expressions:
+
+![use-greeting-variable](./assets/use-greeting-variable.png)
+
+:::note
+
+In the example above, we're using backticks to create a template literal.
+
+:::
 
 ### Reusing instructions
 
@@ -156,25 +202,29 @@ After we've hit enter to evaluate, we then get the following:
 
 ![round-img](./assets/math.round-evaluated.png)
 
-So in this case, the REPL is telling us that `Math.round` is a set of instructions we can use for rounding numbers.
+So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
 
 ### Calling a function
 
-Once we have the name for a function, we need to actually get Node to read the function's instructions and execute them. Execution here means the program reading the instructions contained in the function and then performing the tasks in the program. So we can write the following:
+Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution here means the computer reading the instructions contained in the function and then performing the tasks defined in that function. So we can write the following in the REPL:
 
-`Math.round(10.3)`
-This expression is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number 10.3.
+![round-img](./assets/math.round-number-10.3.png)
+
+Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function.
+
+:::note
+
+Calling a function means the computer is going to read the function's instructions and carry out any instructions defined in the function.
+
+:::
+
+`Math.round(10.3)` is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number 10.3.
 
 If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that `Math.round(10.3)` evaluates to 10.
 
 :::note
 Important to note that `Math.round` is **implementation opaque**. **Implementation opaque** means we can’t read the set of instructions for `Math.round`. This is because `Math.round` was authored by the developers that created NodeJS.
 :::
-
-We can round this number to the nearest whole number.
-However, this task is something we may want to do again and again. It feels reasonable to assume that we’ll need to round a number again in the future. For this purpose we can make use of a function.
-
-A function is a reusable set of instructions. If we have a function with a set of instructions that rounds up we can reuse this function again and again to round any number.
 
 ### Running scripts
 
@@ -203,27 +253,34 @@ However, we’re left with a problem. With the REPL, an expression is inputted b
 
 So this new problem can be expressed as a question:
 
-:::problem
-"how can we inspect the state of our program during runtime?"
-In other words: "how can I print values to the terminal when my program is being executed?"
-
-:::
+> #### ❓Problem
+>
+> "How can we inspect the state of our program during runtime?"
+> In other words: "how can I print values to the terminal when my program is being executed?"
 
 In order to do this, we can use another function.
 
 ### Printing to the terminal
 
 In order to print an expression’s result to the terminal we can make use of a function called `console.log`.  
-`console.log` will allow us to print values and expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
+`console.log` will allow us to print expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
 Let's see how to use `console.log`
 
-In the file, we can write name of the function `console.log`
+In a file called `example.js`, we can write name of the function `console.log`
 
-```repl
+```js title="example.js"
 console.log;
 ```
 
 However, if we run this file with Node, we won't be able to see anything in the terminal.
+As with `Math.round` we need to use the syntax for calling this function.
+So we can add parentheses after the function name to indicate we're calling this function:
+
+```js title="example.js"
+console.log("hello there!");
+```
+
+Now if we our terminal, we should see the string "hello there!" logged out in the terminal.
 
 ### Saving function output
 
