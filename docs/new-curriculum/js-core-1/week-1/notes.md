@@ -26,9 +26,19 @@
 
 terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate, implementation, opaque
 
+### Understanding the computer 💻
+
+Computers are highly complex devices; it would be impossible to summarise here the different components that are used to build a modern computer. Instead we can form a useful abstraction in order to make sense of what a computer is and what it does. An **abstraction** is a simplification of something that is used to focus on certain key aspects of this particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it without us having to delve into the complex inner workings of the computer itself. So we begin with our abstraction:
+
+:::note
+
+Abstraction: A computer is a device used to store and process data. Computers have the capacity to store data through their memory and the ability to change this data through its processing capacity.
+
+:::
+
 ### Elements of a computer program
 
-What is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent.
+Given our knowledge of a computer we can go on to ask: what is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent.
 A running computer will store data in memory and this data will be updated during the execution of the program. So we could think of a computer program as defining data ( memory in the computer ) and operations ( things that update the data ). In other words, any computer program will specify what data we've got and how it will be changed.
 
 :::note
@@ -171,7 +181,7 @@ In the example above, we're using backticks to create a template literal. With t
 
 :::
 
-### Reusing instructions
+### Reusing instructions :
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
@@ -267,11 +277,13 @@ In order to print an expression’s result to the terminal we can make use of a 
 `console.log` will allow us to print expressions to the console. We also say that we log values to the console. This is very useful for complex programs when we need to inspect the result of certain expressions.
 Let's see how to use `console.log`
 
-In a file called `example.js`, we can write name of the function `console.log`
+In a file called `example.js`, we can write name of the function `console.log`.
 
 ```js title="example.js"
 console.log;
 ```
+
+We c
 
 However, if we run this file with Node, we won't be able to see anything in the terminal.
 As with `Math.round` we need to use the syntax for calling this function.
