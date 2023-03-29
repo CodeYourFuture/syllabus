@@ -116,7 +116,7 @@ We can type each of the following expressions into the REPL and then press enter
 
 ### Saving expressions
 
-Often in programming we may have a situation where we want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
+Often in programming we may want to reuse a particular expression in our program. In this case, we need a way to refer back to a particular expression. Let’s consider the following string:
 
 ```js
 "Hello there";
@@ -125,14 +125,14 @@ Often in programming we may have a situation where we want to reuse a particular
 Suppose we want to reuse this greeting in several different parts of a our program. For example, we may want to create different greetings for different users, like:
 
 ```bash
-"Hello there Alicia";
+"Hello there, Alicia";
 ```
 
 ```bash
-"Hello there Barny"
+"Hello there, Barny"
 ```
 
-We can use a **variable** to store this string value so it can be referenced again in our program.
+We can use a **variable** to store this string value so it can be referenced and used again.
 
 :::info
 
@@ -148,7 +148,7 @@ const greeting = "Hello there";
 
 We can break down the different syntactic elements of this variable declaration:
 
-- `const` is a keyword standing for constant. It is a special word used to indicate that we're creating a variable
+- `const` is a keyword used to indicate we're creating a variable.
 - `greeting` is the variable name - like the name of the label for our piece of data.
 - `=` this is the assignment operator. It means assign to the label `greeting` the expression on the right hand side.
 - `"Hello there"` - this is the value we're assigning to the label `greeting`.
@@ -167,7 +167,7 @@ Now we have the `greeting` variable stored in memory we can reuse it to build mo
 
 :::note
 
-In the example above, we're using backticks to create a template literal.
+In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we place the variable inside curly braces with a dollar sign in front.
 
 :::
 
@@ -180,10 +180,10 @@ Given the number `10.3`, we could ask:
 
 The process of finding the nearest whole number to 10.3 is called **rounding**. So we could rephrase the previous question to be:
 
-> 🤔 "What does the number `10.3` round to?”
+> 🤔 "What does the number `10.3` **round** to?”
 
 Again we can use Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number 10.3 in JavaScript.
-In programming, we may want to carry out a task many times. For example, we will often want to round numbers again and again. So in this case we can use a **function**.
+However, we will often want to carry out some kind of operation or series of operations repeatedly. For example, we will often want to round numbers again and again. So in this case we can use a **function**.
 
 :::note
 
