@@ -38,7 +38,7 @@ Abstraction: A computer is a device used to store and process data. Computers ha
 
 ### Elements of a computer program
 
-Given our knowledge of a computer we can go on to ask: what is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent.
+Given our knowledge of a computer we can go on to ask: what is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent in relation to the computer itself.
 A running computer will store data in memory and this data will be updated during the execution of the program. So we could think of a computer program as defining data ( memory in the computer ) and operations ( things that update the data ). In other words, any computer program will specify what data we've got and how it will be changed.
 
 :::note
