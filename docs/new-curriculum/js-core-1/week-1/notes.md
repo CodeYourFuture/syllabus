@@ -73,13 +73,14 @@ In other words, any computer program will specify what data we've got and how it
 
 ### Classifying data
 
-. Any programming language will have different forms of data that we call **data types**.
+In this course, we’re going to focus on the JavaScript programming language.
+Any programming language will have different forms of data that we call **data types**.
 
 :::note
 A **data type** is a grouping of data with some particular properties.
 :::
 
-In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have several different data types, like **numbers** and **strings**.
+In JavaScript, we have several different data types, like **numbers** and **strings**.
 
 For example, `10` is part of the number data type.  
 `3.14` is also part of the number data type, as we include both integers non-integers in this data type.
