@@ -16,6 +16,8 @@
 - Identify the syntactic features of a variable declaration
 - Explain why we use variable declarations
 - Define the term “implementation opaque”
+- Describe what template literals do
+- Create strings using variables and template literals
 - Explain how we use basic arithmetical operators
 - Evaluate basic JavaScript expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
@@ -181,8 +183,7 @@ Now we have the `greeting` variable stored in memory we can reuse it to build mo
 
 :::note
 
-In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we place the variable inside curly braces with a dollar sign in front.
-
+In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign and a set of curly braces. The variable name itself is then placed inside the curly braces. The value this variable holds is then placed inside the string.
 :::
 
 ### Reusing instructions
@@ -225,7 +226,7 @@ Once we have the name for a function, we need to get Node to read the function's
 
 ![round-img](./assets/math.round-number-10.3.png)
 
-Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parantheses is the **input** we're passing to the function.
+Notice now we have `(` and `)` parentheses after the name of the function and a number inside the parentheses. The parentheses indicate that we are calling the function. The number inside the parentheses is the **input** we're passing to the function.
 
 :::note
 
@@ -328,3 +329,5 @@ We could add another log to our program in order to verify this claim. Essential
 :::note
 Key fact: `console.log` is used to print its inputs to the terminal. It doesn’t produce an output in the running program.
 :::
+
+### Further reading
