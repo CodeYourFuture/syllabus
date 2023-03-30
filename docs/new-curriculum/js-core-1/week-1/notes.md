@@ -125,6 +125,7 @@ Node can be used in a number of different ways; however, one particular mode is 
 :::note
 
 ℹ️ Definition: REPL is a special type of program that stands for
+
 **Read**  
 **Evaluate**  
 **Print**  
