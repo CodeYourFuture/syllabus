@@ -64,7 +64,7 @@ A computer will store data in memory, which will be modified during the executio
 So we can think of a programming language as allowing us to describe **data** and **operations** on that data.
 
 :::note
-**Data** consists of information in different forms: for example, numbers and text could be different forms of data.
+**Data** consists of information in different forms: for example, numbers and text could be different forms of data. The data in a executing program is sometimes referred to as the **state**.
 :::
 
 :::note
