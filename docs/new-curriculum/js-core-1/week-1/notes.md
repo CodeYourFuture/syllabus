@@ -32,7 +32,7 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ### Understanding the computer 💻
 
-Modern computers are highly complex devices. It would be too difficult to summarise all the components that make up a modern computer. Instead, we can form a useful abstraction to make sense of what a computer is and what it does. An **abstraction** is a simplification that we use to focus on certain key aspects of a particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it. At the same time, we don't need to delve into the complex inner workings of the computer itself. So we begin with the following abstraction:
+Modern computers are highly complex devices. It would be too difficult to list all the components that make up a modern computer. Instead, we can form a useful abstraction to make sense of what a computer is and what it does. An **abstraction** is a simplification that we use to focus on certain key aspects of a particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it. At the same time, we don't need to delve into the complex inner workings of the computer itself. So we begin with the following abstraction:
 
 :::note
 
@@ -118,8 +118,7 @@ So we say that `10 + 32` **evaluates** to the value `42`.
 ### Evaluating expressions
 
 So we can look at an expression like `36 * 45` and ask: what does this expression evaluate to? If we understand what the `*` operator represents ( in this case multiplication ) and if we understand some basic rules of arithmetic we can evaluate this expression.  
-However, we can use computers to evaluate expressions. For this purpose, we can make use of NodeJS,
-which is a JavaScript runtime - it is an application that enables us to run JavaScript programs.
+However, we can use computers to evaluate expressions. We can use NodeJS, a JavaScript runtime, an application that runs JavaScript programs.
 
 Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input JavaScript expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
 
