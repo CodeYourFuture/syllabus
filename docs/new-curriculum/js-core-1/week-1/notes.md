@@ -28,7 +28,7 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ### Understanding the computer 💻
 
-Computers are highly complex devices; it would be impossible to summarise here the different components that are used to build a modern computer. Instead we can form a useful abstraction in order to make sense of what a computer is and what it does. An **abstraction** is a simplification of something that is used to focus on certain key aspects of this particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it without us having to delve into the complex inner workings of the computer itself. So we begin with our abstraction:
+Computers are highly complex devices; it would be impossible to summarise here all the different components that are used to build a modern computer. Instead we can form a useful abstraction in order to make sense of what a computer is and what it does. An **abstraction** is a simplification of something that is used to focus on certain key aspects of this particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it without us having to delve into the complex inner workings of the computer itself. So we begin with our abstraction:
 
 :::note
 
@@ -282,8 +282,6 @@ In a file called `example.js`, we can write name of the function `console.log`.
 ```js title="example.js"
 console.log;
 ```
-
-We c
 
 However, if we run this file with Node, we won't be able to see anything in the terminal.
 As with `Math.round` we need to use the syntax for calling this function.
