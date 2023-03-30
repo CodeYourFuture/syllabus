@@ -120,7 +120,7 @@ So we can look at an expression like `36 * 45` and ask: what does this expressio
 However, we can use computers to evaluate expressions. For this purpose, we can make use of NodeJS,
 which is a JavaScript runtime - it is an application that enables us to run JavaScript programs.
 
-Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
+Node can be used in a number of different ways; however, one particular mode is the REPL. The Node REPL enables us to input JavaScript expressions which are then evaluated by NodeJS and printed to the terminal. The REPL will print out the result of this evaluation.
 
 :::note
 
@@ -132,7 +132,6 @@ Node can be used in a number of different ways; however, one particular mode is 
 
 :::
 
-The Node REPL allows us to write expressions and evaluate them.
 We can type each of the following expressions into the REPL and then press enter to check the result.
 
 ```bash
@@ -155,7 +154,7 @@ Often in programming we may want to reuse a particular expression in our program
 "Hello there";
 ```
 
-Suppose we want to reuse this greeting in several different parts of a our program. For example, we may want to create different greetings for different users, like:
+Suppose we want to reuse this string in several different places. For example, we may want to create different greetings for different users, like:
 
 ```bash
 "Hello there, Alicia";
@@ -169,7 +168,7 @@ We can use a **variable** to store this string value so it can be referenced and
 
 :::info
 
-A **variable** is a label for a piece of data in our program. We can assign a piece of data to a particular label and then refer back to this label in our program.
+A **variable** is a label for a piece of data. We can assign a piece of data to a particular label and then refer back to this label.
 
 :::
 
@@ -215,7 +214,7 @@ The process of finding the nearest whole number to 10.3 is called **rounding**. 
 
 > 🤔 "What does the number `10.3` **round** to?”
 
-Again we can use Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number 10.3 in JavaScript.
+Again we can use Node REPL in order to round the number 10.3 to the nearest whole number. However, in this case, there is no arithmetical operator for rounding the number `10.3` in JavaScript.
 However, we will often want to carry out some kind of operation or series of operations repeatedly. For example, we will often want to round numbers again and again. So in this case we can use a **function**.
 
 :::note
@@ -224,16 +223,12 @@ Definition: A function is a reusable set of instructions.
 
 :::
 
-In particular, we can make use of a function called `Math.round`. Recalling the definition, a function is a reusable set of instructions: so in the case of `Math.round` it contains instructions for rounding any number. Functions will often take **inputs** and then **apply their set of instructions to the inputs** in order to produce an **output**.
-
-Let’s see how we can use `Math.round` in the Node REPL.
+In particular, we can make use of a function called `Math.round`. Recalling the definition, a function is a reusable set of instructions: so `Math.round` contains instructions for rounding any number. Functions will often take **inputs** and then **apply their set of instructions to the inputs** in order to produce an **output**.
 
 So we can write `Math.round` in the Node REPL:
-
 ![round-img](./assets/math.round-img.png)
 
 After we've hit enter to evaluate, we then get the following:
-
 ![round-img](./assets/math.round-evaluated.png)
 
 So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
