@@ -13,8 +13,10 @@
 - Describe the purpose of VSCode
 - Define the Node REPL
 - Define an expression
+- Identify the syntactic features of a variable declaration
+- Explain why we use variable declarations
 - Define the term “implementation opaque”
-- Explain how we use operators
+- Explain how we use basic arithmetical operators
 - Evaluate basic JavaScript expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
 - Identify the key features of a function call expression: identifier; parentheses, argument
@@ -101,7 +103,7 @@ Node can be used in a number of different ways; however, one particular mode is 
 
 :::note
 
-ℹ️ Definition: REPL is a special type of program that stands for  
+ℹ️ Definition: REPL is a special type of program that stands for
 **Read**  
 **Evaluate**  
 **Print**  
