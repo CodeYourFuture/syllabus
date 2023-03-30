@@ -43,6 +43,7 @@ Abstraction: A computer is a device used to store and process data. Computers ha
 ### Interacting with the computer
 
 As a user, we don't need to understand the complexities of the computer's inner workings. As users we will often need to harness the computer's memory and processing ability to perform some task. For this purpose, we can issue commands or instructions to the computer for it to carry out some tasks. A computer terminal is an application where users can enter commands to a computer. On a Mac, the terminal looks like this:
+
 ![terminal](./assets/terminal.png)
 
 The terminal appears as a window on the computer. The terminal prompts users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
