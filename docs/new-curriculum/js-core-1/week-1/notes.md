@@ -22,7 +22,7 @@
 - Evaluate basic JavaScript expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
 - Identify the key features of a function call expression: identifier; parentheses, argument
-- Execute a JavaScript file using NodeJS
+- Execute a JavaScript file using Node
 - Log JavaScript expressions to the terminal
 - Predict the console output when a basic JS program is executed using Node
 
@@ -246,11 +246,11 @@ Notice now we have `(` and `)` parentheses after the name of the function and a 
 
 :::note
 
-Calling a function means the computer is going to read the function's instructions and carry out any instructions defined in the function.
+Calling a function means telling the computer to read the function's instructions and carry out its instructions. When calling a function we can also pass inputs to the function.
 
 :::
 
-`Math.round(10.3)` is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number 10.3.
+`Math.round(10.3)` is a call expression: it can be thought of as saying apply the set of instructions for `Math.round` to the number `10.3`.
 
 If we type `Math.round(10.3)` then again we get the result 10. So once more we can say that `Math.round(10.3)` evaluates to 10.
 
@@ -260,7 +260,7 @@ Important to note that `Math.round` is **implementation opaque**. **Implementati
 
 ### Running scripts
 
-So far we’ve seen how expressions can be evaluated when using the NodeJS REPL. The Node REPL is a very useful tool for evaluating expressions quickly. However, most of the time, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use NodeJS to execute the instructions in a file.
+So far we’ve seen how expressions can be evaluated when using the Node REPL. The Node REPL is a very useful tool for evaluating expressions quickly. However, most of the time, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use Node to execute the instructions in a file.
 
 We can use the node command to run a JavaScript file. A JavaScript file ends with `.js` - this is known as the file extension.
 
