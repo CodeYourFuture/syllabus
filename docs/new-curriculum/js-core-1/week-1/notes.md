@@ -244,9 +244,9 @@ Important to note that `Math.round` is **implementation opaque**. **Implementati
 
 ### Running scripts
 
-So far we’ve seen how expressions can be evaluated when using NodeJS REPL mode. However, at some point, we need to write more complex programs that consist of multiple lines. Therefore we need to write our program in a file. Instead of using the Node REPL, we can use NodeJS to execute the instructions in a file.
+So far we’ve seen how expressions can be evaluated when using the NodeJS REPL. However, at some point, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use NodeJS to execute the instructions in a file.
 
-So we can write `node <name-of-file>`
+We can use the node command to run a JavaScript file. A JavaScript file ends with `.js` - this is known as the file extension.
 
 Let’s suppose we have a file `index.js` like this:
 
@@ -256,7 +256,7 @@ Let’s suppose we have a file `index.js` like this:
 10 / 3;
 ```
 
-We can write node sums.js
+In this case, we can write the command `node sums.js`.
 
 This command is an instruction to execute the program written inside index.js. Our program consists of 3 lines, each line an expression. So the machine will start:
 
