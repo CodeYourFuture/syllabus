@@ -30,7 +30,7 @@ terminal, console, function, call, invoke, argument, parentheses, REPL, evaluate
 
 ### Understanding the computer 💻
 
-Computers are highly complex devices; it would be impossible to summarise here all the different components that are used to build a modern computer. Instead we can form a useful abstraction in order to make sense of what a computer is and what it does. An **abstraction** is a simplification of something that is used to focus on certain key aspects of this particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it without us having to delve into the complex inner workings of the computer itself. So we begin with our abstraction:
+Modern computers are highly complex devices. It would be too difficult to summarise all the components that make up a modern computer. Instead, we can form a useful abstraction to make sense of what a computer is and what it does. An **abstraction** is a simplification that we use to focus on certain key aspects of a particular thing. In other words, we can form an **abstraction** of a computer that can give us some limited understanding of it. At the same time, we don't need to delve into the complex inner workings of the computer itself. So we begin with the following abstraction:
 
 :::note
 
@@ -40,8 +40,8 @@ Abstraction: A computer is a device used to store and process data. Computers ha
 
 ### Elements of a computer program
 
-Given our knowledge of a computer we can go on to ask: what is a computer program? A computer program is a set of instructions that can be executed by a computer. However, it is important to consider at a higher level what these instructions represent in relation to the computer itself.
-A running computer will store data in memory and this data will be updated during the execution of the program. So we could think of a computer program as defining data ( memory in the computer ) and operations ( things that update the data ). In other words, any computer program will specify what data we've got and how it will be changed.
+Given our knowledge of a computer, we can go on to ask: what is a computer program? A computer program is a set of instructions that a computer can execute.
+A computer will store data in memory, which will be modified during the execution of the program. So we could think of a computer program as defining data and operations.
 
 :::note
 **Data** consists of information in different forms: for example, numbers and text could be different forms of data.
@@ -51,18 +51,20 @@ A running computer will store data in memory and this data will be updated durin
 **Operations** are anything that take data and modify existing data or create new data from the current data in the program.
 :::
 
+In other words, any computer program will specify what data we've got and how it will be processed.
+
 ### Classifying data
 
-In computer programming, we use different programming languages - a particular set of rules for writing computer programs. Any programming language will have different forms of data that we call **data types**.
+In computer programming, we can make use of different programming languages. A programming language is a particular set of rules for writing computer programs. Any programming language will have different forms of data that we call **data types**.
 
 :::note
 A **data type** is a grouping of data with some particular properties.
 :::
 
-In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have a number of different data types. Any whole number or decimal number is part of the number data type.
+In this course, we’re going to focus on the JavaScript programming language. In JavaScript, we have several different data types, like **numbers** and **strings**.
 
 For example, `10` is part of the number data type.  
-`3.14` is also part of the number data type, as we include both whole numbers ( integers ) and non-whole numbers ( non-integers ) within the JavaScript data type.
+`3.14` is also part of the number data type, as we include both integers non-integers in this data type.
 
 We also have the string data type in JavaScript. A string is a sequence of characters. In JavaScript a string is denoted using opening quotation marks and closing quotation marks.
 
@@ -183,7 +185,7 @@ In the example above, we're using backticks to create a template literal. With t
 
 :::
 
-### Reusing instructions :
+### Reusing instructions
 
 Let’s consider another scenario. Instead of adding or multiplying numbers, we’ll consider a number like `10.3`.  
 Given the number `10.3`, we could ask:
