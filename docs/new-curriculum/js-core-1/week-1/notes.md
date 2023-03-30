@@ -109,7 +109,7 @@ In symbolic form, `+` is an operator: an **operator** is a symbol that is used t
 The actual combination of symbols `10 + 32` we say is an **expression**.
 
 :::info
-An **expression** is a value or any combination of values and operators that results in a single value.  
+An **expression** is a value or any valid combination of values and symbols that results in a single value.  
 We say that expressions **evaluate** to a single value.  
 So we say that `10 + 32` **evaluates** to the value `42`.
 :::
@@ -235,7 +235,7 @@ So in this case, the REPL output `[Function: round]` is indicating that `Math.ro
 
 ### Calling a function
 
-Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out So we can write the following in the REPL:
+Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out. So we can write the following in the REPL:
 
 ![round-img](./assets/math.round-number-10.3.png)
 
