@@ -333,7 +333,7 @@ Let’s consider what happens with the following file, `log.js`:
 const result = console.log("hello world");
 ```
 
-When this program is executed, the variable `result` will evaluate to `undefined`.
+When this program is executed, the variable `result` will evaluate to `undefined`. This is potentially confusing as `console.log` contains instructions that do something. `console.log` _does_ have an effect: it logs values to the console. However, inside our program, `console.log` doesn't produce an output that we can store in a variable.
 
 :::info
 `undefined` is a data type in JavaScript often used to represent the absence of a specific value
