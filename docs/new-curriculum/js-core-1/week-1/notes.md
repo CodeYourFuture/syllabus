@@ -47,7 +47,7 @@ As a user, we don't need to understand the complexities of the computer's inner 
 
 ![terminal](./assets/terminal.png)
 
-The terminal appears as a window on the computer. The terminal prompts users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
+The terminal appears as a window on the computer, prompting users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
 
 ![enter-ls-command](./assets/enter-ls-command.png)
 
