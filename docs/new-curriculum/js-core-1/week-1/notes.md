@@ -8,8 +8,6 @@
 ## Learning objectives
 
 - Define a terminal
-- Define a function
-- Define a function call
 - Describe the purpose of VSCode
 - Define the Node REPL
 - Define an expression
@@ -21,6 +19,8 @@
 - Explain how we use basic arithmetical operators
 - Evaluate basic JavaScript expressions using the Node REPL
 - Predict the result of evaluating an expression in JavaScript
+- Define a function
+- Define a function call
 - Identify the key features of a function call expression: identifier; parentheses, argument
 - Execute a JavaScript file using Node
 - Log JavaScript expressions to the terminal
@@ -264,9 +264,9 @@ So far we’ve seen how expressions can be evaluated when using the Node REPL. T
 
 We can use the node command to run a JavaScript file. A JavaScript file ends with `.js` - this is known as the file extension.
 
-Let’s suppose we have a file `index.js` like this:
+Let’s suppose we have a file `sums.js` like this:
 
-```js title="index.js"
+```js title="sums.js"
 10 + 3;
 10 * 3;
 10 / 3;
@@ -286,7 +286,7 @@ So this new problem can be expressed as a question:
 
 > #### ❓ Problem
 >
-> "How can we inspect the state of our program during runtime?"
+> "How can we inspect the data in our program during runtime?"
 > In other words: "how can I print values to the terminal when my program is being executed?"
 
 In order to do this, we can use another function.
