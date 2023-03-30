@@ -235,7 +235,7 @@ So in this case, the REPL output `[Function: round]` is indicating that `Math.ro
 
 ### Calling a function
 
-Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution here means the computer reading the instructions contained in the function and then performing the tasks defined in that function. So we can write the following in the REPL:
+Once we have the name for a function, we need to get Node to read the function's instructions and execute them. Execution means the computer reads the instructions and carries them out So we can write the following in the REPL:
 
 ![round-img](./assets/math.round-number-10.3.png)
 
@@ -257,7 +257,7 @@ Important to note that `Math.round` is **implementation opaque**. **Implementati
 
 ### Running scripts
 
-So far we’ve seen how expressions can be evaluated when using the NodeJS REPL. However, at some point, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use NodeJS to execute the instructions in a file.
+So far we’ve seen how expressions can be evaluated when using the NodeJS REPL. The Node REPL is a very useful tool for evaluating expressions quickly. However, most of the time, we need to write more complex programs that consist of many lines. So we need to write our program in a file. Instead of using the Node REPL, we can use NodeJS to execute the instructions in a file.
 
 We can use the node command to run a JavaScript file. A JavaScript file ends with `.js` - this is known as the file extension.
 
@@ -277,8 +277,7 @@ This command is an instruction to execute the program written inside index.js. O
 `10 * 3;` the computer will evaluate this expression  
 `10 / 3;` the computer will evaluate this expression
 
-Once the computer has evaluated these values the execution of the program is finished.  
-However, we’re left with a problem. With the REPL, an expression is inputted by the user and the computer evaluates this and then immediately prints the result. It then loops back and prompts the user for another input. However, in the new example, the computer will go through and execute each line sequentially till it's finished.
+Once the computer evaluates these expressions the execution of the program is complete. But, we’re left with a problem. With the REPL, the user inputs an expression, the computer evaluates it and then prints the result. It then loops back and prompts the user for another input. But now the computer will go and execute each line sequentially until completion.
 
 So this new problem can be expressed as a question:
 
