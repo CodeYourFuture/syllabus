@@ -13,7 +13,6 @@
 - Define an expression
 - Identify the syntactic features of a variable declaration
 - Explain why we use variable declarations
-- Define the term “implementation opaque”
 - Describe what template literals do
 - Create strings using variables and template literals
 - Explain how we use basic arithmetical operators
@@ -21,7 +20,9 @@
 - Predict the result of evaluating an expression in JavaScript
 - Define a function
 - Define a function call
+- Define the term “implementation opaque”
 - Identify the key features of a function call expression: identifier; parentheses, argument
+- Run and print the output of some basic JavaScript functions
 - Execute a JavaScript file using Node
 - Log JavaScript expressions to the terminal
 - Predict the console output when a basic JS program is executed using Node
