@@ -40,6 +40,19 @@ Abstraction: A computer is a device used to store and process data. Computers ha
 
 :::
 
+### Interacting with the computer
+
+As a user, we don't need to understand the complexities of the computer's inner workings. As users we will often need to harness the computer's memory and processing ability to perform some task. For this purpose, we can issue commands or instructions to the computer for it to carry out some tasks. A computer terminal is an application where users can enter commands to a computer. On a Mac, the terminal looks like this:
+![terminal](./assets/terminal.png)
+
+The terminal appears as a window on the computer. The terminal prompts users for inputs. So we can input a command into the prompt and hit enter for the computer to execute this command. For example, we can input the `ls` command into the terminal:
+
+![enter-ls-command](./assets/enter-ls-command.png)
+
+We can then press enter to issue this command to the computer and get a response:
+
+![ls-feedback](./assets/ls-feedback.png)
+
 ### Elements of a computer program
 
 Given our knowledge of a computer, we can go on to ask: what is a computer program? A computer program is a set of instructions that a computer can execute.
@@ -184,6 +197,7 @@ Now we have the `greeting` variable stored in memory we can reuse it to build mo
 :::note
 
 In the example above, we're using backticks to create a template literal. With template literals, we can insert expressions into strings to produce new strings. Any time we want to reference a variable inside a template literal we use a dollar sign and a set of curly braces. The variable name itself is then placed inside the curly braces. The value this variable holds is then placed inside the string.
+
 :::
 
 ### Reusing instructions
