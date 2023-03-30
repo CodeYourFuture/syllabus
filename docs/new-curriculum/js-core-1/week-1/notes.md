@@ -53,14 +53,13 @@ We can then press enter to issue this command to the computer and get a response
 
 ![ls-feedback](./assets/ls-feedback.png)
 
-### Elements of a computer program
+### Writing computer instructions
 
-We've seen we can issue commands to the computer using the terminal.
+We've seen we can issue commands to the computer using the terminal. These commands are instructions that the computer knows how to interpret. Given the `ls` command, the computer knows this is an instruction to list the files and directories in the current directory.
 However, we can make use of different programming languages. A programming language is a particular set of rules for writing computer instructions.
-Given our knowledge of a computer, we can go on to ask: what is a computer program? A computer program is a set of instructions that a written in a specific programming language. A computer can read these instructions and execute them.
 
-A computer will store data in memory, which will be modified during the execution of the program.
-So we could think of a computer program as defining data and operations.
+A computer will store data in memory, which will be modified during the execution of a program.
+So we can think of a programming language as allowing us to describe **data** and **operations** on that data.
 
 :::note
 **Data** consists of information in different forms: for example, numbers and text could be different forms of data.
