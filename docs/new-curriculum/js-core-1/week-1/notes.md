@@ -227,9 +227,11 @@ Definition: A function is a reusable set of instructions.
 In particular, we can make use of a function called `Math.round`. Recalling the definition, a function is a reusable set of instructions: so `Math.round` contains instructions for rounding any number. Functions will often take **inputs** and then **apply their set of instructions to the inputs** in order to produce an **output**.
 
 So we can write `Math.round` in the Node REPL:
+
 ![round-img](./assets/math.round-img.png)
 
 After we've hit enter to evaluate, we then get the following:
+
 ![round-img](./assets/math.round-evaluated.png)
 
 So in this case, the REPL output `[Function: round]` is indicating that `Math.round` is a function.
