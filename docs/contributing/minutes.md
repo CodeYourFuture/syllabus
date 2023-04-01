@@ -15,6 +15,104 @@ Attendees:
 ### ❗Actions
 
 ---
+## {2023-03-30}
+
+Attendees: Sally, Keith, Ali, Greg
+
+### ❗Actions from last time
+
+- [ ] Keith (with support), get Keith's SQL material into the syllabus
+- [x] Mitch: Raise an issue for fixing JS1 in short term with acceptance criteria
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [x] Ali & Mitch: share concept maps
+- [x] Greg: tag Ali in on tidying up js1 coursework
+- [x] Greg: put a meeting in for Sally to teach her how to write a block for CYF Blocks
+
+### 📝 Agenda points
+
+#### JS1 rewrite
+
+Mitch: 
+
+- Written an issue with acceptance criteria
+- Done draft of first week
+- Next steps
+  - Write out mind map + agree on it
+  - Others to pick weeks and write them
+- Github blocks should allow us to compose activities (so far only notes.md)
+
+- Sally: assume Sally will take care of the composition problem
+- Greg: composition: how to assemble the following for each topic, 
+  - the flipped classroom video
+  - the practice exercises
+  - the instructions for practice exercises
+  - the coursework
+  - the coursework solution
+  - the summary for the benefit of volunteers/TAs
+
+#### Single repo per module
+
+- Goal: get rid of google classroom in a way that's useful to people
+- Contains issues = homework
+- Trainees get a board to help their planning
+- Viewable by week
+- Can get overviews that give us some insight into the shape of our coursework
+- Some development work happening to facilitate trainees getting the issues from the sample board (existing extension, to be replaced by our own batch clone)
+- Syllabus can pull in the coursework from github
+- Long term, if that works, everything related to the syllabus will go there
+- Can try with JS3 for GLA6 and LDN10
+
+#### Think like a computer
+
+Greg demos where he's at with think like a computer so far
+
+- Mitch: "it's fucking awesome" (sic)
+- Ali: what's the value over a debugger?
+- Greg: definitely a good question to ask: meaningful goal = get a prototype, try it out with trainees and compare to teaching them to use the debugger.
+- Greg
+  - Doesn't just mutate state (e.g. variables in scope, go to next place in the callstack, etc.), but tell you what it's changing. Particularly valuable, e.g. for the addition of arguments to scope when a function is called
+  - Visualise "movement" (like passing around of post-its in physical think like a computer) - and specialised movement of callback functions
+  - Because it tells you what it's changing, it can be made into a quiz/"predict and evaluate" (and for different kinds of operation, either the computer could just do them, or it could pause and ask what will happen)
+
+#### Flipped classroom content
+
+Mitch
+
+- Produced up to JS3, with consistent supervision/creation from Mitch
+- Many small videos per week + practice materials
+- Lots of contributors from different locations
+- Negative: very time intensive to produce
+- Negative: in practice coordinating all the different contributors has been tricky
+- Doesn't seem sustainable to even finish this for JS3 -> Mitch will stop at end of JS2 and post on Slack to see where LDN10/GLA6 want to go
+- We should make playlists going forward for JS3 that point to playlists on youtube
+
+- Greg: would prefer we did our content in house, at least for JS1-3, because it's really good to have the right amount of context
+- Greg: concerned that the practice materials need to be really good and tied to the content
+- Greg: wonder whether having the degree of difficulty that's been put in is the right degree (varying from mind-numbingly easy, to maybe slightly too complex, with the goal that every trainee should have found the practice material doable to some extent)
+
+#### Recap materials
+
+- Greg: How do we collect the recap materials?
+- Greg: How do we retro on "what makes a good recap"
+- Greg: How do we scale recaps (make them so that any volunteer can run it with minimal prep)
+
+#### Prison project
+
+- Sally: one video so far
+- Sally: offline version of codepen
+- Sally: haven't solved Grasshopper + we'll need to solve it inhouse also
+
+- Criteria for Grasshopper:
+  - Content that's not too boring
+  - On phone
+  - 6-8h 
+
+
+### ❗Actions
+
+- [ ] Keith (with support), get Keith's SQL material into the syllabus
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] All: Mind map for JS1 concepts
 
 ## {2023-03-02}
 
