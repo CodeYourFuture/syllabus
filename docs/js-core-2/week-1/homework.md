@@ -225,3 +225,35 @@ This week we'll be introducing you to Git on the Command Line. You can find thes
 https://syllabus.codeyourfuture.io/git/cli/homework
 
 _Instructor Note: Please open this link and copy each task one by one to Google Classroom_
+
+## 5) Teamwork Project - Set your team up (PD - 1 hour)
+
+In small groups, your challenge is to collaborate and design a product for a fictional client. Your product must have a positive impact on the world or solve a global challenge, for example you might choose to build a website that provides information on how to grow your own food.
+
+The goal of this teamwork project is for you to understand how the pre-work of the coding is done. This is an important phase and, if done well, can ensure the teamwork is efficient and delivers fast.
+
+The team should be:
+- A mix of technical skills/levels
+- A mix of genders
+- Groups can be max size of 5
+
+1. Define the team
+2. Define what fictional product you would build
+
+## 6) Teamwork Project - Roles research (PD - 1h)
+
+Each of the team members should research one of the roles below: 
+- A front end web developer
+- A back end web developer 
+- A UX/UI designer or UX researcher 
+- A Product manager
+- A QA tester 
+
+Once you have researched the roles, you must create a one slide presentation explaining what each of the roles do and how these roles work together in a team on a project.
+
+## 7) Teamwork Project - Agile reading (PD - 1 hr)
+
+Read the following material and discuss the 4 key principles of agile in your Teamwork Project group.
+
+- [Agile manifesto](https://agilemanifesto.org/)
+- [Agile 101](https://www.agilealliance.org/agile101/)
