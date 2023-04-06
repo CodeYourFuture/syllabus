@@ -319,21 +319,9 @@ module.exports = {
   },
   SQL: {
     Overview: ["db/index", "db/prep"],
-    "Lesson 1": [
-      "db/week-1/lesson",
-      "db/week-1/instructors",
-      "db/week-1/homework",
-    ],
-    "Lesson 2": [
-      "db/week-2/lesson",
-      "db/week-2/instructors",
-      "db/week-2/homework",
-    ],
-    "Lesson 3": [
-      "db/week-3/lesson",
-      "db/week-3/instructors",
-      "db/week-3/homework",
-    ],
+    "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
+    "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
+    "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
   },
   MongoDB: {
     Overview: ["mongodb/index", "mongodb/preparation"],
