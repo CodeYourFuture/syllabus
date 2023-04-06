@@ -76,15 +76,11 @@ You should have Postman already installed on your system. If not then please ins
 
 Run Postman (it can be slow to start).
 
-<p align="center">
-  <img src="postman-get-cust-all.png" display="block"/>
-</p>
+![postman get cust all](./postman-get-cust-all.png)
 
 Check the method is GET, set the URL for your customers endpoint then click Send.
 
-<p align="center">
-  <img src="postman-get-cust-all-results.png" display="block"/>
-</p>
+![postman get cust all results](./postman-get-cust-all-results.png)
 
 ## Being More Selective
 
@@ -192,10 +188,7 @@ By using placeholders instead of string concatenation we can prevent this kind o
 
 _"The acronym CRUD refers to all of the major functions that are implemented in relational database applications. Each letter in the acronym can map to a standard Structured Query Language (SQL) statement and Hypertext Transfer Protocol (HTTP) method [...]."_ - [Wikipedia](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
 
-<!-- ![table-diagram](crud.png) -->
-<p align="center">
-  <img src="crud.png" display="block" width="50%"/>
-</p>
+![table-diagram](./crud.png)
 
 ### Creating data
 

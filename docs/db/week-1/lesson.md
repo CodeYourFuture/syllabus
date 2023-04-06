@@ -81,10 +81,7 @@ _"PostgreSQL is a powerful, open source object-relational database system that u
 
 As mentioned previously, a relational database is a specific type of database. Data is stored in _tables (relations)_ of _rows (tuples)_ and _columns (attributes)_ as per the example below:
 
-<!-- ![table-diagram](table-diagram.png) -->
-<p align="center">
-  <img src="table-diagram.png" display="block" width="60%"/>
-</p>
+![table-diagram](./table-diagram.png)
 
 ## Communicating with the database using SQL
 
@@ -134,10 +131,7 @@ You should see a listing of your tables as follows (with your own username as ow
 
 Here is the table diagram of the hotel database:
 
-<!-- ![hotel table diagram](hotel_tables.png) -->
-<p align="center">
-  <img src="hotel_tables.png" display="block" width="80%"/>
-</p>
+![hotel table diagram](./hotel_tables.png)
 
 ## The SELECT Statement
 
