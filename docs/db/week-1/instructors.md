@@ -2,8 +2,6 @@
 
 ## Introduction
 
-This is the locally modified Manchester version of the DB module changed by Keith Bremer to better reflect novice student learning needs.
-
 The module starts with some essential background, then loading sample data using a provided script followed by SQL SELECT statements building from very simple queries to gradually more complex ones. The example data represents a system to manage bookings and charging for a small hotel, with customers, rooms of various types, reservations and invoices. It is intentionally incomplete - we add further functionality to the system as the module progresses, specifically invoice items for charging meals, drinks, etc to the guest's room.
 
 The last day's teaching concentrates on expanding the use of SQL from Node.js for more selective queries, insert, update and delete.
