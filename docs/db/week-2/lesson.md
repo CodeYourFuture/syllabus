@@ -4,7 +4,7 @@
 
 **Teaching this lesson?**
 
-Read the Mentors Notes [here](./mentors.md)
+Read the Mentors Notes [here](./instructors.md)
 
 ---
 
