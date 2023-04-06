@@ -16,6 +16,39 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Flipped classroom recap/Q&A
+
+The flipped classroom practice should have trainees
+
+- define object literals and assign them to a variable
+- log objects using `console.log` and `console.table`
+- access fields of objects (using both `.foo` and `["foo"]`)
+- modify fields of objects
+- add fields to objects
+- define and access nested objects and arrays as values
+- write their first test
+- covered but not practiced (probably not useful)
+  - keys with spaces/adding quotes around keys
+  - delete
+- covered but probably a bit much
+  - defining methods using the this keyword
+- not covered
+  - using objects as a dictionary/map (i.e. using bracket notation with keys that are not string literals)
+
+Some questions/prompts that may be useful
+
+- When do we use an object?
+- What notation do we use to write an object literal?
+- Consider the following object: `{name: 'Helium', symbol: 'He', atomicNumber: 2,}`
+  - what fields (or properties) does it have
+  - what are the keys of the object?
+  - what are the corresponding values?
+- What kinds of data can be stored in a value?
+- In what way is a key/value pair different from a variable and its value (only in that it's contained inside an object? Otherwise, it can be changed, it can be assigned expressions of arbitrary complexity, etc.)
+- Ask trainees to write/understand a filter function against an array of objects
+- Ask trainees to write/understand a map function against an array of objects
+- Show a test from a previous week and ask what the test is doing (trainees have all the pieces of notation at this point, though the `expect(foo).toEqual(bar)` chaining probably needs some handwaving)
+
 ## Presentations
 
 - [JS 2 Week 1 - 2022 - London](https://docs.google.com/presentation/d/1tMwJpYXrQBbUUjwYAcieIGqp9uP61sxMqKhkMu0hASw/edit#slide=id.p)

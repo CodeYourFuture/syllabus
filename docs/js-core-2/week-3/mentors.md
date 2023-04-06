@@ -16,6 +16,38 @@ We highly recommend joining the relevant Slack Channel for this module. In this 
 
 For general Syllabus feedback and help you can post in [cyf-syllabus](https://codeyourfuture.slack.com/archives/C012UUW69S8)
 
+## Flipped classroom recap/Q&A
+
+The flipped classroom practice should have trainees
+
+- Revisit the DOM in the context of JavaScript programming
+- Run JavaScript from the browser (include a script in an html document with a script tag)
+- Use `querySelector` and `querySelectorAll`
+  - `getElementById` is avoided except where relevant for CYF Blocks (out of desire not to overwhelm + querying classnames is more common)
+  - css queries for elements, class names, ids are revisited
+- Iterate over the nodeList returned by `querySelectorAll` using for of
+  - `[...nodeList].map` is described in case trainees want to use all array methods
+- Modify an element's attributes
+  - `.innerText`
+  - `.style.fontSize` (not preferred)
+  - `.classList.add` (preferred)
+- Add a click event listener to an element
+  - some handwaving about `event.preventDefault()`
+- Create new elements
+  - `document.createElement`
+  - `elem.appendChild`
+
+Some questions/prompts that may be useful
+
+- What do we need to do to run JavaScript from an html page?
+- What is the DOM?
+- How can we access and modify the DOM in JavaScript?
+- Why do we prefer adding class names rather than directly modifying styles?
+- What is an event?
+- What is an event listener/handler?
+- How are the callback functions in array methods/event listeners similar/different?
+- What is different/similar when coding directly in JavaScript vs CYF Blocks? (The concepts and problem-solving approach are the same, only the details of JavaScript syntax are different. Additionally, the DOM is handled with more embedding in CYF Blocks)
+
 ## Presentations
 
 - [JS 2 Week 3 - 2023 - London](https://docs.google.com/presentation/d/1SmA3dXyxhRUHRLpKBhbptYF04V6xIoYXbKtfnU0WEEg/edit?usp=sharing)

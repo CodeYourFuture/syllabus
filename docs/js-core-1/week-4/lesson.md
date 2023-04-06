@@ -125,7 +125,7 @@ daniel
 
 Arrays also have several methods that you can use.
 
-### `.sort()`
+### `.sort()`
 
 _An array method that sorts the values in an array into ascending alphabetical or numerical order._
 

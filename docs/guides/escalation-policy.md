@@ -23,11 +23,11 @@ If you have an error message, copy and paste it into Google. Read carefully each
 
 ## 2) If you are stuck for longer than 20 minutes
 
-Write a question to your fellow trainees in your class channel on slack. You are welcome to tag them using `@here` to message people who are online.
+Write a question to your fellow trainees in your class channel on slack. 
 
-It is really important you use the **public** class channel and not a private direct message. You're colleagues will have similar problems to you and so **you are helping them** by sharing your problems. We're all learning together!
+It is really important you use the **public** class channel and not a private direct message. Your colleagues will have similar problems to you and so **you are helping them** by sharing your problems. We're all learning together!
 
-Take a while to think carefully about the question you want to ask. Make sure you include
+Take a while to think carefully about the question you want to ask. Make sure you include in your thread:
 
 1. What you are trying to achieve
 2. What you have tried so far
@@ -42,7 +42,7 @@ https://docs.codeyourfuture.io/trainees/guides/asking-questions
 
 ## 3. If you cannot get an answer from your other Trainees
 
-Post your question in your class public channel and `@` the teacher for the class that covered the topic and we will reply as soon as we can.
+Post your question in your class public channel and `@` volunteers from the class that covered the topic and we will reply as soon as we can.
 
 You are also welcome to `@` other trainees or volunteers you think might be able to help you.
 

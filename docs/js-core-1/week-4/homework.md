@@ -4,6 +4,70 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+## 0) Flipped Classroom Practice (3h)
+
+The video playlist contains some "content" videos and one "practice" video for each content video.
+
+0.1 What does the following code do?
+
+Can you refactor it so that:
+
+- the variables have more understandable names
+- the if statements are rewritten into a function with an understandable name
+- the whole loop is extracted into a reusable function with an understandable name (test the function by calling it with the values `[3, 12, 6, 11, 2]` and also logging the output)
+
+```js
+const c = [13, 4, 10, 7, 1];
+const t = [3, 12, 6, 11, 2];
+const n = [];
+for (const k of c) {
+  let v = k;
+  if (k === 13) {
+    v = "K";
+  } else if (k === 12) {
+    v = "Q";
+  } else if (k === 11) {
+    v = "J";
+  } else if (k === 1) {
+    v = "A";
+  } else {
+    v = k;
+  }
+  n.push(v);
+}
+
+console.log("Your cards are named", n);
+```
+
+1.1 Refactor this code to use the `.filter()` array method
+
+```js
+const yourCards = [13, 4, 10, 7, 1];
+const theirCards = [3, 12, 6, 11, 2];
+
+function getNumberCards(cards) {
+  const numberCards = [];
+  for (const card of cards) {
+    if (card > 1 && card < 11) {
+      numberCards.push(card);
+    }
+  }
+  return numberCards;
+}
+
+console.log("Your number cards are", getNumberCards(yourCards));
+console.log("Their number cards are", getNumberCards(theirCards));
+```
+
+2.1 Refactor the code from 0.1 above even further to use the `.map()` array method.
+
+3.1 Using `.filter()` and `.map()`, can you write a program that starts with the same `yourCards` and `theirCards` arrays as above and prints out to the console:
+
+```
+Your suit cards are [ 'K', 'A' ]
+Their suit cards are [ 'Q', 'J' ]
+```
+
 ## 1) Review Solutions for Last Weeks Coursework (30 minutes)
 
 You should do this every week from now on. We will stop reminding you soon.
@@ -15,53 +79,13 @@ Once you have access to the solutions repo, review your work compared to the exa
 
 Write down your target areas and take them to your buddy group. What does your mentor think? Do they agree with your assessment?
 
-## 2) FreeCodeCamp (4 hours)
+## 2) JavaScript Challenges (10 hours)
 
-You should complete all of these FreeCodeCamp exercises - https://www.freecodecamp.org/learn
-
-- Introduction to the Basic Data Structure Challenges
-- Use an Array to Store a Collection of Data
-- Access an Array's Contents Using Bracket Notation
-- Add Items to an Array with push() and unshift()
-- Remove Items from an Array with pop() and shift()
-- Remove Items Using splice()
-- Add Items Using splice()
-- Copy Array Items Using slice()
-- Copy an Array with the Spread Operator
-- Combine Arrays with the Spread Operator
-- Check For The Presence of an Element With indexOf()
-- Iterate Through All an Array's Items Using For Loops
-- Create complex multi-dimensional arrays
-- Add Key-Value Pairs to JavaScript Objects
-- Modify an Object Nested Within an Object
-- Access Property Names with Bracket Notation
-- Use the delete Keyword to Remove Object Properties
-- Check if an Object has a Property
-- Iterate Through the Keys of an Object with a for...in Statement
-- Generate an Array of All Object Keys with Object.keys()
-- Modify an Array Stored in an Object
-
-## 3) JavaScript Exercises (3 hours)
-
-Here are a set of exercise that will help you to solidify your knowledge of JavaScript.
-
-For this step, open the "Exercises" folder and complete all of the challenges.
+In the repository for week 4, complete all of the exercises in the "Mandatory" folder.
 
 https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week4
 
-Before you start, **make sure you fork the repository** to your Github account.
-
-## 4) JavaScript Challenges (10 hours)
-
-Next, in the same repository complete all of the exercises in the "Mandatory" folder.
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week4
-
-## 5) Module Project
-
-Complete the [module project](../module-project/).
-
-## 6) Codewars (1 hour)
+## 3) Codewars (1 hour)
 
 https://docs.codeyourfuture.io/course-processes/running-the-course/codewars
 
@@ -69,15 +93,15 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 This week, try pairing on a kata with a colleague. We will do more pairing in the next module.
 
-## 8) (Stretch) Extra JavaScript Challenges
+## 4) (Stretch) Extra JavaScript Challenges
 
 Have some extra time before our next class? Fill it with these harder challenges to help you stretch your abilities!
 
 **Alert:** Some of these challenges might include concepts that we haven't taught you yet. You should us Google to try to learn how to solve them.
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week3
+https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week4
 
-## 9) Writing a meeting request email (PD - 30 min)
+## 5) Writing a meeting request email (PD - 30 min)
 
 In the following scenario imagine you are a recruit for a company and your team leader asks you to write an email requesting a meeting with the Head of Customer Services (HCS). Remember to include the subject line and use appropriate formatting.
 
