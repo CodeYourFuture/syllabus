@@ -317,23 +317,29 @@ module.exports = {
       },
     ],
   },
-  SQL: {
-    Overview: ["db/index", "db/prep"],
+  SQL_A: {
+    Overview: ["db/db_a/index", "db/db_a/prep"],
     "Lesson 1": [
-      "db/week-1/lesson",
-      "db/week-1/instructors",
-      "db/week-1/homework",
+      "db/db_a/week-1/lesson",
+      "db/db_a/week-1/instructors",
+      "db/db_a/week-1/homework",
     ],
     "Lesson 2": [
-      "db/week-2/lesson",
-      "db/week-2/instructors",
-      "db/week-2/homework",
+      "db/db_a/week-2/lesson",
+      "db/db_a/week-2/instructors",
+      "db/db_a/week-2/homework",
     ],
     "Lesson 3": [
-      "db/week-3/lesson",
-      "db/week-3/instructors",
-      "db/week-3/homework",
+      "db/db_a/week-3/lesson",
+      "db/db_a/week-3/instructors",
+      "db/db_a/week-3/homework",
     ],
+  },
+  SQL_B: {
+    Overview: ["db/db_b/README"],
+    "Lesson 1": ["db/db_b/week-1/lesson", "db/db_b/week-1/mentors"],
+    "Lesson 2": ["db/db_b/week-2/lesson", "db/db_b/week-2/mentors"],
+    "Lesson 3": ["db/db_b/week-3/lesson", "db/db_b/week-3/mentors"],
   },
   MongoDB: {
     Overview: ["mongodb/index", "mongodb/preparation"],
