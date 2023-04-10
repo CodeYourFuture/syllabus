@@ -165,8 +165,8 @@ tsla last closing at 938.53
 ```js
 let stock = {
   name: "aapl",
-  lastClosingPrice: function () {
-    return this.lastFiveDaysClosingPrices[4];
+  lastClosingPrice: function() {
+    // complete the function
   },
   lastFiveDaysClosingPrices: [179.99, 180.33, 176.28, 175.64, 173.99],
 };
