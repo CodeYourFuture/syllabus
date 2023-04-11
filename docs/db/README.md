@@ -1,5 +1,9 @@
-# Teaching DB and SQL Module
-## Introduction for Module Leaders
-This module has two variants (db_a and db_b). The first, db_a, is the course that has evolved over years in the standard CYF syllabus. The second, db_b, is the course developed in the Manchester team (by Keith Bremer) which takes a different approach that tries to be more accessible to beginners. You should adopt one or the other (they're not entirely compatible) and work with it.
+# CYF-DB-Module
 
-You should read through some of the materials and choose the one that best suits your approach. Note that the second (db_b) provides presentation slides that correspond to the course notes in both LibreOffice (.odp) and Powerpoint (.pptx) formats.
+## Introduction
+
+In this DB module, we gradually build up experience with the SELECT command before moving on to INSERT at the end of the first lesson. This approach leads to an incremental learning experience, where students start with simple things then build up to more complex topics. The second lesson covers aggregate functions, update, delete, joins, creating a table and finally an introduction to using SQL in NodeJS. The third lesson expands on using SQL in NodeJS to cover selective queries, insert, update and delete.
+
+## Serious Omissions from the Course
+
+Due to time constraints this course cannot cover more than a fraction of the topics that are needed by a competent developer using database. For example, we don't cover subqueries, locking, transactions, indexing, security, views, triggers, stored procedures and so forth. It's important to let the students know about these serious omissions but we can potentially help. We also don't cover the techniques required in NodeJS to make a multi-user app "update-safe" such that one user's changes can't destroy those of another user.

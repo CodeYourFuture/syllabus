@@ -4,7 +4,7 @@
 
 **Teaching this lesson?**
 
-Read the Mentors Notes [here](./mentors.md)
+Read the Mentors Notes [here](./instructors.md)
 
 ---
 
@@ -51,11 +51,12 @@ SELECT sum(total)
 ```
 
 The aggregate functions are:
-*   sum :   Calculate the total of the values in a column
-*   avg :   Calculate the average (mean) of the values in a column
-*   min :   Determine the mimimum value of a column
-*   max :   Determine the maximum value of a column
-*   count : Count the number of values (non-null) in a column
+
+- sum : Calculate the total of the values in a column
+- avg : Calculate the average (mean) of the values in a column
+- min : Determine the mimimum value of a column
+- max : Determine the maximum value of a column
+- count : Count the number of values (non-null) in a column
 
 All the above are in the SQL standard, most implementations provide others. SUM and AVG can only apply to numeric data, the others can apply to any datatype.
 
@@ -95,6 +96,7 @@ If you just want to count the number of rows, use `count(*)`. This is often used
 ```sql
 SELECT count(*) FROM customers WHERE country = 'Belgium';
 ```
+
 ### Exercise 1
 
 1.  Get the numbers of rows in each of the tables: rooms, room_types, customers and reservations.
@@ -103,6 +105,7 @@ SELECT count(*) FROM customers WHERE country = 'Belgium';
 4.  What is the maximum gap in days between a customer booking a room and the checkin date for that booking?
 
 ### Grouping Rows for Aggregation
+
 You can calculate aggregates over subsets of rows using the GROUP BY clause:
 
 ```sql
@@ -190,11 +193,12 @@ The square brackets indicate optional clauses. Note that HAVING is only relevant
 
 It can be confusing at first knowing whether to use a WHERE clause or a HAVING clause with GROUP BY.
 
-* Use the WHERE clause when values you want to test are available without having to use any aggregate functions (e.g. plain column values).
+- Use the WHERE clause when values you want to test are available without having to use any aggregate functions (e.g. plain column values).
 
-* Use HAVING when the values you want to test are the results of aggregate functions (e.g. `count(*)`, `sum(amount)`, `min(x)`, etc...).
+- Use HAVING when the values you want to test are the results of aggregate functions (e.g. `count(*)`, `sum(amount)`, `min(x)`, etc...).
 
 ---
+
 ### Exercise 2
 
 1.  What is the grand total of all invoices for each month?
@@ -202,22 +206,28 @@ It can be confusing at first knowing whether to use a WHERE clause or a HAVING c
 3.  Which rooms have been occupied for less than 10 nights and for how many nights have they been occupied?
 
 ---
+
 ## Inserting, Updating and Deleting Rows
 
 ### Inserting data
 
 To add new data to a table use the INSERT command that has the following format:
+
 ```sql
 INSERT INTO table_name (column_name, ...)
        VALUES (value, ...)
 ```
+
 For example:
+
 ```sql
 INSERT INTO customers (name, email, address, city, postcode, country)
   VALUES ('John Smith','j.smith@johnsmith.org',
           '11 New Road','Liverpool','L10 2AB','UK');
 ```
+
 Note:
+
 1. You do not need to supply the value for the automatically generated `id` column, it is populated from a sequence generator object.
 2. The order of values in the `VALUES (...)` clause must correspond to the columns in the column name list. The first value is stored in the first named column, the second value in the second named column and so forth.
 
@@ -238,6 +248,7 @@ UPDATE table
       column2 = value2
   WHERE condition;
 ```
+
 Note that `UPDATE` usually requires a `WHERE` clause to specify the row or rows to be updated. As with `SELECT`, if you don't specify a condition to restrict the rows, the command applies to all the rows in the table.
 
 For example, to update the name and country of the customer with ID 3:
@@ -279,6 +290,7 @@ DELETE FROM reservations WHERE id=4;
 3.  Delete the customer details for Juri Yoshido
 
 ---
+
 ## Joining tables
 
 ### Introduction
@@ -313,10 +325,10 @@ SELECT r.cust_id, r.room_no, i.invoice_date, i.total
        invoices i ON (r.id = i.res_id);
 ```
 
-***Notice:***
+**_Notice:_**
 
-* The new keyword JOIN with ON (predicate)
-* Table aliases (`r` and `i`) used to qualify columns
+- The new keyword JOIN with ON (predicate)
+- Table aliases (`r` and `i`) used to qualify columns
 
 The new syntax follows the following pattern:
 
@@ -354,8 +366,8 @@ SELECT c.name, c.phone, c.email, i.invoice_date, i.total
   ORDER BY i.invoice_date DESC, c.id;
 ```
 
-***Note***
-You have just learned about what is called the INNER JOIN, which is the most common kind of join.  Indeed, you can use the keyword INNER in the JOIN syntax, as follows:
+**_Note_**
+You have just learned about what is called the INNER JOIN, which is the most common kind of join. Indeed, you can use the keyword INNER in the JOIN syntax, as follows:
 
 ```sql
 SELECT c.name, c.phone, c.email, i.invoice_date, i.total
@@ -366,6 +378,7 @@ SELECT c.name, c.phone, c.email, i.invoice_date, i.total
     AND i.paid = FALSE
   ORDER BY i.invoice_date DESC, c.id;
 ```
+
 The INNER keyword is not required (it's the default) but some organisations might require it for the sake of coding standards.
 
 There are other kinds of JOIN, specifically the OUTER JOIN and the CROSS JOIN but these are less frequently used in applications.
@@ -381,6 +394,7 @@ If you want to find out about these kinds of JOIN refer to the [PostgreSQL docum
 4.  List name, phone and email along with all reservations and invoices for customer Mary Saveley.
 
 ---
+
 ## The Vexing Question of NULL
 
 A column can be assigned a NULL value to indicate it has no value. This can happen when the data for this column is unknown at the time the row is created, for example, employee leaving date, order shipment date, etc... It can also be used when the data is optional.
@@ -417,8 +431,9 @@ This behaviour has some impacts on operations like JOIN, where NULL values won't
   ... ON (a.col = b.col OR
           a.col IS NULL AND b.col IS NULL)
 ```
-***WARNING:***
-*However, be aware that this is not a sensible situation - join columns containing NULL should be expected to not match or should be disallowed (see Primary Keys above)*
+
+**_WARNING:_**
+_However, be aware that this is not a sensible situation - join columns containing NULL should be expected to not match or should be disallowed (see Primary Keys above)_
 
 You can explicitly provide NULL as a value in INSERT and UPDATE statements, for example:
 
@@ -431,9 +446,10 @@ You can explicitly provide NULL as a value in INSERT and UPDATE statements, for 
 ```
 
 In INSERT statements if you omit a column from the column list (following the table name) then that column will be given either:
-* an autogenerated value (if it has datatype SERIAL)
-* a default value if one has been specified in the CREATE TABLE command
-* NULL if neither of the above apply
+
+- an autogenerated value (if it has datatype SERIAL)
+- a default value if one has been specified in the CREATE TABLE command
+- NULL if neither of the above apply
 
 ### Functions to Handle NULL
 
@@ -446,11 +462,14 @@ SELECT room_no, rate, coalesce(room_type, 'None') type
 ```
 
 Notes:
+
 - The coalesce function can take more than two arguments and returns the first of these (from left to right) that is not null.
 - This feature is provided by most SQL vendors but goes by different names, e.g. ifnull(x, y) in MySQL, nvl(x, y) in Oracle, etc...
 
 ---
+
 ### Exercise 6
+
 1.  Which customers have not yet provided a phone number?
 2.  Update room 304 such that it does not have a room_type.
 3.  List customers (name and city) qand their reservations replacing the room number with 'Not Assigned' if it is NULL.
@@ -460,11 +479,13 @@ Notes:
 ## Creating a Table
 
 Use the CREATE TABLE command, which in the simplest case has the general form:
+
 ```sql
-CREATE TABLE <tablename> (<column definition>, <column definition>, ...);
+CREATE TABLE <tablename> <column definition>, <column definition>, ...);
 ```
 
 To create an `inventory` table for our hotel we might need:
+
 ```sql
 CREATE TABLE inventory (
   id            SERIAL PRIMARY KEY,
@@ -472,13 +493,14 @@ CREATE TABLE inventory (
   cost          NUMERIC(6,2)
 );
 ```
-***Note: you may never need to do this. Database design is a task that requires specialist skills and considerable experience.***
+
+**_Note: you may never need to do this. Database design is a task that requires specialist skills and considerable experience._**
 
 ### Naming Tables and Columns
 
 In the `CREATE TABLE` command you must give the name of the table (e.g. `inventory`) and the names of each of the columns (in the parenthesised column definitions) (e.g. `id`, `description`, `cost`).
 
-Names of tables and columns (and any other objects in the database) must start with a letter, can contain letters, digits and the underscore symbol (_) up to 64 bytes (in PostgreSQL).  Names are not case-sensitive so that NAME, name and NaMe are all the same.
+Names of tables and columns (and any other objects in the database) must start with a letter, can contain letters, digits and the underscore symbol (\_) up to 64 bytes (in PostgreSQL). Names are not case-sensitive so that NAME, name and NaMe are all the same.
 
 ### Data Types of Columns
 
@@ -487,7 +509,7 @@ Column | Data Type | Other
 --- | --- | ---
 `id` | SERIAL | PRIMARY KEY
 `description` | VARCHAR(30) | NOT NULL
-`cost` | NUMERIC(6,2) | 
+`cost` | NUMERIC(6,2) |
 
 The `id` column uses SERIAL as its data type, making it an autoincrementing integer that increments by 1, starting from 1, for each time a new row is inserted into the table. For this to work, the `id` column must be omitted from the INSERT command. `id` is also designated as the PRIMARY KEY of the table (note that SERIAL doesn't make the column the primary key). PRIMARY KEY also implies that the column cannot be set to NULL.
 
@@ -508,17 +530,19 @@ TIMESTAMP | date and time (accurate to milliseconds)
 BOOLEAN | TRUE, FALSE or NULL
 TEXT | variable length text with no length limit (up to max allowed for the RDBMS - about 1Gb in PostgreSQL)
 
-You can read more about data types in the PostgreSQL documentation.  Refer to https://www.postgresql.org/docs/12/datatype.html
+You can read more about data types in the PostgreSQL documentation. Refer to https://www.postgresql.org/docs/12/datatype.html
 for more information.
 
 ### Changing a Table Definition
 
 Using the ALTER TABLE command to add and remove columns:
+
 ```sql
 ALTER TABLE inventory ADD COLUMN room_no INTEGER;
 
 ALTER TABLE customers DROP COLUMN phone;
 ```
+
 There are some constraints on adding and removing columns, for example, you cannot add a NOT NULL column to a table that already contains some rows.
 
 ---
@@ -540,6 +564,7 @@ There are some constraints on adding and removing columns, for example, you cann
 Use the following templates to define a Primary Key.
 
 For a single-column PK use:
+
 ```sql
 CREATE TABLE <table name> (
   ...
@@ -547,14 +572,18 @@ CREATE TABLE <table name> (
   ...
 )
 ```
+
 For example:
+
 ```sql
 CREATE TABLE rooms (
   room_no       INTEGER   PRIMARY KEY,
   ...
 );
 ```
+
 To define a multi-column primary key you must define a constraint separate from the column definitions, as below:
+
 ```sql
 CREATE TABLE <table name> (
   ...
@@ -565,7 +594,9 @@ CREATE TABLE <table name> (
   ...
 );
 ```
+
 For example:
+
 ```sql
 CREATE TABLE invoice_items (
   inv_id        INTEGER REFERENCES invoices(id),
@@ -575,6 +606,7 @@ CREATE TABLE invoice_items (
   ...
 );
 ```
+
 There can be only one primary key in a table definition. The `PRIMARY KEY` definition implies NOT NULL so no column in a table's PK can be set to NULL.
 
 **Note: a partial primary key can be a foreign key as well.**
@@ -584,10 +616,13 @@ There can be only one primary key in a table definition. The `PRIMARY KEY` defin
 To define foreign keys use either:
 
 For a single-column foreign key:
+
 ```sql
   <column name>   <data type>   REFERENCES <table name> (<column name>);
 ```
-where the <column name> in the REFERENCES clause is the column name in the referenced table, not the one being defined at this point. For example, in the `reservations` table:
+
+where the &lt;column name&gt; in the REFERENCES clause is the column name in the referenced table, not the one being defined at this point. For example, in the `reservations` table:
+
 ```sql
   ...
   cust_id         INTEGER NOT NULL   REFERENCES customers (id),
@@ -595,6 +630,7 @@ where the <column name> in the REFERENCES clause is the column name in the refer
 ```
 
 For multi-column foreign keys we must again use a separate constraint definition, as shown:
+
 ```sql
 CREATE TABLE customer_challenges (
   id           SERIAL PRIMARY KEY,
@@ -605,12 +641,15 @@ CREATE TABLE customer_challenges (
   ...
 );
 ```
+
 ---
+
 ### Exercise 8
+
 1.  Try to delete the customer Mary Saveley. What happens and why?
 2.  Insert a new room, number 313 as room type 'SUPER PREMIER'.
 3.  Define primary and foreign keys required by the charge_items table
-4.  Insert some rows into the charge_items table.  You can invent the details.
+4.  Insert some rows into the charge_items table. You can invent the details.
 
 ---
 
@@ -631,7 +670,7 @@ Let's build a brand new NodeJS application with a single GET endpoint to load th
 
 First, create a new NodeJS application that we will call **cyf-hotels-api** (enter `server.js` when asked for the entry point):
 
-```
+```bash
 mkdir cyf-hotels-api
 cd cyf-hotels-api
 npm init
@@ -639,40 +678,39 @@ npm init
 
 As before, we will use the Express library to build our API, and the node-postgres library to connect with our database:
 
-```
+```bash
 npm install --save express
 npm install --save pg
 ```
 
 Create a `server.js` file, import express, initialise the server and start listening for requests:
 
-```
+```js
 const express = require("express");
 const app = express();
 
-app.listen(3000, function() {
-    console.log("Server is listening on port 3000. Ready to accept requests!");
+app.listen(3000, function () {
+  console.log("Server is listening on port 3000. Ready to accept requests!");
 });
 ```
 
 Import pg library and create a new GET endpoint to load the list of customers:
 
-```
-const { Pool } = require('pg');
+```js
+const { Pool } = require("pg");
 
 const db = new Pool({
-    user: 'keith',        // replace with you username
-    host: 'localhost',
-    database: 'cyf_hotels',
-    password: '',
-    port: 5432
+  user: "keith", // replace with you username
+  host: "localhost",
+  database: "cyf_hotels",
+  password: "",
+  port: 5432,
 });
 
-app.get("/customers", function(req, res) {
-    db.query('SELECT id, name, city, phone FROM customers',
-               (error, result) => {
-                   res.json(result.rows);
-    });
+app.get("/customers", function (req, res) {
+  db.query("SELECT id, name, city, phone FROM customers", (error, result) => {
+    res.json(result.rows);
+  });
 });
 ```
 
@@ -682,7 +720,7 @@ In the code above:
 - We create a new connection (`db`) where we specify the credentials to connect to the cyf_hotel database
 - We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. You can write any valid SQL query that you learned in the `query()` method!
 
-***Note:*** There is no semicolon to end the SQL statement.
+**_Note:_** There is no semicolon to end the SQL statement.
 
 Start your server with `node server.js` and try to reach the `/customers` endpoint to see the list of customers currently available in your `cyf_hotels` database. You can try to create/update/delete customers using psql to verify that your API always returns what is stored in your database.
 
