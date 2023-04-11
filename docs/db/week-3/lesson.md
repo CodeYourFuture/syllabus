@@ -344,39 +344,28 @@ app.post("/customers", function (req, res) {
   const newName = req.body.name;
   const newEmail = req.body.email;
   const newPhone = req.body.phone;
-  // etcetera ...
-
-  //
-  // First validate the phone number using a regular expression to check for valid characters
-  //
-  if (newPhone.replace(/[+\-()0-9 ]/g, '0') ==    // replace all valid chars with 0
-      '0'.padEnd(newPhone.length, '0')) {
-    return res
-      .status(400)
-      .send("The phone number must only contain 0-9, +, -, (, ) or space.");
-  }
+  // et cetera ...
 
   //
   // Validate the new customer's email address by querying the existing customers table
   // to return any rows that contain the same values
   //
-  db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail],
-            (err, result) => {
-      if (result.rowCount > 0) {      // note the use of result.rowCount
-        return res
-          .status(400)
-          .send("A customer with that email address already exists!");
-      } else {
-        const query =
-        "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-          "VALUES ($1, $2, $3, $4, $5, $6, $7)";
-        db.query(query, [newName, newEmail, ..., newCountry],
-          (err) => {
-            res.send("Customer created.");
-          }
-      }
-    });
-});
+db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
+  .then(function(result) {
+     if (result.rowCount > 0) {      // note the use of result.rowCount
+      return Promise.reject({error: 'Customer already exists'})
+     } else {
+    return db.query("INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
+      "VALUES ($1, $2, $3, $4, $5, $6, $7)", [newName, newEmail, ..., newCountry],
+     }
+  })
+  .then(function() {
+    res.status(201).send("Customer created")
+  })
+  .catch(function(error) {
+    // any errors or manual rejections will be intercepted here
+    // handle error here
+  })
 ```
 
 Note:
@@ -405,20 +394,17 @@ INSERT INTO customers (name, email, phone)
 The endpoint now uses the query call shown below:
 
 ```js
-  const query =
-  "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-    "VALUES ($1, $2, $3, $4, $5, $6, $7) " +
-    "RETURNING id";                         // Note the new clause
-  db.query(query, [newName, newEmail, ..., newCountry],
-    (err, result) => {                      // note the addition of result parameter
-      if (err == undefined) {
+  db.query(`INSERT INTO customers (name, email, phone, address, city, postcode, country)
+    VALUES ($1, $2, $3, $4, $5, $6, $7)
+    RETURNING id`, [newName, newEmail, ..., newCountry])
+    .then(result => {
         const newId = result.rows[0].id;
         console.log(`New Customer id = ${newId}`);
         res.status(200).json({lastId: newId});
-      } else {
-        res.status(500).json({error: err});
-      };
-    });
+    })
+    .catch(err => {
+      res.status(500).json({error: err});
+    })
 ```
 
 ### Exercise 5

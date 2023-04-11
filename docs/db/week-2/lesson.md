@@ -708,9 +708,13 @@ const db = new Pool({
 });
 
 app.get("/customers", function (req, res) {
-  db.query("SELECT id, name, city, phone FROM customers", (error, result) => {
-    res.json(result.rows);
-  });
+  db.query("SELECT id, name, city, phone FROM customers")
+    .then((result) => {
+      res.json(result.rows);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 });
 ```
 
