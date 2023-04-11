@@ -722,7 +722,7 @@ In the code above:
 
 - We first import the `Pool` class from the pg library, which is used to connect to a database
 - We create a new connection (`db`) where we specify the credentials to connect to the cyf_hotel database
-- We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. You can write any valid SQL query that you learned in the `query()` method!
+- We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. The `query` method returns a Promise: so we can access the returned rows using a `.then` block. You can write any valid SQL query that you learned in the `query()` method!
 
 **_Note:_** There is no semicolon to end the SQL statement.
 

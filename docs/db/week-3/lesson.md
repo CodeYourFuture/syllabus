@@ -58,9 +58,13 @@ const db = new Pool({
 });
 
 app.get("/customers", function (req, res) {
-  db.query("SELECT * FROM customers", function(err, result) => {
-    res.status(200).json({customers: result.rows})
-  })
+  db.query("SELECT * FROM customers")
+    .then((result) => {
+      res.status(200).json({ customers: result.rows });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
 });
 
 app.listen(3000, function () {
@@ -101,7 +105,7 @@ Here the endpoint includes `:id`, which identifies an extra parameter in the URL
 Express provides a simple way to get such parameters from the request:
 
 ```js
-var custId = parseInt(req.params.id);
+const custId = parseInt(req.params.id);
 ```
 
 Note that the `id` in `req.params.id` must match the name after the colon in the endpoint `"customers/:id"`.
@@ -109,13 +113,13 @@ Note that the `id` in `req.params.id` must match the name after the colon in the
 Next we need to query the `customers` table and provide the value of the id into a WHERE clause so that we retrieve only the one row that matches:
 
 ```js
-db.query(
-  "SELECT * FROM customers WHERE id = $1",
-  [custId],
-  function (err, result) {
-    // TODO - more code here...
-  }
-);
+db.query("SELECT * FROM customers WHERE id = $1", [custId])
+  .then(function (result) {
+    console.log(result);
+  })
+  .catch(function (err) {
+    console.log(err);
+  });
 ```
 
 In the above code notice that:
@@ -128,14 +132,14 @@ Let's complete the endpoint to return the retrieved values:
 
 ```js
 app.get("/customers/:id", function (req, res) {
-  var custId = parseInt(req.params.id);
-  db.query(
-    "SELECT * FROM customers WHERE id = $1",
-    [custId],
-    function (err, result) {
-      result.json();
-    }
-  );
+  const custId = parseInt(req.params.id);
+  db.query("SELECT * FROM customers WHERE id = $1", [custId])
+    .then(function (result) {
+      console.log(result.rows);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 });
 ```
 
@@ -235,9 +239,13 @@ app.post("/customers", function (req, res) {
     "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
       "VALUES ($1, $2, $3, $4, $5, $6, $7)";
 
-  db.query(query, [newName, newEmail, ..., newCountry], (err) => {
-    res.send("Customer created.");
-  })
+  db.query(query, [newName, newEmail, ..., newCountry])
+    .then(() => {
+      res.status(201).send("Created a new customer");
+    })
+    .catch(err => {
+      console.log(err);
+    })
 });
 ```
 
@@ -323,7 +331,7 @@ if (
 }
 ```
 
-Note: **regular expressions** may be new to you but they are very powerful and also quite complicated. We don't have time to teach you the inticacies of "regex" here but you can find numerous resources on the web and in the JavaScript documentation:
+Note: **regular expressions** may be new to you but they are very powerful and also quite complicated. We don't have time to teach you the intricacies of "regex" here but you can find numerous resources on the web and in the JavaScript documentation:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 Note also that this validation can also be performed in the browser because it doesn't involve any database interaction. This is a faster and less costly (in terms of network traffic) approach and should be used where practical. It makes user correction of mistakes quicker and more natural and can be done on a per item basis.
