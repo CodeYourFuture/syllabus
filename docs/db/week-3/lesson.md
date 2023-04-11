@@ -416,14 +416,16 @@ app.put("/customers/:id", function (req, res) {
   const newEmail = req.body.email;
   const newPhone = req.body.phone;
 
-  db
-    .query("UPDATE customers SET email=$2, phone = $3 WHERE id=$1",
-            [custId, newEmail, newPhone])
+  db.query("UPDATE customers SET email=$2, phone = $3 WHERE id=$1", [
+    custId,
+    newEmail,
+    newPhone,
+  ])
     .then(() => res.send(`Customer ${customerId} updated!`))
     .catch((err) => {
       console.error(err);
-      res.status(500).json({error: err})
-    );
+      res.status(500).json({ error: err });
+    });
 });
 ```
 
