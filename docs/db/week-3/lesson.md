@@ -224,7 +224,7 @@ app.use(bodyParser.json());
 
 ### Inserting Rows Using Node.js
 
-We can finally add our new endpoint to create a new customer:
+We can finally an endpoint to create a new customer:
 
 ```js
 app.post("/customers", function (req, res) {
@@ -364,7 +364,8 @@ db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
 Note:
 
 - The SELECT does not choose any column values, just the literal `1`. We are only interested in the number of rows found (it must be 0 for success).
-- That the INSERT is now executed as part of the callback of the query that returns a row if the same email already exists.
+- If a row is found, then a customer with this email exists so we call `Promise.reject`: this will then trigger the first `catch` block in the promise chain where we can handle the error.
+- If a row is not found, then we perform the insertion query, taking care to return the call to `db.query` so we can access its resolve value in the next `.then` block
 - This validation is NOT suitable for performing in the browser because it interacts with the database.
 
 ### Exercise 4
