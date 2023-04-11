@@ -152,9 +152,9 @@ With String placeholders you don't put apostrophes around the placeholder:
 ```js
 app.get("/customers/by_city/:city", (req, res) => {
   const cityName = req.params.city;
-  db.query("SELECT * FROM customers WHERE city LIKE $1 || '%'", [cityName],
-    function { ... /* etc */ }
-  );
+  db.query("SELECT * FROM customers WHERE city LIKE $1 || '%'", [cityName])
+    .then(() => {})
+    .catch((err) => {});
 });
 ```
 
@@ -163,18 +163,17 @@ app.get("/customers/by_city/:city", (req, res) => {
 #### What is SQL Injection
 
 If an end user can enter unrestricted text into a data field on a form there is the possibility that they could put a nasty SQL command inside the data. For example, if the field is used to enter the customer name the user could type:
-`J Doe';delete from customers;select 'x' from customers`
+`J Doe'; delete from customers; select 'x' from customers`
 as the name value. It looks a bit unlikely but any user with a little bit of SQL knowledge could eventually work out the format needed.
 
 If the code used string concatenation to for the final SQL command it could be something like:
 
 ```js
-const myQuery =
-  "UPDATE customers SET name = '" + inputName + "' WHERE id = " + myId;
+const myQuery = `UPDATE customers SET name = '${inputName}' WHERE id =  + ${ID}`;
 ```
 
 Then `myQuery` would become:
-`UPDATE customers SET name = 'J Doe';delete from customers;select 'x' from customers WHERE id = 123`
+`UPDATE customers SET name = 'J Doe'; DELETE FROM customers; SELECT 'x' FROM customers WHERE id = 123`
 (Note that semicolon **can** be used between SQL commands in this context)
 
 By using placeholders instead of string concatenation we can prevent this kind of attack. This is VERY important in web-facing apps that use SQL.
@@ -236,8 +235,8 @@ app.post("/customers", function (req, res) {
   const newCountry = req.body.country;
 
   const query =
-    "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-      "VALUES ($1, $2, $3, $4, $5, $6, $7)";
+    `INSERT INTO customers (name, email, phone, address, city, postcode, country)
+    VALUES ($1, $2, $3, $4, $5, $6, $7)`;
 
   db.query(query, [newName, newEmail, ..., newCountry])
     .then(() => {
@@ -465,10 +464,9 @@ app.delete("/customers/:customerId", function (req, res) {
 
   db.query("DELETE FROM reservations WHERE cust_id=$1", [customerId])
     .then(() => {
-      db.query("DELETE FROM customers WHERE id=$1", [customerId])
-        .then(() => res.send(`Customer ${customerId} deleted!`))
-        .catch((e) => console.error(e));
+      return db.query("DELETE FROM customers WHERE id=$1", [customerId]);
     })
+    .then(() => res.send(`Customer ${customerId} deleted!`))
     .catch((e) => console.error(e));
 });
 ```
