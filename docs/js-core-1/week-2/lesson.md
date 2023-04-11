@@ -14,6 +14,7 @@ import Feedback from "@theme/Feedback";
 - [Logical Operators](#logical-operators)
 - [Loops](#loops)
 - [Extra exercises](#extra-exercises)
+- [PD - Dealing with conflict in teams](#pd-dealing-with-conflict-in-teams)
 
 ## Learning Objectives
 
@@ -428,6 +429,64 @@ So to sum up, `for of` loops are pretty similar to `for` loops, but:
 - you don't need to set an end case as the loop will always go through every value in the iterable object and then end
 
 Next week, we will think more about the most common iterable object in JavaScript: [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+
+## PD (Dealing with conflict in teams)
+
+Adapted from [Tectonica Interpersonal Conflict Resolution](https://github.com/Techtonica/curriculum/blob/main/career/conflict-resolution.md).
+
+**Session objective:** This session explores what conflict is and the common ways we address it. We will explore conflict resolution toolkits and how we can become better at managing conflict effectively. We will talk about what effective body language is; what effective choice of words is; and how to build trust among teams.
+
+[Conflict resolution slides](https://docs.google.com/presentation/d/1hTBEMDXrYBC2QTXWaRJkWI378DTVF-s8t_Uxi8mT7bQ/edit#slide=id.g1b73cb08c45_0_0)
+
+
+:::note Exercise 1 (15 minutes)
+
+**Exercise objective:** To role-play a workplace conflict scenario.
+
+We are going to read through the scenario and practice with some role play.
+
+In groups of 3 – one person will play the role of Missy, one person will play her manager, and the third person will be the observer.
+
+Missys:  It’s after the meeting and you are going to talk with your manager about what happened.  You want to practice doing this the right way – click back to previous slide for advice.  
+
+Managers: You will play the role you think the manager might play – you can respond well, or poorly to Missy – the choice is yours.
+
+Observers: you will be experiencing this practice session as an invisible observer.  If you see Missy struggling or stumbling, you are the only person who can call a time out and provide her with some coaching/advice.
+
+You get 3 minutes to prepare.
+
+:::
+
+
+:::note Exercise 2 (5 minutes)
+
+**Exercise objective:** To identify feelings evoked through different body languages.
+
+Stand (if able) and face another trainee. (If you're online, you'll be placed in separate breakout rooms).
+
+First, display to each other an example of closed body language.
+- How do you feel about the communication?
+
+Now display an example of open body language and eye contact.
+- How do you feel about that communication?
+
+Facilitators will adapt the exercise to the diverse needs of trainees, or skip the exercise when the adaptation is not possible.
+
+:::
+
+:::note Exercise 3 (5 minutes)
+
+**Exercise objective:** To identify the impact of emphasis and intonation during verbal communication.
+
+Try reading "I can't wait to go to work today" out loud like you are excited. Now try nervous, and angry.
+
+Say the sentence out loud emphasizing the word “I”. Next try emphasizing “work”, and “today”. 
+
+How does the sentence means different things when you emphasize different words?
+
+Facilitators will adapt the exercise to the diverse needs of trainees, or skip the exercise when the adaptation is not possible.
+
+:::
 
 ## Coursework
 
