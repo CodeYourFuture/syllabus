@@ -278,8 +278,8 @@ You should see the response "Customer created."
 
 ### What Can We Do After an Insert?
 
-- We must start checking for errors in the executution of the SQL. This applies to all commands, not just INSERT.
-- If the table has an autoincrementing primary key we can obtain the value for the new row and return it to the browser. This is often required for subsequent actions in the use case.
+- We must start checking for errors in the execution of the SQL. This applies to all commands, not just INSERT.
+- If the table has an auto-incrementing primary key we can obtain the value for the new row and return it to the browser. This is often required for subsequent actions in the use case.
 - The new data can be logged to the console (although this is not common practice).
 - ... and so forth ...
 
