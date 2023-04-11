@@ -346,12 +346,12 @@ app.post("/customers", function (req, res) {
   //
 db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
   .then(function(result) {
-     if (result.rowCount > 0) {      // note the use of result.rowCount
+    if (result.rowCount > 0) {      // note the use of result.rowCount
       return Promise.reject({error: 'Customer already exists'})
-     } else {
-    return db.query("INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-      "VALUES ($1, $2, $3, $4, $5, $6, $7)", [newName, newEmail, ..., newCountry],
-     }
+    } else {
+      return db.query(`INSERT INTO customers (name, email, phone, address, city, postcode, country)
+        VALUES ($1, $2, $3, $4, $5, $6, $7)`, [newName, newEmail, ..., newCountry],
+    }
   })
   .then(function() {
     res.status(201).send("Customer created")
