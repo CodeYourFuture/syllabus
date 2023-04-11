@@ -550,7 +550,7 @@ There are some constraints on adding and removing columns, for example, you cann
 ### Exercise 7
 
 1.  Create a table for charge points. This must record the hotel shops, bars, cafes and restaurants that a customer can use during their stay.
-2.  Include an autoincrementing primary key
+2.  Include an auto-incrementing primary key
 3.  Include the charge point name, a description and maximum customer credit value
 4.  Insert charge points for 'Shop', 'Pool Bar', 'Elysium Restaurant' and 'Room Service' with credit limits of £1000 for each.
 5.  Create a table for charge items that records amounts charged to rooms by customers using our shop, bars, restaurants, etc. This must include the room number of the room charged, the charge point used, the amount, the date and time of the charge and any customer comments.
