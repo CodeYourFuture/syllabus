@@ -344,7 +344,7 @@ app.post("/customers", function (req, res) {
   // to return any rows that contain the same values
   //
 db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
-  .then(function(result) {
+  .then((result) => {
     if (result.rowCount > 0) {      // note the use of result.rowCount
       return Promise.reject({error: 'Customer already exists'})
     } else {
@@ -352,10 +352,10 @@ db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
         VALUES ($1, $2, $3, $4, $5, $6, $7)`, [newName, newEmail, ..., newCountry],
     }
   })
-  .then(function() {
+  .then(() => {
     res.status(201).send("Customer created")
   })
-  .catch(function(error) {
+  .catch((error) => {
     // any errors or manual rejections will be intercepted here
     // handle error here
   })
