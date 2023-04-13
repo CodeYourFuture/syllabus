@@ -15,6 +15,123 @@ Attendees:
 ### ❗Actions
 
 ---
+## {2023-04-13}
+
+Attendees: Sally, Karen, Daniel, Ali
+
+### ❗Actions from last time
+
+- [x] Keith (with support), get Keith's SQL material into the syllabus
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings - Carried over to this meeting.
+- [ ] All: Mind map for JS1 concepts - Probably didn't happen, but Mitch and Sally have been doing rewrites anyway, so...
+
+### 📝 Agenda points
+
+#### PD Syllabus content to be in different files
+
+Sally is building a swanky frontend which can collate views of the syllabus mixing in sources from assorted places.
+
+Sally recommends: Just write the material wherever for now, and Sally will move things around as this launches. Don't want to block PD from writing things up.
+
+Focus on _labelling_ content with competencies, so it can be easily moved around / re-linked to different weeks.
+
+**Workflows for editing**
+
+Would PD still be doing pull requests, etc?
+
+No, basically building a workflow using Decamp CMS. Frontend can mix in content from arbitrary files from GitHub repos, will use a lightweight CMS which publishes to text files in GitHub.
+
+We'll need approvals to gate merging things from the CMS to GitHub - that will need to be built somehow into the CMS.
+
+The Netlify CMS supports creating PRs - will probably start leaning on this once PD have worked out what their workflows should look like, but for now, will probably run in "publish with no vetting" mode to experiment.
+
+**How much GitHub experience do the PD team actually have?**
+
+Most of the people actively working on the syllabus right now are engineers or engineering managers, and are happy with GitHub, but a lot of the wider PD community are (understandably!) intimidated by it.
+
+#### PD & Tech Syllabus meeting-up (define when/what)
+
+What do we expect from the meet up?
+
+Introduction, get to know each other, people's backgrounds and focuses, etc.
+
+In-person meet-ups generally lead to really high-quality high-throughput work outcomes. But everyone is super distributed. Ideally would get as many people in-person as we can, but may not be possible.
+
+Possible themes for sessions:
+* How do we get the trainees to work together in teams from earlier in the course (particularly when they don't have much coding or GitHub experience)?
+* How do _we_ work well together across Tech and PD
+
+Will arrange via Doodle.
+
+Sally is going to happen to be in London the week of May 1st, may be a convenient, but many bank holidays in May.
+
+#### Syllabus for Path/Tracks (QE, Cloud, PM, UI/UX)
+
+**Karen's brief**
+
+Would like syllabus written up for tracks - new volunteers are finding it weird to not have central organisation to consult and update.
+
+**Sally's counterpoints**
+
+The main syllabus is more chaos and full of lies than people realise.
+
+Having a rigid formal syllabus disengages people from focusing on how they're teaching and that people are engaging. Makes it really easy for people to create content, or just present information, and not interact and engage.
+
+We really want people to learn, not to just tell people things.
+
+General goals of a syllabus:
+* A place to codify consistent learning objectives
+* Record experience of what's worked well and badly, lessons learnt, and e.g. exercises which have worked well in the past
+* Offering a repeatable, scalable experience
+
+Valuable goals to produce:
+* Playbooks of how to run specific styles of seessions
+* A living culture of getting experience in class, then graduating volunteers up to more leadership roles
+
+General agreement that syllabus isn't a life-saver, but it would be useful to collate "things we've done that worked" somewhere.
+
+Nobody actually reads the docs that are produced.
+
+Why do we have a syllabus at all? An alternative is to lean heavily towards 1:1 mentoring. Syllabus should be a handbook to teachers: "Here's how to teach this stuff". But risk that this ends up as (ignored or poorly presented) lecture material.
+
+**What did we learn from CYF+?**
+
+There was no "teaching" as per normal CYF, but lots of mentoring.
+
+Syllabus was explicitly designed not to be "this week you do this, next week you do that", but to be remixable. Very project driven.
+
+#### What are we actually trying to offer as CYF to enable volunteers to succeed in teaching?
+
+Not much, actually.
+
+Example projects we've seen work, and a community to talk to.
+
+#### How would we maintain things?
+
+We realistically don't have the bandwidth to maintain 8 different syllabuses.
+
+Idea that we would need to have a "lead" for each syllabus to maintain it.
+
+Except in practice, this always becomes Sally's job.
+
+Do we know why people aren't maintaining things? No, we've tried many things (making things "official", centralising, federating, ...)
+
+#### How should people contribute material for re-use?
+
+[Developing a track doc](https://docs.google.com/document/d/1xJSTOCWAm4nOvDR8lppG9EKHVbiUR8-A4nt9iI_tLLs/edit). [Example front-end track doc](https://docs.google.com/document/d/1_wNIPJdRUzXK6XoH9ndjaga6GO4A4mvwTqOswcCZ6OI/edit).
+
+There's a [track template repo](https://github.com/CodeYourFuture/Track-Template), [module template repo](https://github.com/CodeYourFuture/Module-Template), and [coursework template repo](https://github.com/CodeYourFuture/CYF-Coursework-Template).
+
+Make new repositories based on them and fill out the information.
+
+Really important to be clear that we don't have capacity to reliably deliver more tracks than our main syllabus track.
+
+### ❗Actions
+
+- [ ] Karen to specify requirements for PD syllabus edit workflow.
+- [ ] Karen to put together a Doodle of dates that work for her for a PD & Tech Syllabus meet-up.
+
+---
 ## {2023-03-30}
 
 Attendees: Sally, Keith, Ali, Greg
