@@ -23,6 +23,7 @@ import Feedback from "@theme/Feedback";
   - Inserting data
   - Retrieving data
   - Retrieving data with conditions
+- [PD](#Competency-based interviews)
 - [Coursework](#coursework)
 
 ---
@@ -298,6 +299,34 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 12. Retrieve all bookings before 2020 for less than 4 nights.
 
 :::
+
+## PD (Competency-based interviews)
+**Session objective:** This session explores the competency-based interview concept, and the STAR framework.
+
+[Competency-based interviews slides](https://docs.google.com/presentation/d/1YXPYKanQjfFyegqPaY0h_f3l-ojceZxcFr4cGjCqbaM/edit#slide=id.ga9333c68a9_0_33)
+
+:::note Exercise (5 min)
+
+**Exercise objective:** To observe implementation of STAR framework for competency-based interviews
+Two volunteers pair up. One of them acts as an interviewer, and the other one as interviewee. 
+
+Interviewer asks the following question: What’s your greatest strength?
+
+Interviewee answers badly. They rush and don't listen, so give the wrong answer and talk about what they would do rather than what they have done. They don't give any examples.
+
+Discuss as a class. What did you think? What did the interviewee do well? What did they do badly?
+:::
+
+:::note Exercise (5 min)
+
+**Exercise objective:** To analyse the implementation the STAR framework for competency-based interviews.
+
+Two volunteers pair up. One of them acts as an interviewer, and the other one as interviewee. Interviewer asks the following question: Can you give me an example of how you’ve dealt with the frustration of things not working.
+
+This time, whenever the interviewee starts doing something wrong, shout STOP! Then explain to the interviewee what they should be doing differently and the interviewee will then try again until they’ve got it right.
+
+:::
+
 
 ## Coursework
 
