@@ -9,6 +9,7 @@ sidebar_label: Overview
 | [Week 1](./week-1/lesson.md) | Introduction to SQL                  |
 | [Week 2](./week-2/lesson.md) | More SQL and integration with NodeJS |
 | [Week 3](./week-3/lesson.md) | More integration with NodeJS         |
+| [Week 4](./week-4/lesson.md) |          |
 
 ## Coordination
 
