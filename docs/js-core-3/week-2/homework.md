@@ -4,6 +4,8 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+import IssuesTable from '@site/src/components/IssuesTable';
+
 <!--
 ## 1) Review Solutions for Last Weeks Coursework
 
@@ -107,3 +109,7 @@ Find the Collection for JS-3 Week 2 on the CodeYourFuture account: https://www.c
 ## 8) Talk about your time management  (PD - 30 min)
 
 Book a 121 session with your PD buddy about how you are managing your time; what is working and not working; what your time-management barriers are in your personal and professional life.
+
+## Coursework Github Issues
+
+<IssuesTable module="Module-JS3" week="week 2" />

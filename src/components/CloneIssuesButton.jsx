@@ -1,37 +1,17 @@
-import React from "react";
-import { useLocation } from "@docusaurus/router";
+import React, { useState } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import { CircularProgress } from "@material-ui/core";
 
-const SignInButton = () => {
+const CloneButton = ({ module, issue, token, setError }) => {
   const { siteConfig } = useDocusaurusContext();
-  const location = useLocation();
-
-  const qs = new URLSearchParams({
-    client_id: siteConfig.customFields.CLIENT_ID,
-    state: JSON.stringify({
-      prevPath: location.pathname,
-    }),
-  });
-
-  const url = `https://github.com/login/oauth/authorize?${qs}`;
-
-  return (
-    <a href={url} className="button button--primary">
-      Sign In
-    </a>
-  );
-};
-
-const CloneButton = ({ repo, issue, token }) => {
-  const [loading, setLoading] = React.useState(false);
-  const [error, setError] = React.useState(false);
-  const [success, setSuccess] = React.useState(false);
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const clone = () => {
     setLoading(true);
     const url = issue
-      ? `${API_URL}/clone?repo=${repo}&issue=${issue}`
-      : `${API_URL}/clone?repo=${repo}`;
+      ? `${siteConfig.customFields.API_URL}/github/clone/${module}/${issue}111`
+      : `${siteConfig.customFields.API_URL}/github/clone/${module}`;
 
     fetch(url, {
       method: "POST",
@@ -41,31 +21,38 @@ const CloneButton = ({ repo, issue, token }) => {
     })
       .then((res) => res.json())
       .then((data) => {
+        if (data.error) {
+          throw new Error(data.error);
+        }
         setLoading(false);
         setSuccess(data.message);
       })
       .catch((err) => {
         setLoading(false);
-        setError(err);
+        setError(err.message);
         console.log(err);
       });
   };
 
-  if (error) {
-    return <strong>Something went wrong! See console for details.</strong>;
-  }
-  if (loading) return <strong>Cloning...</strong>;
-  if (success) {
-    return <strong>Cloned!</strong>;
-  }
+  const btnText = success ? "Cloned!" : issue ? "Clone" : "Clone All Issues";
+
   return (
-    <button onClick={clone} disabled={state.loading}>
-      {issue ? "Clone" : "Clone All Issues"}
+    <button
+      onClick={clone}
+      disabled={loading || success}
+      className="button button--outline button--info issues-table__clone-all"
+    >
+      {loading ? <CircularProgress size="1rem" thickness={10} /> : null}
+      {btnText}
     </button>
   );
 };
 
 export default function CloneIssuesButton(props) {
   const token = localStorage.getItem("gh-token");
-  return token ? <CloneButton {...props} token={token} /> : <SignInButton />;
+  return token ? (
+    <CloneButton {...props} token={token} />
+  ) : (
+    <SignInWithGHButton />
+  );
 }

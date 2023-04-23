@@ -55,3 +55,18 @@
 .onDarkMode_whiteBg {
   background: white;
 }
+
+.issues-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.issues-table thead {
+  min-width: 100%;
+}
+
+.issues-table--label {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border-radius: 0.4rem;
+}

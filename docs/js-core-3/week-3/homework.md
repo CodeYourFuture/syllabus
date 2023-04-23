@@ -4,6 +4,8 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+import IssuesTable from '@site/src/components/IssuesTable';
+
 <!--
 ## 1) Review Solutions for Last Weeks Coursework
 
@@ -96,3 +98,6 @@ Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.c
 
 Prepare a 3-min presentation about your TV Show Project. Remember to mention the challenges, tips and tricks and results you came across.
 
+## Coursework Github Issues
+
+<IssuesTable module="Module-JS3" week="week 3" />

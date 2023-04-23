@@ -4,6 +4,8 @@ title: Coursework
 sidebar_label: Coursework
 ---
 
+import IssuesTable from '@site/src/components/IssuesTable';
+
 <!--
 ## 1) Review Solutions for Last Weeks Coursework
 
@@ -29,3 +31,6 @@ You can use the attached template to identify your goals. When ready, submit you
 
 [SMART Goals Template](https://docs.google.com/spreadsheets/d/1HsZvWFjV68L7QZv2Bs_HAd5rr7adb5Jp-7xdv2LNkTo/edit#gid=0)
 
+## Coursework Github Issues
+
+<IssuesTable module="Module-JS3" week="week 4" />
