@@ -20,6 +20,7 @@ Read the Mentors Notes [here](./instructors.md)
 - [Integration with NodeJS](#integration-with-nodejs)
   - Introduction to node-postgres
   - Loading data from a database with a GET endpoint
+- [PD](#Learning to sell yourself)
 - [Homework](#homework)
 
 ---
@@ -723,6 +724,25 @@ In the code above:
 **_Note:_** There is no semicolon to end the SQL statement.
 
 Start your server with `node server.js` and try to reach the `/customers` endpoint to see the list of customers currently available in your `cyf_hotels` database. You can try to create/update/delete customers using psql to verify that your API always returns what is stored in your database.
+
+## PD (Learning to sell yourself)
+
+**Session objective:** This session explains how self-promoting is different from bragging. This session explains how self-promoting is different from bragging.
+
+[Learn to sell yourself slides](https://docs.google.com/presentation/d/1VHNckCtMb02G3e1JZ4xBFsQ4t9mulsZTKXsA1bqUK3Q/edit#slide=id.ga9333c68a9_0_33)
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To turn arguments with a negative connotation into positive ones.
+
+Let's spin this! Get into groups to brainstorm more positive spins on the following sentences. Then come back and share with the class and put together some great answer on a white board.
+
+- I am currently working in a different sector
+- I am a stay-at-home parent so have not worked for ten years
+- I don’t have any experience in software development
+- I don’t enjoy the job I am currently doing
+
+:::
 
 ## Homework
 
