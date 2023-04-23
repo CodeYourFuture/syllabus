@@ -8,8 +8,8 @@ properties
 ```js
 // with for loop
 function printProperties(trainee) {
-  var properties = [];
-  for (var p of trainee) {
+  const properties = [];
+  for (const p of trainee) {
     properties.push(p);
   }
   console.log(properties.join(","));
@@ -17,7 +17,7 @@ function printProperties(trainee) {
 
 // without for loop
 function printProperties(trainee) {
-  var properties = Object.keys(trainee);
+  const properties = Object.keys(trainee);
   console.log(properties.join(","));
 }
 ```
@@ -28,7 +28,7 @@ function should return true if the property exists,false if it doesn't.
 ```js
 // with for loop
 function hasProperty(trainee, propertyName) {
-  for (var p of trainee) {
+  for (const p of trainee) {
     if (p === propertyName) {
       return true;
     }
@@ -56,8 +56,8 @@ you can format the list of interests properly
 ```js
 // with for loop (and not handling array property (interests)
 function printObject(trainee) {
-  var result = []
-  for (var p of trainee) {
+  const result = []
+  for (const p of trainee) {
     result.push(`${p} is ${trainee[p]}`)
   }
   console.log(result.join("\n"))
@@ -65,8 +65,8 @@ function printObject(trainee) {
 
 // with for loop, handling array values
 function printObject(trainee) {
-  var result = []
-  for (var p of trainee) {
+  const result = []
+  for (const p of trainee) {
     if (Array.isArray(trainee[p])) {
       result.push(`${p} are ${trainee[p].join(",")}`)
     } else {
@@ -79,7 +79,7 @@ function printObject(trainee) {
 // without for loop, handling array values
 // could be more concise with a ternary, this seemed easier to read/parse
 function printObject(trainee) {
-  var result = Object.keys(trainee).map(function (p) {
+  const result = Object.keys(trainee).map(function (p) {
     if (Array.isArray(trainee[p]) {
       return `${p} are ${trainee[p].join(",")}`;
     } else {
@@ -108,7 +108,7 @@ money in the wallet.
 ```js
 // quotes or no quotes will work for these keys
 function sumWallet(wallet) {
-  var total = 0;
+ let total = 0;
   total += wallet[5];
   total += wallet[10];
   total += wallet[20];
@@ -121,7 +121,7 @@ money for all of the wallets.
 
 ```js
 function sumAllWallets(walletArray) {
-  var total = 0;
+  let total = 0;
   walletArray.forEach(function (wallet) {
     total += wallet[5];
     total += wallet[10];
@@ -137,7 +137,7 @@ notes.
 
 ```js
 function combineWallets(walletArray) {
-  var resultWallet = {
+  let resultWallet = {
     5: 0,
     10: 0,
     20: 0,
@@ -162,7 +162,7 @@ any `isNaN` checks here to keep the example code clear.
 
 ```js
 function sumDynamicWallet(wallet) {
-  var total = 0;
+  let total = 0;
   Object.keys(wallet).forEach(function (note) {
     total += note * wallet[note];
   });
@@ -176,7 +176,7 @@ have a think about if you could re-use a function from a previous example...
 
 ```js
 function sumDynamicWallets(walletArray) {
-  var grandTotal = 0; // could be `total`, renamed for clarity/to avoid confusion
+  let grandTotal = 0; // could be `total`, renamed for clarity/to avoid confusion
   walletArray.forEach(function (wallet) {
     grandTotal += sumDynamicWallet(wallet);
   });
