@@ -92,7 +92,7 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) TResilience learning points and suggestions (PD - 1 hr)
+## 7) Resilience learning points and suggestions (PD - 1 hr)
 
 Watch the following video and read the articles. How do you think CYF can improve the PD session on resilience? Share 5 of your own learning points and 3 new suggestions for us to make the session even better.
 
