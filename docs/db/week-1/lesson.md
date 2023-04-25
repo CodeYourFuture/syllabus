@@ -307,7 +307,7 @@ SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
 
 :::note Exercise (5 min)
 
-**Exercise objective:** To observe implementation of STAR framework for competency-based interviews
+**Exercise objective:** To observe and discuss implementation of STAR framework for competency-based interviews
 Two volunteers pair up. One of them acts as an interviewer, and the other one as interviewee. 
 
 Interviewer asks the following question: What’s your greatest strength?
