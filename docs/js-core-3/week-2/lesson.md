@@ -420,6 +420,7 @@ Once a few trainees have expressed their opinions, volunteer to describe the dif
 **Positive feedback**: This is the type of feedback that we all want to hear, it’s when someone praises our work.
 
 Appreciation and positive remarks in the workplace can help an employee feel appreciated, can help to reinforce good behaviours and will help employees with their professional development.
+
 However, it is important not to overuse positive feedback as its value will decrease. You may find it more valuable to hear positive comments from someone who almost never praises you for your work than a coworker constantly telling you how awesome you are. Too much positive feedback can also make employees complacent and feel less challenged in their roles.
 
 **Negative feedback:** This is the kind of feedback that people don’t like to hear, especially without warning. Negative feedback can make individuals feel attacked, demotivated, and undervalued at work.
