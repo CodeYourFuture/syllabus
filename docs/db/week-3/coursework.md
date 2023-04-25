@@ -1,4 +1,4 @@
-## Personal statement clinic (PD - 1 hr)
+## Professional statement clinic (PD - 1 hr)
 
 Prepare a personal statement for your Linkedin profile.
 
