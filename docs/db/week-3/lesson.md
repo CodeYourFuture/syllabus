@@ -518,7 +518,7 @@ Note also that optimistic locking requires changes not only to the code of your 
 :::note Exercise (10 min)
 
 **Exercise objective:** To identify transferrable skills from different life experiences.
-List 3 transferable skills to be gained for each of the following jobs:
+List 3 transferable skills to be gained for each of your previous jobs or educational experiences:
 
 - Stay at home parent
 - Taxi driver
