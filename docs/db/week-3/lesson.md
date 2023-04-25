@@ -518,18 +518,8 @@ Note also that optimistic locking requires changes not only to the code of your 
 :::note Exercise (10 min)
 
 **Exercise objective:** To identify transferrable skills from different life experiences.
-List 3 transferable skills to be gained for each of your previous jobs or educational experiences:
 
-- Stay at home parent
-- Taxi driver
-- Receptionist
-- Academic
-- Civil servant
-- Project Manager
-- Restaurant Manager
-- Writer/Artist
-- Teacher, or
-- Feel free to use your current job as an example
+List 3 transferable skills to be gained for each of your previous jobs or educational experiences.
 
 :::
 
@@ -537,7 +527,7 @@ List 3 transferable skills to be gained for each of your previous jobs or educat
 
 **Exercise objective:** To identify skills that can be developed during the CYF course.
 
-The following is a real ‘junior software developer’ job description from LinkedIn. In small groups, map these skills back to the skills you will gain at the end of your CYF course in a demonstrable way.
+The following is a real ‘junior software developer’ job description from LinkedIn. In small groups, map these skills back to the skills you will gain at the end of your CYF course.
 
 Share back with the group. You can collate the answers on a white board.
 
