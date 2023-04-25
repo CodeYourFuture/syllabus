@@ -423,6 +423,10 @@ Appreciation and positive remarks in the workplace can help an employee feel app
 
 However, it is important not to overuse positive feedback as its value will decrease. You may find it more valuable to hear positive comments from someone who almost never praises you for your work than a coworker constantly telling you how awesome you are. Too much positive feedback can also make employees complacent and feel less challenged in their roles.
 
+Also, specific positive feedback can be much more effective than general positive feedback. The first feedback is better than the second one: 
+1. The way you presented graphs to show our progress really made it easy to notice what tasks I needed to focus on which helped me get the project delivered.
+2. It was great working with you, it helped the project succeed.
+
 **Negative feedback:** This is the kind of feedback that people don’t like to hear, especially without warning. Negative feedback can make individuals feel attacked, demotivated, and undervalued at work.
 
 However, negative feedback can be effective when utilized correctly. It becomes **constructive feedback** and identifies ways an individual can improve.
