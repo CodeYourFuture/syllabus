@@ -484,7 +484,7 @@ Discuss with your partner how that conversation could have been better if you we
 Role-play scenarios:
 
 1. You are a developer in a team. A very important project has been presented; however, you have not been assigned to it. The person who will be working on this project is a peer, who you think isn’t as competent as you. You want to question that decision with your manager.
-2. You are working on a team with a person you have had issues with before. You think that they are not doing their share of the work on purpose because they dislike you. You want to talk to this person about it.
+2. You are working on a team with a person you have had issues with before. You think that they're not doing tasks you're dependent on on purpose because they dislike you. You want to talk to this person about it.
 3. You have been working hard and would like to get a pay rise. Have this discussion with your manager. 
 4. You think that the project you have been allocated to is impossible and it can't succeed and you are worried you are being set up to fail. You want to talk to your Product Manager or Product Owner about this.
 5. Someone in your team isn’t doing their share of the work and you want to talk to them about it.
