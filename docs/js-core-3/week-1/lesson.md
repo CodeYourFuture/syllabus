@@ -471,7 +471,7 @@ Imagine that you are at a new job and one colleague has scheduled to collaborate
 
 :::note Exercise (35 min)
 
-**Exercise objective:** To role-play a difficult conversation.To role-play a difficult conversation.
+**Exercise objective:** To role-play a difficult conversation.
 
 Work in pairs. Use one of the following scenarios where you need to have a difficult conversation. If you finish your first scenario and still have time, choose another one.
 
