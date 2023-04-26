@@ -488,7 +488,7 @@ Role-play scenarios:
 3. You have been working hard and would like to get a pay rise. Have this discussion with your manager. 
 4. You think that the project you have been allocated to is impossible and it can't succeed and you are worried you are being set up to fail. You want to talk to your Product Manager or Product Owner about this.
 5. Someone in your team isn’t doing their share of the work and you want to talk to them about it.
-You have been receiving positive feedback all year long, but you didn’t get a promotion. However your peer did. You want to talk to your manager about it.
+6. You have been receiving positive feedback all year long, but you didn’t get a promotion. However your peer did. You want to talk to your manager about it.
 6. You have been working on 3 different projects and you just received an e-mail asking you to support a 4th one and to lead a workshop next week. You want to talk to your manager about your workload.
 7. Your company had an internal job opportunity that you applied for. You weren’t the one chosen and never got feedback. So you arranged a meeting with the interviewer to get feedback on your performance.
 8. You have done a mistake in your work and after Googling and asking for help at the CYF community, you still do not know the answer. You have to ask your tech lead or senior developer for help.
