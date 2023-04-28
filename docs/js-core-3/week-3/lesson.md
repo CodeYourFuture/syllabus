@@ -27,7 +27,7 @@ The purpose of this class is to introduce to the trainee:
    - Block
 2. Array Destructuring
 3. Project Work
-4. PD (Agile: Scrum planning)
+4. PD (Resilience)
 
 ## 1. Variable Scope
 
@@ -539,46 +539,89 @@ The project is called [TV Show](../tv-show-dom-project/readme.md)
 
 Trainees should group into teams based on the Level that they are working on currently.
 
-## PD (Agile: Scrum planning)
+## PD (Resilience)
 
-**Session objective:** This session introduces roles, processes and ceremonies in a scrum team. 
+**Session objective:** This workshop is about understanding resilience, the challenge of looking for jobs and how you can develop a resilient mindset when being faced with job rejections. At the end of this session, you will be able to understand what resilience is, identify current coping habits, and develop resilience strategies.
 
-:::note Exercise (10 minutes)
+:::note Exercise (10 min)
 
-**Exercise objective:** To use Gitprojects for planning
+**Exercise objective:** To define what resilience is.
 
-Use the Gitprojects board to plan your homework.
+Discuss as a class the following questions:
 
-Step 1: Click on the projects tab in your repository and select create a project.
+- What does resilience mean to you?
+- Why is it important to have resilience? 
 
-Step 2: Name your project CYF Homework-Your name
+***Answer Key***
 
-Step 3: Choose from any of the templates that breaks task down into three separate stages. (To do, in progress, done)
+Resilience is the ability to face adversity (challenging situations, rejection, trauma or stress), and being able to bounce back from it. Resilience helps to protect our mental health. It allows us to keep balance during stressful times in life, giving us the strength to bounce back. When facing difficult situations, our resilience defines how quickly we can pick ourselves back up and build our strength. 
 
-Step 4: Review your Tech Edu and PD homework, create a new card for each piece of homework and organise them into the three different categories (To do, in progress, done) 
-
-Remember, each card should have some detail about the task and what you need to do to complete your homework.
-
-:::
-
-[Agile: Scrum planning](https://docs.google.com/presentation/d/1bLZRmA3fwlBnDDukVdxUVtfGBNGHxDkEbZplOvVf-gA/edit#slide=id.g1b740a9f8c6_0_341)
-
-:::note Exercise (30 minutes)
-
-**Exercise objective:** To use Gitprojects for planning
-
-In small groups, plan your TV show project.
-
-Step 1: Click on the projects tab in your repository and select create a project.
-
-Step 2: Name your project TV-Show-Project-Planning
-
-Step 3: Work together and review all of the tasks you need to do to complete your individual projects (please note that you might be at different stages of completion). Organise your tasks in four categories (Backlog, To do, In progress, Done).
-
-Step 4: It’s time to have your first stand up. In your groups discuss your progress and your blockers.
+Think about resilience as “it’s not what happens to us, but how we react to it”. We cannot always control what happens to us, although we can control how we deal with the situation, and what we learn from it.
 
 :::
 
+:::note Exercise (20 min)
+
+**Exercise objective:** To reflect on past experiences of demonstrating resilience.
+
+Work in small groups and answer the following questions:
+
+- What does it mean to be resilient as a web developer and job seeker?
+- How have you shown resilience in the past when you have faced adversity?
+
+Remember:
+
+- This is an interactive session
+- You all come from different backgrounds and have a lot of lived experiences you can draw from and it would be useful to share them with others
+- It’s really important to hear your views throughout the session
+
+Write down the main points you’ve discussed, and nominate someone within your group to share them afterwards with the class.
+
+:::
+
+:::note Exercise (20 min)
+
+**Exercise objective:** To develop a resilient mindset.
+
+Work in small groups and make a list of tips for someone who would like to develop a resilient mindset.
+
+Volunteer to share your list with the class.
+
+***Answer Key***
+
+Good answers would include:
+
+- Reflect on your own achievements - look at what you have achieved already to get here. Your life experiences are full of examples of resilience and achievement.
+- Focus on things in your control - focus on the aspects that you can control, make sure you apply for the right type of job at the right time.
+- Embrace rejection - rejection is part of the process. There is so much you can learn from making mistakes and things not going your way. Take time to reflect on what went well, and what you can improve next time round.
+- Employers need you as much as you need them. - it’s a 2-way process.
+- You’re not on your own - you have a ready-made support network at CYF. Volunteers, mentors, teachers and your peers are here to support you all the way.
+- Apply when you are ready - you will know you are ready by discussing with CYF. Your Edu buddies, PD team and chatting with your mentors. If you apply too early or when you are unprepared, you are more likely to get rejections
+
+:::
+
+**Wrap up**
+
+When looking for your first role after CYF, you’ll find yourself applying for a large number of roles. Job hunting can be a frustrating experience, particularly when changing career paths due to the lack of hands-on experience in the new field, which is something most employers are looking for. Today we focused on how to best navigate through uncertainty, frustration, and rejection, unpacking some techniques on how to create a resilient mindset.
+
+We’ll learn about specific interview skills in a different session, but a few words here: Interviewing is an art that needs to be learnt and mastered. We improve and learn new tips in each interview we get through. Try to look at an interview as an opportunity to practice your interview skills, regardless of the outcome. Take time to reflect on what went well, and what areas you could improve next time.
+
+*Key 2023 job interview statistics*
+
+- An average of 10 to 20 interviews are needed before getting an offer - These numbers are average, remember it can take many more or less to achieve your first job.
+- The average interview process in the UK takes 27.5 days to complete - The average number of interviews needed to get an offer, plus the time that each company takes for their own interview process, means that you’ll need resilience to keep going through it until you get your first job in IT.
+- Only 2% of applicants will get selected for an interview.
+
+(Source: https://standout-cv.com/job-interview-statistics)
+
+*Top tips:*
+
+- Have a plan B!
+- Look at what you have achieved already!
+- Develop a resilient mindset!
+- You already have a support network -CYF is here to help you!
+- Focus on things in your control
+- Have realistic expectations
 
 ## Coursework
 
