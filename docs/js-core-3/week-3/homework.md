@@ -92,7 +92,16 @@ Every week you need to complete at least three kata. Spend at least 20 minutes, 
 
 Find the Collection for JS-3 Week 3 on the CodeYourFuture account: https://www.codewars.com/users/CodeYourFuture/authored_collections
 
-## 7) TV Show Project Presentation (PD - 1 hr)
+## 7) Resilience learning points and suggestions (PD - 1 hr)
 
-Prepare a 3-min presentation about your TV Show Project. Remember to mention the challenges, tips and tricks and results you came across.
+Watch the following video and read the articles. How do you think CYF can improve the PD session on resilience? Share 5 of your own learning points and 3 new suggestions for us to make the session even better.
+
+- [Listening to shame](https://www.ted.com/talks/brene_brown_listening_to_shame/comments)
+- [Growth Mindset + Vulnerability](https://medium.com/teachers-on-fire/growth-mindset-vulnerability-c956512286)
+- [Failure, vulnerability, and the true nature of change](https://www.impactinternational.com/blog/2022/09/failure-vulnerability-and-true-nature-change)
+
+Optional video list:
+
+- [The benefits of failure](https://www.ted.com/playlists/418/the_benefits_of_failure)
+
 
