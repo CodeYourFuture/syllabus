@@ -18,6 +18,7 @@ Read the Mentors Notes [here](./instructors.md)
   - [Reading data](#reading-data)
   - [Updating data](#updating-data)
   - [Deleting data](#deleting-data)
+- [PD](#CVs and transferable skills)
 - [Homework](#homework)
 
 ---
@@ -507,6 +508,41 @@ The solution is known as "optimistic locking" but we just don't have time in thi
 Note also that optimistic locking requires changes not only to the code of your Node endpoints but also to the behaviour of the web pages that use and modify the data.
 
 ---
+
+## PD (CVs and transferable skills)
+
+**Session objective:** This session focuses on identifying transferable skills and designing effective CVs, Linkedin and GitHub profiles.
+
+[CVs and transferable skills slides](https://docs.google.com/presentation/d/1sXfvLTImKKJo7IdvKwL7--beKygBseMvD12Y_wDKHmY/edit#slide=id.ga9333c68a9_0_33)
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To identify transferrable skills from different life experiences.
+
+List 3 transferable skills to be gained for each of your previous jobs or educational experiences.
+
+:::
+
+:::note Exercise (10 min)
+
+**Exercise objective:** To identify skills that can be developed during the CYF course.
+
+The following is a real ‘junior software developer’ job description from LinkedIn. In small groups, map these skills back to the skills you will gain at the end of your CYF course.
+
+Share back with the group. You can collate the answers on a white board.
+
+JOB DESCRIPTION - JUNIOR SOFTWARE DEVELOPER
+
+Your skills and experience:
+- Demonstrate passion for technology (personal projects, open source involvement)
+- Have excellent interpersonal, oral and written communications skills.
+- Enjoy problem-solving and be logical.
+- Be able to work under pressure in a fast-paced environment.
+- Like working in a team with lots of different people.
+- Be able to take responsibility for a piece of work from start to finish
+- Be good at planning and prioritising workload
+- Articulate and justify conceptual ideas and solutions to clients and internal teams
+- Focus on delivering value to the business with relentless efforts to improve process
 
 ## Homework
 

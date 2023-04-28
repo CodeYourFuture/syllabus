@@ -19,13 +19,12 @@ In each of the folders you'll find a `solutions.md` file that will explain more 
 
 -->
 
-## 1) Create 3 SMART goals (PD - 1 hr)
+## 1) Changing fixed mindset (PD - 1 hr)
 
-Create 2 or 3 goals for yourself to improve your PD competencies. Refer to your SDOT analysis. Focus on what you want to improve.
+Watch [this video](https://www.youtube.com/watch?v=_X0mgOOSpLU).
 
-You can use the attached template to identify your goals. When ready, submit your goals here and share them with your PD buddies.
+Think about a fixed mindset you currently have. Try and pick one relating to programming or your career. Make a new post in your cohort’s Slack channel where you briefly describe your situation and ask for help on changing your mindset. 
 
-[PD competencies list](https://docs.google.com/document/d/1Mx5yY9zA5v0KpkIbc0CRfjC4iyqKy-nZs3Yre-APVEw/edit)
+Additionally, you should also make a comment on one of your peers’ posts to help them.
 
-[SMART Goals Template](https://docs.google.com/spreadsheets/d/1HsZvWFjV68L7QZv2Bs_HAd5rr7adb5Jp-7xdv2LNkTo/edit#gid=0)
 
