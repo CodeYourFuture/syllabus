@@ -61,26 +61,52 @@ The main difference between `GET` and `POST` is that a `POST` method has a body,
 
 ### Headers
 
-Each request and response sent has meta data, information about the data, at the beginning called a `header`. The `header` contains information such as a
+Each request and response sent has a section at their beginning called the head, which contains a start line and a series of headers. The headers each have a name and a value, and indicate something about the request or response as a whole, such as the time a response was generated, its content type or its size.
 
-- status code indicating whether a request was successful
-- content type which indicates what the request or response contains
+As an example, the following shows the first few lines of the head section of a request made by a web browser for the homepage of Code Your Future (note the start line and then the series of headers):
 
-as well as lots of other things we won't cover here
+```
+GET / HTTP/1.1
+Host: codeyourfuture.io
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+```
+
+and, likewise, the head section of the response containing the HTML for the homepage (don't worry about the exact details just yet!):
+
+```
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 29 Apr 2023 18:38:51 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.22
+Last-Modified: Sat, 29 Apr 2023 18:38:51 GMT
+ETag: "c95e31495c17f4e519c018d504c918f6"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+```
+
+You can find request and response headers for web pages that you are viewing via the 'Network' tab of your browser's dev tools.
 
 ### Status codes
 
-Each response returned needs to contain a `status` code which tells the client whether the request was successful. If the request succeeded the response code will be `200`. If the resource you tried to access was not found the response code used is `404`.
+The start line of each response returned needs to contain a status code which tells the client whether the request was successful. If the request succeeded the response's status code will usually be `200`. If the resource you tried to access with a request was not found the status code used for the response is `404`.
 
 Some status codes you may have come across before are:
 
-- `200` ok. Request was successful
-- `301` moved permanently. Used to redirect request when moved permanently
-- `401` Unauthorised. User credentials were not supplied
-- `404` Not found
-- `500` Internal server error
+- `200` _OK_ - indicates that a request (usually a GET) was successful
+- `301` _Moved Permanently_ - used to redirect a request when a page has been permanently moved to another URL
+- `401` _Unauthorized_ - correct credentials for a user of a web service were needed and not given
+- `404` _Not Found_
+- `500` _Internal Server Error_
 
-The response codes can be grouped into categories
+The response codes can be grouped into categories:
 
 - 1xx: Informational
 - 2xx: Success
@@ -92,9 +118,9 @@ If you want a fun look at HTTP codes, take a look at [https://httpstatusdogs.com
 
 ### Content type
 
-When sending data across the web, we need to specify in the header what the request or response contains. To do that, the `content-type` header is used. That way the receiver knows what to do with the data received.
+When sending data across the web, we need to specify in the header what the request or response contains. To do that, the `Content-Type` header is used. That way the receiver knows what to do with the data received.
 
-Common content types include
+Common content types include:
 
 - `text/html` - HTML web page
 - `text/css` - CSS
@@ -106,7 +132,7 @@ Common content types include
 
 :::note Exercise
 
-In Slack post answers to the following
+In Slack post answers to the following:
 
 - What can HTTP headers contain?
 - What is the purpose of status codes?
