@@ -46,7 +46,7 @@ You should _answer in a thread on Slack_
 
 ## 2. How the web works - quick recap
 
-In this session we will look at how computer talk to each other using the web.
+In this session we will look at how computers talk to each other using the web.
 
 At the core of the web is the URL, which stands for Uniform Resource Locator. We use the term resource to mean anything that a server might return such as webpage, CSS, JavaScript, image, data etc. A good way to think of a URL is as an address. It allows us to refer to webpages, images, data etc that is stored on servers elsewhere.
 
