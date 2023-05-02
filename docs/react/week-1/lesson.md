@@ -513,6 +513,59 @@ In this exercise, we'll move the variables in `Logo`, `BestPokemon` and `CaughtP
 
 Inspiration & examples for this module were taken from [Kent C. Dodd's](https://twitter.com/kentcdodds) [Beginner's Guide to ReactJS](https://egghead.io/courses/the-beginner-s-guide-to-reactjs) course.
 
+## PD (Building confidence)
+
+**Session objective:** This session will explore the confidence and imposter syndrome concepts.
+
+Confidence plays an important life in a person's professional life. It’s not easy to work on it and improve it, especially in a competitive environment. So, it’s important to identify one’s area for improvement. Weak self-confidence can show through having an imposter syndrome and negative self-comparison. It’s important to know yourself enough to understand what causes you to feel like an imposter and how to overcome those feelings. 
+
+:::note Exercise 1 (20 min)
+
+**Exercise objective**: To learn about confidence, it’s misconceptions and imposter syndrome
+There are some misconceptions about confidence, especially it being confused with being showy or arrogant and thinking that it’s a skill that can’t be improved. 
+
+Below are some scenarios, try to identify which ones are a misconception, which ones show confidence and which indicate having imposter syndrome:
+
+1. Asking your boss for a raise - you’ve worked in the company for years, have been selected as employee of the year but still haven’t received a raise
+2. You get assigned a task by your boss who knows your capabilities well and you feel like it would be better if one of other coworkers did it or at least helped you with it
+3. Not agreeing with your coworkers about certain work - sharing your opinion, explaining your own views/doubts on the topic
+4. Presenting your ideas and thoughts on certain projects to your co-workers who have been employed in the company much longer than you
+5. After finishing a project in pairs your coworker takes more credit for it than deserved and you let them, thinking “ah it’s ok, maybe sometimes they have worked more than me”
+6. Having a meeting with your boss and explaining you should be able to come to work later than the rest of the employees because you work harder than the rest of them
+7. Asking your boss to give you a better position at the workplace because you have more experience and knowledge than your coworkers
+8. Not following the official schedule because you have a better plan how to reach the goal of a project
+9. After encountering the problem and trying to solve it for a couple of days you ask a colleague for help and they call you incompetent
+10. You see your co-worker do something bad and wrong but you don’t say anything as you don’t think it’s your place
+
+:::
+
+:::note Exercise 2 (25 minutes)
+
+**Exercise objective**: To role-play the conversations and practice skills to gain confidence
+
+Work in pairs. Choose one (or more if you can) of the following scenarios and practice your abilities to gain confidence in difficult positions.
+
+1. You just started working in the company. You work on a project with your co-worker who is not satisfied with anything that you do and is also sometimes rude with how little experience you have. The co-worker is talking rudely to you and does not take you seriously. Your challenge is to approach this co-worker in a professional manner and try to find the middle ground since you have to finish the project. 
+2. You play the role of manager and you are responsible to give your employee a performance review. You would like them to improve their performance if they want to get a salary bonus. However, the employee already thinks they’ve done a lot since they’ve been working more hours than the rest and have finished more projects than any of them in one year. 
+3. A customer comes to a company, being very upset about the product, claiming the product is not functioning properly. However your role is to show the customer the product does work correctly, they just don’t know how to use it in the right way.
+
+:::
+
+**Wrap up**
+
+***What is imposter syndrome?***
+
+Imposter syndrome is having doubts about your abilities, feeling unwanted in the situation/area as if you don’t belong and thinking less capable than you are. It often feels like having anxiety, insecurities and not being able to perform at the level you are usually capable of. You feel discouraged by the achievements of the people around you and are unable to experience the full joy of your own success. 
+
+It’s important to be confident so you can:
+- be assertive
+- do more (challenging) work
+- communicate more effectively
+- push yourself to step out of your comfort zone
+- always stay true to yourself
+- accept praise for your work
+- know your weaknesses and strengths 
+
 ## Coursework
 
 Follow to [view the coursework](./homework) for this lesson.

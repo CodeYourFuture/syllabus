@@ -117,3 +117,17 @@ Here are some resources to get you started
 
 1. Read Props vs State
    - https://kentcdodds.com/blog/props-vs-state
+
+
+##  How Self-Confident Are You? (PD - 1 hr)
+
+Read [this article](https://www.mindtools.com/ahqz3nl/how-self-confident-are-you) and do the quiz that is part of it. After you do, write a 250-word reflection on the results you got (was it what you expected, did something surprise you, have you learned anything from it etc).
+
+Optional material: 
+- [Using affirmations](https://www.mindtools.com/air49f4/using-affirmations)
+- [Positive Thinking, Thought Awareness, and Rational Thinking](https://www.mindtools.com/au3crwx/positive-thinking-thought-awareness-and-rational-thinking)
+- [Personal Goal Setting](https://www.mindtools.com/au3crwx/positive-thinking-thought-awareness-and-rational-thinking)
+- [Stress Diaries](https://www.mindtools.com/ag3ueu7/stress-diaries)
+- [How to Build Self-confidence](https://www.mindtools.com/ap5omwt/how-to-build-self-confidence)
+- [Sheryl Sandberg impostor syndrome](https://www.youtube.com/watch?v=DNikR2GQwVg&t=39s)
+- [Positive, Rational Thinking](https://www.youtube.com/watch?v=KjDfnUaFKCE)
