@@ -122,8 +122,8 @@ In Slack post answers to the following
 - API stands for `Application Programming Interface`
 - APIs are created by providers and used by consumers
 - It is a specific part of a larger system that can be contacted by other systems, for example from the internet.
-- When we connect to an `API` we say that we are connecting to an `Endpoint`
-- Some well-known APIs are [Facebook APIs](https://developers.facebook.com/), [Twitter APIs](https://developer.twitter.com/en/docs), [Maps APIs](https://developers.google.com/maps/documentation) and many many more
+- APIs on the web are usually made up of one or many "endpoints", which are URLs that an outside consumer can connect to
+- Some well-known APIs are [the Facebook API](https://developers.facebook.com/), [the Twitter API](https://developer.twitter.com/en/docs), [the Google Maps API](https://developers.google.com/maps/documentation) and many many more
 - In particular, an API doesn't care what language or technology is used in the consumer or the provider
 
 An API is a set of rules that allow programs to talk to each other. The developer creates the API on the server and allows the client to talk to it. An example of a server is the application on a computer hosting a website and an example of a client is the browser on the phone trying to access the website.
@@ -134,11 +134,11 @@ Imagine that I am a big social network and I want to give developers all over th
 
 What are some problems that I would have with sharing my data with everyone?
 
-1. Some of the information that I have is public (for example, peoples names) whilst other information I have is private (for example, email addresses). I want to make sure that I only ever give developers access to peoples names but never to their email addresses - otherwise they could send them spam email.
-2. I want to make sure that when developers ask for my data I can control who has access to it. I like that my users data is being used to make their lives better but I don't like it when companies try to sell them new stuff they don't need.
-3. Some developers might want to change some of the users details on my social network and this would get very messy quickly if people where allowed to change whatever they wanted
+1. Some of the information that I have is public (for example, people's names) whilst other information I have is private (for example, email addresses). I want to make sure that I only ever give developers access to people's names but never to their email addresses - otherwise they could send them spam email.
+2. I want to make sure that when developers ask for my data I can control who has access to it. I like that my users' data is being used to make their lives better but I don't like it when companies try to sell them new stuff they don't need.
+3. Some developers might want to change some of the users' details on my social network and this would get very messy quickly if people where allowed to change whatever they wanted.
 
-An API is a special type of program what acts as a **gatekeeper** to all of this information. Having an API means that I can control which information is shared about my users and who it is shared with. Perfect!
+An API is a special type of program that acts as a **gatekeeper** to all of this information. Having an API means that I can control which information is shared about my users and who it is shared with. Perfect!
 
 #### Types of APIs
 
@@ -148,25 +148,25 @@ An API is a special type of program what acts as a **gatekeeper** to all of this
 
 ##### Examples
 
-Here is the API endpoint for Transport For London
+Here is the website for the API for Transport For London, which is the authority that runs public transport services within London.
 
 https://api.tfl.gov.uk
 
-The data from this endpoint will be used by many apps that you use every day - Google Maps and Citymapper to name two.
+The data from this API will be used by many apps that you use every day - Google Maps and Citymapper to name two.
 
-This endpoint will get location of all of the Bikepoints in London.
+This endpoint will get location of all of the bike points in London, which are docking stations for bikes that you can hire.
 
 https://api.tfl.gov.uk/BikePoint
 
-That's a lot of Bikes! It would be better if we could search for a location. Luckily this API let's us search for places.
+That's a lot of bikes! It would be better if we could search for a location. Luckily, this API lets us search using placenames.
 
 https://api.tfl.gov.uk/BikePoint/Search?query=Clerkenwell
 
-This API also has lots of other endpoints that we can use to get other data. For example, lets find the Air Quality of London.
+This API also has lots of other endpoints that we can use to get other data. For example, let's find information about air quality in London.
 
 https://api.tfl.gov.uk/AirQuality
 
-As you can see the URL changes the data that we get from the API. This can be broken down like this
+As you can see, the URL changes the data that we get from the API. This can be broken down like this
 
 <img src={require('!file-loader!./assets/api-breakdown.png').default}/>
 
@@ -192,7 +192,7 @@ Let's use the Numbers API. The documentation can be found at http://numbersapi.c
 Which of the following statements below about APIs is false?
 
 A) Public APIs can be accessed by anyone on the Internet.
-B) You must use Javascript to access an API.
+B) You must use JavaScript to access an API.
 C) APIs can control access to data or features of an application.
 D) You can change data via an API.
 
@@ -204,7 +204,7 @@ Give an example of a company that uses an API to allow access to their data.
 
 What is the `myapi/` part of a url called in this url?
 
-http://www.google.com/**myapi**/
+http://www.google.com/myapi/
 
 :::
 
