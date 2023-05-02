@@ -15,6 +15,58 @@ Attendees:
 ### ❗Actions
 
 ---
+## {2023-04-27}
+
+Attendees: Ali, Daniel, Greg, Mitch, Sally
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### Curriculum Rewrite
+
+[Planning doc](https://docs.google.com/document/d/1p3Jd1ETGAuUfiYEl_YRNNdE7v3F8NmqkXgZLvPjkGb0/edit)
+
+Focusing on JS1 for now, and further modules to come in the future.
+
+4-week module structure is arbitrary, we can be flexible.
+
+Aiming for one major learning theme per week.
+
+Most content in the [planning board](https://miro.com/app/board/uXjVMPkUc1E=/).
+
+Greg is concerned that trying to identify single themes per week is misleading because everything _is_ a thread that builds week-on-week.
+
+#### Syllabus -> Curriculum
+
+A syllabus is a top-line what you're teaching. A curriculum is the sequenced details of how you teach it.
+
+We have a curriculum. We should call it one.
+
+#### Coursework via GitHub Issues
+
+Ali recently went to a London class and observed the new GitHub-based coursework.
+
+It took about 45 minutes to explain how to copy issues onto their own board, and still not sure it fully landed.
+
+There's a plan to build a GitHub application to do this, but until we have that running the workaround is to install an extension which clones issues. Which also requires access tokens and such.
+
+In the mean time, worried the benefits and focus are being lost.
+
+#### Greg demos latest "think like a computer"atron
+
+Very cool demo :)
+
+Next steps: Support some ES6
+
+Ali: [CodeMirror](https://codemirror.net/) would be great for the presentation of the JS.
+
+### ❗Actions
+
+- [ ] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+- [ ] Daniel: Work with Berkeli to get the "clone issues" App shipped ([spec](https://github.com/CodeYourFuture/Changes/issues/2) and [WIP PR](https://github.com/CodeYourFuture/syllabus/pull/633)).
+
+---
 ## {2023-04-13}
 
 Attendees: Sally, Karen, Daniel, Ali
