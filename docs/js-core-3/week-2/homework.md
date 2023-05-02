@@ -111,7 +111,6 @@ Imagine yourself in one of the following scenarios. How would you prepare to giv
 Write a short paragraph explaining what you would do or write a dialogue between you and the person you are giving feedback.
 
 Scenarios:
-
 - Your colleague took your lunch from the office fridge
 - Your colleague keeps interrupting you and others in meetings
 - Your flat-mate left dirty cups in the sink for several days

@@ -445,7 +445,7 @@ Work in small groups. Take turns to play the roles below and answer the followin
 - What would be your reaction after receiving such feedback?
 - Were people in the right mindset to give and receive feedback?
 
-***Situation 1***: Tom asked Katie for help on the code he was writing. 
+*Situation 1*: Tom asked Katie for help on the code he was writing. 
 
 Tom: “Hi Katie, would you mind spending a few minutes looking at this function I am working on? I can’t seem to find what’s wrong with the code.”
 
@@ -457,13 +457,13 @@ Katie: After looking at the code for some time… “Seriously? How could you mi
 
 Katie walks away.
 
-***Situation 2***: Patricia stops by Carla’s desk.
+*Situation 2*: Patricia stops by Carla’s desk.
 
 Patricia: “Hi Carla. Just wanted to let you know how much I appreciate the work you did in the last project and I hope we get to work together again”
 
 Carla: “Oh Thank You! You made my day!”
 
-***Situation 3***: Team members in a project retrospective meeting where they discuss things they did well and things that need improvement.
+*Situation 3*: Team members in a project retrospective meeting where they discuss things they did well and things that need improvement.
 
 Jessica: “I think overall the project went well but developers were constantly waiting for Karen to finish testing their code before they could deploy to Production. She was overwhelmed with the amount of work on her plate”
 
@@ -483,11 +483,11 @@ Volunteer to share your role-playing experience with the class.
 
 Work in small groups. Turn the feedback below into constructive feedback. Try to be creative.
 
-***Feedback 1***: After a weak sales pitch, Ryan’s manager blamed Ryan for what went wrong. The manager told Ryan that he had no idea what he was doing. Ryan’s personality was being questioned rather than his work. The feedback provided no helpful insights to help Ryan perform better.
+*Feedback 1*: After a weak sales pitch, Ryan’s manager blamed Ryan for what went wrong. The manager told Ryan that he had no idea what he was doing. Ryan’s personality was being questioned rather than his work. The feedback provided no helpful insights to help Ryan perform better.
 
-***Feedback 2***: During a project retrospective, Peter stood up, went to the board and put up a huge graph showing developers' contributions during the project measured by the number of code commits. He immediately pointed out how low Joseph’s numbers were and added he was not surprised as he has always been lagging when compared with the rest.
+*Feedback 2*: During a project retrospective, Peter stood up, went to the board and put up a huge graph showing developers' contributions during the project measured by the number of code commits. He immediately pointed out how low Joseph’s numbers were and added he was not surprised as he has always been lagging when compared with the rest.
 
-***Feedback 3***: Carol went to Chris and told him she is tired of wasting her time telling him what to do and explaining things over and over again. Chris has been in the company already for 6 months and still needs to constantly be helped with his daily tasks. She told him to better start becoming independent or she will escalate with his manager.
+*Feedback 3*: Carol went to Chris and told him she is tired of wasting her time telling him what to do and explaining things over and over again. Chris has been in the company already for 6 months and still needs to constantly be helped with his daily tasks. She told him to better start becoming independent or she will escalate with his manager.
 
 Volunteer to discuss your work with the class.
 
