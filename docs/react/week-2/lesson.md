@@ -612,6 +612,35 @@ Complete the FreeCodeCamp [exercise](https://learn.freecodecamp.org/front-end-li
 
 :::
 
+## PD (Futurespective)
+
+**Session objective**: This session aims to explore how to use the futurespective technique.
+
+*Adapted from [How Futurespectives Help Teams to Reach Their Goals](https://www.benlinders.com/2015/how-futurespectives-help-teams-to-reach-their-goals/)*
+
+Many agile teams conduct retrospectives to reflect on their ways of working and to find things that can be improved. But what if teams are just starting up and trying to figure out how to do their work? A futurespective exercise helps agile teams to find ways to reach their goals, agree upon their ways of working and define a “definition of done”. In a futurespective, teams place themselves in the future by imagining that the goal they set in the past has been reached. 
+
+::: note Exercise 1 (30 minutes)
+
+**Exercise objective**: To identify the goals of the team and the benefits earned achieving them.
+
+Work in small groups. Imagine that this is your CYF final project. You have been tasked with developing an app that will collect feedback from CYF trainees on their experience of the PD sessions to help improve the course for future trainees. Start by discussing your team’s goals. As a team, you should build a common understanding of your goals, and write them down so that they are visible to everybody in the team.
+
+When this list of your goals is ready, imagine that today is the day after the final projects. You achieved all your goals! Make a list of all the benefits you earn from reaching your goals as a team.
+
+:::
+
+:::note Exercise 2 (20 minutes)
+
+**Exercise objective**: To identify good practices that helped achieve the goals.
+
+It’s time for a retrospective. Continue working as a group and discuss your imaginary past and explore how you achieved your goals. You can use the following questions to help with your discussion:
+- What are the things that have helped you to get here?
+- Which things made it hard for you to reach your goal?
+- What did you learn as a team along the way towards reaching your goal?
+
+:::
+
 ## Coursework
 
 Click [here](./homework) to view the coursework for this lesson.
