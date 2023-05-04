@@ -104,6 +104,13 @@ Find the Collection for JS-3 Week 2 on the CodeYourFuture account: https://www.c
 
 **Upcoming milestone:** Check your levels. Before you are accepted on to a Final Project on the developer track, you need to complete the Final Projects collection and reach a Level 5 kyu in Codewars. Are you on track to reach this standard? Have you run a study group to work on kata? Have you reached out on the #cyf-codewars channel? What is your plan to meet this goal?
 
-## 8) Talk about your time management  (PD - 30 min)
+## 8) Giving constructive feedback (PD - 1 hr)
 
-Book a 121 session with your PD buddy about how you are managing your time; what is working and not working; what your time-management barriers are in your personal and professional life.
+Imagine yourself in one of the following scenarios. How would you prepare to give constructive feedback in that situation?
+
+Write a short paragraph explaining what you would do or write a dialogue between you and the person you are giving feedback.
+
+Scenarios:
+- Your colleague took your lunch from the office fridge
+- Your colleague keeps interrupting you and others in meetings
+- Your flat-mate left dirty cups in the sink for several days
