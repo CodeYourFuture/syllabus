@@ -718,6 +718,96 @@ There is another common pattern for handling multiple fields in a form, but it r
 
 [Read more about it here.](./further-reading/multiple-form-fields)
 
+## PD (SMART Goal Setting)
+
+**Session objective**: In this session we will explore how to set goals using SMART framework.
+
+:::note Exercise 1 (10 min)
+
+**Exercise objective**: To discuss goal setting process.
+
+Discuss as a class what you understand from "setting a goal". Continue discussing the following questions:
+- Why is it hard to achieve goals?
+- What are the requirements to achieve a goal once it is set?
+
+*Answer key*
+- Goals should be specific, achievable, measurable, relevant and time-bound.
+- Eliminate/pause other less important competing goals.
+- Use existing habits to help you make progress towards your goals. “Pushups: Before I take my morning shower(existing habit), I will do 10 pushups.”
+- Align your environment with your ambitions. Make it really easy to follow your plan to reach your goals. For example, if the goal is improving your health don't set your environment in a negative way - if you can easily find junk food in the kitchen, then eating unhealthy food will be your default choice. Set your environment in a positive way instead: If you keep a dumbbell next to your desk at work, then pumping out some quick curls is more likely to be the default decision.
+
+:::
+
+:::note Exercise 2 (20 minutes)
+
+**Exercise objective**: To get familiar with the dynamics of setting goals using the SMART framework.
+
+As a class, use the scenario below and write a goal following the SMART framework. Start with a very simple goal and then go through all SMART criteria and apply them one by one until you have a goal that meets all those criteria.
+
+Let’s assume your job requires MongoDB skills and you believe this is something you need to improve. The company you work for performs regular codility tests to measure skills.
+
+*Answer key*
+Goal before meeting the criteria:
+- I want to get better at MongoDB
+- I will increase my knowledge in MongoDB
+- I will complete 5 courses in MongoDB
+- I would like to increase my knowledge in MongoDB, so I will set aside 1 hour every day to organize my workspace
+
+Goal that meets the criteria:
+- Specific: I want to complete a MongoDB course
+- Measurable: I will complete a MongoDB course by measuring progress tracking my daily study hours
+- Achievable: I will complete a MongoDB course first before searching for other courses. This way I can achieve this goal by making small increases in my knowledge
+- Relevant: My job requires MongoDB skills, therefore I would like to increase my knowledge in MongoDB, so I will set aside 2 hours every day to learn and practice my new skills
+- Time-bound: I will increase my knowledge in MongoDB in 1 week. I will set aside 2 hours each day to study and practice my new skills
+
+:::
+
+:::note Exercise 3 (25 minutes)
+
+**Exercise objective**: To become more comfortable writing SMART goals by applying the learnings to different scenarios.
+
+Work in small groups. Go through all the scenarios below and write goals for each of them following the SMART framework.
+
+- Your job requires exceptional stakeholder survey skills and you believe this is something you need to improve.
+- Your latest health assessment didn’t go too well. You would like to improve your overall health.
+- You want to publish more on Linkedin.
+- You want to watch less tv and read more.
+- You want to be more in control of you emotions.
+
+*Answer Key*
+
+- I will complete a stakeholder survey course in a month and following this course I will apply my learning to the next 5 surveys I conduct.
+- My goal is to lose 15 pounds within the next three months so I can live a healthier lifestyle and feel better physically and mentally in my daily life and to accomplish that I am going to get at least 30 minutes of exercise three days a week using the exercise gear I have at home and cut my daily caloric intake by 25%.
+- Starting next week, I will post an article on Linkedin each week for a year, culminating in fifty-two posts and increased traffic to my profile.
+- I’ll spend more time reading and less time watching TV by going to a book club every week and completing one book per month for the next six months.
+- I’ll meditate at least ten minutes per day, every day, for the next six months. I’ll track my meditation time with an app and will assess my results in six months.
+
+**Wrap up**
+
+*What is Goal Setting?*
+
+“The act of selecting a target or objective you wish to achieve” 
+
+Having a goal is the easy part. The real challenge is willing to go through the process required to achieve your goal.
+
+Goals are useful for setting the direction but without a plan, they will just be a wish.
+Systems are great for actually making progress towards achieving a given goal.
+If you’re a runner, your goal is to run a marathon. Your system is your running training schedule for the month.
+
+*SMART Framework*
+
+SMART is an acronym that you can use to guide your goal setting. It can be used to set both professional and personal goals.
+
+**S for Specific** - Target a specific area of improvement
+
+**M for Measurable** - Quantify or suggest an indicator of progress
+
+**A for Achievable** - Stage what results can realistically be achieved, given available resources
+
+**R for Relevant** - Determine if the goal is in alignment with your values and long-term objectives
+
+**T for Time-bound** - Specify when the result(s) can be achieved
+
 ## Coursework
 
 Click [here](./homework) to view the coursework for this lesson.
