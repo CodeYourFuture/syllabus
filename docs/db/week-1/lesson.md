@@ -25,6 +25,7 @@ Read the Mentors Notes [here](./instructors.md)
   - Use literals, expressions and functions in queries
   - Restricting the rows returned by a query to match some condition
   - Sorting and limiting the number of rows returned
+- [PD - Competency-based interviews](#pd-competency-based-interviews)
 - [Homework](#homework)
 
 ---
@@ -625,6 +626,33 @@ Not all SQL implementations of SQL support LIMIT, some use TOP while Oracle uses
 In this lesson you have learned the use of databases and how relational databases are structured. You've also learned how to use basic single-table query commands in SQL and some of the special 'backslash' commands in `psql`. You have used the SELECT command to control the columns and values that are returned, the DISTINCT, ORDER BY and LIMIT clauses to control the order and numbers of rows returned and you've used the WHERE clause to choose the rows that you access. You have learned the INSERT command to add new data to the database
 
 Next week we shall go on to more complex query constructs including joins, updates and deletes along with incorporating SQL into a node.js server.
+
+## PD (Competency-based interviews)
+**Session objective:** This session explores the competency-based interview concept, and the STAR framework.
+
+[Competency-based interviews slides](https://docs.google.com/presentation/d/1YXPYKanQjfFyegqPaY0h_f3l-ojceZxcFr4cGjCqbaM/edit#slide=id.ga9333c68a9_0_33)
+
+:::note Exercise (5 min)
+
+**Exercise objective:** To observe and discuss implementation of STAR framework for competency-based interviews
+Two volunteers pair up. One of them acts as an interviewer, and the other one as interviewee. 
+
+Interviewer asks the following question: What’s your greatest strength?
+
+Interviewee answers badly. They rush and don't listen, so give the wrong answer and talk about what they would do rather than what they have done. They don't give any examples.
+
+Discuss as a class. What did you think? What did the interviewee do well? What did they do badly?
+:::
+
+:::note Exercise (5 min)
+
+**Exercise objective:** To analyse the implementation the STAR framework for competency-based interviews.
+
+Two volunteers pair up. One of them acts as an interviewer, and the other one as interviewee. Interviewer asks the following question: Can you give me an example of how you’ve dealt with the frustration of things not working.
+
+This time, whenever the interviewee starts doing something wrong, shout STOP! Then explain to the interviewee what they should be doing differently and the interviewee will then try again until they’ve got it right.
+
+:::
 
 ## Homework
 
