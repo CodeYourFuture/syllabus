@@ -322,6 +322,7 @@ module.exports = {
     "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
     "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
     "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
+    "Lesson 4": ["db/week-4/lesson", "db/week-4/instructors"],
   },
   MongoDB: {
     Overview: ["mongodb/index", "mongodb/preparation"],
