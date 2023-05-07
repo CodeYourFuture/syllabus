@@ -10,6 +10,7 @@ sidebar_label: Overview
 | [Week 1](./week-1/lesson.md)                     | React 101                   | [Link](./week-1/homework.md) |
 | [Week 2](./week-2/lesson.md)                     | Reacting to Changes         | [Link](./week-2/homework.md) |
 | [Week 3](./week-3/lesson.md)                     | Fetching Data               | [Link](./week-3/homework.md) |
+| [Week 4](./week-4/lesson.md)                     |                             | [Link](./week-4/homework.md) |
 | [React Router](./react-router/lesson.md)         | Routing (optional)          |
 | [Class Components](./class-components/lesson.md) | Class Components (optional) |
 
