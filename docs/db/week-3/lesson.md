@@ -114,10 +114,10 @@ Next we need to query the `customers` table and provide the value of the id into
 
 ```js
 db.query("SELECT * FROM customers WHERE id = $1", [custId])
-  .then(function (result) {
+  .then((result) => {
     console.log(result);
   })
-  .catch(function (err) {
+  .catch((err) => {
     console.log(err);
   });
 ```
@@ -134,10 +134,10 @@ Let's complete the endpoint to return the retrieved values:
 app.get("/customers/:id", function (req, res) {
   const custId = parseInt(req.params.id);
   db.query("SELECT * FROM customers WHERE id = $1", [custId])
-    .then(function (result) {
+    .then((result) => {
       console.log(result.rows);
     })
-    .catch(function (error) {
+    .catch((error) => {
       console.log(error);
     });
 });
