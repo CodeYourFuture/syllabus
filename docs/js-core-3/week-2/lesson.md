@@ -115,7 +115,7 @@ The response codes can be grouped into categories:
 - 4xx: Client Error
 - 5xx: Server Error
 
-If you want a fun look at HTTP codes, take a look at [https://httpstatusdogs.com/](https://httpstatusdogs.com/) or [https://http.cat/](https://http.cat/) if you are cat person. For a technical perspective take a look at [https://en.wikipedia.org/wiki/List_of_HTTP_status_codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+If you want a fun look at HTTP codes, take a look at [https://http.dog/](https://http.dog/) or [https://http.cat/](https://http.cat/) if you are cat person of [https://httpgoats.com/](https://httpgoats.com/) if you prefer goats. For a technical perspective take a look at [https://en.wikipedia.org/wiki/List_of_HTTP_status_codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) and [https://http.dev/status](https://http.dev/status). You can also test HTTP responses at [https://http.app/](https://http.app/).
 
 ### Content type
 
