@@ -477,7 +477,7 @@ Katie: “I am extremely busy and stressed with a deadline, but let me have a lo
 
 Tom: “Here is the function. Do you see anything wrong with it?”
 
-Katie: After looking at the code for some time… “Seriously? How could you miss this? You are missing an End statement. You need to be more careful when writing code so you only ask for help for things that are not this obvious.”
+Katie: After looking at the code for some time… “Seriously? How could you miss this? You are missing an closing bracket. You need to be more careful when writing code so you only ask for help for things that are not this obvious.”
 
 Katie walks away.
 
