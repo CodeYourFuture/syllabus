@@ -15,6 +15,149 @@ Attendees:
 ### ❗Actions
 
 ---
+
+## 2023-05-11
+
+Attendees: Ali, Sally, Greg, Mitch, Daniel, Keith, Thomas
+
+### ❗Actions from last time
+
+- [x] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+- [ ] Daniel: Work with Berkeli to get the "clone issues" App shipped ([spec](https://github.com/CodeYourFuture/Changes/issues/2) and [WIP PR](https://github.com/CodeYourFuture/syllabus/pull/633)).
+  - Handed over to Ali - who didn't manage to do it yet
+
+### 📝 Agenda points
+
+#### New Syllabus
+
+- New syllabus
+- Demo-ed
+- Big bit of feedback from everyone: people want to know what to do and when
+- Modules all have the same structure
+  - Prep, 4(?) sprints, Backlog, Success, Product
+- Block composition
+  - Each page is a Markdown "config" file, with pointers to blocks
+  - Blocks can be our content (another Markdown file), Youtube, links to other pages (marked with 🔗), ...other stuff
+  - Concept: 1 source of truth, and we just configure the pointers
+  - Backlog view
+    - Coming from the module repo - the coursework tickets
+    - Day plan - roughly what will happen during the day of the lesson
+      - Computing timings for each block - this is configured from the block itself
+  - Product view
+    - A project for the whole module
+    - Put separately - slightly unclear where this should live
+    - 4 stages: Plan, build, ..., ship
+  - Creating a module
+    - Bash script to scaffold out the necessary files
+- Being developed as a branch on the main syllabus repo
+  - So can just pull it to play with it
+    - Possibly depends on having Go installed
+  - Sally will get it deployed on Netlify
+- Where is help needed?
+  - Code blocks
+    - Have some code to render these blocks
+    - Interested in setting up CodeMirror to render these - Ali can take a look at this
+    - Goal: edit code and run it
+      - Also run this in on mobile
+      - Ali: just to clarify CM is really just a way of editing code in a IDE-like way, it doesn't do anything around storing/syncing/running code
+- Daniel: How is coursework going to work mechanically?
+  - Coursework issues are replacing google classroom
+  - There'll be a button where they can clone issues from the template onto their repo
+    - They can then manage their tickets on e.g. a kanban
+  - All the code for a module will live in a "module repo" - which contains the issues and the code
+  - This is being tested with LDN 10 & GLA X(?) - it's a bit rocky without the built in button to clone issues
+- Sally: Talked to PD about what they wanted for their integrations
+  - They don't like PRs/Github
+  - So have built them a mini-CMS/platform for creating content
+  - Can create their blocks directly on their platform
+    - We can then just point at the platform via a block pointer
+- Goal: make it easier to write content & experiment
+  - Greg: can we make changes to a module but not have them go live until we update the config
+  - Sally: can also write e.g. a workshop session, they can write
+  - Wanting experiments with syllabus but with a single source of truth
+
+#### Hello to Thomas 👋🏻
+
+- Teach at QM Uni
+- Approached Daniel, who pointed in our direction
+- Interested in creating a Python/Data science course
+
+#### Curriculum rewrite
+
+- Mitch: Action from the previous meeting: synthesise feedback from the previous meeting
+  - One of the main bits of feedback was around not trying to fit 1 learning theme into 1 module. They have to be threaded throughout, so we need to weave them together
+- [Proposal on the Miro board](https://miro.com/app/board/uXjVMPkUc1E=/)
+- First question: are people broadly happy with the overall direction
+  - No objections
+- Second question: Mitch has to be in deep focus to work on this, so cutting out Slack - but should this be more collaborative?
+  - How do you see this being reviewed?
+    - Depends on what we want
+    - Proposal: sketch out like have done so far until the end of May, then report back
+  - General agreement that we'd be happy to for Mitch to work on it, then we copy-edit it
+  - High intensity for Mitch: is there a way of doing this in a lower fidelity way
+    - E.g. "problem " wit hReact module - it's so cohesive that to iterate on it would be to un-weave and rework from there - will we end up with something like this with thus module
+      - Another way of framing this - if produced at high fidelity, but we have to go back to rework the weaving, then we've wasted the work on the high fidelity
+    - But on the other hand, the high fidelity output has been useful
+  - Can we "user test" the content?
+    - It's tricky to user test a single JS module - since it's a large-ish change we can't test it with a class
+
+#### PD/Tech Ed Syllabus Teams meet up
+
+- It's happening in 2 weeks
+  - Not everyone realised it was going to be in-person
+  - Ali & Sally (at least) will be around
+- Lara from PD is organising - we should talk to her to sort out a plan
+- Sally: PD PRs - are they ok?
+  - Daniel: generally seem reasonable
+    - Some points about the details of the content
+    - The formatting/structure is generally good
+- Sally: PD have a lot of technical problems with building stuff
+  - E.g. just wanted a website - took Sally 3 hours to build this
+  - Are there any other problems we can solve for them?
+
+#### Python/ML module
+
+- We don't currently cover any of this in the curriculum
+- Is there demand for this?
+  - Sally: We're focused on getting trainees good jobs - There's aspects of ML that will help them get a job, but some aspects that won't help
+    - Many more advanced ML-like roles require degrees etc
+    - There are more entry-level data engineering roles, so we would probably want to target this and / or identify roles where entry-level grads could get a job
+    - The competition for entry-level jobs is really fierce, so we need to identify the best usage of our time
+  - Daniel: if you have a 1 day workshop prepared, then this is a no-brainer, especially for grads
+  - Daniel: not having seen multiple programming languages might be an issue for grads
+    - So having some Python content to show the similarities could boost confidence and employability
+  - Thomas: think that a bit of base-level knowledge is helpful for employability
+- How could Thomas help create something?
+  - Day job is designing modules, so can do various things in this area
+  - Thomas: Happy to contribute towards ideas around developing Python content
+    - Want to get to know the org a bit more first
+    - Realise that it takes quite a long time to develop new courses - it takes 2 years at the university
+  - Greg: we've observed that trainees struggle with going out on their own and solving big problems - could we do something unguided that they could work on in their own time?
+    - Thomas: this sounds like something he was thinking of, so agree that this could work
+- Greg: generally our volunteers are attracted to our course as it lines up well with our content, so they may not have a lot of experience with ML
+- But we have some! And other volunteers might be interested in learning the content themselves
+- Sally: we did get some funding to work on a [ML model](https://github.com/CodeYourFuture/Changes/issues/9) - so this might be interesting for Thomas too
+- Suggested action for Thomas: reach out on general channel and offer to run a ML workshop - Tech Syllabus can help with pointers!
+
+#### Greg Wilson
+
+- Ali: noticed that Greg Wilson (author of Teaching Tech Together) was offering Lunch & Learn in return for a donation to charity, so took him up on the offer and he a gave a talk at the day job
+  - Apparently he & Barny were emailing recently too
+- So now have his email now and was thinking about asking him to come talk to us. Either to give one of his prepared talks or just fire questions at him
+- General agreement that this would be a good idea
+
+### ❗Actions
+
+- [ ] Ali: Follow up with Berkeli re: the clone issues button work
+- [ ] Keith: Review the coursework for the new [database module](https://github.com/CodeYourFuture/Module-Databases/). And potentially look at making a solutions repo
+- [ ] Sally/Mitch: Catch up with Thomas in the next few weeks to talk about Python content, and what we could do next
+- [ ] Sally: Continue working on the new curriculum
+- [ ] Sally: Deploy the new syllabus on Netlify
+- [ ] Ali: Ask Greg Wilson to come talk to us
+- [ ] Ali: Investigate getting CodeMirror set up in the new syllabus
+
+---
+
 ## {2023-04-27}
 
 Attendees: Ali, Daniel, Greg, Mitch, Sally
@@ -67,6 +210,7 @@ Ali: [CodeMirror](https://codemirror.net/) would be great for the presentation o
 - [ ] Daniel: Work with Berkeli to get the "clone issues" App shipped ([spec](https://github.com/CodeYourFuture/Changes/issues/2) and [WIP PR](https://github.com/CodeYourFuture/syllabus/pull/633)).
 
 ---
+
 ## {2023-04-13}
 
 Attendees: Sally, Karen, Daniel, Ali
@@ -110,8 +254,9 @@ Introduction, get to know each other, people's backgrounds and focuses, etc.
 In-person meet-ups generally lead to really high-quality high-throughput work outcomes. But everyone is super distributed. Ideally would get as many people in-person as we can, but may not be possible.
 
 Possible themes for sessions:
-* How do we get the trainees to work together in teams from earlier in the course (particularly when they don't have much coding or GitHub experience)?
-* How do _we_ work well together across Tech and PD
+
+- How do we get the trainees to work together in teams from earlier in the course (particularly when they don't have much coding or GitHub experience)?
+- How do _we_ work well together across Tech and PD
 
 Will arrange via Doodle.
 
@@ -132,13 +277,15 @@ Having a rigid formal syllabus disengages people from focusing on how they're te
 We really want people to learn, not to just tell people things.
 
 General goals of a syllabus:
-* A place to codify consistent learning objectives
-* Record experience of what's worked well and badly, lessons learnt, and e.g. exercises which have worked well in the past
-* Offering a repeatable, scalable experience
+
+- A place to codify consistent learning objectives
+- Record experience of what's worked well and badly, lessons learnt, and e.g. exercises which have worked well in the past
+- Offering a repeatable, scalable experience
 
 Valuable goals to produce:
-* Playbooks of how to run specific styles of seessions
-* A living culture of getting experience in class, then graduating volunteers up to more leadership roles
+
+- Playbooks of how to run specific styles of seessions
+- A living culture of getting experience in class, then graduating volunteers up to more leadership roles
 
 General agreement that syllabus isn't a life-saver, but it would be useful to collate "things we've done that worked" somewhere.
 
@@ -184,6 +331,7 @@ Really important to be clear that we don't have capacity to reliably deliver mor
 - [ ] Karen to put together a Doodle of dates that work for her for a PD & Tech Syllabus meet-up.
 
 ---
+
 ## {2023-03-30}
 
 Attendees: Sally, Keith, Ali, Greg
@@ -201,7 +349,7 @@ Attendees: Sally, Keith, Ali, Greg
 
 #### JS1 rewrite
 
-Mitch: 
+Mitch:
 
 - Written an issue with acceptance criteria
 - Done draft of first week
@@ -211,7 +359,7 @@ Mitch:
 - Github blocks should allow us to compose activities (so far only notes.md)
 
 - Sally: assume Sally will take care of the composition problem
-- Greg: composition: how to assemble the following for each topic, 
+- Greg: composition: how to assemble the following for each topic,
   - the flipped classroom video
   - the practice exercises
   - the instructions for practice exercises
@@ -274,8 +422,7 @@ Mitch
 - Criteria for Grasshopper:
   - Content that's not too boring
   - On phone
-  - 6-8h 
-
+  - 6-8h
 
 ### ❗Actions
 
