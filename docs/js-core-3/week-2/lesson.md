@@ -483,7 +483,7 @@ Katie walks away.
 
 *Situation 2*: Patricia stops by Carla’s desk.
 
-Patricia: “Hi Carla. Just wanted to let you know how much I appreciate the work you did in the last project and I hope we get to work together again”
+Patricia: “Hi Carla. Just wanted to let you know how much I appreciate your clear messages on Slack you did in the last project, they really helped me understand what you were working on. I hope we get to work together again”
 
 Carla: “Oh Thank You! You made my day!”
 
