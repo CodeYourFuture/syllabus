@@ -507,7 +507,7 @@ Volunteer to share your role-playing experience with the class.
 
 Work in small groups. Turn the feedback below into constructive feedback. Try to be creative.
 
-*Feedback 1*: After a weak sales pitch, Ryan’s manager blamed Ryan for what went wrong. The manager told Ryan that he had no idea what he was doing. Ryan’s personality was being questioned rather than his work. The feedback provided no helpful insights to help Ryan perform better.
+*Feedback 1*: After an important deadline was missed, Ryan’s manager blamed Ryan for not working fast enough. The manager told Ryan that he had no idea what he was doing. Ryan’s personality was being questioned rather than his work. The feedback provided no helpful insights to help Ryan perform better.
 
 *Feedback 2*: During a project retrospective, Peter stood up, went to the board and put up a huge graph showing developers' contributions during the project measured by the number of code commits. He immediately pointed out how low Joseph’s numbers were and added he was not surprised as he has always been lagging when compared with the rest.
 
