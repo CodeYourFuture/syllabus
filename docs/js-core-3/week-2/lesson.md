@@ -26,7 +26,7 @@ The purpose of this class is to introduce to the trainee:
 2. How the web works
 3. What are `APIs` and how to interact with them
 4. How to use the `fetch` API to do AJAX calls
-5. PD (Agile: Planning and preparation)
+5. PD (How to give and receive feedback effectively)
 
 ## 1. Debugging Quiz
 
@@ -425,37 +425,95 @@ fetch(_____)
 
 :::
 
-## PD (Agile: Planning and preparation)
+## PD (How to give and receive feedback effectively)
 
-**Session objective:** In this session we will talk about refining a user story backlog, planning the sprint and estimating effort.
+**Session objective:** In this session we will look into different ways of providing feedback.
 
-:::note Warm-up (10 minutes)
+Feedback is a valuable tool for indicating whether things are going in the right direction or whether re-direction is required. It is also an effective way to help people develop and grow professionally. How feedback is communicated will not only determine how effective it will be but also how positive its impact will be. In this session, we will look into different ways of providing feedback and will go through different scenarios that will help us understand the power of providing and receiving effective feedback.
 
-Write a mission statement for the TV show project:
+:::note Exercise (5 minutes)
 
-- What's the purpose of the project?
-- What would be the mission of the sprints?
+**Exercise objective:** To understand positive and negative feedback.
+
+Let’s share our understanding of what feedback is. Volunteer to explain your definition of feedback.
+
+Once a few trainees have expressed their opinions, volunteer to describe the differences between positive and negative feedback. Do you think negative feedback is a bad thing?
+
+**Definitions**
+
+**Positive feedback**: This is the type of feedback that we all want to hear, it’s when someone praises our work.
+
+Appreciation and positive remarks in the workplace can help an employee feel appreciated, can help to reinforce good behaviours and will help employees with their professional development.
+
+However, it is important not to overuse positive feedback as its value will decrease. You may find it more valuable to hear positive comments from someone who almost never praises you for your work than a coworker constantly telling you how awesome you are. Too much positive feedback can also make employees complacent and feel less challenged in their roles.
+
+Also, specific positive feedback can be much more effective than general positive feedback. The first feedback is better than the second one: 
+1. The way you presented graphs to show our progress really made it easy to notice what tasks I needed to focus on which helped me get the project delivered.
+2. It was great working with you, it helped the project succeed.
+
+**Negative feedback:** This is the kind of feedback that people don’t like to hear, especially without warning. Negative feedback can make individuals feel attacked, demotivated, and undervalued at work.
+
+However, negative feedback can be effective when utilized correctly. It becomes **constructive feedback** and identifies ways an individual can improve.
+
+**Destructive feedback** is the direct opposite of constructive feedback and it’s not very useful. Instead of focusing on the work, destructive feedback will focus on the individual and is very personal in nature. There is little productive advice given and the feedback tends to point at faults without any solutions.
+
+:::note Exercise (25 min)
+
+**Exercise objective:** To practice providing both positive and negative feedback.
+
+Work in small groups. Take turns to play the roles below and answer the following questions for each situation:
+
+- Was feedback positive or negative?
+- Was the way it was communicated appropriate? Why?
+- How would you improve it?
+- What would be your reaction after receiving such feedback?
+- Were people in the right mindset to give and receive feedback?
+
+*Situation 1*: Tom asked Katie for help on the code he was writing. 
+
+Tom: “Hi Katie, would you mind spending a few minutes looking at this function I am working on? I can’t seem to find what’s wrong with the code.”
+
+Katie: “I am extremely busy and stressed with a deadline, but let me have a look.”
+
+Tom: “Here is the function. Do you see anything wrong with it?”
+
+Katie: After looking at the code for some time… “Seriously? How could you miss this? You are missing an closing bracket. You need to be more careful when writing code so you only ask for help for things that are not this obvious.”
+
+Katie walks away.
+
+*Situation 2*: Patricia stops by Carla’s desk.
+
+Patricia: “Hi Carla. Just wanted to let you know how much I appreciate your clear messages on Slack you did in the last project, they really helped me understand what you were working on. I hope we get to work together again”
+
+Carla: “Oh Thank You! You made my day!”
+
+*Situation 3*: Team members in a project retrospective meeting where they discuss things they did well and things that need improvement.
+
+Jessica: “I think overall the project went well but developers were constantly waiting for Karen to finish testing their code before they could deploy to Production. She was overwhelmed with the amount of work on her plate”
+
+Karen: “Yes, I felt bad for blocking deployments but I cannot give my approval until I have completed testing the code.”
+
+Jessica: “Did you ask for help? We can have developers take the role of QA tester when you are overwhelmed.”
+
+Karen: “No, I did not ask for help. I did not think of this as an option. I will start implementing this strategy going forward”
+
+Volunteer to share your role-playing experience with the class.
 
 :::
 
-[Agile: Planning and preparation](https://docs.google.com/presentation/d/1TJNjPOha2P5cWW6IO9jAc9GTvsosqVGkkG5pAbbvfg4/edit#slide=id.g1b740a9f8c6_0_336)
+:::note Exercise (20 min)
 
-:::note Exercise (30 minutes)
+**Exercise objective:** To practice turning destructive feedback into constructive feedback.
 
-**Exercise objective:** To practice estimating effort for user stories
+Work in small groups. Turn the feedback below into constructive feedback. Try to be creative.
 
-Work in small groups. For this sizing example, you have 5 stories. The first one is already t-shirt sized as a Medium. To size story #2, the team must compare it against story #1 - just as you’d compare t-shirts to find their size - Is it bigger or smaller?
+*Feedback 1*: After an important deadline was missed, Ryan’s manager blamed Ryan for not working fast enough. The manager told Ryan that he had no idea what he was doing. Ryan’s personality was being questioned rather than his work. The feedback provided no helpful insights to help Ryan perform better.
 
-As a team, you ask yourselves “is story #2 bigger or smaller than #1?” If you decide it takes less effort, then you decide how much smaller it is. Enough to be a S, or much smaller to be a XS?
+*Feedback 2*: During a project retrospective, Peter stood up, went to the board and put up a huge graph showing developers' contributions during the project measured by the number of code commits. He immediately pointed out how low Joseph’s numbers were and added he was not surprised as he has always been lagging when compared with the rest.
 
-You do the same for each of the following stories. "Is story #3 bigger or smaller than story #1?” If it’s bigger, by how much? Is it double the size? (XL) or just slightly bigger? (L).
+*Feedback 3*: Carol went to Chris and told him she is tired of wasting her time telling him what to do and explaining things over and over again. Chris has been in the company already for 6 months and still needs to constantly be helped with his daily tasks. She told him to better start becoming independent or she will escalate with his manager.
 
-Continue this estimation activity, refer to the user stories you created last week and follow the following steps:
-
-- Decide the size of the first story. The first size won’t be accurate, since there is nothing to compare with.
-- Go through every other user story you created last week, and compare it against the first one, asking yourselves “is this bigger or smaller?” to decide the size.
-
-Share your reflections with the rest of the class.
+Volunteer to discuss your work with the class.
 
 :::
 
