@@ -59,9 +59,13 @@ const db = new Pool({
 });
 
 app.get("/customers", function (req, res) {
-  db.query("SELECT * FROM customers", function(err, result) => {
-    res.status(200).json({customers: result.rows})
-  })
+  db.query("SELECT * FROM customers")
+    .then((result) => {
+      res.status(200).json({ customers: result.rows });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
 });
 
 app.listen(3000, function () {
@@ -102,7 +106,7 @@ Here the endpoint includes `:id`, which identifies an extra parameter in the URL
 Express provides a simple way to get such parameters from the request:
 
 ```js
-var custId = parseInt(req.params.id);
+const custId = parseInt(req.params.id);
 ```
 
 Note that the `id` in `req.params.id` must match the name after the colon in the endpoint `"customers/:id"`.
@@ -110,13 +114,13 @@ Note that the `id` in `req.params.id` must match the name after the colon in the
 Next we need to query the `customers` table and provide the value of the id into a WHERE clause so that we retrieve only the one row that matches:
 
 ```js
-db.query(
-  "SELECT * FROM customers WHERE id = $1",
-  [custId],
-  function (err, result) {
-    // TODO - more code here...
-  }
-);
+db.query("SELECT * FROM customers WHERE id = $1", [custId])
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 ```
 
 In the above code notice that:
@@ -129,14 +133,14 @@ Let's complete the endpoint to return the retrieved values:
 
 ```js
 app.get("/customers/:id", function (req, res) {
-  var custId = parseInt(req.params.id);
-  db.query(
-    "SELECT * FROM customers WHERE id = $1",
-    [custId],
-    function (err, result) {
-      result.json();
-    }
-  );
+  const custId = parseInt(req.params.id);
+  db.query("SELECT * FROM customers WHERE id = $1", [custId])
+    .then((result) => {
+      console.log(result.rows);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 });
 ```
 
@@ -149,9 +153,9 @@ With String placeholders you don't put apostrophes around the placeholder:
 ```js
 app.get("/customers/by_city/:city", (req, res) => {
   const cityName = req.params.city;
-  db.query("SELECT * FROM customers WHERE city LIKE $1 || '%'", [cityName],
-    function { ... /* etc */ }
-  );
+  db.query("SELECT * FROM customers WHERE city LIKE $1 || '%'", [cityName])
+    .then(() => {})
+    .catch((err) => {});
 });
 ```
 
@@ -160,18 +164,17 @@ app.get("/customers/by_city/:city", (req, res) => {
 #### What is SQL Injection
 
 If an end user can enter unrestricted text into a data field on a form there is the possibility that they could put a nasty SQL command inside the data. For example, if the field is used to enter the customer name the user could type:
-`J Doe';delete from customers;select 'x' from customers`
+`J Doe'; delete from customers; select 'x' from customers`
 as the name value. It looks a bit unlikely but any user with a little bit of SQL knowledge could eventually work out the format needed.
 
 If the code used string concatenation to for the final SQL command it could be something like:
 
 ```js
-const myQuery =
-  "UPDATE customers SET name = '" + inputName + "' WHERE id = " + myId;
+const myQuery = `UPDATE customers SET name = '${inputName}' WHERE id =  + ${ID}`;
 ```
 
 Then `myQuery` would become:
-`UPDATE customers SET name = 'J Doe';delete from customers;select 'x' from customers WHERE id = 123`
+`UPDATE customers SET name = 'J Doe'; DELETE FROM customers; SELECT 'x' FROM customers WHERE id = 123`
 (Note that semicolon **can** be used between SQL commands in this context)
 
 By using placeholders instead of string concatenation we can prevent this kind of attack. This is VERY important in web-facing apps that use SQL.
@@ -222,7 +225,7 @@ app.use(bodyParser.json());
 
 ### Inserting Rows Using Node.js
 
-We can finally add our new endpoint to create a new customer:
+We can finally an endpoint to create a new customer:
 
 ```js
 app.post("/customers", function (req, res) {
@@ -233,12 +236,16 @@ app.post("/customers", function (req, res) {
   const newCountry = req.body.country;
 
   const query =
-    "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-      "VALUES ($1, $2, $3, $4, $5, $6, $7)";
+    `INSERT INTO customers (name, email, phone, address, city, postcode, country)
+    VALUES ($1, $2, $3, $4, $5, $6, $7)`;
 
-  db.query(query, [newName, newEmail, ..., newCountry], (err) => {
-    res.send("Customer created.");
-  })
+  db.query(query, [newName, newEmail, ..., newCountry])
+    .then(() => {
+      res.status(201).send("Created a new customer");
+    })
+    .catch(err => {
+      console.log(err);
+    })
 });
 ```
 
@@ -271,29 +278,15 @@ You should see the response "Customer created."
 
 ### What Can We Do After an Insert?
 
-- We must start checking for errors in the executution of the SQL. This applies to all commands, not just INSERT.
-- If the table has an autoincrementing primary key we can obtain the value for the new row and return it to the browser. This is often required for subsequent actions in the use case.
+- We must start checking for errors in the execution of the SQL. This applies to all commands, not just INSERT.
+- If the table has an auto-incrementing primary key we can obtain the value for the new row and return it to the browser. This is often required for subsequent actions in the use case.
 - The new data can be logged to the console (although this is not common practice).
 - ... and so forth ...
 
 ### Checking for Errors in SQL
 
-The callback function in `db.query` always has an error parameter as the first parameter, sometimes followed by a result parameter if the query is likely to return some data. If the SQL succeeds then the error parameter is `undefined` otherwise it is an error message.
-
+The catch block in `db.query` always has an error parameter. If the passed SQL query throws an error then the callback function passed to the `catch` method is invoked with an error object generated by node postgres.
 A typical situation might be:
-
-```js
-  db.query(..., function(err) {
-    if (err == undefined) {
-      // do things here on success
-    } else {
-      res.status(500).json({error: err});
-    }
-    ...
-  })
-```
-
-If you prefer to use other ways of executing SQL, for example, using promises, then the approach is different, of course:
 
 ```js
   db
@@ -324,7 +317,7 @@ if (
 }
 ```
 
-Note: **regular expressions** may be new to you but they are very powerful and also quite complicated. We don't have time to teach you the inticacies of "regex" here but you can find numerous resources on the web and in the JavaScript documentation:
+Note: **regular expressions** may be new to you but they are very powerful and also quite complicated. We don't have time to teach you the intricacies of "regex" here but you can find numerous resources on the web and in the JavaScript documentation:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 Note also that this validation can also be performed in the browser because it doesn't involve any database interaction. This is a faster and less costly (in terms of network traffic) approach and should be used where practical. It makes user correction of mistakes quicker and more natural and can be done on a per item basis.
@@ -345,45 +338,35 @@ app.post("/customers", function (req, res) {
   const newName = req.body.name;
   const newEmail = req.body.email;
   const newPhone = req.body.phone;
-  // etcetera ...
-
-  //
-  // First validate the phone number using a regular expression to check for valid characters
-  //
-  if (newPhone.replace(/[+\-()0-9 ]/g, '0') ==    // replace all valid chars with 0
-      '0'.padEnd(newPhone.length, '0')) {
-    return res
-      .status(400)
-      .send("The phone number must only contain 0-9, +, -, (, ) or space.");
-  }
+  // et cetera ...
 
   //
   // Validate the new customer's email address by querying the existing customers table
   // to return any rows that contain the same values
   //
-  db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail],
-            (err, result) => {
-      if (result.rowCount > 0) {      // note the use of result.rowCount
-        return res
-          .status(400)
-          .send("A customer with that email address already exists!");
-      } else {
-        const query =
-        "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-          "VALUES ($1, $2, $3, $4, $5, $6, $7)";
-        db.query(query, [newName, newEmail, ..., newCountry],
-          (err) => {
-            res.send("Customer created.");
-          }
-      }
-    });
-});
+db.query("SELECT 1 FROM customers WHERE email=$1", [newEmail])
+  .then((result) => {
+    if (result.rowCount > 0) {      // note the use of result.rowCount
+      return Promise.reject({error: 'Customer already exists'})
+    } else {
+      return db.query(`INSERT INTO customers (name, email, phone, address, city, postcode, country)
+        VALUES ($1, $2, $3, $4, $5, $6, $7)`, [newName, newEmail, ..., newCountry],
+    }
+  })
+  .then(() => {
+    res.status(201).send("Customer created")
+  })
+  .catch((error) => {
+    // any errors or manual rejections will be intercepted here
+    // handle error here
+  })
 ```
 
 Note:
 
 - The SELECT does not choose any column values, just the literal `1`. We are only interested in the number of rows found (it must be 0 for success).
-- That the INSERT is now executed as part of the callback of the query that returns a row if the same email already exists.
+- If a row is found, then a customer with this email exists so we call `Promise.reject`: this will then trigger the first `catch` block in the promise chain where we can handle the error.
+- If a row is not found, then we perform the insertion query, taking care to return the call to `db.query` so we can access its resolve value in the next `.then` block
 - This validation is NOT suitable for performing in the browser because it interacts with the database.
 
 ### Exercise 4
@@ -395,7 +378,7 @@ Note:
 
 ### Return the Primary Key Value for an Insert
 
-If the table uses an autoincrementing primary key then it is very useful to return the generated value after the INSERT. PostgreSQL provides a very simple mechanism to do this (as do most RDBMS's) by appending the RETURNING clause to the INSERT, as below:
+If the table uses an auto-incrementing primary key then it is very useful to return the generated value after the INSERT. PostgreSQL provides a very simple mechanism to do this (as do most RDBMS's) by appending the RETURNING clause to the INSERT, as below:
 
 ```sql
 INSERT INTO customers (name, email, phone)
@@ -406,20 +389,17 @@ INSERT INTO customers (name, email, phone)
 The endpoint now uses the query call shown below:
 
 ```js
-  const query =
-  "INSERT INTO customers (name, email, phone, address, city, postcode, country) " +
-    "VALUES ($1, $2, $3, $4, $5, $6, $7) " +
-    "RETURNING id";                         // Note the new clause
-  db.query(query, [newName, newEmail, ..., newCountry],
-    (err, result) => {                      // note the addition of result parameter
-      if (err == undefined) {
+  db.query(`INSERT INTO customers (name, email, phone, address, city, postcode, country)
+    VALUES ($1, $2, $3, $4, $5, $6, $7)
+    RETURNING id`, [newName, newEmail, ..., newCountry])
+    .then(result => {
         const newId = result.rows[0].id;
         console.log(`New Customer id = ${newId}`);
         res.status(200).json({lastId: newId});
-      } else {
-        res.status(500).json({error: err});
-      };
-    });
+    })
+    .catch(err => {
+      res.status(500).json({error: err});
+    })
 ```
 
 ### Exercise 5
@@ -437,14 +417,16 @@ app.put("/customers/:id", function (req, res) {
   const newEmail = req.body.email;
   const newPhone = req.body.phone;
 
-  db
-    .query("UPDATE customers SET email=$2, phone = $3 WHERE id=$1",
-            [custId, newEmail, newPhone])
+  db.query("UPDATE customers SET email=$2, phone = $3 WHERE id=$1", [
+    custId,
+    newEmail,
+    newPhone,
+  ])
     .then(() => res.send(`Customer ${customerId} updated!`))
     .catch((err) => {
       console.error(err);
-      res.status(500).json({error: err})
-    );
+      res.status(500).json({ error: err });
+    });
 });
 ```
 
@@ -484,10 +466,9 @@ app.delete("/customers/:customerId", function (req, res) {
 
   db.query("DELETE FROM reservations WHERE cust_id=$1", [customerId])
     .then(() => {
-      db.query("DELETE FROM customers WHERE id=$1", [customerId])
-        .then(() => res.send(`Customer ${customerId} deleted!`))
-        .catch((e) => console.error(e));
+      return db.query("DELETE FROM customers WHERE id=$1", [customerId]);
     })
+    .then(() => res.send(`Customer ${customerId} deleted!`))
     .catch((e) => console.error(e));
 });
 ```

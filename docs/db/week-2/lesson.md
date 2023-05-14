@@ -551,7 +551,7 @@ There are some constraints on adding and removing columns, for example, you cann
 ### Exercise 7
 
 1.  Create a table for charge points. This must record the hotel shops, bars, cafes and restaurants that a customer can use during their stay.
-2.  Include an autoincrementing primary key
+2.  Include an auto-incrementing primary key
 3.  Include the charge point name, a description and maximum customer credit value
 4.  Insert charge points for 'Shop', 'Pool Bar', 'Elysium Restaurant' and 'Room Service' with credit limits of £1000 for each.
 5.  Create a table for charge items that records amounts charged to rooms by customers using our shop, bars, restaurants, etc. This must include the room number of the room charged, the charge point used, the amount, the date and time of the charge and any customer comments.
@@ -709,9 +709,13 @@ const db = new Pool({
 });
 
 app.get("/customers", function (req, res) {
-  db.query("SELECT id, name, city, phone FROM customers", (error, result) => {
-    res.json(result.rows);
-  });
+  db.query("SELECT id, name, city, phone FROM customers")
+    .then((result) => {
+      res.json(result.rows);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 });
 ```
 
@@ -719,7 +723,7 @@ In the code above:
 
 - We first import the `Pool` class from the pg library, which is used to connect to a database
 - We create a new connection (`db`) where we specify the credentials to connect to the cyf_hotel database
-- We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. You can write any valid SQL query that you learned in the `query()` method!
+- We then create a new `/customers` endpoint where we use the method `query()` to send a SQL query to load all the customers from the table `customers` and return the results with `result.rows`. The `query` method returns a Promise: so we can access the returned rows using a `.then` block. You can write any valid SQL query that you learned in the `query()` method!
 
 **_Note:_** There is no semicolon to end the SQL statement.
 
