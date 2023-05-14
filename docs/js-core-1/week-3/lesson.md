@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 - [truthy and falsy](#truthy-and-falsy)
 - [undefined and null](#undefined)
 - [arrays](#arrays)
-- [PD - Developer thinking](#pd-developer-thinking)
+- [PD - Critical thinking](#pd-critical-thinking)
 
 ## Learning Objectives
 
