@@ -262,6 +262,12 @@ module.exports = {
       "react/week-3/homework",
       "react/week-3/instructors",
     ],
+    "Lesson 4": [
+      "react/week-4/learning-objectives",
+      "react/week-4/lesson",
+      "react/week-4/homework",
+      "react/week-4/instructors",
+    ],
     "Extra Classes": [
       {
         type: "category",
