@@ -18,7 +18,7 @@ Read the Mentors Notes [here](./instructors.md)
   - [Reading data](#reading-data)
   - [Updating data](#updating-data)
   - [Deleting data](#deleting-data)
-- [PD](#CVs and transferable skills)
+- [PD - CVs and transferable skills](#CVs-and-transferable-skills)
 - [Homework](#homework)
 
 ---

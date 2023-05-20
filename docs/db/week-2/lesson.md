@@ -20,7 +20,7 @@ Read the Mentors Notes [here](./instructors.md)
 - [Integration with NodeJS](#integration-with-nodejs)
   - Introduction to node-postgres
   - Loading data from a database with a GET endpoint
-- [PD](#Learning to sell yourself)
+- [PD - Learning to sell yourself](#learning-to-sell-yourself)
 - [Homework](#homework)
 
 ---
