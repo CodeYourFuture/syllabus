@@ -10,7 +10,7 @@ Read the Mentors Notes [here](./instructors.md)
 
 ## What will we learn today?
 
-- [PD](#Leadership compass)
+- [PD - Leadership compass](#Leadership-compass)
 - [Homework](#homework)
 
 ---
