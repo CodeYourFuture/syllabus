@@ -4,6 +4,145 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2023-06-08
+
+Attendees: Ali Smith, Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Karolina Urn, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+  - In https://github.com/CodeYourFuture/curriculum/pulls - people should take a look but they're not copy-edited yet.
+  - Greg is very happy.
+- [x] Ali: Work with Berkeli to get the "clone issues" App shipped (spec and WIP PR).
+  - They had a chat, Berkeli is planning to do more work, but may need a little chasing.
+
+### 📝 Agenda points
+
+#### Introductions
+
+* Ali Smith
+  - London-based
+  - Long-time CYF volunteer and syllabus creator, put together a lot of the React course
+  - Working at Overleaf in Engineering Management
+* Daniel Wagner-Hall
+  - CYF volunteer for a few years, worked through most roles
+  - Particularly motivated to try to get our trainees focusing less on code and more on problem solving
+* Carlos Perez
+  - Software Engineer at New Relic (mostly backend, a bit of frontend)
+  - Volunteer at MigraCode since ~2 years ago, mostly teaching the last 1 year
+  - Teaching the javascript modules, excited to learn React soon to be able to teach it
+* Isar Fridriksson
+  - Volunteer at MigraCode Barcelona for about 10 months
+  - Syllabus is a fork of an old CodeYourFuture syllabus - think we should probably work together more
+  - Mostly do management of volunteers, trainees, etc
+  - Background is full-stack development, quite obsessed with automation, CI/CD
+  - Studying at 42 School
+* Karolina Urn
+  - From HackYourFuture Denmark
+  - Was student, then mentor, then professional FE developer and product manager, now a HYF staff member in education management
+  - Mostly busy being hands-on, haven't had time to worry about the syllabus too much
+  - Curriculum is quite out-dated - took over from Amsterdam a couple of years ago, works fine but could be better
+* Greg Dyke
+  - In Edinburgh, does a lot of work with CYF Glasgow - has done most things at CYF
+  - Works at Avaloq on compilers, and looking for interesting ways to tie that into CYF
+  - Currently trying to let the Glasgow volunteers work out how they're managing their cohort, and focusing more on syllabus development
+  - Focus is around how to get trainees writing tests more and well, and also responsible for [CYF Blocks](https://blocks.codeyourfuture.io/) - block-based programming to focus on problem solving before knowing JS-syntax
+
+#### CodeMirror 6 in Curriculum
+
+We're hoping to move to [the new curriculum](https://cyf-curriculum.netlify.app/) ideally June 24th.
+
+Ali has been working on a component that uses CodeMirror to allow making all code blocks editable (and maybe executable). Makes it easier in-class to try out edits to things, show examples.
+
+Have talked about making code executable - could be something to do next. Probably by shoving the code into an iframe. [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) could be useful at some point too.
+
+We can also add an option to highlight specific lines.
+
+Karolina: What's the goal, to serve exercises from the curriculum, or...?
+
+Yes, mostly "sample problems" rather than homework, and examples we've prepared for our teachers/volunteers.
+
+As an example, [this page](https://syllabus.codeyourfuture.io/js-core-2/week-2/lesson) has some "introduction to objects" code examples, and some "fill in some code with examples" exercises - being able to live-edit them would be super useful.
+
+Also, a note: We're switching to flipped classroom model, where we assign the reading/learning for trainees to do at home, and then spend our classes with them actually helping them with their problems.
+
+##### Sally demo'd the new curriculum website
+
+* Remixable sources of data e.g. markdown, videos, etc.
+* Coursework exists as issues on GitHub, which also gets pulled in
+* Big problem this solves is that people aren't entirely sure what they should be doing and what to do next - new curriculum is strongly guided around "What do I do next?"
+
+Isar: Would this allow for submitting work for review/correction? Currently no, but hopefully in the future.
+
+Karolina: At HYF each module is currently a separate repo, and no one ever submits PRs to them because they're hard to find and there's a high barrier to entry.
+
+We're moving to have one repo per module with all of the exercises, and using that as one of the input sources for rendering a module.
+
+At the end of each week, we have a checklist of each learning objective, which can be checked off. We currently have trainees who both 
+
+For forking our material - can have your own curriculum website using this system which pulls in material a mix of direct from CYF or from a fork or from other sources, and which makes transitioning to shared modules, or trying out new drafts of modules, really easy.
+
+##### Are there any features we really want to keep from docusaurus?
+
+* Admonitions - already implemented.
+* Where will our minutes live?
+* Search? Sally can build it if we need, but not sure how used/useful it is.
+* Where do workshops and guides go? Guides exist at https://cyf-curriculum.netlify.app/guides/
+
+#### Greg Wilson wants to make an intro a researcher
+
+* Cat Hicks - research at Pluralsight Flow researching what makes developers effective
+* Interested in learning more about CYF
+
+#### June 24th for new curriculum
+
+West Midlands are starting Fundamentals on June 24th. Would be ideal if they can start with the new curriculum and never know anything different. What blockers do we have?
+
+#### ChatGPT
+
+There's a lot of energy behind ChatGPT right now, we should get some enthusiastic community folks to put together a plan for how to embrace it in our course.
+
+James Bromley has been giving some workshops in London.
+
+One of Karolina's mentors has an interesting workshop for testing/code review via ChatGPT - happy to share.
+
+Isar: MigraCode Barcelona have been working on a code-writing workshop - happy to share too.
+
+#### London 10 & Glasgow 6
+
+Have been trying to get the classes to work together, but not sure people are engaging across the classes.
+
+Any engagement people are doing is probably in DMs. Sigh.
+
+#### How are people feeling about sharing content?
+
+Isar: Generally good, working together makes sense.
+
+Carlos: Want to understand why the fork happened originally, and why edits were made since, but in principle makes sense.
+
+Ali: We have prior experience of someone (CYF Colombia) trying to take our content, and it not working very well. Think a problem was that they assumed the curriculum was perfect and just needed translating, which was far from the case.
+
+How would we transition plan and work out the logistics to work together?
+
+Also, everyone should bear in mind none of the current curriculum content is "done" or "perfect" - please look at it with a "we can change anything" mindset!
+
+### Sprint planning
+
+We declared backlog bankruptcy. [Here's our new board](https://github.com/orgs/CodeYourFuture/projects/105/views/1).
+
+### ❗Actions
+
+- [ ] Everyone, but particularly Daniel: Review Fundamentals on https://cyf-curriculum.netlify.app/ (sourced from https://github.com/CodeYourFuture/curriculum) and fix/report anything that would mean it's not ready for June 24th.
+- [ ] Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] ??: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Ali: Make a ticket for full-text search on the new curriculum.
+- [ ] Ali: Make a ticket to change the random emoji menu button to just a hamburger menu icon
+- [ ] Sally: Respond to code review on [CYF blocks toggle](https://github.com/CodeYourFuture/fundamentals-blockly/pull/93)
+- [ ] Carlos + Daniel, Isar + Greg, Karo + Ali: Pair up and work on something together, come back next meeting with reports. Maybe in particular, try to work out fit / gaps for adoption.
+
+---
+
 ## {DATE HERE}
 
 Attendees:
