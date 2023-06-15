@@ -28,9 +28,9 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ### 1.1. Introductions
 
-- Before we introduce ourselves let's introduce one of the tools we'll be using to collaborate during the project, [Miro](https://miro.com/). Whiteboards are a simple yet powerful tool software teams use to share ideas and solve problems - Miro is just a virtual version. It should be intuitive but if you want help there's lots of [content online](https://www.youtube.com/watch?v=pULLAEmhSho).
+- Before we introduce ourselves, let's introduce one of the tools we'll use to collaborate during the project, [Miro](https://miro.com/). Whiteboards are a simple yet powerful tool software teams use to share ideas and solve problems - Miro is just a virtual version. It should be intuitive, but if you want help there's lots of [content online](https://www.youtube.com/watch?v=pULLAEmhSho).
 
-- Once you're familiar with the tool one person should make a copy of [this Miro board](https://miro.com/app/board/o9J_knoA0Ag=/) for your team to work on.
+- Once you're familiar with the tool one person should **make a copy** of [this Miro board](https://miro.com/app/board/uXjVM-LblbI=/?share_link_id=52246793561) for your team to work on.
 
 - OK, now we're set up let's get to know each other a little using **Exercise 1: Icebreaker** on your team's copy of the Miro board.
 
