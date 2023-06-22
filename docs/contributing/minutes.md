@@ -4,6 +4,48 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2023-06-22
+
+Attendees: Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Mitchell Lloyd
+
+### ❗Actions from last time
+
+- [x] Everyone, but particularly Daniel: Review Fundamentals on https://cyf-curriculum.netlify.app/ (sourced from https://github.com/CodeYourFuture/curriculum) and fix/report anything that would mean it's not ready for June 24th.
+- [x] Ali: Make a ticket for full-text search on the new curriculum.
+- [x] Ali: Make a ticket to change the random emoji menu button to just a hamburger menu icon
+- [x] Sally: Respond to code review on [CYF blocks toggle](https://github.com/CodeYourFuture/fundamentals-blockly/pull/93)
+- [x] Carlos + Daniel, Isar + Greg, Karo + Ali: Pair up and work on something together, come back next meeting with reports. Maybe in particular, try to work out fit / gaps for adoption.
+
+### 📝 Agenda points
+
+#### Follow up from MigraCode / CYF meetings in-week
+
+Isar & Greg: Optimistic about opportunities to collaborate on one syllabus. Also considering switching to flipped classroom for the same reasons we are. Follow-ups around making more video content from CYF public, and working out what training resources would be useful for flipped classroom.
+
+Carlos & Daniel: Shared lots of background together. Both planning to read through each other's syllabuses to see what would be useful to pull in from the MigraCode syllabus, and what may be missing from the CYF syllabus. Excited about trying to share and work together on one syllabus - particularly collaborating on Mitch's rewrites.
+
+#### JS1 & 2 rewrites
+
+Introduction to our approach: Learning themes, mental models; threading themes across weeks.
+
+PRs for JS1 have been drafted: https://github.com/CodeYourFuture/curriculum/pulls - ready for review tomorrow.
+
+(Spent our time in discussion in a [miro board](https://miro.com/app/board/uXjVMPkUc1E=/) planning JS2).
+
+### Action items
+
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
 ## 2023-06-08
 
 Attendees: Ali Smith, Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Karolina Urn, Sally McGrath
