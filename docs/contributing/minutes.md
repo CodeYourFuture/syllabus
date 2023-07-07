@@ -56,7 +56,7 @@ Ideally we would be selling git as a safety net which _reduces_ fear.
 
 We value about the current module that we introduce different concepts gradually, e.g. we don't cover merge conflicts early.
 
-Ali would like to remove forking early on
+Ali would like to remove forking early on as it would reduce the complexity of the coursework workflow.
 
 Daniel would like to have the git teaching independently of code - have our trainees learn by writing stories or something, so we can divorce "learning git stuff" from the fear of breaking/losing their code.
 
