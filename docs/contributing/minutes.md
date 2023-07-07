@@ -60,7 +60,6 @@ Ali would like to remove forking early on as it would reduce the complexity of t
 
 Daniel would like to have the git teaching independently of code - have our trainees learn by writing stories or something, so we can divorce "learning git stuff" from the fear of breaking/losing their code.
 
-#### HYF Next Steps
 
 ### ❗Actions
 
