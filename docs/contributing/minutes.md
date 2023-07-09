@@ -4,6 +4,80 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## 2023-07-06
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
+
+### ❗Actions from last time
+
+Mostly lots of carry-over to next time.
+
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+      Maybe need to check about releases for presenters.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
+### 📝 Agenda points
+
+#### HTML/CSS Module
+
+Sally has been taking a look and generally revising it a bit, with a bit more devtools and forms.
+
+When we're done with JS rewrites, we should step back and consider how we want to spend the first 4-5 weeks of the course.
+
+#### Curriculum rewrite
+
+[JS2 Threads](https://github.com/CodeYourFuture/curriculum/discussions/163) - generally looks great! We left a few comments on the discussion.
+
+Open question: How will we find out what problems there are in our new curriculum, and how will we make sure we react to those issues to make improvements.
+
+Our best answer so far: Try to be on the ground watching as much as possible.
+
+##### Git
+
+We need to work out how to introduce Git, but hopefully for the current class can spend some time across HTML/CSS doing so in the background.
+
+Consistent feedback we get from employeers:
+* Graduates are too eager to fork repos.
+* Graduates are confused about forks vs branches.
+* Graduates always add all of their files and don't pay much attention to content they shouldn't be committing.
+
+Ideally we would be selling git as a safety net which _reduces_ fear.
+
+We value about the current module that we introduce different concepts gradually, e.g. we don't cover merge conflicts early.
+
+Ali would like to remove forking early on as it would reduce the complexity of the coursework workflow.
+
+Daniel would like to have the git teaching independently of code - have our trainees learn by writing stories or something, so we can divorce "learning git stuff" from the fear of breaking/losing their code.
+
+
+### ❗Actions
+
+- [ ] Sally: Chase Karo about meeting with Ali
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+      Maybe need to check about releases for presenters.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [x] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
 ## 2023-06-22
 
 Attendees: Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Mitchell Lloyd
