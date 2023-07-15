@@ -25,14 +25,14 @@ We've hosted some Servers on Glitch but they're not quite working properly. Coul
 
 Take a look at this repository:
 
-[Chat Server](https://github.com/CodeYourFuture/Node-Coursework-Week2)
+[Chat Server](https://github.com/CodeYourFuture/Module-Node/tree/main/chat-server)
 
-In that repository you will find a task to create a Chat Server.
+In that repository folder you will find a task to create a Chat Server.
 
 To complete the coursework you should:
 
-1. Fork the repository
-2. Complete the tasks
+1. Make sure that the [repository](https://github.com/CodeYourFuture/Module-Node) has been forked
+2. Go to the `chat-server` folder and complete the tasks
 3. Create a pull request back to the original repository
 
 ## 3) Prepare a Presentation (1 Hour)
@@ -56,7 +56,7 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 
 ## 5) Challenges (Stretch)
 
-https://github.com/CodeYourFuture/cyf-node-challenges
+[Mailing List Server](https://github.com/CodeYourFuture/Module-Node/tree/main/mailing-list-api)
 
 ## 6) Reflect about your own biases (PD - 1 hr)
 
