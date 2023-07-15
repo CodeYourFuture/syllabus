@@ -18,12 +18,12 @@ Remember your Hotel project from React? Let's build an API to make that work!
 
 Take a look at the project here:
 
-https://github.com/CodeYourFuture/node-challenge-hotel-server
+[Hotel Server](https://github.com/CodeYourFuture/Module-Node/tree/main/hotel-bookings-api)
 
 To complete the coursework you should:
 
-1. Fork the repository
-2. Complete the tasks
+1. Make sure that the [repository](https://github.com/CodeYourFuture/Module-Node) has been forked
+2. Go into the `hotel-bookings-api` folder and complete the tasks
 3. Create a pull request back to the original repository
 
 ## 3) CodeWars (1 hour)
@@ -35,4 +35,4 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 
 ## 4) Challenges (Stretch)
 
-https://github.com/CodeYourFuture/cyf-node-challenges
+[Mailing List Server](https://github.com/CodeYourFuture/Module-Node/tree/main/mailing-list-api)
