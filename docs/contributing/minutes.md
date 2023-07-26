@@ -26,25 +26,45 @@ Attendees: Ali, Daniel, Issar, Mitch
 
 ### ❗Actions from last time
 
-- [x] Mitch: Put together proposal for JS2 threads.
+- [x] Mitch: Put together a proposal for JS2 threads.
 
 ### 📝 Agenda points
 
 #### SDC launch day & Git workshop day 1
 
 - Mitch is currently rewriting some of the content for Git week 1: committing, forking, branching, pull requests. All the changed components are collected here [Rewrite for Git day 1](https://github.com/CodeYourFuture/curriculum/issues/181)
--
 
 #### Learning as a community workshop
 
 - Mitch is working on a workshop for the launch of SDC around Learning as a community.
   - The focus of the workshop will be as follows:
   - educational philosophy at CYF
-  - independent learning, problem solving with the community
+  - independent learning, problem-solving with the community
   - how the curriculum is structured and why it is structured the way it is
   - how do we use the time in classes to overcome blockers and difficulties
-- the workshop will propose questions, discussions and activities to help people focus on these points. It won't be a straightforward lecture.
+- the workshop will propose questions, discussions and activities to help people focus on these points. It won't be a lecture.
 - This workshop won't be teacher training: it will involve the whole community of volunteers and trainees
+- Encouraging folks to talk through about their insights to help the community make the most out of time on Saturdays
+
+Some other observations...
+
+- Daniel thought 1/2 class in LDN10 weren't comfortable with React
+- Need to consider the possibility of adding an extra week to deal with lack of understanding in a group
+- There's a real need to empower people to make changes to focus on a particular area
+- Opposite end: need to press forward with the curriculum content, tension between delaying to address misconceptions and continuing the course to cover content
+- Also need for course momentum + working out boundaries
+- Some trainees are waiting for Saturday to get unblocked/ask questions
+
+- London trainees were asked to raise their hand and indicate if they'd done prep: a significant amount admitted they hadn't
+- Trainees should at least be doing enough work to 
+_ Consider setting up groups during the week to identify key blockers and doing a standup on Saturday
+
+Feedback loop problem
+
+- We expect trainees to tell us problems
+- We expect volunteers to react to problems
+- We could introduce formative assessments as a means of collecting data about trainees' weaknesses/strengths
+
 
 ### ❗Actions
 
