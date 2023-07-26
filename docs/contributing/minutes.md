@@ -37,7 +37,7 @@ Attendees: Ali, Daniel, Issar, Mitch
 #### Learning as a community workshop
 
 - Mitch is working on a workshop for the launch of SDC around Learning as a community.
-  - The focus of the workshop will be as follows:
+The focus of the workshop will be as follows:
   - educational philosophy at CYF
   - independent learning, problem-solving with the community
   - how the curriculum is structured and why it is structured the way it is
