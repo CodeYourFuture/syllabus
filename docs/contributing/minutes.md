@@ -4,6 +4,94 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+---
+
+## {DATE HERE}
+
+Attendees:
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+### ❗Actions
+
+####
+
+---
+
+## 20-07-2023
+
+Attendees: Ali, Daniel, Issar, Mitch
+
+### ❗Actions from last time
+
+- [x] Mitch: Put together a proposal for JS2 threads.
+
+### 📝 Agenda points
+
+#### SDC launch day & Git workshop day 1
+
+- Mitch is currently rewriting some of the content for Git week 1: committing, forking, branching, pull requests. All the changed components are collected here [Rewrite for Git day 1](https://github.com/CodeYourFuture/curriculum/issues/181)
+
+#### Learning as a community workshop
+
+- Mitch is working on a workshop for the launch of SDC around Learning as a community.
+The focus of the workshop will be as follows:
+  - educational philosophy at CYF
+  - independent learning, problem-solving with the community
+  - how the curriculum is structured and why it is structured the way it is
+  - how do we use the time in classes to overcome blockers and difficulties
+- the workshop will propose questions, discussions and activities to help people focus on these points. It won't be a lecture.
+- This workshop won't be teacher training: it will involve the whole community of volunteers and trainees
+- Encouraging folks to talk through about their insights to help the community make the most out of time on Saturdays
+
+Some other observations...
+
+- Daniel thought 1/2 class in LDN10 weren't comfortable with React
+- Need to consider the possibility of adding an extra week to deal with lack of understanding in a group
+- There's a real need to empower people to make changes to focus on a particular area
+- Opposite end: need to press forward with the curriculum content, tension between delaying to address misconceptions and continuing the course to cover content
+- Also need for course momentum + working out boundaries
+- Some trainees are waiting for Saturday to get unblocked/ask questions
+
+- London trainees were asked to raise their hand and indicate if they'd done prep: a significant amount admitted they hadn't
+- Trainees should at least be doing enough work to 
+_ Consider setting up groups during the week to identify key blockers and doing a standup on Saturday
+
+Feedback loop problem
+
+- We expect trainees to tell us problems
+- We expect volunteers to react to problems
+- We could introduce formative assessments as a means of collecting data about trainees' weaknesses/strengths
+
+
+### ❗Actions
+
+- [ ] Mitch & Issar: Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar: Discuss training resources for Migracode volunteers
+- [ ] Ali: Look into possibility of banner on old syllabus content during trial of new curriculum content
+- [ ] Ali: Review Git Content?
+- [ ] Daniel: Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch: Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch: Merge feedback for JS1 rewrites
+- [ ] Mitch: Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch: Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Carlos (Carry-over): Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+      Maybe need to check about releases for presenters.
+- [ ] Mitch (Carry-over): Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+
+---
+
 ## 2023-07-06
 
 Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
@@ -48,9 +136,10 @@ Our best answer so far: Try to be on the ground watching as much as possible.
 We need to work out how to introduce Git, but hopefully for the current class can spend some time across HTML/CSS doing so in the background.
 
 Consistent feedback we get from employeers:
-* Graduates are too eager to fork repos.
-* Graduates are confused about forks vs branches.
-* Graduates always add all of their files and don't pay much attention to content they shouldn't be committing.
+
+- Graduates are too eager to fork repos.
+- Graduates are confused about forks vs branches.
+- Graduates always add all of their files and don't pay much attention to content they shouldn't be committing.
 
 Ideally we would be selling git as a safety net which _reduces_ fear.
 
@@ -59,7 +148,6 @@ We value about the current module that we introduce different concepts gradually
 Ali would like to remove forking early on as it would reduce the complexity of the coursework workflow.
 
 Daniel would like to have the git teaching independently of code - have our trainees learn by writing stories or something, so we can divorce "learning git stuff" from the fear of breaking/losing their code.
-
 
 ### ❗Actions
 
@@ -136,29 +224,29 @@ Attendees: Ali Smith, Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriks
 
 #### Introductions
 
-* Ali Smith
+- Ali Smith
   - London-based
   - Long-time CYF volunteer and syllabus creator, put together a lot of the React course
   - Working at Overleaf in Engineering Management
-* Daniel Wagner-Hall
+- Daniel Wagner-Hall
   - CYF volunteer for a few years, worked through most roles
   - Particularly motivated to try to get our trainees focusing less on code and more on problem solving
-* Carlos Perez
+- Carlos Perez
   - Software Engineer at New Relic (mostly backend, a bit of frontend)
   - Volunteer at MigraCode since ~2 years ago, mostly teaching the last 1 year
   - Teaching the javascript modules, excited to learn React soon to be able to teach it
-* Isar Fridriksson
+- Isar Fridriksson
   - Volunteer at MigraCode Barcelona for about 10 months
   - Syllabus is a fork of an old CodeYourFuture syllabus - think we should probably work together more
   - Mostly do management of volunteers, trainees, etc
   - Background is full-stack development, quite obsessed with automation, CI/CD
   - Studying at 42 School
-* Karolina Urn
+- Karolina Urn
   - From HackYourFuture Denmark
   - Was student, then mentor, then professional FE developer and product manager, now a HYF staff member in education management
   - Mostly busy being hands-on, haven't had time to worry about the syllabus too much
   - Curriculum is quite out-dated - took over from Amsterdam a couple of years ago, works fine but could be better
-* Greg Dyke
+- Greg Dyke
   - In Edinburgh, does a lot of work with CYF Glasgow - has done most things at CYF
   - Works at Avaloq on compilers, and looking for interesting ways to tie that into CYF
   - Currently trying to let the Glasgow volunteers work out how they're managing their cohort, and focusing more on syllabus development
@@ -184,9 +272,9 @@ Also, a note: We're switching to flipped classroom model, where we assign the re
 
 ##### Sally demo'd the new curriculum website
 
-* Remixable sources of data e.g. markdown, videos, etc.
-* Coursework exists as issues on GitHub, which also gets pulled in
-* Big problem this solves is that people aren't entirely sure what they should be doing and what to do next - new curriculum is strongly guided around "What do I do next?"
+- Remixable sources of data e.g. markdown, videos, etc.
+- Coursework exists as issues on GitHub, which also gets pulled in
+- Big problem this solves is that people aren't entirely sure what they should be doing and what to do next - new curriculum is strongly guided around "What do I do next?"
 
 Isar: Would this allow for submitting work for review/correction? Currently no, but hopefully in the future.
 
@@ -194,21 +282,21 @@ Karolina: At HYF each module is currently a separate repo, and no one ever submi
 
 We're moving to have one repo per module with all of the exercises, and using that as one of the input sources for rendering a module.
 
-At the end of each week, we have a checklist of each learning objective, which can be checked off. We currently have trainees who both 
+At the end of each week, we have a checklist of each learning objective, which can be checked off. We currently have trainees who both
 
 For forking our material - can have your own curriculum website using this system which pulls in material a mix of direct from CYF or from a fork or from other sources, and which makes transitioning to shared modules, or trying out new drafts of modules, really easy.
 
 ##### Are there any features we really want to keep from docusaurus?
 
-* Admonitions - already implemented.
-* Where will our minutes live?
-* Search? Sally can build it if we need, but not sure how used/useful it is.
-* Where do workshops and guides go? Guides exist at https://cyf-curriculum.netlify.app/guides/
+- Admonitions - already implemented.
+- Where will our minutes live?
+- Search? Sally can build it if we need, but not sure how used/useful it is.
+- Where do workshops and guides go? Guides exist at https://cyf-curriculum.netlify.app/guides/
 
 #### Greg Wilson wants to make an intro a researcher
 
-* Cat Hicks - research at Pluralsight Flow researching what makes developers effective
-* Interested in learning more about CYF
+- Cat Hicks - research at Pluralsight Flow researching what makes developers effective
+- Interested in learning more about CYF
 
 #### June 24th for new curriculum
 
