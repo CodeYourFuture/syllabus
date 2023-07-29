@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 By the end of this lesson trainees should be able to:
 
 - Process a PUT request using Express and Node to update data in memory
-- Upload their node app to the internet so it can be accessed anywhere using Heroku
+- Upload their node app to the internet so it can be accessed anywhere using Render
 
 ---
 
@@ -89,52 +89,13 @@ To challenge yourself even further, try to complete these challenges:
 
 :::
 
-## 3) Heroku
+## 3) Render
 
-We can use Heroku to host our APIs online (similar in the way you might have used Netlify in the past). This can be a little tricky.
-
-:::caution
-
-If you're using WSL, Snap may not work immediately. If you see errors using Snap, run the following command in WSL instead. You can ask a TA for help:
-
-```bash
-curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
-```
-
-:::
+We can use Render to host our APIs online (similar in the way you might have used Netlify in the past). This can be a little tricky.
 
 :::note Exercise
 
-Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online by following [this Heroku walkthrough](https://youtu.be/MxfxiR8TVNU).
-
-
-If you don't have your albums project available, you can follow [Heroku's guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs) and deploy one of their provide apps.
-
-You should complete all of the following sections:
-
-- Introduction
-- Set up
-- Deploy the app
-- View logs
-- Define a Procfile
-- Run the app locally
-
-Now when you use
-
-```bash
-# This is an interesting command - Heroku deploys your app by requiring that you push your code to their remote git repository. If you're using the Heroku docs, this remote repo will already be set up, but you will need to add Heroku's git remote repository if you want to use this method on your own private codebase.
-git push heroku main
-```
-
-your updated website will be made available online!
-
-Note that `heroku ps:scale web=1` may look like a confusing command, but it's actually broken down as follows:
-
-```bash
-heroku    # the Heroku client you installed through the guide/video
-ps:scale  # telling Heroku that you want to perform a scale operation on a process
-web=1     # in your procfile, you defined a process called web - you're just telling Heroku to scale this process to 1 here
-```
+Work in pairs and with Teaching Assistants to get your homework from the previous two weeks working online by following [this Render walkthrough](https://syllabus.codeyourfuture.io/guides/deployment-render).
 
 :::
 
