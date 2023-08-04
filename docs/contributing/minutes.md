@@ -20,6 +20,123 @@ Attendees:
 
 ---
 
+## 2023-08-03
+
+Attendees: Ali, Sally, Carlos
+
+### ❗Actions from last time
+
+- [ ] Mitch & Issar: Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar: Discuss training resources for Migracode volunteers
+- [ ] Ali: Look into possibility of banner on old syllabus content during trial of new curriculum content
+  - Decided to skip this - the only classes still using the old syllabus are near completion, so will probably be simpler to just wait it out (and then set up a redirect)
+- [x] Ali: Review Git Content?
+- [ ] Daniel: Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch: Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch: Merge feedback for JS1 rewrites
+- [ ] Mitch: Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch: Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Carlos (Carry-over): Look through the existing CYF curriculum and understand strengths and gaps.
+  - Carlos wants to focus on the new curriculum content as it's now more relevant, so will drop this
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+  - Sally to follow up on this later, possible holidays etc are interfering :)
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+### 📝 Agenda points
+
+#### Publishing deadlines for new curriculum
+
+- NW are starting soon
+- Sally has set dates for publication dates
+  - Sally [published the dates on Slack](https://codeyourfuture.slack.com/archives/C012UUW69S8/p1691089169584079?thread_ts=1691089163.660329&cid=C012UUW69S8), and pinned to channel
+- General policy: if you don't have time to review before the deadlines, then merge and folks can open changes as a follow up PR
+
+#### Learning as a community
+
+- Recap for Carlos
+- Teachers & trainees will have a workshop together
+  - "How do you learn at CYF" philosophy
+- Goals
+  - Avoid divisions between trainees & teachers
+  - Empower advanced trainees to be teachers, setting them up for success - learn how to be teachers
+  - Reframing teaching in the community
+    - Example: trainees "giving away answers" to other trainees - hopefully nip this in the bud at the start
+- How do we handle volunteers who join part way through the course?
+  - Sally: experienced trainees could run a refresher course?
+
+#### Coursework copy button
+
+- [PR now open](https://github.com/CodeYourFuture/curriculum/pull/182)
+- Action: ask Berkeli to merge v1 (when he gets back from holiday)
+- Ali still needs to give some feedback (mostly to cut down on the ops complexity), but thinks that it's best to ship what we have and fix later
+
+#### Git branching
+
+- How do we handle branches for multiple weeks
+  - We cover how to branch `week-1` but what should they do for `week-2` branch?
+- We can teach multiple branching strategies, but what do we teach first?
+- [This coursework issue in HTML/CSS](https://github.com/CodeYourFuture/Module-HTML-CSS/issues/13) tells them to create a new branch for each project - so introducing multiple branches early on
+  - Sally: please make sure that the instructions are clear in these tickets
+- We need to think about what branching strategies are taught and when they are introduced
+- Action: open a ticket to discuss branching strategies across the course
+
+#### Full stack assessment
+
+- Sally: worried that it isn't suitable and is actively sabotaging the final projects
+- The general structure of the existing work: build the whole frontend first, then the whole backend
+- This causes some issues:
+  - Trainees build a lot of "useless" stuff like headers/footers, and not focusing on the main functionality
+  - There's no thinking about the users/Product aspect - i.e. trainees aren't thinking about the problem are we attempting to solve
+  - Not prioritising completing a feature and instead building out half of many features
+- Suggested solution: reframe the exercise to "slice" it so that trainees focus on completing end-to-end features, instead of frontend/backend. Hopefully this shouldn't be too difficult, as the underlying content should be ok
+- We should fix this before the next cohort gets to it
+- Action: open a ticket to reframe the assessment around completing end-to-end features
+
+#### Pathways
+
+- Something that LDN10 are doing
+  - See [slides](https://docs.google.com/presentation/d/1Ydv04i27o3OJpEdB2oQ_ZUF-TpjgTIKLV1rjlj0lsRk/edit#slide=id.g720190f409_2_1)
+  - Summary: 5 additional weeks at the end of the course, trainees get to choose which from 5 possible modules (cloud, devops, QA, Product, Data)
+- The LDN10 pathways project is after the full course has finished, but historically we have had variations on the latter half of the course (i.e. something instead of React/Node/Databases)
+  - In London, usually after the React module. But we think it should be after JS3
+  - If we follow the historical route, how do we integrate other courses/modules into the main course?
+- How far do we want to go towards letting cohorts decide how to run this part of the course?
+  - Probably quite a lot: we don't have a lot of "control" over it!
+  - But we do think that we should have an opinion on how to approach it
+- Should trainees have a choice in what path they choose?
+  - If so, how do we structure the course so that they can make a successful choice (that they would enjoy)
+  - And how do we prevent e.g. sexism influencing choices?
+- These are big questions and we didn't really have any answers for them at the moment
+  - So probable next steps are for us to start thinking about this
+  - We should also try to gather data on what is working / what isn't working and needs to be employability driven
+- Should we invite volunteers working on alternative curriculums to join the team so we can discuss?
+
+#### Sprint planning
+
+- Not all of the tickets were on the planning board, but should be now
+- Lots of PRs were in the Backlog column - please could you move them to the appropriate place?
+
+### ❗Actions
+
+- [ ] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [ ] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [ ] Ali: open a ticket to discuss branching strategies across the course
+- [ ] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+- [ ] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers
+- [ ] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch (Carry-over): Merge feedback for JS1 rewrites
+- [ ] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+---
+
 ## 20-07-2023
 
 Attendees: Ali, Daniel, Issar, Mitch
@@ -37,7 +154,7 @@ Attendees: Ali, Daniel, Issar, Mitch
 #### Learning as a community workshop
 
 - Mitch is working on a workshop for the launch of SDC around Learning as a community.
-The focus of the workshop will be as follows:
+  The focus of the workshop will be as follows:
   - educational philosophy at CYF
   - independent learning, problem-solving with the community
   - how the curriculum is structured and why it is structured the way it is
@@ -56,15 +173,14 @@ Some other observations...
 - Some trainees are waiting for Saturday to get unblocked/ask questions
 
 - London trainees were asked to raise their hand and indicate if they'd done prep: a significant amount admitted they hadn't
-- Trainees should at least be doing enough work to 
-_ Consider setting up groups during the week to identify key blockers and doing a standup on Saturday
+- Trainees should at least be doing enough work to
+  \_ Consider setting up groups during the week to identify key blockers and doing a standup on Saturday
 
 Feedback loop problem
 
 - We expect trainees to tell us problems
 - We expect volunteers to react to problems
 - We could introduce formative assessments as a means of collecting data about trainees' weaknesses/strengths
-
 
 ### ❗Actions
 
