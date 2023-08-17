@@ -20,6 +20,60 @@ Attendees:
 
 ---
 
+## 2023-08-17
+
+Attendees: Ali, Sally, Carlos
+
+### ❗Actions from last time
+
+- [x] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [x] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [x] Ali: open a ticket to discuss branching strategies across the course
+- [x] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+
+- [x] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [x] Mitch (Carry-over): Merge feedback for JS1 rewrites
+- [x] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules...
+- [x] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [x] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+### 📝 Agenda points
+
+#### Curriculum rewrite update
+
+Mitch:
+
+- Lots of rigorous, useful feedback. Thanks!
+- JS1 week 1 is done
+- JS1 week 2 soon to come
+- Soon have about half the prep released/ready for review
+  - Support with someone else for video   
+- Matching exercise rewrites where necessary
+
+#### WM doing html/css week 1
+
+Lots of incredibly positive aspects:
+
+- Correctly formed PRs
+- Formatted code
+- Visibly high quality work
+- Reviewing each others' PRs
+
+#### Building COP around flipped classroom
+
+- Would be good if Ali could observe one of Mitch's intro sessions so he's able to deliver in LDN
+
+### ❗Actions
+
+- [ ] Ali (carry over): give feedback to Berkeli on coursework clone button
+- [ ] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers
+- [ ] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
 ## 2023-08-03
 
 Attendees: Ali, Sally, Carlos
