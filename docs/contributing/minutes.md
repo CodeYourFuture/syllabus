@@ -22,7 +22,7 @@ Attendees:
 
 ## 2023-08-17
 
-Attendees: Ali, Sally, Carlos
+Attendees: Ali, Sally, Greg, Mitch
 
 ### ❗Actions from last time
 
