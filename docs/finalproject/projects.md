@@ -6,6 +6,10 @@ sidebar_label: Project Briefings
 
 ### New for 2023
 
+- [Avanart](https://docs.google.com/document/d/1w-2QNLmoOwdNTQcbP2Mn5178X_3DxpGnnjPkCF6ExJY/edit?usp=sharing)
+- [How Does It Work Here](https://docs.google.com/document/d/1TEyKxGvPt0mBZUeIjipTxd4TpQe_Wfz5etiWsv0QTdc/edit?usp=sharing)
+- [What Rubbish](https://docs.google.com/document/d/1UR-6wmZkzh1POap-M1gE_963UMaE1XP9DMOqopavr_A/edit?usp=sharing)
+- [Space Aliens](https://docs.google.com/document/d/1hPuhVkbP3x9NUf2dABCvF4CyhgtsWHcy5Lu7PZAQjmo/edit?usp=sharing)
 - [Tip of our Tongues](https://docs.google.com/document/d/1uhFzu31xJkh0p5OdPbxU7jrGhlzT_ZbKFPKF8S9s1cY/edit?usp=sharing)
 - [Good PR](https://docs.google.com/document/d/1O-FOKo0n4gX96g5b_wm65zurs463fkdbTcGdbmxx79Q/edit?usp=sharing)
 - [In A Class of Our Own](https://docs.google.com/document/d/19j8HzOBR4cuiD1kFpy0npSwBsj82DA5Sbl75WfD7zBg/edit?usp=sharing)
