@@ -46,7 +46,7 @@ Attendees: Sally, Ali, Daniel, Mitch
 
 JS1 Week 1 merged
 JS1 Week 2 merged
-JS1 Week 3 awaiting copy edits
+JS1 Week 3 awaiting merge
 JS1 Week 4 awaiting review & copy edits
 JS2 Week 1 awaiting review & copy edits
 JS2 Week 2 in draft - being prepped for review
