@@ -4,9 +4,7 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
----
-
-## {DATE HERE}
+## {DATE_HERE}
 
 Attendees:
 
@@ -16,7 +14,128 @@ Attendees:
 
 ### ❗Actions
 
-####
+---
+
+## 2023-08-31
+
+Attendees: Sally, Ali, Daniel, Mitch
+
+### ❗Actions from last time
+
+- [x] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [x] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [x] Ali: open a ticket to discuss branching strategies across the course
+- [x] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+- [x] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material (issue)
+- [x] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers (issue)
+- [x] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [x] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [x] Mitch (Carry-over): Merge feedback for JS1 rewrites (Issue)
+- [x] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules... (Issue)
+- [x] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [x] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [x] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF. (Issue)
+
+---
+
+### 📝 Agenda points
+
+#### Re-write progress
+
+JS1 Week 1 merged
+JS1 Week 2 merged
+JS1 Week 3 awaiting merge
+JS1 Week 4 awaiting review & copy edits
+JS2 Week 1 awaiting review & copy edits
+JS2 Week 2 in draft - being prepped for review
+JS2 Week 3 in draft - being prepped for review
+JS2 Week 4 - going to be a mini-project week (no prep content)
+
+Mitch to spend time in next sprint on:
+
+- finishing final weeks of prep content for JS2
+- finishing new exercises and challenges for JS1
+- finishing workshops for JS1 module
+
+Please keep on providing marvellous feedback
+
+#### Discussion around adding consolidation weeks
+
+Sally:
+
+- Currently a big diff in process across regions
+- WM have consolidation weeks
+- NW had a consolidation week once
+- Need to let regions know they're empowered to do it
+- WM has least flexibility for running consolidation weeks
+
+Ali:
+
+- Trade off between consolidation and momentum
+- Need to make this trade-off clear to the tech-ed volunteers
+- Need to avoid heroic efforts and adding unncessary extra time to the course
+
+Mitch:
+
+- Keep communicating: you won't understand everything all the time
+
+Re LDN10:
+
+- Some people who still haven't understood the stuff
+- Arrange some sessions with these people
+- Need training around pairing with people and checking their work
+
+Re assessments:
+
+- No-one using the one-2-one assessments that Chris made
+- Codility fine for automated assessments
+- Introduce consequences for results?
+- Set aside time to pair with the trainees in buddy groups
+- Learning as a community - Mitch and Ali to pick up this discussion. Where do we want to go?
+
+#### Employment woes
+
+Context:
+
+- Junior dev market has cratered!
+- Code schools are going bust!
+- E.g. Outcomes have gone from 90% to 10% in NW - huge drop-off
+- NW graduated in March and have had very little success in finding jobs
+- Hiring freezes may last for another six months
+- A lot of tech-ed people just beginning to grasp the reality of the situation
+- Messaging to come out in the next few days re employment strategy in current environment
+
+Re Navigating the employment situation:
+
+- Sit down in small groups and build projects!
+- Keep grads together and running Saturday classes for grads so they end up in better shape
+- Hiring grads to work on projects
+- Sally has started a list of small-scale specced projects
+- Keep speccing projects!
+- day-plan for project day - Mitch to come up with tentative design in next sprint
+- People will need project ideas otherwise they'll do nothing
+
+Other strategies:
+
+- Hacktoberfest could be done as a guild
+- Motivating people: some kind of event for getting people to do something
+
+Re pause on ITD:
+
+- ITD _won't_ be launched until 50% of the grads are in jobs
+- > 800 people waiting for ITD in LDN
+- Send useful things for waiting ITD candidates before coming on the course
+- Completion rate is 1 in 10 for LDN10 - need to be honest with people about their chances of getting on the course
+
+### ❗Actions
+
+- [ ] Everyone: keep coming up with project ideas
+- [ ] Mitch: Draft out "project day-plan" (issue)
+- [x] Mitch: Review Sally's `blockData` PR asap
+- [ ] Ali?: (Carry-over) give feedback to Berkeli on coursework clone button
+- [ ] Daniel?: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps.
 
 ---
 
