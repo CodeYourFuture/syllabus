@@ -16,6 +16,90 @@ Attendees:
 
 ---
 
+## 2023-09-14
+
+Attendees: Sally, Mitch, Daniel, Ali
+
+### ❗Actions from last time
+
+- [x] Everyone: keep coming up with project ideas
+- [ ] Mitch: Draft out "project day-plan" (issue)
+- [x] Mitch: Review Sally's blockData PR asap
+- [x] Daniel: (Carry-over) give feedback to Berkeli on coursework clone button
+- Daniel?: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps.
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+- Projects
+  - What's the final form? Throw them in the google drive folder
+- Clone issues work from Berkeli
+  - Daniel has been reviewing, it's very close
+  - Needs to check that there's some error handling
+
+#### JS1 Update
+
+- Sally & Mitch have got JS1 over the line today! 🎉
+  - Prep, workshops, day plans
+- Biggest change: testing now built in from the start
+  - Coursework has been updated to reflect that
+  - Sally raised some objections - wanted to get some feedback on their PRs
+    - Solution: reject if the PR is empty, linting fails, checking for presence of `console.assert`. If these fail, then set the PR to draft & post a comment to explain
+    - Aside: Ali recently learned that Node 20 has a built-in test runner, so we could potentially run tests without installing a library. However it might not be a bad thing to get trainees familiar with industry-standard
+- Previously trainees were skimming through week 1 as there was so much content. Now we're going deeper thanks to the rewrite, there's more trainees that will feel the limits of their understanding
+
+#### WM5
+
+- Sally: some issues
+  - Zero code reviews are being done by mentors on the module repo
+  - The work that is being submitted is brilliant, but 1/3 of the class have submitted nothing
+
+#### Speaking to new cohorts
+
+- Mitch running Learning as Community workshop for NW6
+  - What tone do we want to set?
+    - We want to be honest (both about the job market and our/their conduct in the course)
+    - Regarding the job market, we don't want to freak people out, but we want to be honest
+  - We are looking 1 year ahead, so the market may change by the time they're looking
+  - Trainees are going to hear discussion of the job market regardless of whether we address it or not
+  - We can talk about the ways in which our community can do better in this environment than paid bootcamps
+    - We already have no money!
+    - We lean on the community to help each other out
+
+#### Review priorities
+
+- Lots of things to review - what should we look at first?
+  - Daniel will have a reasonable amount of time for reviews
+- Sally: WM5 is doing Week 4 of HTML, so we need to have JS1 completely tied up. The next cohort to start is NW6, doing induction on Sat 16th
+- Sally is initialising the DB module, but wants Keith & co to work on the actual content
+
+#### Module Project
+
+- HTML module project
+  - Karma clone - get given a website, trainees have to make a "perfect" clone of it
+  - Following weeks trainees have to build new features onto this website
+  - Daniel's critique: in fundamentals we have set of Plan / Build / Test / Ship over each week - shouldn't we deploy in week 1?
+    - Sally: we should be doing a version of Plan / Build / Test / Ship every week
+    - Daniel really likes the "Levels" context: you have to complete e.g. Level 100 tasks (and deploy) before moving to Level 200
+- Our project doesn't quite work for it
+
+#### Helping prepare for Town Hall
+
+- Town hall to discuss the state of employment/CYF likely scheduled for next week sometime
+- Is there anything we can do to help prepare
+  - Staff preparing slides
+  - Talk to volunteers to prepare them for shift in focus, get buy-in
+
+### ❗Actions
+
+- Everyone: keep coming up with project ideas
+- Mitch: Continue with JS2 rewrite
+- Everyone: Continue reviewing rewrite PRs
+- Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
 ## 2023-08-31
 
 Attendees: Sally, Ali, Daniel, Mitch
@@ -168,7 +252,7 @@ Mitch:
 - JS1 week 1 is done
 - JS1 week 2 soon to come
 - Soon have about half the prep released/ready for review
-  - Support with someone else for video   
+  - Support with someone else for video
 - Matching exercise rewrites where necessary
 
 #### WM doing html/css week 1
