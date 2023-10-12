@@ -30,7 +30,7 @@ Attendees: Karen , Daniel
 
 #### Setting expectations
 
-- Having an open conversation
+- Start with an open conversation:
 - Questions:
 - Do you think you can cheat / copy + paste?
 - Do you think you can get a job when you disrespect other's work?
@@ -41,20 +41,17 @@ Attendees: Karen , Daniel
 - Radically different expectations depending on buddies
 - No strong technical leads in some regions
 - Ask the questions, and validate the assumptions
-- Make clearer - don't waste our time
-- Do we need to make changes to the curriculum
 - A hard to achieve dream: someone with goal to be around first few sessions on a Saturday. Have a conversation with every trainee and assess every few weeks in sessions. Having conversations with buddies. What have you been seeing in their code?
 - They need to have difficult conversations with people who aren't getting it and not thriving on the course.
 - After every module, check progress and if they're not doing the stuff then there needs to be an intervention.
 - Continue handing out a PIP with a meaningful conversation.
-- Trainees haven't understood what is wrong - and don't know when they are doing something wrong
+- Often trainees haven't understood what is wrong - and don't know when they are doing something wrong
 - Sometimes the problem is simple to fix: keyboard is in the wrong language!
 
 #### WM5 JS1 checkin
 
 - Trial: around the end of JS1 - have a conversation with every trainee in West Midlands for no more than one hour. In an ideal world, do this every 2 weeks. But it will be a starting point. A week's worth of work.
-- Get key volunteers to have this discussion and write down the guidelines.
-- PD volunteers are a step removed from volunteers
+- Get key volunteers to have these discussions and write down the guidelines
 - Consider role for engineering managers in the organisation
 - Start small with regions like West Midlands
 
@@ -66,7 +63,7 @@ Attendees: Karen , Daniel
 - Working in teams of 4 or 5
 - Engaging with PD people
 - Portfolio time will try to stimulate a work environment - delivering products
-- At 10am on Saturdays have a standup
+- At 10am on Saturdays have a stand up
 - Let trainees decide what they want to build
 - This is about keeping people engaged with team work when the course has ended
 - Establishing the rules of the team from the beginning
