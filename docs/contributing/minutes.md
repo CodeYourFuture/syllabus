@@ -16,6 +16,91 @@ Attendees:
 
 ---
 
+## 28-09-2023
+
+Attendees: Karen , Daniel
+
+### ❗Actions from last time
+
+- [] Keeping up with project ideas
+- [] Continue with JS2 rewrite
+- [] Look over migracode syllabus
+
+### 📝 Agenda points
+
+#### Setting expectations
+
+- Having an open conversation
+- Questions:
+- Do you think you can cheat / copy + paste?
+- Do you think you can get a job when you disrespect other's work?
+- What are the consequences of not doing the work?
+- Why are you here?
+- Need to gain more insights from trainees
+- Works well with a strong technical lead, generally involved in their day to day
+- Radically different expectations depending on buddies
+- No strong technical leads in some regions
+- Ask the questions, and validate the assumptions
+- Make clearer - don't waste our time
+- Do we need to make changes to the curriculum
+- A hard to achieve dream: someone with goal to be around first few sessions on a Saturday. Have a conversation with every trainee and assess every few weeks in sessions. Having conversations with buddies. What have you been seeing in their code?
+- They need to have difficult conversations with people who aren't getting it and not thriving on the course.
+- After every module, check progress and if they're not doing the stuff then there needs to be an intervention.
+- Continue handing out a PIP with a meaningful conversation.
+- Trainees haven't understood what is wrong - and don't know when they are doing something wrong
+- Sometimes the problem is simple to fix: keyboard is in the wrong language!
+
+#### WM5 JS1 checkin
+
+- Trial: around the end of JS1 - have a conversation with every trainee in West Midlands for no more than one hour. In an ideal world, do this every 2 weeks. But it will be a starting point. A week's worth of work.
+- Get key volunteers to have this discussion and write down the guidelines.
+- PD volunteers are a step removed from volunteers
+- Consider role for engineering managers in the organisation
+- Start small with regions like West Midlands
+
+#### Portfolio
+
+- Employability renamed to Portfolio
+- Will talk about portfolio for the whole year
+- People need a space to build more projects
+- Working in teams of 4 or 5
+- Engaging with PD people
+- Portfolio time will try to stimulate a work environment - delivering products
+- At 10am on Saturdays have a standup
+- Let trainees decide what they want to build
+- This is about keeping people engaged with team work when the course has ended
+- Establishing the rules of the team from the beginning
+- Type a message saying you agree to the rules
+- Have a conversation at the start about how you're going to work together
+- Try and get people to demo to each other frequently
+- Rituals - you show up - what should you be doing?
+- Pick one feature - do it backend to frontend
+- Sketch out a wireframe
+- Don't pick up anything else until the user story has been implemented
+- Possibly two ways to pick a first story - give a user value or what do you want to practice
+- Fill out a form or make a good widget
+- Different aims depending on what you need
+- Focus on what you want
+- Very generic at the moment
+- Random stuff to finish the day: game or team building: recruitment workshop - something to keep PD people engaged
+- Do a retrospective in week 2
+- Sit down with mentors and get unblocked
+- Save time for PD content and developing trainees professional skills along the way
+
+#### Handing off some curriculum rewrite stuff
+
+- Mitch will need to hand off some curriculum rewrite stuff
+- More details to come
+
+### ❗ Actions
+
+- [x] Go to West Midlands and try to figure out what is happening
+- [x] Report back
+- [x] Plan timings for discussions with trainees at the end of JS1
+- [x] Release the draft portfolio day plans - merge info from Daniel's presentation and in the rules
+
+---
+
 ## 2023-09-14
 
 Attendees: Sally, Mitch, Daniel, Ali
