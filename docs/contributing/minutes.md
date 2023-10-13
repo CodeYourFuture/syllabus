@@ -16,6 +16,129 @@ Attendees:
 
 ---
 
+## 2023-10-12
+
+Attendees: Ali, Mitch, Daniel
+
+### ❗Actions from last time
+
+- [ ] Everyone: keep coming up with project ideas
+- [ ] Mitch: Continue with JS2 rewrite
+- [ ] Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+#### Curriculum update
+
+- WM5
+  - At the moment there's a lag in the completion of coursework of JS1
+    - 87% for week 1, ...sorry missed this...% for week 2, 1% for week 3
+  - Gap in the knowledge of the volunteers
+    - Unsure how they can contribute
+    - This is from older & newer volunteers
+  - Don't see evidence of trainees using the time during the week
+- Why Mitch thinks this is happening
+  - Curriculum content is challenging
+  - Lack of polish because it's new and we've not had time to tidy up
+  - Over-assumed skills in reading docs
+  - Prep resources
+    - Text with exercises
+    - Overwhelming for trainees
+  - No real sense of energy in the classroom
+    - No conversations, not breaking up into small groups
+    - Nobody leading this
+  - WM transitioned to flipped classroom by themselves
+    - No context given through this transition
+    - Volunteers struggling to have context
+      - Taking away the whiteboard has lead to volunteers not really knowing what to do
+      - Ali has seen similar themes in London too
+  - Cohort founders would understand the essence of flipped classroom, but this doesn't seem to be happening
+    - Gap in leadership - feel that volunteers are looking to step back a bit
+  - Daniel: observed new volunteers turning up without knowing what to do
+    - Don't know a specific person to talk to (e.g. a program manager)
+- Daniel asks about class size, volunteers, etc
+  - 1 long standing volunteer, a bunch of new volunteers
+  - No official Program Manager for WM
+    - Have Matt semi-covering
+  - Had a projector screen, and everyone was sat looking at it
+  - Class size: 15
+- The good stuff
+  - Level of understanding of submitted PRs seems high
+    - Hopeful that better organisation will help boost this higher
+- Potential solutions
+  - Mitch is organising a classroom orientation
+    - Hoping that if we communicate the concepts better, then this will galvanise the cohort
+  - Mandatory "training" of cohort founders
+    - Learning as a community happens at the beginning but isn't repeated
+      - We could look at putting this in every week
+      - Reinforcing the message of collaboration
+      - Might need work alongside PD on this
+    - Daniel: Tech Ed team might need to be physically present as much as possible to guide the community
+  - Mitch: WM could do a volunteer standup while trainees are doing the energiser
+  - Presentation of prep work could be worked on
+    - Polish
+    - Recording sessions
+    - Daniel: could we make the prep page a carousel? To make it less intimidating
+
+#### Who is the course for?
+
+- Profile of trainees who know no JS at the start of the course
+  - Possible that we might be cutting these trainees out?
+  - Talked to a WM trainee in this boat - who was finding it very challenging
+- WM did less JS in the pre-work
+  - Unknown if covering more JS would have helped with this
+- Daniel: it's about trajectory not raising the bar
+  - Mentioned the mastery model - instead of raising the bar to start the course, ideally we could put multiple bars to clear before moving to the next topic
+    - However we don't have a clear solution to the organisational challenges to this
+
+#### JS3
+
+- Created a discussion for the JS3 threads: https://github.com/CodeYourFuture/curriculum/discussions/315
+- Daniel: the threads touch on mapping data to a render
+  - Q for Mitch: How far are we leaning into this concept in JS3?
+    - W1: Mapping static state to UI
+    - W2: Fetching state from server, then map to UI
+    - W3: ...sorry missed this...
+  - Q for Ali: could we steal a week of React to dig into the concept before introducing the React APIs?
+    - Historically only the highest skill trainees got the concepts of React based on the TV project - so it wasn't worth React discussing these concepts in context of React
+    - Would be open to discussing this
+    - We need to re-work React into 4 weeks anyway, so room for changes
+      - There is some tradeoffs to be made since we introduce the React API, but don't currently spend a lot of "class time" (because it also is pre-flipped classroom) on reinforcing/practicing React - so would like to add some of this if possible
+  - Daniel: dream is that the concepts of React (deriving UI from data, state) before they meet the API of React
+  - How could this be structured?
+    - Daniel: early in React module is focused on refactoring TV project into React-esque API (i.e. some `render` functions)
+    - Conclusion was that we probably can't fit it all into JS3, so can have the discussion about tradeoffs when we look at updating React
+- Mitch: moving to submarine mode, to finish up JS3
+  - Want to finish up the rewrite
+  - Want to switch to supporting WM
+
+#### Town Hall
+
+- How did it go? Anything changed how it went?
+  - Mitch: thought it was really clear, did a good job of communicating the urgency
+  - Lots of good follow-up
+  - Ali: general worry about tendency to focus on tenders, possibly over portfolio projects
+    - It's easy to focus on tenders because of the payment, but I think it would be worth emphasising that the primary goal is not the money, it's to put something that looks great on portfolios
+
+#### Getting JS2 over the line
+
+- Portfolio day plan has been released
+  - Mitch: want to get this merged asap, as want to reuse parts of this in JS2. Tickets: https://github.com/CodeYourFuture/curriculum/issues/321 & https://github.com/CodeYourFuture/curriculum/issues/319
+
+### ❗Actions
+
+- [ ] Mitch & Daniel to coordinate on visiting WM in person to support
+- [ ] Mitch: record the prep content for WM (deconstructing a JS1 section)
+- [ ] Everyone: pick up the JS2 tickets linked above (high priority)
+- [ ] Ali: read the JS3 threads discussion
+- [ ] (Carry-over) Everyone: keep coming up with project ideas
+- [ ] (Carry-over) Mitch: Continue with JS2 rewrite
+- [ ] (Carry-over) Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
 ## 2023-09-14
 
 Attendees: Sally, Mitch, Daniel, Ali
