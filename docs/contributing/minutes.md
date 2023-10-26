@@ -16,6 +16,50 @@ Attendees:
 
 ---
 
+## 2023-10-26
+
+Attendees: Daniel, Sally
+
+### ❗Actions from last time
+
+- [ ] Mitch & Daniel to coordinate on visiting WM in person to support
+- [ ] Mitch: record the prep content for WM (deconstructing a JS1 section)
+- [x] Everyone: pick up the JS2 tickets linked above (high priority)
+- [ ] Ali: read the JS3 threads discussion
+- [x] (Carry-over) Everyone: keep coming up with project ideas
+- [x] (Carry-over) Mitch: Continue with JS2 rewrite
+- [x] (Carry-over) Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+#### Curriculum rewrite
+
+* JS3: Mitch has been writing up tickets for people to pick up for JS3 rewrite.
+* Sally is going to copy over existing content from React and Node. We can still do significant work on it when people have bandwidth.
+
+#### Portfolios Module
+
+* Aiming to use as much of the London 10 projects track, and Fundamentals, as possible to do some projects.
+* Trying to introduce some structure and a plan - nothing required or prescriptive, but giving people something to build plans/schedules around.
+
+#### Parners
+
+* HYF Belgium would like to participate in syllabus team meetings - Anthony Meirlaen will start joining our meetings.
+* The UK has re-joined Horizon, which means we can EU funding again.
+* We're re-certified towards the UN Digital Public Good alliance, which means companies can count donations to us towards good things. Issues labelled as SDG4 will be promoted by GitHub for this.
+
+### ❗Actions
+
+- [ ] Mitch: Make sure to share out the JS3 rewrite tickets, and get people assigned.
+- [ ] Daniel: Try to write up some general ideas for the portfolio track into the curriculum.
+- [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
+- [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
+- [ ] Ali: (Carry-over) read the JS3 threads discussion
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
 ## 2023-10-12
 
 Attendees: Ali, Mitch, Daniel
