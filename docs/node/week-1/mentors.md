@@ -33,10 +33,6 @@ For general Syllabus feedback and help you can post in [cyf-syllabus](https://co
 
 ### London (24/06/2020)
 
-- Glitch and Codesandbox had issues
-  - Possible non starters.
-  - Didn't have reload button (code sandbox).
-  - Groups tended to just rely on the one trainee whose setup was working. or work locally.
 - Last exercise needs rework
   - Don't just return the data sent by user
   - "Why would you do this?"
