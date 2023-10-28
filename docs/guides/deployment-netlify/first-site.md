@@ -42,7 +42,18 @@ sidebar_label: Deploying Your First Site
 
 ![Choosing the branch to create your site from](./assets/first-site/09-choose-branch.png)
 
-12. Click the "Deploy site" button
-13. It make take a few minutes before the deploy is complete. Try refreshing your browser, when a `.netlify.app` URL appears then the site is live
+12. Set your settings to build the site. By default it will be build command `npm run build` and publish directory `build`. After that, Click the "Deploy site" button.
 
-![The site is live](./assets/first-site/10-site-is-live.png)
+![Choosing the build settings to create your site](./assets/first-site/10-choose-build-settings.png)
+
+13. It may take a few minutes before the deploy is complete.
+
+![The site is deploying](./assets/first-site/11-site-deploying.png)
+
+14. Once the site is deployed, a pop up will appear saying that the deploy was sucessful. Click on `View site deploy`.
+
+![The site is live](./assets/first-site/12-deploy-sucess.png)
+
+15. Click on the `.netlify.app` url to visit your site.
+
+![Visit the site](./assets/first-site/13-site-live.png)

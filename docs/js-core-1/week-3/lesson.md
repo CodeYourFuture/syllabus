@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 - [truthy and falsy](#truthy-and-falsy)
 - [undefined and null](#undefined)
 - [arrays](#arrays)
-- [PD - Developer thinking](#pd-developer-thinking)
+- [PD - Critical thinking](#pd-critical-thinking)
 
 ## Learning Objectives
 
@@ -362,11 +362,11 @@ for (let i = 0; i < 10; ++i) {
 
 For words like **Terminal**, **Primitive Types** please see [Glossary: JavaScript Core I - 2](../week-1/lesson.md#Glossary)
 
-## PD (Developer thinking)
+## PD (Critical thinking)
 
 **Session objective:** This session highlights the importance of critical thinking for developers, and provides methods to form good arguments.
 
-[Developer thinking slides](https://docs.google.com/presentation/d/1sVBqkY_6EldPf3q7jcp6NJbD3Hn53xHCgxtDx2iOO8M/edit#slide=id.g1fbc3b09af8_0_1)
+[Critical thinking slides](https://docs.google.com/presentation/d/1sVBqkY_6EldPf3q7jcp6NJbD3Hn53xHCgxtDx2iOO8M/edit#slide=id.g1fbc3b09af8_0_1)
 
 :::note Exercise (10 min)
 

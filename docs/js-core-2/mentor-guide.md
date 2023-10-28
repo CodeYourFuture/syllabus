@@ -176,7 +176,7 @@ have a think about if you could re-use a function from a previous example...
 
 ```js
 function sumDynamicWallets(walletArray) {
-  var grandTotal = 0; // could be `total`, renamed for clarity/to avoid confusion
+  let grandTotal = 0; // could be `total`, renamed for clarity/to avoid confusion
   walletArray.forEach(function (wallet) {
     grandTotal += sumDynamicWallet(wallet);
   });

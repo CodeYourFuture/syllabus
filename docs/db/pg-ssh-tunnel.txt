@@ -1,0 +1,22 @@
+To enable ssh tunelling from client to postgresql, use the following commands as directed:
+
+First, check that you can connect to the ubuntu_pg virtual machine using ssh (on Windows you can
+use the PuTTY program to do this).
+
+On the client machine (when using the ubuntu_pg VM this will be your host computer, e.g. Windows)
+
+   ssh -L 63333:localhost:5432 cyf@ubuntu_pg
+   
+You should be prompted for user cyf's password on ubuntu_pg and the command should then connect you
+to the VM as user cyf.  You must keep this connection open for the duration of your interactions
+with the database.  Once you have connected (in a different terminal session) to psql this session
+stays open even if you try to exit, until the psql session ends.
+
+In a new terminal session use the command:
+
+   psql -h localhost -p 63333 cyf_hotel cyf
+   
+to connect to your database on ubuntu_pg.  You will be asked for the database user's password
+(the user is cyf in the above command) and then connected to the database.  From here you can
+proceed normally.
+

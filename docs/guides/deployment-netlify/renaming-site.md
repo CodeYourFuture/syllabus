@@ -13,7 +13,7 @@ If you already have the site open in Netlify, you can skip the first few steps!
 :::
 
 1. Log into [Netlify](https://www.netlify.com/) (remember that you sign in using GitHub)
-2. On your Netlify dashboard, click "Sites" in the top navigation
+2. On your Netlify dashboard, click "Sites" in the left navigation
 
 ![Netlify dashboard](./assets/renaming-site/01-netlify-dashboard.png)
 

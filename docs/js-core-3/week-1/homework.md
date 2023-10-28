@@ -117,6 +117,10 @@ Find the Collection for JS-3 Week 1 on the CodeYourFuture account: https://www.c
 
 Remember to follow the channel rules. We don't give solutions in Codewars.
 
-## 7) Plan the TV Show Project (PD - 1 hr)
+## 7) Key learnings about difficult workplace conversations (PD - 2 hr)
 
-Come together with your buddy group and draft an initial project plan for the TV Show Project referring to the user stories produced during the class.
+Read the following materials about difficult workplace conversations. Write a 250-word essay about your key learnings from the PD session and these two articles.
+
+- [How To Have Difficult Conversations At Work](https://www.forbes.com/sites/ashiraprossack1/2018/10/28/how-to-have-difficult-conversations-at-work/?sh=49b0cee810b7)
+- [How to Have Difficult Conversations](https://www.psychologytoday.com/us/blog/some-assembly-required/201703/how-have-difficult-conversations)
+

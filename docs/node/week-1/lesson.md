@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 By the end of this lesson trainees should be able to:
 
 - Define what an API is used for
-- Use Glitch to deploy and edit `express` servers
+- Create `express` servers locally
 - Use `npm` to start a node server
 - Explain what `express` is and what it is used for
 - Use `express` to create an API that will accept a `GET` request that returns JSON
@@ -77,59 +77,74 @@ So what's the big deal? I can see this information on web sites already!
 
 What's an API and how is it different from a web site?
 
-## 2) Intro to Node on Glitch
+## 2) Introduction to Node
 
-### 2.1) Running a Simple Server
+### 2.1) Investigating a Simple Server
 
-Run the simplest web server code.
+Let's investigate a web server made in Node. You can check it out running here:
 
-We've made a really simple server about cats. You can check it out here:
-
-- [Source](https://glitch.com/~cyfcats)
-- [Live](https://cyfcats.glitch.me/)
+- [Source](https://glitch.com/edit/#!/cyf-simple-express)
+- [Live](https://cyf-simple-express.glitch.me/)
 
 :::note Teacher-Led Live Coding Example
 
 Let's inspect the different parts of the Node App and how Express works. Let's discuss
 
-- `require` on Line 1
-- `express()` on Line 2
-- `app.get()` on Line 10
-- `app.listen()` on Line 15
-- `response.sendFile()` on Line 6 and Line 7
+- `require` on Line 3
+- `express()` on Line 5
+- `app.get()` on Line 12, 26 and 20
+- `app.listen()` on Line 29
+- `response.send()` on Line 13 and Line 17
+- `response.json()` on Line 22
 
 Can we work out what each those lines are doing?
 
-:::
+:::note Note
 
-:::note Teacher-Led Live Coding Example
+Some examples here use [Glitch](https://glitch.com/), a fun code playground you might like to explore. We will learn about deploying Node applications and making them available for others, but we will use [Render](https://render.com/).
 
-As a class - try to make a simple express server.
+### 2.2) Running the Simple Server locally
 
-You can pick any theme you like but maybe try
+Fork and clone:  [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises).
 
-- The class' favorite foods
-- The class' favorite songs
-- or get ideas from the class!
+This repository contains multiple small projects, so enter the `cyf-simple-express` directory where we will be doing our work today.
 
-The server should have one endpoint. When you request the data from that endpoint it should give you the whole list of items that are stored in your node server.
+Once cloned we're going to use the **[Node Package Manager (npm)](https://www.npmjs.com/)** to setup the project using the **`npm install`** command.
 
-:::
+NPM is the place to go to download other Node code written by other people.
+There are thousands of open-source, 3rd-party Node modules (also known as
+_packages_) written by other people that you can download and use in your own projects.
 
-Now let's make a server ourselves from scratch...
+Run the following command in your terminal:
+
+```sh
+npm install
+```
+
+Once the prerequsities are installed you can now start the server by typing
+
+```sh
+npm start
+```
+
+Once it starts up you will be able to access your running API by going to
+
+```
+http://localhost:3000
+```
+
+### 2.3) Modifying the Simple Server
 
 :::note Exercise:
 
-Make your own node server on glitch
+Let's try to modify the `server.js` code above to do something different!
 
-All trainees should "remix" this one for a simple start: https://glitch.com/~cyf-simple-express
-Have them it read and modify it to do something different.
+Examples:
 
-1. Login to Glitch and ‘remix’ this project and rename to be yours
-2. e.g. say "Hello Miles", instead of "Hello Kash"
-3. Make it return an array of strings as json.
-4. Make it return the current time
-5. Advanced: make it return whatever you want! 3 minutes.
+1. Say "Hello Miles", instead of "Hello Kash"
+2. Make it return an array of strings as json.
+3. Make it return the current time
+4. Advanced: make it return whatever you want! 3 minutes.
 
 :::
 
@@ -145,22 +160,13 @@ Fork and clone the repo [https://github.com/CodeYourFuture/Node-Starter-Kit](htt
 
 It is an empty project that includes all the details you need to get started building your first Node App.
 
-### 3.2) Installing The Project
-
-We're going to use the **[Node Package Manager (npm)](https://www.npmjs.com/)** to
-setup the project using the **`npm install`** command.
-
-NPM is the place to go to download other Node code written by other people.
-There are thousands of open-source, 3rd-party Node modules (also known as
-_packages_) written by other people that you can download and use in your own projects.
-
-Run the following command in your terminal:
+Once cloned, make sure to run the following code to install all prerequisites.
 
 ```sh
 npm install
 ```
 
-### 3.3) Building the server
+### 3.2) Building the server
 
 The first thing we need to do is build our server. You will always need to build
 a server when writing back-end code. A server can be built in pure Node.js, but
@@ -249,7 +255,7 @@ Under the `scripts` property, add `start: node server.js`. We can now run our se
 
 Go to the terminal and type `npm start` and make sure that the server still runs.
 
-### 3.4) Communicating with the server
+### 3.3) Communicating with the server
 
 Now that we've built the server, we need to communicate with it. We are going to
 control the server with **handler functions**.

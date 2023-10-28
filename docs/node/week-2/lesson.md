@@ -128,9 +128,7 @@ The id should be given in the URL structure like this:
 
 > /quotes/242342
 
-You should use the starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-ids-start). This is because this project has quotes with IDs.
-
-When you remix the starting project, immediately rename it as your own.
+You should use the `cyf-quotes-id-start` project from [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises). This is because this project has quotes with IDs.
 
 :::
 
@@ -192,9 +190,7 @@ The route should use the HTTP method POST and should use the URL:
 
 > /quotes
 
-You should use the starting project: [cyf-quotes-post-start](https://glitch.com/~cyf-quotes-post-start), NOT your own existing quote server. This is because our project has an HTML form for creating new quotes.
-
-When you remix our starting project, immediately rename it.
+You should use the `cyf-quotes-post-start` project from [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises).  This is because this project has an HTML form for creating new quotes.
 
 Then you can visit / and submit the form there, when you are ready to try to submit new quotes!
 
@@ -285,9 +281,7 @@ The id should be given in the URL structure like this:
 
 You should use the `delete` HTTP method
 
-You should use this starting project: [cyf-quotes-id-start](https://glitch.com/~cyf-quotes-id-start), NOT your own existing quote server. This is because this project has quotes with IDs.
-
-When you remix the starting project, immediately rename it as your own.
+You should use the `cyf-quotes-id-start` project from [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises). This is because this project has quotes with IDs.
 
 :::
 
@@ -321,7 +315,7 @@ Can you work out how to remove an album using this code?
 **Exercise objective:** To identify feelings associated with being included in and excluded from a group
 
 Think about a time when you have experienced:
-- Being part of a group 
+- Being part of a group
 - Being excluded by a group
 
 Discuss as a class how it feels to be included and excluded.
