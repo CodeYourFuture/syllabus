@@ -1,4 +1,5 @@
 # [CodeYourFuture Syllabus](https://syllabus.codeyourfuture.io) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./contributing)
+## WE HAVE MOVED TO https://github.com/CodeYourFuture/curriculum/
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
