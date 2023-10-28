@@ -81,7 +81,7 @@ What's an API and how is it different from a web site?
 
 ### 2.1) Investigating a Simple Server
 
-Let's investigate a really simple web server made in Node. You can check it out running here:
+Let's investigate a web server made in Node. You can check it out running here:
 
 - [Source](https://glitch.com/edit/#!/cyf-simple-express)
 - [Live](https://cyf-simple-express.glitch.me/)
