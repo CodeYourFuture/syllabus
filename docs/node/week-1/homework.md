@@ -10,7 +10,7 @@ sidebar_label: Coursework
 
 Think carefully and try to answer the following questions:
 
-⏰ Don't spend longer than 30 minutes on this exercise  
+⏰ Don't spend longer than 30 minutes on this exercise
 📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
 
 a) **Define** an interface? (Think about the answer in multiple contexts, including programming )
@@ -19,16 +19,16 @@ b) **Explain** why do we need to use an interface in programming? (Advanced)
 
 c)
 
-i) **List** 3 things that are part of the NodeJS API  
- ii) **List** 3 things that are part of the Jest API  
- iii) **List** 3 things that are part of the Spotify API  
+i) **List** 3 things that are part of the NodeJS API
+ ii) **List** 3 things that are part of the Jest API
+ iii) **List** 3 things that are part of the Spotify API
  iv) **Explain** why Jest is _not_ a web-based API and why Spotify is a web-based API.
 
 Submit your responses by responding on the Google Classroom assignment entitled "Prepare for Saturday's class". Verify your answers using discussions on Slack if you're struggling to answer these questions.
 
 ### Exercise 1.2
 
-⏰ Don't spend longer than 20 minutes on this exercise  
+⏰ Don't spend longer than 20 minutes on this exercise
 📝 Make a note of any questions you've struggled to answer - raise these on Slack before Saturday's session
 
 Pick a couple of the APIs below and experiment with them, modify the requests, report your findings.
@@ -51,7 +51,7 @@ Pick a couple of the APIs below and experiment with them, modify the requests, r
 
 ### Exercise 2.1
 
-⏰ Aim to spend around 1 hour on this exercise  
+⏰ Aim to spend around 1 hour on this exercise
 📝 Remember to get support/guidance on Slack if you're blocked with this activity
 
 a) Complete steps 3.1, 3.2 and 3.3 from the **3) Make a Node API** section of the syllabus notes found here 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
@@ -62,7 +62,7 @@ b) Once you've set up your server in part a), then complete read and complete th
 
 ### Exercise 3.1
 
-⏰ Aim to spend around 1 hour on this exercise  
+⏰ Aim to spend around 1 hour on this exercise
 📝 Remember to get support/guidance on Slack if you're blocked with this activity
 
 Read and complete sections 3.4) and 3.5) from the syllabus notes 👉 https://syllabus.codeyourfuture.io/node/week-1/lesson
@@ -112,14 +112,14 @@ Did you get different answers to other people? Ask them how they worked them out
 
 Take a look at this repository:
 
-https://github.com/CodeYourFuture/node-challenge-quote-server
+https://github.com/CodeYourFuture/Module-Node
 
-In that folder you will find a task to create a Quote Server.
+In there you fill find the [Quote Server](https://github.com/CodeYourFuture/Module-Node/tree/main/quote-server) folder. The task is to create a Quote Server.
 
 To complete the coursework you should:
 
 1. Fork the repository
-2. Complete the tasks
+2. Go into `quote-server` folder and complete the tasks
 3. Create a pull request back to the original repository
 
 ## 4) Prepare a Presentation (1 hour)
@@ -144,7 +144,7 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 
 ## 6) Challenges (Stretch)
 
-https://github.com/CodeYourFuture/cyf-node-challenges
+[Mailing List Server](https://github.com/CodeYourFuture/Module-Node/tree/main/mailing-list-api)
 
 ## 7) Brag Diary (PD - 30 min)
 

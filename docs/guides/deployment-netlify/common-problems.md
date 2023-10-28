@@ -17,3 +17,8 @@ sidebar_label: Common Problems
 ## The site is using the wrong repo or wrong GitHub account
 
 - Delete & recreate your site.
+
+## The site is failing to deploy due to submodule not found
+
+- This usually happens after running create-react-app on an exisiting react app folder.
+- You will find a subfolder inside the repository with the same name as the repository. If the subfolder is empty, delete it and push your changes.
