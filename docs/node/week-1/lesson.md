@@ -101,7 +101,7 @@ Can we work out what each those lines are doing?
 
 :::note Note
 
-In the example below the example server had been made avialable on the Internet for everyone to see and access - similar to how we used Netlify in the past to make our React applications available for others to use. Netlify does not support Node applications so another service Glitch has been used in the example above. We will learn about deploying Node applications and making them available for others to use during Week 3 of the module.
+Some examples here use [Glitch](https://glitch.com/), a fun code playground you might like to explore. We will learn about deploying Node applications and making them available for others, but we will use [Render](https://render.com/).
 
 ### 2.2) Running the Simple Server locally
 
