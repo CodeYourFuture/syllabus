@@ -404,9 +404,9 @@ CSS also uses measurement units like these.
 
 There are two types of units: absolute and relative units.
 
-- Absolute units are always the same size, even when the user zooms in on the browser.
-- Relative units are based on the size of something else, such as the font size or viewport size.
-  When the user zooms in the browser, elements using relative units will increase in size too.
+- Absolute units represent the same size regardless of the size of parent HTML elements or of the viewport
+(i.e. the visible area of the browser).
+- Relative units are based on the size of something else, such as of parent HTML elements or of the viewport.
 
 The following table contains some of the most commonly used CSS units.
 
@@ -415,30 +415,35 @@ The following table contains some of the most commonly used CSS units.
   <thead>
     <tr>
       <th>Unit</th>
+      <th>Name</th>
       <th>Relative or absolute</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><code>px</code></td>
+      <td>pixel</td>
+      <td>Absolute</td>
+      <td>This used to refer to real physical pixels on screens, but on modern devices with high resolution displays one CSS pixel is usually rendered using a whole multiple of real pixels.</td>
+    </tr>
+    <tr>
       <td><code>rem</code></td>
+      <td>rem</td>
       <td>Relative</td>
-      <td>1rem is equal to the font size of the root element. If the root font size is 16px, then 1rem = 16px and 0.5rem = 8px</td>
+      <td><code>1rem</code> is equal to the font size of the root element. If the root font size is <code>16px</code>, then <code>1rem</code> = <code>16px</code> and <code>0.5rem</code> = <code>8px</code></td>
     </tr>
     <tr>
       <td><code>em</code></td>
+      <td>em</td>
       <td>Relative</td>
-      <td>1em is equal to the font size of the parent element. If the parent font size is 16px, then 1em = 16px and 0.5em = 8px</td>
+      <td><code>1em</code> is equal to the font size of the parent element. If the parent font size is <code>16px</code>, then <code>1em</code> = <code>16px</code> and <code>0.5em</code> = <code>8px</code></td>
     </tr>
     <tr>
       <td><code>%</code></td>
+      <td>percent</td>
       <td>Relative</td>
-      <td>100% is equal to the full width or height of the parent element</td>
-    </tr>
-    <tr>
-      <td><code>px</code></td>
-      <td>Absolute</td>
-      <td>1px is 1/96th of 1 inch</td>
+      <td><code>100%</code> is equal to the full width or height of the parent element</td>
     </tr>
   </tbody>
 </table>
