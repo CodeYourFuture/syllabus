@@ -8,18 +8,19 @@ sidebar_label: Coursework
 
 We've hosted some Servers on Glitch but they're not quite working properly. Could you fix them for us?
 
-- https://glitch.com/~debugging-practice1
-- https://glitch.com/~debugging-practice2
-- https://glitch.com/~debugging-practice3
-- https://glitch.com/~debugging-practice4
+- https://glitch.com/edit/#!/debugging-practice1
+- https://glitch.com/edit/#!/debugging-practice2
+- https://glitch.com/edit/#!/debugging-practice3
+- https://glitch.com/edit/#!/debugging-practice4
 
-### Start by remixing our example server
+### Set up the examples above locally
 
-- [ ] Make sure you're logged in to https://glitch.com/
-- [ ] Remix each example
-- [ ] Name your new server `yourname` + NAME_OF_EXERCISE
-- [ ] Check that it is working by making a request to `/`
+- [ ] Have the [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises) project forked and cloned.
+- [ ] Create a new branch named `yourname` + NAME_OF_EXERCISE
+- [ ] Make sure to edit the appropriate project from the cloned repository.
+- [ ] Start up your server, then check that it is working by making a request to `/`
 - [ ] Fix the code on your version of the server
+- [ ] Create a PR with your solution back in GitHub. Make sure you name your PR `yourname` + NAME_OF_EXERCISE
 
 ## 2) Chat Server API Project (12 Hours+) 🔑
 
