@@ -11,7 +11,7 @@ import Feedback from "@theme/Feedback";
 By the end of this lesson trainees should be able to:
 
 - Define what an API is used for
-- Create simple `express` servers locally
+- Create `express` servers locally
 - Use `npm` to start a node server
 - Explain what `express` is and what it is used for
 - Use `express` to create an API that will accept a `GET` request that returns JSON
