@@ -17,6 +17,7 @@ Make sure you complete it before attending class.
 | [Week 1](./week-1/lesson.md) | Node, Express workshop |
 | [Week 2](./week-2/lesson.md) | Templating             |
 | [Week 3](./week-3/lesson.md) | Node Best Practices    |
+| [Week 4](./week-4/lesson.md) |     |
 
 ## Coordination
 

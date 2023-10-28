@@ -5,7 +5,7 @@ sidebar_label: Deploying Another Site
 ---
 
 1. Log into [Netlify](https://www.netlify.com/) (remember that you sign in using GitHub)
-2. On your Netlify dashboard, click "Sites" in the top navigation
+2. On your Netlify dashboard, click "Sites" in the left navigation
 
 ![Netlify dashboard](./assets/another-site/01-netlify-dashboard.png)
 
@@ -21,13 +21,22 @@ sidebar_label: Deploying Another Site
 
 ![Choosing the GitHub repo to create your site from](./assets/another-site/04-choose-repo.png)
 
-6. Under "Branch to deploy" choose the "main" branch of your repo, which is usually called `main`. You do **not** need to change anything under "Basic build settings", Netlify will do this for you
+6. Under "Branch to deploy" choose the "main" branch of your repo, which is usually called `main`. You do not need to change anything under "Customize build settings", Netlify will do this for you
 
-![Choosing a branch to create your site from](./assets/another-site/05-choose-branch.png)
+![Choosing the branch to create your site from](./assets/another-site/05-choose-branch.png)
 
-7. Click the "Deploy site" button
-8. It make take a few minutes before the deploy is complete. Try refreshing your browser, when a `.netlify.app` URL appears then the site is live
+7. Set your settings to build the site. By default it will be build command `npm run build` and publish directory `build`. After that, Click the "Deploy site" button.
 
-<!-- 06-site-is-live.png -->
+![Choosing the build settings to create your site](./assets/another-site/06-choose-build-settings.png)
 
-![The site is live](./assets/another-site/06-site-is-live.png)
+8. It may take a few minutes before the deploy is complete.
+
+![The site is deploying](./assets/another-site/07-site-deploying.png)
+
+9. Once the site is deployed, a pop up will appear saying that the deploy was sucessful. Click on `View site deploy`.
+
+![The site is live](./assets/another-site/08-deploy-sucess.png)
+
+10. Click on the `.netlify.app` url to visit your site.
+
+![Visit the site](./assets/another-site/09-site-live.png)

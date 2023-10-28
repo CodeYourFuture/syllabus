@@ -4,6 +4,889 @@ title: Global Syllabus Team Minutes
 sidebar_label: Team Minutes
 ---
 
+## {DATE_HERE}
+
+Attendees:
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+### ❗Actions
+
+---
+
+## 2023-10-26
+
+Attendees: Daniel, Sally
+
+### ❗Actions from last time
+
+- [ ] Mitch & Daniel to coordinate on visiting WM in person to support
+- [ ] Mitch: record the prep content for WM (deconstructing a JS1 section)
+- [x] Everyone: pick up the JS2 tickets linked above (high priority)
+- [ ] Ali: read the JS3 threads discussion
+- [x] (Carry-over) Everyone: keep coming up with project ideas
+- [x] (Carry-over) Mitch: Continue with JS2 rewrite
+- [x] (Carry-over) Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+#### Curriculum rewrite
+
+* JS3: Mitch has been writing up tickets for people to pick up for JS3 rewrite.
+* Sally is going to copy over existing content from React and Node. We can still do significant work on it when people have bandwidth.
+
+#### Portfolios Module
+
+* Aiming to use as much of the London 10 projects track, and Fundamentals, as possible to do some projects.
+* Trying to introduce some structure and a plan - nothing required or prescriptive, but giving people something to build plans/schedules around.
+
+#### Parners
+
+* HYF Belgium would like to participate in syllabus team meetings - Anthony Meirlaen will start joining our meetings.
+* The UK has re-joined Horizon, which means we can EU funding again.
+* We're re-certified towards the UN Digital Public Good alliance, which means companies can count donations to us towards good things. Issues labelled as SDG4 will be promoted by GitHub for this.
+
+### ❗Actions
+
+- [ ] Mitch: Make sure to share out the JS3 rewrite tickets, and get people assigned.
+- [ ] Daniel: Try to write up some general ideas for the portfolio track into the curriculum.
+- [ ] Mitch & Daniel (Carry-over): to coordinate on visiting WM in person to support
+- [ ] Mitch: (Carry-over) record the prep content for WM (deconstructing a JS1 section)
+- [ ] Ali: (Carry-over) read the JS3 threads discussion
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
+## 2023-10-12
+
+Attendees: Ali, Mitch, Daniel
+
+### ❗Actions from last time
+
+- [ ] Everyone: keep coming up with project ideas
+- [ ] Mitch: Continue with JS2 rewrite
+- [ ] Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+### 📝 Agenda points
+
+#### Curriculum update
+
+- WM5
+  - At the moment there's a lag in the completion of coursework of JS1
+    - 87% for week 1, ...sorry missed this...% for week 2, 1% for week 3
+  - Gap in the knowledge of the volunteers
+    - Unsure how they can contribute
+    - This is from older & newer volunteers
+  - Don't see evidence of trainees using the time during the week
+- Why Mitch thinks this is happening
+  - Curriculum content is challenging
+  - Lack of polish because it's new and we've not had time to tidy up
+  - Over-assumed skills in reading docs
+  - Prep resources
+    - Text with exercises
+    - Overwhelming for trainees
+  - No real sense of energy in the classroom
+    - No conversations, not breaking up into small groups
+    - Nobody leading this
+  - WM transitioned to flipped classroom by themselves
+    - No context given through this transition
+    - Volunteers struggling to have context
+      - Taking away the whiteboard has lead to volunteers not really knowing what to do
+      - Ali has seen similar themes in London too
+  - Cohort founders would understand the essence of flipped classroom, but this doesn't seem to be happening
+    - Gap in leadership - feel that volunteers are looking to step back a bit
+  - Daniel: observed new volunteers turning up without knowing what to do
+    - Don't know a specific person to talk to (e.g. a program manager)
+- Daniel asks about class size, volunteers, etc
+  - 1 long standing volunteer, a bunch of new volunteers
+  - No official Program Manager for WM
+    - Have Matt semi-covering
+  - Had a projector screen, and everyone was sat looking at it
+  - Class size: 15
+- The good stuff
+  - Level of understanding of submitted PRs seems high
+    - Hopeful that better organisation will help boost this higher
+- Potential solutions
+  - Mitch is organising a classroom orientation
+    - Hoping that if we communicate the concepts better, then this will galvanise the cohort
+  - Mandatory "training" of cohort founders
+    - Learning as a community happens at the beginning but isn't repeated
+      - We could look at putting this in every week
+      - Reinforcing the message of collaboration
+      - Might need work alongside PD on this
+    - Daniel: Tech Ed team might need to be physically present as much as possible to guide the community
+  - Mitch: WM could do a volunteer standup while trainees are doing the energiser
+  - Presentation of prep work could be worked on
+    - Polish
+    - Recording sessions
+    - Daniel: could we make the prep page a carousel? To make it less intimidating
+
+#### Who is the course for?
+
+- Profile of trainees who know no JS at the start of the course
+  - Possible that we might be cutting these trainees out?
+  - Talked to a WM trainee in this boat - who was finding it very challenging
+- WM did less JS in the pre-work
+  - Unknown if covering more JS would have helped with this
+- Daniel: it's about trajectory not raising the bar
+  - Mentioned the mastery model - instead of raising the bar to start the course, ideally we could put multiple bars to clear before moving to the next topic
+    - However we don't have a clear solution to the organisational challenges to this
+
+#### JS3
+
+- Created a discussion for the JS3 threads: https://github.com/CodeYourFuture/curriculum/discussions/315
+- Daniel: the threads touch on mapping data to a render
+  - Q for Mitch: How far are we leaning into this concept in JS3?
+    - W1: Mapping static state to UI
+    - W2: Fetching state from server, then map to UI
+    - W3: ...sorry missed this...
+  - Q for Ali: could we steal a week of React to dig into the concept before introducing the React APIs?
+    - Historically only the highest skill trainees got the concepts of React based on the TV project - so it wasn't worth React discussing these concepts in context of React
+    - Would be open to discussing this
+    - We need to re-work React into 4 weeks anyway, so room for changes
+      - There is some tradeoffs to be made since we introduce the React API, but don't currently spend a lot of "class time" (because it also is pre-flipped classroom) on reinforcing/practicing React - so would like to add some of this if possible
+  - Daniel: dream is that the concepts of React (deriving UI from data, state) before they meet the API of React
+  - How could this be structured?
+    - Daniel: early in React module is focused on refactoring TV project into React-esque API (i.e. some `render` functions)
+    - Conclusion was that we probably can't fit it all into JS3, so can have the discussion about tradeoffs when we look at updating React
+- Mitch: moving to submarine mode, to finish up JS3
+  - Want to finish up the rewrite
+  - Want to switch to supporting WM
+
+#### Town Hall
+
+- How did it go? Anything changed how it went?
+  - Mitch: thought it was really clear, did a good job of communicating the urgency
+  - Lots of good follow-up
+  - Ali: general worry about tendency to focus on tenders, possibly over portfolio projects
+    - It's easy to focus on tenders because of the payment, but I think it would be worth emphasising that the primary goal is not the money, it's to put something that looks great on portfolios
+
+#### Getting JS2 over the line
+
+- Portfolio day plan has been released
+  - Mitch: want to get this merged asap, as want to reuse parts of this in JS2. Tickets: https://github.com/CodeYourFuture/curriculum/issues/321 & https://github.com/CodeYourFuture/curriculum/issues/319
+
+### ❗Actions
+
+- [ ] Mitch & Daniel to coordinate on visiting WM in person to support
+- [ ] Mitch: record the prep content for WM (deconstructing a JS1 section)
+- [ ] Everyone: pick up the JS2 tickets linked above (high priority)
+- [ ] Ali: read the JS3 threads discussion
+- [ ] (Carry-over) Everyone: keep coming up with project ideas
+- [ ] (Carry-over) Mitch: Continue with JS2 rewrite
+- [ ] (Carry-over) Everyone: Continue reviewing rewrite PRs
+- [ ] Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
+## 2023-09-14
+
+Attendees: Sally, Mitch, Daniel, Ali
+
+### ❗Actions from last time
+
+- [x] Everyone: keep coming up with project ideas
+- [ ] Mitch: Draft out "project day-plan" (issue)
+- [x] Mitch: Review Sally's blockData PR asap
+- [x] Daniel: (Carry-over) give feedback to Berkeli on coursework clone button
+- Daniel?: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps.
+
+### 📝 Agenda points
+
+#### Actions from last time
+
+- Projects
+  - What's the final form? Throw them in the google drive folder
+- Clone issues work from Berkeli
+  - Daniel has been reviewing, it's very close
+  - Needs to check that there's some error handling
+
+#### JS1 Update
+
+- Sally & Mitch have got JS1 over the line today! 🎉
+  - Prep, workshops, day plans
+- Biggest change: testing now built in from the start
+  - Coursework has been updated to reflect that
+  - Sally raised some objections - wanted to get some feedback on their PRs
+    - Solution: reject if the PR is empty, linting fails, checking for presence of `console.assert`. If these fail, then set the PR to draft & post a comment to explain
+    - Aside: Ali recently learned that Node 20 has a built-in test runner, so we could potentially run tests without installing a library. However it might not be a bad thing to get trainees familiar with industry-standard
+- Previously trainees were skimming through week 1 as there was so much content. Now we're going deeper thanks to the rewrite, there's more trainees that will feel the limits of their understanding
+
+#### WM5
+
+- Sally: some issues
+  - Zero code reviews are being done by mentors on the module repo
+  - The work that is being submitted is brilliant, but 1/3 of the class have submitted nothing
+
+#### Speaking to new cohorts
+
+- Mitch running Learning as Community workshop for NW6
+  - What tone do we want to set?
+    - We want to be honest (both about the job market and our/their conduct in the course)
+    - Regarding the job market, we don't want to freak people out, but we want to be honest
+  - We are looking 1 year ahead, so the market may change by the time they're looking
+  - Trainees are going to hear discussion of the job market regardless of whether we address it or not
+  - We can talk about the ways in which our community can do better in this environment than paid bootcamps
+    - We already have no money!
+    - We lean on the community to help each other out
+
+#### Review priorities
+
+- Lots of things to review - what should we look at first?
+  - Daniel will have a reasonable amount of time for reviews
+- Sally: WM5 is doing Week 4 of HTML, so we need to have JS1 completely tied up. The next cohort to start is NW6, doing induction on Sat 16th
+- Sally is initialising the DB module, but wants Keith & co to work on the actual content
+
+#### Module Project
+
+- HTML module project
+  - Karma clone - get given a website, trainees have to make a "perfect" clone of it
+  - Following weeks trainees have to build new features onto this website
+  - Daniel's critique: in fundamentals we have set of Plan / Build / Test / Ship over each week - shouldn't we deploy in week 1?
+    - Sally: we should be doing a version of Plan / Build / Test / Ship every week
+    - Daniel really likes the "Levels" context: you have to complete e.g. Level 100 tasks (and deploy) before moving to Level 200
+- Our project doesn't quite work for it
+
+#### Helping prepare for Town Hall
+
+- Town hall to discuss the state of employment/CYF likely scheduled for next week sometime
+- Is there anything we can do to help prepare
+  - Staff preparing slides
+  - Talk to volunteers to prepare them for shift in focus, get buy-in
+
+### ❗Actions
+
+- Everyone: keep coming up with project ideas
+- Mitch: Continue with JS2 rewrite
+- Everyone: Continue reviewing rewrite PRs
+- Daniel: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps
+
+---
+
+## 2023-08-31
+
+Attendees: Sally, Ali, Daniel, Mitch
+
+### ❗Actions from last time
+
+- [x] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [x] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [x] Ali: open a ticket to discuss branching strategies across the course
+- [x] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+- [x] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material (issue)
+- [x] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers (issue)
+- [x] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [x] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [x] Mitch (Carry-over): Merge feedback for JS1 rewrites (Issue)
+- [x] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules... (Issue)
+- [x] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [x] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [x] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF. (Issue)
+
+---
+
+### 📝 Agenda points
+
+#### Re-write progress
+
+JS1 Week 1 merged
+JS1 Week 2 merged
+JS1 Week 3 awaiting merge
+JS1 Week 4 awaiting review & copy edits
+JS2 Week 1 awaiting review & copy edits
+JS2 Week 2 in draft - being prepped for review
+JS2 Week 3 in draft - being prepped for review
+JS2 Week 4 - going to be a mini-project week (no prep content)
+
+Mitch to spend time in next sprint on:
+
+- finishing final weeks of prep content for JS2
+- finishing new exercises and challenges for JS1
+- finishing workshops for JS1 module
+
+Please keep on providing marvellous feedback
+
+#### Discussion around adding consolidation weeks
+
+Sally:
+
+- Currently a big diff in process across regions
+- WM have consolidation weeks
+- NW had a consolidation week once
+- Need to let regions know they're empowered to do it
+- WM has least flexibility for running consolidation weeks
+
+Ali:
+
+- Trade off between consolidation and momentum
+- Need to make this trade-off clear to the tech-ed volunteers
+- Need to avoid heroic efforts and adding unncessary extra time to the course
+
+Mitch:
+
+- Keep communicating: you won't understand everything all the time
+
+Re LDN10:
+
+- Some people who still haven't understood the stuff
+- Arrange some sessions with these people
+- Need training around pairing with people and checking their work
+
+Re assessments:
+
+- No-one using the one-2-one assessments that Chris made
+- Codility fine for automated assessments
+- Introduce consequences for results?
+- Set aside time to pair with the trainees in buddy groups
+- Learning as a community - Mitch and Ali to pick up this discussion. Where do we want to go?
+
+#### Employment woes
+
+Context:
+
+- Junior dev market has cratered!
+- Code schools are going bust!
+- E.g. Outcomes have gone from 90% to 10% in NW - huge drop-off
+- NW graduated in March and have had very little success in finding jobs
+- Hiring freezes may last for another six months
+- A lot of tech-ed people just beginning to grasp the reality of the situation
+- Messaging to come out in the next few days re employment strategy in current environment
+
+Re Navigating the employment situation:
+
+- Sit down in small groups and build projects!
+- Keep grads together and running Saturday classes for grads so they end up in better shape
+- Hiring grads to work on projects
+- Sally has started a list of small-scale specced projects
+- Keep speccing projects!
+- day-plan for project day - Mitch to come up with tentative design in next sprint
+- People will need project ideas otherwise they'll do nothing
+
+Other strategies:
+
+- Hacktoberfest could be done as a guild
+- Motivating people: some kind of event for getting people to do something
+
+Re pause on ITD:
+
+- ITD _won't_ be launched until 50% of the grads are in jobs
+- > 800 people waiting for ITD in LDN
+- Send useful things for waiting ITD candidates before coming on the course
+- Completion rate is 1 in 10 for LDN10 - need to be honest with people about their chances of getting on the course
+
+### ❗Actions
+
+- [ ] Everyone: keep coming up with project ideas
+- [ ] Mitch: Draft out "project day-plan" (issue)
+- [x] Mitch: Review Sally's `blockData` PR asap
+- [ ] Ali?: (Carry-over) give feedback to Berkeli on coursework clone button
+- [ ] Daniel?: (Carry-over) Look through the MigraCode curriculum and understand strengths and gaps.
+
+---
+
+## 2023-08-17
+
+Attendees: Ali, Sally, Greg, Mitch
+
+### ❗Actions from last time
+
+- [x] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [x] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [x] Ali: open a ticket to discuss branching strategies across the course
+- [x] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+
+- [x] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [x] Mitch (Carry-over): Merge feedback for JS1 rewrites
+- [x] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules...
+- [x] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [x] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+### 📝 Agenda points
+
+#### Curriculum rewrite update
+
+Mitch:
+
+- Lots of rigorous, useful feedback. Thanks!
+- JS1 week 1 is done
+- JS1 week 2 soon to come
+- Soon have about half the prep released/ready for review
+  - Support with someone else for video
+- Matching exercise rewrites where necessary
+
+#### WM doing html/css week 1
+
+Lots of incredibly positive aspects:
+
+- Correctly formed PRs
+- Formatted code
+- Visibly high quality work
+- Reviewing each others' PRs
+
+#### Building COP around flipped classroom
+
+- Would be good if Ali could observe one of Mitch's intro sessions so he's able to deliver in LDN
+
+### ❗Actions
+
+- [ ] Ali (carry over): give feedback to Berkeli on coursework clone button
+- [ ] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers
+- [ ] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+## 2023-08-03
+
+Attendees: Ali, Sally, Carlos
+
+### ❗Actions from last time
+
+- [ ] Mitch & Issar: Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar: Discuss training resources for Migracode volunteers
+- [ ] Ali: Look into possibility of banner on old syllabus content during trial of new curriculum content
+  - Decided to skip this - the only classes still using the old syllabus are near completion, so will probably be simpler to just wait it out (and then set up a redirect)
+- [x] Ali: Review Git Content?
+- [ ] Daniel: Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch: Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch: Merge feedback for JS1 rewrites
+- [ ] Mitch: Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch: Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Carlos (Carry-over): Look through the existing CYF curriculum and understand strengths and gaps.
+  - Carlos wants to focus on the new curriculum content as it's now more relevant, so will drop this
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+  - Sally to follow up on this later, possible holidays etc are interfering :)
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+### 📝 Agenda points
+
+#### Publishing deadlines for new curriculum
+
+- NW are starting soon
+- Sally has set dates for publication dates
+  - Sally [published the dates on Slack](https://codeyourfuture.slack.com/archives/C012UUW69S8/p1691089169584079?thread_ts=1691089163.660329&cid=C012UUW69S8), and pinned to channel
+- General policy: if you don't have time to review before the deadlines, then merge and folks can open changes as a follow up PR
+
+#### Learning as a community
+
+- Recap for Carlos
+- Teachers & trainees will have a workshop together
+  - "How do you learn at CYF" philosophy
+- Goals
+  - Avoid divisions between trainees & teachers
+  - Empower advanced trainees to be teachers, setting them up for success - learn how to be teachers
+  - Reframing teaching in the community
+    - Example: trainees "giving away answers" to other trainees - hopefully nip this in the bud at the start
+- How do we handle volunteers who join part way through the course?
+  - Sally: experienced trainees could run a refresher course?
+
+#### Coursework copy button
+
+- [PR now open](https://github.com/CodeYourFuture/curriculum/pull/182)
+- Action: ask Berkeli to merge v1 (when he gets back from holiday)
+- Ali still needs to give some feedback (mostly to cut down on the ops complexity), but thinks that it's best to ship what we have and fix later
+
+#### Git branching
+
+- How do we handle branches for multiple weeks
+  - We cover how to branch `week-1` but what should they do for `week-2` branch?
+- We can teach multiple branching strategies, but what do we teach first?
+- [This coursework issue in HTML/CSS](https://github.com/CodeYourFuture/Module-HTML-CSS/issues/13) tells them to create a new branch for each project - so introducing multiple branches early on
+  - Sally: please make sure that the instructions are clear in these tickets
+- We need to think about what branching strategies are taught and when they are introduced
+- Action: open a ticket to discuss branching strategies across the course
+
+#### Full stack assessment
+
+- Sally: worried that it isn't suitable and is actively sabotaging the final projects
+- The general structure of the existing work: build the whole frontend first, then the whole backend
+- This causes some issues:
+  - Trainees build a lot of "useless" stuff like headers/footers, and not focusing on the main functionality
+  - There's no thinking about the users/Product aspect - i.e. trainees aren't thinking about the problem are we attempting to solve
+  - Not prioritising completing a feature and instead building out half of many features
+- Suggested solution: reframe the exercise to "slice" it so that trainees focus on completing end-to-end features, instead of frontend/backend. Hopefully this shouldn't be too difficult, as the underlying content should be ok
+- We should fix this before the next cohort gets to it
+- Action: open a ticket to reframe the assessment around completing end-to-end features
+
+#### Pathways
+
+- Something that LDN10 are doing
+  - See [slides](https://docs.google.com/presentation/d/1Ydv04i27o3OJpEdB2oQ_ZUF-TpjgTIKLV1rjlj0lsRk/edit#slide=id.g720190f409_2_1)
+  - Summary: 5 additional weeks at the end of the course, trainees get to choose which from 5 possible modules (cloud, devops, QA, Product, Data)
+- The LDN10 pathways project is after the full course has finished, but historically we have had variations on the latter half of the course (i.e. something instead of React/Node/Databases)
+  - In London, usually after the React module. But we think it should be after JS3
+  - If we follow the historical route, how do we integrate other courses/modules into the main course?
+- How far do we want to go towards letting cohorts decide how to run this part of the course?
+  - Probably quite a lot: we don't have a lot of "control" over it!
+  - But we do think that we should have an opinion on how to approach it
+- Should trainees have a choice in what path they choose?
+  - If so, how do we structure the course so that they can make a successful choice (that they would enjoy)
+  - And how do we prevent e.g. sexism influencing choices?
+- These are big questions and we didn't really have any answers for them at the moment
+  - So probable next steps are for us to start thinking about this
+  - We should also try to gather data on what is working / what isn't working and needs to be employability driven
+- Should we invite volunteers working on alternative curriculums to join the team so we can discuss?
+
+#### Sprint planning
+
+- Not all of the tickets were on the planning board, but should be now
+- Lots of PRs were in the Backlog column - please could you move them to the appropriate place?
+
+### ❗Actions
+
+- [ ] Sally: Ask Berkeli to merge v1 (when he gets back from holiday)
+- [ ] Ali: give feedback to Berkeli on coursework clone button
+- [ ] Ali: open a ticket to handle images in "remote" repos configured with relative links
+- [ ] Ali: open a ticket to discuss branching strategies across the course
+- [ ] Ali: open a ticket to reframe the full stack assessment around completing end-to-end features
+- [ ] Mitch & Issar (Carry-over): Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar (Carry-over): Discuss training resources for Migracode volunteers
+- [ ] Daniel (Carry-over): Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch (Carry-over): Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch (Carry-over): Merge feedback for JS1 rewrites
+- [ ] Mitch (Carry-over): Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch (Carry-over): Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Sally (Carry-over): Follow up on Karo + Ali's syncing up.
+- [ ] Mitch (Carry-over): Get more video content made shared with MigraCode from CYF.
+
+---
+
+## 20-07-2023
+
+Attendees: Ali, Daniel, Issar, Mitch
+
+### ❗Actions from last time
+
+- [x] Mitch: Put together a proposal for JS2 threads.
+
+### 📝 Agenda points
+
+#### SDC launch day & Git workshop day 1
+
+- Mitch is currently rewriting some of the content for Git week 1: committing, forking, branching, pull requests. All the changed components are collected here [Rewrite for Git day 1](https://github.com/CodeYourFuture/curriculum/issues/181)
+
+#### Learning as a community workshop
+
+- Mitch is working on a workshop for the launch of SDC around Learning as a community.
+  The focus of the workshop will be as follows:
+  - educational philosophy at CYF
+  - independent learning, problem-solving with the community
+  - how the curriculum is structured and why it is structured the way it is
+  - how do we use the time in classes to overcome blockers and difficulties
+- the workshop will propose questions, discussions and activities to help people focus on these points. It won't be a lecture.
+- This workshop won't be teacher training: it will involve the whole community of volunteers and trainees
+- Encouraging folks to talk through about their insights to help the community make the most out of time on Saturdays
+
+Some other observations...
+
+- Daniel thought 1/2 class in LDN10 weren't comfortable with React
+- Need to consider the possibility of adding an extra week to deal with lack of understanding in a group
+- There's a real need to empower people to make changes to focus on a particular area
+- Opposite end: need to press forward with the curriculum content, tension between delaying to address misconceptions and continuing the course to cover content
+- Also need for course momentum + working out boundaries
+- Some trainees are waiting for Saturday to get unblocked/ask questions
+
+- London trainees were asked to raise their hand and indicate if they'd done prep: a significant amount admitted they hadn't
+- Trainees should at least be doing enough work to
+  \_ Consider setting up groups during the week to identify key blockers and doing a standup on Saturday
+
+Feedback loop problem
+
+- We expect trainees to tell us problems
+- We expect volunteers to react to problems
+- We could introduce formative assessments as a means of collecting data about trainees' weaknesses/strengths
+
+### ❗Actions
+
+- [ ] Mitch & Issar: Discuss flipped classroom resources and prep material
+- [ ] Mitch & Issar: Discuss training resources for Migracode volunteers
+- [ ] Ali: Look into possibility of banner on old syllabus content during trial of new curriculum content
+- [ ] Ali: Review Git Content?
+- [ ] Daniel: Review Git content & [Rewrite JS1 Week 4](https://github.com/CodeYourFuture/curriculum/pull/20)
+- [ ] Mitch: Complete [rewrite for Git Week 1 content](https://github.com/CodeYourFuture/curriculum/issues/181)
+- [ ] Mitch: Merge feedback for JS1 rewrites
+- [ ] Mitch: Add coming soon label for upcoming curriculum modules...
+- [ ] Mitch: Start low-fi drafts for JS2 Weeks 5,6
+- [ ] Daniel (Carry-over): Look through the MigraCode curriculum and understand strengths and gaps.
+- [ ] Carlos (Carry-over): Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+      Maybe need to check about releases for presenters.
+- [ ] Mitch (Carry-over): Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+
+---
+
+## 2023-07-06
+
+Attendees: Ali Smith, Daniel Wagner-Hall, Sally McGrath
+
+### ❗Actions from last time
+
+Mostly lots of carry-over to next time.
+
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+      Maybe need to check about releases for presenters.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
+### 📝 Agenda points
+
+#### HTML/CSS Module
+
+Sally has been taking a look and generally revising it a bit, with a bit more devtools and forms.
+
+When we're done with JS rewrites, we should step back and consider how we want to spend the first 4-5 weeks of the course.
+
+#### Curriculum rewrite
+
+[JS2 Threads](https://github.com/CodeYourFuture/curriculum/discussions/163) - generally looks great! We left a few comments on the discussion.
+
+Open question: How will we find out what problems there are in our new curriculum, and how will we make sure we react to those issues to make improvements.
+
+Our best answer so far: Try to be on the ground watching as much as possible.
+
+##### Git
+
+We need to work out how to introduce Git, but hopefully for the current class can spend some time across HTML/CSS doing so in the background.
+
+Consistent feedback we get from employeers:
+
+- Graduates are too eager to fork repos.
+- Graduates are confused about forks vs branches.
+- Graduates always add all of their files and don't pay much attention to content they shouldn't be committing.
+
+Ideally we would be selling git as a safety net which _reduces_ fear.
+
+We value about the current module that we introduce different concepts gradually, e.g. we don't cover merge conflicts early.
+
+Ali would like to remove forking early on as it would reduce the complexity of the coursework workflow.
+
+Daniel would like to have the git teaching independently of code - have our trainees learn by writing stories or something, so we can divorce "learning git stuff" from the fear of breaking/losing their code.
+
+### ❗Actions
+
+- [ ] Sally: Chase Karo about meeting with Ali
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+      Progress definitely being made, people are very happy, will continue.
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+      We should probably not leave them un-listed, and should just public them up (maybe with comments disabled).
+      Maybe need to check about releases for presenters.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [x] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
+## 2023-06-22
+
+Attendees: Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Mitchell Lloyd
+
+### ❗Actions from last time
+
+- [x] Everyone, but particularly Daniel: Review Fundamentals on https://cyf-curriculum.netlify.app/ (sourced from https://github.com/CodeYourFuture/curriculum) and fix/report anything that would mean it's not ready for June 24th.
+- [x] Ali: Make a ticket for full-text search on the new curriculum.
+- [x] Ali: Make a ticket to change the random emoji menu button to just a hamburger menu icon
+- [x] Sally: Respond to code review on [CYF blocks toggle](https://github.com/CodeYourFuture/fundamentals-blockly/pull/93)
+- [x] Carlos + Daniel, Isar + Greg, Karo + Ali: Pair up and work on something together, come back next meeting with reports. Maybe in particular, try to work out fit / gaps for adoption.
+
+### 📝 Agenda points
+
+#### Follow up from MigraCode / CYF meetings in-week
+
+Isar & Greg: Optimistic about opportunities to collaborate on one syllabus. Also considering switching to flipped classroom for the same reasons we are. Follow-ups around making more video content from CYF public, and working out what training resources would be useful for flipped classroom.
+
+Carlos & Daniel: Shared lots of background together. Both planning to read through each other's syllabuses to see what would be useful to pull in from the MigraCode syllabus, and what may be missing from the CYF syllabus. Excited about trying to share and work together on one syllabus - particularly collaborating on Mitch's rewrites.
+
+#### JS1 & 2 rewrites
+
+Introduction to our approach: Learning themes, mental models; threading themes across weeks.
+
+PRs for JS1 have been drafted: https://github.com/CodeYourFuture/curriculum/pulls - ready for review tomorrow.
+
+(Spent our time in discussion in a [miro board](https://miro.com/app/board/uXjVMPkUc1E=/) planning JS2).
+
+### Action items
+
+- [ ] All: Review [Mitch's JS1 rewrite PRs](https://github.com/CodeYourFuture/curriculum/pulls)
+- [ ] Mitch: Get more video content made shared with MigraCode from CYF.
+- [ ] Mitch: Follow up with Isar about teacher training resources for flipped classroom for Barcelona.
+- [ ] (Carry-over) Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] (Carry-over) Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] (Carry-over) Daniel: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Mitch: Write up "How we put together the curriculum" narrative.
+- [ ] (Carry-over) Follow up on Karo + Ali's syncing up.
+- [ ] Mitch: Put together proposal for JS2 threads.
+- [ ] Carlos: Look through the existing CYF curriculum and understand strengths and gaps.
+- [ ] Daniel: Look through the MigraCode curriculum and understand strengths and gaps.
+
+## 2023-06-08
+
+Attendees: Ali Smith, Carlos Perez, Daniel Wagner-Hall, Greg Dyke, Isar Fridriksson, Karolina Urn, Sally McGrath
+
+### ❗Actions from last time
+
+- [x] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+  - In https://github.com/CodeYourFuture/curriculum/pulls - people should take a look but they're not copy-edited yet.
+  - Greg is very happy.
+- [x] Ali: Work with Berkeli to get the "clone issues" App shipped (spec and WIP PR).
+  - They had a chat, Berkeli is planning to do more work, but may need a little chasing.
+
+### 📝 Agenda points
+
+#### Introductions
+
+- Ali Smith
+  - London-based
+  - Long-time CYF volunteer and syllabus creator, put together a lot of the React course
+  - Working at Overleaf in Engineering Management
+- Daniel Wagner-Hall
+  - CYF volunteer for a few years, worked through most roles
+  - Particularly motivated to try to get our trainees focusing less on code and more on problem solving
+- Carlos Perez
+  - Software Engineer at New Relic (mostly backend, a bit of frontend)
+  - Volunteer at MigraCode since ~2 years ago, mostly teaching the last 1 year
+  - Teaching the javascript modules, excited to learn React soon to be able to teach it
+- Isar Fridriksson
+  - Volunteer at MigraCode Barcelona for about 10 months
+  - Syllabus is a fork of an old CodeYourFuture syllabus - think we should probably work together more
+  - Mostly do management of volunteers, trainees, etc
+  - Background is full-stack development, quite obsessed with automation, CI/CD
+  - Studying at 42 School
+- Karolina Urn
+  - From HackYourFuture Denmark
+  - Was student, then mentor, then professional FE developer and product manager, now a HYF staff member in education management
+  - Mostly busy being hands-on, haven't had time to worry about the syllabus too much
+  - Curriculum is quite out-dated - took over from Amsterdam a couple of years ago, works fine but could be better
+- Greg Dyke
+  - In Edinburgh, does a lot of work with CYF Glasgow - has done most things at CYF
+  - Works at Avaloq on compilers, and looking for interesting ways to tie that into CYF
+  - Currently trying to let the Glasgow volunteers work out how they're managing their cohort, and focusing more on syllabus development
+  - Focus is around how to get trainees writing tests more and well, and also responsible for [CYF Blocks](https://blocks.codeyourfuture.io/) - block-based programming to focus on problem solving before knowing JS-syntax
+
+#### CodeMirror 6 in Curriculum
+
+We're hoping to move to [the new curriculum](https://cyf-curriculum.netlify.app/) ideally June 24th.
+
+Ali has been working on a component that uses CodeMirror to allow making all code blocks editable (and maybe executable). Makes it easier in-class to try out edits to things, show examples.
+
+Have talked about making code executable - could be something to do next. Probably by shoving the code into an iframe. [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) could be useful at some point too.
+
+We can also add an option to highlight specific lines.
+
+Karolina: What's the goal, to serve exercises from the curriculum, or...?
+
+Yes, mostly "sample problems" rather than homework, and examples we've prepared for our teachers/volunteers.
+
+As an example, [this page](https://syllabus.codeyourfuture.io/js-core-2/week-2/lesson) has some "introduction to objects" code examples, and some "fill in some code with examples" exercises - being able to live-edit them would be super useful.
+
+Also, a note: We're switching to flipped classroom model, where we assign the reading/learning for trainees to do at home, and then spend our classes with them actually helping them with their problems.
+
+##### Sally demo'd the new curriculum website
+
+- Remixable sources of data e.g. markdown, videos, etc.
+- Coursework exists as issues on GitHub, which also gets pulled in
+- Big problem this solves is that people aren't entirely sure what they should be doing and what to do next - new curriculum is strongly guided around "What do I do next?"
+
+Isar: Would this allow for submitting work for review/correction? Currently no, but hopefully in the future.
+
+Karolina: At HYF each module is currently a separate repo, and no one ever submits PRs to them because they're hard to find and there's a high barrier to entry.
+
+We're moving to have one repo per module with all of the exercises, and using that as one of the input sources for rendering a module.
+
+At the end of each week, we have a checklist of each learning objective, which can be checked off. We currently have trainees who both
+
+For forking our material - can have your own curriculum website using this system which pulls in material a mix of direct from CYF or from a fork or from other sources, and which makes transitioning to shared modules, or trying out new drafts of modules, really easy.
+
+##### Are there any features we really want to keep from docusaurus?
+
+- Admonitions - already implemented.
+- Where will our minutes live?
+- Search? Sally can build it if we need, but not sure how used/useful it is.
+- Where do workshops and guides go? Guides exist at https://cyf-curriculum.netlify.app/guides/
+
+#### Greg Wilson wants to make an intro a researcher
+
+- Cat Hicks - research at Pluralsight Flow researching what makes developers effective
+- Interested in learning more about CYF
+
+#### June 24th for new curriculum
+
+West Midlands are starting Fundamentals on June 24th. Would be ideal if they can start with the new curriculum and never know anything different. What blockers do we have?
+
+#### ChatGPT
+
+There's a lot of energy behind ChatGPT right now, we should get some enthusiastic community folks to put together a plan for how to embrace it in our course.
+
+James Bromley has been giving some workshops in London.
+
+One of Karolina's mentors has an interesting workshop for testing/code review via ChatGPT - happy to share.
+
+Isar: MigraCode Barcelona have been working on a code-writing workshop - happy to share too.
+
+#### London 10 & Glasgow 6
+
+Have been trying to get the classes to work together, but not sure people are engaging across the classes.
+
+Any engagement people are doing is probably in DMs. Sigh.
+
+#### How are people feeling about sharing content?
+
+Isar: Generally good, working together makes sense.
+
+Carlos: Want to understand why the fork happened originally, and why edits were made since, but in principle makes sense.
+
+Ali: We have prior experience of someone (CYF Colombia) trying to take our content, and it not working very well. Think a problem was that they assumed the curriculum was perfect and just needed translating, which was far from the case.
+
+How would we transition plan and work out the logistics to work together?
+
+Also, everyone should bear in mind none of the current curriculum content is "done" or "perfect" - please look at it with a "we can change anything" mindset!
+
+### Sprint planning
+
+We declared backlog bankruptcy. [Here's our new board](https://github.com/orgs/CodeYourFuture/projects/105/views/1).
+
+### ❗Actions
+
+- [ ] Everyone, but particularly Daniel: Review Fundamentals on https://cyf-curriculum.netlify.app/ (sourced from https://github.com/CodeYourFuture/curriculum) and fix/report anything that would mean it's not ready for June 24th.
+- [ ] Greg: Start migrating flipped classroom content for JS1 to the new curriculum.
+- [ ] Greg: Write a ticket for "work out how should we get feedback on classes/modules"
+- [ ] ??: Work out how to make clear to people how to edit/improve the content of the new curriculum.
+- [ ] Ali: Make a ticket for full-text search on the new curriculum.
+- [ ] Ali: Make a ticket to change the random emoji menu button to just a hamburger menu icon
+- [ ] Sally: Respond to code review on [CYF blocks toggle](https://github.com/CodeYourFuture/fundamentals-blockly/pull/93)
+- [ ] Carlos + Daniel, Isar + Greg, Karo + Ali: Pair up and work on something together, come back next meeting with reports. Maybe in particular, try to work out fit / gaps for adoption.
+
+---
+
 ## {DATE HERE}
 
 Attendees:
@@ -15,6 +898,420 @@ Attendees:
 ### ❗Actions
 
 ---
+
+## 2023-05-11
+
+Attendees: Ali, Sally, Greg, Mitch, Daniel, Keith, Thomas
+
+### ❗Actions from last time
+
+- [x] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+- [ ] Daniel: Work with Berkeli to get the "clone issues" App shipped ([spec](https://github.com/CodeYourFuture/Changes/issues/2) and [WIP PR](https://github.com/CodeYourFuture/syllabus/pull/633)).
+  - Handed over to Ali - who didn't manage to do it yet
+
+### 📝 Agenda points
+
+#### New Syllabus
+
+- New syllabus
+- Demo-ed
+- Big bit of feedback from everyone: people want to know what to do and when
+- Modules all have the same structure
+  - Prep, 4(?) sprints, Backlog, Success, Product
+- Block composition
+  - Each page is a Markdown "config" file, with pointers to blocks
+  - Blocks can be our content (another Markdown file), Youtube, links to other pages (marked with 🔗), ...other stuff
+  - Concept: 1 source of truth, and we just configure the pointers
+  - Backlog view
+    - Coming from the module repo - the coursework tickets
+    - Day plan - roughly what will happen during the day of the lesson
+      - Computing timings for each block - this is configured from the block itself
+  - Product view
+    - A project for the whole module
+    - Put separately - slightly unclear where this should live
+    - 4 stages: Plan, build, ..., ship
+  - Creating a module
+    - Bash script to scaffold out the necessary files
+- Being developed as a branch on the main syllabus repo
+  - So can just pull it to play with it
+    - Possibly depends on having Go installed
+  - Sally will get it deployed on Netlify
+- Where is help needed?
+  - Code blocks
+    - Have some code to render these blocks
+    - Interested in setting up CodeMirror to render these - Ali can take a look at this
+    - Goal: edit code and run it
+      - Also run this in on mobile
+      - Ali: just to clarify CM is really just a way of editing code in a IDE-like way, it doesn't do anything around storing/syncing/running code
+- Daniel: How is coursework going to work mechanically?
+  - Coursework issues are replacing google classroom
+  - There'll be a button where they can clone issues from the template onto their repo
+    - They can then manage their tickets on e.g. a kanban
+  - All the code for a module will live in a "module repo" - which contains the issues and the code
+  - This is being tested with LDN 10 & GLA X(?) - it's a bit rocky without the built in button to clone issues
+- Sally: Talked to PD about what they wanted for their integrations
+  - They don't like PRs/Github
+  - So have built them a mini-CMS/platform for creating content
+  - Can create their blocks directly on their platform
+    - We can then just point at the platform via a block pointer
+- Goal: make it easier to write content & experiment
+  - Greg: can we make changes to a module but not have them go live until we update the config
+  - Sally: can also write e.g. a workshop session, they can write
+  - Wanting experiments with syllabus but with a single source of truth
+
+#### Hello to Thomas 👋🏻
+
+- Teach at QM Uni
+- Approached Daniel, who pointed in our direction
+- Interested in creating a Python/Data science course
+
+#### Curriculum rewrite
+
+- Mitch: Action from the previous meeting: synthesise feedback from the previous meeting
+  - One of the main bits of feedback was around not trying to fit 1 learning theme into 1 module. They have to be threaded throughout, so we need to weave them together
+- [Proposal on the Miro board](https://miro.com/app/board/uXjVMPkUc1E=/)
+- First question: are people broadly happy with the overall direction
+  - No objections
+- Second question: Mitch has to be in deep focus to work on this, so cutting out Slack - but should this be more collaborative?
+  - How do you see this being reviewed?
+    - Depends on what we want
+    - Proposal: sketch out like have done so far until the end of May, then report back
+  - General agreement that we'd be happy to for Mitch to work on it, then we copy-edit it
+  - High intensity for Mitch: is there a way of doing this in a lower fidelity way
+    - E.g. "problem " wit hReact module - it's so cohesive that to iterate on it would be to un-weave and rework from there - will we end up with something like this with thus module
+      - Another way of framing this - if produced at high fidelity, but we have to go back to rework the weaving, then we've wasted the work on the high fidelity
+    - But on the other hand, the high fidelity output has been useful
+  - Can we "user test" the content?
+    - It's tricky to user test a single JS module - since it's a large-ish change we can't test it with a class
+
+#### PD/Tech Ed Syllabus Teams meet up
+
+- It's happening in 2 weeks
+  - Not everyone realised it was going to be in-person
+  - Ali & Sally (at least) will be around
+- Lara from PD is organising - we should talk to her to sort out a plan
+- Sally: PD PRs - are they ok?
+  - Daniel: generally seem reasonable
+    - Some points about the details of the content
+    - The formatting/structure is generally good
+- Sally: PD have a lot of technical problems with building stuff
+  - E.g. just wanted a website - took Sally 3 hours to build this
+  - Are there any other problems we can solve for them?
+
+#### Python/ML module
+
+- We don't currently cover any of this in the curriculum
+- Is there demand for this?
+  - Sally: We're focused on getting trainees good jobs - There's aspects of ML that will help them get a job, but some aspects that won't help
+    - Many more advanced ML-like roles require degrees etc
+    - There are more entry-level data engineering roles, so we would probably want to target this and / or identify roles where entry-level grads could get a job
+    - The competition for entry-level jobs is really fierce, so we need to identify the best usage of our time
+  - Daniel: if you have a 1 day workshop prepared, then this is a no-brainer, especially for grads
+  - Daniel: not having seen multiple programming languages might be an issue for grads
+    - So having some Python content to show the similarities could boost confidence and employability
+  - Thomas: think that a bit of base-level knowledge is helpful for employability
+- How could Thomas help create something?
+  - Day job is designing modules, so can do various things in this area
+  - Thomas: Happy to contribute towards ideas around developing Python content
+    - Want to get to know the org a bit more first
+    - Realise that it takes quite a long time to develop new courses - it takes 2 years at the university
+  - Greg: we've observed that trainees struggle with going out on their own and solving big problems - could we do something unguided that they could work on in their own time?
+    - Thomas: this sounds like something he was thinking of, so agree that this could work
+- Greg: generally our volunteers are attracted to our course as it lines up well with our content, so they may not have a lot of experience with ML
+- But we have some! And other volunteers might be interested in learning the content themselves
+- Sally: we did get some funding to work on a [ML model](https://github.com/CodeYourFuture/Changes/issues/9) - so this might be interesting for Thomas too
+- Suggested action for Thomas: reach out on general channel and offer to run a ML workshop - Tech Syllabus can help with pointers!
+
+#### Greg Wilson
+
+- Ali: noticed that Greg Wilson (author of Teaching Tech Together) was offering Lunch & Learn in return for a donation to charity, so took him up on the offer and he a gave a talk at the day job
+  - Apparently he & Barny were emailing recently too
+- So now have his email now and was thinking about asking him to come talk to us. Either to give one of his prepared talks or just fire questions at him
+- General agreement that this would be a good idea
+
+### ❗Actions
+
+- [ ] Ali: Follow up with Berkeli re: the clone issues button work
+- [ ] Keith: Review the coursework for the new [database module](https://github.com/CodeYourFuture/Module-Databases/). And potentially look at making a solutions repo
+- [ ] Sally/Mitch: Catch up with Thomas in the next few weeks to talk about Python content, and what we could do next
+- [ ] Sally: Continue working on the new curriculum
+- [ ] Sally: Deploy the new syllabus on Netlify
+- [ ] Ali: Ask Greg Wilson to come talk to us
+- [ ] Ali: Investigate getting CodeMirror set up in the new syllabus
+
+---
+
+## {2023-04-27}
+
+Attendees: Ali, Daniel, Greg, Mitch, Sally
+
+### ❗Actions from last time
+
+### 📝 Agenda points
+
+#### Curriculum Rewrite
+
+[Planning doc](https://docs.google.com/document/d/1p3Jd1ETGAuUfiYEl_YRNNdE7v3F8NmqkXgZLvPjkGb0/edit)
+
+Focusing on JS1 for now, and further modules to come in the future.
+
+4-week module structure is arbitrary, we can be flexible.
+
+Aiming for one major learning theme per week.
+
+Most content in the [planning board](https://miro.com/app/board/uXjVMPkUc1E=/).
+
+Greg is concerned that trying to identify single themes per week is misleading because everything _is_ a thread that builds week-on-week.
+
+#### Syllabus -> Curriculum
+
+A syllabus is a top-line what you're teaching. A curriculum is the sequenced details of how you teach it.
+
+We have a curriculum. We should call it one.
+
+#### Coursework via GitHub Issues
+
+Ali recently went to a London class and observed the new GitHub-based coursework.
+
+It took about 45 minutes to explain how to copy issues onto their own board, and still not sure it fully landed.
+
+There's a plan to build a GitHub application to do this, but until we have that running the workaround is to install an extension which clones issues. Which also requires access tokens and such.
+
+In the mean time, worried the benefits and focus are being lost.
+
+#### Greg demos latest "think like a computer"atron
+
+Very cool demo :)
+
+Next steps: Support some ES6
+
+Ali: [CodeMirror](https://codemirror.net/) would be great for the presentation of the JS.
+
+### ❗Actions
+
+- [ ] Mitch: Synthesise our assorted ideas for week themes into a proposal to discuss.
+- [ ] Daniel: Work with Berkeli to get the "clone issues" App shipped ([spec](https://github.com/CodeYourFuture/Changes/issues/2) and [WIP PR](https://github.com/CodeYourFuture/syllabus/pull/633)).
+
+---
+
+## {2023-04-13}
+
+Attendees: Sally, Karen, Daniel, Ali
+
+### ❗Actions from last time
+
+- [x] Keith (with support), get Keith's SQL material into the syllabus
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings - Carried over to this meeting.
+- [ ] All: Mind map for JS1 concepts - Probably didn't happen, but Mitch and Sally have been doing rewrites anyway, so...
+
+### 📝 Agenda points
+
+#### PD Syllabus content to be in different files
+
+Sally is building a swanky frontend which can collate views of the syllabus mixing in sources from assorted places.
+
+Sally recommends: Just write the material wherever for now, and Sally will move things around as this launches. Don't want to block PD from writing things up.
+
+Focus on _labelling_ content with competencies, so it can be easily moved around / re-linked to different weeks.
+
+**Workflows for editing**
+
+Would PD still be doing pull requests, etc?
+
+No, basically building a workflow using Decamp CMS. Frontend can mix in content from arbitrary files from GitHub repos, will use a lightweight CMS which publishes to text files in GitHub.
+
+We'll need approvals to gate merging things from the CMS to GitHub - that will need to be built somehow into the CMS.
+
+The Netlify CMS supports creating PRs - will probably start leaning on this once PD have worked out what their workflows should look like, but for now, will probably run in "publish with no vetting" mode to experiment.
+
+**How much GitHub experience do the PD team actually have?**
+
+Most of the people actively working on the syllabus right now are engineers or engineering managers, and are happy with GitHub, but a lot of the wider PD community are (understandably!) intimidated by it.
+
+#### PD & Tech Syllabus meeting-up (define when/what)
+
+What do we expect from the meet up?
+
+Introduction, get to know each other, people's backgrounds and focuses, etc.
+
+In-person meet-ups generally lead to really high-quality high-throughput work outcomes. But everyone is super distributed. Ideally would get as many people in-person as we can, but may not be possible.
+
+Possible themes for sessions:
+
+- How do we get the trainees to work together in teams from earlier in the course (particularly when they don't have much coding or GitHub experience)?
+- How do _we_ work well together across Tech and PD
+
+Will arrange via Doodle.
+
+Sally is going to happen to be in London the week of May 1st, may be a convenient, but many bank holidays in May.
+
+#### Syllabus for Path/Tracks (QE, Cloud, PM, UI/UX)
+
+**Karen's brief**
+
+Would like syllabus written up for tracks - new volunteers are finding it weird to not have central organisation to consult and update.
+
+**Sally's counterpoints**
+
+The main syllabus is more chaos and full of lies than people realise.
+
+Having a rigid formal syllabus disengages people from focusing on how they're teaching and that people are engaging. Makes it really easy for people to create content, or just present information, and not interact and engage.
+
+We really want people to learn, not to just tell people things.
+
+General goals of a syllabus:
+
+- A place to codify consistent learning objectives
+- Record experience of what's worked well and badly, lessons learnt, and e.g. exercises which have worked well in the past
+- Offering a repeatable, scalable experience
+
+Valuable goals to produce:
+
+- Playbooks of how to run specific styles of seessions
+- A living culture of getting experience in class, then graduating volunteers up to more leadership roles
+
+General agreement that syllabus isn't a life-saver, but it would be useful to collate "things we've done that worked" somewhere.
+
+Nobody actually reads the docs that are produced.
+
+Why do we have a syllabus at all? An alternative is to lean heavily towards 1:1 mentoring. Syllabus should be a handbook to teachers: "Here's how to teach this stuff". But risk that this ends up as (ignored or poorly presented) lecture material.
+
+**What did we learn from CYF+?**
+
+There was no "teaching" as per normal CYF, but lots of mentoring.
+
+Syllabus was explicitly designed not to be "this week you do this, next week you do that", but to be remixable. Very project driven.
+
+#### What are we actually trying to offer as CYF to enable volunteers to succeed in teaching?
+
+Not much, actually.
+
+Example projects we've seen work, and a community to talk to.
+
+#### How would we maintain things?
+
+We realistically don't have the bandwidth to maintain 8 different syllabuses.
+
+Idea that we would need to have a "lead" for each syllabus to maintain it.
+
+Except in practice, this always becomes Sally's job.
+
+Do we know why people aren't maintaining things? No, we've tried many things (making things "official", centralising, federating, ...)
+
+#### How should people contribute material for re-use?
+
+[Developing a track doc](https://docs.google.com/document/d/1xJSTOCWAm4nOvDR8lppG9EKHVbiUR8-A4nt9iI_tLLs/edit). [Example front-end track doc](https://docs.google.com/document/d/1_wNIPJdRUzXK6XoH9ndjaga6GO4A4mvwTqOswcCZ6OI/edit).
+
+There's a [track template repo](https://github.com/CodeYourFuture/Track-Template), [module template repo](https://github.com/CodeYourFuture/Module-Template), and [coursework template repo](https://github.com/CodeYourFuture/CYF-Coursework-Template).
+
+Make new repositories based on them and fill out the information.
+
+Really important to be clear that we don't have capacity to reliably deliver more tracks than our main syllabus track.
+
+### ❗Actions
+
+- [ ] Karen to specify requirements for PD syllabus edit workflow.
+- [ ] Karen to put together a Doodle of dates that work for her for a PD & Tech Syllabus meet-up.
+
+---
+
+## {2023-03-30}
+
+Attendees: Sally, Keith, Ali, Greg
+
+### ❗Actions from last time
+
+- [ ] Keith (with support), get Keith's SQL material into the syllabus
+- [x] Mitch: Raise an issue for fixing JS1 in short term with acceptance criteria
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [x] Ali & Mitch: share concept maps
+- [x] Greg: tag Ali in on tidying up js1 coursework
+- [x] Greg: put a meeting in for Sally to teach her how to write a block for CYF Blocks
+
+### 📝 Agenda points
+
+#### JS1 rewrite
+
+Mitch:
+
+- Written an issue with acceptance criteria
+- Done draft of first week
+- Next steps
+  - Write out mind map + agree on it
+  - Others to pick weeks and write them
+- Github blocks should allow us to compose activities (so far only notes.md)
+
+- Sally: assume Sally will take care of the composition problem
+- Greg: composition: how to assemble the following for each topic,
+  - the flipped classroom video
+  - the practice exercises
+  - the instructions for practice exercises
+  - the coursework
+  - the coursework solution
+  - the summary for the benefit of volunteers/TAs
+
+#### Single repo per module
+
+- Goal: get rid of google classroom in a way that's useful to people
+- Contains issues = homework
+- Trainees get a board to help their planning
+- Viewable by week
+- Can get overviews that give us some insight into the shape of our coursework
+- Some development work happening to facilitate trainees getting the issues from the sample board (existing extension, to be replaced by our own batch clone)
+- Syllabus can pull in the coursework from github
+- Long term, if that works, everything related to the syllabus will go there
+- Can try with JS3 for GLA6 and LDN10
+
+#### Think like a computer
+
+Greg demos where he's at with think like a computer so far
+
+- Mitch: "it's fucking awesome" (sic)
+- Ali: what's the value over a debugger?
+- Greg: definitely a good question to ask: meaningful goal = get a prototype, try it out with trainees and compare to teaching them to use the debugger.
+- Greg
+  - Doesn't just mutate state (e.g. variables in scope, go to next place in the callstack, etc.), but tell you what it's changing. Particularly valuable, e.g. for the addition of arguments to scope when a function is called
+  - Visualise "movement" (like passing around of post-its in physical think like a computer) - and specialised movement of callback functions
+  - Because it tells you what it's changing, it can be made into a quiz/"predict and evaluate" (and for different kinds of operation, either the computer could just do them, or it could pause and ask what will happen)
+
+#### Flipped classroom content
+
+Mitch
+
+- Produced up to JS3, with consistent supervision/creation from Mitch
+- Many small videos per week + practice materials
+- Lots of contributors from different locations
+- Negative: very time intensive to produce
+- Negative: in practice coordinating all the different contributors has been tricky
+- Doesn't seem sustainable to even finish this for JS3 -> Mitch will stop at end of JS2 and post on Slack to see where LDN10/GLA6 want to go
+- We should make playlists going forward for JS3 that point to playlists on youtube
+
+- Greg: would prefer we did our content in house, at least for JS1-3, because it's really good to have the right amount of context
+- Greg: concerned that the practice materials need to be really good and tied to the content
+- Greg: wonder whether having the degree of difficulty that's been put in is the right degree (varying from mind-numbingly easy, to maybe slightly too complex, with the goal that every trainee should have found the practice material doable to some extent)
+
+#### Recap materials
+
+- Greg: How do we collect the recap materials?
+- Greg: How do we retro on "what makes a good recap"
+- Greg: How do we scale recaps (make them so that any volunteer can run it with minimal prep)
+
+#### Prison project
+
+- Sally: one video so far
+- Sally: offline version of codepen
+- Sally: haven't solved Grasshopper + we'll need to solve it inhouse also
+
+- Criteria for Grasshopper:
+  - Content that's not too boring
+  - On phone
+  - 6-8h
+
+### ❗Actions
+
+- [ ] Keith (with support), get Keith's SQL material into the syllabus
+- [ ] Sally: Organise a regular joint PD & Tech syllabus team meetings
+- [ ] All: Mind map for JS1 concepts
 
 ## {2023-03-02}
 

@@ -262,6 +262,12 @@ module.exports = {
       "react/week-3/homework",
       "react/week-3/instructors",
     ],
+    "Lesson 4": [
+      "react/week-4/learning-objectives",
+      "react/week-4/lesson",
+      "react/week-4/homework",
+      "react/week-4/instructors",
+    ],
     "Extra Classes": [
       {
         type: "category",
@@ -302,6 +308,12 @@ module.exports = {
       "node/week-3/homework",
       "node/week-3/instructors",
     ],
+    "Lesson 4": [
+      "node/week-4/lesson",
+      "node/week-4/homework",
+      "node/week-4/instructors",
+    ],
+
     Workshops: ["node/workshops/workshop", "node/workshops/cyf-hotel"],
     Challenges: [
       {
@@ -313,21 +325,10 @@ module.exports = {
   },
   SQL: {
     Overview: ["db/index", "db/prep"],
-    "Lesson 1": [
-      "db/week-1/lesson",
-      "db/week-1/instructors",
-      "db/week-1/homework",
-    ],
-    "Lesson 2": [
-      "db/week-2/lesson",
-      "db/week-2/instructors",
-      "db/week-2/homework",
-    ],
-    "Lesson 3": [
-      "db/week-3/lesson",
-      "db/week-3/instructors",
-      "db/week-3/homework",
-    ],
+    "Lesson 1": ["db/week-1/lesson", "db/week-1/instructors"],
+    "Lesson 2": ["db/week-2/lesson", "db/week-2/instructors"],
+    "Lesson 3": ["db/week-3/lesson", "db/week-3/instructors"],
+    "Lesson 4": ["db/week-4/lesson", "db/week-4/instructors"],
   },
   MongoDB: {
     Overview: ["mongodb/index", "mongodb/preparation"],

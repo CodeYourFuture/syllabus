@@ -1142,6 +1142,59 @@ You will be randomly assigned a pair.
 Choose a kata from [CYF Array and Object Methods](https://www.codewars.com/collections/cyf-array-and-object-methods) that suits you both.
 :::
 
+## PD (Gathering requirements)
+
+**Session objective:** This session will explore what a tech product is, who are the users of a product, and how the product meets user needs.
+
+**What is a product?**
+
+Let's talk about briefly as a class what we mean when say a "product".
+
+*Quick definition*: Product is something that satisfies a Business Need. Products deliver value to the business stakeholders (internal or external).
+
+:::note
+Exercise (20 minutes)
+
+**Exercise objective:** To understand the mission of a product
+
+During the previous week's coursework you defined your team's product. Discuss the following questions to identify the users for your product.
+
+- Who are your users? What different user profiles will there be?
+- What user needs is your product trying to address?
+
+Volunteer to share your thoughts with the class.
+:::
+
+:::note
+Exercise (20 minutes)
+
+**Exercise objective**: To identify how products achieve user needs
+
+Brainstorm the following questions in your teams to understand your product better.
+
+- What is the functionality of your product?
+- How does it address the user needs / solve their problem?
+
+Volunteer to share your thoughts with the class for group discussion. Invite other groups to provide feedback, thoughts, additional suggestions.
+
+:::
+
+**Quick definitions**
+
+Go through the following definitions. You don't need to go into details, you will need to have a basic understanding of these concepts for this week's coursework.
+
+*What is an MVP?*
+
+MVP (Minimum Viable Product) refers to a product that has just enough features to satisfy the needs of early customers and, more importantly, give them something to provide feedback on to shape the future of the product.
+
+*What is a feature?*
+
+A feature is the product’s service/function that provides business value and meets customer needs. A single product is likely to have multiple features.
+
+*What is a user story?*
+
+A user story is a brief description of software features, written from the user's perspective, that describes how that functionality will provide some values.
+
 ## Coursework
 
 Click [here](./homework) to view the homework for this lesson.

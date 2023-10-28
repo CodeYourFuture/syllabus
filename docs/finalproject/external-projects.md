@@ -34,22 +34,21 @@ and to give our partners:
 
 More details can be found on the [Intro](./intro) and [Preparation](./prep) pages.
 
-## We will need a Product Owner from your organisation on the team
+## We will need a Business Owner from your organisation on the team
 
-Having an active Product Owner leads to faster delivery with better solutions. 
+Having an active Business Owner leads to faster delivery with better solutions. It is someone with knowledge about the product and users and can make decisions whenever the team needs direction.
 
+Historically, one of the most common blockers to a successful project has been slow communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels, or go off on a tangent if they have a burning question and can't answer it.
 
-Historically, one of the most common blockers to a successful project has been slow communication between stakeholders and our trainees. Trainees may likely become blocked, spin wheels, or go off on a tangent if they have a burning question and can't get it answered.
+In an ideal world, your Business Owner answers trainee questions within one working day. If this might not be possible, let us know, and we will select an Internal Business Manager who will be empowered to make decisions on your behalf.
 
-In an ideal world, you are able to answer trainee questions within one working day. If this might not be possible, let us know and we will select an Internal Product Manager who will be empowered to make decisions on your behalf.
-
-The [Product Owner role](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/product-owner) and commitment is described in detail on our docs.
+The [Business Owner role](https://docs.codeyourfuture.io/volunteers/teams-1/cyf-products-final-projects/roles/business-owner-final-projects) and commitment are described in detail on our docs.
 
 ## What is a Good Project?
 
-It's important that the projects that we work on fulfill some base requirements to make sure they go smoothly.
+It's important that the projects that we work on fulfil some base requirements to make sure they go smoothly.
 
-All Final Projects aim to be a [Minimum Viable Product](https://www.agilealliance.org/glossary/mvp/). This means they may be rough around the edges but have all of the core functionality working.
+All Final Projects aim to be a [Minimum Viable Product](https://www.agilealliance.org/glossary/mvp/). This means they may be rough around the edges but have all the core functionality working.
 
 ### Functionality
 
@@ -57,20 +56,20 @@ A Good Final Project should have the following qualities
 
 1. Be an interactive website
 
-   - This means a website that a user can interact with to create, read, upload, delete data.
-   - For example, a photo hosting service, Q+A Service or Custom Events Platform would fulfil this criteria
+   - This means a website that a user can interact with to create, read, upload, and delete data.
+   - For example, a photo hosting service, Q+A Service or Custom Events Platform would fulfil these criteria
    - A static website like the [CodeYourFuture website](https://www.codeyourfuture.io) would **not**
 
 2. Be completable in four weeks of work
 
    - This means the website should not be too large that they can't finish it or too small that they complete it too quickly
    - For example, a newsletter sign-up form would be too small
-   - For example, a full content management system would be too large
+   - For example, a whole content management system would be too large
 
 3. Be well-defined
 
-   - This means that from day one our trainees understand what they are building
-   - For example, a well defined project should be able to answer using [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories) **all** of the functionality of the project
+   - This means that from day one, our trainees understand what they are building
+   - For example, a well-defined project should be able to answer using [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories) **all** of the functionality of the project
    - We **can** work with Charities to define projects if they contact us early enough
 
 ### Technical Functionality

@@ -18,6 +18,7 @@ import Feedback from "@theme/Feedback";
   - [Client/Server architecture](#clientserver-architecture)
   - [HTTP Requests](#http-requests)
     - [Exercise (2)](#exercise-2)
+  - [PD - Presentations](#pd-presentations)  
 
 ---
 
@@ -321,6 +322,19 @@ You can see the website online here
 
 1. Did the `POST` request succeed?
 2. Using the Details Panel, can you work out why?
+
+:::
+
+## PD (Presentations)
+
+**Session objective**: In this session, each team will present their learning and work during the Teamwork Project.
+
+:::note 
+Exercise (60 min)
+
+**Exercise objective**: To practice public speaking skills
+
+Each team will deliver their presentation to the class. Remember to refer to [the previous week's coursework](https://personal-development.codeyourfuture.io/em-modules/javascript-2/week-3-delivery/js2-w3-coursework).
 
 :::
 

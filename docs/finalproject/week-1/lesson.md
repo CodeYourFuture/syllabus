@@ -28,9 +28,9 @@ Once you have your team and your assignment, start by sorting out the basic admi
 
 ### 1.1. Introductions
 
-- Before we introduce ourselves let's introduce one of the tools we'll be using to collaborate during the project, [Miro](https://miro.com/). Whiteboards are a simple yet powerful tool software teams use to share ideas and solve problems - Miro is just a virtual version. It should be intuitive but if you want help there's lots of [content online](https://www.youtube.com/watch?v=pULLAEmhSho).
+- Before we introduce ourselves, let's introduce one of the tools we'll use to collaborate during the project, [Miro](https://miro.com/). Whiteboards are a simple yet powerful tool software teams use to share ideas and solve problems - Miro is just a virtual version. It should be intuitive, but if you want help there's lots of [content online](https://www.youtube.com/watch?v=pULLAEmhSho).
 
-- Once you're familiar with the tool one person should make a copy of [this Miro board](https://miro.com/app/board/o9J_knoA0Ag=/) for your team to work on.
+- Once you're familiar with the tool one person should **make a copy** of [this Miro board](https://miro.com/app/board/uXjVM-LblbI=/?share_link_id=584645806469) for your team to work on.
 
 - OK, now we're set up let's get to know each other a little using **Exercise 1: Icebreaker** on your team's copy of the Miro board.
 
@@ -144,12 +144,13 @@ When our solution is clear we can dig into some implementation details:
   - Where is that the same as the above (i.e. you’re just going to have an endpoint for a resource) and where might it be different (i.e. there will be some kind of calculation or aggregation between the database and the frontend)? This will allow you to figure out what the REST API is going to look like.
 - What might these pages look like?
   - Sketch them out (either draw on paper and upload a photo or use lines and boxes on Miro)
-    - We **don’t** want to spend too much time doing very detailed layout
+    - We **don’t** want to spend too much time doing a very detailed layout
   - How could we decompose them into separate [components](/react/week-1/lesson) to work on?
+- CYF has a [CYF Design on Figma](https://www.figma.com/file/Z8RyCDpF8PLwGQLcUd3zTCFl/CYF-UXUI-Design?type=design&node-id=1942%3A4421&mode=design&t=xjx31f3FMn94Oa1c-1) that you can use if you are building something for this community. If you are working with an external brief, make sure you ask for their design.
 
 This will give you an idea of what work needs to get done during the week, which you can then assign to members of your team.
 
-Make sure you identify the "edges" between different tasks (e.g. you have to agree on an API so that the backend and frontend match up, or on the props passed between a parent component and a child component) so that you know who has to collaborate with whom to make sure it all fits together, and will be able to identify the impacts of one part getting blocked.
+Make sure you identify the "edges" between different tasks (e.g. you have to agree on an API so that the backend and frontend match up, or on the props passed between a parent component and a child component) so that you know who has to collaborate with whom to make sure it all fits together and will be able to identify the impacts of one part getting blocked.
 
 ```txt
 At the end of this exercise you should add all the answers to the Miro and share with the rest of the class.

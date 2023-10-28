@@ -19,7 +19,7 @@ The purpose of this class is to introduce to the trainee:
 
 1. Debugging your code
 2. Consolidate learning for the project work
-3. PD (Agile: Gathering requirements)
+3. PD (Difficult Workplace Conversations)
 
 ## 1. Debugging
 
@@ -431,32 +431,73 @@ The project is called [TV Show](../tv-show-dom-project/readme.md)
 
 In your groups you should get the project setup using the exact instructions found [here](/js-core-3/tv-show-dom-project/getting-started). Make sure you use your Teaching Assistants to help you!
 
-## PD (Agile: Gathering requirements)
+## PD (Difficult Workplace Conversations)
 
-During JS3 tech education, you will make a TV Show app. The PD module will focus on Agile methodology through classroom discussions and exercises directly related to this TV Show Project.
+**Session objective:** This session discusses some of the potential difficult conversations in the workplace and offers tips to have constructive outcomes following these conversations.
 
-**Session objective:** This session explains how to understand the job ahead, and the processes to identify requirements.
+We all find ourselves in situations where we have to have difficult conversations with our colleagues at work. Although these are usually uncomfortable situations, if we know how to navigate our way through these, they will help our professional growth and our relationships in the workplace.
 
-[Agile: Gathering requirements ](https://docs.google.com/presentation/d/142XFjEtIp7MwWj5FsHeQdKISF8Hsxugaf-d2wTMGhqg/edit#slide=id.g1b740a9f8c6_0_331)
+Examples of some difficult situations one has to deal with in the workplace include:
 
-:::note Exercise (10 minutes)
+- You’re overwhelmed with work
+- The job you have is different from the one you applied for
+- You keep running into conflict with a colleague
+- Your manager doesn’t notice the work you do
+- You’ve made a major mistake that harmed your team
+- You get a bad performance review
+- You are passed up for a new role in the organization
+- You struggle to collaborate with your team
+- You feel like the work environment is hostile or inequitable
+- You need help with a mistake that you have made
 
-**Exercise objective:** To draft user stories describing the task in general terms
+Having difficult conversations in the workplace can be emotionally charged. This makes it difficult to communicate well. It is easier to convey and receive messages when you are calm and confident.
 
-Review Level 100 in your TV Show Project and make as many user stories as you can. Do not work on any of the details for these stories, we will do that later.
+Additionally, when there is a conflict we often make assumptions about why it is happening and the intentions of the others involved. Learning to take a step back and prepare for these times is essential to your success in the workplace.
 
-Remember to follow this format: "As a [stakeholder] I want to [achieve something] so I can [desired result]". Once finished, we will share some of those stories as a group.
+Sometimes avoiding difficult conversations seems like the best route. We think we can ignore the inappropriate banter of colleagues. We make excuses in our heads for why someone else got the new position that we wanted. It feels easier to ignore the conflicts with others on our team. Wrong! These problems will continue to cause challenges if you avoid having the difficult conversation.
+
+:::note Exercise (15 min)
+
+**Exercise objective:** To identify the steps to form a constructive response.
+
+Imagine that you are at a new job and one colleague has scheduled to collaborate/meet with you several times and then canceled at the last minute. You need to meet with this person to take the next steps in the project that you are both working on. Use the list below to prepare for the conversation you will have with them. Discuss as a class what you would say to your colleague.
+
+- What is the key problem to be addressed?
+- What impact is this having on you/the team/work?
+- What responsibility are you going to take for your part?
+- What do you want to achieve by the end of the conversation?
 
 :::
 
-:::note Exercise (10 minutes)
+:::note Exercise (35 min)
 
-**Exercise objective:** To develop user story drafts with detail and tasks
+**Exercise objective:** To role-play a difficult conversation.
 
-Review the stories you have created for Level 100 in your TV Show Project but this time put some details on those stories and break that work down into tasks. Once finished, we will share some of those stories and their tasks as a group.
+Work in pairs. Use one of the following scenarios where you need to have a difficult conversation. If you finish your first scenario and still have time, choose another one.
+
+Activities you will do are listed below:
+
+Role-play the conversation with your partner. List emotions that you associate with that moment whilst doing the activity (10 min)
+
+Discuss with your partner how that conversation could have been better if you were able to take the emotion out of it (5 min)
+
+Role-play scenarios:
+
+1. You are a developer in a team. A very important project has been presented; however, you have not been assigned to it. The person who will be working on this project is a peer, who you think isn’t as competent as you. You want to question that decision with your manager.
+2. You are working on a team with a person you have had issues with before. You think that they're not doing tasks you're dependent on on purpose because they dislike you. You want to talk to this person about it.
+3. You have been working hard and would like to get a pay rise. Have this discussion with your manager. 
+4. You think that the project you have been allocated to is impossible and it can't succeed and you are worried you are being set up to fail. You want to talk to your Product Manager or Product Owner about this.
+5. Someone in your team isn’t doing their share of the work and you want to talk to them about it.
+6. You have been receiving positive feedback all year long, but you didn’t get a promotion. However your peer did. You want to talk to your manager about it.
+6. You have been working on 3 different projects and you just received an e-mail asking you to support a 4th one and to lead a workshop next week. You want to talk to your manager about your workload.
+7. Your company had an internal job opportunity that you applied for. You weren’t the one chosen and never got feedback. So you arranged a meeting with the interviewer to get feedback on your performance.
+8. You have done a mistake in your work and after Googling and asking for help at the CYF community, you still do not know the answer. You have to ask your tech lead or senior developer for help.
+9. You started your new job one month ago but the tasks you are given do not align with what was on your job description. You want to talk to your manager about it.
+10. You are given a bad performance review. You want to talk to someone in your team to get more information and specific feedback on how to improve your performance.
+
+Volunteer to share your pair's thoughts with the class.
 
 :::
-
 
 ## Coursework
 

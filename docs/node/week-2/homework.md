@@ -8,31 +8,32 @@ sidebar_label: Coursework
 
 We've hosted some Servers on Glitch but they're not quite working properly. Could you fix them for us?
 
-- https://glitch.com/~debugging-practice1
-- https://glitch.com/~debugging-practice2
-- https://glitch.com/~debugging-practice3
-- https://glitch.com/~debugging-practice4
+- https://glitch.com/edit/#!/debugging-practice1
+- https://glitch.com/edit/#!/debugging-practice2
+- https://glitch.com/edit/#!/debugging-practice3
+- https://glitch.com/edit/#!/debugging-practice4
 
-### Start by remixing our example server
+### Set up the examples above locally
 
-- [ ] Make sure you're logged in to https://glitch.com/
-- [ ] Remix each example
-- [ ] Name your new server `yourname` + NAME_OF_EXERCISE
-- [ ] Check that it is working by making a request to `/`
+- [ ] Have the [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises) project forked and cloned.
+- [ ] Create a new branch named `yourname` + NAME_OF_EXERCISE
+- [ ] Make sure to edit the appropriate project from the cloned repository.
+- [ ] Start up your server, then check that it is working by making a request to `/`
 - [ ] Fix the code on your version of the server
+- [ ] Create a PR with your solution back in GitHub. Make sure you name your PR `yourname` + NAME_OF_EXERCISE
 
 ## 2) Chat Server API Project (12 Hours+) 🔑
 
 Take a look at this repository:
 
-https://github.com/CodeYourFuture/node-challenge-chat-server
+[Chat Server](https://github.com/CodeYourFuture/Module-Node/tree/main/chat-server)
 
-In that repository you will find a task to create a Chat Server.
+In that repository folder you will find a task to create a Chat Server.
 
 To complete the coursework you should:
 
-1. Fork the repository
-2. Complete the tasks
+1. Make sure that the [repository](https://github.com/CodeYourFuture/Module-Node) has been forked
+2. Go to the `chat-server` folder and complete the tasks
 3. Create a pull request back to the original repository
 
 ## 3) Prepare a Presentation (1 Hour)
@@ -56,7 +57,7 @@ Find the collection on the CodeYourFuture account: https://www.codewars.com/user
 
 ## 5) Challenges (Stretch)
 
-https://github.com/CodeYourFuture/cyf-node-challenges
+[Mailing List Server](https://github.com/CodeYourFuture/Module-Node/tree/main/mailing-list-api)
 
 ## 6) Reflect about your own biases (PD - 1 hr)
 
