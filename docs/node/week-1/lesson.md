@@ -105,7 +105,7 @@ Some examples here use [Glitch](https://glitch.com/), a fun code playground you 
 
 ### 2.2) Running the Simple Server locally
 
-Similar to our React projects we will develop Node applications locally. Please fork and clone the following repository which includes the example server above:  [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises).
+Fork and clone:  [https://github.com/CodeYourFuture/Node-Exercises](https://github.com/CodeYourFuture/Node-Exercises).
 
 This repository contains multiple small projects, so enter the `cyf-simple-express` directory where we will be doing our work today.
 
