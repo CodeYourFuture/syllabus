@@ -30,6 +30,7 @@ sidebar_label: Project Briefings
 - [Hub Planner](https://docs.google.com/document/d/1REEEAMYZhsLGeqKGKn0c4R7gBmqRx3sdvn_c1Jb3hiw/edit?usp=sharing)
 - [A Set](https://docs.google.com/document/d/1_aYRVzw1DJE1K5EadBzZqqh00ZlA4uaXw7izzLJkAIo/edit?usp=sharing)
 
+**PREVIOUS briefings that have already been done (and we even use some on daily basis)**
 ### 2022
 
 - [Deskeando](https://docs.google.com/document/d/1GTIKg7UyItzZs-Xq4Kd0yY0WQLHM0L98Hoyr5BoktOg/edit?usp=sharing)
