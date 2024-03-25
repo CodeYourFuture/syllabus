@@ -119,6 +119,29 @@ Write JavaScript below that logs:
 
 :::
 
+
+
+### solution
+```js
+
+// all the "p" element nodes of the document
+const allParagraphs = document.querySelectorAll('p');
+console.log('All "p" element nodes of the document:', allParagraphs);
+
+// the first div element node
+const firstDiv = document.querySelector('div');
+console.log('The first div element node:', firstDiv);
+
+// the element with id "jumbotron-text"
+const jumbotronText = document.querySelector('#jumbotron-text');
+console.log('The element with id "jumbotron-text":', jumbotronText);
+
+// all the "p" elements contained inside the .primary-content element node
+const primaryContentParagraphs = document.querySelectorAll('.primary-content p');
+console.log('All "p" elements contained inside the .primary-content element node:', primaryContentParagraphs);
+
+```
+
 ## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
@@ -141,13 +164,27 @@ You will notice in the example that we passed a second argument to `addEventList
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
+:::
 
+### solution
 ```js
-let myElement = document.querySelector("#myElement");
-myElement.style.backgroundColor = "red";
+// Select the button element by its ID
+const alertButton = document.querySelector('#alert-button');
+
+// Select the element you want to change the background color
+const myElement = document.querySelector('#myElement');
+
+// Add event listener to the button
+alertButton.addEventListener('click', function() {
+    // Display an alert when the button is clicked
+    alert('Thanks for visiting Bikes for Refugees!');
+    
+    // Change the background color of the element to red
+    myElement.style.backgroundColor = 'red';
+});
+
 ```
 
-:::
 
 ### Exercise (3)
 
@@ -156,6 +193,19 @@ myElement.style.backgroundColor = "red";
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
 :::
+
+### solution
+```js
+  // Select the button element by its ID
+        const changeColorButton = document.querySelector('#change-color-button');
+
+        // Add event listener to the button
+        changeColorButton.addEventListener('click', function() {
+            // Set the background color of the body to red
+            document.body.style.backgroundColor = 'blue';
+        });
+
+```
 
 ## Create DOM elements
 
