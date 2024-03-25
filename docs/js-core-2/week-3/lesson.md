@@ -226,6 +226,23 @@ When a user clicks the "Add some text" button, a new paragraph should be added b
 
 :::
 
+### solution
+```js
+   // Select the button element by its ID
+        const addTextButton = document.querySelector('#add-text-button');
+
+        // Add event listener to the button
+        addTextButton.addEventListener('click', function() {
+            // Create a new paragraph element
+            const newParagraph = document.createElement('p');
+            // Set the text content of the paragraph
+            newParagraph.textContent = 'Read more below.';
+            // Append the paragraph to the body
+            document.body.appendChild(newParagraph);
+        });
+
+
+```
 ## Manipulate DOM elements
 
 You can then change the text displayed inside elements using the `innerText` property:
@@ -281,6 +298,26 @@ To get the entered text from it, we use the `value` property: `let title = input
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 
 :::
+
+
+### solution
+```js
+// Select the button element by its ID
+const largerLinksButton = document.querySelector('#larger-links-button');
+
+// Add event listener to the button
+largerLinksButton.addEventListener('click', function() {
+// Select all links on the page
+const links = document.querySelectorAll('a');
+
+// Increase the font size of each link
+links.forEach(link => {const computedStyle = window.getComputedStyle(link);
+const currentSize = parseFloat(computedStyle.fontSize); // Get the current font size
+const newSize = currentSize * 1.2; // Increase the font size by 20%
+link.style.fontSize = newSize + 'px'; // Set the new font size
+});
+});
+```
 
 ## PD (Delivery)
 
