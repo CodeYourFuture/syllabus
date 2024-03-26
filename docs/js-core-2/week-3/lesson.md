@@ -157,9 +157,21 @@ console.log('All "p" elements contained inside the .primary-content element node
 
 ### Exercise (2)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 :::note Exercise
 Write javascript that uses three different way to access  a element.
 :::
+</TabItem>
+
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -170,6 +182,10 @@ var paragraphs = document.getElementsByTagName('p');
 // Accessing elements by class name
 var paragraphs = document.getElementsByClassName('info');
 ```
+
+</TabItem>
+</Tabs>
+
 ## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
@@ -185,7 +201,16 @@ function alertSomething() {
 
 You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
 
-### Exercise (2)
+### Exercise (3)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
@@ -193,6 +218,10 @@ When a user clicks the "ALERT" button, an alert box should pop up with the text 
 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
 :::
+
+</TabItem>
+
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -212,15 +241,28 @@ alertButton.addEventListener('click', function() {
 });
 
 ```
+</TabItem>
+</Tabs>
 
+### Exercise (4)
 
-### Exercise (3)
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
 :::
+</TabItem>
+
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -235,6 +277,9 @@ Write JavaScript below that changes the background colour of the page when the "
 
 ```
 
+</TabItem>
+</Tabs>
+
 ## Create DOM elements
 
 Using the `document`, you can also create new elements. These elements will not appear until you append them as a child of another element though:
@@ -246,13 +291,26 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 
 `document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
 
-### Exercise (4)
+### Exercise (5)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
 When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 :::
+
+</TabItem>
+
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -271,13 +329,27 @@ When a user clicks the "Add some text" button, a new paragraph should be added b
 
 
 ```
-### Exercise (5)
+</TabItem>
+</Tabs>
+
+### Exercise (6)
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 :::note Exercise
 
 When a user clicks the "add list item" button, a new item in list should be added."
 
 :::
+</TabItem>
 
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -298,6 +370,9 @@ When a user clicks the "add list item" button, a new item in list should be adde
         // Add event listener to the button
         addListItemButton.addEventListener('click', addListItem);
 ```
+</TabItem>
+</Tabs>
+
 ## Manipulate DOM elements
 
 You can then change the text displayed inside elements using the `innerText` property:
@@ -346,14 +421,24 @@ updateTitleBtn.addEventListener("click", function () {
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable).
 To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
 
-### Exercise (6)
+### Exercise (7)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 :::note Exercise
 
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 
 :::
 
+</TabItem>
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -373,14 +458,29 @@ link.style.fontSize = newSize + 'px'; // Set the new font size
 });
 });
 ```
+</TabItem>
+</Tabs>
 
-### Exercise (6)
+### Exercise (8)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
 
 :::note Exercise
 
 When the "Replace" button is clicked, the first item of list should be replaced.
 
 :::
+</TabItem>
+
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -398,6 +498,9 @@ When the "Replace" button is clicked, the first item of list should be replaced.
         document.getElementById('replace-button').addEventListener('click', replaceListItem);
 
 ```
+</TabItem>
+</Tabs>
+
 ## PD (Delivery)
 
 **Session objective**: This session will explore how to create features, user stories and tasks for a product.
