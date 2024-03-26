@@ -255,6 +255,33 @@ When a user clicks the "Add some text" button, a new paragraph should be added b
 
 
 ```
+### Exercise (5)
+:::note Exercise
+
+When a user clicks the "add list item" button, a new item in list should be added."
+
+:::
+
+
+### solution
+```js
+  // Function to add a new list item
+        function addListItem() {
+            // Create a new li element
+            let li = document.createElement('li');
+            li.textContent = 'New Item';
+            
+            // Append the new li to the ul menu element
+            const menu = document.querySelector('#menu');
+            menu.appendChild(li);
+        }
+
+        // Select the button element by its ID
+        const addListItemButton = document.querySelector('#add-list-item-button');
+
+        // Add event listener to the button
+        addListItemButton.addEventListener('click', addListItem);
+```
 ## Manipulate DOM elements
 
 You can then change the text displayed inside elements using the `innerText` property:
@@ -303,7 +330,7 @@ updateTitleBtn.addEventListener("click", function () {
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable).
 To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
 
-### Exercise (5)
+### Exercise (6)
 
 :::note Exercise
 
