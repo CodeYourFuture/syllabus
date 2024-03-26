@@ -101,6 +101,15 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Classwork-Week3
 
 ### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+
+<TabItem value="exercise">
 :::note Exercise
 
 Write JavaScript below that logs:
@@ -119,6 +128,64 @@ Write JavaScript below that logs:
 
 :::
 
+</TabItem>
+<TabItem value="solution">
+
+### solution
+```js
+
+// all the "p" element nodes of the document
+const allParagraphs = document.querySelectorAll('p');
+console.log('All "p" element nodes of the document:', allParagraphs);
+
+// the first div element node
+const firstDiv = document.querySelector('div');
+console.log('The first div element node:', firstDiv);
+
+// the element with id "jumbotron-text"
+const jumbotronText = document.querySelector('#jumbotron-text');
+console.log('The element with id "jumbotron-text":', jumbotronText);
+
+// all the "p" elements contained inside the .primary-content element node
+const primaryContentParagraphs = document.querySelectorAll('.primary-content p');
+console.log('All "p" elements contained inside the .primary-content element node:', primaryContentParagraphs);
+
+```
+</TabItem>
+</Tabs>
+
+
+### Exercise (2)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+:::note Exercise
+Write javascript that uses three different way to access  a element.
+:::
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+// Accessing element by id
+var paragraph = document.getElementById('demo');
+// Accessing elements by tag name
+var paragraphs = document.getElementsByTagName('p');
+// Accessing elements by class name
+var paragraphs = document.getElementsByClassName('info');
+```
+
+</TabItem>
+</Tabs>
+
 ## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
@@ -134,28 +201,84 @@ function alertSomething() {
 
 You will notice in the example that we passed a second argument to `addEventListener`. That second argument is the **function** that we want to invoke when that event has happened.
 
-### Exercise (2)
+### Exercise (3)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
 When a user clicks the "ALERT" button, an alert box should pop up with the text "Thanks for visiting Bikes for Refugees!"
 
 The elements returned by `document.querySelector` have the same properties as a normal HTML element: for example, you can get access to their css **styles**.
-
-```js
-let myElement = document.querySelector("#myElement");
-myElement.style.backgroundColor = "red";
-```
-
 :::
 
-### Exercise (3)
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+// Select the button element by its ID
+const alertButton = document.querySelector('#alert-button');
+
+// Select the element you want to change the background color
+const myElement = document.querySelector('#myElement');
+
+// Add event listener to the button
+alertButton.addEventListener('click', function() {
+    // Display an alert when the button is clicked
+    alert('Thanks for visiting Bikes for Refugees!');
+    
+    // Change the background color of the element to red
+    myElement.style.backgroundColor = 'red';
+});
+
+```
+</TabItem>
+</Tabs>
+
+### Exercise (4)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
 Write JavaScript below that changes the background colour of the page when the "Change colour" button is clicked.
 
 :::
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+  // Select the button element by its ID
+        const changeColorButton = document.querySelector('#change-color-button');
+
+        // Add event listener to the button
+        changeColorButton.addEventListener('click', function() {
+            // Set the background color of the body to red
+            document.body.style.backgroundColor = 'blue';
+        });
+
+```
+
+</TabItem>
+</Tabs>
 
 ## Create DOM elements
 
@@ -168,13 +291,87 @@ myElement.appendChild(paragraph); // now the element is added to our view, but i
 
 `document.createElement` accepts as an input any element type. So for example `document.createElement("article")` will create a new article element.
 
-### Exercise (4)
+### Exercise (5)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 
 :::note Exercise
 
 When a user clicks the "Add some text" button, a new paragraph should be added below the buttons that says "Read more below."
 
 :::
+
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+   // Select the button element by its ID
+        const addTextButton = document.querySelector('#add-text-button');
+
+        // Add event listener to the button
+        addTextButton.addEventListener('click', function() {
+            // Create a new paragraph element
+            const newParagraph = document.createElement('p');
+            // Set the text content of the paragraph
+            newParagraph.textContent = 'Read more below.';
+            // Append the paragraph to the body
+            document.body.appendChild(newParagraph);
+        });
+
+
+```
+</TabItem>
+</Tabs>
+
+### Exercise (6)
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+:::note Exercise
+
+When a user clicks the "add list item" button, a new item in list should be added."
+
+:::
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+  // Function to add a new list item
+        function addListItem() {
+            // Create a new li element
+            let li = document.createElement('li');
+            li.textContent = 'New Item';
+            
+            // Append the new li to the ul menu element
+            const menu = document.querySelector('#menu');
+            menu.appendChild(li);
+        }
+
+        // Select the button element by its ID
+        const addListItemButton = document.querySelector('#add-list-item-button');
+
+        // Add event listener to the button
+        addListItemButton.addEventListener('click', addListItem);
+```
+</TabItem>
+</Tabs>
 
 ## Manipulate DOM elements
 
@@ -224,13 +421,85 @@ updateTitleBtn.addEventListener("click", function () {
 The above waits for click on a button. When the button is clicked, it gets the input box element (`inputBox` variable).
 To get the entered text from it, we use the `value` property: `let title = inputBox.value`.
 
-### Exercise (5)
+### Exercise (7)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
 :::note Exercise
 
 When the "Larger links!" button is clicked, the text of all links on the page should increase.
 
 :::
+
+</TabItem>
+<TabItem value="solution">
+
+### solution
+```js
+// Select the button element by its ID
+const largerLinksButton = document.querySelector('#larger-links-button');
+
+// Add event listener to the button
+largerLinksButton.addEventListener('click', function() {
+// Select all links on the page
+const links = document.querySelectorAll('a');
+
+// Increase the font size of each link
+links.forEach(link => {const computedStyle = window.getComputedStyle(link);
+const currentSize = parseFloat(computedStyle.fontSize); // Get the current font size
+const newSize = currentSize * 1.2; // Increase the font size by 20%
+link.style.fontSize = newSize + 'px'; // Set the new font size
+});
+});
+```
+</TabItem>
+</Tabs>
+
+### Exercise (8)
+
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+<TabItem value="exercise">
+
+
+:::note Exercise
+
+When the "Replace" button is clicked, the first item of list should be replaced.
+
+:::
+</TabItem>
+
+<TabItem value="solution">
+
+### solution
+```js
+// Function to replace the first list item
+        function replaceListItem() {
+            let menu = document.getElementById('menu');
+            // Create a new list item
+            let li = document.createElement('li');
+            li.textContent = 'Home';
+            // Replace the first list item with the new one
+            menu.replaceChild(li, menu.firstElementChild);
+        }
+
+        // Add event listener to the button
+        document.getElementById('replace-button').addEventListener('click', replaceListItem);
+
+```
+</TabItem>
+</Tabs>
 
 ## PD (Delivery)
 
