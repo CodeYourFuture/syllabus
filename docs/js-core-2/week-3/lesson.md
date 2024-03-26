@@ -154,6 +154,22 @@ console.log('All "p" elements contained inside the .primary-content element node
 </TabItem>
 </Tabs>
 
+
+### Exercise (2)
+
+:::note Exercise
+Write javascript that uses three different way to access  a element.
+:::
+
+### solution
+```js
+// Accessing element by id
+var paragraph = document.getElementById('demo');
+// Accessing elements by tag name
+var paragraphs = document.getElementsByTagName('p');
+// Accessing elements by class name
+var paragraphs = document.getElementsByClassName('info');
+```
 ## Attach events to DOM elements
 
 Once you retrieve an element using `.querySelector`, you can attach an **event** to it. An event is any action that can be performed on that element. For now, we will just use the **click** event:
