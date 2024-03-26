@@ -101,6 +101,15 @@ https://github.com/CodeYourFuture/JavaScript-Core-2-Classwork-Week3
 
 ### Exercise (1)
 
+<Tabs
+defaultValue="exercise"
+values={[
+{ label: 'Exercise', value: 'exercise', },
+{ label: 'Solution', value: 'solution', },
+]
+}>
+
+<TabItem value="exercise">
 :::note Exercise
 
 Write JavaScript below that logs:
@@ -119,7 +128,8 @@ Write JavaScript below that logs:
 
 :::
 
-
+</TabItem>
+<TabItem value="solution">
 
 ### solution
 ```js
@@ -141,6 +151,8 @@ const primaryContentParagraphs = document.querySelectorAll('.primary-content p')
 console.log('All "p" elements contained inside the .primary-content element node:', primaryContentParagraphs);
 
 ```
+</TabItem>
+</Tabs>
 
 ## Attach events to DOM elements
 
