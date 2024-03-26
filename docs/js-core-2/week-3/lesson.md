@@ -358,6 +358,30 @@ link.style.fontSize = newSize + 'px'; // Set the new font size
 });
 ```
 
+### Exercise (6)
+
+:::note Exercise
+
+When the "Replace" button is clicked, the first item of list should be replaced.
+
+:::
+
+### solution
+```js
+// Function to replace the first list item
+        function replaceListItem() {
+            let menu = document.getElementById('menu');
+            // Create a new list item
+            let li = document.createElement('li');
+            li.textContent = 'Home';
+            // Replace the first list item with the new one
+            menu.replaceChild(li, menu.firstElementChild);
+        }
+
+        // Add event listener to the button
+        document.getElementById('replace-button').addEventListener('click', replaceListItem);
+
+```
 ## PD (Delivery)
 
 **Session objective**: This session will explore how to create features, user stories and tasks for a product.
