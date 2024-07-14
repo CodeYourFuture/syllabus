@@ -1,0 +1,9 @@
+# Redirect specific paths
+
+/contributing/overview  301 https://curriculum.codeyourfuture.io/guides/contributing/
+/Overview  301 https://curriculum.codeyourfuture.io/overview
+/guides/asking-questions  301 https://curriculum.codeyourfuture.io/guides/getting-help/asking-questions/
+
+# Redirect all other paths
+
+/*  301 https://curriculum.codeyourfuture.io/
